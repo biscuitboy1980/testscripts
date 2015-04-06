@@ -75,5 +75,5 @@ for b in btn_list:
 # use Entry widget for an editable display
 entry = tk.Entry(root, width=33, bg="yellow")
 entry.grid(row=0, column=0, columnspan=5)
-root.iconbitmap('G.ico')
+root.iconbitmap('G1.ico')
 root.mainloop()
