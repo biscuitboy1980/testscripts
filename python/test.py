@@ -24,5 +24,3 @@ for i in range(1, 15):
     if added: print "Added: ", ", ".join(added)
     if removed: print "Removed: ", ", ".join(removed)
     before = after
-
-	#comment
