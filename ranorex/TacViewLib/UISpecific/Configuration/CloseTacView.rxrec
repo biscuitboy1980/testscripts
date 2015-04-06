@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="962329cc-0ca7-46cd-8e1d-940e62818361">
+  <name>
+    CloseTacView
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CloseTacView" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="e7ff0d03-9162-45e4-9cdb-1928496197ac">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//menuitem[@accessiblename='File']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="107" sy="407" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="e19c7e3a-c484-4731-80d5-a28e9fe43535">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="15" rect="20,399,238,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Exit]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Quit the application; prompts to save documents]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Exit]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename='Exit']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="5000ms">
+      <comment>
+      </comment>
+    </delayitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.8.10854" relativepath="..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

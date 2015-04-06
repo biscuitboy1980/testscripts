@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="efae875b-fe54-4b3c-a93c-676b0ee522df" embeddedrepository="false">
+  <name>
+    ValidateRefTrack6016D
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateRefTrack6016D" namespace="TacViewLib.LinkSpecific.Surveillance.Reference.ValidateTrack"/>
+  <variables>
+    <var name="PtypeN" id="1738c8d6-f6c3-447c-9629-15e6496ff43c">
+      <![CDATA[4]]>
+    </var>
+    <var name="Ptype" id="a6850b51-c4fc-4826-94bd-0038382cedd3">
+      <![CDATA[Reference Point (General)]]>
+    </var>
+    <var name="AmpN" id="3d7d6b99-e631-4691-bbb2-dca86fc0c951">
+      <![CDATA[1]]>
+    </var>
+    <var name="Amp" id="f493f50a-222b-468a-ac3d-af7ce55a7a6b">
+      <![CDATA[Marshall Point]]>
+    </var>
+    <var name="tracknumber" id="5cfcb8c4-9786-4396-b8a7-d4d83b6a3640">
+    </var>
+    <var name="Connection1" id="2b0ee20a-ddbe-471b-9131-db9fa65461d1">
+    </var>
+    <var name="Connection2" id="1e4535e0-3098-4732-8980-bf2504ec3f23">
+    </var>
+  </variables>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="SetTrackNumberInRepo">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="RightClickTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ViewTrackProperties">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ValidatePtype">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ValidateAmp">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="657" sy="179" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="e33e2e4f-e397-4027-b11b-00270b0f99c2">
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Reference\ Point\ TN\ ']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="RightClickTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="DropTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[ValidateRefTrack6016D_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex2\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex2\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex2\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex2\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex2\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex2\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex2\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex2\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+  </references>
+</recordtable>

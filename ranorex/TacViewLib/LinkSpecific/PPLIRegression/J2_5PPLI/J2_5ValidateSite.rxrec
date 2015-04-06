@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="57b7e5f8-83ff-4057-b436-9b51fdfb6257" embeddedrepository="false">
+  <name>
+    J2_5ValidateSite
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="J2_5ValidateSite" namespace="TacViewLib.LinkSpecific.PPLIRegression.J2_5PPLI"/>
+  <variables>
+    <var name="tracknumber" id="83dd6305-e7b5-4d66-966c-c6ea7093290d">
+      <![CDATA[33]]>
+    </var>
+    <var name="connection2" id="b1850b81-12ec-4771-b570-7ae1036274f7">
+    </var>
+    <var name="connection1" id="56f32393-3f51-4a17-890d-8f27cfadc1e0">
+    </var>
+  </variables>
+  <recorditems>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="516" sy="15" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="f0cb380b-6e87-4dd4-8591-1f31220fc857">
+        <element role="titlebar" prefcap="titlebar" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="26" rect="29,4,1247,26">
+          <attribute name="text" type="System.String">
+            <![CDATA[TacViewC2   (map: DefaultMap.map) (terrain: terrain database not loaded) (playback: not loaded)]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Displays the name of the window and contains controls to manipulate it]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[TitleBar]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[TacViewC2   (map: DefaultMap.map) (terrain: terrain database not loaded) (playback: not loaded)]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="6fa6d1d3-5b92-4f38-96cc-f23c7bb52e6b">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//toolbar[1]/button[@accessiblename='Value:']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="KeyboardUnit">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="0bd9880b-85a4-49b8-9531-33693e19ebc5">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//toolbar[1]/button[@accessiblename='Search For Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="JUCenter">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="CreateTrackRepoItems">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="RightClickTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ViewTrackProperties">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <explicitdelayitem enabled="True" optional="False" duration="10000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateTrackNumber">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateTrackType">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateSiteEnvironment">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidatePlatform">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateActivity">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateStrength">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="DoubleClick" button="Left" movetime="150ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="21c8b0c4-8084-4e9e-bca6-8584876bedcb">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/element//listitem[@accessiblename='Basic Track Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="DoubleClick" button="Left" movetime="150ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="fca642e6-0150-442a-8585-5b9992379832">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/element//listitem[@accessiblename='Indirect Site Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="DoubleClick" button="Left" movetime="150ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="837f03a6-c800-44da-b418-be00d1e20a6c">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/element//listitem[@accessiblename='Position and Velocity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="DoubleClick" button="Left" movetime="150ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="e1b7bd71-126d-44b2-91e2-0028c91b0019">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/element//listitem[@accessiblename='Interface Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="False" optional="False" duration="150ms" methodname="ValidateMode1">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="False" optional="False" duration="150ms" methodname="ValidateMode2">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="False" optional="False" duration="150ms" methodname="ValidateMode3">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="DoubleClick" button="Left" movetime="150ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="a65c5027-2607-48b7-a0ed-5e3a347cf8fe">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/element//listitem[@accessiblename~'Mode Codes.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="DoubleClick" button="Left" movetime="150ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="5db3a36b-1468-4ad4-8e1c-9e811856cfc3">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/element//listitem[@accessiblename='Indicators']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateNPS">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="ValidateIndirectIndicator">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="080f22b0-3829-43f0-a2c3-b2c187dfa3e9">
+        <path>
+          <![CDATA[/form[@title~'Main \(Site TN .*\)']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="Link_16_RegressionRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\..\Link-16_RegressionRepository.rxrep">
+    <codegen classname="Link_16_RegressionRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[J2_5ValidateSite_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex555\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+  </references>
+</recordtable>

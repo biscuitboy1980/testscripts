@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="426598d5-3a52-4e47-bb60-c811f7bf014d">
+  <name>
+    LaunchTacView
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="LaunchTacView" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <userrecorditem duration="0ms" methodname="LaunchTacViewC2">
+      <comment>
+        <![CDATA[LaunchTacViewC2]]>
+      </comment>
+    </userrecorditem>
+    <delayitem duration="3000ms">
+      <comment>
+      </comment>
+    </delayitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryConfiguration" id="ef38cbe1-cb78-476a-bcf1-673e06711162" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryConfiguration.rxrep">
+    <codegen classname="TacViewLibRepositoryConfiguration" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

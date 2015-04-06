@@ -1,0 +1,965 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0C41898E-56CD-4C3D-A861-433FD1908445}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SystemManagerLib</RootNamespace>
+    <AssemblyName>SystemManagerLib</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <id>bd7c1d21-7614-41bf-8ac8-2dd749cd4b37</id>
+    </Reference>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>752a46c4-63ba-4647-8de9-b3bf13f06244</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>c9e8102b-4f24-415d-81a7-879d929ccf72</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>87d6d94b-2398-433e-ab51-995d361cbc85</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>a507375c-4085-4278-afa2-33b5ef80d503</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>3ea82cfc-ae39-41d2-939b-9c0da8d9f167</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>dba65d40-2b1f-4647-96d1-851108a01b7d</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>50bdf696-b2c4-41df-a997-ab6a95d588ce</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>4c1f7ad7-dcbf-4fad-bfd5-56538dce16b1</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>5d0e47df-a1fe-4dcb-9e09-0e186c72b763</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>1a4b9f10-b346-45f2-b9b7-0e518f584ff1</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>475d49c1-3aa4-4237-bcf9-fbfa260190d0</id>
+    </Reference>
+    <Reference Include="System">
+      <id>cd909333-5a99-4cf3-8267-cc137e92e0e8</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>16fe99e6-894d-4fc8-8bab-73cb63293465</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>24525552-752a-4dbe-a3ef-04d1b62c7ffb</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>19b637bb-a8a5-4404-814e-2b8fa3375a56</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>68cfbcb8-5a22-4313-a4a6-31f478bde672</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>02e1ab90-e5ef-4a65-87af-753567698735</id>
+    </Compile>
+    <Compile Include="DLR\DLR_1553.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DLR_1553.rxrec</DependentUpon>
+      <BoundTo>2fa2a1d1-8b9c-45fd-a23f-ee0d6caa1102</BoundTo>
+      <id>f6e868d3-acc3-4a1f-a2d2-01665e2de5e3</id>
+    </Compile>
+    <Compile Include="DLR\DLR_1553.UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>DLR_1553.rxrec</DependentUpon>
+      <BoundTo>2fa2a1d1-8b9c-45fd-a23f-ee0d6caa1102</BoundTo>
+      <id>21350fe8-10af-4f3f-9fc5-8bac31891f72</id>
+    </Compile>
+    <Compile Include="DLR\DLR_16serial.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DLR_16serial.rxrec</DependentUpon>
+      <BoundTo>72534b3f-324c-4102-a511-333330efcc7f</BoundTo>
+      <id>3e264409-d137-4dd4-8881-958e99485c83</id>
+    </Compile>
+    <Compile Include="DLR\DLR_16serial.UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>DLR_16serial.rxrec</DependentUpon>
+      <BoundTo>72534b3f-324c-4102-a511-333330efcc7f</BoundTo>
+      <id>035333df-6ea6-461b-8370-ea42c68145b2</id>
+    </Compile>
+    <Compile Include="DLR\DLR_3011B.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DLR_3011B.rxrec</DependentUpon>
+      <BoundTo>4e4eb75b-b202-43e0-a528-d6d5fa79d07f</BoundTo>
+      <id>e442119c-f40b-47fb-9e5f-97456473bcdf</id>
+    </Compile>
+    <Compile Include="DLR\DLR_3011B.UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>DLR_3011B.rxrec</DependentUpon>
+      <BoundTo>4e4eb75b-b202-43e0-a528-d6d5fa79d07f</BoundTo>
+      <id>2b3f0e1e-7c93-40e7-9447-648accae2271</id>
+    </Compile>
+    <Compile Include="DLR\DLR_L11B.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DLR_L11B.rxrec</DependentUpon>
+      <BoundTo>720cb3d5-c05e-4a24-8de0-2dacac0a36c4</BoundTo>
+      <id>c9dfd20a-b5bb-40e8-a071-678bc0d7df6e</id>
+    </Compile>
+    <Compile Include="DLR\DLR_L11B.UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>DLR_L11B.rxrec</DependentUpon>
+      <BoundTo>720cb3d5-c05e-4a24-8de0-2dacac0a36c4</BoundTo>
+      <id>054185d2-4dba-4d91-b514-068a479ac907</id>
+    </Compile>
+    <Compile Include="DLR\DLR_MTC.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DLR-MTC.rxrec</DependentUpon>
+      <BoundTo>9b329723-fa9a-4936-9588-090493db6081</BoundTo>
+      <id>349d3bbc-d0c5-4c91-ba05-e0b5869dc614</id>
+    </Compile>
+    <Compile Include="DLR\DLR_MTC.UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>DLR-MTC.rxrec</DependentUpon>
+      <BoundTo>9b329723-fa9a-4936-9588-090493db6081</BoundTo>
+      <id>14fc4240-e594-4cdd-bcd6-1555d29d34b2</id>
+    </Compile>
+    <Compile Include="DLR\DLR_NTDS.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DLR_NTDS.rxrec</DependentUpon>
+      <BoundTo>2e2049b1-e53d-43de-a66b-068929d473ad</BoundTo>
+      <id>c670df5b-384f-4846-b9db-fcb4cc7fd9c0</id>
+    </Compile>
+    <Compile Include="DLR\DLR_NTDS.UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>DLR_NTDS.rxrec</DependentUpon>
+      <BoundTo>2e2049b1-e53d-43de-a66b-068929d473ad</BoundTo>
+      <id>b374dd86-eac0-49c4-b4f7-5b2055f33939</id>
+    </Compile>
+    <Compile Include="Link-16_Regression.cs">
+      <DependentUpon>Link-16_Regression.rxrep</DependentUpon>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>af8bcc79-f1fd-41db-87d5-8e60c94492ed</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_0PPLI\J2_0CreateSite.cs">
+      <DependentUpon>J2_0CreateSite.rxrec</DependentUpon>
+      <BoundTo>be77fdfb-fa49-4ff2-be73-75b1274fb767</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>1a069485-2152-4bba-acc4-45f51b9b2f98</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_0PPLI\J2_0CreateSite_UserCode.cs">
+      <DependentUpon>J2_0CreateSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>be77fdfb-fa49-4ff2-be73-75b1274fb767</BoundTo>
+      <id>f21b06e0-2100-474a-89e2-4fe40f0b2209</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_2PPLI\J2_2CreateSite.cs">
+      <DependentUpon>J2_2CreateSite.rxrec</DependentUpon>
+      <BoundTo>fcaf3dc0-950b-4d47-8df6-2e20efb555bc</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>11cec7e3-acb5-46f4-ae5a-3722f82bd90f</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_2PPLI\J2_2CreateSite_UserCode.cs">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\CreateSite.UserCode.cs</ORIGINALPATH>
+      <DependentUpon>J2_2CreateSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>fcaf3dc0-950b-4d47-8df6-2e20efb555bc</BoundTo>
+      <id>dc0d4e40-6c5a-4d38-a562-7a671b8a796a</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_3PPLI\J2_3CreateSite.cs">
+      <DependentUpon>J2_3CreateSite.rxrec</DependentUpon>
+      <BoundTo>0421774b-70c1-4dbe-ac77-42a0b7929729</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>ff4483e2-9bdf-4fa1-aa73-bfb808186f5a</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_3PPLI\J2_3CreateSite_UserCode.cs">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\CreateSite.UserCode.cs</ORIGINALPATH>
+      <DependentUpon>J2_3CreateSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>0421774b-70c1-4dbe-ac77-42a0b7929729</BoundTo>
+      <id>20d23264-6ce8-4193-9415-e38416375ce1</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_4PPLI\J2_4CreateSite.cs">
+      <DependentUpon>J2_4CreateSite.rxrec</DependentUpon>
+      <BoundTo>d06b76d6-5d61-4547-9290-8cc734466b71</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>44f3ffe9-0259-496f-a7e4-e9327a1822ae</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_4PPLI\J2_4CreateSite_UserCode.cs">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\CreateSite.UserCode.cs</ORIGINALPATH>
+      <DependentUpon>J2_4CreateSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>d06b76d6-5d61-4547-9290-8cc734466b71</BoundTo>
+      <id>2747b574-434e-4fad-90b4-f1fa2d681693</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_5PPLI\J2_5CreateSite.cs">
+      <DependentUpon>J2_5CreateSite.rxrec</DependentUpon>
+      <BoundTo>3b4991e8-0a5c-413b-b077-615a7d6fdcc1</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>fc35f5fc-9341-4e63-9bc4-79878f592597</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_5PPLI\J2_5CreateSite_UserCode.cs">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\CreateSite.UserCode.cs</ORIGINALPATH>
+      <DependentUpon>J2_5CreateSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>3b4991e8-0a5c-413b-b077-615a7d6fdcc1</BoundTo>
+      <id>8ccc4e47-d5a4-4aeb-b4cc-b4f17e001045</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_6PPLI\J2_6CreateSite.cs">
+      <DependentUpon>J2_6CreateSite.rxrec</DependentUpon>
+      <BoundTo>ba61f7d1-5561-4577-b1ea-84bb93fc79f7</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>04f1237c-2025-459e-b3c0-7e2e9dc07b7e</id>
+    </Compile>
+    <Compile Include="LinkSpecific\PPLIRegression\J2_6PPLI\J2_6CreateSite_UserCode.cs">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\CreateSite.UserCode.cs</ORIGINALPATH>
+      <DependentUpon>J2_6CreateSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>ba61f7d1-5561-4577-b1ea-84bb93fc79f7</BoundTo>
+      <id>34390aae-d49b-4a9b-907b-937b515bd31b</id>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Five_Digit_JU.cs">
+      <id>4f5afe58-47fc-4578-8c54-d01d15b7d7f5</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>14777abe-d4e3-4d4d-815f-146660e48212</BoundTo>
+      <DependentUpon>Five_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Five_Digit_JU.UserCode.cs">
+      <id>b073b728-e561-4a0e-8e8b-d43474c723ea</id>
+      <UserCode>true</UserCode>
+      <BoundTo>14777abe-d4e3-4d4d-815f-146660e48212</BoundTo>
+      <DependentUpon>Five_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Four_Digit_JU.cs">
+      <id>52b8ffc9-dcce-4c5a-b014-7358f0db788c</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>8da3c312-bde6-4cc9-856f-71707e368836</BoundTo>
+      <DependentUpon>Four_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Four_Digit_JU.UserCode.cs">
+      <id>13e59bea-c453-4290-a19f-5df84e47edb6</id>
+      <UserCode>true</UserCode>
+      <BoundTo>8da3c312-bde6-4cc9-856f-71707e368836</BoundTo>
+      <DependentUpon>Four_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\One_Digit_JU.cs">
+      <BoundTo>e029e3ff-36bd-41f7-8112-8e73ec5fda43</BoundTo>
+      <DependentUpon>One_Digit_JU.rxrec</DependentUpon>
+      <id>5db8675d-5e44-463d-b2c2-df8cfa79c90c</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\One_Digit_JU.UserCode.cs">
+      <BoundTo>e029e3ff-36bd-41f7-8112-8e73ec5fda43</BoundTo>
+      <DependentUpon>One_Digit_JU.rxrec</DependentUpon>
+      <id>5351cb5f-e724-4880-b299-abf7e05e7d08</id>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Three_Digit_JU.cs">
+      <id>4dc0344f-1910-48f0-bfb2-3054ef0bd555</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>272bfe42-0f17-4920-a1ce-7f592b04ccab</BoundTo>
+      <DependentUpon>Three_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Three_Digit_JU.UserCode.cs">
+      <id>06cbee65-649f-4e3c-9d52-0f0264a4854c</id>
+      <UserCode>true</UserCode>
+      <BoundTo>272bfe42-0f17-4920-a1ce-7f592b04ccab</BoundTo>
+      <DependentUpon>Three_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\TNBLK1.cs">
+      <BoundTo>1210da22-944f-436b-ac5e-1e2bf625b14f</BoundTo>
+      <DependentUpon>TNBLK1.rxrec</DependentUpon>
+      <id>cbc9924c-e63f-49c9-8166-29b809dd9fdc</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\TNBLK1.UserCode.cs">
+      <BoundTo>1210da22-944f-436b-ac5e-1e2bf625b14f</BoundTo>
+      <DependentUpon>TNBLK1.rxrec</DependentUpon>
+      <id>cafa5470-863a-490a-94d0-0f56b706ee5c</id>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\TNBLK2.cs">
+      <BoundTo>a424fba0-41de-4b04-babc-4e59684223a3</BoundTo>
+      <DependentUpon>TNBLK2.rxrec</DependentUpon>
+      <id>dc3f5322-1051-483b-b42b-88801c58ce57</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\TNBLK2.UserCode.cs">
+      <id>9527397e-233b-4589-87a9-06bf9ac35976</id>
+      <UserCode>true</UserCode>
+      <BoundTo>a424fba0-41de-4b04-babc-4e59684223a3</BoundTo>
+      <DependentUpon>TNBLK2.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\TNBLKRollover.cs">
+      <BoundTo>a2df4d1f-459d-4caa-8e8c-88a0f07a0a31</BoundTo>
+      <DependentUpon>TNBLKRollover.rxrec</DependentUpon>
+      <id>a8ddbb23-9c5e-48e3-a628-89aa743b1068</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\TNBLKRollover.UserCode.cs">
+      <id>2af1545e-244b-4d60-9dc4-45a185874393</id>
+      <UserCode>true</UserCode>
+      <BoundTo>a2df4d1f-459d-4caa-8e8c-88a0f07a0a31</BoundTo>
+      <DependentUpon>TNBLKRollover.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Two_Digit_JU.cs">
+      <id>cd204d63-f63b-49cc-83c9-99c006feb69e</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>1fd6ea1e-4c3c-4c33-9599-8f92a9db672b</BoundTo>
+      <DependentUpon>Two_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TNAccountability\Two_Digit_JU.UserCode.cs">
+      <id>68d634ea-20d0-4a10-81f0-1f56332584fb</id>
+      <UserCode>true</UserCode>
+      <BoundTo>1fd6ea1e-4c3c-4c33-9599-8f92a9db672b</BoundTo>
+      <DependentUpon>Two_Digit_JU.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSpecific\TurnLinkOFF.cs">
+      <DependentUpon>TurnLinkOFF.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>47ae5b5a-80a4-4475-b5c8-c3e829fe7aeb</BoundTo>
+      <id>e7f7ee64-6e55-4544-8a1f-1132c3b52c31</id>
+    </Compile>
+    <Compile Include="LinkSpecific\TurnLinkOFF.UserCode.cs">
+      <DependentUpon>TurnLinkOFF.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>47ae5b5a-80a4-4475-b5c8-c3e829fe7aeb</BoundTo>
+      <id>369703c4-9880-4d06-bfee-3997197e885d</id>
+    </Compile>
+    <Compile Include="LinkSpecific\TurnLinkON.cs">
+      <DependentUpon>TurnLinkON.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>4456beaf-c05a-4b80-89d9-9e266939e357</BoundTo>
+      <id>1affbdd6-90c2-49d2-b791-82f25ec5a8ce</id>
+    </Compile>
+    <Compile Include="LinkSpecific\TurnLinkON.UserCode.cs">
+      <DependentUpon>TurnLinkON.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>4456beaf-c05a-4b80-89d9-9e266939e357</BoundTo>
+      <id>9bdb4f01-bd18-4b33-914b-3352aacf50df</id>
+    </Compile>
+    <Compile Include="LinkSpecific\TurnOnAllLinks.cs">
+      <BoundTo>bdb39384-313a-49a9-b9a3-5049980054c6</BoundTo>
+      <DependentUpon>TurnOnAllLinks.rxrec</DependentUpon>
+      <id>6237de2b-a5e7-4186-b41a-33c855e3fb31</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="LinkSpecific\TurnOnAllLinks.UserCode.cs">
+      <DependentUpon>TurnOnAllLinks.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>bdb39384-313a-49a9-b9a3-5049980054c6</BoundTo>
+      <id>a07682bb-8c43-47b7-81f6-30dec45421ec</id>
+    </Compile>
+    <Compile Include="SytemMangerRegression.cs">
+      <DependentUpon>SytemMangerRegression.rxrep</DependentUpon>
+      <BoundTo>811101E0-231E-4C3A-8B45-06C948DFCCB4</BoundTo>
+      <id>2c180c93-bb10-4bb1-b6bd-6e2027e3d0aa</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TabSpecific\ForwardingTab\TurnOnAllForwarding.cs">
+      <DependentUpon>TurnOnAllForwarding.rxrec</DependentUpon>
+      <BoundTo>f65e9a6b-a0d7-4f2a-a616-5abaa5f84c36</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>efc83044-156b-49dd-b1e9-fdd02043b689</id>
+    </Compile>
+    <Compile Include="TabSpecific\ForwardingTab\TurnOnAllForwarding.UserCode.cs">
+      <DependentUpon>TurnOnAllForwarding.rxrec</DependentUpon>
+      <BoundTo>f65e9a6b-a0d7-4f2a-a616-5abaa5f84c36</BoundTo>
+      <UserCode>true</UserCode>
+      <id>4342694e-6a5c-4d38-83be-474391201afb</id>
+    </Compile>
+    <Compile Include="TabSpecific\SystemStatusTab\HostLink.cs">
+      <DependentUpon>HostLink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>93cf9349-2074-457a-b742-48e2fcfd3e02</id>
+      <BoundTo>bcd54e51-22b0-494f-a156-1bca8d59d761</BoundTo>
+    </Compile>
+    <Compile Include="TabSpecific\SystemStatusTab\HostLink.UserCode.cs">
+      <DependentUpon>HostLink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ad79a0a5-6be8-49da-82c1-c2f38410c589</id>
+      <BoundTo>bcd54e51-22b0-494f-a156-1bca8d59d761</BoundTo>
+    </Compile>
+    <Compile Include="TabSpecific\SystemStatusTab\NTP.cs">
+      <DependentUpon>NTP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>124a6e67-16fc-4110-b59b-ea6d04a3f7d5</id>
+      <BoundTo>e1f3f606-29ca-477c-a58e-6b510c2fc70e</BoundTo>
+    </Compile>
+    <Compile Include="TabSpecific\SystemStatusTab\NTP.UserCode.cs">
+      <DependentUpon>NTP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c38cd055-afe2-46d5-8c77-0f641e2391d0</id>
+      <BoundTo>e1f3f606-29ca-477c-a58e-6b510c2fc70e</BoundTo>
+    </Compile>
+    <Compile Include="UISpecific\DeleteSMConnections.cs">
+      <id>308a80fc-b72d-4f8b-8069-292c8275067f</id>
+      <BoundTo>226e3ca9-2785-4112-a781-90145c7d88b4</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>DeleteSMConnections.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="UISpecific\DeleteSMConnections.UserCode.cs">
+      <id>8ed415fb-cff7-4797-b32e-446534e92ff9</id>
+      <BoundTo>226e3ca9-2785-4112-a781-90145c7d88b4</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>DeleteSMConnections.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="UISpecific\DXview\TurnOffDX.cs">
+      <DependentUpon>TurnOffDX.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>2301fd1a-c89d-44ff-bbdc-6c274a005b60</BoundTo>
+      <id>39ac852e-5d11-43f5-a282-9b9e0d5dde56</id>
+    </Compile>
+    <Compile Include="UISpecific\DXview\TurnOffDX.UserCode.cs">
+      <DependentUpon>TurnOffDX.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>2301fd1a-c89d-44ff-bbdc-6c274a005b60</BoundTo>
+      <id>6e5febe8-9ff6-4b34-9018-781bfdd5bb75</id>
+    </Compile>
+    <Compile Include="UISpecific\DXview\TurnOnDX.cs">
+      <DependentUpon>TurnOnDX.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>b69c34c1-16f6-4348-98a4-f020c0818669</BoundTo>
+      <id>8bd4b2e7-2c5f-4cbb-bce8-4fd834419ea9</id>
+    </Compile>
+    <Compile Include="UISpecific\DXview\TurnOnDX.UserCode.cs">
+      <DependentUpon>TurnOnDX.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>b69c34c1-16f6-4348-98a4-f020c0818669</BoundTo>
+      <id>eafb4d86-9916-4e4a-b237-70c6d7ff2fef</id>
+    </Compile>
+    <Compile Include="UISpecific\GUIs\Derg.cs">
+      <DependentUpon>Derg.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>be4c9dec-5d5d-4614-95fe-c00f5d18678d</BoundTo>
+      <id>9e1f4534-6989-4f71-9e49-eecd87af11f8</id>
+    </Compile>
+    <Compile Include="UISpecific\GUIs\Derg.UserCode.cs">
+      <DependentUpon>Derg.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>be4c9dec-5d5d-4614-95fe-c00f5d18678d</BoundTo>
+      <id>96be56b6-f832-4ec0-9027-adfa3eb338ab</id>
+    </Compile>
+    <Compile Include="UISpecific\GUIs\TDLFTM.cs">
+      <DependentUpon>TDLFTM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>bade25cf-e961-41ad-8ef0-b4e43b4ec0b1</BoundTo>
+      <id>6ad74298-eef3-4146-95d6-30d002961e93</id>
+    </Compile>
+    <Compile Include="UISpecific\GUIs\TDLFTM.UserCode.cs">
+      <DependentUpon>TDLFTM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>bade25cf-e961-41ad-8ef0-b4e43b4ec0b1</BoundTo>
+      <id>6350f63d-1351-42ff-b0e3-b0e72e4a9c74</id>
+    </Compile>
+    <Compile Include="UISpecific\GUIs\TerminalControl.cs">
+      <DependentUpon>TerminalControl.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>eb847abc-32b8-44ea-8640-19276be18fe6</BoundTo>
+      <id>549eed6c-66ef-4b0c-bf1f-e4f9ad0c8d30</id>
+    </Compile>
+    <Compile Include="UISpecific\GUIs\TerminalControl.UserCode.cs">
+      <DependentUpon>TerminalControl.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>eb847abc-32b8-44ea-8640-19276be18fe6</BoundTo>
+      <id>b8efe8d7-b253-404c-9fe5-bf98e9216cac</id>
+    </Compile>
+    <Compile Include="UISpecific\Setup2SFF\Setup2SFF.cs">
+      <DependentUpon>Setup2SFF.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>43819344-cd88-47d7-b826-09e737c1b0b5</BoundTo>
+      <id>00c47f45-aa12-46a3-8cff-6e949921ae43</id>
+    </Compile>
+    <Compile Include="UISpecific\Setup2SFF\Setup2SFF_UserCode.cs">
+      <DependentUpon>Setup2SFF.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>43819344-cd88-47d7-b826-09e737c1b0b5</BoundTo>
+      <id>b330ae1e-8b5a-4aef-bb50-1a96fddb643d</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupCPCI\SetupCPCI.cs">
+      <DependentUpon>SetupCPCI.rxrec</DependentUpon>
+      <BoundTo>f8e685ba-0dc7-45b5-8bf9-c99396378a19</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>7f3d3811-a5b7-4599-bd99-9bed58f35bd1</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupCPCI\SetupCPCI_UserCode.cs">
+      <DependentUpon>SetupCPCI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>f8e685ba-0dc7-45b5-8bf9-c99396378a19</BoundTo>
+      <id>614d8861-8076-4378-abac-6f1ab599ba32</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupPCI_ADSI\SetupPCI_ADSI.cs">
+      <DependentUpon>SetupPCI_ADSI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>b31a9e6f-9227-462b-84b9-955922c726ed</BoundTo>
+      <id>53397b30-ce31-4e5d-854c-fac992d4a5ff</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupPCI_ADSI\SetupPCI_ADSI_UserCode.cs">
+      <DependentUpon>SetupPCI_ADSI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>b31a9e6f-9227-462b-84b9-955922c726ed</BoundTo>
+      <id>4eb3eeee-8e43-4a79-bd6a-2ce550734b53</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupSFF\SetupSFF.cs">
+      <DependentUpon>SetupSFF.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>b63ec480-26c7-4ac7-bcb5-3e943cf12166</BoundTo>
+      <id>99a9e9cb-1243-4473-8cbd-88b4e75ba112</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupSFF\SetupSFF_UserCode.cs">
+      <DependentUpon>SetupSFF.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>b63ec480-26c7-4ac7-bcb5-3e943cf12166</BoundTo>
+      <id>e0a41693-5296-43a7-b924-29023850745b</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupSimulator\SetupSimulator.cs">
+      <DependentUpon>SetupSimulator.rxrec</DependentUpon>
+      <BoundTo>5dc1ef6a-a094-4fe1-982b-24817d5d9dd0</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>ecd9ad71-49d8-4d33-bea6-37dc7afda3e6</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupSimulator\SetupSimulator_UserCode.cs">
+      <DependentUpon>SetupSimulator.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>5dc1ef6a-a094-4fe1-982b-24817d5d9dd0</BoundTo>
+      <id>dafa209c-6edb-49bb-9c4d-da26bf2e0c23</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupUltra16\SetupUltra16.cs">
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>SetupUltra16.rxrec</DependentUpon>
+      <BoundTo>b86e7e22-4d5b-484c-bf32-52c150b9d14e</BoundTo>
+      <id>c7856ef5-1c48-437b-92ec-1d725a262a38</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupUltra16\SetupUltra16_UserCode.cs">
+      <UserCode>true</UserCode>
+      <DependentUpon>SetupUltra16.rxrec</DependentUpon>
+      <BoundTo>b86e7e22-4d5b-484c-bf32-52c150b9d14e</BoundTo>
+      <id>b205a6ec-ba72-4b67-8b9f-b6aee965f50f</id>
+    </Compile>
+    <Compile Include="UISpecific\SiteData.cs">
+      <DependentUpon>SiteData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>ca6f46ba-c2f7-4a3e-a3bd-e0460bef30fb</BoundTo>
+      <id>aefc4e3a-7723-4833-a632-88bbf98696eb</id>
+    </Compile>
+    <Compile Include="UISpecific\SiteData.UserCode.cs">
+      <DependentUpon>SiteData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>ca6f46ba-c2f7-4a3e-a3bd-e0460bef30fb</BoundTo>
+      <id>4d7ed4fa-7ca2-488d-932b-006c5205a929</id>
+    </Compile>
+    <Compile Include="UISpecific\SwitchtoSys1.cs">
+      <DependentUpon>SwitchtoSys1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>a7c99de8-58dc-46e1-9d34-bf2fd88daed8</BoundTo>
+      <id>c6e02991-ec06-4177-b687-d3f8b0a79807</id>
+    </Compile>
+    <Compile Include="UISpecific\SwitchtoSys1.UserCode.cs">
+      <DependentUpon>SwitchtoSys1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>a7c99de8-58dc-46e1-9d34-bf2fd88daed8</BoundTo>
+      <id>3c7806c8-769c-4c6a-bfe6-ea40ea7da2a3</id>
+    </Compile>
+    <Compile Include="UISpecific\SwitchtoSys2.cs">
+      <DependentUpon>SwitchtoSys2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>709b74a7-6168-4356-8b7d-5e1d7e2ea549</BoundTo>
+      <id>1b8cc345-31bb-49fb-9f8a-1284ca474448</id>
+    </Compile>
+    <Compile Include="UISpecific\SwitchtoSys2.UserCode.cs">
+      <DependentUpon>SwitchtoSys2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>709b74a7-6168-4356-8b7d-5e1d7e2ea549</BoundTo>
+      <id>701545ce-70b9-44f7-9227-9f344c626bf7</id>
+    </Compile>
+    <Compile Include="V15SmokeTestRepository.cs">
+      <DependentUpon>V15SmokeTestRepository.rxrep</DependentUpon>
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>bc660ea4-cfc5-46a7-b2ec-523ee2310209</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <None Include="DLR\DLR-MTC.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>9b329723-fa9a-4936-9588-090493db6081</id>
+    </None>
+    <None Include="DLR\DLR_1553.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>2fa2a1d1-8b9c-45fd-a23f-ee0d6caa1102</id>
+    </None>
+    <None Include="DLR\DLR_16serial.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>72534b3f-324c-4102-a511-333330efcc7f</id>
+    </None>
+    <None Include="DLR\DLR_3011B.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>4e4eb75b-b202-43e0-a528-d6d5fa79d07f</id>
+    </None>
+    <None Include="DLR\DLR_L11B.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>720cb3d5-c05e-4a24-8de0-2dacac0a36c4</id>
+    </None>
+    <None Include="DLR\DLR_NTDS.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>2e2049b1-e53d-43de-a66b-068929d473ad</id>
+    </None>
+    <None Include="Link-16_Regression.rxrep">
+      <id>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</id>
+      <repoid>4c3aeeb3-574a-44e0-847b-d50d433c17ca</repoid>
+      <projectdefaultrepository>true</projectdefaultrepository>
+      <reporootid>71281010-c614-4112-a790-27d2dd803ee8</reporootid>
+    </None>
+    <None Include="LinkSpecific\PPLIRegression\J2_0PPLI\J2_0CreateSite.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>be77fdfb-fa49-4ff2-be73-75b1274fb767</id>
+    </None>
+    <None Include="LinkSpecific\PPLIRegression\J2_2PPLI\J2_2CreateSite.rxrec">
+      <id>fcaf3dc0-950b-4d47-8df6-2e20efb555bc</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\PPLIRegression\J2_3PPLI\J2_3CreateSite.rxrec">
+      <id>0421774b-70c1-4dbe-ac77-42a0b7929729</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\PPLIRegression\J2_4PPLI\J2_4CreateSite.rxrec">
+      <id>d06b76d6-5d61-4547-9290-8cc734466b71</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\PPLIRegression\J2_5PPLI\J2_5CreateSite.rxrec">
+      <id>3b4991e8-0a5c-413b-b077-615a7d6fdcc1</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\PPLIRegression\J2_6PPLI\J2_6CreateSite.rxrec">
+      <id>ba61f7d1-5561-4577-b1ea-84bb93fc79f7</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\Five_Digit_JU.rxrec">
+      <id>14777abe-d4e3-4d4d-815f-146660e48212</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\Four_Digit_JU.rxrec">
+      <id>8da3c312-bde6-4cc9-856f-71707e368836</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\One_Digit_JU.rxrec">
+      <id>e029e3ff-36bd-41f7-8112-8e73ec5fda43</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\Three_Digit_JU.rxrec">
+      <id>272bfe42-0f17-4920-a1ce-7f592b04ccab</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\TNBLK1.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>1210da22-944f-436b-ac5e-1e2bf625b14f</id>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\TNBLK2.rxrec">
+      <id>a424fba0-41de-4b04-babc-4e59684223a3</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\TNBLKRollover.rxrec">
+      <id>a2df4d1f-459d-4caa-8e8c-88a0f07a0a31</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TNAccountability\Two_Digit_JU.rxrec">
+      <id>1fd6ea1e-4c3c-4c33-9599-8f92a9db672b</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="LinkSpecific\TurnLinkOFF.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>47ae5b5a-80a4-4475-b5c8-c3e829fe7aeb</id>
+    </None>
+    <None Include="LinkSpecific\TurnLinkON.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>4456beaf-c05a-4b80-89d9-9e266939e357</id>
+    </None>
+    <None Include="LinkSpecific\TurnOnAllLinks.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>bdb39384-313a-49a9-b9a3-5049980054c6</id>
+    </None>
+    <None Include="Reports\One_Digit_JU20111017_122008.rxlog">
+      <id>0d78da29-2e90-4258-aeab-68ec98a5d427</id>
+    </None>
+    <None Include="Reports\One_Digit_JU20111019_102133.rxlog">
+      <id>8aa98086-cfd0-4fae-8b7f-7c8088a67c0d</id>
+    </None>
+    <None Include="Reports\One_Digit_JU20111019_102354.rxlog">
+      <id>3f4f0576-b977-4921-a0a5-a363af953bf3</id>
+    </None>
+    <None Include="Reports\RanorexStudio_20101208_200231.rxlog">
+      <id>01378ded-dde1-468f-bffb-4c90654c1279</id>
+    </None>
+    <None Include="Reports\SetupSFF20110713_172926.rxlog">
+      <id>304c7163-9563-4f5e-bd60-27def8a446e8</id>
+    </None>
+    <None Include="Reports\SwitchtoSys120110725_123634.rxlog">
+      <id>373d123b-6407-476a-9f40-ceb3edfd3e09</id>
+    </None>
+    <None Include="Reports\TerminalControl20110725_124738.rxlog">
+      <id>18741de8-154b-4f6f-bb77-2d51648305f6</id>
+    </None>
+    <None Include="Reports\Three_Digit_JU20111017_125509.rxlog">
+      <id>09d444a5-c087-416e-9583-df26c77022c8</id>
+    </None>
+    <None Include="Reports\Three_Digit_JU20111017_125631.rxlog">
+      <id>de478bc9-7c65-41a4-8ec8-95527f48948b</id>
+    </None>
+    <None Include="Reports\TNBLK120111019_170117.rxlog">
+      <id>10509f65-f4ba-442c-892d-dbf652a19cab</id>
+    </None>
+    <None Include="Reports\TNBLK120111019_170140.rxlog">
+      <id>678b22ed-89f9-4868-a181-2739781cca90</id>
+    </None>
+    <None Include="Reports\TNBLK120111019_170156.rxlog">
+      <id>8248bba6-e77d-4677-80e0-9b88cd7fd9c3</id>
+    </None>
+    <None Include="Reports\TNBLK120111019_170842.rxlog">
+      <id>cdb3e3c7-a689-4481-bb3f-17ebe1c489da</id>
+    </None>
+    <None Include="Reports\TNBLK120111019_171357.rxlog">
+      <id>ad94ee28-83fc-4371-b827-068797dadae3</id>
+    </None>
+    <None Include="Reports\TurnOnAllForwarding20110509_071613.rxlog">
+      <id>d05b486c-c94e-480d-9ad8-3c46328da4fc</id>
+    </None>
+    <None Include="Reports\TurnOnAllForwarding20110509_071724.rxlog">
+      <id>67bf487b-6452-4970-8696-558376a2826f</id>
+    </None>
+    <None Include="Reports\TurnOnAllForwarding20110509_121631.rxlog">
+      <id>e1973fcd-e51f-4581-8b8a-ce70c1303fe2</id>
+    </None>
+    <None Include="Reports\TurnOnAllForwarding20110524_070938.rxlog">
+      <id>9bfc979a-9991-49f6-9a92-85d441e77d75</id>
+    </None>
+    <None Include="Reports\TurnOnAllForwarding20110524_071022.rxlog">
+      <id>3d8e006f-907a-4cc8-b66b-e8fa9c656a85</id>
+    </None>
+    <None Include="Reports\TurnOnAllForwarding20110524_121259.rxlog">
+      <id>268e9c3b-5efa-4d8b-8fb8-d5c594ba6e08</id>
+    </None>
+    <None Include="Reports\TurnOnAllLinks20110505_094752.rxlog">
+      <id>9be6332a-93a2-443a-8678-7e9001c7d476</id>
+    </None>
+    <None Include="Reports\TurnOnAllLinks20110505_094854.rxlog">
+      <id>fad20104-45c3-4f00-a437-b2049306823b</id>
+    </None>
+    <None Include="Reports\TurnOnAllLinks20110505_142948.rxlog">
+      <id>39a402ca-a6b5-4a21-9375-6d2f4869fe3a</id>
+    </None>
+    <None Include="Reports\Two_Digit_JU20111017_123928.rxlog">
+      <id>cb68b40c-87a5-4e61-ba2d-6e09aea6724d</id>
+    </None>
+    <None Include="Reports\Two_Digit_JU20111017_124035.rxlog">
+      <id>3db2f612-06c8-4608-8ae8-4a7490201048</id>
+    </None>
+    <None Include="Reports\Two_Digit_JU20111017_124324.rxlog">
+      <id>8a6efd32-0ab9-4861-90f9-c5107ae4fbd9</id>
+    </None>
+    <None Include="Reports\Two_Digit_JU20111017_124356.rxlog">
+      <id>8869929c-e9ed-4545-9a22-9eac1f207993</id>
+    </None>
+    <None Include="SytemMangerRegression.rxrep">
+      <id>811101E0-231E-4C3A-8B45-06C948DFCCB4</id>
+      <repoid>10b39a9e-d514-4af5-94c7-ed689dd41b7e</repoid>
+      <reporootid>32c1eeda-7dbe-44b6-925d-d69a6dcc751a</reporootid>
+    </None>
+    <None Include="TabSpecific\ForwardingTab\TurnOnAllForwarding.rxrec">
+      <id>f65e9a6b-a0d7-4f2a-a616-5abaa5f84c36</id>
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+    </None>
+    <None Include="TabSpecific\SystemStatusTab\HostLink.rxrec">
+      <BoundTo>811101E0-231E-4C3A-8B45-06C948DFCCB4</BoundTo>
+      <id>bcd54e51-22b0-494f-a156-1bca8d59d761</id>
+    </None>
+    <None Include="TabSpecific\SystemStatusTab\NTP.rxrec">
+      <BoundTo>811101E0-231E-4C3A-8B45-06C948DFCCB4</BoundTo>
+      <id>e1f3f606-29ca-477c-a58e-6b510c2fc70e</id>
+    </None>
+    <None Include="UISpecific\DeleteSMConnections.rxrec">
+      <id>226e3ca9-2785-4112-a781-90145c7d88b4</id>
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+    </None>
+    <None Include="UISpecific\DXview\TurnOffDX.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>2301fd1a-c89d-44ff-bbdc-6c274a005b60</id>
+    </None>
+    <None Include="UISpecific\DXview\TurnOnDX.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>b69c34c1-16f6-4348-98a4-f020c0818669</id>
+    </None>
+    <None Include="UISpecific\GUIs\Derg.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>be4c9dec-5d5d-4614-95fe-c00f5d18678d</id>
+    </None>
+    <None Include="UISpecific\GUIs\TDLFTM.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>bade25cf-e961-41ad-8ef0-b4e43b4ec0b1</id>
+    </None>
+    <None Include="UISpecific\GUIs\TerminalControl.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>eb847abc-32b8-44ea-8640-19276be18fe6</id>
+    </None>
+    <None Include="UISpecific\Setup2SFF\Setup2SFF.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>43819344-cd88-47d7-b826-09e737c1b0b5</id>
+    </None>
+    <None Include="UISpecific\SetupCPCI\SetupCPCI.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>f8e685ba-0dc7-45b5-8bf9-c99396378a19</id>
+    </None>
+    <None Include="UISpecific\SetupPCI_ADSI\SetupPCI_ADSI.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>b31a9e6f-9227-462b-84b9-955922c726ed</id>
+    </None>
+    <None Include="UISpecific\SetupSFF\SetupSFF.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>b63ec480-26c7-4ac7-bcb5-3e943cf12166</id>
+    </None>
+    <None Include="UISpecific\SetupSimulator\SetupSimulator.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>5dc1ef6a-a094-4fe1-982b-24817d5d9dd0</id>
+    </None>
+    <None Include="UISpecific\SetupUltra16\SetupUltra16.rxrec">
+      <BoundTo>22B3FAB8-AE2E-4939-B13A-5B1E392F445D</BoundTo>
+      <id>b86e7e22-4d5b-484c-bf32-52c150b9d14e</id>
+    </None>
+    <None Include="UISpecific\SiteData.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>ca6f46ba-c2f7-4a3e-a3bd-e0460bef30fb</id>
+    </None>
+    <None Include="UISpecific\SwitchtoSys1.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>a7c99de8-58dc-46e1-9d34-bf2fd88daed8</id>
+    </None>
+    <None Include="UISpecific\SwitchtoSys2.rxrec">
+      <BoundTo>c7d4be4f-8f64-4206-a47e-93a2fdd22932</BoundTo>
+      <id>709b74a7-6168-4356-8b7d-5e1d7e2ea549</id>
+    </None>
+    <None Include="V15SmokeTestRepository.rxrep">
+      <id>c7d4be4f-8f64-4206-a47e-93a2fdd22932</id>
+      <repoid>49f0df9c-b88c-4764-aa93-76d5ce30b1a9</repoid>
+      <reporootid>31097da2-1aff-446c-99c8-77ee9da049d7</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DLR">
+      <id>c8a4bb0e-ef82-49c1-8408-6886874fab3e</id>
+    </Folder>
+    <Folder Include="LinkSpecific">
+      <id>6997f959-3f0a-456a-aece-3a2ca7e613df</id>
+    </Folder>
+    <Folder Include="LinkSpecific\TNAccountability">
+      <id>cff4d8a0-7975-4d68-bba5-745a5635f552</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression">
+      <id>fcbc7c4a-5616-4816-9398-0d4e420a1e67</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression\J2_0PPLI">
+      <id>b7eb73ff-5ce7-4fd3-804f-c1d2d518efaf</id>
+    </Folder>
+    <Folder Include="Defects">
+      <id>d8e64fa3-f04b-4584-a8ff-8941d4afc33a</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression\J2_2PPLI">
+      <id>efca2a07-36c6-441c-acfc-3b4c3acf0b3f</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression\J2_3PPLI">
+      <id>c4916dce-3643-4997-8347-bcdaf7fbcda8</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression\J2_4PPLI">
+      <id>f2337192-7326-4c46-b873-a2ca19d28c9c</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression\J2_5PPLI">
+      <id>9ac87e31-cf42-497f-8b87-a267b60f2cc7</id>
+    </Folder>
+    <Folder Include="LinkSpecific\PPLIRegression\J2_6PPLI">
+      <id>4d1fb5dc-cdb7-4f8f-a561-9c7c039a1565</id>
+    </Folder>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>52ab2723-4b70-49db-9b99-73e81e8c85a6</id>
+    </Folder>
+    <Folder Include="TabSpecific">
+      <id>7f6683dc-9f3a-4a14-8c0b-058ee0c9aa40</id>
+    </Folder>
+    <Folder Include="TabSpecific\InterfaceMonitoringTab">
+      <id>27271b42-a100-48d7-9170-ffe11692cb35</id>
+    </Folder>
+    <Folder Include="TabSpecific\ForwardingTab">
+      <id>e7f43e61-f7f4-4a6d-8cb6-1a21d25882c3</id>
+    </Folder>
+    <Folder Include="TabSpecific\FiltersTab">
+      <id>eb855b8e-8104-44df-9012-75cef93fbdeb</id>
+    </Folder>
+    <Folder Include="TabSpecific\DXTab">
+      <id>dd5feaa1-3f1c-4440-9ebc-2fa65608c600</id>
+    </Folder>
+    <Folder Include="TabSpecific\SiteDataTab">
+      <id>2e03e6c5-444b-47a5-a19e-541ecf18dd38</id>
+    </Folder>
+    <Folder Include="TabSpecific\SystemConfigurationTab">
+      <id>641fb8fa-e7bf-4f26-82fb-4a36fe71dc29</id>
+    </Folder>
+    <Folder Include="TabSpecific\SystemStatusTab">
+      <id>d8e92780-d899-4966-a716-fc3fc04b0c52</id>
+    </Folder>
+    <Folder Include="UISpecific">
+      <id>cb9a9c65-d6a7-40ff-ab8b-fa4aa03a7603</id>
+    </Folder>
+    <Folder Include="UISpecific\GUIs">
+      <id>e361c95a-51bb-487b-9707-73102bcf0fe8</id>
+    </Folder>
+    <Folder Include="UISpecific\DXview">
+      <id>7bb77e7b-5325-4b63-bdd1-becbf8072f82</id>
+    </Folder>
+    <Folder Include="UISpecific\SetupCPCI">
+      <id>4c031824-166a-4b90-a365-974c964b3648</id>
+    </Folder>
+    <Folder Include="UISpecific\SetupUltra16">
+      <id>058fdba4-7763-484f-824b-4927b04bc971</id>
+    </Folder>
+    <Folder Include="UISpecific\SetupSFF">
+      <id>e17856bc-bb76-4b9a-8f82-fd1de5b8d9ca</id>
+    </Folder>
+    <Folder Include="UISpecific\SetupSimulator">
+      <id>bedfdda3-69fc-4795-9e5a-1387100290fa</id>
+    </Folder>
+    <Folder Include="UISpecific\SetupPCI_ADSI">
+      <id>cbb7d3dc-edab-46f7-b28b-b078913e5d45</id>
+    </Folder>
+    <Folder Include="UISpecific\Setup2SFF">
+      <id>4c8ff03f-24c9-4a25-a6ba-c08caf95ec49</id>
+    </Folder>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>ccb13302-7aaa-439d-b475-efbb921a1a96</id>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+      <id>c10680f8-43b0-464a-9848-9a5277bd2926</id>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

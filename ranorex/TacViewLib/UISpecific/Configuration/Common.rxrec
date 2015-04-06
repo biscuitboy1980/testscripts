@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="bd57dee2-df76-46fa-b540-3aed1d9071cc">
+  <name>
+    Common
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Common" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems/>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

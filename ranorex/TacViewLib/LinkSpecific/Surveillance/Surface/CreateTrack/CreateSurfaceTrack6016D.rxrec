@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="e7061f08-9659-48f8-b65d-f9e26fd60bde" embeddedrepository="false">
+  <name>
+    CreateSurfaceTrack6016D
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CreateSurfaceTrack6016D" namespace="TacViewLib.LinkSpecific.Surveillance.Surface.CreateTrack"/>
+  <variables>
+    <var name="Plat" id="b3b6e4bd-8325-4888-b1a3-fa22c80d752d">
+      <![CDATA[Aircraft Carrier]]>
+    </var>
+    <var name="Act" id="72674e44-6f4d-4d67-9d47-948249a21a9a">
+      <![CDATA[Air Warfare Support]]>
+    </var>
+    <var name="Stype" id="9026d4d8-cb6a-4630-9542-6638b6ca906c">
+      <![CDATA[CVN GENERAL (ACFT CARRIER, NUCLEAR)]]>
+    </var>
+    <var name="Connection2" id="46fad863-1e75-4099-8eeb-1fba6aac6e71">
+    </var>
+  </variables>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetTrackCount">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="RandCoord">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="798" sy="393" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d36aef2a-409c-468c-975b-c41a8ce9ca98">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="744,382,191,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@processname='RealView']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="d188b028-7436-4ded-b41c-9b4cc3fced98">
+        <path>
+          <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename='C2 HOST']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="c440dfd1-be48-4979-ae5a-01ffc40ff802">
+        <path>
+          <![CDATA[/form[@title='C2 HOST']/contextmenu[1]/menuitem[@accessiblename='Surface']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="IDval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Platval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Actval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Stypeval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="252" sy="281" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d5b0119d-88fd-4c0e-825a-1652285d5e42">
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Surface\ TN\ \)\ CREATI']/.//button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetTrackNum">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[CreateSurfaceTrack6016D_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex2\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex2\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex2\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex2\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex2\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex2\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex2\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex2\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex2\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+  </references>
+</recordtable>

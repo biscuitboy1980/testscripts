@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="9371b5c3-2170-4e6c-af8b-04e6b93b52ea" embeddedrepository="false">
+  <name>
+    Derg
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Derg" namespace="SystemManagerLib.UISpecific.GUIs"/>
+  <variables/>
+  <recorditems>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="bb4887a6-05a8-43eb-a065-e271ea613ba6">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/titlebar[@accessiblevalue~'^System\ Manager*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="LMenu, Alt" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="T" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <mouseitem enabled="True" optional="False" duration="1499ms" action="Click" button="Left" movetime="150ms" sx="125" sy="187" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="ba624148-71bd-46d7-b2e3-ec4de170fa0a">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="7" rect="64,175,180,20">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[DXView]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[DXView]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/contextmenu/menuitem[@accessiblename='DXView']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="25ms" action="Press" presstime="25ms" data="Down" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keyitem enabled="True" optional="False" duration="25ms" action="Press" presstime="25ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <validationitem enabled="True" optional="False" duration="0ms" action="Exists">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="5dca2336-e1c2-4f64-aa4a-9eabbd23e986">
+        <path>
+          <![CDATA[/form[@title~'^DxView*']/titlebar[@accessiblevalue~'^DxView*']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[yourtext]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="V15SmokeTestRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\V15SmokeTestRepository.rxrep">
+    <codegen classname="V15SmokeTestRepository" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[Derg.UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Core\3.0.1.12040__b798506b574ebc9a\Ranorex.Core.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Flex\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Flex.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.MozillaWeb\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.MozillaWeb.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Msaa\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Msaa.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Office\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Office.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.RawText\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.RawText.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Web\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Web.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Win32\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Win32.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.WinForms\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.WinForms.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Wpf\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Wpf.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+    </reference>
+  </references>
+</recordtable>

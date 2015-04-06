@@ -1,0 +1,80 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{27B7DEAC-BAD6-45D0-B6CE-4D6A782D2CBA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>System_Manager_Regression</RootNamespace>
+    <AssemblyName>System_Manager_Regression</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Program.cs">
+      <id>22243039-8e86-43a8-bbb1-111edf2b7326</id>
+    </Compile>
+    <None Include="System_Managaer_Regression.rxtst">
+      <id>f6ccc81b-5f76-4f83-92d3-28742bacd573</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationWizardLib\ConfigurationWizardLib.csproj">
+      <Project>{99FB7985-32FC-4069-AAC9-77FC142B62F2}</Project>
+      <Name>ConfigurationWizardLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InstallerLib\InstallerLib.csproj">
+      <Project>{40C3E212-7984-4325-B1BF-6AB8145FB0B6}</Project>
+      <Name>InstallerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemManagerLib\SystemManagerLib.csproj">
+      <Project>{0C41898E-56CD-4C3D-A861-433FD1908445}</Project>
+      <Name>SystemManagerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

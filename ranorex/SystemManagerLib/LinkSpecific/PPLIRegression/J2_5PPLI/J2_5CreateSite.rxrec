@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="1ebf58db-0171-45a7-b3b2-914a9fdd6cee" embeddedrepository="false">
+  <name>
+    J2_5CreateSite
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="J2_5CreateSite" namespace="SystemManagerLib.LinkSpecific.PPLIRegression.J2_5PPLI"/>
+  <variables/>
+  <recorditems>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="628" sy="64" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="2ee561c7-40d3-465c-85a2-ea0c3ed8ee54">
+        <element role="tabpage" prefcap="tabpage" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="581,53,88,24">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[5]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="title" type="System.String">
+            <![CDATA[Site Data]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Site Data]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PageTab]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/tabpagelist/tabpage[@accessiblename='Site Data']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="46" sy="250" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="9c51e2d0-22da-43de-a4b4-d7a4d11d3da1">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="22,238,196,20">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[  Secondary Data]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[  Secondary Data]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[  Secondary Data]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//listitem[@accessiblename='  Secondary Data']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="UnitNumber">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="CheckBoxIndirect_PPLI">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="256" sy="224" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="5766c4ce-2bc9-4236-86d1-610093487e75">
+        <element role="text" prefcap="text" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="242,212,110,20">
+          <attribute name="caption" type="System.String">
+            <![CDATA[Environment]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Environment]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Environment]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[StaticText]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//text[@accessiblename='Environment']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="Environment">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="Platform">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="PlatformActivity">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="NPS">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="SiteType">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="GenericUnitType">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="Strength">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="Mode1">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="Mode2">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="150ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="150ms" methodname="Mode3">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="150ms" action="Click" button="Left" movetime="150ms" sx="278" sy="673" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="47cc2983-16db-4ef1-8e71-3899c9c47d7d">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='4']/button[@accessiblename='Apply All']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="Link_16_Regression" id="4c3aeeb3-574a-44e0-847b-d50d433c17ca" rxversion="3.1.1.14266" relativepath="..\..\..\Link-16_Regression.rxrep">
+    <codegen classname="Link_16_Regression" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="71281010-c614-4112-a790-27d2dd803ee8"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[J2_5CreateSite_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex555\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TacViewLib\bin\Debug\TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+  </references>
+</recordtable>

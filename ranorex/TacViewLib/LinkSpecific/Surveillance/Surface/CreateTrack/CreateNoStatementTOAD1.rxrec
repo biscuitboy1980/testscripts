@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.0.5.13548" id="96f0916a-3b24-4b07-89c1-a8bbd2d3db14" embeddedrepository="false">
+  <name>
+    CreateNoStatementTOAD1
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CreateNoStatementTOAD1" namespace="TacViewLib.LinkSpecific.Surveillance.Surface.CreateTrack"/>
+  <variables>
+    <var name="Connection2" id="bf4ee3ba-d1f4-4bf3-a46f-62cbcc508a63">
+    </var>
+  </variables>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ValidateDropTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Right" movetime="250ms" sx="839" sy="407" loc="507;278">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="dd896106-cae1-4315-80ca-3ed067825220">
+        <element role="container" prefcap="container" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="332,129,1346,843">
+          <attribute name="caption" type="System.String">
+            <![CDATA[RvView]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[RvView]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Pane]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[RvView]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/element[@controlid='59648']/container[@accessiblename='RvView']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="798" sy="393" loc="54;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d36aef2a-409c-468c-975b-c41a8ce9ca98">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="744,382,191,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@processname='RealView']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1071" sy="419" loc="36;8">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="31dc41a1-8ac9-4d56-84a4-e93bc892b80d">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="1035,411,97,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[TOAD]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[TOAD]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename='TOAD']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1084" sy="403" loc="59;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="8af23e1d-028a-45e5-a991-f3f705fe7a83">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="1025,392,143,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Surface]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Surface]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'TOAD.*']/contextmenu[1]/menuitem[@accessiblename='Surface']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="259" sy="406" loc="22;6">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="7d561628-2f47-4550-9d22-783ff5097215">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="7" rect="237,400,273,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[7]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Identity]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Identity]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Unknown]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Surface\ TN\ \)\ CREATI']/element/container/element[@controlid='1146']/element/listitem[@accessiblename='Identity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="0" setModifiers="True" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="Pending" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="418" sy="407" loc="37;7">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="932cf462-e8d4-404a-b271-c13e48f93b8d">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="10" rect="381,400,398,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[10]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Platform]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Platform]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[N.S.]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Surface\ TN\ \)\ CREATI']/element/container/element[@controlid='1137']/element/listitem[@accessiblename='Platform']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="Intelligence Collector" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="434" sy="430" loc="53;13">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="0600c14b-8ed5-4727-97ae-21f4db298cf0">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="11" rect="381,417,398,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[11]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Activity]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Activity]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[N.S.]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Surface\ TN\ \)\ CREATI']/element/container/element[@controlid='1137']/element/listitem[@accessiblename='Activity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="Towing" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="456" sy="459" loc="75;8">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="37903f60-3248-4014-aa90-da73e51f769a">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="14" rect="381,451,398,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[14]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Specific Type]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Specific Type]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[N.S.]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Surface\ TN\ \)\ CREATI']/element/container/element[@controlid='1137']/element/listitem[@accessiblename='Specific Type']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="CV GENERAL" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="252" sy="281" loc="12;21">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d5b0119d-88fd-4c0e-825a-1652285d5e42">
+        <path>
+          <![CDATA[/form[@title~'^Main\ \(Surface\ TN\ \)\ CREATI']/.//button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Right" movetime="250ms" sx="906" sy="398" loc="12;15">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c7a478dc-ec18-409b-919e-4efe8db80f45">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="894,383,20,20">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[3111]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Track]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="955" sy="431" loc="47;6">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="3a28f85e-d0b2-47c0-9e42-607bf30673fb">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="908,425,158,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[TOAD Track#3111]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[TOAD Track#3111]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView']/contextmenu[1]/menuitem[@accessiblename~'TOAD.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1109ms" action="Click" button="Left" movetime="300ms" sx="936" sy="681" loc="112;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c1e9c2d4-651d-4d9d-8291-0ec9eb8f69db">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="9" rect="824,672,168,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Edit Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Edit Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'TOAD.*']/contextmenu[1]/menuitem[@accessiblename='Edit Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="457" sy="491" loc="44;8">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="7bde4337-fc30-4634-8c5a-79f8c5e14061">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="11" rect="413,483,398,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[11]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Specific Type]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Specific Type]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[CV GENERAL]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main \(Surface TN \d\d\d\d\)']/element/container[@caption='' and @controlid='5140']/element[@controlid='1147']/element/listitem[@accessiblename='Specific Type']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="RESET TO NO STATEMENT" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="429" sy="291" loc="13;16">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="571a68b2-576c-441f-9035-613ecedc2175">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="416,275,35,35">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Save]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Save]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Save]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main \(Surface TN \d\d\d\d\)']/element/container[@caption='' and @controlid='5140']/element[@controlid='25022']/toolbar[1]/button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="820" sy="263" loc="10;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="19b3706f-f07f-4b03-8003-47bcc3114ad5">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="810,252,16,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main \(Surface TN \d\d\d\d\)']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.0.5.13548" relativepath="..\..\..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+  <references/>
+</recordtable>

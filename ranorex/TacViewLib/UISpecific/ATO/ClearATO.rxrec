@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.4.9270" id="b06fa70f-3c27-463c-b13a-fbcf0f058ea9">
+  <name>
+    ClearATO
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ClearATO" namespace="TacViewLib.UISpecific.ATO"/>
+  <recorditems>
+    <mouseitem duration="100ms" action="Click" button="Right" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="ec9ed44e-f1b8-4142-beac-59b74c9e01eb">
+        <path>
+          <![CDATA[/form[@title='ATO List']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="409" sy="425" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="bf7a2dfa-d676-4d8e-9d34-c1c01a8ddfba">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="0" rect="379,417,106,17">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Clear ATO List]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[c]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Clear ATO List]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/contextmenu[@processname='RealView']/contextmenu/menuitem[@accessiblename='Clear ATO List']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="1500ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="944" sy="347" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9cf8f84d-2937-47f7-828d-166fb389a9bc">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="2" rect="935,339,16,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO List']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.4.9270" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

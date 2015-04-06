@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="3f002302-60b2-41f9-a5f9-a3ff28e079d3" embeddedrepository="false">
+  <name>
+    DropLocalTracks
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="DropLocalTracks" namespace="TacViewLib.LinkSpecific.TNAccountability"/>
+  <variables>
+    <var name="Connection1" id="5e585ca4-56c2-4864-a9b1-04f37679fdd9">
+      <![CDATA[cPCI_ADSI]]>
+    </var>
+    <var name="ownunit" id="e74631fa-3bc4-4f0f-af23-53744d3ba48e">
+    </var>
+  </variables>
+  <recorditems/>
+  <repository name="Link_16_RegressionRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\Link-16_RegressionRepository.rxrep">
+    <codegen classname="Link_16_RegressionRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[DropLocalTracks.UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex555\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+  </references>
+</recordtable>

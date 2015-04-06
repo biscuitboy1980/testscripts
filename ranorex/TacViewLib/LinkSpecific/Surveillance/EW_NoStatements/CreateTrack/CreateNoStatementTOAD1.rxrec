@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="a9d3df1d-ccf5-4278-88b0-c7f7b23668e1" embeddedrepository="false">
+  <name>
+    CreateNoStatementTOAD1
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CreateNoStatementTOAD1" namespace="TacViewLib.LinkSpecific.Surveillance.EW_NoStatements.CreateTrack"/>
+  <variables/>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidateDropTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Right" movetime="250ms" sx="839" sy="407" loc="507;278">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="dd896106-cae1-4315-80ca-3ed067825220">
+        <element role="container" prefcap="container" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="332,129,1346,843">
+          <attribute name="caption" type="System.String">
+            <![CDATA[RvView]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[RvView]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Pane]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[RvView]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/element[@controlid='59648']/container[@accessiblename='RvView']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="798" sy="393" loc="54;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d36aef2a-409c-468c-975b-c41a8ce9ca98">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="744,382,191,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@processname='RealView']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="d188b028-7436-4ded-b41c-9b4cc3fced98">
+        <path>
+          <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="165490a5-e5a3-49b0-890e-7dde204487eb">
+        <path>
+          <![CDATA[/form[@title~'C2 HOST.*']/contextmenu[1]/menuitem[@accessiblename='EW']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="659fe8b9-49a3-43fa-9979-f8107121f056">
+        <path>
+          <![CDATA[/form[@title='Main (Air TN ) CREATING']/element//listitem[@accessiblename='Identity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="IDval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="EnvCatval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="Platval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="Actval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="Stypeval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="3847ab07-25ae-4706-9cf8-ccbc89a1e680">
+        <path>
+          <![CDATA[/form[@title='Main (EW TN ) CREATING']/.//button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Right" movetime="250ms" sx="756" sy="323" loc="10;12">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c7a478dc-ec18-409b-919e-4efe8db80f45">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="746,311,20,20">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[3005]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Track]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="6f6aad73-0c78-421c-a99b-4b5bd7da2da3">
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1005" sy="598" loc="86;14">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c1e9c2d4-651d-4d9d-8291-0ec9eb8f69db">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="10" rect="919,584,168,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Edit Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Edit Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'TOAD.*']/contextmenu[1]/menuitem[@accessiblename='Edit Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="d22abe68-1418-4da2-9007-6753d7f78e3b">
+        <path>
+          <![CDATA[/form[@title~'Main \(EW TN \d\d\d\d\)']/.//listitem[@accessiblename='Platform']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="250ms" action="Press" presstime="100ms" data="Tab" scancode="15" setModifiers="False" numLock="False">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="N.S." presstime="0ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="N.S." presstime="0ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="N.S." presstime="0ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="71acd870-728e-4738-8fb1-01c3e07695ef">
+        <path>
+          <![CDATA[/form[@title~'Main \(EW TN \d\d\d\d\)']/.//button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="8b6daa34-6594-402e-a70a-80f6bcb47f23">
+        <path>
+          <![CDATA[/form[@title~'Main \(EW TN \d\d\d\d\)']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <references/>
+</recordtable>

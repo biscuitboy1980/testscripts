@@ -1,0 +1,144 @@
+﻿<repository name="TrainingLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266">
+  <codegen classname="TrainingLibRepository" namespace="TrainingLib"/>
+  <rootfolder name="Root" id="31097da2-1aff-446c-99c8-77ee9da049d7" searchtimeout="30000ms" capname="unknown" isrooted="True" usecache="True">
+    <appfolder name="FormRealView" id="e544b34a-cd64-44c6-b3a8-d69013e02138" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemCreate_Track" id="2b8f2bf6-963e-48cf-9ec7-7f4e0a9b7c9a" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+      </item>
+      <item name="MenuItemTrack_Properties" id="7eeee2c8-fdef-414b-88ff-bee72f54040f" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Track Properties']]]>
+      </item>
+      <item name="MenuItemDrop_Track" id="1a1ef495-35fd-45f8-9e49-b15bb41f4464" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Drop Track']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormCreate_Track" id="52340f5d-24ef-43db-aeb7-fa0989aaa657" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemAir" id="98843c9e-f173-481d-9c8d-51c14ed0f6b9" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename='Air']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Create Track']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormMain__Air_TN___CREATING" id="16cfa22d-7f74-4316-9ae1-588ce9c571ea" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ListItemVelocity__mph_" id="5b4d1ea2-9d63-49f1-9f52-8fef837e6369" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title='Main (Air TN ) CREATING']/element/container/element/element/listitem[@accessiblename='Velocity (mph)']]]>
+      </item>
+      <item name="ButtonSave" id="685a4ca9-1a91-40f0-bc74-bff3cda2a1f7" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Main (Air TN ) CREATING']/element/container/element/toolbar[1]/button[@accessiblename='Save']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Main (Air TN ) CREATING']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormMain__Air_TN" id="fc5c90a1-0d2c-437c-a362-d19e26bb38d3" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ListItemVelocity__mph_" id="d78259bc-42bf-40ee-b11f-2c875146c76f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main \(Air TN.*']/element/container/element/element/listitem[@accessiblename='Velocity (mph)']]]>
+      </item>
+      <item name="ButtonCLOSE" id="847d2230-80cf-454f-9ad0-e15484ef22ee" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'Main \(Air TN.*']/button[@accessiblename='CLOSE']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'Main \(Air TN.*']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormTacViewC2" id="8e7ecc04-50aa-4e8f-92c0-13e7a85b7b95" searchtimeout="30000ms" capname="form" isrooted="True" usecache="False">
+      <item name="ContainerRvView" id="28a2178b-1784-4e00-bf26-185282b25119" searchtimeout="10000ms" capname="container">
+        <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container[@accessiblename='RvView']]]>
+      </item>
+      <item name="PictureTrack" id="858ad748-12ab-49c7-a061-2fc8b6f1a51d" searchtimeout="60000ms" capname="picture">
+        <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/picture[@accessiblename='%track%' and @accessiblevalue='Track']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="RealViewDialog" id="b95f943f-5f28-47cc-9bf7-6820c167cce3" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ButtonYes" id="8dd1b863-fe65-4f89-853f-d7153d936dfc" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='RealView']/button[@text='&Yes']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='RealView']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <basepath>
+    </basepath>
+  </rootfolder>
+  <variables/>
+</repository>

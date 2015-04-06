@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="4137e068-e235-44ea-a93c-6bc6a2b7b67b" embeddedrepository="false">
+  <name>
+    ValidateSurfaceTrackDisused6016D
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateSurfaceTrackDisused6016D" namespace="TacViewLib.LinkSpecific.Surveillance.Surface_Disused.ValidateTrack"/>
+  <variables>
+    <var name="Plat" id="49a29207-05c3-4a95-a992-60d9f58c1302">
+    </var>
+    <var name="Act" id="b2a7b4c7-2e8a-4909-bbe3-61b5b28430a8">
+    </var>
+    <var name="Stype" id="7ba24b37-a76c-4725-912a-b51162a4a73f">
+    </var>
+    <var name="Sam" id="dd952dbe-9d8c-4ede-ae78-5c93d84712e4">
+    </var>
+  </variables>
+  <recorditems>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Right" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="c7034dd0-a7cc-40e1-b8d3-04fa0eec9a90">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/picture[@accessiblename~'\d\d\d\d'][2]]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="ca06a977-fef1-4d21-974f-b766360f64e3">
+        <path>
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="142699a4-34c8-4c01-b017-e8de1fef41a3">
+        <path>
+          <![CDATA[/form[@title~'C2 HOST.*']/contextmenu[1]/menuitem[@accessiblename='Track Properties']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="250ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidateID">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidatePlat">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidateAct">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidateStype">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="354" sy="392" loc="28;5">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="cf428bbc-691d-4719-b963-33113c46602b">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="7" rect="326,387,273,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[7]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Identity]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Identity]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Hostile]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main \(Surface TN .*\)']/element//listitem[@accessiblename='Identity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Next}{Next}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidateSamtype">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="657" sy="179" loc="7;7">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="19b3706f-f07f-4b03-8003-47bcc3114ad5">
+        <path>
+          <![CDATA[/form[@title~'Main \(Surface TN \d\d\d\d\)']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Right" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="8c454222-7b79-4e5c-a582-d44e8fd97f16">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="ac04bb00-de34-4a5c-9e6f-cfa552e37519">
+        <path>
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'TOAD.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="841" sy="493" loc="116;14">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="b1132164-cc30-42f8-9345-e51922a47093">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="10" rect="729,477,168,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Drop Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Drop Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Drop Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="783" sy="544" loc="20;8">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="02fb3b2e-662e-473c-905b-6461671f294a">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="763,536,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[&Yes]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[6]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[4918780]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[1724]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[&Yes]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='RealView']/button[@text='&Yes']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryDisusedValues" id="f6111798-fe62-4567-a7eb-e9cefd5a8bce" rxversion="3.1.1.14266" relativepath="..\..\..\..\TacViewLibRepositoryDisusedValues.rxrep">
+    <codegen classname="TacViewLibRepositoryDisusedValues" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="89830745-22a3-4377-870c-9c1d23676d8e"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[ValidateSurfaceTrackDisused6016D_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex555\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+  </references>
+</recordtable>

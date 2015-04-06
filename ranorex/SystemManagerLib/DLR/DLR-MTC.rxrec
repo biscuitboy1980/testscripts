@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="9a49abf2-b450-4f55-8ed8-e4e80ed16243" embeddedrepository="false">
+  <name>
+    DLR_MTC
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="DLR_MTC" namespace="SystemManagerLib.DLR"/>
+  <variables>
+    <var name="port" id="246e11ed-7ed8-4f67-a745-747c01436e07">
+      <![CDATA[9999]]>
+    </var>
+    <var name="ip" id="9ab0f177-dcfc-4354-ba41-eba3579eb71a">
+      <![CDATA[999.999.999.999]]>
+    </var>
+    <var name="serverclient" id="f6830898-2cb1-4749-9df9-db699d2ea9f6">
+      <![CDATA[server]]>
+    </var>
+  </variables>
+  <recorditems>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="329" sy="71" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="aa40f47b-cd6f-4bea-9145-c64a44ad9e3e">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//tabpage[@accessiblename='System Configuration']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="268" sy="143" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="71ede669-1b66-48b6-8169-1decbcac26a8">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="233,128,81,30">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Add Link]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Add Link]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Add Link]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[HotTracked, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/button[@accessiblename='Add Link']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" screenshotname="Screenshot1" screenshotguid="fa35b9f1-a713-47b4-9be4-36140a58b857" imagerect="35,48,29,27" action="Click" button="Left" movetime="250ms" sx="1066" sy="470" loc="17;4">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="169aa91a-a017-482d-966e-93accce3f554">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1014,418,100,80">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Use this device to configure a connection to a 
+GCCS (Global Command  Control System) ]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='6']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='18']/element[@class='QWidget' and @instance='0']/picture[@accessiblerole='Graphic']]]>
+        </path>
+      </info>
+      <helperscreenshot guid="35bc6e4d-56f7-4c47-a2ad-fba9520d7726">
+        <![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9V
+XVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSk
+pKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCACMAIwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpqzND
+/wCYh/1+yf0o/sb/AKiWo/8Af/8A+tVHStM877Z/p17HsunT5JcbsY5PHJ96AOhorM/sb/qJaj/3
+/wD/AK1H9jf9RLUf+/8A/wDWoA06KzP7G/6iWo/9/wD/AOtR/Y3/AFEtR/7/AP8A9agDTorM/sb/
+AKiWo/8Af/8A+tR/Y3/US1H/AL//AP1qANOisz+xv+olqP8A3/8A/rUf2N/1EtR/7/8A/wBagDTo
+rM/sb/qJaj/3/wD/AK1H9jf9RLUf+/8A/wDWoA06KzP7G/6iWo/9/wD/AOtR/Y3/AFEtR/7/AP8A
+9agDTorM/sb/AKiWo/8Af/8A+tR/Y3/US1H/AL//AP1qALOnf8e7/wDXaX/0Y1Wqp6Snl2Xl7mfb
+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]]>
+      </helperscreenshot>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1189" sy="775" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="7d62b2bd-a1b7-4905-bd48-1e1a2b305aea">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1148,758,77,26">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='7']/button[@accessiblename='Next >>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="DoubleClick" button="Left" movetime="250ms" sx="695" sy="199" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="b29d6d07-e679-4206-976b-ba4954e799fb">
+        <path>
+          <![CDATA[/form[@title='Configure Link']/.//text[@accessiblevalue='GCCS']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="500ms" sequence="{RShiftKey down}MTC{RShiftKey up}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="bcb6fa60-edd7-483d-a2f2-71d0967ab472">
+        <path>
+          <![CDATA[/form[@title='Configure Link']/.//button[@accessiblename='Next >>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="618" sy="408" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="71222232-f57a-4853-a511-7216774ad07e">
+        <path>
+          <![CDATA[/form[@title='Configure Link']/.//radiobutton[@accessiblename='(Link-16) MTC - Ethernet']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1181" sy="765" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bcb6fa60-edd7-483d-a2f2-71d0967ab472">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1148,758,77,26">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='8']/button[@accessiblename='Next >>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1181" sy="765" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bcb6fa60-edd7-483d-a2f2-71d0967ab472">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1148,758,77,26">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='8']/button[@accessiblename='Next >>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="700" sy="466" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="33271136-8064-4398-a83f-7911cb875130">
+        <path>
+          <![CDATA[/form[@title~'^Configure\ Link\ \(\(Link-16\)']/element/element/element[@class='QWidget' and @instance='6']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='7']/element[@class='QWidget' and @instance='1']/text[@accessiblerole='Text']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="500ms" methodname="enterPort">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="633" sy="399" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="3bc731f9-84b4-430d-bfeb-55b384638fa5">
+        <element role="radiobutton" prefcap="radiobutton" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="629,390,44,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[IPv4]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Check]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[IPv4]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[RadioButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Checked, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='6']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='5']/element[@class='QWidget' and @instance='2']/radiobutton[@accessiblename='IPv4']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="693" sy="399" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="3b808250-c2ab-4859-a2ff-1b50dedfe5da">
+        <path>
+          <![CDATA[/form[@title~'^Configure\ Link\ \(\(Link-16\)']/element/element/element[@class='QWidget' and @instance='6']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='5']/element[@class='QWidget' and @instance='4']/text[@accessiblerole='Text']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="500ms" methodname="enterIP">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="500ms" methodname="ClientServer">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1175" sy="769" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bcb6fa60-edd7-483d-a2f2-71d0967ab472">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1148,758,77,26">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Next >>]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='8']/button[@accessiblename='Next >>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="1175" sy="767" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c08684b0-f9d8-430c-86a3-0d4f8ef904f8">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1148,758,77,26">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Finish]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Finish]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Configure Link']/element/element/element[@class='QWidget' and @instance='8']/button[@accessiblename='Finish']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="3000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+  </recorditems>
+  <repository name="V15SmokeTestRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\V15SmokeTestRepository.rxrep">
+    <codegen classname="V15SmokeTestRepository" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[DLR_MTC.UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex66\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex66\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex66\TacViewLib\bin\Debug\TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex66\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex66\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex66\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex66\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex66\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex66\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex66\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex66\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex66\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+  </references>
+</recordtable>

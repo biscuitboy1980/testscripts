@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="89f48b5a-6a1e-4b49-b37e-1c67e6b60012" embeddedrepository="false">
+  <name>
+    InstallWindowsOnly
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="InstallWindowsOnly" namespace="InstallerLib.Install"/>
+  <variables>
+    <var name="buildtype" id="15c09584-3115-4eb4-bba6-4188b3027113">
+      <![CDATA[promoted]]>
+    </var>
+  </variables>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetCurrentDirectory">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="CreateDirs">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetRevision">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Is64BitSystem">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Check7zip">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="DownloadLatestWin">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="UnzipLatestWin">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="InstallLatestWin">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="DownloadTacView">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="UnzipTacView">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="InstallTacView">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <loggingrecorditem enabled="True" optional="False" category="User" message="Windows only Installation was successfull" reportlevel="Success;110">
+      <comment>
+      </comment>
+      <bindings/>
+    </loggingrecorditem>
+  </recorditems>
+  <repository name="InstallerLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\InstallerLibRepository.rxrep">
+    <codegen classname="InstallHudsonRepository" namespace="InstallerLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[InstallWindowsOnly.UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\ranorex\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\TacViewLib\bin\Debug\TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex\Link_16_Regression\bin\Debug\Link_16_Regression.exe
+    </reference>
+    <reference>
+      C:\ranorex\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+  </references>
+</recordtable>

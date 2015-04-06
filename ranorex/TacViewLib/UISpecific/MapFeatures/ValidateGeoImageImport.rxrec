@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="48fbace7-e5d3-40a8-b5b0-a900f7149bad">
+  <name>
+    ValidateGeoImageImport
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateGeoImageImport" namespace="TacViewLib.UISpecific.MapFeatures"/>
+  <recorditems>
+    <mouseitem duration="0ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="69e340bb-47fb-45c4-8509-df2b5800f498">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ *']/element//menuitem[@accessiblename='View']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="163" sy="320" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9209e871-331b-41d8-9103-69056227c4f3">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="12" rect="48,315,214,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CADRG/Geo Image List]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CADRG/Geo Image List]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='View']/contextmenu[1]/menuitem[@accessiblename='CADRG/Geo Image List']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="e8c9f5db-62e3-4f9a-8579-251b25265d25">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="2160,323,286,21">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[C:\TacViewC2\DataFiles\USAAll\RPF\A.TOC]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Filename]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[C:\TacViewC2\DataFiles\USAAll\RPF\A.TOC]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Filename']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[C:\TacViewC2\DataFiles\USAAll\RPF\A.TOC]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="eda57be7-8369-4130-9f2a-d620c1133cc4">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="2446,323,56,21">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CADRG]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Image Type]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[CADRG]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Image Type']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[CADRG]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="2e44bad7-8c50-4dd5-a912-c2278de01ad3">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="2502,323,103,21">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[53° 47' 35.17" N]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[North]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[53° 47' 35.17" N]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='North']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[53° 47' 35.17" N]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="4b355dd0-9d9e-407a-94c6-14f849bfa223">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="2605,323,124,21">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[32° 7' 49.87" N]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[South]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[32° 7' 49.87" N]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='South']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[32° 7' 49.87" N]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="00e1e5b0-6540-4cf2-82fe-7595bb239f59">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="2729,323,133,21">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[58° 30' 0.00" W]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[East]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[58° 30' 0.00" W]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='East']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[58° 30' 0.00" W]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="1b71082d-3a28-40aa-95d9-be4466a138b3">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="2862,323,135,21">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[133° 24' 3.65" W]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[West]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[133° 24' 3.65" W]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='West']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[133° 24' 3.65" W]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="125ms" methodname="Validate_CellZoom_Level">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="118501c4-f9d1-4365-9e55-ccef9fa5669d">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="6" rect="998,542,28,21">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[1:500K]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Zoom Level]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[1:500K]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Zoom Level']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[1:500K]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="125ms" methodname="Validate_CellFilename1">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="18f1787c-d7ce-47f8-a980-754d1fb2a588">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="836,563,27,21">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[C:\DataFiles\USA all\RPF\A.TOC]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Filename]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[C:\DataFiles\USA all\RPF\A.TOC]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Filename']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[C:\DataFiles\USA all\RPF\A.TOC]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="125ms" methodname="Validate_CellZoom_Level1">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="281e47e4-51db-47fc-856b-96de0bb8cfee">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="6" rect="998,563,28,21">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[1:1M]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Zoom Level]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[1:1M]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='CADRG/Geo Image List']/element/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Zoom Level']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[1:1M]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

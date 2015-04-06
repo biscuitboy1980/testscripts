@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="f15ad2f8-041f-4c35-94c5-f4d96616451a">
+  <name>
+    ImportATO2
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ImportATO2" namespace="TacViewLib.UISpecific.ATOUpgrade.Import_Test"/>
+  <recorditems>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="329" sy="38" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="09314256-4446-445d-ba47-c7c8d8c1f910">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="316,28,37,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']/element/element/menubar[1]/menuitem[@accessiblename='ATO']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="360" sy="174" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f74c73d5-dd6b-4129-a269-e5f769111fa3">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="5" rect="318,161,207,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Delete all records...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Delete all records...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO']/contextmenu[1]/menuitem[@accessiblename='Delete all records...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="618" sy="533" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="550b5ea8-cdb2-4883-ae61-a17b76f90ab3">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="563,523,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[&Yes]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[6]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[591206]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3876]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[&Yes]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='RealView']/button[@text='&Yes']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="19" sy="36" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9231fda6-1060-4eaa-99af-69a2c1ae7a73">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="10,28,32,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[File]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[File]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='File']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="110" sy="312" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="e2a11134-d8f5-4a30-a1a7-397ac40a8a47">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="11" rect="12,299,229,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Import an ATO File...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Import an ATO File...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename='Import an ATO File...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="d801528c-44b5-4ac3-915b-545e02e0d5d3">
+        <path>
+          <![CDATA[/form[@title='Import ATO']/combobox[@controlid='1148']/text[@controlid='1148']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem duration="150ms" sequence="C:\ranorex\TacViewC2\bin\Release\DataFiles\ATOSmall1.txt" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="6c38a6fa-a403-4b5f-8ffd-3f0248df1b1c">
+        <path>
+          <![CDATA[/form[@title='Import ATO']/button[@text='&Open']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="ATOUpgradeRepository" id="f5cc6fe0-e00a-4e08-98fc-5a3d2f7d3962" version="2.3.8.10854" relativepath="..\..\..\ATOUpgradeRepository.rxrep">
+    <codegen classname="ATOUpgradeRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

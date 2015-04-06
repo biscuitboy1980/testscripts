@@ -1,0 +1,745 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7DA34377-6F14-40EA-B5B5-095755007CAE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>V15_Smoke_Test</RootNamespace>
+    <AssemblyName>V15_Smoke_Test</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>f0fefe88-1618-40b8-ae50-c4cad8eee7ac</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>81c86844-e7a5-4942-b6c3-a09c5e4b14c6</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>6c148bd0-780d-48eb-935a-29d609556099</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>b9bcb84e-a7ea-4e17-9c8c-6be6862d7a7c</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>f1b8b743-8cbb-4c01-88d9-13bdb4bc09d4</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>0597c734-b0ef-44be-a76e-adb3eae43e24</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>34f3db6f-048d-4350-a6e0-759dce825609</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>ad150939-de94-4b80-a80d-67b330e8f4ee</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>19bff760-dba3-43d1-8a02-c04e7d7c2a20</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>5b5c08d4-048c-452f-a60a-7765ae1be741</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>52805502-6485-4fd7-9e64-a322a549e437</id>
+    </Reference>
+    <Reference Include="System">
+      <id>b0d44bc6-12e7-474b-a897-df733daf2fd5</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>a7bfaec4-80d8-4ad8-a320-e091f4d88819</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>babfd564-cfb3-455c-b345-37dc96d196fe</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>6ed4f8c3-2d27-492d-84db-c19291970443</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>99af435d-4f52-4fae-ba79-028693bb8d4f</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>21b1b520-cfa0-4a19-8491-6d1b392b36df</id>
+    </Compile>
+    <Compile Include="NTDS.cs">
+      <id>bd9e4746-c782-492c-b3b1-401a01cf2cdc</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>9068700e-e095-41dc-b239-82271e4d0a15</id>
+    </Compile>
+    <Compile Include="Terminal.cs">
+      <id>8fe72b70-2ae0-4e06-97cf-dfbdfecb9303</id>
+    </Compile>
+    <Compile Include="V15_Smoke_TestRepository.cs">
+      <BoundTo>FFB92A23-FC9C-420C-BB49-D50C2130D743</BoundTo>
+      <DependentUpon>V15_Smoke_TestRepository.rxrep</DependentUpon>
+      <id>81a63a23-8170-4980-9ac5-c6e499e01971</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <None Include="Reports\V15_Smoke_Test_20110504_060112.rxlog">
+      <id>15567499-14dd-4eb9-a598-0c31e2daa570</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_061014.rxlog">
+      <id>ed833dfc-b2ba-437d-800b-0d7dcb51fddd</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_061415.rxlog">
+      <id>3cfe7e6e-91a4-4f99-88c0-02687ced9d52</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_075338.rxlog">
+      <id>be4f4040-1b7a-4ae8-8f37-e058c143a880</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_075600.rxlog">
+      <id>22f332df-8c00-4827-b960-dac172ac4882</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_082134.rxlog">
+      <id>4971e368-0741-40cf-9231-cad741a1ee75</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_090436.rxlog">
+      <id>156103ad-f073-420c-b30b-8f1e1b78c30a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_091004.rxlog">
+      <id>606a031e-dffd-4c68-8155-d810c9ed1282</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_093531.rxlog">
+      <id>1f40dbcc-6c46-40e9-921f-b50c6ace7a9a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_095415.rxlog">
+      <id>b67f8d74-d6f1-4ba4-9c3a-d7c34f3e4fdf</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_100005.rxlog">
+      <id>b745927e-05ea-467b-a92d-25764980438c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_100213.rxlog">
+      <id>616777d3-8f77-4dc5-9213-80b40184c182</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_102905.rxlog">
+      <id>5fff8efb-1543-432c-b672-4883501c8094</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_103206.rxlog">
+      <id>66037972-b31a-441f-84ba-173916a7d22c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_104017.rxlog">
+      <id>b138b39e-b2f8-4a45-bc57-375065e66b0d</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_104400.rxlog">
+      <id>5d55dd43-f360-45cf-89ca-cce8bc20bc40</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_105846.rxlog">
+      <id>01446a58-b3bd-40d9-99fc-62d367bb4147</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_110027.rxlog">
+      <id>77db599c-16c7-4425-bc7f-397a003537af</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_110715.rxlog">
+      <id>f1453b3d-50f3-482a-b6b6-ef6f29c5752c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_111707.rxlog">
+      <id>c63ad37c-d08d-4e37-85a2-1d42829ae8a0</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_112958.rxlog">
+      <id>afa7db0a-05c7-4aca-93ab-6a8b8644f0d9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_113218.rxlog">
+      <id>1d7b5a7d-b0fe-4a68-8925-3db3642f9721</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_113543.rxlog">
+      <id>3c68088c-0168-4e3d-b88d-f898726107f9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_113838.rxlog">
+      <id>7694f7ad-c047-44a7-a473-5240d8b884d3</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_124849.rxlog">
+      <id>a3ca8ab6-e14f-4f60-af75-6d77fabd3684</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_133352.rxlog">
+      <id>0a2e4105-e343-42ed-98f1-4efaf516717f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_135503.rxlog">
+      <id>dd56454c-c240-4bcb-9272-252e89ca91a7</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_141457.rxlog">
+      <id>55036eb7-2044-40ba-b448-f8815ad72bbe</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_141759.rxlog">
+      <id>b506ddae-7df4-480c-afa6-39594f2ac156</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_144652.rxlog">
+      <id>01182e18-5caf-4b09-b5cd-ccd15bf5e6c6</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_155046.rxlog">
+      <id>782b5ce8-7b62-4ed5-b488-630a8337e57a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_161544.rxlog">
+      <id>f3f946fa-cd6e-49b3-b3c0-751f496f496a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110504_162044.rxlog">
+      <id>0223257b-af96-43d9-8949-bee349f75acc</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_054113.rxlog">
+      <id>c1209b9f-bc3c-4c7b-b7eb-04d2a9c78a62</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_090241.rxlog">
+      <id>63295459-d698-486d-b8f3-9006e40a6051</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_094958.rxlog">
+      <id>2f9933cb-1056-4fcc-b02a-feaf45a113fe</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_095323.rxlog">
+      <id>b6ad3a58-27f3-49b4-b5e1-068321cd54e3</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_095643.rxlog">
+      <id>bed14c16-dd8f-497e-9eeb-1f11a0b83c7a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_142329.rxlog">
+      <id>c4bb8405-feae-496f-b2de-a1ec3f52c325</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_142603.rxlog">
+      <id>969ecac0-2d69-4ca8-b583-6321bc2054a7</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_143343.rxlog">
+      <id>dfded4d7-3b2d-4707-a6af-9f60174ab010</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_143625.rxlog">
+      <id>19bccc2c-b01b-468f-8c6f-2fb5775ef5a5</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_143937.rxlog">
+      <id>5fadb1e5-fbe3-466f-be95-31e562835109</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110505_154313.rxlog">
+      <id>0696b4a2-ef8c-4ab0-bcfe-888320bb5848</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_064156.rxlog">
+      <id>aa933bcb-f750-48ec-a0e6-83db2d75bb52</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_064728.rxlog">
+      <id>0be00905-03f0-451f-8bde-7c3f41a0e06c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_065330.rxlog">
+      <id>c8abf644-3f39-4ae0-8c17-0d71fb90e954</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_065506.rxlog">
+      <id>262572a8-91a8-4e2c-8a6e-430a1f7b0b94</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_065955.rxlog">
+      <id>ea99aa99-e6b3-4319-a608-4dfca9114f2c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_070327.rxlog">
+      <id>48f33649-aff9-4783-9701-b461450e1d81</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_072012.rxlog">
+      <id>6bc51341-e211-4d81-bd9a-82d0bd7c6630</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_074515.rxlog">
+      <id>fe26356a-0abe-406f-a015-90533a628f81</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_074747.rxlog">
+      <id>165d50e5-6abb-4472-98d0-b411cbf27fa2</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_075134.rxlog">
+      <id>88400da6-d6f4-4f78-b176-aff8f80fba73</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_075631.rxlog">
+      <id>ac381a58-382c-44cc-a694-167c43ba5dd1</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_083229.rxlog">
+      <id>26e3f57a-7c9a-4b91-adb6-8fdc15c5ad7c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_090617.rxlog">
+      <id>a720abc3-a013-448a-8c85-f1037ed77532</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_094618.rxlog">
+      <id>52a94b5d-5667-41e7-8556-6362c96c83b7</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_102317.rxlog">
+      <id>9f801579-8c75-41a9-83af-dc09d432a7d8</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_112433.rxlog">
+      <id>4813d04d-19d2-45a1-9012-35c9708c3ea8</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_113330.rxlog">
+      <id>a008a388-d94b-4f00-8905-a00d673ce2f9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_114020.rxlog">
+      <id>0ce965a6-4d9b-487e-a1f8-f4c6284b2f31</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_114716.rxlog">
+      <id>aca761c5-2867-4b00-b88d-9058bc8a454f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_120803.rxlog">
+      <id>1bf84a24-606e-4f9c-a2d3-5b50d14358d9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_122920.rxlog">
+      <id>219e7abd-3d98-446b-9cf3-03b2fbf3f72d</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_123330.rxlog">
+      <id>ca4bdb7c-477d-4052-8c86-ab8b2d6be6a5</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_124048.rxlog">
+      <id>166b257c-adeb-426d-a896-c6c7215752d8</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_133620.rxlog">
+      <id>db647190-fabc-4e03-b5d2-a41fd00620d7</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_135725.rxlog">
+      <id>50eaa073-2760-4cfd-8af2-74ef7bb38c78</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_140033.rxlog">
+      <id>0b2bde38-6cc1-4db9-858b-e1bb08cbbc79</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_141430.rxlog">
+      <id>f63f368e-8224-4ce1-9a3b-a3a4a0016a17</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_142528.rxlog">
+      <id>aae5b5e1-207a-4c65-8388-e2faac4f3cf1</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110509_160337.rxlog">
+      <id>dbcf7be4-6624-4762-91a2-aaf10055e35d</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110510_060412.rxlog">
+      <id>0a50f440-ebe9-4220-ba5b-c8750ede7cdd</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_055613.rxlog">
+      <id>83eb1ee2-d1c0-44a8-b016-1d2c3324d903</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_055924.rxlog">
+      <id>e8a6a802-ab5a-4f5b-bf83-17c755b19df4</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_060332.rxlog">
+      <id>66ab83f0-b115-4db0-950b-1d7c92cc5d40</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_061007.rxlog">
+      <id>8a6787ce-ec7e-4f20-b1f8-6e1a185bea30</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_061136.rxlog">
+      <id>a2f66b1e-5940-4247-92ea-d1652344ec52</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_061314.rxlog">
+      <id>9d2d4b50-6584-4e80-9572-74e88685c0fb</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_062828.rxlog">
+      <id>c45d852a-2f49-4c4c-8dc0-69b4733c3d5a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_063307.rxlog">
+      <id>6c124ebb-1658-4488-8356-b92b0158cfeb</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_063808.rxlog">
+      <id>4b9270c5-22b0-4005-8994-d3f2c37f70e1</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_063949.rxlog">
+      <id>65cba23c-3cea-4f83-8c80-30b9945e891b</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_064611.rxlog">
+      <id>47740331-55a7-439b-918c-120eb4d34252</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_065102.rxlog">
+      <id>0c795b85-bdb3-4b3a-8f87-9e548e80a831</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_072635.rxlog">
+      <id>48b7b742-e16c-4369-ae3d-b5b36027a714</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_072812.rxlog">
+      <id>6e439f35-4dce-4785-97b5-617886ff63d9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_073826.rxlog">
+      <id>b3be8a6b-5e73-4a95-9340-10ba6f63b4e5</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_074015.rxlog">
+      <id>9549aef0-0ab0-42ec-bde8-0ecd1d43d1ff</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_075039.rxlog">
+      <id>10af1cf3-bd87-4ff0-9808-97fe2c617c6e</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_075541.rxlog">
+      <id>d6ebcacf-4f6f-4e8d-be8d-1ebe101fd4fd</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_080008.rxlog">
+      <id>a1d096b9-24ea-4046-a7a6-85f79fcec55f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_080717.rxlog">
+      <id>2e0e1455-8e16-493a-b2b2-74d588ff86ef</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_080824.rxlog">
+      <id>d2a8a6b8-f8ba-4722-a1fb-83ac233fe084</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_081540.rxlog">
+      <id>bd17ae41-76e7-4adc-b571-fa5b4350c435</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_081713.rxlog">
+      <id>98ff2e0f-11ba-4620-8b88-3111fa203714</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_083413.rxlog">
+      <id>4085c439-27e2-4e88-b2a2-e93cbb321871</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_084746.rxlog">
+      <id>d90dc1c0-0164-44eb-9008-5a12d22e8afe</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_092450.rxlog">
+      <id>4a6b6e2c-8ac7-4e34-9b99-9fd25a7cccca</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_094749.rxlog">
+      <id>c3dcb4b8-885b-4093-a1d3-ac52d86155ee</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_094847.rxlog">
+      <id>8ca62585-d0af-46d3-ac47-a9a1ef524868</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_100649.rxlog">
+      <id>93dc3a11-4d40-4f0c-b7e4-88e0e50a0dd0</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_101432.rxlog">
+      <id>5129aea7-0615-4e27-a2d7-42e9f8e5b606</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_101735.rxlog">
+      <id>12f1aac8-2a22-4006-a4d9-62a50c611b80</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_101933.rxlog">
+      <id>b05619cf-86a8-40a0-9da4-42e719550bd2</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_103954.rxlog">
+      <id>84f2741f-9e1a-4c11-9d35-2ee43476ffc9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_103955.rxlog">
+      <id>45ac7658-0cde-4965-8f17-9786187ae06f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_104456.rxlog">
+      <id>9cacb3de-d8f0-48d6-b34a-520ae9c06e95</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_104829.rxlog">
+      <id>f13a3674-e440-452f-af57-55ef808ec9de</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_105655.rxlog">
+      <id>c51c257a-b725-4fdc-821c-bb676bad7d47</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_112948.rxlog">
+      <id>2006ebec-8511-4a18-a4e8-cc8947e7507c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_122208.rxlog">
+      <id>5fc028f2-170c-466d-ae23-96f5acb63e70</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_123505.rxlog">
+      <id>ad77f6f6-8680-4409-99e4-166539a68166</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_144918.rxlog">
+      <id>3db3bf5e-230b-45b7-a0d6-55d4bd6e6412</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_154036.rxlog">
+      <id>e080acf9-b049-4082-82c3-f9310b31ae38</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_154532.rxlog">
+      <id>ec17ccc4-6d8f-4ebd-94bb-18494602b9b9</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110516_161516.rxlog">
+      <id>2601959c-a9aa-4192-bfaa-a03148465d4f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_053235.rxlog">
+      <id>1fdb8614-9e79-495f-af22-c090bddf80f0</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_053829.rxlog">
+      <id>cad5ca74-92f1-4e8c-b25b-45c5a2efb083</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_054033.rxlog">
+      <id>4c9853b1-548f-413c-a78e-b1927a5f750f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_054225.rxlog">
+      <id>12bb5c6c-750c-4173-9fb9-7f26ec8ecf78</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_054635.rxlog">
+      <id>70860110-09e3-461b-8982-fde39aa0d15c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_055629.rxlog">
+      <id>fe9844cf-d7f8-4c74-bc5e-a27f5eb0da05</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110517_055813.rxlog">
+      <id>cada3e1e-a1f0-461e-be55-82cb6f24ce57</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110519_125328.rxlog">
+      <id>fc5c7e3d-eb0e-4023-a593-1525a772cded</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110519_125356.rxlog">
+      <id>fc3d7dd5-6bf3-408f-aa0e-a400bd573c55</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110519_130426.rxlog">
+      <id>d62d6f4f-8710-47b1-ae75-c21a4d414f28</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_120959.rxlog">
+      <id>1dfc54b3-7231-4444-a0a7-e11f8be0f9bf</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_121344.rxlog">
+      <id>4295edbb-d4d1-4ddf-a2fb-ec3434b4852a</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_121514.rxlog">
+      <id>4b9a3e08-17d0-433a-86cb-5f68986ff6a8</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_121910.rxlog">
+      <id>b96bf9ee-085e-47d1-9f10-7a9df71bd6a2</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_122706.rxlog">
+      <id>cd3533d8-5b2f-4275-91d3-ce6f39c75c26</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_122854.rxlog">
+      <id>518786b9-c462-4107-9e49-84d6759d6013</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_123112.rxlog">
+      <id>9b70225f-94d0-4777-94f9-10745edd992c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_123318.rxlog">
+      <id>ef3bc07a-26a0-4013-bd87-9165cccffa4f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_123540.rxlog">
+      <id>06126421-475f-463e-bc76-90e2595263b4</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_123721.rxlog">
+      <id>ace020e9-dee5-4ff8-aa9d-bd513cccad90</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_124141.rxlog">
+      <id>66d7fc37-3bc8-4f3d-ab39-ece6d1074b4b</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_124312.rxlog">
+      <id>ceeaaac4-3d5b-4905-ba14-2a9d10ddea88</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_124357.rxlog">
+      <id>eca15b37-bdcb-4069-a411-32f461cef336</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_124456.rxlog">
+      <id>61257485-9d47-414d-8ab3-c5f2b97fd442</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_124607.rxlog">
+      <id>f253899d-ce80-4b17-ab6a-fa843a6f9faf</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_124828.rxlog">
+      <id>3d0f4a0e-81bd-470b-8970-7a02821d1d2e</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_125723.rxlog">
+      <id>a225420d-8505-4f77-a050-7eb2d104007c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110725_125859.rxlog">
+      <id>62e94c62-8688-4f47-9658-6ef8e90a8154</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_105042.rxlog">
+      <id>77d7254e-c0d1-4cc8-af71-61c2fa5ddd06</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_105431.rxlog">
+      <id>d65c5749-704c-4ada-b833-c1ebfb077204</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_110032.rxlog">
+      <id>d8c24fc2-b0e4-44b8-ab83-9b034c17c8b1</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_110614.rxlog">
+      <id>4b7ba972-4bb7-4f69-8b69-14dddd9c4041</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_111716.rxlog">
+      <id>5527bebc-f286-408e-aabd-ed6bb51fb699</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_111951.rxlog">
+      <id>81402abc-ea19-4680-86a7-0095629e8bb6</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_122914.rxlog">
+      <id>1f6f569d-b10a-4998-ab56-4591b4d361cc</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_123330.rxlog">
+      <id>03d6e8d4-94c2-442e-b3a9-dcf94cf2219c</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_124726.rxlog">
+      <id>22d5160a-ea6a-4abb-a5ad-9044f999e59b</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_125254.rxlog">
+      <id>b2f884af-8365-4bf0-b964-a75c04b20f78</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_125334.rxlog">
+      <id>211190b0-c650-47c0-bb63-187de7c5b896</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_130122.rxlog">
+      <id>03a133e2-2280-4b75-95ed-de21a816e708</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_132603.rxlog">
+      <id>b99a817e-3627-4bc1-84fd-a938d09fe392</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_133234.rxlog">
+      <id>9364d953-bb58-4104-9b2c-4f3cdf48a5ed</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_133520.rxlog">
+      <id>d6762c02-3bfc-49bc-b3b2-cf0a6502342d</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_134328.rxlog">
+      <id>5421ac4c-d38a-481c-b0da-0a7c12762043</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_134544.rxlog">
+      <id>a2d2c91b-1b76-4d99-8820-1abc813cd908</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_135300.rxlog">
+      <id>7a56766e-c985-4836-a435-660851335444</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_135648.rxlog">
+      <id>88ee2ad3-fe1d-4097-ae74-4bd1e4500185</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_141139.rxlog">
+      <id>270e8463-3b11-46bc-87fe-01e9c0a1fcf3</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_153305.rxlog">
+      <id>4ddd71e8-1e35-42c2-b691-619261b5f3d2</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_155100.rxlog">
+      <id>5c0a2ca3-dbfc-46a7-9203-1e155bacd7cc</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_164110.rxlog">
+      <id>d7ae44ad-649e-4ada-82f0-f6603945a2d8</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110726_164450.rxlog">
+      <id>95b89e63-255a-4bfe-9839-20b236399f88</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_085407.rxlog">
+      <id>1d16ac10-810a-454d-a97b-c3976919d529</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_100135.rxlog">
+      <id>782b6b68-683c-453b-9293-a9731b12902f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_100702.rxlog">
+      <id>b3d45e34-f0c4-4900-80cf-0c1cd7caeef5</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_100849.rxlog">
+      <id>6d89d710-fb6d-4885-8b2b-a9f8a05965c1</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_101139.rxlog">
+      <id>f688b4a8-59d1-4fbf-a172-c1366d78e149</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_101218.rxlog">
+      <id>2a28f96a-bd1c-483b-b300-b285401644fd</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_101832.rxlog">
+      <id>e171c6f7-1e0d-4092-8065-f37b517e7dc6</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_101908.rxlog">
+      <id>bfa0808b-2bdb-4445-ba4a-0086e7287b98</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_102135.rxlog">
+      <id>7c9574c5-2fac-412a-9973-2feed0511e49</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_102529.rxlog">
+      <id>7236b3d1-4311-429a-80b6-15442756761b</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_103427.rxlog">
+      <id>06e0fb01-f24b-401d-b852-d60cc8f6342d</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_103718.rxlog">
+      <id>35e2457e-70a4-44ec-8895-8aa118571884</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_103746.rxlog">
+      <id>0c492333-0687-4cfe-b0cc-c54f2a0443a7</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_103938.rxlog">
+      <id>a79cd667-9e72-400d-8acb-2962e738e9ab</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_105205.rxlog">
+      <id>579014cb-423b-4e03-9007-0f2edbea21d4</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_125114.rxlog">
+      <id>150a37e0-e06c-4f23-814c-4c49e6804a52</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_125206.rxlog">
+      <id>0f5dcc72-e30a-4b80-991e-cd53f12287e2</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_125300.rxlog">
+      <id>ef2e4441-b19a-4d50-9a59-2bf2b11f0bd4</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_125358.rxlog">
+      <id>1ae3287d-1d26-47f9-936f-c1ecec1d9ee4</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_131024.rxlog">
+      <id>5709fbec-03c8-4a2d-9997-c1b04092fc8b</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_131137.rxlog">
+      <id>0016ab3b-f9b6-4cfa-a3dd-4e8b68de493f</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_132504.rxlog">
+      <id>7f417980-10c0-47bc-923f-c90c6de33b8e</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_132538.rxlog">
+      <id>1d418f3e-3cce-46c8-923e-d075c0f2b45d</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_132623.rxlog">
+      <id>4a2de8c7-7620-4d49-b55e-61a1564a6b85</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_133730.rxlog">
+      <id>b2537eb6-3b33-47a5-bddd-a74921aed233</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110727_133833.rxlog">
+      <id>04127767-0154-4bcc-87ac-0f8d58623e80</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110728_100945.rxlog">
+      <id>3cea4ff5-0757-4e57-990c-c8c3962aa320</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110728_101110.rxlog">
+      <id>3f8dc3bb-f89f-495d-8a39-dc87aafc5598</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110728_102414.rxlog">
+      <id>6f4f15c3-9bdf-4df8-afd2-578b0abfa182</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110728_105233.rxlog">
+      <id>2bdcf6e0-1cb3-4c56-8d37-10f217ad3508</id>
+    </None>
+    <None Include="Reports\V15_Smoke_Test_20110728_105243.rxlog">
+      <id>5f4d185c-ff63-4ac3-a2e0-6f073661a2f4</id>
+    </None>
+    <None Include="V15_Smoke_Test.rxtst">
+      <id>d1b35567-6952-4897-a9d5-8ba288170a06</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="V15_Smoke_TestRepository.rxrep">
+      <id>FFB92A23-FC9C-420C-BB49-D50C2130D743</id>
+      <projectdefaultrepository>true</projectdefaultrepository>
+      <repoid>3fb5c58c-cc96-4914-a023-7701c3e71f0c</repoid>
+      <reporootid>638de6e7-23d6-4759-b1c4-f06303437630</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>5c51585a-1b81-45e5-bc08-d760ea1ae52e</id>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationWizardLib\ConfigurationWizardLib.csproj">
+      <Project>{99FB7985-32FC-4069-AAC9-77FC142B62F2}</Project>
+      <Name>ConfigurationWizardLib</Name>
+      <id>26802e8f-5585-4339-8690-5c1d3d3f5f50</id>
+    </ProjectReference>
+    <ProjectReference Include="..\InstallerLib\InstallerLib.csproj">
+      <Project>{40C3E212-7984-4325-B1BF-6AB8145FB0B6}</Project>
+      <Name>InstallerLib</Name>
+      <id>27db086a-9a9c-4f0e-a431-68c963946949</id>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemManagerLib\SystemManagerLib.csproj">
+      <Project>{0C41898E-56CD-4C3D-A861-433FD1908445}</Project>
+      <Name>SystemManagerLib</Name>
+      <id>e950e6ba-21b6-4e53-b8eb-55144eb8d4f7</id>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+      <id>82b3a2ed-6ba4-41b5-bf9c-828c8e6380b9</id>
+    </ProjectReference>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>ba8abf18-8b08-4e8d-8f08-4ea34f924673</id>
+    </Folder>
+  </ItemGroup>
+</Project>

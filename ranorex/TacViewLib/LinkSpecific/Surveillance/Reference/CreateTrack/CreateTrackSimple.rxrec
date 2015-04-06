@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="1eaa0ace-5e55-4eb0-b90c-10eb61d5df05">
+  <name>
+    CreateTrackSimple
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    8
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CreateTrackRegression" namespace="TacViewLib.LinkSpecific.Surveillance.Reference.CreateTrack"/>
+  <recorditems>
+    <delayitem duration="5000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <userrecorditem duration="100ms" methodname="GetTrackCount">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="RandCoord">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="798" sy="393" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b5621217-840f-403b-9eeb-5241411bd67d">
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="1296117f-dc40-4260-9fa3-d65acd6aa78d">
+        <path>
+          <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="5613adc7-4f9e-4f4e-9c09-b2bbd4d25bbb">
+        <path>
+          <![CDATA[/form[@title~'C2HOST.*']/contextmenu[1]/menuitem[@accessiblename='Reference Point']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="100ms" methodname="PTypeval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="0ms" methodname="Ampval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="Click_ButtonSave">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="0ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="RepositoryEditor" id="74f35209-2d31-4cd9-8eaf-2d1177302df2">
+            <path>
+              <![CDATA[/form[@title~'Main \(Reference Point TN \).* ']/.//button[@accessiblename='Save']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="GetTrackNum">
+      <comment>
+      </comment>
+    </userrecorditem>
+  </recorditems>
+  <repository name="Link_16_RegressionRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.8.10854" relativepath="..\..\..\..\Link-16_RegressionRepository.rxrep">
+    <codegen classname="Link_16_RegressionRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

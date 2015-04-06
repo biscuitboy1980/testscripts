@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.5.10317" id="9863c1a3-2377-488b-b1d0-ee44a4e3f8d4">
+  <name>
+    StopScenario
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="StopScenario" namespace="TacViewLib.UISpecific.WatchlistFields"/>
+  <recorditems>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="CenterRight">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="c6075e2e-ec02-4421-a802-b5e189d4dd67">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']/titlebar[@accessiblevalue~'^TacViewC2.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="834c69ad-2d6c-4f28-80ca-ea3afafe6647">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/element/menubar[1]/menuitem[@accessiblename='Scenario']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="382" sy="83" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="df575b7a-5f14-4883-9fab-c62083094335">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="False" hasfocus="True" dontcache="False" index="1" rect="322,74,161,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Stop Scenario]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Stop Scenario]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Unavailable, Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Scenario']/contextmenu[1]/menuitem[@accessiblename='Stop Scenario']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.5.10317" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

@@ -1,0 +1,740 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{F5CB8B05-BBF3-47A0-9B38-2AF5EC827612}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Install_Setup_V15</RootNamespace>
+    <AssemblyName>Install_Setup_V15</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>680239ad-36a3-4594-a563-01e36c39fe58</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>6681cff8-27fe-4c22-9bb3-f1beab534dd6</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>ae1f6183-72fe-45ad-95de-f850b0886dc1</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>b7e7f054-184b-4e01-820f-970b28fdfcb5</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>13fe7ba2-ddad-420a-ac3c-14493843ceef</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>691dbb49-f6bf-4dc9-9df0-178d986d4c33</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>36d6e859-c082-4f8c-954d-daa846a729c3</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>41ef610a-3a4e-4167-b375-0bca1fe3eead</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>7c100164-ed1b-4832-84af-ad70317e08f2</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>5724a7bb-f987-4ac2-ba1c-9c5c8021a20e</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>e0aebdb1-fdca-4298-8bcc-bec416f48884</id>
+    </Reference>
+    <Reference Include="System">
+      <id>249a713d-26b8-44ea-af6b-b85f2644e3eb</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>f8171ea4-b605-4d03-8911-54f9fb1e8842</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>5a639f6f-730e-4f1b-b13d-19cfd6599738</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>355609d4-f376-4dd5-8e19-6e519b062b17</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>b767e7fa-ab94-43ca-b45a-7fe21ae70934</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>ca5431a9-81d3-4e4f-a78b-96900dd8929e</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>c764c44e-6218-499e-9107-11d79397ea2d</id>
+    </Compile>
+    <None Include="Apps\7z920-x64.msi">
+      <id>ff73b8e1-c5e2-4067-a8f1-e856e663d776</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Apps\7z920.exe">
+      <id>7098241f-f4c3-48ee-8203-c90865840da5</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\CPCI_SUT.xml">
+      <id>1e38b7ea-b572-44a5-947b-f6c5079496ab</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\InstallService.bat">
+      <id>cd0e53a0-f1c5-4251-9677-eb911b02cbdf</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\PCI_ADSI.xml">
+      <id>691346e1-f84d-47d9-8646-568d14b50994</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\RestartDaemons.sh">
+      <id>072477e1-7f46-4f0f-97fa-15d32e59fd74</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\SFF_SUT.xml">
+      <id>3296c7db-128b-4434-b51e-1742581256eb</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\SIM.xml">
+      <id>a67ee73e-2ad0-47b4-948c-751c572e949c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\Site1.site">
+      <id>a76fc745-5a2d-45a2-a1c4-07ea4fcf439e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\Site2.site">
+      <id>107da3b4-0a12-4734-8423-a00be7c7e188</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\sm.ini">
+      <id>c6d7ab01-5bf8-4d3a-823c-d7806582bf9a</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\Ultra16_SUT.xml">
+      <id>dd7285f1-dba5-4e6e-80cc-3326eab97403</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\PostReboot.bat">
+      <id>d06eb43d-b605-43c8-ada5-e9b4ece6c539</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Install_Setup_V15.rxtst">
+      <id>0c7a6f20-09b4-4829-84a0-2f0b35d4f192</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110330_210528.rxlog">
+      <id>23977dfd-a169-43dc-a97b-f475af5587d4</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110330_210535.rxlog">
+      <id>cec32517-1fab-4e89-8ffd-1a0c9abbc68c</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110331_145646.rxlog">
+      <id>a3f0fd48-34e9-4ebc-bd3a-f25ad5853f3c</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110331_193741.rxlog">
+      <id>3fc58e9c-ceba-45fb-9ec9-84a0ccd601c6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110331_195507.rxlog">
+      <id>7c6ed30f-ab92-4e3c-96db-60f293c30adc</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110331_195911.rxlog">
+      <id>4fefa628-08d0-4e78-be8a-e766af188d93</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110705_175129.rxlog">
+      <id>2f1e4f9d-51a0-4afb-917b-31d5ef3dcf71</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110705_175207.rxlog">
+      <id>fec0ff99-9b04-4601-b083-a2abe3c9bd5e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110705_175333.rxlog">
+      <id>eb708324-bf66-46f6-a51e-ed2acb58139f</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110705_175721.rxlog">
+      <id>9c935d0e-05d7-4133-8604-eff96735e73a</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110705_181005.rxlog">
+      <id>afc55b04-83ba-4146-a7e7-46e17c16c246</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110705_182017.rxlog">
+      <id>0bb67d77-180b-42c4-a9be-e08875d9e097</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_092059.rxlog">
+      <id>859c2b3e-cd6f-41ed-87d6-0c3142e5f42f</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_094502.rxlog">
+      <id>7dce33f1-1311-42fd-b7b6-5904771bce52</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_094936.rxlog">
+      <id>96bf392e-c331-449a-bdbd-813588536df5</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_095122.rxlog">
+      <id>5831977e-1545-4000-b613-6d04c6c10936</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_100407.rxlog">
+      <id>07245916-a79b-45a3-b276-08728f1adf78</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_104153.rxlog">
+      <id>8e80dbb0-922e-429f-8a8d-fb66a02e2595</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_104351.rxlog">
+      <id>64702dfa-2a21-4dec-ba83-9264687937aa</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_104521.rxlog">
+      <id>2292c1d8-cbf2-492d-9d54-a809272728c6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_105251.rxlog">
+      <id>56027bfa-f341-43bf-9aa9-4103cded37f1</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_105428.rxlog">
+      <id>04a7489d-f572-4c17-9e89-1375e679a33d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_105641.rxlog">
+      <id>8f30d327-57bf-41e6-afbb-9817b54ad727</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_105752.rxlog">
+      <id>2826c974-02d1-42d1-bac4-2e915dd5d0b0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_110029.rxlog">
+      <id>2b6b9ced-0ea0-4e96-8f87-ae8795ed5339</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_110426.rxlog">
+      <id>86ebb1e7-81eb-4575-aaff-f75f3eec4329</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_111923.rxlog">
+      <id>c4160a30-9c03-404a-8aed-432228c01c45</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_125333.rxlog">
+      <id>45ea6a80-8e49-48a5-84d2-014912f5c7c0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_130632.rxlog">
+      <id>d84310a4-500f-4f5b-a0a4-e089d5a98bf2</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_131808.rxlog">
+      <id>1d98d89d-378c-4a6f-8f52-75317a8d63e3</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_134256.rxlog">
+      <id>7e3402e3-9fa7-446e-afdd-e0423664fc15</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_134444.rxlog">
+      <id>1e9935f6-c916-4730-89cd-4669995186bf</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_153639.rxlog">
+      <id>4e7f70de-4cea-4cf2-b98e-249bd437c094</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_154219.rxlog">
+      <id>7d1cca19-bb91-47f4-b858-f2953ddba543</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_154314.rxlog">
+      <id>a7cd56fd-c8fc-4a50-a13b-a4ba5739d1e6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_161605.rxlog">
+      <id>4fe230a0-0bbd-488b-85c5-679c55a65c2b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_171918.rxlog">
+      <id>8aded857-f5ae-4877-ae7b-2428d1aa82f1</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_172916.rxlog">
+      <id>68f0d167-a48e-4038-b9eb-03d6a8de7f02</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_173725.rxlog">
+      <id>dc998ac0-dcf4-4b2a-8bd9-073ca5f130a5</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_173828.rxlog">
+      <id>f5b0fa42-7aec-4006-9941-c1d61ea0020a</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_174415.rxlog">
+      <id>54a49612-2275-4b7f-a684-49a1d68a7ad6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_174525.rxlog">
+      <id>6bae28b1-4107-4f60-be8e-e4e92d4cfa5e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_180249.rxlog">
+      <id>34233758-2747-418c-9bcc-86488d62ef39</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110706_180742.rxlog">
+      <id>8ff8664f-7194-4732-aa73-a6ceeaef8aab</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_113247.rxlog">
+      <id>6630ddf4-b560-4ec5-bf04-d2594946a32d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_114407.rxlog">
+      <id>1ecae8ac-965e-4939-9169-e5466f09d39f</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_114639.rxlog">
+      <id>ff8db1b6-565f-4841-9e61-f120368bbdb6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_115049.rxlog">
+      <id>9258e661-ef30-493d-8e21-a02fa4f058fb</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_115700.rxlog">
+      <id>57080389-3da5-450d-a84d-b2068ff1c753</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_121232.rxlog">
+      <id>bb682636-50b0-4eb6-9746-00cd4787b18e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_133334.rxlog">
+      <id>e634100a-ac61-40c4-bf18-0775978da178</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_134823.rxlog">
+      <id>d07bd35c-e7c9-437b-b962-cb1a069bbad5</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_135136.rxlog">
+      <id>bbb819e9-358b-48a9-9386-286653697ea5</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_140507.rxlog">
+      <id>9a9d0d3e-6e08-4b0d-8a39-8e049e0f48cf</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_162758.rxlog">
+      <id>53a1afa9-1551-4884-997d-68dcb56b72db</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_163718.rxlog">
+      <id>e8a4210a-7337-4d35-ad26-46dfbcd3725f</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_163936.rxlog">
+      <id>6635f1b6-7af7-47df-b3b5-b51b397fc1a2</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_164910.rxlog">
+      <id>d1f69de2-c4e3-416f-ab4c-27ebab793e4b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_165354.rxlog">
+      <id>e3364398-090f-4115-b415-a708d96f96c9</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_165446.rxlog">
+      <id>2a72e182-73f8-4dd4-9e28-b3a65133e883</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_165907.rxlog">
+      <id>af33d965-c145-4ede-9643-32c11b1078dd</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_165924.rxlog">
+      <id>d0b1bceb-2b0a-4b47-ac89-6b386391feb3</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_170033.rxlog">
+      <id>1baba27e-e538-4c6c-9473-046c5fa758d3</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_170341.rxlog">
+      <id>e37c97d7-5afd-4d18-b0c5-71ebf6b3ed5d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_170626.rxlog">
+      <id>d81f4956-55c9-4e45-b39a-84d261ddcc6e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_171353.rxlog">
+      <id>f15e1570-09f5-43fd-9d17-2406373f00e0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110707_172103.rxlog">
+      <id>2b2055c9-b207-4342-9f7e-7b0d12853c44</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_102932.rxlog">
+      <id>0e24552b-0762-4956-9f37-a979a4a5f883</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_105550.rxlog">
+      <id>da5ff05b-a84b-42c2-b0e1-84e5b2df3ee8</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_110101.rxlog">
+      <id>cf3d7a16-64f0-4bb9-9e7c-44643702a6a8</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_110732.rxlog">
+      <id>79e15b29-b475-44f0-aafb-594ada885271</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_111310.rxlog">
+      <id>b5adb0c8-aba7-498b-87b1-af1cb3250130</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_112904.rxlog">
+      <id>564bd487-6149-49b0-aaa7-cb9004ab36a1</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_113902.rxlog">
+      <id>65508b52-23b5-447e-a7c9-3748cca6fe41</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_114508.rxlog">
+      <id>96324340-d83e-4f23-a48e-7a86787f395b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_115021.rxlog">
+      <id>ab56bd8b-9c32-451a-a228-1d152096ec47</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_115147.rxlog">
+      <id>ac53e841-a7ef-4f9a-a4f3-22c966e253f0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_115356.rxlog">
+      <id>62a2778d-0368-4a06-ad62-67832c2f76ae</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_115738.rxlog">
+      <id>7a3856df-4dfd-47ce-bcad-5e8245a88741</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_120540.rxlog">
+      <id>8aa4c135-97fd-4664-abe7-6c4c4a9a455a</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_120707.rxlog">
+      <id>de9a6779-e3df-417a-a938-d5b059a0d97b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_121011.rxlog">
+      <id>dd995bb3-1846-403a-9473-533455afcb14</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_121153.rxlog">
+      <id>b038479c-e796-48fb-9551-5696498446e8</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_121907.rxlog">
+      <id>f038464c-dc39-40c3-ab5a-dc61513fb353</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_122246.rxlog">
+      <id>477392dd-6d31-4109-a954-5e9a86219f72</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_123254.rxlog">
+      <id>d42e233e-3ef7-46df-9f3e-c049cb029df1</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_160705.rxlog">
+      <id>32e46b7d-6c69-4fb1-84ae-9cf4cc52a26e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_162222.rxlog">
+      <id>b408d009-416d-4a56-bdb2-876fc1bbaa5d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_162322.rxlog">
+      <id>f8d6b84b-5091-4d4d-b0a1-dc23b1e16483</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_162533.rxlog">
+      <id>59631258-a4b4-4778-adcd-33b4dcc16b1f</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_163153.rxlog">
+      <id>4f4ffb27-f124-4c6d-8917-dfae16fda368</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_163512.rxlog">
+      <id>6eaaafd2-1531-44df-a51e-9b3f6947b51b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_165333.rxlog">
+      <id>555930e0-b06a-49ba-869e-767465ae2b15</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_171606.rxlog">
+      <id>dc59dfc4-1f61-4928-a541-2525b2e53150</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_171910.rxlog">
+      <id>1dd41ee2-0996-4acd-a041-456ab162b718</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_172219.rxlog">
+      <id>dc488a0f-d46c-4e6e-b65e-ce9ef44ceb55</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_173343.rxlog">
+      <id>c78fead8-de79-4033-b019-967893094541</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_173817.rxlog">
+      <id>c455fa5d-1f97-443e-a2fe-43b3f5050ee1</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_174107.rxlog">
+      <id>5fc4feee-5af5-46c6-a25e-ba12e1bb22e2</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_174633.rxlog">
+      <id>3668910c-7ed0-4efa-af69-7ea3bf0ac6d8</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110711_180744.rxlog">
+      <id>6b24d772-bd32-422b-977a-f87a6acebcc9</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_091439.rxlog">
+      <id>19405fc2-bf72-4fed-8c53-f554e03bc091</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_093135.rxlog">
+      <id>926cdbd2-9a4f-4097-aa90-78a2e8e1521b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_093506.rxlog">
+      <id>424f123b-abb9-44fe-9e44-ba65c0da3c71</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_093737.rxlog">
+      <id>cbc5411f-b288-4832-a466-838847ba247c</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_094159.rxlog">
+      <id>53059fdf-315d-49f3-b2fe-9281f1ea2d1b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_113941.rxlog">
+      <id>043637b7-40c8-4270-af6c-ac85739cd6ab</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_114147.rxlog">
+      <id>0690e822-7aeb-4f57-ab26-46fe2a2b5171</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_122130.rxlog">
+      <id>4a1e5e70-7897-48dd-9118-1fd047e72bf5</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_122607.rxlog">
+      <id>751251fc-eae0-4db1-887d-9e6b2399fc89</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_122907.rxlog">
+      <id>3438f3c1-c9ec-4511-9fb5-e0b15d27a104</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_123556.rxlog">
+      <id>ac55c922-fe2e-48d3-968a-27ed1a2dca66</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_164437.rxlog">
+      <id>e4fa3e36-534a-40b0-8b55-b65b28e2a371</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_165528.rxlog">
+      <id>311e9b01-d1a6-4e22-9de3-7f5ebb7b2acc</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_170819.rxlog">
+      <id>ce1c0b38-ef25-4688-be1a-c4c1f11b6195</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_171017.rxlog">
+      <id>8987b1f4-53d2-45ec-9592-8e28f3d45035</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110712_180051.rxlog">
+      <id>c59e365d-a460-49a8-856a-f39cc422c3a0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_104836.rxlog">
+      <id>1edce0df-2e34-4189-8fed-f6129e83688d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_105156.rxlog">
+      <id>17e401f0-d59b-4db5-90c2-648d66f57f45</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_105436.rxlog">
+      <id>474f29b3-bad2-4e0a-aafc-7c0cc6a2bdfe</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_105556.rxlog">
+      <id>5e090475-d97f-42d3-ba1e-744dffbd75c0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_111402.rxlog">
+      <id>eb2faaca-fad4-4b86-9232-82c3fa5e2e69</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_120111.rxlog">
+      <id>1926221c-47d3-4ee9-828a-a320788d07b0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_120130.rxlog">
+      <id>3bd771ab-01aa-41bd-9ddd-90d764514d29</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_122607.rxlog">
+      <id>9c85475c-96b6-4575-8f5d-b5b0bbdef292</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_123357.rxlog">
+      <id>caac32c4-16bf-4be9-a89e-f26b1c80c1ba</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_124056.rxlog">
+      <id>41b9954d-0f40-4cf1-a31a-77e11c4e6574</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_124129.rxlog">
+      <id>509dc7fc-9708-4430-b8c0-3ecac7603fed</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_142733.rxlog">
+      <id>312f3f11-adeb-4b77-a0f8-29b49e04bbcb</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_143134.rxlog">
+      <id>5740fbe9-7350-4d12-8604-bc4bd4abb9ce</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_143718.rxlog">
+      <id>6cb3b25e-b4fc-42d2-8205-a70d569a7b44</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_144511.rxlog">
+      <id>97afd1ba-7306-49c1-ba3b-4b9da98742df</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_144643.rxlog">
+      <id>9385991f-6075-4788-bd7b-50db39055ad4</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_163245.rxlog">
+      <id>c9b6edd8-0bd5-40ae-a0c7-075c1d845e6d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_163717.rxlog">
+      <id>791cec6b-d0eb-4b07-b265-91ba3ce33f46</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_165212.rxlog">
+      <id>e4f7897d-a76e-448f-ab25-a94520b4b908</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_165245.rxlog">
+      <id>3244c618-316b-4ace-9f3a-9a90cb5eaa20</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_170404.rxlog">
+      <id>188e4dd6-4ed4-4b3a-a185-c20502d4438e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_171223.rxlog">
+      <id>c5ae7263-a3df-4af7-b22f-c70f57929c77</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_172144.rxlog">
+      <id>4be8004d-3f8f-448f-bc6a-b76a070b0ef0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_172547.rxlog">
+      <id>11bea6a4-6392-4078-b988-933bb8ffb168</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_172949.rxlog">
+      <id>b63a935b-9849-4ac6-8628-a4f86f05b0f4</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_180506.rxlog">
+      <id>61e340c5-642a-4559-bbc5-fdd64d832db3</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_180930.rxlog">
+      <id>d5e48858-d23c-4921-8c8a-16a9406a90aa</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_181158.rxlog">
+      <id>22a46333-f4ae-42e4-8a5e-57968e69c389</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_181354.rxlog">
+      <id>3431eb8e-105f-4fba-8308-a16b30dea46d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_181823.rxlog">
+      <id>861a5177-abbf-4f5e-b80c-1403ce980934</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_182108.rxlog">
+      <id>f3d20dfc-ad31-48d7-8a4b-f59d477f4e97</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_182253.rxlog">
+      <id>f0f3a703-81ca-44b9-8551-7496eecbc68d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110713_182853.rxlog">
+      <id>7077c4b7-1a17-4c3e-936e-f5f8be54ca9c</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_094425.rxlog">
+      <id>4504286e-3072-497d-84f3-09aa9304c103</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_095244.rxlog">
+      <id>923ac7e0-0c54-4e98-be3d-9905a9ce3450</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_095446.rxlog">
+      <id>b0b781c7-e3c0-4ab4-88e0-6168f6ebcc3e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_095841.rxlog">
+      <id>49ee9c7b-c3c9-4b83-b6e1-a93f519c05a6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_100038.rxlog">
+      <id>7f36e7c1-76fc-457e-b814-81b46d4f9ac6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_110849.rxlog">
+      <id>8a6d9284-2087-47eb-83fa-9b295c57e3c7</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_112125.rxlog">
+      <id>a30a1773-3806-4a1c-8e65-087939b9482d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_112227.rxlog">
+      <id>0bd34f89-1c43-4761-8a54-5e433e1e0a72</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_112503.rxlog">
+      <id>f4110e72-31f3-4951-b836-e6a62288dd00</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_135617.rxlog">
+      <id>f6aaea97-7925-4676-b5b2-fff9f31c7391</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_140007.rxlog">
+      <id>e4f0ca62-80e9-40b6-af6e-7dfea457ff57</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_141247.rxlog">
+      <id>ae7c683d-ed2a-46f7-8159-6650a56c6cf0</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_142047.rxlog">
+      <id>6e6f9354-5837-4ab8-b266-71146c708077</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_143208.rxlog">
+      <id>4de41fef-830f-4bde-bada-52647d219d64</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_143457.rxlog">
+      <id>ca7c2603-012a-4453-9dbd-4d6ead26a05b</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_143903.rxlog">
+      <id>5148f54b-c2a2-4d2d-af97-f740077961ff</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_144553.rxlog">
+      <id>180ae6b5-a97c-45ba-8a96-888a4bdf9cd3</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110714_144627.rxlog">
+      <id>f93bc8a2-9e0b-4d8c-96a1-2e9bdb540870</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_104503.rxlog">
+      <id>2a6cf019-faa6-49c4-bed3-73f8db3fb6d6</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_104658.rxlog">
+      <id>856af7b6-949e-4074-b129-ec6513b1e529</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_104750.rxlog">
+      <id>7dd744f8-9fcc-4e10-8518-3c46df5866fa</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_104834.rxlog">
+      <id>31ac3d76-e69b-40a7-a219-a368ca8d2cd9</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_104923.rxlog">
+      <id>db168769-1d0d-4ef1-ae01-2a1926e5858d</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_112813.rxlog">
+      <id>8a831c5a-c9a3-4780-936c-a8e55817a479</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_112938.rxlog">
+      <id>c37e0b7f-392e-4eca-aeff-cfa922218b6a</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_113334.rxlog">
+      <id>7bfd5b29-396f-40ba-b121-75b5dcc05462</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_113634.rxlog">
+      <id>dedc7abc-8869-4e81-bd36-c36819615d8c</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_115021.rxlog">
+      <id>6b881b52-a411-41d6-ac7f-e1d82fa822ea</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_115416.rxlog">
+      <id>068d4600-5cd9-4285-bb3b-a04d8a945557</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110725_115923.rxlog">
+      <id>46375d6c-cc53-4051-bdee-4d3c56d4d989</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110726_100154.rxlog">
+      <id>485689b7-362e-4fe1-9473-1b5d6e8667ac</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110726_103900.rxlog">
+      <id>cf630a48-2b19-421b-9c87-db004e9fd238</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110727_121154.rxlog">
+      <id>3b9e5937-860f-4c42-a745-80a5a3aff05e</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110727_121220.rxlog">
+      <id>cd7286e8-42b9-478a-bc36-43849496f460</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110804_115222.rxlog">
+      <id>63a0cd74-1d51-4552-ba6a-d8b2cade24e9</id>
+    </None>
+    <None Include="Reports\Install_Setup_V15_20110804_133407.rxlog">
+      <id>dc4055ca-d346-47fc-b070-9ab9fc159ef4</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>bdb4b2e3-d808-433b-bb90-fcc48c7c8132</id>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationWizardLib\ConfigurationWizardLib.csproj">
+      <Project>{99FB7985-32FC-4069-AAC9-77FC142B62F2}</Project>
+      <Name>ConfigurationWizardLib</Name>
+      <id>11a7da24-0d3b-49d9-b5d3-e135ed19c735</id>
+    </ProjectReference>
+    <ProjectReference Include="..\InstallerLib\InstallerLib.csproj">
+      <Project>{40C3E212-7984-4325-B1BF-6AB8145FB0B6}</Project>
+      <Name>InstallerLib</Name>
+      <id>628c3907-da44-4fd2-9a2b-ac961d3af376</id>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemManagerLib\SystemManagerLib.csproj">
+      <Project>{0C41898E-56CD-4C3D-A861-433FD1908445}</Project>
+      <Name>SystemManagerLib</Name>
+      <id>ebf58035-58ea-4251-abf2-849e6b21f9e5</id>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+      <id>09ffb8a1-39bc-476e-955e-419e9930afa5</id>
+    </ProjectReference>
+    <Folder Include="DataFiles">
+      <id>bf40141c-6c76-4bbb-8729-ae43a933d5c7</id>
+    </Folder>
+    <Folder Include="Apps">
+      <id>e4704fec-8b3b-43f9-b7ce-6b63bb3ff6a2</id>
+    </Folder>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>5fa62db7-cfdb-4995-a452-3ceac6a45ad6</id>
+    </Folder>
+  </ItemGroup>
+</Project>

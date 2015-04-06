@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="895c19cb-e56f-4021-8c99-6ac50e4da68a" embeddedrepository="false">
+  <name>
+    CreateAirTrackDisused6016D
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    8
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CreateAirTrackDisused6016D" namespace="TacViewLib.LinkSpecific.Surveillance.Air_Disused.CreateTrack"/>
+  <variables>
+    <var name="Plat" id="ebaa68f0-1299-4264-bd2c-3fba33cf8710">
+      <![CDATA[Fighter]]>
+    </var>
+    <var name="Act" id="df298552-fae8-4936-a67d-a751f9e7869e">
+      <![CDATA[Reconnaissance]]>
+    </var>
+    <var name="Stype" id="61d09a7d-adde-460d-bd1e-ba823351feb8">
+      <![CDATA[F-4 PHANTOM II]]>
+    </var>
+  </variables>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ValidateDropTrack">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Right" movetime="250ms" sx="332" sy="129" loc="507;278">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="f9586be1-6d7d-416d-92f7-424f921dfc49">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//container[@accessiblename='RvView']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="664" sy="265" loc="45;5">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d36aef2a-409c-468c-975b-c41a8ce9ca98">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="619,260,191,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Create Track]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="890" sy="294" loc="77;10">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="8f7c67d9-deed-4ac3-9b49-99eb1c159ab7">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="813,284,106,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[TOAD]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[TOAD]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='TOAD']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="ab79a65b-f904-4d0a-9b7c-30d35aebdd32">
+        <path>
+          <![CDATA[/form[@title~'TOAD.*']/contextmenu[1]/menuitem[@accessiblename='Air']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="305" sy="457" loc="68;6">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="ece16c7b-a846-4add-a310-0fb5f77b2a03">
+        <path>
+          <![CDATA[/form[@title='Main (Air TN ) CREATING']/element//listitem[@accessiblename='Identity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="IDval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="Platval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="Actval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="Stypeval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="252" sy="281" loc="12;21">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d2c7f9ba-af68-43d1-af27-f25e97a9381d">
+        <path>
+          <![CDATA[/form[@title='Main (Air TN ) CREATING']/.//button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryDisusedValues" id="f6111798-fe62-4567-a7eb-e9cefd5a8bce" rxversion="3.1.1.14266" relativepath="..\..\..\..\TacViewLibRepositoryDisusedValues.rxrep">
+    <codegen classname="TacViewLibRepositoryDisusedValues" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="89830745-22a3-4377-870c-9c1d23676d8e"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[CreateAirTrackDisused6016D_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Core\3.0.1.12040__b798506b574ebc9a\Ranorex.Core.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Flex\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Flex.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.MozillaWeb\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.MozillaWeb.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Msaa\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Msaa.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Office\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Office.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.RawText\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.RawText.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Web\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Web.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Win32\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Win32.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.WinForms\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.WinForms.dll
+    </reference>
+    <reference>
+      C:\WINDOWS\assembly\GAC_MSIL\Ranorex.Plugin.Wpf\3.0.1.12040__b798506b574ebc9a\Ranorex.Plugin.Wpf.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll
+    </reference>
+    <reference>
+      c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+    </reference>
+  </references>
+</recordtable>

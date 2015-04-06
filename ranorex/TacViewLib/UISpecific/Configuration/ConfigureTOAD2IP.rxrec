@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.2.2.7850">
+  <name>
+    ConfigureTOAD2IP
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ConfigureTOAD2IP" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems/>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.2.2.7850" relativepath="TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib.UISpecific.Configuration"/>
+    <rootfolder id="31097da2-1aff-446c-99c8-77ee9da049d7" searchtimeout="30s" capname="unknown" name="Root" isrooted="True" usecache="True">
+      <basepath>
+      </basepath>
+    </rootfolder>
+  </repository>
+</recordtable>

@@ -1,0 +1,238 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{99FB7985-32FC-4069-AAC9-77FC142B62F2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ConfigurationWizardLib</RootNamespace>
+    <AssemblyName>ConfigurationWizardLib</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>1b335678-39bb-40c8-ada3-ad14dcf02115</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>9e69a9f3-189c-41cc-8dc0-bbab29000c87</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>8cc1a887-3f8e-4c2a-8702-515414c39e59</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>a2fe8bc4-50e0-4b9d-976f-91c147b9fc40</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>2e455e83-a735-4355-b6ed-cf1d6dc55056</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>f29e325f-9992-49f9-8af4-501ff173e363</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>39d07fc3-5387-432b-bc4b-1f168a8cea28</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>9b0bab34-3297-401c-ae74-fa377626bf83</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>3eb553ed-8f95-45e7-b109-ca8b3065b179</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>6849668c-bdcb-44bc-aa82-d6a6fae3fd4a</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>ff43dd45-7e4f-4790-9e53-d1a3977aa2da</id>
+    </Reference>
+    <Reference Include="System">
+      <id>045f8e57-b7a6-4096-b959-f3af45cfe82f</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>6fd764f9-d8a7-4a71-99fd-31f83d1e3155</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>949eaf1c-034c-4182-9a85-ead7a5ae9f4e</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>0a2ee54d-532a-4071-ac5d-db81b9749891</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>2247eec4-66ab-432a-9e50-248f14ef269f</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>83248d4f-c30c-4abc-b557-59861fc1aaf1</id>
+    </Compile>
+    <Compile Include="Link-16_RegressionRepository.cs">
+      <DependentUpon>Link-16_RegressionRepository.rxrep</DependentUpon>
+      <BoundTo>79383CD2-7E18-49FA-853F-E073FD9A714D</BoundTo>
+      <id>df13783a-d784-422e-a286-8e08afd789de</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>27d498dc-569c-4663-8236-af10c3a4344c</id>
+    </Compile>
+    <Compile Include="UISpecific\CPCI\SetupCPCI.cs">
+      <DependentUpon>SetupCPCI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>85fcbd79-7928-4eea-8978-c5749e9aecf4</BoundTo>
+      <id>787a4ef1-058b-473d-9c42-370d78a96360</id>
+    </Compile>
+    <Compile Include="UISpecific\CPCI\SetupCPCI_UserCode.cs">
+      <DependentUpon>SetupCPCI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>85fcbd79-7928-4eea-8978-c5749e9aecf4</BoundTo>
+      <id>c76839ed-46dd-4bae-98ac-00190800d9e3</id>
+    </Compile>
+    <Compile Include="UISpecific\PCI_ADSI\SetupPCI_ADSI.cs">
+      <DependentUpon>SetupPCI_ADSI.rxrec</DependentUpon>
+      <BoundTo>5e45c5d7-0acf-4e55-be03-b253bdf8d4fd</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>3194704e-a847-40f7-a4ad-f40c2ed8aa2f</id>
+    </Compile>
+    <Compile Include="UISpecific\PCI_ADSI\SetupPCI_ADSI_UserCode.cs">
+      <DependentUpon>SetupPCI_ADSI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>5e45c5d7-0acf-4e55-be03-b253bdf8d4fd</BoundTo>
+      <id>89329b1a-783d-4acf-9c84-71238df3ad1b</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupSimulator\SetupSimulator.cs">
+      <DependentUpon>SetupSimulator.rxrec</DependentUpon>
+      <BoundTo>c9fbcd78-6066-45d0-970a-8235641bec9c</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>abfef65e-7b8e-44ea-8632-e41f7b4e0c4d</id>
+    </Compile>
+    <Compile Include="UISpecific\SetupSimulator\SetupSimulator_UserCode.cs">
+      <DependentUpon>SetupSimulator.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>c9fbcd78-6066-45d0-970a-8235641bec9c</BoundTo>
+      <id>e5064520-2cf3-4a51-9503-e5639f8f2bb9</id>
+    </Compile>
+    <Compile Include="UISpecific\SFF\SetupSFF.cs">
+      <DependentUpon>SetupSFF.rxrec</DependentUpon>
+      <BoundTo>99b6e7a8-0121-48a4-ae14-75e0b1825c08</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>69c3a173-846c-4ff8-9bc3-313cd0b8e1ec</id>
+    </Compile>
+    <Compile Include="UISpecific\SFF\SetupSFF_UserCode.cs">
+      <DependentUpon>SetupSFF.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>99b6e7a8-0121-48a4-ae14-75e0b1825c08</BoundTo>
+      <id>11f212aa-5e9c-4bb2-bd95-126828ed161e</id>
+    </Compile>
+    <Compile Include="UISpecific\Ultra16\SetupUltra16.cs">
+      <DependentUpon>SetupUltra16.rxrec</DependentUpon>
+      <BoundTo>f1c03d39-a6f3-496a-9342-c94779129236</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>6cccac0e-35b0-404c-8b92-bcd8ce1e7925</id>
+    </Compile>
+    <Compile Include="UISpecific\Ultra16\SetupUltra16_UserCode.cs">
+      <DependentUpon>SetupUltra16.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>f1c03d39-a6f3-496a-9342-c94779129236</BoundTo>
+      <id>1614aa28-c226-4963-ac5a-a7fbcf4aa023</id>
+    </Compile>
+    <Compile Include="V15SmokeTestRepository.cs">
+      <DependentUpon>V15SmokeTestRepository.rxrep</DependentUpon>
+      <BoundTo>346b26d5-e61f-4e6f-8bf2-6ecefad046eb</BoundTo>
+      <id>845ca766-b909-4752-b392-75c248271933</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <None Include="Link-16_RegressionRepository.rxrep">
+      <id>79383CD2-7E18-49FA-853F-E073FD9A714D</id>
+      <repoid>493c18ec-14b7-401a-a847-54e3d2c2def5</repoid>
+      <reporootid>1d0fb510-0cff-44bd-b0d2-136752abd997</reporootid>
+    </None>
+    <None Include="Reports\SetupPCI_ADSI20110428_130838.rxlog">
+      <id>fda6810f-36a1-4dc6-a437-aaed04c10cd0</id>
+    </None>
+    <None Include="Reports\SetupPCI_ADSI20110428_131122.rxlog">
+      <id>47cc7275-d8c0-4676-a9c4-027de5ca46b5</id>
+    </None>
+    <None Include="Reports\SetupSFF20110414_151108.rxlog">
+      <id>1aeabf40-d22a-4afd-be3f-3118cce5d940</id>
+    </None>
+    <None Include="Reports\SetupSFF20110414_151146.rxlog">
+      <id>3bfdad71-30b1-4332-a926-b961b5679339</id>
+    </None>
+    <None Include="Reports\SetupSFF20110707_164811.rxlog">
+      <id>d9d65cf1-78cc-410a-bd2e-58b6d6335fea</id>
+    </None>
+    <None Include="UISpecific\CPCI\SetupCPCI.rxrec">
+      <BoundTo>79383CD2-7E18-49FA-853F-E073FD9A714D</BoundTo>
+      <id>85fcbd79-7928-4eea-8978-c5749e9aecf4</id>
+    </None>
+    <None Include="UISpecific\PCI_ADSI\SetupPCI_ADSI.rxrec">
+      <BoundTo>79383CD2-7E18-49FA-853F-E073FD9A714D</BoundTo>
+      <id>5e45c5d7-0acf-4e55-be03-b253bdf8d4fd</id>
+    </None>
+    <None Include="UISpecific\SetupSimulator\SetupSimulator.rxrec">
+      <BoundTo>79383CD2-7E18-49FA-853F-E073FD9A714D</BoundTo>
+      <id>c9fbcd78-6066-45d0-970a-8235641bec9c</id>
+    </None>
+    <None Include="UISpecific\SFF\SetupSFF.rxrec">
+      <BoundTo>79383CD2-7E18-49FA-853F-E073FD9A714D</BoundTo>
+      <id>99b6e7a8-0121-48a4-ae14-75e0b1825c08</id>
+    </None>
+    <None Include="UISpecific\Ultra16\SetupUltra16.rxrec">
+      <BoundTo>79383CD2-7E18-49FA-853F-E073FD9A714D</BoundTo>
+      <id>f1c03d39-a6f3-496a-9342-c94779129236</id>
+    </None>
+    <None Include="V15SmokeTestRepository.rxrep">
+      <id>346b26d5-e61f-4e6f-8bf2-6ecefad046eb</id>
+      <repoid>49f0df9c-b88c-4764-aa93-76d5ce30b1a9</repoid>
+      <reporootid>31097da2-1aff-446c-99c8-77ee9da049d7</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Defects">
+      <id>6d6dd557-c095-45d6-8f45-49ac8f59d6d5</id>
+    </Folder>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>ac023846-70ca-47d1-b43a-f5106285a1ae</id>
+    </Folder>
+    <Folder Include="UISpecific">
+      <id>71cb6179-5e73-4f9e-99c0-2e6d44dd5d48</id>
+    </Folder>
+    <Folder Include="UISpecific\CPCI">
+      <id>6b057ac1-dc1e-4f19-80b3-daa86d74c073</id>
+    </Folder>
+    <Folder Include="UISpecific\Ultra16">
+      <id>9fec97b3-1415-4680-8a4c-cff8b1c27f63</id>
+    </Folder>
+    <Folder Include="UISpecific\SetupSimulator">
+      <id>72f711d5-a810-4fc4-a189-a5ae29479988</id>
+    </Folder>
+    <Folder Include="UISpecific\PCI_ADSI">
+      <id>afbe5791-0cdd-4991-bac0-d7088814d583</id>
+    </Folder>
+    <Folder Include="UISpecific\SFF">
+      <id>619a410e-3bdd-4c7f-8232-e77ece94d750</id>
+    </Folder>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>55aecd19-5d96-475c-a045-cd530f11631a</id>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

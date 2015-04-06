@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="d05b53fd-8ea2-453a-b801-a338de1d8206">
+  <name>
+    Transparency
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Transparency" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="118" sy="68" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9d95a57d-7e6d-43c4-9b54-1d39e24a485c">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="4" rect="112,57,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ Center on Own Site]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Center on Own site]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ Center on Own Site]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59419']/element[@controlid='10002']/toolbar[1]/button[@accessiblename=' Center on Own Site']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="216" sy="67" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b7be617d-0636-4018-9968-0a6f59a64584">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="8" rect="206,57,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Set Range to 50 km]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Set Range to 50 km]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Set Range to 50 km]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59419']/element[@controlid='10002']/toolbar[1]/button[@accessiblename='Set Range to 50 km']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="500ms" action="DoubleClick" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+        <![CDATA[Double Click on ownsite]]>
+      </comment>
+      <info sourcename="RepositoryEditor" id="1bf78c47-7386-4c99-8715-8160b5e4156e">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element/container[@accessiblename='RvView']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="260ms" sx="1237" sy="66" loc="Center">
+      <comment>
+        <![CDATA[Needs Validation]]>
+      </comment>
+      <info sourcename="Recorder" id="5e260931-7b07-4178-bd1c-37b930e5d83e">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="1226,57,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Global Set to Transparent]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Global Set to Transparent]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Global Set to Transparent]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59419']/element[@controlid='10006']/toolbar[1]/button[@accessiblename='Global Set to Transparent']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="1000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="1258" sy="67" loc="Center">
+      <comment>
+        <![CDATA[Needs Validation]]>
+      </comment>
+      <info sourcename="Recorder" id="8e4b1274-e00d-4cee-8d99-95a365905c39">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="1248,57,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Global Set to Opaque]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Global Set to Opaque]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Global Set to Opaque]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59419']/element[@controlid='10006']/toolbar[1]/button[@accessiblename='Global Set to Opaque']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="1000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="488" sy="211" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="095dbd0b-68aa-437e-803a-0749671fdd37">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="477,206,16,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main*']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.8.10854" relativepath="..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

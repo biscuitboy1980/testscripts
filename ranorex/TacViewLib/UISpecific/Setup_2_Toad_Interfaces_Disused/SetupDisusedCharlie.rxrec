@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.0.8345" id="c799b2b6-8fde-4c25-afff-377f05dd48a9">
+  <name>
+    SetupDisusedCharlie
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    8
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="SetupDisusedCharlie" namespace="TacViewLib.UISpecific.Setup_2_Toad_Interfaces_Disused"/>
+  <recorditems>
+    <userrecorditem duration="250ms" methodname="RegClear">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="1109ms" action="Click" button="Left" movetime="300ms" sx="873" sy="683" loc="36;11">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="c4be44df-f430-4f95-b02a-467184298eac">
+            <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="13" rect="837,672,75,23">
+              <attribute name="pressed" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Cancel]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Button]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[2]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[460426]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[1]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[2780]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[Cancel]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Open']/button[@text='Cancel']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="250ms" action="DoubleClick" button="Left" movetime="300ms" sx="36" sy="626" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="8b28af47-4251-48c8-b91b-08749c82e646">
+        <path>
+          <![CDATA[/desktop[@processname='explorer']/container/list/listitem[@text='TacViewC2_Charlie']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="250ms" methodname="GLButtonOK">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="0ms" action="Exists" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="ItemRecorderEditor" id="41d92da7-d808-4353-837c-3045d450a193">
+            <path>
+              <![CDATA[/form[@title='Select Configuration']/button[@text='OK']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[yourtext]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <validationitem duration="250ms" action="Exists" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="952cbe46-3a99-4d9a-b598-a62c21dcd5be">
+        <path>
+          <![CDATA[/form[@title='Open']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="250ms" methodname="MapDialogue">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="31" sy="39" loc="21;11">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9780315a-e2c1-4cd0-a05e-20b99d44e996">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*'][1]/element//menuitem[@accessiblename='File']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="86" sy="332" loc="74;8">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="81f66023-1a39-4802-ba5e-8c8b7b0b1000">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="12" rect="12,324,194,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Preferences...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Open Configuration Dialog]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Preferences...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename='Preferences...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="475" sy="418" loc="52;13">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b74ab8ce-cb78-43f2-9def-448e82fffbc7">
+        <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="1" rect="423,405,74,16">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="expanded" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Configurations]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Preferences']/tree/treeitem/treeitem[@text='Configurations']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="605" sy="410" loc="25;41">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="1d6f4786-60b8-46ee-ad76-6edc70512220">
+        <element role="container" prefcap="container" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="580,369,160,195">
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Grouping]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Preferences']/container[@caption='' and @class='#32770' and @instance='0']/container/container[@accessiblerole='Grouping']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="813" sy="654" loc="11;3">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="65283b14-be18-4513-8473-98af97473d05">
+        <path>
+          <![CDATA[/form[@title='Preferences']/button[@text='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="812" sy="538" loc="10;2">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f31c22a1-9c7b-44f4-9586-8517b56e85bc">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="True" index="0" rect="802,536,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[OK]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[1312530]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[1864]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[OK]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='RealView']/button[@text='OK']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="1667" sy="18" loc="12;18">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="28d9da46-83e1-4ccb-a971-208fcfa0d1e3">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="2" rect="1655,0,25,25">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Closes the window]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="DoubleClick" button="Left" movetime="300ms" sx="44" sy="967" loc="44;31">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="8b28af47-4251-48c8-b91b-08749c82e646">
+        <path>
+          <![CDATA[/desktop[@processname='explorer']/container/list/listitem[@text='TacViewC2_Charlie']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="250ms" methodname="GLButtonOK">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <validationitem duration="250ms" action="Exists" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="ItemRecorderEditor" id="952cbe46-3a99-4d9a-b598-a62c21dcd5be">
+        <path>
+          <![CDATA[/form[@title='Open']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[yourtext]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="250ms" methodname="MapDialogue">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="250ms" action="Click" button="Right" movetime="300ms" sx="122" sy="904" loc="51;7">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="dbb6ba77-6c9e-406e-a996-14db584bdc9e">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/.//cell[@accessiblename='Interface[0]']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem duration="250ms" sequence="{Tab}{Return}" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="447" sy="618" loc="33;15">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="ce5f7d30-e85d-45f6-a1d3-e0f71d7ced21">
+        <element role="tabpage" prefcap="tabpage" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="1" rect="414,603,108,20">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="title" type="System.String">
+            <![CDATA[Connection Settings]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Switch]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Connection Settings]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PageTab]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Tab]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Interface Properties']/element/tabpagelist/tabpage[@accessiblename='Connection Settings']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="331" sy="351" loc="23;23">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f17ab015-80b1-4417-8231-adfadb13939f">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="0" rect="308,328,35,35">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @controlid='5001']/element[@controlid='25001']/toolbar[1]/button[@accessiblename='Edit']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="491" sy="443" loc="186;9">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="5c8aff7a-5876-470d-a743-fcff5bd4c84a">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="4" rect="305,434,296,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[4]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Server Address]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Server Address]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @class='#32770' and @instance='0']/element[@class='XTPPropertyGrid']/element/listitem[@accessiblename='Server Address']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Down" button="Left" movetime="300ms" sx="491" sy="443" loc="36;8">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="0e941c1d-7ed5-431d-830c-ffd7dbbc2772">
+        <path>
+          <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @class='#32770' and @instance='0']/element[@class='XTPPropertyGrid']/element/text[@class='Edit']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="44" sy="9" loc="44;9">
+      <comment>
+      </comment>
+      <info sourcename="ItemRecorderEditor" id="0e941c1d-7ed5-431d-830c-ffd7dbbc2772">
+        <path>
+          <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @class='#32770' and @instance='0']/element[@class='XTPPropertyGrid']/element/text[@class='Edit']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="250ms" methodname="TOAD1ip">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <keysequenceitem duration="250ms" sequence="172.16.99.114" presstime="100ms">
+          <comment>
+          </comment>
+        </keysequenceitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <keyitem duration="250ms" action="Press" presstime="100ms" data="Return" scancode="28" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="328" sy="355" loc="20;27">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="7cab9a82-0f8f-431e-9585-da81ec495c09">
+        <path>
+          <![CDATA[/form[@title='Connection Settings']/element/toolbar[1]/button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="594" sy="317" loc="11;12">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="cacc044b-6b81-433a-949c-2e1533fdb02d">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="2" rect="583,305,16,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Settings']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="35" sy="909" loc="12;12">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="71a0678a-8180-4223-8fbd-9df6d27bcfa8">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/element/table/cell[@accessiblename='Status[0]']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="2000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <userrecorditem duration="250ms" methodname="ValTOAD1">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="1125ms" action="Click" button="Left" movetime="300ms" sx="775" sy="366" loc="443;237">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="3a2b95f4-fd76-4d39-8d19-c1a70e14a7ea">
+            <element role="container" prefcap="container" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="332,129,946,817">
+              <attribute name="caption" type="System.String">
+                <![CDATA[RvView]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[RvView]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Pane]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Focusable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[RvView]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59648']/container[@accessiblename='RvView']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="254" sy="65" loc="6;14">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="8cc2d19d-460b-49b7-86f5-5dd0ed95eb6e">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="10" rect="248,51,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[View Range Rings]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[View Range Rings]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[View Range Rings]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, Checked, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/element[@controlid='59419']/element[@controlid='10002']/toolbar[1]/button[@accessiblename='View Range Rings']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="173" sy="64" loc="19;13">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="dabde302-dedd-461a-8c3e-d7f5e633c617">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="6" rect="154,51,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Set Range to 200 km]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Set Range to 200 km]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Set Range to 200 km]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/element[@controlid='59419']/element[@controlid='10002']/toolbar[1]/button[@accessiblename='Set Range to 200 km']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="116" sy="58" loc="12;7">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="7c2818f4-1a8b-4bcd-8c9b-c49e4a928689">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="4" rect="104,51,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ Center on Own Site]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Center on Own site]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ Center on Own Site]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/element[@controlid='59419']/element[@controlid='10002']/toolbar[1]/button[@accessiblename=' Center on Own Site']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="1265.6574ms" action="Click" button="Left" movetime="300ms" sx="114" sy="402" loc="31;10">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f89bc7f8-1303-442a-8537-9ef669076f06">
+        <element role="tabpage" prefcap="tabpage" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="1" rect="83,392,59,20">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="title" type="System.String">
+            <![CDATA[Local R2 (0 tracks)]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Switch]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Local R2 (0 tracks)]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PageTab]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Tab]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Pacific']/element[@controlid='15035']/tabpagelist/tabpage[@accessiblename='Local R2 (0 tracks)']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="1078ms" action="Click" button="Left" movetime="300ms" sx="1216" sy="20" loc="15;16">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="71976bdf-fb34-4cb8-8ea1-2ee068cd95f5">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="1201,4,25,25">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Minimize]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Moves the window out of the way]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Minimize]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/titlebar/button[@accessiblename='Minimize']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryDisusedValues" id="f6111798-fe62-4567-a7eb-e9cefd5a8bce" version="2.3.0.8345" relativepath="..\..\TacViewLibRepositoryDisusedValues.rxrep">
+    <codegen classname="TacViewLibRepositoryDisusedValues" namespace="TacViewLib"/>
+    <rootfolder id="89830745-22a3-4377-870c-9c1d23676d8e" searchtimeout="30s" capname="unknown" name="Root" isrooted="True" usecache="True">
+      <appfolder id="fe7007c3-e1b1-486a-bd90-bc75536536fa" searchtimeout="30s" capname="form" name="FormTacViewC2_Charlie" isrooted="True" usecache="False">
+        <item id="29c37b48-0f21-4b96-afe5-65c2d9f460a2" searchtimeout="1000ms" capname="button" name="ButtonMaximize">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/titlebar/button[@accessiblename='Maximize']]]>
+        </item>
+        <item id="f89bc7f8-1303-442a-8537-9ef669076f06" searchtimeout="10s" capname="tabpage" name="TabPageLocal_R2__0_tracks">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//tabpagelist/tabpage[@accessiblename='Local R2 (0 tracks)']]]>
+        </item>
+        <item id="c1aa745f-59fa-4cb7-a240-656d11335be3" searchtimeout="10s" capname="unknown" name="ElementTabbedContainerName">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//element[@accessiblename='TabbedContainerName']]]>
+        </item>
+        <item id="dabde302-dedd-461a-8c3e-d7f5e633c617" searchtimeout="10s" capname="button" name="ButtonSet_Range_to_200_km">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//toolbar[1]/button[@accessiblename='Set Range to 200 km']]]>
+        </item>
+        <item id="7c2818f4-1a8b-4bcd-8c9b-c49e4a928689" searchtimeout="10s" capname="button" name="Button_Center_on_Own_Site">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//toolbar[1]/button[@accessiblename=' Center on Own Site']]]>
+        </item>
+        <item id="8cc2d19d-460b-49b7-86f5-5dd0ed95eb6e" searchtimeout="10s" capname="button" name="ButtonView_Range_Rings">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//toolbar[1]/button[@accessiblename='View Range Rings']]]>
+        </item>
+        <item id="dd896106-cae1-4315-80ca-3ed067825220" searchtimeout="10s" capname="container" name="ContainerRvView">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container[@accessiblename='RvView']]]>
+        </item>
+        <item id="1300dac1-3264-4680-b9ac-10a832d2737d" searchtimeout="10s" capname="menuitem" name="MenuItemSystem">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/menubar/menuitem[@accessiblename='System']]]>
+        </item>
+        <item id="c7a478dc-ec18-409b-919e-4efe8db80f45" searchtimeout="10s" capname="picture" name="PictureTrack1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </item>
+        <item id="8a23edc5-3bfd-4550-94a6-f2ce7fbc703e" searchtimeout="10s" capname="picture" name="PictureTrack2">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/picture[@accessiblename~'\d\d\d\d'][4]]]>
+        </item>
+        <item id="365a4138-1272-4aa6-ba6c-d7b37c7c6fce" searchtimeout="10s" capname="titlebar" name="TitleBarTacViewC2____map__Defaul">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ Default']]]>
+        </item>
+        <item id="62461b97-e76a-437e-b519-62e5b7b4765e" searchtimeout="10s" capname="titlebar" name="TitleBarTacViewC2____map__Pacifi1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ Pacific']]]>
+        </item>
+        <item id="5691c318-abec-4e1b-86a2-12f42e4cac94" searchtimeout="500ms" capname="picture" name="PictureDropTrack1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </item>
+        <item id="4fcc2e3b-8f5e-4efe-8566-5d186f8903d7" searchtimeout="500ms" capname="picture" name="PictureDropTrack2">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/picture[@accessiblename~'\d\d\d\d'][4]]]>
+        </item>
+        <item id="2e0320f8-ae1c-4fbf-9822-405414978fca" searchtimeout="10s" capname="button" name="ButtonField">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//toolbar[1]/button[@accessiblename='Field:']]]>
+        </item>
+        <item id="81ac4db3-1d7a-4761-b132-427acd9d3a1e" searchtimeout="10s" capname="button" name="ButtonInterface">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//toolbar[1]/button[@accessiblename='Interface:']]]>
+        </item>
+        <item id="d54111a7-d674-4c85-8428-351a59d35f35" searchtimeout="10s" capname="button" name="ButtonSearch_For_Track">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//toolbar[1]/button[@accessiblename='Search For Track']]]>
+        </item>
+        <item id="f1f6617b-1552-4279-8ad9-933c76be34cf" searchtimeout="10s" capname="text" name="TextRealView1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//text[@class='RichEdit20A']]]>
+        </item>
+        <item id="9780315a-e2c1-4cd0-a05e-20b99d44e996" searchtimeout="10s" capname="menuitem" name="File">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element//menuitem[@accessiblename='File']]]>
+        </item>
+        <item id="28d9da46-83e1-4ccb-a971-208fcfa0d1e3" searchtimeout="10s" capname="button" name="ButtonClose">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/titlebar/button[@accessiblename='Close']]]>
+        </item>
+        <item id="dbb6ba77-6c9e-406e-a996-14db584bdc9e" searchtimeout="10s" capname="cell" name="CellInterface_0">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/element/table/cell[@accessiblename='Interface[0]']]]>
+        </item>
+        <item id="71a0678a-8180-4223-8fbd-9df6d27bcfa8" searchtimeout="10s" capname="cell" name="CellStatus_0">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/element/table/cell[@accessiblename='Status[0]']]]>
+        </item>
+        <item id="5f30e05e-751d-4003-95f6-f0e76b5e4ca4" searchtimeout="10s" capname="cell" name="CellConnected_0">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/element/container/element/table/cell[@accessiblename='Connected[0]']]]>
+        </item>
+        <item id="71976bdf-fb34-4cb8-8ea1-2ee068cd95f5" searchtimeout="10s" capname="button" name="ButtonMinimize">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']/titlebar/button[@accessiblename='Minimize']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Normal']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="39d3c31c-f089-4c35-91ea-fdc053d90fb1" searchtimeout="30s" capname="desktop" name="DesktopExplorer" isrooted="True" usecache="True">
+        <item id="88adc253-0cca-4d7a-9bc4-86b19004af3a" searchtimeout="10s" capname="listitem" ensurevisible="True" name="ListItemTacViewC2Delta">
+          <![CDATA[/desktop[@processname='explorer']/container/list/listitem[@text='TacViewC2_Delta']]]>
+        </item>
+        <item id="8b28af47-4251-48c8-b91b-08749c82e646" searchtimeout="10s" capname="listitem" ensurevisible="True" name="ListItemTacViewC2Charlie">
+          <![CDATA[/desktop[@processname='explorer']/container/list/listitem[@text='TacViewC2_Charlie']]]>
+        </item>
+        <basepath>
+          <![CDATA[/desktop[@processname='explorer']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAhlJREFUOE+Fk1FoEnEcxyf0HCx6rgcHQVBsTwv2VKwoSNpLMdkIFmgj
+RBQiIhAMoz0JEVgvxpCpG0gvQYUyN8aQuZ1Tb1RcOoNqQohbcs3qdje/3e9/u1N3wQ4+eNzfz8ef
+f/1beo64rsR/4vBbXg7u9FitVovxfIHbwnqljrmlLyChk+kNETO8yJ49SCsYnPqMUCiESqWihc88
+FgyB7uP5BhaFBtBSTFCEAl6vFzzPtwOpbYDklrJrQJGLb2TG0KOc8fy/ASbLdUb/zB9DbO4BVRFa
+QF0jmXjRdwrJZLI9QfFbFa29HwwK0KXLm+p0upirAh/HT0N8eh7JgV5kMhmwPdiXvhpQQFK/Pn0y
+QfLqFkBynNc2kWS73Y5IJHIQ+LuJ/QMooMvPn0ww+dly05jCcjcHm80Gn8/XnqC+/QHKbw09cPK4
+BYQ+Pr3SOgUcDkf3HqQ3CupikUEBGrcT2kR9nQKmn3Ge5yA31xgUWPmuBUjUoQD9R0yBE2PvkC6u
+QPmVYXRK8s576DB55C2jawIKELlPi5DFBcgNVSJUuf/hUhfnLk3ixs07CAaDKJfL2v+A5GPXXqP3
++qxJuHD5NkbHJuByueDxeOD3+xGNRpHP5yGKohaYiq7h7K1XGLh6H8Mj9+B0OuF2u9mYgUAAiUQC
+2WwWhUIBgiCgVqtBkqTuE5pKpRAOhxGLxUD3HMexw1IqlUxH+fDR/gc02pgnsRHYaQAAAABJRU5E
+rkJggg==
+        </icon>
+      </appfolder>
+      <appfolder id="5a0227a8-eddc-4ea4-b0c1-a530458eaafc" searchtimeout="30s" capname="form" name="FormPreferences" isrooted="True" usecache="True">
+        <item id="b74ab8ce-cb78-43f2-9def-448e82fffbc7" searchtimeout="10s" capname="treeitem" name="TreeItemConfigurations">
+          <![CDATA[/form[@title='Preferences']/tree/treeitem/treeitem[@text='Configurations']]]>
+        </item>
+        <item id="65283b14-be18-4513-8473-98af97473d05" searchtimeout="10s" capname="button" name="ButtonClose">
+          <![CDATA[/form[@title='Preferences']/button[@text='Close']]]>
+        </item>
+        <item id="2b2a5f21-5c30-4a62-87b0-185890ec4945" searchtimeout="10s" capname="checkbox" name="CheckBoxDisplay_No_Statement_val">
+          <image name="Screenshot1">
+            <![CDATA[iVBORw0KGgoAAAANSUhEUgAAAQUAAAAQCAIAAACQmP1aAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAp5JREFU
+aEPtWjFSAzEMDG+lpuI7vIAZvkRLQZGSMlzGwdFIq5Vs3zVBmWvIyZa02l1f5ng6f3+e6lMIFAIN
+gY/3t/C6XC6bbOoqBB4egaseXl+eyfVz/io9PDwPqsGGwE0PG+O9z+562A6lQj9EoFAKIToiYFIP
+8mmzl5UcYTJMdtvSDSVSFfKkEyUlhzG98/TCPEpwiMm+MmHJFo4uI1PqHbT2vDR6PoyyU5F7qMT+
+i39o0irFP9RDCPLKEMPN29RGw5JLMtvOxcyfD5bivZmu+E5lafAwTMGncGl/yoW3p72/TCH7ZUmy
+KrgPCbYnlWqNJ+rprLbtQg8TFWnbkVmI+1o9WJx5dxDJXraigWdnUJakR48/Hg5DwthfD5DKakKQ
+vsSuoB64vUF6WWjUzpCCUIc8UnLCS2q1YVHyKMvx9O5mRmObhb14uEHjy5hdBg3el+puSAZ3ra4/
+Lym8rIMqY7D6VjOwjcEArgcvqToQ4FyVpxI9eJFcDx7DrKFCPdikkApc6tJNiQZCCoYI8EHAMuyX
+KzgMCWP/80ESjpgoZLMdobINGTCth4zpShAz54O1N68XyDCvJF6qKhLaP0GJ+M706Rem40kzMIbA
+QndIqmIHPUB3CQ9ZDzhidaHSYM/cJofuqk4zuiKz4Qh4hYWEI34MBQOVP6GH8DhSe6o6eRkZqMmG
+STFcK5x+XuoHpR1AuwWfTCQofQcyY2gYdnPVsLczr8rb1go+jLRt2pFYdkpIw1IzIEBaJ4nY1vJR
+whhyakF38L4Ms3sBefaDoWx62N648Wvl/TQxyJAiK43V2t0RGBrlccNdLIPDciJvHuStaXCHqh8K
+ni6pFs4hsDid9eXysJprIVyVemMS7lIBhcBjIFB6qP/bLQTuCPwCo7S9KHZmZg0AAAAASUVORK5C
+YII=]]>
+          </image>
+          <![CDATA[/form[@title='Preferences']/container[@caption='' and @class='#32770']/checkbox[@text~'^Display\ No\ Statement\ valu']]]>
+        </item>
+        <item id="1d6f4786-60b8-46ee-ad76-6edc70512220" searchtimeout="10s" capname="container" name="ContainerGrouping">
+          <![CDATA[/form[@title='Preferences']/container[@caption='' and @class='#32770' and @instance='0']/container/container[@accessiblerole='Grouping']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Preferences']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="fc53dafc-2d9a-4832-8d9e-5db35e9d1fb7" searchtimeout="30s" capname="form" name="FormInterface_Properties" isrooted="True" usecache="True">
+        <item id="ce5f7d30-e85d-45f6-a1d3-e0f71d7ced21" searchtimeout="10s" capname="tabpage" name="TabPageConnection_Settings">
+          <![CDATA[/form[@title='Interface Properties'][1]/element/tabpagelist/tabpage[@accessiblename='Connection Settings']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Interface Properties'][1]]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="2e6480c8-9b71-4111-9e1f-12530eb302e2" searchtimeout="1.3333333333333333m" capname="form" name="FormOpen" isrooted="True" usecache="True">
+        <item id="b648acc1-e0c4-48ad-8653-36f3a28c07ca" searchtimeout="1000ms" capname="listitem" name="ListItemMap">
+          <![CDATA[/form[@title='Open']/container/list/listitem[@text~'.*.map']]]>
+        </item>
+        <item id="95b3b70d-2634-4c59-b67a-51cab0c1103f" searchtimeout="1000ms" capname="button" name="ButtonOpen">
+          <![CDATA[/form[@title='Open']/button[@text='&Open']]]>
+        </item>
+        <item id="c4be44df-f430-4f95-b02a-467184298eac" searchtimeout="1000ms" capname="button" name="ButtonCancel">
+          <![CDATA[/form[@title='Open']/button[@text='Cancel']]]>
+        </item>
+        <item id="952cbe46-3a99-4d9a-b598-a62c21dcd5be" searchtimeout="1.3333333333333333m" capname="form" name="FormOpen">
+          <![CDATA[/form[@title='Open']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Open']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAA2pJREFUOE+Fk11Mm3UUxl+89NJ4ofFqd3oDbAUJOJYNjMhQtwznOmzp
+Cq7AiswZsgVaWsYkfMjYZLBZGCBkw3WDIerCHB8zrShfhTEofQvtBmtLoZQPQa6W+POlJMbohSc5
+d//nl/95znnChP8p4EW32/2GKIqC8Py58NIrr46+wJ+C+U670NvbE/Ufuc+38bLL+UQzbLNprAOD
+Gq/XW+pfXGR4aJDu7820d7YhzkyxsrJCmlxeGgJsbATivV6/yT3rNs2I8x0u11O8Cx78i34GfrNg
+sdykr7+ejs5ydOdz+La9ieXlJSIjIxAWl5dHfX7PnM/nJRgMsrn5BzbbEN91XqKrS09ry+d805JN
+Q72aosLDIUBjay0e3zy7d0ciBIIrjI2NUlis4kRuHEcVMWScTKDqy0PU1aTR2JCFviCF3Ox3KNBn
+hgDXm7/C651jzx4JEFxdZXraQUm5FmVODMcUe9Hk7KPQeJCs7EQ6O+pIV8WTf/Z4SLzdV2pLePZU
+JCpKhrC+vs78/DNu3rqAofgA+qIkTp9LRJ5+QPrNW4yP3KesTEWRIRV9iSYEqL5chNvlkABRCGtr
+ayz4F3lw/xJ1lw9y1fQBemMKH0rimqt5TE710WGu5rT2bWmEjBCg4qIO0WnfAURHR08vLS1Q31LM
+MfWbKDVxJL8r42K1gbtdDfT3mNHpNDz82UxbewUFhkxKK7RM2QfY2tpCcDhcMt+Cj2uNJRxVxvDR
+x3EU6JTcaqtk167X6Ou9jTojlVPa9ziVlYT+7GGMxpMM26xsbG4i2B4/lnm8PlpvVJKeHRsCHFfF
+kZD4OkpFMg96m1F/koJKvo9KXVqoy/UKxkYehtYuDNpssjnJRLM0Z+ane5GrY0lTxfL+kQiycvbz
+heEQ5/KSMJ5J/RtQeV7DxMQQgcASgtVqlc24XPzYfZsT2v3IJfO00hrLDMmYrsmpunCE2io116/k
+c/dGDYHlBX6x/srkpGMuIiJidAcw62L80TCfnUkmPy+Br+ty6L5Xxb0fqun5qUl6PMLK7xs0N7VK
+Z20xhYWFmaQExIdy0C8BpkQHs0+c9PeamRjtxj49jii6eTRhx+l0SnfiYVVat1Kp3AnPP2vbA3F2
+hkBwFY9nCbt9jNy8PIZGbExM2um3WAgPD0ehUJRuR/vf+r8ALbN4uPKwyZwAAAAASUVORK5CYII=
+        </icon>
+      </appfolder>
+      <appfolder id="a7e9f7e7-239d-4bca-91e8-a8ec8495fa14" searchtimeout="30s" capname="form" name="FormFile" isrooted="True" usecache="True">
+        <item id="81f66023-1a39-4802-ba5e-8c8b7b0b1000" searchtimeout="10s" capname="menuitem" name="MenuItemPreferences">
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename~'Preferences.*']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='File']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="18564bc5-0382-49bf-8077-b71cb87074bc" searchtimeout="30s" capname="form" name="FormRealView" isrooted="True" usecache="True">
+        <item id="02fb3b2e-662e-473c-905b-6461671f294a" searchtimeout="10s" capname="button" name="ButtonYes">
+          <![CDATA[/form[@title='RealView']/button[@text='&Yes']]]>
+        </item>
+        <item id="f31c22a1-9c7b-44f4-9586-8517b56e85bc" searchtimeout="10s" capname="button" name="ButtonOK">
+          <![CDATA[/form[@title='RealView']/button[@text='OK']]]>
+        </item>
+        <item id="4ea1869b-0ab0-43fd-8ffc-bcb4a2d7e437" searchtimeout="10s" capname="button" name="ButtonNo">
+          <![CDATA[/form[@title='RealView']/button[@text='&No']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='RealView']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="52c3af9c-d90d-4eba-8bad-06a519aa86ca" searchtimeout="30s" capname="form" name="FormConnection_Settings" isrooted="True" usecache="False">
+        <item id="cacc044b-6b81-433a-949c-2e1533fdb02d" searchtimeout="10s" capname="button" name="ButtonCLOSE">
+          <![CDATA[/form[@title='Connection Settings']/.//button[@accessiblename='CLOSE']]]>
+        </item>
+        <item id="f17ab015-80b1-4417-8231-adfadb13939f" searchtimeout="10s" capname="button" name="ButtonEdit">
+          <![CDATA[/form[@title='Connection Settings']/.//button[@accessiblename='Edit']]]>
+        </item>
+        <folder id="6b049668-8460-4e1b-9206-f6d4eb7b5cb5" searchtimeout="10s" capname="container" name="ContainerRealView" isrooted="True" usecache="True">
+          <item id="0e941c1d-7ed5-431d-830c-ffd7dbbc2772" searchtimeout="10s" capname="text" name="TextRealView">
+            <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @class='#32770' and @instance='0']/element[@class='XTPPropertyGrid']/element/text[@class='Edit']]]>
+          </item>
+          <basepath>
+            <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @class='#32770' and @instance='0']]]>
+          </basepath>
+        </folder>
+        <item id="7cab9a82-0f8f-431e-9585-da81ec495c09" searchtimeout="10s" capname="button" name="ButtonSave">
+          <![CDATA[/form[@title='Connection Settings']/.//button[@accessiblename='Save']]]>
+        </item>
+        <item id="c2dc7094-0764-45ca-a1f2-3625ca908a3a" searchtimeout="10s" capname="tabpage" name="TabPageInterface_Properties">
+          <![CDATA[/form[@title='Connection Settings']/element/tabpagelist/tabpage[@accessiblename='Interface Properties']]]>
+        </item>
+        <item id="5c8aff7a-5876-470d-a743-fcff5bd4c84a" searchtimeout="10s" capname="listitem" name="ListItemServer_Address">
+          <![CDATA[/form[@title='Connection Settings']/.//listitem[@accessiblename='Server Address']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Connection Settings']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="0f981eb4-0e05-499a-9bd9-0c4547a08bf0" searchtimeout="1000ms" capname="form" name="FormSelect_Configuration" isrooted="True" usecache="True">
+        <item id="41d92da7-d808-4353-837c-3045d450a193" searchtimeout="1000ms" capname="button" name="ButtonOK">
+          <![CDATA[/form[@title='Select Configuration']/button[@text='OK']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Select Configuration']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAA2pJREFUOE+Fk11Mm3UUxl+89NJ4ofFqd3oDbAUJOJYNjMhQtwznOmzp
+Cq7AiswZsgVaWsYkfMjYZLBZGCBkw3WDIerCHB8zrShfhTEofQvtBmtLoZQPQa6W+POlJMbohSc5
+d//nl/95znnChP8p4EW32/2GKIqC8Py58NIrr46+wJ+C+U670NvbE/Ufuc+38bLL+UQzbLNprAOD
+Gq/XW+pfXGR4aJDu7820d7YhzkyxsrJCmlxeGgJsbATivV6/yT3rNs2I8x0u11O8Cx78i34GfrNg
+sdykr7+ejs5ydOdz+La9ieXlJSIjIxAWl5dHfX7PnM/nJRgMsrn5BzbbEN91XqKrS09ry+d805JN
+Q72aosLDIUBjay0e3zy7d0ciBIIrjI2NUlis4kRuHEcVMWScTKDqy0PU1aTR2JCFviCF3Ox3KNBn
+hgDXm7/C651jzx4JEFxdZXraQUm5FmVODMcUe9Hk7KPQeJCs7EQ6O+pIV8WTf/Z4SLzdV2pLePZU
+JCpKhrC+vs78/DNu3rqAofgA+qIkTp9LRJ5+QPrNW4yP3KesTEWRIRV9iSYEqL5chNvlkABRCGtr
+ayz4F3lw/xJ1lw9y1fQBemMKH0rimqt5TE710WGu5rT2bWmEjBCg4qIO0WnfAURHR08vLS1Q31LM
+MfWbKDVxJL8r42K1gbtdDfT3mNHpNDz82UxbewUFhkxKK7RM2QfY2tpCcDhcMt+Cj2uNJRxVxvDR
+x3EU6JTcaqtk167X6Ou9jTojlVPa9ziVlYT+7GGMxpMM26xsbG4i2B4/lnm8PlpvVJKeHRsCHFfF
+kZD4OkpFMg96m1F/koJKvo9KXVqoy/UKxkYehtYuDNpssjnJRLM0Z+ane5GrY0lTxfL+kQiycvbz
+heEQ5/KSMJ5J/RtQeV7DxMQQgcASgtVqlc24XPzYfZsT2v3IJfO00hrLDMmYrsmpunCE2io116/k
+c/dGDYHlBX6x/srkpGMuIiJidAcw62L80TCfnUkmPy+Br+ty6L5Xxb0fqun5qUl6PMLK7xs0N7VK
+Z20xhYWFmaQExIdy0C8BpkQHs0+c9PeamRjtxj49jii6eTRhx+l0SnfiYVVat1Kp3AnPP2vbA3F2
+hkBwFY9nCbt9jNy8PIZGbExM2um3WAgPD0ehUJRuR/vf+r8ALbN4uPKwyZwAAAAASUVORK5CYII=
+        </icon>
+      </appfolder>
+      <appfolder id="f125c69f-981d-4fec-8f1a-61d2d90c585f" searchtimeout="30s" capname="form" name="FormTacViewC2_Delta" isrooted="True" usecache="False">
+        <item id="78c9da05-8d2a-4ac8-8900-d8fd6c87c53f" searchtimeout="10s" capname="tabpage" name="TabPageLocal_R2__0_tracks">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//tabpagelist/tabpage[@accessiblename='Local R2 (0 tracks)']]]>
+        </item>
+        <item id="ae32fc97-dea9-49cb-9496-3125445f66fb" searchtimeout="10s" capname="unknown" name="ElementTabbedContainerName">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//element[@accessiblename='TabbedContainerName']]]>
+        </item>
+        <item id="85d57f39-48fb-4358-89dc-1483cb65cc87" searchtimeout="10s" capname="button" name="ButtonSet_Range_to_200_km">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//toolbar[1]/button[@accessiblename='Set Range to 200 km']]]>
+        </item>
+        <item id="8c44d001-1e54-436f-aa14-e6799cc6b8f7" searchtimeout="10s" capname="button" name="Button_Center_on_Own_Site">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//toolbar[1]/button[@accessiblename=' Center on Own Site']]]>
+        </item>
+        <item id="237f2558-9e41-4b3e-80f6-c7cb825882a3" searchtimeout="10s" capname="button" name="ButtonView_Range_Rings">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//toolbar[1]/button[@accessiblename='View Range Rings']]]>
+        </item>
+        <item id="1d2bac59-8579-412b-ad10-adc3bef69ec9" searchtimeout="10s" capname="container" name="ContainerRvView3">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container[@accessiblename='RvView']]]>
+        </item>
+        <item id="48ed9e29-4b9b-4a57-8628-34b3b32c1b83" searchtimeout="10s" capname="menuitem" name="MenuItemSystem">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/menubar/menuitem[@accessiblename='System']]]>
+        </item>
+        <item id="fa1a4f28-b8be-4f41-b035-bdc42a641ad7" searchtimeout="10s" capname="picture" name="PictureTrack1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </item>
+        <item id="f83e1716-55c7-4548-b414-ee344be1f2b8" searchtimeout="10s" capname="picture" name="PictureTrack2">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/picture[@accessiblename~'\d\d\d\d'][4]]]>
+        </item>
+        <item id="9eb6aef9-3827-46cc-a8b9-eb69cd2b076d" searchtimeout="10s" capname="titlebar" name="TitleBarTacViewC2____map__Defaul">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ Default']]]>
+        </item>
+        <item id="f9586be1-6d7d-416d-92f7-424f921dfc49" searchtimeout="10s" capname="container" name="ContainerRvView">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//container[@accessiblename='RvView']]]>
+        </item>
+        <item id="42b476b7-2125-45bb-996e-36b83ae69827" searchtimeout="10s" capname="titlebar" name="TitleBarTacViewC2____map__Pacifi">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ Pacific']]]>
+        </item>
+        <item id="4667c76a-9e6d-4aa9-b598-d43261f0c62f" searchtimeout="500ms" capname="picture" name="PictureDropTrack1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/picture[@accessiblename~'\d\d\d\d']]]>
+        </item>
+        <item id="5cf26b35-cef6-4150-b78f-c487d091b5e0" searchtimeout="500ms" capname="picture" name="PictureDropTrack2">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/picture[@accessiblename~'\d\d\d\d'][4]]]>
+        </item>
+        <item id="cc170496-83fb-445d-bbca-ffe756c3312f" searchtimeout="10s" capname="button" name="ButtonField">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//toolbar[1]/button[@accessiblename='Field:']]]>
+        </item>
+        <item id="3b97893b-8cb8-49f2-b2a1-e5103210dbaf" searchtimeout="10s" capname="button" name="ButtonInterface">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//toolbar[1]/button[@accessiblename='Interface:']]]>
+        </item>
+        <item id="f97e37a4-7ce8-44df-9199-5ba74c9e6beb" searchtimeout="10s" capname="button" name="ButtonSearch_For_Track">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//toolbar[1]/button[@accessiblename='Search For Track']]]>
+        </item>
+        <item id="baa72897-0233-4ecf-84fa-9c0440603050" searchtimeout="10s" capname="text" name="TextRealView1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//text[@class='RichEdit20A']]]>
+        </item>
+        <item id="78cb6f74-c168-4182-b85d-6ae64530e835" searchtimeout="10s" capname="menuitem" name="File">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element//menuitem[@accessiblename='File']]]>
+        </item>
+        <item id="11ea0d05-d703-442e-969e-48e4d92dab45" searchtimeout="10s" capname="button" name="ButtonClose">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/titlebar/button[@accessiblename='Close']]]>
+        </item>
+        <item id="fdca19cb-b047-4b86-bee2-83a7e10b7069" searchtimeout="10s" capname="cell" name="CellInterface_0">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/element/table/cell[@accessiblename='Interface[0]']]]>
+        </item>
+        <item id="f58471dd-9af9-4ec1-8368-079fff031eea" searchtimeout="10s" capname="cell" name="CellStatus_0">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/element/table/cell[@accessiblename='Status[0]']]]>
+        </item>
+        <item id="581cb9c4-d654-4967-8e18-018f5722fa62" searchtimeout="10s" capname="cell" name="CellConnected_0">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element/container/element/table/cell[@accessiblename='Connected[0]']]]>
+        </item>
+        <item id="52e6856a-acd2-48d8-9c89-53026191835f" searchtimeout="10s" capname="picture" name="Picture3003">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']/element[@controlid='59648']/container/picture[@accessiblename='3003']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*' and @state='Maximized']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASVgAAElYBM7D9ZQAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="1a00f0fe-b4ff-45a1-af22-e629096ac6b2" searchtimeout="30s" capname="contextmenu" name="ContextMenuExplorer" isrooted="True" usecache="True">
+        <item id="72af9e4c-d003-4857-af5b-884676a5b1ec" searchtimeout="10s" capname="menuitem" name="MenuItemOpen">
+          <![CDATA[/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Open']]]>
+        </item>
+        <basepath>
+          <![CDATA[/contextmenu[@processname='explorer']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAALBgAACwYBZDTpJAAAALxJREFUOE9j/P//PwNFAGQACNsEZP9fs2Im0RimD6wZZgDQJUAmYQCy
+CKsBYFGgITsOnv9f1j73f0bVxP+R2S3/vWLL/oNcCAN4DYAZgs8dBA2AGbJs477/kTnN/z1jy0lz
+Acx2XGFCtAtABoDw1IXriXMBTAPMC+fOnfsPwugApwtgGmBOB9ENnZOIC4Oujmq4RcgGEO0CqLPA
+hmw/eA7sd5JcgGwAyBCYd0hyAUV5AZa2SaXhmYlUjTD1AHJC3EGQYdi3AAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="79342093-8c22-4986-b9e4-e4d69707c65f" searchtimeout="30s" capname="form" name="FormCreate_Track" isrooted="True" usecache="True">
+        <item id="37415eca-adb5-472d-a773-7bc357a6ad51" searchtimeout="10s" capname="menuitem" name="MenuItemAir">
+          <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename='Air']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Create Track']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAASTgAAEk4BXi7lygAAA2pJREFUOE+Fk11Mm3UUxl+89NJ4ofFqd3oDbAUJOJYNjMhQtwznOmzp
+Cq7AiswZsgVaWsYkfMjYZLBZGCBkw3WDIerCHB8zrShfhTEofQvtBmtLoZQPQa6W+POlJMbohSc5
+d//nl/95znnChP8p4EW32/2GKIqC8Py58NIrr46+wJ+C+U670NvbE/Ufuc+38bLL+UQzbLNprAOD
+Gq/XW+pfXGR4aJDu7820d7YhzkyxsrJCmlxeGgJsbATivV6/yT3rNs2I8x0u11O8Cx78i34GfrNg
+sdykr7+ejs5ydOdz+La9ieXlJSIjIxAWl5dHfX7PnM/nJRgMsrn5BzbbEN91XqKrS09ry+d805JN
+Q72aosLDIUBjay0e3zy7d0ciBIIrjI2NUlis4kRuHEcVMWScTKDqy0PU1aTR2JCFviCF3Ox3KNBn
+hgDXm7/C651jzx4JEFxdZXraQUm5FmVODMcUe9Hk7KPQeJCs7EQ6O+pIV8WTf/Z4SLzdV2pLePZU
+JCpKhrC+vs78/DNu3rqAofgA+qIkTp9LRJ5+QPrNW4yP3KesTEWRIRV9iSYEqL5chNvlkABRCGtr
+ayz4F3lw/xJ1lw9y1fQBemMKH0rimqt5TE710WGu5rT2bWmEjBCg4qIO0WnfAURHR08vLS1Q31LM
+MfWbKDVxJL8r42K1gbtdDfT3mNHpNDz82UxbewUFhkxKK7RM2QfY2tpCcDhcMt+Cj2uNJRxVxvDR
+x3EU6JTcaqtk167X6Ou9jTojlVPa9ziVlYT+7GGMxpMM26xsbG4i2B4/lnm8PlpvVJKeHRsCHFfF
+kZD4OkpFMg96m1F/koJKvo9KXVqoy/UKxkYehtYuDNpssjnJRLM0Z+ane5GrY0lTxfL+kQiycvbz
+heEQ5/KSMJ5J/RtQeV7DxMQQgcASgtVqlc24XPzYfZsT2v3IJfO00hrLDMmYrsmpunCE2io116/k
+c/dGDYHlBX6x/srkpGMuIiJidAcw62L80TCfnUkmPy+Br+ty6L5Xxb0fqun5qUl6PMLK7xs0N7VK
+Z20xhYWFmaQExIdy0C8BpkQHs0+c9PeamRjtxj49jii6eTRhx+l0SnfiYVVat1Kp3AnPP2vbA3F2
+hkBwFY9nCbt9jNy8PIZGbExM2um3WAgPD0ehUJRuR/vf+r8ALbN4uPKwyZwAAAAASUVORK5CYII=
+        </icon>
+      </appfolder>
+      <appfolder id="5d3d69af-9785-4ff4-b544-ccfee0d4ee62" searchtimeout="30s" capname="form" name="FormMainSelect" isrooted="True" usecache="True">
+        <item id="d36aef2a-409c-468c-975b-c41a8ce9ca98" searchtimeout="10s" capname="menuitem" name="MenuItemCreate_Track">
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </item>
+        <item id="b1132164-cc30-42f8-9345-e51922a47093" searchtimeout="10s" capname="menuitem" name="MenuItemDrop_Track">
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Drop Track']]]>
+        </item>
+        <item id="8494b934-6dae-41da-9d2f-89440a9427c2" searchtimeout="10s" capname="menuitem" name="MenuItemTrack_Properties">
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Track Properties']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+        </icon>
+      </appfolder>
+      <appfolder id="650edb47-f453-494a-b75c-8ab1641f1fe7" searchtimeout="30s" capname="form" name="FormMain__Air_TN___CREATING" isrooted="True" usecache="True">
+        <item id="d2c7f9ba-af68-43d1-af27-f25e97a9381d" searchtimeout="10s" capname="button" name="ButtonSave">
+          <![CDATA[/form[@title='Main (Air TN ) CREATING']/.//button[@accessiblename='Save']]]>
+        </item>
+        <item id="ece16c7b-a846-4add-a310-0fb5f77b2a03" searchtimeout="10s" capname="listitem" name="ListItemIdentity">
+          <![CDATA[/form[@title='Main (Air TN ) CREATING']/element//listitem[@accessiblename='Identity']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Main (Air TN ) CREATING']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+        </icon>
+      </appfolder>
+      <appfolder id="1b1b7348-89c7-4e34-8010-96b8afeadaea" searchtimeout="30s" capname="form" name="FormMain__Air_TN" isrooted="True" usecache="True">
+        <item id="ed1b3ed2-6617-4d15-8b98-06b1da063a40" searchtimeout="10s" capname="listitem" name="ListItemIdentity">
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']/.//listitem[@accessiblename='Identity']]]>
+        </item>
+        <item id="016de314-ab7d-4402-af23-effccdd6caaf" searchtimeout="10s" capname="button" name="ButtonCLOSE">
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']/button[@accessiblename='CLOSE']]]>
+        </item>
+        <item id="3709e62d-e421-4292-a46a-02b5eb775c5c" searchtimeout="10s" capname="listitem" name="ListItemPlatform">
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']/.//listitem[@accessiblename='Platform']]]>
+        </item>
+        <item id="52a975b0-ffc5-4c70-a8fe-7d3e0c0fb962" searchtimeout="10s" capname="listitem" name="ListItemActivity">
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']/.//listitem[@accessiblename='Activity']]]>
+        </item>
+        <item id="bd6a4d48-6329-404d-b3ac-fd9b009871fa" searchtimeout="10s" capname="listitem" name="ListItemStype">
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']/.//listitem[@accessiblename='Specific Type']]]>
+        </item>
+        <item id="211a6a15-c8b8-45b0-9666-8a2130b7cf65" searchtimeout="10s" capname="button" name="ButtonSave">
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']/.//button[@accessiblename='Save']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title~'Main \(Air TN .*\)']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+        </icon>
+      </appfolder>
+      <appfolder id="008f5e8d-d0f6-48b7-811e-ae985e037b5d" searchtimeout="30s" capname="form" name="FormIdle" isrooted="True" usecache="True">
+        <item id="de7e7197-1789-4517-b2da-f26e5d361464" searchtimeout="10s" capname="menuitem" name="MenuItemPreferences">
+          <![CDATA[/form[5]/contextmenu[1]/menuitem[@accessiblename='Preferences...']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[5]]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOpgAADqYBh9ypbwAAAk9JREFUOE+lk9tL02Ech/eXdBFRUhEZBFF08Lhy5oWEFWFXBZEEEpQZ
+gVRowUBLClI7CGUnKypI6kKwIvOQI23OuTbnPEzdpm5zh99pv6d3W6AG2oUvPJffz+d5vy+vwbDW
+09hq4d4bJ7Utg9Q0/+Jqk4Vz5i5OVfdQWvWNkgttFJe/pqjs2TIOn32K8VglhvqXdpo7NJraNe60
+yZjfRql+EaLqyRyVzQHO3/dTdneK03UTnDR7OF7j5sg1F4UVFtZl7MJQ12Kh/l2Q2+8jXH40zZlb
+Hkpvujhxw8nR6w6Kq+wUXRnCVGnj0KVBjBVW8i9aySrvYUOmEUNt4ysCwTiRmMaCIBxVCUUUgoK5
+cBpfUME7K+PxyTi9ErZxiW6bl83bd4qAhlZWO7oOigpRSWc+mmA6pDEWULG6fWzaugPDw+cfV5zX
+EiApOgvxBLMLGlPzGh6/wu8phd7h/wQkRLMshlPNkQQzonlcNLumFWwTMl221QKS2poYlnVCsQT+
+sMbknIbbp2CfVBgYlflqFQFbVrjCorrOrBhOq6s4hLp1TKZvRKKjf4WAlLqaVE+k1YNpdWdKXeGn
+W6bbKdFuSQZkLl9iauMaxMS9g0vVZ9Lq/R6JXpdEpz3Op75/AsQs6t+th+M6gdTWVUaT6t5F9e+O
+OF9sMT70+tiYNHiw5BlFOZJ483AcEQCT8+D26wx7NQbGNH6MqHQ6FD4PyamA9RnbxF9oeEz+wULy
+jCZyBTmCbEFWvokDeSb25xawT7A3p4A92Wl2Z6XJKyxhrZ/Z8Af+1+a2LuSr2AAAAABJRU5ErkJg
+gg==
+        </icon>
+      </appfolder>
+      <basepath>
+      </basepath>
+    </rootfolder>
+  </repository>
+</recordtable>

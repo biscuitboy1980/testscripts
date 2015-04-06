@@ -1,0 +1,1081 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="e0544b89-d78b-45ea-882b-90f6468083dd" embeddedrepository="false">
+  <name>
+    Setup2SFF
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Setup2SFF" namespace="SystemManagerLib.UISpecific.Setup2SFF"/>
+  <variables/>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="DeleteSMConfig">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="CopySiteFiles">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="LaunchSM">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <explicitdelayitem enabled="True" optional="False" duration="10000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="DataLinkStatus">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ApplicationStatus">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="10ms" sequence="{LMenu down}{Fkey}{LMenu up}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="1156ms" action="Click" button="Left" movetime="150ms" sx="58" sy="161" loc="56;6">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="041f9ad5-4637-42d0-8fa4-917dca97d066">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="6" rect="2,155,138,20">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Connection Manager]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Connection Manager]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/contextmenu/menuitem[@accessiblename='Connection Manager']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="359" sy="284" loc="9;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="2bdd076c-2976-40af-8bef-c3554c201256">
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='4']/text[@accessiblename='New']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1088" sy="289" loc="6;12">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d9e4d81d-a83d-4020-afb2-fca3f7d20b59">
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='17']/combobox/button[@accessiblename='Open']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1003" sy="352" loc="51;8">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="074a50e8-740b-4413-a600-6ed0df9e836b">
+        <path>
+          <![CDATA[/form[@title='sm']/element/element[@class='QWidget' and @instance='0']/list/listitem[@accessiblename='Small Form Factor']/listitem[@accessiblename='Small Form Factor']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="947" sy="257" loc="27;12">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="dc72f4fa-ebb1-4174-8496-9c5b3939212e">
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='13']/text[@accessiblerole='Text']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="SFF3" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keysequenceitem enabled="True" optional="False" duration="10ms" sequence="{Tab}{Tab}{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="SFF3">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Down" button="Left" movetime="150ms" sx="962" sy="620" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="02f6594e-ec31-4f5a-a601-632a31a87253">
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='14']/button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1049" sy="612" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c8f24efc-4361-44d5-8a9c-d999a218cd99">
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='16']/button[@accessiblename='Connect']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1156ms" action="Click" button="Left" movetime="150ms" sx="1198" sy="694" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c8f24efc-4361-44d5-8a9c-d999a218cd99">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1150,680,80,27">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Connect]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[Alt+C]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Connect]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/button[@accessiblename='Connect']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="685" sy="449" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c548158c-85aa-4972-902b-5a7ccb01ba90">
+        <path>
+          <![CDATA[/form[@title='Connect']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/button[@accessiblename='Yes']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem enabled="True" optional="False" duration="250ms" action="Exists">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="8eeff6b3-ca95-4784-9b60-a12a6f503cee">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element/text[@accessiblename='Connected']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+      </matchvalue>
+    </validationitem>
+    <explicitdelayitem enabled="True" optional="False" duration="7000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="100ms" methodname="StartStopRestart">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <explicitdelayitem enabled="True" optional="False" duration="5000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="bb4887a6-05a8-43eb-a065-e271ea613ba6">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/titlebar[@accessiblevalue~'^System\ Manager*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="LoadSite1">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="ToggleLink">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="517" sy="65" loc="50;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="865b76df-8e5b-40ba-82ea-6ebf1bbc7fa5">
+        <element role="tabpage" prefcap="tabpage" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="467,54,94,24">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[4]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="title" type="System.String">
+            <![CDATA[Forwarding]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Forwarding]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PageTab]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/tabpagelist/tabpage[@accessiblename='Forwarding']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="111" sy="116" loc="89;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d0a4d520-dbe8-4fa7-b81a-7c7ad94685dc">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="22,107,196,20">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[  Data Link Forwarding]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[  Data Link Forwarding]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[  Data Link Forwarding]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/list/listitem[@accessiblename='  Data Link Forwarding']/listitem[@accessiblename='  Data Link Forwarding']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="489" sy="185" loc="23;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bc45e262-47e2-4b4a-a291-bca14b1771cc">
+        <element role="text" prefcap="text" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="466,176,46,20">
+          <attribute name="caption" type="System.String">
+            <![CDATA[Enable All]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Enable All]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Enable All]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[StaticText]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='10']/text[@accessiblename='Enable All']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="291" sy="412" loc="34;13">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="f0a62c61-a2cc-4bb3-91b3-ca2766010946">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="False" hasfocus="False" dontcache="False" index="0" rect="257,399,75,24">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Unavailable, Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='6']/button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="74" sy="137" loc="52;10">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="265b91f4-dd4e-421b-9adb-4fee989ce00b">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="22,127,196,20">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[  C2 Host Forwarding]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[  C2 Host Forwarding]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[  C2 Host Forwarding]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/list/listitem[@accessiblename='  C2 Host Forwarding']/listitem[@accessiblename='  C2 Host Forwarding']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="513" sy="183" loc="19;7">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bc45e262-47e2-4b4a-a291-bca14b1771cc">
+        <element role="text" prefcap="text" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="494,176,46,20">
+          <attribute name="caption" type="System.String">
+            <![CDATA[Enable All]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Enable All]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Enable All]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[StaticText]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//text[@accessiblename='Enable All']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="297" sy="439" loc="40;10">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="f0a62c61-a2cc-4bb3-91b3-ca2766010946">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="False" hasfocus="False" dontcache="False" index="0" rect="257,429,75,24">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Unavailable, Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="16" sy="36" loc="16;10">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="7f8c4d22-2093-4662-9bf5-5fe74a4a9218">
+        <element role="unknown" prefcap="unknown" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="6" rect="0,26,100,30">
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[QWidget]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[4719244]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[788]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[sm]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='1']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="70" sy="162" loc="68;7">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="041f9ad5-4637-42d0-8fa4-917dca97d066">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="6" rect="2,155,138,20">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Connection Manager]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Connection Manager]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/contextmenu/menuitem[@accessiblename='Connection Manager']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="482" sy="361" loc="12;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="2bdd076c-2976-40af-8bef-c3554c201256">
+        <element role="text" prefcap="text" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="470,350,41,18">
+          <attribute name="caption" type="System.String">
+            <![CDATA[New]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[New]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[New]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[StaticText]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='4']/text[@accessiblename='New']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1209" sy="363" loc="7;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d9e4d81d-a83d-4020-afb2-fca3f7d20b59">
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/combobox/button[@accessiblename='Open']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1132" sy="423" loc="60;4">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="074a50e8-740b-4413-a600-6ed0df9e836b">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1072,419,146,14">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Small Form Factor]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Small Form Factor]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Small Form Factor]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/element/element[@class='QWidget' and @instance='0']/list/listitem[@accessiblename='Small Form Factor']/listitem[@accessiblename='Small Form Factor']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1065" sy="334" loc="25;14">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="dc72f4fa-ebb1-4174-8496-9c5b3939212e">
+        <element role="text" prefcap="text" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1040,320,180,27">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Text]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable, AlertHigh, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='13']/text[@accessiblerole='Text']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="SFF4" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <keysequenceitem enabled="True" optional="False" duration="10ms" sequence="{Tab}{Tab}{Tab}{Tab}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="250ms" methodname="SFF4">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1089" sy="694" loc="39;14">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="02f6594e-ec31-4f5a-a601-632a31a87253">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1050,680,80,27">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[Alt+A]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='14']/button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1189" sy="692" loc="39;12">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c8f24efc-4361-44d5-8a9c-d999a218cd99">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="1150,680,80,27">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Connect]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[Alt+C]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Connect]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connection Manager']/element[@class='QWidget' and @instance='16']/button[@accessiblename='Connect']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="798" sy="529" loc="38;13">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="c548158c-85aa-4972-902b-5a7ccb01ba90">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="760,516,77,26">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Yes]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[Enter]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Yes]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, Default, Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Connect']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/button[@accessiblename='Yes']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem enabled="True" optional="False" duration="250ms" action="Exists">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="8eeff6b3-ca95-4784-9b60-a12a6f503cee">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element/text[@accessiblename='Connected']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Connected]]>
+      </matchvalue>
+    </validationitem>
+    <explicitdelayitem enabled="True" optional="False" duration="7000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="StartStopRestart">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <explicitdelayitem enabled="True" optional="False" duration="5000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="1218ms" action="Click" button="Left" movetime="150ms" sx="411" sy="16" loc="CenterLeft">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bb4887a6-05a8-43eb-a065-e271ea613ba6">
+        <element role="titlebar" prefcap="titlebar" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="10" rect="25,0,1655,26">
+          <attribute name="text" type="System.String">
+            <![CDATA[System Manager - UNCLASSIFIED]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Displays the name of the window and contains controls to manipulate it]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[TitleBar]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[System Manager - UNCLASSIFIED]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/titlebar[@accessiblevalue~'^System\ Manager*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="LoadSite2">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ToggleLink">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="865b76df-8e5b-40ba-82ea-6ebf1bbc7fa5">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/tabpagelist/tabpage[@accessiblename='Forwarding']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="d0a4d520-dbe8-4fa7-b81a-7c7ad94685dc">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//listitem[@accessiblename='  Data Link Forwarding']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="bc45e262-47e2-4b4a-a291-bca14b1771cc">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//text[@accessiblename='Enable All']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="f0a62c61-a2cc-4bb3-91b3-ca2766010946">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="265b91f4-dd4e-421b-9adb-4fee989ce00b">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//listitem[@accessiblename='  C2 Host Forwarding']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="bc45e262-47e2-4b4a-a291-bca14b1771cc">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//text[@accessiblename='Enable All']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="f0a62c61-a2cc-4bb3-91b3-ca2766010946">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem enabled="True" optional="False" duration="250ms" action="AttributeEqual">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="0821615b-2d2b-4951-8ee6-7d0f82051b56">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='5']/element[@class='QWidget' and @instance='1']/element/element[@class='QWidget' and @instance='1']/table/row[@accessiblename='1']/cell[@accessiblename='OPER']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleValue]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[OPER]]>
+      </matchvalue>
+    </validationitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="15" sy="37" loc="15;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="7f8c4d22-2093-4662-9bf5-5fe74a4a9218">
+        <element role="unknown" prefcap="unknown" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="6" rect="0,26,100,30">
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[QWidget]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[4719244]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[788]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[sm]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='1']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="40" sy="110" loc="38;15">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="407ead6d-7d26-4f84-9a7d-0d33aeb96c30">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="3" rect="2,95,138,20">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Connect]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Connect]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/contextmenu/menuitem[@accessiblename='Connect']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="216" sy="128" loc="75;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="218281fe-98b4-4595-b444-83ed570f87a2">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="141,117,157,20">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[SFF3 - Small Form Factor]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[SFF3 - Small Form Factor]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/contextmenu/menuitem[@accessiblename='SFF3 - Small Form Factor']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="10000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <validationitem enabled="True" optional="False" duration="250ms" action="AttributeEqual">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="0821615b-2d2b-4951-8ee6-7d0f82051b56">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='5']/element[@class='QWidget' and @instance='1']/element/element[@class='QWidget' and @instance='1']/table/row[@accessiblename='1']/cell[@accessiblename='OPER']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleValue]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[OPER]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="Link_16_Regression" id="4c3aeeb3-574a-44e0-847b-d50d433c17ca" rxversion="3.1.1.14266" relativepath="..\..\Link-16_Regression.rxrep">
+    <codegen classname="Link_16_Regression" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="71281010-c614-4112-a790-27d2dd803ee8"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[Setup2SFF_UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\TacViewLib\bin\Debug\TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+  </references>
+</recordtable>

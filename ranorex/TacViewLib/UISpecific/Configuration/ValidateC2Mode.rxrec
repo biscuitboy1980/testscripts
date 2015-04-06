@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="5d423dec-2071-49af-8733-b70b6dd5d628">
+  <name>
+    ValidateC2Mode
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateC2Mode" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <userrecorditem duration="0ms" methodname="RandCoord">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="0ms" methodname="CreateTrack">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="4d2cebb5-3c1b-421d-a4ce-59e994ad7f68">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryConfiguration" id="ef38cbe1-cb78-476a-bcf1-673e06711162" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryConfiguration.rxrep">
+    <codegen classname="TacViewLibRepositoryConfiguration" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

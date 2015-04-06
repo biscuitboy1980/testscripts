@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="13c1f9fb-74d7-45b0-ac47-9adc1670aa79" embeddedrepository="false">
+  <name>
+    TDLFTM
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="TDLFTM" namespace="SystemManagerLib.UISpecific.GUIs"/>
+  <variables/>
+  <recorditems>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="bb4887a6-05a8-43eb-a065-e271ea613ba6">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/titlebar[@accessiblevalue~'^System\ Manager*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="LMenu, Alt" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="T" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="250ms" sx="150" sy="244" loc="86;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="b451b98c-e2b4-48ce-8728-b09a5b549ac2">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="10" rect="64,235,180,20">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[TDL-FTM]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[TDL-FTM]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='sm']/contextmenu/menuitem[@accessiblename='TDL-FTM']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem enabled="True" optional="False" duration="0ms" action="Exists">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="990203aa-f0e2-4948-93da-7991408af00a">
+        <path>
+          <![CDATA[/form[@title='TDL-FTM Client']/titlebar[@accessiblevalue='TDL-FTM Client']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[yourtext]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="V15SmokeTestRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\V15SmokeTestRepository.rxrep">
+    <codegen classname="V15SmokeTestRepository" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <references/>
+</recordtable>

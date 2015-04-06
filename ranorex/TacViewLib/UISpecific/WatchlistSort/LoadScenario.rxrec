@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="191527ef-4039-4640-9c56-0bd0eb116210">
+  <name>
+    LoadScenario
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="LoadScenario" namespace="TacViewLib.UISpecific.WatchlistSort"/>
+  <recorditems>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="349" sy="42" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="834c69ad-2d6c-4f28-80ca-ea3afafe6647">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="320,32,57,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Scenario]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Scenario]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/.//menuitem[@accessiblename='Scenario']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="376" sy="100" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="08523062-5ef6-4f7d-a156-a09d5bcf581a">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="2" rect="322,96,161,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Load Scenario File...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Load Scenario File...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Scenario']/contextmenu[1]/menuitem[@accessiblename='Load Scenario File...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="676" sy="660" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="164d6b34-48a3-4be3-ae06-2aa705f971f7">
+        <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="561,651,224,14">
+          <attribute name="selectionlength" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selectionstart" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1148]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[6030608]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3748]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Open Scenario File']/combobox[@controlid='1148']/text[@controlid='1148']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem duration="100ms" sequence="{RShiftKey down}{Home}{RShiftKey up}{Delete}" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <keysequenceitem duration="100ms" sequence="{RShiftKey down}{End}{RShiftKey up}{Delete}" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <userrecorditem duration="100ms" methodname="LoadWatchlistTracks">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <keyitem duration="100ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+    </keyitem>
+    <delayitem duration="10s">
+      <comment>
+      </comment>
+    </delayitem>
+    <userrecorditem duration="100ms" methodname="ViewLocalR2WatchList">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="200ms" action="Click" button="Left" movetime="209ms" sx="350" sy="449" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="6e30d1a1-9e20-4e30-96a2-2cf6cc010975">
+            <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="2" rect="265,440,219,22">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Local R2]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[Click]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Local R2]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[MenuItem]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Track Watch List Templates']/contextmenu[1]/menuitem[@accessiblename='Local R2']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="125ms" action="Click" button="Right" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="af9f8590-eb15-4263-9652-ff8241c0db07">
+        <path>
+          <![CDATA[/form[@title~'^Local R2 \(\d\d tracks\)']/element/container/element/table/cell[0]]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="2662" sy="422" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="31b930d2-b6e7-40ac-b773-311a9652b7c6">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="2586,412,214,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Columns...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Columns...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView']/contextmenu[1]/menuitem[@accessiblename='Columns...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="748" sy="415" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="3a53306c-723e-48ab-9975-5f62b7520a86">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="695,403,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[&Uncheck All]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1075]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[1512712]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3228]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[&Uncheck All]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Column Selections']/button[@text='&Uncheck All']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="ItemRecorderEditor" id="1e4928f7-226b-45d0-9a72-8ff60fab8350">
+        <path>
+          <![CDATA[/form[@title='Column Selections']/list/listitem[@text='Track Number']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="522" sy="649" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="79409a3a-6556-4db7-aa8d-0cbe38891c64">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="689" rect="512,642,153,14">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[688]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Track Type]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Column Selections']/list/listitem[@text='Track Type']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="18493b5b-ac6e-4d4a-9d2b-5f3dcf42556c">
+        <path>
+          <![CDATA[/form[@title='Column Selections']/button[@text='&OK']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <loggingrecorditem category="User" message="Load Scenario Test Complete" reportlevel="Debug">
+      <comment>
+        <![CDATA[Load Scenario Test Complete]]>
+      </comment>
+    </loggingrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

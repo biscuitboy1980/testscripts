@@ -1,0 +1,143 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9657BD0E-681D-438E-A1C5-9E71DE69E6B2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TrainingLib</RootNamespace>
+    <AssemblyName>TrainingLib</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>02c4ae71-d2de-4e34-b3c2-fa24833de21c</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>872b565d-a2c2-4507-a590-54c7292aa502</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>8f41d7aa-425c-4b97-a7af-a50ebb1a7276</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>c61dc00e-14ae-4df0-803a-0b507d116ae0</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>52ad5eb4-0520-4f1c-940c-9257e38ce1b2</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>b93e5fb2-cf22-4901-8f63-089ee6695d32</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>fe24885c-d8fe-40ac-b6a6-5d3f1e59c459</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>90819143-21c6-4436-94c7-9754cc0e376b</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>e8fc2bbb-5614-4f0d-8352-86a3fdbe2268</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>27804461-0618-436a-826f-17f0094925a7</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>51b76d8f-3a9e-4e5a-b112-5b059f4b9eb5</id>
+    </Reference>
+    <Reference Include="System">
+      <id>8e631492-e157-4d2b-9e21-edd1862bea2d</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>7b96564f-012c-41da-ab95-f9a468058d7b</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>46eb91a9-3391-4b6d-8896-9ead6c034a1e</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>af00d6c1-d3b1-4f64-acb4-b7de3caed100</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>7cc1dd8b-4698-4840-878f-9441a4b9f7d0</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>0abb9ab8-f7fd-4695-882d-5d53d245c2f6</id>
+    </Compile>
+    <Compile Include="Drop_Track\DropTrack.cs">
+      <DependentUpon>DropTrack.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>e57426a2-8533-4d7c-90c7-39b66a0a3da6</BoundTo>
+      <id>ece289a4-8704-4b7d-ab4b-b77ecf220257</id>
+    </Compile>
+    <Compile Include="Drop_Track\DropTrack.UserCode.cs">
+      <DependentUpon>DropTrack.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>e57426a2-8533-4d7c-90c7-39b66a0a3da6</BoundTo>
+      <id>1f257e1e-ffcf-49df-88d4-8e7b9825eb1d</id>
+    </Compile>
+    <Compile Include="SanDiego\Test01.cs">
+      <DependentUpon>Test01.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>01011fdc-494f-4f1e-8e00-74031bb889a1</BoundTo>
+      <id>c4ed6d09-538e-40d3-90c6-beab2ed5e622</id>
+    </Compile>
+    <Compile Include="SanDiego\Test01.UserCode.cs">
+      <DependentUpon>Test01.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <BoundTo>01011fdc-494f-4f1e-8e00-74031bb889a1</BoundTo>
+      <id>208843d1-b3c1-4108-b124-3accb02f6f8d</id>
+    </Compile>
+    <Compile Include="TrainingLibRepository.cs">
+      <DependentUpon>TrainingLibRepository.rxrep</DependentUpon>
+      <BoundTo>e577343d-3d75-460c-b521-149fe04a590d</BoundTo>
+      <id>dc35f93d-48e5-45af-99a5-8f7f600ee09e</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <None Include="Drop_Track\DropTrack.rxrec">
+      <BoundTo>e577343d-3d75-460c-b521-149fe04a590d</BoundTo>
+      <id>e57426a2-8533-4d7c-90c7-39b66a0a3da6</id>
+    </None>
+    <None Include="SanDiego\Test01.rxrec">
+      <BoundTo>e577343d-3d75-460c-b521-149fe04a590d</BoundTo>
+      <id>01011fdc-494f-4f1e-8e00-74031bb889a1</id>
+    </None>
+    <None Include="TrainingLibRepository.rxrep">
+      <id>e577343d-3d75-460c-b521-149fe04a590d</id>
+      <projectdefaultrepository>true</projectdefaultrepository>
+      <repoid>49f0df9c-b88c-4764-aa93-76d5ce30b1a9</repoid>
+      <reporootid>31097da2-1aff-446c-99c8-77ee9da049d7</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Drop_Track">
+      <id>062dd1c7-93a9-4982-a385-05e42898bd2a</id>
+    </Folder>
+    <Folder Include="SanDiego">
+      <id>b63219e4-2f85-4088-a38a-8e0262973b45</id>
+    </Folder>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>23a72dec-02b8-4319-a2fd-bdb21a367cd3</id>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

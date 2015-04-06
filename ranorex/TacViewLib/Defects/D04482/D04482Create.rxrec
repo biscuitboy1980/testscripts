@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="bd20819a-6db9-44ee-bcbb-887752692696" embeddedrepository="false">
+  <name>
+    D04482Create
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="D04482Create" namespace="TacViewLib.Defects.D04482"/>
+  <variables/>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetListValues">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetTrackCount">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="RandCoord">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="TrackTypeval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Strengthval">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="RepositoryEditor" id="76715f4e-8fac-4af5-a80b-82734a99c5bd">
+        <path>
+          <![CDATA[/form[@title~'^Main\ ']/element/container/element/toolbar[1]/button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="GetTrackNum">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewSustainment_DefectsRepository" id="5740c0ad-1e88-41e2-ab12-d6d82181e1c9" rxversion="3.1.1.14266" relativepath="..\..\TacViewSustainment_DefectsRepository.rxrep">
+    <codegen classname="TacViewSustainment_DefectsRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="47f7b833-457d-4fa4-b96b-b0a1bc9771f4"/>
+  </repository>
+  <references/>
+</recordtable>

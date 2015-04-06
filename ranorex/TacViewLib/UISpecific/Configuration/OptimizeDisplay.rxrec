@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.4.9270" id="b1a64418-3a65-46a9-9698-84680c389022">
+  <name>
+    OptimizeDisplay
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="OptimizeDisplay" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="146" sy="64" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="dabde302-dedd-461a-8c3e-d7f5e633c617">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="5" rect="136,55,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Set Range to 500 km]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Set Range to 500 km]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Set Range to 500 km]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//toolbar[1]/button[@accessiblename='Set Range to 200 km']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="118" sy="64" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="7c2818f4-1a8b-4bcd-8c9b-c49e4a928689">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="4" rect="108,55,22,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ Center on Own Site]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Center on Own site]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ Center on Own Site]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//toolbar[1]/button[@accessiblename=' Center on Own Site']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="1500ms">
+      <comment>
+      </comment>
+    </delayitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.4.9270" relativepath="..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

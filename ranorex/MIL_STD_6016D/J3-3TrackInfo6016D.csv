@@ -1,0 +1,1200 @@
+Platnum;Platval;Actnum;Actval;Stypenum;Stypeval
+1;Aircraft Carrier;1;Air Warfare Support;1;CVN GENERAL (ACFT CARRIER, NUCLEAR)
+2;Battleship;2;Over the Horizon Targeting (OTHT);3;ENTERPRISE CVN
+3;Cruiser;3;Training;5;JOHN F KENNEDY CV
+4;Destroyer;4;Logistics Support;6;KITTY HAWK CV
+5;Frigate;5;Antisurface Warfare;8;NIMITZ CVN
+6;Fast Patrol Boat;6;Electronic Warfare (EW);9;CHARLES DE GAULLE CVN
+7;Amphibious;7;Fishery Protection;22;CV GENERAL (ACFT CARRIER, NON-NUCLEAR)
+8;LHA/LHD;8;Search and Rescue (SAR);24;MINAS GERAIS CV
+9;Amphibious Assault Command Ship (LCC);9;Escorting;26;VEINTICINCO DE MAYO CV
+10;Landing Craft (LC);10;Minelaying;27;VIRAAT CV
+11;Troop Ship;11;Transiting;36;CVH GENERAL (ACFT CARRIER, HELICOPTER)
+12;Tanker/Oiler;12;Naval Surface Fire Support;37;GIUSEPPE GARIBALDI CVH
+13;Auxiliary Ship;13;Intruding;38;INVINCIBLE CVH
+14;Mine Warfare Ship;14;Amphibious Warfare;39;JEANNE D'ARC CVH
+15;Mine Countermeasures Maritime Vessel (MCMV);15;Intelligence Collecting;41;PRINCIPE DE ASTURIAS CVH
+16;Hospital Ship;16;Patrol;43;KIEV (MODIFIED) CVH
+17;Surfaced Submarine;17;Transport;53;BB GENERAL (BATTLESHIP)
+18;Hydrofoil;18;Antisubmarine Warfare (ASW);65;CC GENERAL (CRUISER)
+19;Air Cushion Vehicle;20;Towing;77;CG GENERAL (CRUISER, GUIDED MISSILE)
+20;Intelligence Collector;21;Special Warfare;83;KARA DDG
+21;Survey Vessel;22;Strike Warfare;84;KIROV CGN
+22;Non-Military;23;Antiair Warfare;87;KYNDA CG
+23;Landing Platform;24;Fishing;90;SLAVA CG
+24;Landing Ship;25;Picketing;91;TICONDEROGA CG
+25;Command;26;Mine Countermeasures;94;VITTORIO VENETO CG
+26;Ocean Research;27;Mine Warfare;119;CH GENERAL (CRUISER, HEAVY)
+27;Patrol;28;Marking;120;MOSKVA CH
+28;Support;29;Noncombatant Operations;144;DD GENERAL (DESTROYER)
+29;Fishing Vessel;30;Underway Replenishment;147;ALLEN M SUMNER FRAM II DD
+30;Merchant Vessel;31;Surveying;151;ANSHAN DD
+31;Patrol Craft Escort;32;Electronic Warfare Support (ES);152;ARLEIGH BURKE DDG
+32;Amphibious General Assault;33;Electronic Attack (EA);153;ASAGIRI DD
+33;Missile Control Unit;34;Flight Operations;155;AUDACE DDG
+34;Decoy;35;Video Data Linking (Targeting);156;AYANAMI DD
+35;Infrared Decoy;36;Plane Guard;158;CARPENTER FRAM I DD
+36;Chaff Decoy;37;Rescue Ship/Lifeguard;159;CHARLES F ADAMS (MOD) DD
+37;Active Electronic Decoy;38;Special Operations;160;CHARLES F ADAMS DD
+1;Aircraft Carrier;39;Shadowing;165;FLETCHER DD
+2;Battleship;40;Intervening;166;FORREST SHERMAN (MOD) AND HULL DD
+3;Cruiser;41;Nuclear, Biological, Chemical (NBC) Operations;168;GEARING FRAM I DD
+4;Destroyer;42;Nuclear Operations;169;GEARING FRAM II DD
+5;Frigate;43;Biological Operations;172;HARUNA DDH
+6;Fast Patrol Boat;44;Chemical Operations;173;HATAKAZE DDG
+7;Amphibious;45;Electronic Protection (EP);174;HATSUYUKI DD
+8;LHA/LHD;46;Combat Search and Rescue (CSAR);175;IMPAVIDO DD
+9;Amphibious Assault Command Ship (LCC);47;BMD Mission;177;KASHIN (MODIFIED) DD
+10;Landing Craft (LC);50;Return To Base (RTB);178;KASHIN DD
+11;Troop Ship;115;Surface Activity 1;185;LUDA (TYPE 051) DD
+12;Tanker/Oiler;116;Surface Activity 2;187;MINEGUMO DD
+13;Auxiliary Ship;117;Surface Activity 3;192;SHIRANE DDH
+14;Mine Warfare Ship;118;Surface Activity 4;193;SKORYY DD
+15;Mine Countermeasures Maritime Vessel (MCMV);119;Surface Activity 5;194;SOVREMENNYY DDG
+16;Hospital Ship;120;Surface Activity 6;195;SPRUANCE DD
+17;Surfaced Submarine;121;Surface Activity 7;196;SUFFREN DDG
+18;Hydrofoil;122;Surface Activity 8;197;TACHIKAZE DDG
+19;Air Cushion Vehicle;123;Surface Activity 9;198;TAKATSUKI DDG
+20;Intelligence Collector;124;Surface Activity 10;199;TYPE 42 DDG
+21;Survey Vessel;125;Surface Activity 11;202;CASSARD DDG
+22;Non-Military;126;Surface Activity 12;203;GEORGES LEYGUES DD
+23;Landing Platform;1;Air Warfare Support;204;TOURVILLE DD
+24;Landing Ship;2;Over the Horizon Targeting (OTHT);205;HORIZON DDG
+25;Command;3;Training;207;TYPE T-53 (MODIFIED-ASW) DD
+26;Ocean Research;4;Logistics Support;209;UDALOY DD
+27;Patrol;5;Antisurface Warfare;212;IROQUOIS DDG
+28;Support;6;Electronic Warfare (EW);213;DARING (TYPE 45) DDG
+29;Fishing Vessel;7;Fishery Protection;277;DE GENERAL (DESTROYER, ESCORT)
+30;Merchant Vessel;8;Search and Rescue (SAR);279;CASTLE DE
+31;Patrol Craft Escort;9;Escorting;296;FF GENERAL (FAST FRIGATE)
+32;Amphibious General Assault;10;Minelaying;297;ALMIRANTE CLEMENTE (FF)
+33;Missile Control Unit;11;Transiting;299;ALPINO FF
+34;Decoy;12;Naval Surface Fire Support;302;BALEARES FF
+35;Infrared Decoy;13;Intruding;303;BAPTISTA DE ANDRADE FF
+36;Chaff Decoy;14;Amphibious Warfare;307;TYPE 22 FF
+37;Active Electronic Decoy;15;Intelligence Collecting;312;CHENGDU FF
+1;Aircraft Carrier;16;Patrol;313;CHIKUGO FF
+2;Battleship;17;Transport;314;COMANDANTE JOAO BELO FF
+3;Cruiser;18;Antisubmarine Warfare (ASW);318;DESCUBIERTA PB
+4;Destroyer;20;Towing;319;DUKE (TYPE 23) FF
+5;Frigate;21;Special Warfare;320;DURANGO FF
+6;Fast Patrol Boat;22;Strike Warfare;324;GODAVARI FF
+7;Amphibious;23;Antiair Warfare;325;GRISHA I FF
+8;LHA/LHD;24;Fishing;326;GRISHA IV FF
+9;Amphibious Assault Command Ship (LCC);25;Picketing;327;GRISHA III FF
+10;Landing Craft (LC);26;Mine Countermeasures;329;GRISHA V FF
+11;Troop Ship;27;Mine Warfare;331;HVIDBJORNEN FF
+12;Tanker/Oiler;28;Marking;332;ISHIKARI FF
+13;Auxiliary Ship;29;Noncombatant Operations;333;ISUZU FF
+14;Mine Warfare Ship;30;Underway Replenishment;334;JACOB VAN HEEMSKERCK FF
+15;Mine Countermeasures Maritime Vessel (MCMV);31;Surveying;335;JIANGDONG (TYPE 053J) FF
+16;Hospital Ship;32;Electronic Warfare Support (ES);336;JIANGHU (TYPE 053H) FF
+17;Surfaced Submarine;33;Electronic Attack (EA);337;JIANGNAN FF
+18;Hydrofoil;34;Flight Operations;338;JOAO COUTINHO FF
+19;Air Cushion Vehicle;35;Video Data Linking (Targeting);339;KAREL DOORMAN FF
+20;Intelligence Collector;36;Plane Guard;340;KNOX FF
+21;Survey Vessel;37;Rescue Ship/Lifeguard;342;KONI FF
+22;Non-Military;38;Special Operations;343;KORTENAER FF
+23;Landing Platform;39;Shadowing;344;KRIVAK MOD FF
+24;Landing Ship;40;Intervening;345;KRIVAK II FF
+25;Command;41;Nuclear, Biological, Chemical (NBC) Operations;346;KRIVAK III FF
+26;Ocean Research;42;Nuclear Operations;347;LA FAYETTE FF
+27;Patrol;43;Biological Operations;349;LEOPARD FF
+28;Support;44;Chemical Operations;350;LUPO FF
+29;Fishing Vessel;45;Electronic Protection (EP);353;MAESTRALE FF
+30;Merchant Vessel;46;Combat Search and Rescue (CSAR);355;MEKO 200 TYPE FF
+31;Patrol Craft Escort;47;BMD Mission;356;MIRKA I FF
+32;Amphibious General Assault;50;Return To Base (RTB);357;MIRKA II FF
+33;Missile Control Unit;115;Surface Activity 1;358;NILS JUEL FF
+34;Decoy;116;Surface Activity 2;359;NITEROI FF
+35;Infrared Decoy;117;Surface Activity 3;361;OSLO FF
+36;Chaff Decoy;118;Surface Activity 4;362;PEDER SKRAM FF
+37;Active Electronic Decoy;119;Surface Activity 5;371;RIVER FF
+1;Aircraft Carrier;120;Surface Activity 6;372;BRANDENBURG (TYPE 123) FF
+2;Battleship;121;Surface Activity 7;373;RUDDEROW FF
+3;Cruiser;122;Surface Activity 8;374;SACHSEN (TYPE 124) FF
+4;Destroyer;123;Surface Activity 9;375;SAVAGE FF
+5;Frigate;124;Surface Activity 10;378;D'ESTIENNE D'ORVES FF
+6;Fast Patrol Boat;125;Surface Activity 11;379;TYPE F-2000S FF
+7;Amphibious;126;Surface Activity 12;380;ALVARO DE BAZAN FF
+8;LHA/LHD;1;Air Warfare Support;382;YUBARI FF
+9;Amphibious Assault Command Ship (LCC);2;Over the Horizon Targeting (OTHT);383;BREMEN (TYPE 122A) FF
+10;Landing Craft (LC);3;Training;385;OLIVER HAZARD PERRY FFG
+11;Troop Ship;4;Logistics Support;386;HALIFAX FF
+12;Tanker/Oiler;5;Antisurface Warfare;387;NAJIN FF
+13;Auxiliary Ship;6;Electronic Warfare (EW);388;PRESIDENT FF
+14;Mine Warfare Ship;7;Fishery Protection;389;SANTA MARIA FF
+15;Mine Countermeasures Maritime Vessel (MCMV);8;Search and Rescue (SAR);390;VOSPER MK 5 SAAM FF
+16;Hospital Ship;9;Escorting;392;WIELINGEN FF
+17;Surfaced Submarine;10;Minelaying;393;FLOREAL FF
+18;Hydrofoil;11;Transiting;395;DE ZEVEN PROVINCIEN FF
+19;Air Cushion Vehicle;12;Naval Surface Fire Support;396;YAVUZ FFG
+20;Intelligence Collector;13;Intruding;397;BARBAROS FFG
+21;Survey Vessel;14;Amphibious Warfare;398;TEPE FFG
+22;Non-Military;15;Intelligence Collecting;399;TYPE G FFG
+23;Landing Platform;16;Patrol;479;FFLG GENERAL (FAST FRIGATE, LIGHT GUIDED)
+24;Landing Ship;17;Transport;480;ALBATROS FFLG
+25;Command;18;Antisubmarine Warfare (ASW);481;AUK FFLG
+26;Ocean Research;20;Towing;484;MINERVA FFLG
+27;Patrol;21;Special Warfare;485;NANUCHKA I FFLG
+28;Support;22;Strike Warfare;487;NANUCHKA III FFLG
+29;Fishing Vessel;23;Antiair Warfare;489;PF-103 FFLG
+30;Merchant Vessel;24;Fishing;490;SAAR 5 FFLG
+31;Patrol Craft Escort;25;Picketing;491;SLEIPNER FFLG
+32;Amphibious General Assault;26;Mine Countermeasures;492;TARANTUL I FFLG
+33;Missile Control Unit;27;Mine Warfare;493;TARANTUL II FFLG
+34;Decoy;28;Marking;496;BURAK FFLG
+35;Infrared Decoy;29;Noncombatant Operations;518;LL GENERAL (AMPHIBIOUS ASSAULT, GENERAL)
+36;Chaff Decoy;30;Underway Replenishment;529;LCC GENERAL (AMPHIBIOUS COMMAND, COMMUNICATIONS)
+37;Active Electronic Decoy;31;Surveying;530;LCC-19 (BLUE RIDGE)
+1;Aircraft Carrier;32;Electronic Warfare Support (ES);532;LCC-20 (MOUNT WHITNEY)
+2;Battleship;33;Electronic Attack (EA);541;LKA GENERAL (AMPHIBIOUS CARGO SHIP)
+3;Cruiser;34;Flight Operations;564;LHA GENERAL (AMPHIBIOUS ASSAULT SHIP, GENERAL)
+4;Destroyer;35;Video Data Linking (Targeting);565;TARAWA LHA
+5;Frigate;36;Plane Guard;566;MISTRAL LHA
+6;Fast Patrol Boat;37;Rescue Ship/Lifeguard;576;LHD GENERAL (AMPHIBIOUS ASSAULT SHIP, MULTI-PURPOSE)
+7;Amphibious;38;Special Operations;577;WASP LHD
+8;LHA/LHD;39;Shadowing;599;LPD GENERAL (AMPHIBIOUS TRANSPORT, DOCK)
+9;Amphibious Assault Command Ship (LCC);40;Intervening;600;AUSTIN LPD
+10;Landing Craft (LC);41;Nuclear, Biological, Chemical (NBC) Operations;602;IVAN ROGOV LPD
+11;Troop Ship;42;Nuclear Operations;603;GALICIA LPD
+12;Tanker/Oiler;43;Biological Operations;605;SAN GIORGIO LPD
+13;Auxiliary Ship;44;Chemical Operations;606;ROTTERDAM LPD
+14;Mine Warfare Ship;45;Electronic Protection (EP);616;LPH GENERAL (AMPHIBIOUS ASSAULT SHIP, HELICOPTER)
+15;Mine Countermeasures Maritime Vessel (MCMV);46;Combat Search and Rescue (CSAR);617;IWO JIMA LPH
+16;Hospital Ship;47;BMD Mission;628;LSD GENERAL (LANDING SHIP, DOCK)
+17;Surfaced Submarine;50;Return To Base (RTB);629;ANCHORAGE LSD
+18;Hydrofoil;115;Surface Activity 1;630;ASHLAND LSD
+19;Air Cushion Vehicle;116;Surface Activity 2;632;OURAGAN LSD
+20;Intelligence Collector;117;Surface Activity 3;633;FOUDRE LSD
+21;Survey Vessel;118;Surface Activity 4;635;WHIDBEY ISLAND LSD
+22;Non-Military;119;Surface Activity 5;636;HARPER'S FERRY LSD
+23;Landing Platform;120;Surface Activity 6;647;LSL GENERAL (LANDING SHIP, LOGISTICS)
+24;Landing Ship;121;Surface Activity 7;649;BAY LSL
+25;Command;122;Surface Activity 8;658;LSM GENERAL (LANDING SHIP, MEDIUM)
+26;Ocean Research;123;Surface Activity 9;660;BATRAL LCM
+27;Patrol;124;Surface Activity 10;663;EDIC II LCU
+28;Support;125;Surface Activity 11;671;YUDAO LSM
+29;Fishing Vessel;126;Surface Activity 12;673;BOUGAINVILLE LSM
+30;Merchant Vessel;1;Air Warfare Support;688;LST GENERAL (LANDING SHIP, TANK)
+31;Patrol Craft Escort;2;Over the Horizon Targeting (OTHT);689;ALLIGATOR LST
+32;Amphibious General Assault;3;Training;690;ATSUMI LST
+33;Missile Control Unit;4;Logistics Support;694;CNIM PS 700 LST
+34;Decoy;5;Antisurface Warfare;697;HENGAM LST
+35;Infrared Decoy;6;Electronic Warfare (EW);700;MIURA LST
+36;Chaff Decoy;7;Fishery Protection;701;NEWPORT LST
+37;Active Electronic Decoy;8;Search and Rescue (SAR);702;ROPUCHA LST
+1;Aircraft Carrier;9;Escorting;703;SARUCABEY LST
+2;Battleship;10;Minelaying;704;CNGF LST
+3;Cruiser;11;Transiting;705;OCEAN LPH
+4;Destroyer;12;Naval Surface Fire Support;706;ALBION LPD
+5;Frigate;13;Intruding;708;TOBRUK LST
+6;Fast Patrol Boat;14;Amphibious Warfare;710;YUKAN LST
+7;Amphibious;15;Intelligence Collecting;731;LSV GENERAL (LANDING SHIP, VEHICLE)
+8;LHA/LHD;16;Patrol;742;LC GENERAL (ASSAULT CRAFT)
+9;Amphibious Assault Command Ship (LCC);17;Transport;752;LCM GENERAL (LANDING CRAFT, MECHANIZED)
+10;Landing Craft (LC);18;Antisubmarine Warfare (ASW);753;CTM 1 LCM
+11;Troop Ship;20;Towing;756;LCM 6
+12;Tanker/Oiler;21;Special Warfare;757;LCM 8
+13;Auxiliary Ship;22;Strike Warfare;758;T-4 LCM
+14;Mine Warfare Ship;23;Antiair Warfare;759;TSAPLYA LCM
+15;Mine Countermeasures Maritime Vessel (MCMV);24;Fishing;760;LCM (TYPE 521)
+16;Hospital Ship;25;Picketing;773;LCP GENERAL (LANDING CRAFT, PERSONNEL)
+17;Surfaced Submarine;26;Mine Countermeasures;789;LCPL GENERAL (LANDING CRAFT, PERSONNEL, LARGE)
+18;Hydrofoil;27;Mine Warfare;800;LCW GENERAL (LANDING CRAFT, SWIMMER SUPPORT)
+19;Air Cushion Vehicle;28;Marking;811;LCU GENERAL (LANDING CRAFT, UTILITY)
+20;Intelligence Collector;29;Noncombatant Operations;812;BALIKPAPAN LCU
+21;Survey Vessel;30;Underway Replenishment;813;BOMBARDA LCU
+22;Non-Military;31;Surveying;819;DSM-501 LCU
+23;Landing Platform;32;Electronic Warfare Support (ES);824;LCT MK 5 LCU
+24;Landing Ship;33;Electronic Attack (EA);825;LCT MK 6 LCU
+25;Command;34;Flight Operations;827;MFP D-3 LCU
+26;Ocean Research;35;Video Data Linking (Targeting);828;MZ LCU
+27;Patrol;36;Plane Guard;829;REINOYSUND LCU
+28;Support;37;Rescue Ship/Lifeguard;830;SMB-1 LCU
+29;Fishing Vessel;38;Special Operations;831;TU 57-M LCU
+30;Merchant Vessel;39;Shadowing;834;YURA LCU
+31;Patrol Craft Escort;40;Intervening;867;LCVP GENERAL (LANDING CRAFT, VEHICLE, PERSONNEL)
+32;Amphibious General Assault;41;Nuclear, Biological, Chemical (NBC) Operations;878;LCAC GENERAL (LANDING CRAFT, AIR CUSHION)
+33;Missile Control Unit;42;Nuclear Operations;879;AIST LCAC
+34;Decoy;43;Biological Operations;880;GUS LCAC
+35;Infrared Decoy;44;Chemical Operations;883;WELLINGTON BH-7 MK 4 LCAC
+36;Chaff Decoy;45;Electronic Protection (EP);884;WELLINGTON BH-7 MK 5 LCAC
+37;Active Electronic Decoy;46;Combat Search and Rescue (CSAR);897;MM GENERAL (MINE WARFARE VESSEL)
+1;Aircraft Carrier;47;BMD Mission;901;CARLSKRONA MM
+2;Battleship;50;Return To Base (RTB);903;FALSTER MM
+3;Cruiser;115;Surface Activity 1;904;FURUSUND (MUL-20) MM
+4;Destroyer;116;Surface Activity 2;906;LINDORMEN MM
+5;Frigate;117;Surface Activity 3;907;LSM-1 (MODIFIED) MM
+6;Fast Patrol Boat;118;Surface Activity 4;908;MUL-11 MM
+7;Amphibious;119;Surface Activity 5;909;MUL-12 MM
+8;LHA/LHD;120;Surface Activity 6;913;VIDAR MM
+9;Amphibious Assault Command Ship (LCC);121;Surface Activity 7;936;MCS GENERAL (MINE COUNTERMEASURES, SUPPORT SHIP)
+10;Landing Craft (LC);122;Surface Activity 8;947;MCJ GENERAL (MINE COUNTERMEASURE VESSEL, HOVERCRAFT)
+11;Troop Ship;123;Surface Activity 9;958;MCD GENERAL (MINE COUNTERMEASURE VESSEL, DIVING)
+12;Tanker/Oiler;124;Surface Activity 10;959;KINGSTON MCD
+13;Auxiliary Ship;125;Surface Activity 11;960;MUEHLHAUSEN MSA
+14;Mine Warfare Ship;126;Surface Activity 12;969;MCM GENERAL (MINE COUNTERMEASURES SHIP, GENERAL)
+15;Mine Countermeasures Maritime Vessel (MCMV);1;Air Warfare Support;980;MH GENERAL (MINEHUNTER, GENERAL)
+16;Hospital Ship;2;Over the Horizon Targeting (OTHT);991;MHO GENERAL (MINEHUNTER, OCEAN)
+17;Surfaced Submarine;3;Training;1002;MHC GENERAL (MINEHUNTER, COASTAL)
+18;Hydrofoil;4;Logistics Support;1003;ADJUTANT (MODIFIED) MHC
+19;Air Cushion Vehicle;5;Antisurface Warfare;1004;AGGRESSIVE MHC
+20;Intelligence Collector;6;Electronic Warfare (EW);1005;CIRCE MHC
+21;Survey Vessel;7;Fishery Protection;1006;WEIDEN (TYPE 332) MHC
+22;Non-Military;8;Search and Rescue (SAR);1009;HUNT MHC
+23;Landing Platform;9;Escorting;1010;LANDSORT MHC
+24;Landing Ship;10;Minelaying;1011;LERICI MHC
+25;Command;11;Transiting;1012;MSC 50 MHC
+26;Ocean Research;12;Naval Surface Fire Support;1013;MSO 218 MHC
+27;Patrol;13;Intruding;1014;MSO 503 MHC
+28;Support;14;Amphibious Warfare;1016;SIRIUS MHC
+29;Fishing Vessel;15;Intelligence Collecting;1018;TRIPARTITE MHC
+30;Merchant Vessel;16;Patrol;1019;VANYA I MHC
+31;Patrol Craft Escort;17;Transport;1020;SANDOWN (SRMH) MHC
+32;Amphibious General Assault;18;Antisubmarine Warfare (ASW);1021;KULMBACH (TYPE 333) MHC
+33;Missile Control Unit;20;Towing;1022;ENGIN MHC
+34;Decoy;21;Special Warfare;1025;MHS GENERAL (MINEHUNTER/SWEEPER, GENERAL)
+35;Infrared Decoy;22;Strike Warfare;1030;MHSC GENERAL (MINEHUNTER/SWEEPER, COASTAL)
+36;Chaff Decoy;23;Antiair Warfare;1031;MARS MHSC
+37;Active Electronic Decoy;24;Fishing;1044;MHI GENERAL (MINEHUNTER, INSHORE)
+1;Aircraft Carrier;25;Picketing;1045;BAY (MHSC)
+2;Battleship;26;Mine Countermeasures;1055;MHA GENERAL (MINEHUNTER, AUXILIARY)
+3;Cruiser;27;Mine Warfare;1066;ML GENERAL (MINELAYER, GENERAL)
+4;Destroyer;28;Marking;1077;MLC GENERAL (MINELAYER, COASTAL)
+5;Frigate;29;Noncombatant Operations;1079;POHJANMAA MLS
+6;Fast Patrol Boat;30;Underway Replenishment;1080;HAMEENMAA MLC
+7;Amphibious;31;Surveying;1089;MLI GENERAL (MINELAYER, INSHORE)
+8;LHA/LHD;32;Electronic Warfare Support (ES);1100;MLO GENERAL (MINELAYER, OCEAN)
+9;Amphibious Assault Command Ship (LCC);33;Electronic Attack (EA);1111;MLR GENERAL (MINELAYER, RIVER)
+10;Landing Craft (LC);34;Flight Operations;1122;MLA GENERAL (MINELAYER, AUXILIARY)
+11;Troop Ship;35;Video Data Linking (Targeting);1133;MLS GENERAL (MINELAYER, SUPPORT SHIP)
+12;Tanker/Oiler;36;Plane Guard;1144;MS GENERAL (MINESWEEPER, SMALL, GENERAL)
+13;Auxiliary Ship;37;Rescue Ship/Lifeguard;1155;MSF GENERAL (MINESWEEPER, FLEET)
+14;Mine Warfare Ship;38;Special Operations;1157;K-8 MSF
+15;Mine Countermeasures Maritime Vessel (MCMV);39;Shadowing;1158;KROGULEC MSF
+16;Hospital Ship;40;Intervening;1159;M-40 MSF
+17;Surfaced Submarine;41;Nuclear, Biological, Chemical (NBC) Operations;1160;MSO-421 MSF
+18;Hydrofoil;42;Nuclear Operations;1161;NATYA I MSF
+19;Air Cushion Vehicle;43;Biological Operations;1162;NATYA II MSF
+20;Intelligence Collector;44;Chemical Operations;1163;RIVER MSF
+21;Survey Vessel;45;Electronic Protection (EP);1164;T-43 MSF
+22;Non-Military;46;Combat Search and Rescue (CSAR);1165;YURKA MSF
+23;Landing Platform;47;BMD Mission;1181;MSO GENERAL (MINESWEEPER, OCEAN)
+24;Landing Ship;50;Return To Base (RTB);1194;MSC GENERAL (MINESWEEPER, COASTAL)
+25;Command;115;Surface Activity 1;1195;136 FT MSC
+26;Ocean Research;116;Surface Activity 2;1200;HATSUSHIMA MSC
+27;Patrol;117;Surface Activity 3;1204;LENIWKA MSC
+28;Support;118;Surface Activity 4;1205;HAMELN (TYPE 343) MSC
+29;Fishing Vessel;119;Surface Activity 5;1206;268 MSC
+30;Merchant Vessel;120;Surface Activity 6;1207;292 MSC
+31;Patrol Craft Escort;121;Surface Activity 7;1208;294 MSC
+32;Amphibious General Assault;122;Surface Activity 8;1209;NOTEC MSC
+33;Missile Control Unit;123;Surface Activity 9;1214;SONYA MSC
+34;Decoy;124;Surface Activity 10;1215;T-301 MSC
+35;Infrared Decoy;125;Surface Activity 11;1216;T-43 MSC
+36;Chaff Decoy;126;Surface Activity 12;1220;VANYA I MSC
+37;Active Electronic Decoy;1;Air Warfare Support;1224;TYPE S MSC
+1;Aircraft Carrier;2;Over the Horizon Targeting (OTHT);1225;TYPE K MSC
+2;Battleship;3;Training;1264;MSI GENERAL (MINESWEEPER, INSHORE)
+3;Cruiser;4;Logistics Support;1266;AUX MINESWEEPER NO 1 MSI
+4;Destroyer;5;Antisurface Warfare;1271;KIISKI MSI
+5;Frigate;6;Electronic Warfare (EW);1272;KUHA MSI
+6;Fast Patrol Boat;7;Fishery Protection;1273;M-111 MSI
+7;Amphibious;8;Search and Rescue (SAR);1274;M-15 MSI
+8;LHA/LHD;9;Escorting;1275;M-31 MSI
+9;Amphibious Assault Command Ship (LCC);10;Minelaying;1276;M-43/47 MSI
+10;Landing Craft (LC);11;Transiting;1278;WOCHANG (WU CHANG) MSI
+11;Troop Ship;12;Naval Surface Fire Support;1281;TYPE F MSI
+12;Tanker/Oiler;13;Intruding;1303;MSR GENERAL (MINESWEEPER, RIVER)
+13;Auxiliary Ship;14;Amphibious Warfare;1314;MSB GENERAL (MINESWEEPER, BOAT)
+14;Mine Warfare Ship;15;Intelligence Collecting;1315;K-8 MSB
+15;Mine Countermeasures Maritime Vessel (MCMV);16;Patrol;1316;N-300 MSB
+16;Hospital Ship;17;Transport;1317;NESTIN MSB
+17;Surfaced Submarine;18;Antisubmarine Warfare (ASW);1318;NO. 7 MSB
+18;Hydrofoil;20;Towing;1319;OLYA MSB
+19;Air Cushion Vehicle;21;Special Warfare;1320;PO-2 MSB
+20;Intelligence Collector;22;Strike Warfare;1321;TR-40 MSB
+21;Survey Vessel;23;Antiair Warfare;1322;VD-141 MSB
+22;Non-Military;24;Fishing;1323;VULCAIN MSB
+23;Landing Platform;25;Picketing;1335;MSA GENERAL (MINESWEEPER, AUXILIARY)
+24;Landing Ship;26;Mine Countermeasures;1346;MSD GENERAL (MINESWEEPER, DRONE)
+25;Command;27;Mine Warfare;1347;HFG-1 (TROIKA) MSD
+26;Ocean Research;28;Marking;1359;MSCD GENERAL (MINESWEEPER, COASTAL, WITH DRONE)
+27;Patrol;29;Noncombatant Operations;1370;MSS GENERAL (MINESWEEPER, SPECIAL DEVICE)
+28;Support;30;Underway Replenishment;1372;BALTICA MSS
+29;Fishing Vessel;31;Surveying;1373;POLNOCNY MSS
+30;Merchant Vessel;32;Electronic Warfare Support (ES);1384;MSH GENERAL (MINEHUNTER, GENERAL)
+31;Patrol Craft Escort;33;Electronic Attack (EA);1406;MSHC GENERAL (MINEHUNTER/SWEEPER, COASTAL)
+32;Amphibious General Assault;34;Flight Operations;1420;PP GENERAL (MOTOR/PATROL CRAFT, FAST, GENERAL)
+33;Missile Control Unit;35;Video Data Linking (Targeting);1421;AB 25 PP
+34;Decoy;36;Plane Guard;1423;BALDER PP
+35;Infrared Decoy;37;Rescue Ship/Lifeguard;1425;ISLAND PP
+36;Chaff Decoy;38;Special Operations;1427;PC-1638 PP
+37;Active Electronic Decoy;39;Shadowing;1439;PG GENERAL (PATROL CRAFT, GUN EQUIPPED, GENERAL)
+1;Aircraft Carrier;40;Intervening;1440;BESKYTTEVREN (BESKYTERREN) PG
+2;Battleship;41;Nuclear, Biological, Chemical (NBC) Operations;1441;BIHORO PG
+3;Cruiser;42;Nuclear Operations;1444;HVIDBJORNEN (HVIDBJORNEN) PG
+4;Destroyer;43;Biological Operations;1445;IZU PG
+5;Frigate;44;Chemical Operations;1446;KOJIMA PG
+6;Fast Patrol Boat;45;Electronic Protection (EP);1448;NOJIMA PG
+7;Amphibious;46;Combat Search and Rescue (CSAR);1449;PAUK PG
+8;LHA/LHD;47;BMD Mission;1451;POTI PG
+9;Amphibious Assault Command Ship (LCC);50;Return To Base (RTB);1453;SHIRETOKO PG
+10;Landing Craft (LC);115;Surface Activity 1;1454;SOYA PG
+11;Troop Ship;116;Surface Activity 2;1458;CASSIOPEIA PG
+12;Tanker/Oiler;117;Surface Activity 3;1473;OPV GENERAL (OFFSHORE PATROL VEHICLE)
+13;Auxiliary Ship;118;Surface Activity 4;1474;RIVER OPV
+14;Mine Warfare Ship;119;Surface Activity 5;1481;PGS GENERAL (PATROL SHIP, ASW)
+15;Mine Countermeasures Maritime Vessel (MCMV);120;Surface Activity 6;1492;PGB GENERAL (PATROL SHIP, ICEBREAKER)
+16;Hospital Ship;121;Surface Activity 7;1503;PGF GENERAL (PATROL SHIP, FAST)
+17;Surfaced Submarine;122;Surface Activity 8;1504;ALBATROS (TYPE 143) PGF
+18;Hydrofoil;123;Surface Activity 9;1507;CHONGJU PGF
+19;Air Cushion Vehicle;124;Surface Activity 10;1508;GEPARD (TYPE 143A) PGF
+20;Intelligence Collector;125;Surface Activity 11;1510;IVAN SUSANIN PGF
+21;Survey Vessel;126;Surface Activity 12;1511;KAMAN PGF
+22;Non-Military;1;Air Warfare Support;1512;KARTAL PGF
+23;Landing Platform;2;Over the Horizon Targeting (OTHT);1513;KOMAR PGF
+24;Landing Ship;3;Training;1514;LA COMBATTANTE II PGF
+25;Command;4;Logistics Support;1515;LA COMBATTANTE III PGF
+26;Ocean Research;5;Antisurface Warfare;1516;LURSSEN FPB-57 PGF
+27;Patrol;6;Electronic Warfare (EW);1517;OKHTENSKIY PGF
+28;Support;7;Fishery Protection;1518;OSA I PGF
+29;Fishing Vessel;8;Search and Rescue (SAR);1519;OSA II PGF
+30;Merchant Vessel;9;Escorting;1520;P-4 PGF
+31;Patrol Craft Escort;10;Minelaying;1521;PURGA PGF
+32;Amphibious General Assault;11;Transiting;1522;SAAR 2 PGF
+33;Missile Control Unit;12;Naval Surface Fire Support;1523;SAAR 3 PGF
+34;Decoy;13;Intruding;1524;SAAR 4 PGF
+35;Infrared Decoy;14;Amphibious Warfare;1525;SAAR 5 PGF
+36;Chaff Decoy;15;Intelligence Collecting;1530;SORUM PGF
+37;Active Electronic Decoy;16;Patrol;1531;STORM PGF
+1;Aircraft Carrier;17;Transport;1532;T PGF
+2;Battleship;18;Antisubmarine Warfare (ASW);1533;T-43 PGF
+3;Cruiser;20;Towing;1534;T-58 PGF
+4;Destroyer;21;Special Warfare;1535;VOSPER 100-FT PGF
+5;Frigate;22;Strike Warfare;1536;VOSPER BRAVE PGF
+6;Fast Patrol Boat;23;Antiair Warfare;1537;WILLEMOES PGF
+7;Amphibious;24;Fishing;1538;DOGAN PGF
+8;LHA/LHD;25;Picketing;1539;YILDIZ PGF
+9;Amphibious Assault Command Ship (LCC);26;Mine Countermeasures;1540;KILIC PGF
+10;Landing Craft (LC);27;Mine Warfare;1541;HAMINA PGF
+11;Troop Ship;28;Marking;1542;RAUMA PGF
+12;Tanker/Oiler;29;Noncombatant Operations;1584;PC GENERAL (SUBMARINE CHASER/ESCORT CRAFT, GENERAL)
+13;Auxiliary Ship;30;Underway Replenishment;1586;AGDLEK PC
+14;Mine Warfare Ship;31;Surveying;1591;BROOKE MARINE 108-FT PC
+15;Mine Countermeasures Maritime Vessel (MCMV);32;Electronic Warfare Support (ES);1592;CACINE PC
+16;Hospital Ship;33;Electronic Attack (EA);1594;DAPHNE PC
+17;Surfaced Submarine;34;Flight Operations;1596;HAIKOU PC
+18;Hydrofoil;35;Video Data Linking (Targeting);1597;HAINAN PC
+19;Air Cushion Vehicle;36;Plane Guard;1598;HANOE PC
+20;Intelligence Collector;37;Rescue Ship/Lifeguard;1599;K-48 PC
+21;Survey Vessel;38;Special Operations;1600;KRALJEVICA PC
+22;Non-Military;39;Shadowing;1601;KRONSHTADT PC
+23;Landing Platform;40;Intervening;1602;LAKE PC
+24;Landing Ship;41;Nuclear, Biological, Chemical (NBC) Operations;1603;MAGAEN PC
+25;Command;42;Nuclear Operations;1604;MATSUNAMI PC
+26;Ocean Research;43;Biological Operations;1605;MIZUTORI PC
+27;Patrol;44;Chemical Operations;1606;MURAKUMO PC
+28;Support;45;Electronic Protection (EP);1607;OBLUZE PC
+29;Fishing Vessel;46;Combat Search and Rescue (CSAR);1608;PGM 71 PC
+30;Merchant Vessel;47;BMD Mission;1609;SDB MK II PC
+31;Patrol Craft Escort;50;Return To Base (RTB);1610;SDB MK III PC
+32;Amphibious General Assault;115;Surface Activity 1;1611;SEAFORTH PC
+33;Missile Control Unit;116;Surface Activity 2;1612;SHANGHAI PC
+34;Decoy;117;Surface Activity 3;1613;SHANGHAI II PC
+35;Infrared Decoy;118;Surface Activity 4;1614;SHANGHAI II (MODIFIED) PC
+36;Chaff Decoy;119;Surface Activity 5;1615;SHIKINAMI PC
+37;Active Electronic Decoy;120;Surface Activity 6;1616;SO-1 PC
+1;Aircraft Carrier;121;Surface Activity 7;1617;SOMAN PC
+2;Battleship;122;Surface Activity 8;1618;STENKA PC
+3;Cruiser;123;Surface Activity 9;1619;T-58 PC
+4;Destroyer;124;Surface Activity 10;1620;TAECHONG PC
+5;Frigate;125;Surface Activity 11;1621;UK FORD PC
+6;Fast Patrol Boat;126;Surface Activity 12;1622;UMIGIRI PC
+7;Amphibious;1;Air Warfare Support;1623;US 110-FT PC
+8;LHA/LHD;2;Over the Horizon Targeting (OTHT);1624;US 173-FT PC
+9;Amphibious Assault Command Ship (LCC);3;Training;1625;ARCHER PC
+10;Landing Craft (LC);4;Logistics Support;1626;ARCHER PC
+11;Troop Ship;5;Antisurface Warfare;1628;23M PC (MANLY) PC
+12;Tanker/Oiler;6;Electronic Warfare (EW);1682;PCF GENERAL (PATROL SUBCHASER, FAST)
+13;Auxiliary Ship;7;Fishery Protection;1683;BABOCHKA PCF
+14;Mine Warfare Ship;8;Search and Rescue (SAR);1684;MURAVEY PCF
+15;Mine Countermeasures Maritime Vessel (MCMV);9;Escorting;1686;SO-1 (MODIFIED) PCF
+16;Hospital Ship;10;Minelaying;1697;PCE GENERAL (PATROL, COASTAL, ESCORT)
+17;Surfaced Submarine;11;Transiting;1708;PB GENERAL (PATROL BOAT)
+18;Hydrofoil;12;Naval Surface Fire Support;1709;AKAGI PB
+19;Air Cushion Vehicle;13;Intruding;1710;AKIZUKI PB
+20;Intelligence Collector;14;Amphibious Warfare;1711;ALBATROZ PB
+21;Survey Vessel;15;Intelligence Collecting;1712;BARSO PB
+22;Non-Military;16;Patrol;1713;BARSO PB
+23;Landing Platform;17;Transport;1715;BIZAN PB
+24;Landing Ship;18;Antisubmarine Warfare (ASW);1716;BROOKE MARINE 37.5M PB
+25;Command;20;Towing;1718;DABUR PB
+26;Ocean Research;21;Special Warfare;1719;DALARO PB
+27;Patrol;22;Strike Warfare;1720;DE L'ESTEREL PB
+28;Support;23;Antiair Warfare;1721;DILOS PB
+29;Fishing Vessel;24;Fishing;1722;DOM ALEIXO PB
+30;Merchant Vessel;25;Picketing;1724;FREMANTLE PB
+31;Patrol Craft Escort;26;Mine Countermeasures;1725;GOULANDRIS PB
+32;Amphibious General Assault;27;Mine Warfare;1726;GUANABACOA PB
+33;Missile Control Unit;28;Marking;1727;HAMAGIRI PB
+34;Decoy;29;Noncombatant Operations;1728;HAMELIN 37M PB
+35;Infrared Decoy;30;Underway Replenishment;1729;HIDAKA PB
+36;Chaff Decoy;31;Surveying;1730;HUANGPU PB
+37;Active Electronic Decoy;32;Electronic Warfare Support (ES);1732;KIMJIN 67-FT PB
+1;Aircraft Carrier;33;Electronic Attack (EA);1733;MATSUNAMI PB
+2;Battleship;34;Flight Operations;1734;MURAKUMO PB
+3;Cruiser;35;Video Data Linking (Targeting);1735;OIRASE PB
+4;Destroyer;36;Plane Guard;1736;P 400 PGF
+5;Frigate;37;Rescue Ship/Lifeguard;1737;P-6 PB
+6;Fast Patrol Boat;38;Special Operations;1738;PANAGOPOULOS PB
+7;Amphibious;39;Shadowing;1739;PATRA PB
+8;LHA/LHD;40;Intervening;1740;PBR MK V PBR
+9;Amphibious Assault Command Ship (LCC);41;Nuclear, Biological, Chemical (NBC) Operations;1741;PBR MK IV PBR
+10;Landing Craft (LC);42;Nuclear Operations;1742;PGM 71 PB
+11;Troop Ship;43;Biological Operations;1743;PO-2 PB
+12;Tanker/Oiler;44;Chemical Operations;1744;POLISH K-8 PB
+13;Auxiliary Ship;45;Electronic Protection (EP);1745;POLUCHAT I PB
+14;Mine Warfare Ship;46;Combat Search and Rescue (CSAR);1746;SHANTOU PB
+15;Mine Countermeasures Maritime Vessel (MCMV);47;BMD Mission;1747;SHIKINAMI PB
+16;Hospital Ship;50;Return To Base (RTB);1748;SINHUNG 72-FT PB
+17;Surfaced Submarine;115;Surface Activity 1;1749;SKANOER PB
+18;Hydrofoil;116;Surface Activity 2;1750;SOYA/TSUGARU PB
+19;Air Cushion Vehicle;117;Surface Activity 3;1751;SPEAR PB
+20;Intelligence Collector;118;Surface Activity 4;1752;STEWART 85-FT PB
+21;Survey Vessel;119;Surface Activity 5;1753;SWATOW PB
+22;Non-Military;120;Surface Activity 6;1754;SWIFT PB
+23;Landing Platform;121;Surface Activity 7;1755;TAISHAN PB
+24;Landing Ship;122;Surface Activity 8;1756;TESHIO PB
+25;Command;123;Surface Activity 9;1757;TRACKER PB
+26;Ocean Research;124;Surface Activity 10;1758;US 110-FT PB
+27;Patrol;125;Surface Activity 11;1759;US ARMY 2001 65-FT PB
+28;Support;126;Surface Activity 12;1760;USCG 83-FT PB
+29;Fishing Vessel;1;Air Warfare Support;1761;VEDETTE 28 92-FT PB
+30;Merchant Vessel;2;Over the Horizon Targeting (OTHT);1762;VIKRAM PB
+31;Patrol Craft Escort;3;Training;1763;VOSPER 70-FT PB
+32;Amphibious General Assault;4;Logistics Support;1764;YAMAYURI PB
+33;Missile Control Unit;5;Antisurface Warfare;1765;ZHUK PB
+34;Decoy;6;Electronic Warfare (EW);1767;MARS PB
+35;Infrared Decoy;7;Fishery Protection;1769;MERIKARHU PB
+36;Chaff Decoy;8;Search and Rescue (SAR);1770;TURSAS PB
+37;Active Electronic Decoy;9;Escorting;1771;TELKKA PB
+1;Aircraft Carrier;10;Minelaying;1843;PBF GENERAL (PATROL BOAT, FAST)
+2;Battleship;11;Transiting;1844;CHAHO (CHODO) PBF
+3;Cruiser;12;Naval Surface Fire Support;1846;GIRNE PBF
+4;Destroyer;13;Intruding;1847;HAUK PBF
+5;Frigate;14;Amphibious Warfare;1848;HUGIN PBF
+6;Fast Patrol Boat;15;Intelligence Collecting;1849;SLEPEN PBF
+7;Amphibious;16;Patrol;1851;SPICA PBF
+8;LHA/LHD;17;Transport;1853;KIISLA PBF
+9;Amphibious Assault Command Ship (LCC);18;Antisubmarine Warfare (ASW);1864;PBS GENERAL (PATROL BOAT, FIRE SUPPORT)
+10;Landing Craft (LC);20;Towing;1875;PBR GENERAL (PATROL BOAT, RIVER/ROADSTEAD)
+11;Troop Ship;21;Special Warfare;1876;LEIE PBR
+12;Tanker/Oiler;22;Strike Warfare;1877;PIYAVKA PBR
+13;Auxiliary Ship;23;Antiair Warfare;1878;SHMEL PBR
+14;Mine Warfare Ship;24;Fishing;1879;VOSH PBR
+15;Mine Countermeasures Maritime Vessel (MCMV);25;Picketing;1880;YATUSH PBR
+16;Hospital Ship;26;Mine Countermeasures;1881;YAZ PBR
+17;Surfaced Submarine;27;Mine Warfare;1892;PT GENERAL (TORPEDO BOAT)
+18;Hydrofoil;28;Marking;1893;AN JU PT
+19;Air Cushion Vehicle;29;Noncombatant Operations;1894;EPITROP PT
+20;Intelligence Collector;30;Underway Replenishment;1895;HIGGINS PT
+21;Survey Vessel;31;Surveying;1896;HUCHUAN PTH
+22;Non-Military;32;Electronic Warfare Support (ES);1897;HUZHOU PT
+23;Landing Platform;33;Electronic Attack (EA);1898;IWON PT
+24;Landing Ship;34;Flight Operations;1900;KU SONG PT
+25;Command;35;Video Data Linking (Targeting);1901;NO. 11 PT
+26;Ocean Research;36;Plane Guard;1902;P-4 PT
+27;Patrol;37;Rescue Ship/Lifeguard;1903;P-6 PT
+28;Support;38;Special Operations;1904;PILICA PT
+29;Fishing Vessel;39;Shadowing;1905;SHERSHEN PT
+30;Merchant Vessel;40;Intervening;1906;SIN HUNG PT
+31;Patrol Craft Escort;41;Nuclear, Biological, Chemical (NBC) Operations;1907;SIN NAM PT
+32;Amphibious General Assault;42;Nuclear Operations;1908;SINPO PT
+33;Missile Control Unit;43;Biological Operations;1909;SOLOVEN PT
+34;Decoy;44;Chemical Operations;1911;TJELD PT
+35;Infrared Decoy;45;Electronic Protection (EP);1912;WISLA PT
+36;Chaff Decoy;46;Combat Search and Rescue (CSAR);1914;SHANGDONG PT
+37;Active Electronic Decoy;47;BMD Mission;1915;TURYA PT
+1;Aircraft Carrier;50;Return To Base (RTB);2048;PHM GENERAL (MISSILE HYDROFOIL)
+2;Battleship;115;Surface Activity 1;2049;MATKA PHM
+3;Cruiser;116;Surface Activity 2;2050;PEGASUS PHM
+4;Destroyer;117;Surface Activity 3;2051;SARANCHA PHM
+5;Frigate;118;Surface Activity 4;2052;SHIMRIT PHM
+6;Fast Patrol Boat;119;Surface Activity 5;2053;SPARVIERO PHM
+7;Amphibious;120;Surface Activity 6;2064;BM GENERAL (MONITOR, RIVER, PATROL)
+8;LHA/LHD;121;Surface Activity 7;2075;BMR GENERAL (MONITOR, RIVER)
+9;Amphibious Assault Command Ship (LCC);122;Surface Activity 8;2086;SWCL GENERAL (SPECIAL WARFARE CRAFT, LIGHT)
+10;Landing Craft (LC);123;Surface Activity 9;2097;AA GENERAL (AUXILIARY TYPE SHIP, GENERAL)
+11;Troop Ship;124;Surface Activity 10;2108;AG GENERAL (MISCELLANEOUS AUXILIARY)
+12;Tanker/Oiler;125;Surface Activity 11;2109;ADOLF AG
+13;Auxiliary Ship;126;Surface Activity 12;2110;AKIZUKI AG
+14;Mine Warfare Ship;1;Air Warfare Support;2111;ANGARA AG
+15;Mine Countermeasures Maritime Vessel (MCMV);2;Over the Horizon Targeting (OTHT);2112;ARGO AG
+16;Hospital Ship;3;Training;2113;AYANAMI AG
+17;Surfaced Submarine;4;Logistics Support;2116;CHAMOIS AG
+18;Hydrofoil;5;Antisurface Warfare;2117;CHIHAYA AG
+19;Air Cushion Vehicle;6;Electronic Warfare (EW);2118;DALDYN AG
+20;Intelligence Collector;7;Fishery Protection;2120;DINGHAI AG
+21;Survey Vessel;8;Search and Rescue (SAR);2121;ENDURANCE AG
+22;Non-Military;9;Escorting;2122;EXPLORER AG
+23;Landing Platform;10;Minelaying;2124;FRIPONNE AG
+24;Landing Ship;11;Transiting;2125;GALEB AG
+25;Command;12;Naval Surface Fire Support;2127;HAM AG
+26;Ocean Research;13;Intruding;2129;HAYABUSA AG
+27;Patrol;14;Amphibious Warfare;2131;ISLES AG
+28;Support;15;Intelligence Collecting;2132;KEYLA AG
+29;Fishing Vessel;16;Patrol;2133;KURIHAMA AG
+30;Merchant Vessel;17;Transport;2135;ATHOS AG
+31;Patrol Craft Escort;18;Antisubmarine Warfare (ASW);2137;LENTRA AG
+32;Amphibious General Assault;20;Towing;2138;LIANYUN AG
+33;Missile Control Unit;21;Special Warfare;2139;LSIL AG
+34;Decoy;22;Strike Warfare;2141;MP-2 AG
+35;Infrared Decoy;23;Antiair Warfare;2142;MP-8 AG
+36;Chaff Decoy;24;Fishing;2143;MURASAME AG
+37;Active Electronic Decoy;25;Picketing;2144;NEFTEGAZ AG
+1;Aircraft Carrier;26;Mine Countermeasures;2145;N0. 81 AG
+2;Battleship;27;Mine Warfare;2146;NORGE AG
+3;Cruiser;28;Marking;2147;OHRE AG
+4;Destroyer;29;Noncombatant Operations;2148;ONEGA AG
+5;Frigate;30;Underway Replenishment;2149;POSEIDON AG
+6;Fast Patrol Boat;31;Surveying;2150;POSEIDON AG
+7;Amphibious;32;Electronic Warfare Support (ES);2151;PS-10 AG
+8;LHA/LHD;33;Electronic Attack (EA);2152;RARI AG
+9;Amphibious Assault Command Ship (LCC);34;Flight Operations;2154;SABAC AG
+10;Landing Craft (LC);35;Video Data Linking (Targeting);2155;SHAHSAVAR AG
+11;Troop Ship;36;Plane Guard;2156;ST. LYKOUDIS AG
+12;Tanker/Oiler;37;Rescue Ship/Lifeguard;2157;STALWART AG
+13;Auxiliary Ship;38;Special Operations;2158;T-43 AG
+14;Mine Warfare Ship;39;Shadowing;2159;TAPATAI AG
+15;Mine Countermeasures Maritime Vessel (MCMV);40;Intervening;2160;TAPPE AG
+16;Hospital Ship;41;Nuclear, Biological, Chemical (NBC) Operations;2161;THULE AG
+17;Surfaced Submarine;42;Nuclear Operations;2162;TOMBA AG
+18;Hydrofoil;43;Biological Operations;2163;TSUGARU AG
+19;Air Cushion Vehicle;44;Chemical Operations;2165;US 184 FT. PCE AG
+20;Intelligence Collector;45;Electronic Protection (EP);2166;US 72 FT. HMDL AG
+21;Survey Vessel;46;Combat Search and Rescue (CSAR);2167;VANGUARD AG
+22;Non-Military;47;BMD Mission;2168;VIS AG
+23;Landing Platform;50;Return To Base (RTB);2169;VYTEGRALES AG
+24;Landing Ship;115;Surface Activity 1;2170;WHISKEY AG
+25;Command;116;Surface Activity 2;2171;WILHELM PULLWER (TYPE 741) AG
+26;Ocean Research;117;Surface Activity 3;2172;PELIKAAN AG
+27;Patrol;118;Surface Activity 4;2175;STERNE AG
+28;Support;119;Surface Activity 5;2176;ALBATROS AG
+29;Fishing Vessel;120;Surface Activity 6;2257;ARV GENERAL (AIRCRAFT REPAIR SHIP)
+30;Merchant Vessel;121;Surface Activity 7;2258;ARGUS ARV
+31;Patrol Craft Escort;122;Surface Activity 8;2259;ENGADINE ARV
+32;Amphibious General Assault;123;Surface Activity 9;2260;RELIANT ARV
+33;Missile Control Unit;124;Surface Activity 10;2271;AVT GENERAL (AUXILIARY AIRCRAFT LANDING TRAINING SHIP)
+34;Decoy;125;Surface Activity 11;2283;AE GENERAL (AMMUNITION SHIP)
+35;Infrared Decoy;126;Surface Activity 12;2284;EVROS AE
+36;Chaff Decoy;1;Air Warfare Support;2286;KILAUEA AE
+37;Active Electronic Decoy;2;Over the Horizon Targeting (OTHT);2287;NITRO AE
+1;Aircraft Carrier;3;Training;2288;REGENT AE
+2;Battleship;4;Logistics Support;2290;WESTERWALD (TYPE 760) AE
+3;Cruiser;5;Antisurface Warfare;2302;AEL GENERAL (AMMUNITION SHIP, SMALL)
+4;Destroyer;6;Electronic Warfare (EW);2313;AET GENERAL (AMMUNITION TRANSPORT)
+5;Frigate;7;Fishery Protection;2324;AETL GENERAL (AMMUNITION TRANSPORT, SMALL)
+6;Fast Patrol Boat;8;Search and Rescue (SAR);2335;AGF GENERAL (AUXILIARY FLAG OR COMMAND SHIP)
+7;Amphibious;9;Escorting;2337;CORONADO AGF
+8;LHA/LHD;10;Minelaying;2338;GODETIA AGF
+9;Amphibious Assault Command Ship (LCC);11;Transiting;2339;LA SALLE AGF
+10;Landing Craft (LC);12;Naval Surface Fire Support;2341;ZINNIA AGF
+11;Troop Ship;13;Intruding;2342;ELBE (TYPE 404) AGF
+12;Tanker/Oiler;14;Amphibious Warfare;2352;ACM GENERAL (AUXILIARY MINE WARFARE SUPPORT SHIP)
+13;Auxiliary Ship;15;Intelligence Collecting;2363;APB GENERAL (BARRACKS SHIP)
+14;Mine Warfare Ship;16;Patrol;2375;ABU GENERAL (BUOY TENDER)
+15;Mine Countermeasures Maritime Vessel (MCMV);17;Transport;2376;CARDENAS ABU
+16;Hospital Ship;18;Antisubmarine Warfare (ASW);2377;FINIK ABU
+17;Surfaced Submarine;20;Towing;2378;KARPF II ABU
+18;Hydrofoil;21;Special Warfare;2379;SKB 64 ABU
+19;Air Cushion Vehicle;22;Strike Warfare;2380;YANTAI ABU
+20;Intelligence Collector;23;Antiair Warfare;2381;YANNAN ABU
+21;Survey Vessel;24;Fishing;2382;YANGUAN ABU
+22;Non-Military;25;Picketing;2383;TIANEE ABU
+23;Landing Platform;26;Mine Countermeasures;2396;ABUD GENERAL (BUOY TENDER, HEAVY LIFT)
+24;Landing Ship;27;Mine Warfare;2407;ANL GENERAL (CABLE/NET LAYING SHIP)
+25;Command;28;Marking;2418;ARC GENERAL (CABLE SHIP)
+26;Ocean Research;29;Noncombatant Operations;2419;EMBA ARC
+27;Patrol;30;Underway Replenishment;2420;KALAR ARC
+28;Support;31;Surveying;2421;KALAR ARC
+29;Fishing Vessel;32;Electronic Warfare Support (ES);2422;KLASMA ARC
+30;Merchant Vessel;33;Electronic Attack (EA);2423;MP-2 ARC
+31;Patrol Craft Escort;34;Flight Operations;2424;NEPTUNE ARC
+32;Amphibious General Assault;35;Video Data Linking (Targeting);2425;TELNOVSK (MODIFIED) ARC
+33;Missile Control Unit;36;Plane Guard;2426;YOUDIAN ARC
+34;Decoy;37;Rescue Ship/Lifeguard;2427;ZEUS ARC
+35;Infrared Decoy;38;Special Operations;2441;AK GENERAL (CARGO SHIP, NAVAL)
+36;Chaff Decoy;39;Shadowing;2442;2ND LT JOHN P BOBO AK
+37;Active Electronic Decoy;40;Intervening;2443;ALCHIBA AK
+1;Aircraft Carrier;41;Nuclear, Biological, Chemical (NBC) Operations;2444;AMGUEMA AK
+2;Battleship;42;Nuclear Operations;2445;ANDIZHAN AK
+3;Cruiser;43;Biological Operations;2446;ANDONG AK
+4;Destroyer;44;Chemical Operations;2447;ANDROMEDA (CONVERTED) AK
+5;Frigate;45;Electronic Protection (EP);2448;ANDONG AK
+6;Fast Patrol Boat;46;Combat Search and Rescue (CSAR);2449;BARRICADE AK
+7;Amphibious;47;BMD Mission;2450;BITTERBUSH AK
+8;LHA/LHD;50;Return To Base (RTB);2451;C3-S-33A (CONVERTED) AK
+9;Amphibious Assault Command Ship (LCC);115;Surface Activity 1;2452;C4-S-66A AK
+10;Landing Craft (LC);116;Surface Activity 2;2453;C4-S-69B AK
+11;Troop Ship;117;Surface Activity 3;2454;C4-S-A3 AK
+12;Tanker/Oiler;118;Surface Activity 4;2455;C5-S-75A AK
+13;Auxiliary Ship;119;Surface Activity 5;2456;CHULYM AK
+14;Mine Warfare Ship;120;Surface Activity 6;2457;CPL LOUIS J HAUGE JR AK
+15;Mine Countermeasures Maritime Vessel (MCMV);121;Surface Activity 7;2458;DINGHAI AK
+16;Hospital Ship;122;Surface Activity 8;2459;DONBA SS AK
+17;Surfaced Submarine;123;Surface Activity 9;2460;FS DESIGN 330 AK
+18;Hydrofoil;124;Surface Activity 10;2461;GALATI AK
+19;Air Cushion Vehicle;125;Surface Activity 11;2462;HONGQI AK
+20;Intelligence Collector;126;Surface Activity 12;2463;ISLES AK
+21;Survey Vessel;1;Air Warfare Support;2464;KANARYA AK
+22;Non-Military;2;Over the Horizon Targeting (OTHT);2465;KOLOMNA AK
+23;Landing Platform;3;Training;2466;LENINGRADSKY KOMSOMOLETS AK
+24;Landing Ship;4;Logistics Support;2467;LSIL AK
+25;Command;5;Antisurface Warfare;2468;NEON ANTONOV AK
+26;Ocean Research;6;Electronic Warfare (EW);2469;NORWALK AK
+27;Patrol;7;Fishery Protection;2470;PT-61 AK
+28;Support;8;Search and Rescue (SAR);2471;SGT MATEJ KOCAK AK
+29;Fishing Vessel;9;Escorting;2472;THROSK AK
+30;Merchant Vessel;10;Minelaying;2473;TREE AK
+31;Patrol Craft Escort;11;Transiting;2474;YANHANG AK
+32;Amphibious General Assault;12;Naval Surface Fire Support;2475;YUNYY PARTIZAN AK
+33;Missile Control Unit;13;Intruding;2522;AKL GENERAL (CARGO SHIP, LIGHT, NAVAL)
+34;Decoy;14;Amphibious Warfare;2523;ELTANIN AKL
+35;Infrared Decoy;15;Intelligence Collecting;2524;KEYLA AKL
+36;Chaff Decoy;16;Patrol;2528;MP 4 AKL
+37;Active Electronic Decoy;17;Transport;2529;MP 6 AKL
+1;Aircraft Carrier;18;Antisubmarine Warfare (ASW);2530;MUNA AKL
+2;Battleship;20;Towing;2531;SEKSTAN AKL
+3;Cruiser;21;Special Warfare;2532;TELNOVSK AKL
+4;Destroyer;22;Strike Warfare;2533;WISTING AKL
+5;Frigate;23;Antiair Warfare;2534;GORGONA AKL
+6;Fast Patrol Boat;24;Fishing;2550;AKR GENERAL (CARGO SHIP, RO/RO, NAVAL)
+7;Amphibious;25;Picketing;2551;ALGOL (SL 7) AKR
+8;LHA/LHD;26;Mine Countermeasures;2553;COMET AKR
+9;Amphibious Assault Command Ship (LCC);27;Mine Warfare;2554;METEOR AKR
+10;Landing Craft (LC);28;Marking;2555;METEOR AKR
+11;Troop Ship;29;Noncombatant Operations;2556;MAINE (CONVERTED) AKR
+12;Tanker/Oiler;30;Underway Replenishment;2567;AFS GENERAL (COMBAT STORES SHIP)
+13;Auxiliary Ship;31;Surveying;2568;FORT AFS
+14;Mine Warfare Ship;32;Electronic Warfare Support (ES);2571;RESOURCE AFS
+15;Mine Countermeasures Maritime Vessel (MCMV);33;Electronic Attack (EA);2581;AOE GENERAL (COMBAT SUPPORT SHIP, FAST)
+16;Hospital Ship;34;Flight Operations;2582;SACRAMENTO AOE
+17;Surfaced Submarine;35;Video Data Linking (Targeting);2583;SAGAMI AOE
+18;Hydrofoil;36;Plane Guard;2594;AD GENERAL (DESTROYER TENDER)
+19;Air Cushion Vehicle;37;Rescue Ship/Lifeguard;2598;STALWART AD
+20;Intelligence Collector;38;Special Operations;2609;AWW GENERAL (DISTILLING SHIP, NAVAL)
+21;Survey Vessel;39;Shadowing;2620;AH GENERAL (HOSPITAL SHIP)
+22;Non-Military;40;Intervening;2621;HAVEN AH
+23;Landing Platform;41;Nuclear, Biological, Chemical (NBC) Operations;2622;OB' AH
+24;Landing Ship;42;Nuclear Operations;2633;AGB GENERAL (ICEBREAKER)
+25;Command;43;Biological Operations;2634;DOBRYNYA NIKITICH AGB
+26;Ocean Research;44;Chemical Operations;2635;HANSE AGB
+27;Patrol;45;Electronic Protection (EP);2637;SHIRASE AGB
+28;Support;46;Combat Search and Rescue (CSAR);2638;YANHA AGB
+29;Fishing Vessel;47;BMD Mission;2649;AGBL GENERAL (ICEBREAKER, SMALL)
+30;Merchant Vessel;50;Return To Base (RTB);2650;EISVOGEL (TYPE 721) AGBL
+31;Patrol Craft Escort;115;Surface Activity 1;2662;AGI GENERAL (INTELLIGENCE COLLECTOR)
+32;Amphibious General Assault;116;Surface Activity 2;2663;ALPINIST AGI
+33;Missile Control Unit;117;Surface Activity 3;2664;ARMINZA AGI
+34;Decoy;118;Surface Activity 4;2666;BALZAM AGI
+35;Infrared Decoy;119;Surface Activity 5;2667;BOLOGOE AGI
+36;Chaff Decoy;120;Surface Activity 6;2669;HAM AGI
+37;Active Electronic Decoy;121;Surface Activity 7;2673;MAYAK AGI
+1;Aircraft Carrier;122;Surface Activity 8;2674;MIRNYY AGI
+2;Battleship;123;Surface Activity 9;2675;MOMA AGI
+3;Cruiser;124;Surface Activity 10;2676;NIKOLAY ZUBOV AGI
+4;Destroyer;125;Surface Activity 11;2677;OKEAN AGI
+5;Frigate;126;Surface Activity 12;2679;PAMIR AGI
+6;Fast Patrol Boat;1;Air Warfare Support;2680;PRIMORYE AGI
+7;Amphibious;2;Over the Horizon Targeting (OTHT);2681;ALSTER (TYPE 123) AGI
+8;LHA/LHD;3;Training;2706;ALS GENERAL (LIGHT SHIP)
+9;Amphibious Assault Command Ship (LCC);4;Logistics Support;2717;AEM GENERAL (MISSILE SUPPORT SHIP)
+10;Landing Craft (LC);5;Antisurface Warfare;2718;AMGA AEM
+11;Troop Ship;6;Electronic Warfare (EW);2719;ANDIZHAN (MODIFIED) AEM
+12;Tanker/Oiler;7;Fishery Protection;2720;LAMA AEM
+13;Auxiliary Ship;8;Search and Rescue (SAR);2721;MALINA AEM
+14;Mine Warfare Ship;9;Escorting;2722;MELITOPOL AEM
+15;Mine Countermeasures Maritime Vessel (MCMV);10;Minelaying;2723;MP 6 AEM
+16;Hospital Ship;11;Transiting;2734;AGM GENERAL (MISSILE RANGE INSTRUMENTATION SHIP)
+17;Surfaced Submarine;12;Naval Surface Fire Support;2735;AGM-24 AGM
+18;Hydrofoil;13;Intruding;2736;GEN HOYT S VANDENBERG AGM
+19;Air Cushion Vehicle;14;Amphibious Warfare;2737;OBSERVATION ISLAND AGM
+20;Intelligence Collector;15;Intelligence Collecting;2739;REDSTONE AGM
+21;Survey Vessel;16;Patrol;2750;AGOR GENERAL (OCEANOGRAPHIC RESEARCH SHIP)
+22;Non-Military;17;Transport;2751;ABKHAZIYA AGOR
+23;Landing Platform;18;Antisubmarine Warfare (ASW);2752;AKADEMIK KRYLOV AGOR
+24;Landing Ship;20;Towing;2753;ARAD AGOR
+25;Command;21;Special Warfare;2754;BALIKPAPAN AGOR
+26;Ocean Research;22;Strike Warfare;2755;BELGICA AGOR
+27;Patrol;23;Antiair Warfare;2758;D'ENTRECASTEAUX AGOR
+28;Support;24;Fishing;2759;DOBRYNYA NIKITICH AGOR
+29;Fishing Vessel;25;Picketing;2760;DONG MING AGOR
+30;Merchant Vessel;26;Mine Countermeasures;2761;ELTANIN AGOR
+31;Patrol Craft Escort;27;Mine Warfare;2763;FRANCESCO NULLO AGOR
+32;Amphibious General Assault;28;Marking;2765;GRIGORE ANTIPA AGOR
+33;Missile Control Unit;29;Noncombatant Operations;2766;GYRE AGOR
+34;Decoy;30;Underway Replenishment;2767;HAYES AGOR
+35;Infrared Decoy;31;Surveying;2768;HECLA AGOR
+36;Chaff Decoy;32;Electronic Warfare Support (ES);2769;MELVILLE AGOR
+37;Active Electronic Decoy;33;Electronic Attack (EA);2770;MSC 60 AGOR
+1;Aircraft Carrier;34;Flight Operations;2771;NAUTILUS AGOR
+2;Battleship;35;Video Data Linking (Targeting);2772;NEVELSKOY AGOR
+3;Cruiser;36;Plane Guard;2773;NIKOLAY ZUBOV AGOR
+4;Destroyer;37;Rescue Ship/Lifeguard;2774;PITHEAS AGOR
+5;Frigate;38;Special Operations;2775;POLYUS AGOR
+6;Fast Patrol Boat;39;Shadowing;2776;QUEST AGOR
+7;Amphibious;40;Intervening;2777;ROBERT D CONRAD AGOR
+8;LHA/LHD;41;Nuclear, Biological, Chemical (NBC) Operations;2778;T-43 AGOR
+9;Amphibious Assault Command Ship (LCC);42;Nuclear Operations;2779;TRITON AGOR
+10;Landing Craft (LC);43;Biological Operations;2780;TUI AGOR
+11;Troop Ship;44;Chemical Operations;2782;XIANG YANG HONG AGOR
+12;Tanker/Oiler;45;Electronic Protection (EP);2783;YANLUN AGOR
+13;Auxiliary Ship;46;Combat Search and Rescue (CSAR);2784;YUG AGOR
+14;Mine Warfare Ship;47;BMD Mission;2785;ZENOBE GRAMME AGOR
+15;Mine Countermeasures Maritime Vessel (MCMV);50;Return To Base (RTB);2824;AGOB GENERAL (OCEANOGRAPHIC RESEARCH SHIP, POLAR)
+16;Hospital Ship;115;Surface Activity 1;2825;POLARSTERN AGOB
+17;Surfaced Submarine;116;Surface Activity 2;2836;AGOS GENERAL (SURVEILLANCE SHIP, OCEAN)
+18;Hydrofoil;117;Surface Activity 3;2846;AO GENERAL (OILER, TANKER, GENERAL)
+19;Air Cushion Vehicle;118;Surface Activity 4;2848;AKAR AO
+20;Intelligence Collector;119;Surface Activity 5;2849;ALBAY HAKKI BURBAK AO
+21;Survey Vessel;120;Surface Activity 6;2850;ALTAY AO
+22;Non-Military;121;Surface Activity 7;2852;BASKUNCHAK AO
+23;Landing Platform;122;Surface Activity 8;2853;BAYLEAF AO
+24;Landing Ship;123;Surface Activity 9;2854;BINBASI SAADETTIN GURGAN AO
+25;Command;124;Surface Activity 10;2856;CIMARRON AO
+26;Ocean Research;125;Surface Activity 11;2858;DORA AO
+27;Patrol;126;Surface Activity 12;2859;HAMANA AO
+28;Support;1;Air Warfare Support;2862;HENRY J KAISER AO
+29;Fishing Vessel;2;Over the Horizon Targeting (OTHT);2863;IRTYSH AO
+30;Merchant Vessel;3;Training;2864;KALININGRADNEFT AO
+31;Patrol Craft Escort;4;Logistics Support;2865;KHOBI AO
+32;Amphibious General Assault;5;Antisurface Warfare;2866;KONDA AO
+33;Missile Control Unit;6;Electronic Warfare (EW);2867;METTAWEE AO
+34;Decoy;7;Fishery Protection;2869;MOSKIT AO
+35;Infrared Decoy;8;Search and Rescue (SAR);2870;NEOSHO AO
+36;Chaff Decoy;9;Escorting;2871;NERCHA AO
+37;Active Electronic Decoy;10;Minelaying;2872;NORWEGIAN BOW AO
+1;Aircraft Carrier;11;Transiting;2873;OLEKMA AO
+2;Battleship;12;Naval Surface Fire Support;2874;PATAPSCO AO
+3;Cruiser;13;Intruding;2875;PEVEK AO
+4;Destroyer;14;Amphibious Warfare;2877;SOFIYA AO
+5;Frigate;15;Intelligence Collecting;2878;SPESSART (TYPE 704A) AO
+6;Fast Patrol Boat;16;Patrol;2879;TASKIZAK AO
+7;Amphibious;17;Transport;2880;USEDOM AO
+8;LHA/LHD;18;Antisubmarine Warfare (ASW);2884;YUZBASI TOLUNAY AO
+9;Amphibious Assault Command Ship (LCC);20;Towing;2937;AOT GENERAL (OILER-TRANSPORT)
+10;Landing Craft (LC);21;Special Warfare;2939;AOTL AOT
+11;Troop Ship;22;Strike Warfare;2940;EBANOL AOT
+12;Tanker/Oiler;23;Antiair Warfare;2941;FULIN AOT
+13;Auxiliary Ship;24;Fishing;2942;FUZHOU AOT
+14;Mine Warfare Ship;25;Picketing;2943;GUANZGHOU AOT
+15;Mine Countermeasures Maritime Vessel (MCMV);26;Mine Countermeasures;2944;LEIZHOU AOT
+16;Hospital Ship;27;Mine Warfare;2945;MAUMEE AOT
+17;Surfaced Submarine;28;Marking;2946;METTAWEE AOT
+18;Hydrofoil;29;Noncombatant Operations;2947;MISSION AOT
+19;Air Cushion Vehicle;30;Underway Replenishment;2948;POTOMOC AOT
+20;Intelligence Collector;31;Surveying;2949;SEALIFT AOT
+21;Survey Vessel;32;Electronic Warfare Support (ES);2950;SUAMICO AOT
+22;Non-Military;33;Electronic Attack (EA);2951;T 5 AOT
+23;Landing Platform;34;Flight Operations;2952;TM2 AOT
+24;Landing Ship;35;Video Data Linking (Targeting);2974;AOTL GENERAL (OILER, TRANSPORT, SMALL)
+25;Command;36;Plane Guard;2987;AOR GENERAL (OILER, REPLENISHMENT)
+26;Ocean Research;37;Rescue Ship/Lifeguard;2988;BANDAR ABBAS AOR
+27;Patrol;38;Special Operations;2989;BEREZINA AOR
+28;Support;39;Shadowing;2990;BORIS CHILIKIN AOR
+29;Fishing Vessel;40;Intervening;2991;CAPITAN OLA PANTOJA AOR
+30;Merchant Vessel;41;Nuclear, Biological, Chemical (NBC) Operations;2992;DEEPAK AOR
+31;Patrol Craft Escort;42;Nuclear Operations;2993;DUBNA AOR
+32;Amphibious General Assault;43;Biological Operations;2994;DURANCE AOR
+33;Missile Control Unit;44;Chemical Operations;2995;FUQING AOR
+34;Decoy;45;Electronic Protection (EP);2996;KAZBEK AOR
+35;Infrared Decoy;46;Combat Search and Rescue (CSAR);2997;KHARG AOR
+36;Chaff Decoy;47;BMD Mission;2998;MEERSBURG (TYPE 701C) AOR
+37;Active Electronic Decoy;50;Return To Base (RTB);2999;MESAR AOR
+1;Aircraft Carrier;115;Surface Activity 1;3000;OLWEN AOR
+2;Battleship;116;Surface Activity 2;3001;POOLSTER AOR
+3;Cruiser;117;Surface Activity 3;3002;POLYARNIK AOR
+4;Destroyer;118;Surface Activity 4;3003;PROTECTEUR AOR
+5;Frigate;119;Surface Activity 5;3005;ROVER AOR
+6;Fast Patrol Boat;120;Surface Activity 6;3006;SAO GABRIEL AOR
+7;Amphibious;121;Surface Activity 7;3007;STROMBOLI AOR
+8;LHA/LHD;122;Surface Activity 8;3008;TIDE (IMPROVED) AOR
+9;Amphibious Assault Command Ship (LCC);123;Surface Activity 9;3009;UDA AOR
+10;Landing Craft (LC);124;Surface Activity 10;3011;FORT VICTORIA AOR
+11;Troop Ship;125;Surface Activity 11;3012;BERLIN (TYPE 702C) AOR
+12;Tanker/Oiler;126;Surface Activity 12;3013;AMSTERDAM AOR
+13;Auxiliary Ship;1;Air Warfare Support;3043;AORL GENERAL (OILER, REPLENISHMENT, SMALL, NAVAL)
+14;Mine Warfare Ship;2;Over the Horizon Targeting (OTHT);3044;LEIZHOU (AORL)
+15;Mine Countermeasures Maritime Vessel (MCMV);3;Training;3055;AOL GENERAL (OILER, SMALL, NAVAL)
+16;Hospital Ship;4;Logistics Support;3066;AGP GENERAL (PATROL/TORPEDO BOAT SUPPORT SHIP, TENDER)
+17;Surfaced Submarine;5;Antisurface Warfare;3067;GRAHAM COUNTY AGP
+18;Hydrofoil;6;Electronic Warfare (EW);3068;NORGE AGP
+19;Air Cushion Vehicle;7;Fishery Protection;3070;MERCUUR AGP
+20;Intelligence Collector;8;Search and Rescue (SAR);3080;AP GENERAL (PERSONNEL TRANSPORT)
+21;Survey Vessel;9;Escorting;3081;MIKHAIL KALININ AP
+22;Non-Military;10;Minelaying;3082;PANDORA AP
+23;Landing Platform;11;Transiting;3083;QIONGSHA AP
+24;Landing Ship;12;Naval Surface Fire Support;3094;AGR GENERAL (RADAR PICKET SHIP, UNARMED)
+25;Command;13;Intruding;3105;AOSR GENERAL (RADIOLOGICAL LIQUID SHIP)
+26;Ocean Research;14;Amphibious Warfare;3116;AR GENERAL (REPAIR SHIP)
+27;Patrol;15;Intelligence Collecting;3117;ACHELOUS AR
+28;Support;16;Patrol;3119;AMPHION AR
+29;Fishing Vessel;17;Transport;3120;AMUR AR
+30;Merchant Vessel;18;Antisubmarine Warfare (ASW);3121;ARL I AR
+31;Patrol Craft Escort;20;Towing;3122;DALIAN AR
+32;Amphibious General Assault;21;Special Warfare;3123;DILIGENCE AR
+33;Missile Control Unit;22;Strike Warfare;3125;JULES VERNE AR
+34;Decoy;23;Antiair Warfare;3126;OSKOL AR
+35;Infrared Decoy;24;Fishing;3127;RHIN AR
+36;Chaff Decoy;25;Picketing;3146;ARL GENERAL (REPAIR SHIP, SMALL)
+37;Active Electronic Decoy;26;Mine Countermeasures;3147;ARCHELOUS ARL
+1;Aircraft Carrier;27;Mine Warfare;3158;AGE GENERAL (RESEARCH SHIP)
+2;Battleship;28;Marking;3163;DESNA AGE
+3;Cruiser;29;Noncombatant Operations;3165;EF 3 AGE
+4;Destroyer;30;Underway Replenishment;3169;KOLOMNA AGE
+5;Frigate;31;Surveying;3171;MARSHAL NEDELIN AGE
+6;Fast Patrol Boat;32;Electronic Warfare Support (ES);3173;MP-8 AGE
+7;Amphibious;33;Electronic Attack (EA);3174;MUNA AGE
+8;LHA/LHD;34;Flight Operations;3175;NARVIK AGE
+9;Amphibious Assault Command Ship (LCC);35;Video Data Linking (Targeting);3176;OS-3 AGE
+10;Landing Craft (LC);36;Plane Guard;3178;POTOK AGE
+11;Troop Ship;37;Rescue Ship/Lifeguard;3179;QUARTO AGE
+12;Tanker/Oiler;38;Special Operations;3180;SASHA AGE
+13;Auxiliary Ship;39;Shadowing;3181;SIBIR AGE
+14;Mine Warfare Ship;40;Intervening;3182;SO-1 AGE
+15;Mine Countermeasures Maritime Vessel (MCMV);41;Nuclear, Biological, Chemical (NBC) Operations;3183;T-43 AGE
+16;Hospital Ship;42;Nuclear Operations;3186;YAL 01 AGE
+17;Surfaced Submarine;43;Biological Operations;3187;YANXI AGE
+18;Hydrofoil;44;Chemical Operations;3188;ROSSETTI AGE
+19;Air Cushion Vehicle;45;Electronic Protection (EP);3189;DENTI AGE
+20;Intelligence Collector;46;Combat Search and Rescue (CSAR);3190;MONGE AGE
+21;Survey Vessel;47;BMD Mission;3228;ARS GENERAL (SALVAGE SHIP)
+22;Non-Military;50;Return To Base (RTB);3229;BOLSTER ARS
+23;Landing Platform;115;Surface Activity 1;3231;INGUL ARS
+24;Landing Ship;116;Surface Activity 2;3232;KATUN I ARS
+25;Command;117;Surface Activity 3;3233;KATUN II ARS
+26;Ocean Research;118;Surface Activity 4;3234;KOWAN ARS
+27;Patrol;119;Surface Activity 5;3235;LSIL 351 ARS
+28;Support;120;Surface Activity 6;3236;MIKHAIL RUDNITSKY ARS
+29;Fishing Vessel;121;Surface Activity 7;3237;OREL ARS
+30;Merchant Vessel;122;Surface Activity 8;3239;PIAST ARS
+31;Patrol Craft Escort;123;Surface Activity 9;3240;PROTEO ARS
+32;Amphibious General Assault;124;Surface Activity 10;3241;PS-11 ARS
+33;Missile Control Unit;125;Surface Activity 11;3242;SAFEGUARD ARS
+34;Decoy;126;Surface Activity 12;3243;SILVA ARS
+35;Infrared Decoy;1;Air Warfare Support;3244;SPASILAC ARS
+36;Chaff Decoy;2;Over the Horizon Targeting (OTHT);3246;US 149 FT ARS
+37;Active Electronic Decoy;3;Training;3247;YANDING ARS
+1;Aircraft Carrier;4;Logistics Support;3274;ARSD GENERAL (SALVAGE SHIP, LIFTING)
+2;Battleship;5;Antisurface Warfare;3285;ASVR GENERAL (SPACE VEHICLE RECOVERY SHIP)
+3;Cruiser;6;Electronic Warfare (EW);3296;AOS GENERAL (SPECIAL LIQUID SHIP)
+4;Destroyer;7;Fishery Protection;3297;ALATNA AOS
+5;Frigate;8;Search and Rescue (SAR);3298;LUZA AOS
+6;Fast Patrol Boat;9;Escorting;3299;URAL AOS
+7;Amphibious;10;Minelaying;3300;VALA AOS
+8;LHA/LHD;11;Transiting;3301;TONTI AOS
+9;Amphibious Assault Command Ship (LCC);12;Naval Surface Fire Support;3312;AF GENERAL (STORES SHIP)
+10;Landing Craft (LC);13;Intruding;3313;CROITOR AF
+11;Troop Ship;14;Amphibious Warfare;3314;DANLIN AF
+12;Tanker/Oiler;15;Intelligence Collecting;3316;RIGEL AF
+13;Auxiliary Ship;16;Patrol;3327;AKS GENERAL (STORES SHIP, ISSUE, NAVAL)
+14;Mine Warfare Ship;17;Transport;3338;AKSL GENERAL (STORES SHIP, ISSUE, SMALL, NAVAL)
+15;Mine Countermeasures Maritime Vessel (MCMV);18;Antisubmarine Warfare (ASW);3349;AFL GENERAL (STORES SHIP, SMALL)
+16;Hospital Ship;20;Towing;3360;ASR GENERAL (SUBMARINE RESCUE SHIP)
+17;Surfaced Submarine;21;Special Warfare;3361;ANTEO ASR
+18;Hydrofoil;22;Strike Warfare;3362;CHANTICLEER ASR
+19;Air Cushion Vehicle;23;Antiair Warfare;3363;DAHIANG ASR
+20;Intelligence Collector;24;Fishing;3364;DALANG ASR
+21;Survey Vessel;25;Picketing;3365;ELBRUS ASR
+22;Non-Military;26;Mine Countermeasures;3366;FEHMARN (TYPE 720B) ASR
+23;Landing Platform;27;Mine Warfare;3367;FUSHIMI ASR
+24;Landing Ship;28;Marking;3368;GALATI ASR
+25;Command;29;Noncombatant Operations;3369;HUDONG ASR
+26;Ocean Research;30;Underway Replenishment;3371;NEPA ASR
+27;Patrol;31;Surveying;3372;PIGEON ASR
+28;Support;32;Electronic Warfare Support (ES);3373;PRUT ASR
+29;Fishing Vessel;33;Electronic Attack (EA);3374;ROSLAVL ASR
+30;Merchant Vessel;34;Flight Operations;3376;VALDAY ASR
+31;Patrol Craft Escort;35;Video Data Linking (Targeting);3377;ZHONGHUA ASR
+32;Amphibious General Assault;36;Plane Guard;3402;AS GENERAL (SUBMARINE TENDER)
+33;Missile Control Unit;37;Rescue Ship/Lifeguard;3403;ACHELOUS AS
+34;Decoy;38;Special Operations;3404;AEGIR AS
+35;Infrared Decoy;39;Shadowing;3406;ATREK AS
+36;Chaff Decoy;40;Intervening;3407;CHIYODA AS
+37;Active Electronic Decoy;41;Nuclear, Biological, Chemical (NBC) Operations;3408;DADONG AS
+1;Aircraft Carrier;42;Nuclear Operations;3409;DAZHOU AS
+2;Battleship;43;Biological Operations;3410;DIVER AS
+3;Cruiser;44;Chemical Operations;3412;DNEPR (MODIFIED) AS
+4;Destroyer;45;Electronic Protection (EP);3413;DON AS
+5;Frigate;46;Combat Search and Rescue (CSAR);3414;EMORY S LAND AS
+6;Fast Patrol Boat;47;BMD Mission;3415;FULTON AS
+7;Amphibious;50;Return To Base (RTB);3416;HUNLEY AS
+8;LHA/LHD;115;Surface Activity 1;3417;L Y SPEAR AS
+9;Amphibious Assault Command Ship (LCC);116;Surface Activity 2;3418;PROTEUS AS
+10;Landing Craft (LC);117;Surface Activity 3;3421;UGRA AS
+11;Troop Ship;118;Surface Activity 4;3448;ASL GENERAL (SUBMARINE TENDER, SMALL)
+12;Tanker/Oiler;119;Surface Activity 5;3459;AGS GENERAL (SURVEY SHIP)
+13;Auxiliary Ship;120;Surface Activity 6;3460;MAURY AGS
+14;Mine Warfare Ship;121;Surface Activity 7;3461;AKASHI AGS
+15;Mine Countermeasures Maritime Vessel (MCMV);122;Surface Activity 8;3462;ALMEIDA CARVALHO AGS
+16;Hospital Ship;123;Surface Activity 9;3463;AMMIRAGLIO MAGNAGHI AGS
+17;Surfaced Submarine;124;Surface Activity 10;3464;ANDRIJA MOHOROVICIC AGS
+18;Hydrofoil;125;Surface Activity 11;3465;AUK AGS
+19;Air Cushion Vehicle;126;Surface Activity 12;3466;BIYA AGS
+20;Intelligence Collector;1;Air Warfare Support;3467;BOLOGUE AGS
+21;Survey Vessel;2;Over the Horizon Targeting (OTHT);3470;C4-S-A1 (CONVERTED) AGS
+22;Non-Military;3;Training;3473;DING HAI AGS
+23;Landing Platform;4;Logistics Support;3475;FS DESIGN 330 AGS
+24;Landing Ship;5;Antisurface Warfare;3476;FUTAMI AGS
+25;Command;6;Electronic Warfare (EW);3477;HAMASHIO AGS
+26;Ocean Research;7;Fishery Protection;3478;HEIYO AGS
+27;Patrol;8;Search and Rescue (SAR);3479;KAIBOKAN I AGS
+28;Support;9;Escorting;3480;KAIYO AGS
+29;Fishing Vessel;10;Minelaying;3481;KAMENKA AGS
+30;Merchant Vessel;11;Transiting;3483;SNELLIUS AGS
+31;Patrol Craft Escort;12;Naval Surface Fire Support;3487;LSIL AGS
+32;Amphibious General Assault;13;Intruding;3488;MEIYO AGS
+33;Missile Control Unit;14;Amphibious Warfare;3489;MELITOPOL AGS
+34;Decoy;15;Intelligence Collecting;3491;MONOWAI AGS
+35;Infrared Decoy;16;Patrol;3492;MORESBY AGS
+36;Chaff Decoy;17;Transport;3494;MSC-294 (BLUEBIRD) AGS
+37;Active Electronic Decoy;18;Antisubmarine Warfare (ASW);3495;NYRYAT I AGS
+1;Aircraft Carrier;20;Towing;3496;NYRYAT II AGS
+2;Battleship;21;Special Warfare;3497;SAMARA AGS
+3;Cruiser;22;Strike Warfare;3498;SHOYO AGS
+4;Destroyer;23;Antiair Warfare;3499;SILAS BENT AGS
+5;Frigate;24;Fishing;3501;SUMA AGS
+6;Fast Patrol Boat;25;Picketing;3503;TAKUYO AGS
+7;Amphibious;26;Mine Countermeasures;3504;TELNOVSK AGS
+8;LHA/LHD;27;Mine Warfare;3505;TELNOVSK (MODIFIED) AGS
+9;Amphibious Assault Command Ship (LCC);28;Marking;3506;TENYO AGS
+10;Landing Craft (LC);29;Noncombatant Operations;3507;VICTORY (CONVERTED) AGS
+11;Troop Ship;30;Underway Replenishment;3508;WILKES AGS
+12;Tanker/Oiler;31;Surveying;3509;YANLAI AGS
+13;Auxiliary Ship;32;Electronic Warfare Support (ES);3510;YANXU AGS
+14;Mine Warfare Ship;33;Electronic Attack (EA);3511;MIRTO AGS
+15;Mine Countermeasures Maritime Vessel (MCMV);34;Flight Operations;3513;LAPEROUSE AGS
+16;Hospital Ship;35;Video Data Linking (Targeting);3580;AGSA GENERAL (SURVEY SHIP, POLAR)
+17;Surfaced Submarine;36;Plane Guard;3591;AGSC GENERAL (SURVEY SHIP, COASTAL)
+18;Hydrofoil;37;Rescue Ship/Lifeguard;3592;EXPLORER AGSC
+19;Air Cushion Vehicle;38;Special Operations;3593;FLINDERS AGSC
+20;Intelligence Collector;39;Shadowing;3594;TAINO AGSC
+21;Survey Vessel;40;Intervening;3595;BULLDOG AGSC
+22;Non-Military;41;Nuclear, Biological, Chemical (NBC) Operations;3596;ROEBUCK AGSC
+23;Landing Platform;42;Nuclear Operations;3605;AX GENERAL (TRAINING SHIP, NAVAL)
+24;Landing Ship;43;Biological Operations;3606;ARIS AX
+25;Command;44;Chemical Operations;3608;JADRAN AX
+26;Ocean Research;45;Electronic Protection (EP);3609;JERVIS BAY AX
+27;Patrol;46;Combat Search and Rescue (CSAR);3610;JOSE MARTI AX
+28;Support;47;BMD Mission;3612;SMOLNY AX
+29;Fishing Vessel;50;Return To Base (RTB);3615;WODNIK AX
+30;Merchant Vessel;115;Surface Activity 1;3631;AXL GENERAL (TRAINING SHIP, SMALL, NAVAL)
+31;Patrol Craft Escort;116;Surface Activity 2;3633;LEOPARD AXL
+32;Amphibious General Assault;117;Surface Activity 3;3643;AXS GENERAL (TRAINING SHIP, SAIL, NAVAL)
+33;Missile Control Unit;118;Surface Activity 4;3644;AMERIGO VESPUCCI AXS
+34;Decoy;119;Surface Activity 5;3645;CAROLY AXS
+35;Infrared Decoy;120;Surface Activity 6;3646;CARSARO II AXS
+36;Chaff Decoy;121;Surface Activity 7;3647;GORCH FOCK (TYPE 441A) AXS
+37;Active Electronic Decoy;122;Surface Activity 8;3648;MIRCEA AXS
+1;Aircraft Carrier;123;Surface Activity 9;3649;PALINURO AXS
+2;Battleship;124;Surface Activity 10;3650;SAGRES AXS
+3;Cruiser;125;Surface Activity 11;3651;STELLA POLARE AXS
+4;Destroyer;126;Surface Activity 12;3660;AT GENERAL (TUG, OCEANGOING)
+5;Frigate;1;Air Warfare Support;3666;ATA GENERAL (TUG, OCEANGOING, AUXILIARY)
+6;Fast Patrol Boat;2;Over the Horizon Targeting (OTHT);3667;ABNAKI ATA
+7;Amphibious;3;Training;3668;APACHE ATA
+8;LHA/LHD;4;Logistics Support;3670;ATAK ATA
+9;Amphibious Assault Command Ship (LCC);5;Antisurface Warfare;3671;ATLANTE ATA
+10;Landing Craft (LC);6;Electronic Warfare (EW);3672;AZUMA ATA
+11;Troop Ship;7;Fishery Protection;3673;BELIER ATA
+12;Tanker/Oiler;8;Search and Rescue (SAR);3675;GAJ ATA
+13;Auxiliary Ship;9;Escorting;3676;GNIEWKO ATA
+14;Mine Warfare Ship;10;Minelaying;3677;GORYN ATA
+15;Mine Countermeasures Maritime Vessel (MCMV);11;Transiting;3678;GROMOVOY ATA
+16;Hospital Ship;12;Naval Surface Fire Support;3679;KUDRET ATA
+17;Surfaced Submarine;13;Intruding;3680;MAITO ATA
+18;Hydrofoil;14;Amphibious Warfare;3683;MOTYL ATA
+19;Air Cushion Vehicle;15;Intelligence Collecting;3684;OKHTENSKIY ATA
+20;Intelligence Collector;16;Patrol;3685;ONCU ATA
+21;Survey Vessel;17;Transport;3686;POWHATAN ATA
+22;Non-Military;18;Antisubmarine Warfare (ASW);3687;ROSLAVL ATA
+23;Landing Platform;20;Towing;3688;ROYSTERER ATA
+24;Landing Ship;21;Special Warfare;3689;SAINT ATA
+25;Command;22;Strike Warfare;3690;SCHULTZ XAVIER ATA
+26;Ocean Research;23;Antiair Warfare;3693;TUZHONG ATA
+27;Patrol;24;Fishing;3694;TYPHOON ATA
+28;Support;25;Picketing;3695;WANGEROOGE (TYPE 722B) ATA
+29;Fishing Vessel;26;Mine Countermeasures;3696;ZENIT ATA
+30;Merchant Vessel;27;Mine Warfare;3697;MAITO ATA
+31;Patrol Craft Escort;28;Marking;3698;ARMEN ATA
+32;Amphibious General Assault;29;Noncombatant Operations;3738;ATR GENERAL (TUG, OCEANGOING, RESCUE)
+33;Missile Control Unit;30;Underway Replenishment;3739;TENACE ATR
+34;Decoy;31;Surveying;3749;ATS GENERAL (TUG, OCEANGOING, OR SHIP SALVAGE/RESCUE)
+35;Infrared Decoy;32;Electronic Warfare Support (ES);3750;EDENTON ATS
+36;Chaff Decoy;33;Electronic Attack (EA);3751;OKHTENSKY ATS
+37;Active Electronic Decoy;34;Flight Operations;3752;LANGEOOG (TYPE 754) ATS
+1;Aircraft Carrier;35;Video Data Linking (Targeting);3753;ARGUS ATS
+2;Battleship;36;Plane Guard;3763;AWT GENERAL (WATER TENDER, NAVAL)
+3;Cruiser;37;Rescue Ship/Lifeguard;3765;BASENTO AWT
+4;Destroyer;38;Special Operations;3766;FUZHOU (MODIFIED) AWT
+5;Frigate;39;Shadowing;3767;KANGAN AWT
+6;Fast Patrol Boat;40;Intervening;3768;LEIZHOU (MODIFIED) AWT
+7;Amphibious;41;Nuclear, Biological, Chemical (NBC) Operations;3769;LSIL AWT
+8;LHA/LHD;42;Nuclear Operations;3770;MANYCH AWT
+9;Amphibious Assault Command Ship (LCC);43;Biological Operations;3771;MINCIO AWT
+10;Landing Craft (LC);44;Chemical Operations;3772;PIAVE AWT
+11;Troop Ship;45;Electronic Protection (EP);3773;TEVERE AWT
+12;Tanker/Oiler;46;Combat Search and Rescue (CSAR);3774;ULUBAT AWT
+13;Auxiliary Ship;47;BMD Mission;3775;VODA AWT
+14;Mine Warfare Ship;50;Return To Base (RTB);3798;SVC GENERAL (SERVICE CRAFT)
+15;Mine Countermeasures Maritime Vessel (MCMV);115;Surface Activity 1;3799;BARGE, GENERAL
+16;Hospital Ship;116;Surface Activity 2;3800;YO GENERAL
+17;Surfaced Submarine;117;Surface Activity 3;3801;YOG GENERAL
+18;Hydrofoil;118;Surface Activity 4;3802;YHT GENERAL
+19;Air Cushion Vehicle;119;Surface Activity 5;3803;YRNS GENERAL
+20;Intelligence Collector;120;Surface Activity 6;3804;YOS GENERAL
+21;Survey Vessel;121;Surface Activity 7;3805;YPK GENERAL
+22;Non-Military;122;Surface Activity 8;3806;YRR GENERAL
+23;Landing Platform;123;Surface Activity 9;3807;YRB GENERAL
+24;Landing Ship;124;Surface Activity 10;3808;YRST GENERAL
+25;Command;125;Surface Activity 11;3809;YOM GENERAL
+26;Ocean Research;126;Surface Activity 12;3810;YOSS GENERAL
+27;Patrol;1;Air Warfare Support;3811;YW GENERAL
+28;Support;2;Over the Horizon Targeting (OTHT);3812;HIGH ENDURANCE CUTTER WHEC
+29;Fishing Vessel;3;Training;3813;MEDIUM ENDURANCE CUTTER WMEC
+30;Merchant Vessel;4;Logistics Support;3814;ICEBREAKER WAGB
+31;Patrol Craft Escort;5;Antisurface Warfare;3815;POLAR CLASS ICEBREAKER WAGB
+32;Amphibious General Assault;6;Electronic Warfare (EW);3816;INLAND ICEBREAKER WAGB
+33;Missile Control Unit;7;Fishery Protection;3817;ICEBREAKING TUG WTGB
+34;Decoy;8;Search and Rescue (SAR);3818;SEAGOING BUOY TENDER WLB
+35;Infrared Decoy;9;Escorting;3819;COASTAL BUOY TENDER WLM
+36;Chaff Decoy;10;Minelaying;3820;INLAND BUOY TENDER WLI
+37;Active Electronic Decoy;11;Transiting;3821;RIVER BUOY TENDER WLR
+1;Aircraft Carrier;12;Naval Surface Fire Support;3822;INLAND CONSTRUCTION TENDER WLIC
+2;Battleship;13;Intruding;3823;SMALL HARBOR TUG WYTL
+3;Cruiser;14;Amphibious Warfare;3824;PATROL BOAT WPB
+4;Destroyer;15;Intelligence Collecting;3825;TRAINING BARQUE EAGLE WIX
+5;Frigate;16;Patrol;3826;MOTOR LIFE BOAT MLB
+6;Fast Patrol Boat;17;Transport;3827;DEPLOYABLE PURSUIT BOAT DPB
+7;Amphibious;18;Antisubmarine Warfare (ASW);3828;YD GENERAL
+8;LHA/LHD;20;Towing;3829;YM GENERAL
+9;Amphibious Assault Command Ship (LCC);21;Special Warfare;3830;YFD GENERAL
+10;Landing Craft (LC);22;Strike Warfare;3831;YFP GENERAL
+11;Troop Ship;23;Antiair Warfare;3832;YGT GENERAL
+12;Tanker/Oiler;24;Fishing;3833;YR GENERAL
+13;Auxiliary Ship;25;Picketing;3834;TRANSPORTABLE PORT SECURITY BOAT TPSB
+14;Mine Warfare Ship;26;Mine Countermeasures;3835;UTILITY BOAT UTB
+15;Mine Countermeasures Maritime Vessel (MCMV);27;Mine Warfare;3842;YFDB GENERAL
+16;Hospital Ship;28;Marking;3843;YFDM GENERAL
+17;Surfaced Submarine;29;Noncombatant Operations;3844;YFDL GENERAL
+18;Hydrofoil;30;Underway Replenishment;3851;YRD GENERAL
+19;Air Cushion Vehicle;31;Surveying;3852;YRDB GENERAL
+20;Intelligence Collector;32;Electronic Warfare Support (ES);3853;YRDM GENERAL
+21;Survey Vessel;33;Electronic Attack (EA);3854;YRDL GENERAL
+22;Non-Military;34;Flight Operations;3862;YL GENERAL (LIGHTER GENERAL)
+23;Landing Platform;35;Video Data Linking (Targeting);3863;YE GENERAL
+24;Landing Ship;36;Plane Guard;3864;YF GENERAL
+25;Command;37;Rescue Ship/Lifeguard;3865;YFC GENERAL
+26;Ocean Research;38;Special Operations;3866;YFR GENERAL
+27;Patrol;39;Shadowing;3867;YC GENERAL
+28;Support;40;Intervening;3868;YFT GENERAL
+29;Fishing Vessel;41;Nuclear, Biological, Chemical (NBC) Operations;3879;YT GENERAL
+30;Merchant Vessel;42;Nuclear Operations;3880;YTB GENERAL
+31;Patrol Craft Escort;43;Biological Operations;3881;YTM GENERAL
+32;Amphibious General Assault;44;Chemical Operations;3882;YTL GENERAL
+33;Missile Control Unit;45;Electronic Protection (EP);3893;YAGF GENERAL
+34;Decoy;46;Combat Search and Rescue (CSAR);3894;YAG GENERAL
+35;Infrared Decoy;47;BMD Mission;3895;YV GENERAL
+36;Chaff Decoy;50;Return To Base (RTB);3896;YNG GENERAL
+37;Active Electronic Decoy;115;Surface Activity 1;3897;YP GENERAL
+1;Aircraft Carrier;116;Surface Activity 2;3898;YFU GENERAL
+2;Battleship;117;Surface Activity 3;3899;YAM GENERAL
+3;Cruiser;118;Surface Activity 4;3900;YNC GENERAL
+4;Destroyer;119;Surface Activity 5;3901;YLC GENERAL
+5;Frigate;120;Surface Activity 6;3902;YVS GENERAL
+6;Fast Patrol Boat;121;Surface Activity 7;3903;YRG GENERAL
+7;Amphibious;122;Surface Activity 8;3904;YAGT GENERAL
+8;LHA/LHD;123;Surface Activity 9;3905;YPT GENERAL
+9;Amphibious Assault Command Ship (LCC);124;Surface Activity 10;3906;YRC GENERAL
+10;Landing Craft (LC);125;Surface Activity 11;3907;YDT GENERAL
+11;Troop Ship;126;Surface Activity 12;3908;YNT GENERAL
+12;Tanker/Oiler;1;Air Warfare Support;3909;YH GENERAL
+13;Auxiliary Ship;2;Over the Horizon Targeting (OTHT);3910;YFB GENERAL
+14;Mine Warfare Ship;3;Training;3911;YTR GENERAL
+15;Mine Countermeasures Maritime Vessel (MCMV);4;Logistics Support;3912;YFL GENERAL
+16;Hospital Ship;5;Antisurface Warfare;3913;YAC GENERAL
+17;Surfaced Submarine;6;Electronic Warfare (EW);3916;YDG GENERAL
+18;Hydrofoil;7;Fishery Protection;3917;KHABAROV YDG
+19;Air Cushion Vehicle;8;Search and Rescue (SAR);3937;TM GENERAL
+20;Intelligence Collector;9;Escorting;3938;TMD GENERAL
+21;Survey Vessel;10;Minelaying;3939;TMB GENERAL
+22;Non-Military;11;Transiting;3940;TMK GENERAL
+23;Landing Platform;12;Naval Surface Fire Support;3941;TMF GENERAL
+24;Landing Ship;13;Intruding;3942;TMC GENERAL
+25;Command;14;Amphibious Warfare;3943;TMCS GENERAL
+26;Ocean Research;15;Intelligence Collecting;3944;TMWW GENERAL
+27;Patrol;16;Patrol;3945;TMA GENERAL
+28;Support;17;Transport;3946;TMH GENERAL
+29;Fishing Vessel;18;Antisubmarine Warfare (ASW);3947;TMGB GENERAL
+30;Merchant Vessel;20;Towing;3948;TMI GENERAL
+31;Patrol Craft Escort;21;Special Warfare;3949;TML GENERAL
+32;Amphibious General Assault;22;Strike Warfare;3950;TMOT GENERAL
+33;Missile Control Unit;23;Antiair Warfare;3951;TMM GENERAL
+34;Decoy;24;Fishing;3952;TMP GENERAL
+35;Infrared Decoy;25;Picketing;3953;TMFR GENERAL
+36;Chaff Decoy;26;Mine Countermeasures;3954;TMR GENERAL
+37;Active Electronic Decoy;27;Mine Warfare;3955;TMOR GENERAL
+1;Aircraft Carrier;28;Marking;3956;TMOL GENERAL
+2;Battleship;29;Noncombatant Operations;3957;TME GENERAL
+3;Cruiser;30;Underway Replenishment;3958;TMGS GENERAL
+4;Destroyer;31;Surveying;3959;TMLS GENERAL
+5;Frigate;32;Electronic Warfare Support (ES);3960;TMS GENERAL
+6;Fast Patrol Boat;33;Electronic Attack (EA);3961;TMOS GENERAL
+7;Amphibious;34;Flight Operations;3962;TMO GENERAL
+8;LHA/LHD;35;Video Data Linking (Targeting);3963;TMX GENERAL
+9;Amphibious Assault Command Ship (LCC);36;Plane Guard;3964;TMWT GENERAL
+10;Landing Craft (LC);37;Rescue Ship/Lifeguard;3990;TMT GENERAL
+11;Troop Ship;38;Special Operations;3991;TMTR GENERAL
+12;Tanker/Oiler;39;Shadowing;3992;TMTS GENERAL
+13;Auxiliary Ship;40;Intervening;4003;TU GENERAL
+14;Mine Warfare Ship;41;Nuclear, Biological, Chemical (NBC) Operations;4004;TUF GENERAL
+15;Mine Countermeasures Maritime Vessel (MCMV);42;Nuclear Operations;4005;TUB GENERAL
+16;Hospital Ship;43;Biological Operations;4006;TUI GENERAL
+17;Surfaced Submarine;44;Chemical Operations;4007;TUR GENERAL
+18;Hydrofoil;45;Electronic Protection (EP);4008;TUT GENERAL
+19;Air Cushion Vehicle;46;Combat Search and Rescue (CSAR);4009;TUS GENERAL
+20;Intelligence Collector;47;BMD Mission;4010;TUC GENERAL
+21;Survey Vessel;50;Return To Base (RTB);4011;TUW GENERAL
+22;Non-Military;115;Surface Activity 1;4024;TJ GENERAL
+23;Landing Platform;116;Surface Activity 2;4025;TJF GENERAL
+24;Landing Ship;117;Surface Activity 3;4026;TJC GENERAL
+25;Command;118;Surface Activity 4;4027;TJCS GENERAL
+26;Ocean Research;119;Surface Activity 5;4028;TJGB GENERAL
+27;Patrol;120;Surface Activity 6;4053;MPS GENERAL
+28;Support;121;Surface Activity 7;4070;SURFACE SPECIFIC TYPE 1
+29;Fishing Vessel;122;Surface Activity 8;4071;SURFACE SPECIFIC TYPE 2
+30;Merchant Vessel;123;Surface Activity 9;4072;SURFACE SPECIFIC TYPE 3
+31;Patrol Craft Escort;124;Surface Activity 10;4073;SURFACE SPECIFIC TYPE 4
+32;Amphibious General Assault;125;Surface Activity 11;4074;SURFACE SPECIFIC TYPE 5
+33;Missile Control Unit;126;Surface Activity 12;4075;SURFACE SPECIFIC TYPE 6
+34;Decoy;1;Air Warfare Support;4076;SURFACE SPECIFIC TYPE 7
+35;Infrared Decoy;2;Over the Horizon Targeting (OTHT);4077;SURFACE SPECIFIC TYPE 8
+36;Chaff Decoy;3;Training;4078;SURFACE SPECIFIC TYPE 9
+37;Active Electronic Decoy;4;Logistics Support;4079;SURFACE SPECIFIC TYPE 10
+1;Aircraft Carrier;5;Antisurface Warfare;4080;SURFACE SPECIFIC TYPE 11
+2;Battleship;6;Electronic Warfare (EW);4081;SURFACE SPECIFIC TYPE 12
+3;Cruiser;7;Fishery Protection;4082;SURFACE SPECIFIC TYPE 13
+4;Destroyer;8;Search and Rescue (SAR);4083;SURFACE SPECIFIC TYPE 14
+5;Frigate;9;Escorting;4084;SURFACE SPECIFIC TYPE 15
+6;Fast Patrol Boat;10;Minelaying;4085;SURFACE SPECIFIC TYPE 16
+7;Amphibious;11;Transiting;4086;SURFACE SPECIFIC TYPE 17
+8;LHA/LHD;12;Naval Surface Fire Support;4087;SURFACE SPECIFIC TYPE 18
+9;Amphibious Assault Command Ship (LCC);13;Intruding;4088;SURFACE SPECIFIC TYPE 19
+10;Landing Craft (LC);14;Amphibious Warfare;4089;SURFACE SPECIFIC TYPE 20
+11;Troop Ship;15;Intelligence Collecting;4090;SURFACE SPECIFIC TYPE 21
+12;Tanker/Oiler;16;Patrol;4091;SURFACE SPECIFIC TYPE 22
+13;Auxiliary Ship;17;Transport;4092;SURFACE SPECIFIC TYPE 23
+14;Mine Warfare Ship;18;Antisubmarine Warfare (ASW);4093;SURFACE SPECIFIC TYPE 24
+15;Mine Countermeasures Maritime Vessel (MCMV);20;Towing;4094;SURFACE SPECIFIC TYPE 25

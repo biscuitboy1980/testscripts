@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="e9258d49-f5e3-4ffb-b7dd-b50e968edb93">
+  <name>
+    list_format
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="list_format" namespace="TacViewLib.UISpecific.ATOUpgrade"/>
+  <recorditems>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="330" sy="39" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f5500031-56ac-469c-8225-46a93a3dd65f">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='ATO']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="372" sy="87" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="afaa6d61-9121-4876-a7eb-b0bef0f7db35">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="322,74,207,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[View Database]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[View Database]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO']/contextmenu[1]/menuitem[@accessiblename='View Database']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Right" movetime="250ms" sx="125" sy="70" loc="78;6">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9614df3b-e875-4a6b-8cbb-3998bab59b7a">
+        <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="47,64,139,16">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="expanded" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATOSmall1.txt	TBONE		]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'C2 HOST.*']/element/container/container/text/tree/treeitem/treeitem[@text='ATOSmall1.txtTBONE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="127" sy="117" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="2d256552-6d12-4d4a-9715-5ae2d7d19c07">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="2" rect="49,110,206,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Configure record formats...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Configure record formats...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'^Configure\ record\ formats\.']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="308" sy="79" loc="6;4">
+      <comment>
+        <![CDATA[Pull down list of records]]>
+      </comment>
+      <info sourcename="Recorder" id="a4ec68b4-1458-440d-8eb5-688c38276378">
+        <element role="button" prefcap="button" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="302,75,17,20">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[>]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/combobox/button[@text='>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Down" scancode="80" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Down" scancode="80" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Down" scancode="80" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Return" scancode="28" setModifiers="False">
+      <comment>
+        <![CDATA[Arrow down to aircraft]]>
+      </comment>
+    </keyitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="59" sy="291" loc="34;8">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="a6330e64-a748-4904-b382-e24ee15b1003">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="8" rect="25,283,232,16">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[8]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Mode 2 Code]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/list[@controlid='1023']/listitem[@text='Mode 2 Code']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="313" sy="398" loc="18;13">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="7a968f75-2799-439b-ace1-c92159be8fbd">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="295,385,44,28">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[->]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1042]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[1770900]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2740]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[->]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/button[@text='->']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="4485fba0-7129-40ac-82f8-32045d152520">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="371,203,222,16">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Mode 2 Code]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/list[@controlid='1022']/listitem[@text='Mode 2 Code']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Mode 2 Code]]>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="251" sy="715" loc="Center">
+      <comment>
+        <![CDATA[Apply]]>
+      </comment>
+      <info sourcename="Recorder" id="8b254764-ed8e-4c88-be1e-8102060448cf">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="201,705,100,28">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[11077002]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3232]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/button[@text='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="374" sy="716" loc="Center">
+      <comment>
+        <![CDATA[Close]]>
+      </comment>
+      <info sourcename="Recorder" id="cd4d843f-965d-4640-bd48-fb8605cb9344">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="329,705,100,28">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[2098562]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3232]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/button[@text='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Right" movetime="250ms" sx="54" sy="68" loc="7;4">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9614df3b-e875-4a6b-8cbb-3998bab59b7a">
+        <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="47,64,150,16">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="expanded" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATOSmall1.txt	TBONE			]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'C2 HOST.*']/element/container/container/text/tree/treeitem/treeitem[@text='ATOSmall1.txtTBONE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="85" sy="73" loc="36;7">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="7f8f6dce-715c-4f66-a732-e913753a0fe4">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="49,66,206,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Expand all]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Expand all]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010011:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Expand all']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="True">
+      <comment>
+        <![CDATA[verify that mode 2 is present]]>
+      </comment>
+      <info sourcename="Recorder" id="e54705f7-5aab-4b4b-aade-0461a5c1c84b">
+        <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="104,112,218,16">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="expanded" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[OTHAC:AP3C	BURSORI71	BEST	5470	]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'C2 HOST.*']/element/container/container/text/tree/treeitem/treeitem/treeitem[1]/treeitem/treeitem[@text~'^OTHAC:AP3CBURSORI71BEST']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[OTHAC:AP3C	BURSORI71	BEST	5470	]]>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="250ms" sx="388" sy="16" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="59f8b2c0-cf37-479f-91d5-9f2812401e57">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="377,5,16,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'C2 HOST.*']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="341" sy="38" loc="21;6">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="45cbf1b1-8751-4b3c-aae7-23400b5994f9">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="320,32,37,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Default']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='ATO']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="385" sy="105" loc="63;9">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="030484ac-ae81-4d5d-aa0f-4c9f482de01d">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="2" rect="322,96,207,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Configure Record Formats...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Configure Record Formats...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO']/contextmenu[1]/menuitem[@accessiblename~'^Configure\ Record\ Formats\.']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="633" sy="195" loc="7;13">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="a4ec68b4-1458-440d-8eb5-688c38276378">
+        <element role="button" prefcap="button" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="626,182,17,20">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[>]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/combobox/button[@text='>']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Down" scancode="80" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <keysequenceitem duration="125ms" sequence="{Down}{Down}" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Return" scancode="28" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="732" sy="317" loc="37;7">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="4485fba0-7129-40ac-82f8-32045d152520">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="695,310,222,16">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Mode 2 Code]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/list[@controlid='1022']/listitem[@text='Mode 2 Code']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="632" sy="547" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="bf992586-5ab8-46b6-ab46-731934c5b415">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="11" rect="619,530,44,28">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[<-]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1052]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[787830]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3548]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[<-]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/button[@text='<-']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="125ms" screenshotname="Screenshot1" screenshotguid="bd6bfd37-5fb6-4297-9322-d206be2e16b4" imagerect="0,0,226,486" imageoptions="1;None;0,0,226,486;True;10000000" action="CompareImage" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="48672a55-efb8-4e5d-85e9-dc59ae258234">
+        <element role="list" prefcap="list" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="695,262,226,486">
+          <attribute name="selecteditemindex" type="System.Int32">
+            <![CDATA[-1]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[ListBox]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1022]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[656938]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2644]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/list[@controlid='1022']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="581" sy="826" loc="56;14">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="8b254764-ed8e-4c88-be1e-8102060448cf">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="525,812,100,28">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[787958]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2644]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/button[@text='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="703" sy="827" loc="50;15">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="cd4d843f-965d-4640-bd48-fb8605cb9344">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="653,812,100,28">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[656974]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2644]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Record\ Format\ Configurati']/button[@text='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.8.10854" relativepath="..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

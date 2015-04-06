@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.4.9270" id="f31b9851-f081-4a7d-ba61-87fabed197d3">
+  <name>
+    ToggleC2HOST
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ToggleC2HOST" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="105" sy="763" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="a1f18eeb-18c7-4f68-846a-c48354bd589f">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/.//cell[@accessiblevalue='TOAD']/..//.//cell[@accessiblevalue='OFF']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="2000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="ae173c73-e9bc-465f-869c-3f7f2c6c8f1e">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/.//cell[@accessiblevalue='TOAD']/..//.//cell[@accessiblevalue='ON']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[ON]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryConfiguration" id="ef38cbe1-cb78-476a-bcf1-673e06711162" version="2.3.4.9270" relativepath="..\..\TacViewLibRepositoryConfiguration.rxrep">
+    <codegen classname="TacViewLibRepositoryConfiguration" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

@@ -1,0 +1,185 @@
+﻿<repository name="SytemMangerRegression" id="10b39a9e-d514-4af5-94c7-ed689dd41b7e" rxversion="3.1.1.14266">
+  <codegen classname="SytemMangerRegression" namespace="SystemManagerLib"/>
+  <rootfolder name="Root" id="32c1eeda-7dbe-44b6-925d-d69a6dcc751a" searchtimeout="30000ms" capname="unknown" isrooted="True" usecache="True">
+    <appfolder name="FormSystem_Manager___UNCLASS" id="71401020-ec9a-4e66-94de-44ea4e8d4ba6" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="TitleBarSystem_Manager___UNCLASS" id="434cc849-e5ed-461d-95df-9ca8773d7d43" searchtimeout="10000ms" capname="titlebar">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/titlebar[@accessiblevalue~'^System\ Manager\ -\ UNCLASSI']]]>
+      </item>
+      <item name="TDG_Check_Mark" id="7d4c5ae1-717f-452e-9e49-453d2bbc94b5" searchtimeout="10000ms" capname="picture">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='8']/element[@class='QWidget' and @instance='0']/picture[@accessiblerole='Graphic']]]>
+      </item>
+      <item name="TabPageSystem_Status" id="3dcd559b-146b-479e-aad4-13a39ed5d0e0" searchtimeout="10000ms" capname="tabpage">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/tabpagelist/tabpage[@accessiblename='System Status']]]>
+      </item>
+      <item name="TextEdit_Time_" id="986fc21c-30bf-4461-aa78-da56ba2bbdd8" searchtimeout="10000ms" capname="text">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/.//text[@accessiblename~'^<p\ align="right">Edit\ Tim']]]>
+      </item>
+      <item name="C2H_Check_Mark" id="bef85767-2ab7-4713-8a85-e5889a612e42" searchtimeout="10000ms" capname="picture">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='7']/element[@class='QWidget' and @instance='0']/picture[@accessiblerole='Graphic']]]>
+      </item>
+      <item name="ContainerHost_Link" id="bfe9b95d-44ea-4f9e-9e30-3ec429ee95dd" searchtimeout="10000ms" capname="container">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/container[@accessiblename='Host Link']]]>
+      </item>
+      <item name="RadioButtonOffTDG" id="0111a350-ed4a-4198-a3a9-951a10352bb0" searchtimeout="10000ms" capname="radiobutton">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='7']/radiobutton[@accessiblename='Off']]]>
+      </item>
+      <item name="RadioButtonOnTDG" id="f70e0a40-18c5-4f27-8334-e1551ab44cfc" searchtimeout="10000ms" capname="radiobutton">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='6']/radiobutton[@accessiblename='On']]]>
+      </item>
+      <item name="RadioButtonOffC2H" id="db3e6bbe-5cc8-4afd-a6ec-55f34bea292e" searchtimeout="10000ms" capname="radiobutton">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='10']/element[@class='QWidget' and @instance='4']/radiobutton[@accessiblename='Off']]]>
+      </item>
+      <item name="RadioButtonOnC2H" id="2f7e6fa9-1cce-4f0d-b1cd-e86c0349b9cd" searchtimeout="10000ms" capname="radiobutton">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='10']/element[@class='QWidget' and @instance='3']/radiobutton[@accessiblename='On']]]>
+      </item>
+      <item name="TextOPERATIONAL_TDG" id="a6da7c54-88ec-4736-8b27-d259568f42b0" searchtimeout="10000ms" capname="text">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='9']/text[@accessiblename='OPERATIONAL']]]>
+      </item>
+      <item name="TextOPERATIONAL_C2H" id="4780ce77-c991-4a5f-8a5a-338d2f7eeb93" searchtimeout="10000ms" capname="text">
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='10']/element[@class='QWidget' and @instance='6']/text[@accessiblename='OPERATIONAL']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA65JREFU
+OE89kv1PmwUQx5+BQvgTBo4NMZjxsumSzU0yIxC38DJEBPfO7CRMtIwKFIYbfaTQlpby0NICHRvr
+WC1doIAgUEaRl24Wt0kW3IvGmGkUfI0h/kLyLNkHy1y85HKX3N0nue/dhoiIiJqSU6dKHxP2zGMQ
+ntgGQVhbj2thQmTks0JkRLiwtrYmrK4+elIICxc2/PH78j8D/f1VgsfjkRVlWp7P0JCQVk98ukhs
+mpqYDDWpCgva3q9460w3u0P51lyRlNdOkpKcilitJi8vb1Hw+SbkLQnbSNi5n6RdB4jbU4LYWMGd
+21Y0Rh2tw3c4ph8gae9h3shVoGnq4FxzF5dGg1RV1ywL/qk5ed9JPTcCeq66a9iftof+vjru3rFi
+cnpxTi/gnL2NfWgKV+AbXPM/8Omth/QtPKRCXb0k+L8IyFmnLyLqavjrTxeD3jqM5nKCX7bS4TRg
+vWhEZ9NzJXAPd/AB7vn7IdB9OsbvU6aqWhKu+Wflrfk60nJVjI2IvLAxlr0ZeTR09XJvsY2Vv3sY
+GW2iyjqGQusluchOQmEXSYe7ef9D1ZIwNjYu2zvqGAs1ddrLiY+Op0Ql8pE0zISvkfzSWrIPFfOS
+4jK12o9pPy+yr9LFCekGSpV6SRgaGpUHQjvPByVuBpsprahE6pviRHklC7ck0vOP88tPDnSShsB1
+My63SIMniMEzSWV1SIOp6VlZ3WRB0+5FeVbDzz92sbhoY2bawG+/9vDZkIjeUIxoEjlQZsRk0+Cb
+aOKKu5EPlBVLwoR/Rk4sMLM5x8hxZQWrK250rSbahq9z6YpIq0WF328iIbOR5IM9ZCiMDI3Uo6gW
+KV0H+CZm5NjsJjZlGdhdoEZrPkez04nn5gOkwTlGP9dytU9ErRXZcVCPrasBlVhLkeWpBr5rM3Jc
+tp7NmSbicvTEhEC7FA4yVb0kH7GRkmdgU64O32gjA8ONmO0i396VOFJ34T8R1wEx2Q08FxqMztKz
+MctEdE4LW/IsvJirJynfQWLuJwwM1lOg1HDUMMmhagunLwYpr3oK2Pa2mTdrL/OesZ/yeicFirMk
+7swiKTGV7a8Xh27uJLN2iGMGf+h8sxw3z6G0B6iqObMsDHi9j7yB7+ie/BrR5edd0UVOcT2vZB4i
+9dV0dmx/mfR31BQZxzkaGlRYplFIc5wf/57CwsIHQlRUlF6n0604Oh2y1dbxv7fZO2SL1SZLkiRL
+LS2yta1dtto7ZWu7I/R4nbJSqVwSwsML/wVeMG+MCN7NIAAAAABJRU5ErkJggg==
+      </icon>
+    </appfolder>
+    <appfolder name="FormNetwork_Time_Configurati" id="fabdcc68-4149-414e-afb2-8115f11471af" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ButtonOpen" id="a07c5388-1d17-420e-a5ee-258b753fb449" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'^Network\ Time\ Configuratio']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='3']/combobox/button[@accessiblename='Open']]]>
+      </item>
+      <item name="ButtonOK" id="5f6f9c04-4368-41b7-8019-27391c51e2ed" searchtimeout="20000ms" capname="button">
+        <![CDATA[/form[@title~'^Network\ Time\ Configuratio']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/button[@accessiblename='OK']]]>
+      </item>
+      <item name="ComboBoxTime_Server" id="81fcbf48-a78a-4df3-9cd9-ac9f6e5b70a1" searchtimeout="10000ms" capname="combobox">
+        <![CDATA[/form[@title~'^Network\ Time\ Configuratio']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='3']/combobox[@accessiblename='Time Server']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'^Network\ Time\ Configuratio']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA85JREFU
+OE8lkltQ1HUYhn9qjVcx3VkzQBkHS5uccvJCVGpkUhjkoLCCLOflYCAGCHIQBBZhT7DK4gLLSRB2
+AaVsKKVsJiPAaHIMS1MUFgKccKY//jmJIj7tTBfvxfdePPN97/eueXPDhprNH+49JC+tE6svEGKd
+EGvXCrEqEK+Kp8LTxTGvf008+neNmF96Rawuz4qV+UfCaf3Ky5vDw6fEgYDgZfdtgWz0yuLdncd4
+f08mG/eU4h6gI7PMwuOZZibtjbS0lrN1lwJvn0j2fOJPZmo6AX7+oyI6OlF+7yNv3Nw20XY+h/Ky
+L3D19Gbb7kNoa5sZe1DLi8UOrvScJiOvHGvfMG1DD+gZWSA+4ciESMmqkH2TztBUlwHLnUyN1+Pn
+50NikpKLFzU8mW1netyC+qwe662/ueRQx2+T9I4+IU6VYBcpx7Xyvjg9tjY1zxZszM91MCu183zh
+AlMTdUxPWng210pjsxpNSw/6ruvozXoKjJcIDYuzixhVruzsW8lbXslER4WyPG/l7u1qqhqM5Bmb
+SckzYDDk81xupsJYgLGqiJlxEycKtPj6K+1CqTwub9yRgIvHVsJC9rGy2I6mQkNQWhPOgUbeCDaz
+I9JEZ5eO1cU2Rx5WXi7Z6L1Wx/7gcLsI8D8gu7pu4h23zZhNGdy/W8fpxm72JZnZpTSRVvE9ht5R
+jA1m5qUWRu7VcGe4it6rOkJCFXaRqFLKV3vU/HTdxMRYIwP9Rqq6f8A2NErn0Bg6Wz9HK65QetbE
+0mw9J06pOXysBmVaAwdDHCekfp4oL8xZHat3wJKVmekGNKZzNPU9pPvWBJWX/2DrQT1nzhQxPlLN
+7lAdLiFtbInoIvhgjF2EhR+RB/tN/DNlobT0BPf+rOHXgUo0ZiPGrm8wWL+m3FDC7OMmrn2nwyuo
+EI+IVsIrBlAo4x0AZbYcEZtJUHg2rrsLOBSVzsM7ZqbsdQzdMDHy1zleztXzdN7GwpyNof5K0vOL
+iav+5X9AVGy27OpTiouPFmdfDW/vLEGjyYWnNkcPmrnQoiP56EnM5hLHF6wOvwW13gE4d4PwSJVd
+REbnyC579XgElrM90kx4fCH2h7WsLHRw4Xwhnt7pvL7/PIGxau7/rqOyugRF0WVSGm4SFZs4LlJS
+i59lVfeh+fJnyr4apERTzIO7NY5QbVhbs9jywafsiG5Aof2RuBwtYeXfEmYcJK3+NiGKCLtwd3Oz
+6aosUmlVvZSQrZUikoulqPijUkZ6kpQYr5C8tn8sfeZ7QIo9bpBici2S6qRJUuVVS6nZZZKTk1P+
+f9xTiquvMJ+XAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormSm" id="08b5f9c3-9610-44df-af57-5c1e9226c85b" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ListItemC2_Host" id="67908305-465f-4675-9795-cd819b6e71e7" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title='sm']/element/element[@class='QWidget' and @instance='0']/list/listitem[@accessiblename='C2 Host']/listitem[@accessiblename='C2 Host']]]>
+      </item>
+      <item name="ListItemTactical_Data_Link_Gatew" id="194f39d0-d965-44ab-bddc-018b6367137e" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title='sm']/element/element[@class='QWidget' and @instance='0']/list/listitem[@accessiblename~'^Tactical\ Data\ Link\ Gatewa']/listitem[@accessiblename~'^Tactical\ Data\ Link\ Gatewa']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='sm']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA85JREFU
+OE8lkltQ1HUYhn9qjVcx3VkzQBkHS5uccvJCVGpkUhjkoLCCLOflYCAGCHIQBBZhT7DK4gLLSRB2
+AaVsKKVsJiPAaHIMS1MUFgKccKY//jmJIj7tTBfvxfdePPN97/eueXPDhprNH+49JC+tE6svEGKd
+EGvXCrEqEK+Kp8LTxTGvf008+neNmF96Rawuz4qV+UfCaf3Ky5vDw6fEgYDgZfdtgWz0yuLdncd4
+f08mG/eU4h6gI7PMwuOZZibtjbS0lrN1lwJvn0j2fOJPZmo6AX7+oyI6OlF+7yNv3Nw20XY+h/Ky
+L3D19Gbb7kNoa5sZe1DLi8UOrvScJiOvHGvfMG1DD+gZWSA+4ciESMmqkH2TztBUlwHLnUyN1+Pn
+50NikpKLFzU8mW1netyC+qwe662/ueRQx2+T9I4+IU6VYBcpx7Xyvjg9tjY1zxZszM91MCu183zh
+AlMTdUxPWng210pjsxpNSw/6ruvozXoKjJcIDYuzixhVruzsW8lbXslER4WyPG/l7u1qqhqM5Bmb
+SckzYDDk81xupsJYgLGqiJlxEycKtPj6K+1CqTwub9yRgIvHVsJC9rGy2I6mQkNQWhPOgUbeCDaz
+I9JEZ5eO1cU2Rx5WXi7Z6L1Wx/7gcLsI8D8gu7pu4h23zZhNGdy/W8fpxm72JZnZpTSRVvE9ht5R
+jA1m5qUWRu7VcGe4it6rOkJCFXaRqFLKV3vU/HTdxMRYIwP9Rqq6f8A2NErn0Bg6Wz9HK65QetbE
+0mw9J06pOXysBmVaAwdDHCekfp4oL8xZHat3wJKVmekGNKZzNPU9pPvWBJWX/2DrQT1nzhQxPlLN
+7lAdLiFtbInoIvhgjF2EhR+RB/tN/DNlobT0BPf+rOHXgUo0ZiPGrm8wWL+m3FDC7OMmrn2nwyuo
+EI+IVsIrBlAo4x0AZbYcEZtJUHg2rrsLOBSVzsM7ZqbsdQzdMDHy1zleztXzdN7GwpyNof5K0vOL
+iav+5X9AVGy27OpTiouPFmdfDW/vLEGjyYWnNkcPmrnQoiP56EnM5hLHF6wOvwW13gE4d4PwSJVd
+REbnyC579XgElrM90kx4fCH2h7WsLHRw4Xwhnt7pvL7/PIGxau7/rqOyugRF0WVSGm4SFZs4LlJS
+i59lVfeh+fJnyr4apERTzIO7NY5QbVhbs9jywafsiG5Aof2RuBwtYeXfEmYcJK3+NiGKCLtwd3Oz
+6aosUmlVvZSQrZUikoulqPijUkZ6kpQYr5C8tn8sfeZ7QIo9bpBici2S6qRJUuVVS6nZZZKTk1P+
+f9xTiquvMJ+XAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormComplete" id="7ae207a7-78f7-478b-8b75-e76cd3a5872c" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ButtonOK" id="9ea17a80-0505-40c7-80d8-0a00de3be084" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Complete']/element[@class='QWidget' and @instance='1']/element/button[@accessiblename='OK']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Complete']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA85JREFU
+OE8lkltQ1HUYhn9qjVcx3VkzQBkHS5uccvJCVGpkUhjkoLCCLOflYCAGCHIQBBZhT7DK4gLLSRB2
+AaVsKKVsJiPAaHIMS1MUFgKccKY//jmJIj7tTBfvxfdePPN97/eueXPDhprNH+49JC+tE6svEGKd
+EGvXCrEqEK+Kp8LTxTGvf008+neNmF96Rawuz4qV+UfCaf3Ky5vDw6fEgYDgZfdtgWz0yuLdncd4
+f08mG/eU4h6gI7PMwuOZZibtjbS0lrN1lwJvn0j2fOJPZmo6AX7+oyI6OlF+7yNv3Nw20XY+h/Ky
+L3D19Gbb7kNoa5sZe1DLi8UOrvScJiOvHGvfMG1DD+gZWSA+4ciESMmqkH2TztBUlwHLnUyN1+Pn
+50NikpKLFzU8mW1netyC+qwe662/ueRQx2+T9I4+IU6VYBcpx7Xyvjg9tjY1zxZszM91MCu183zh
+AlMTdUxPWng210pjsxpNSw/6ruvozXoKjJcIDYuzixhVruzsW8lbXslER4WyPG/l7u1qqhqM5Bmb
+SckzYDDk81xupsJYgLGqiJlxEycKtPj6K+1CqTwub9yRgIvHVsJC9rGy2I6mQkNQWhPOgUbeCDaz
+I9JEZ5eO1cU2Rx5WXi7Z6L1Wx/7gcLsI8D8gu7pu4h23zZhNGdy/W8fpxm72JZnZpTSRVvE9ht5R
+jA1m5qUWRu7VcGe4it6rOkJCFXaRqFLKV3vU/HTdxMRYIwP9Rqq6f8A2NErn0Bg6Wz9HK65QetbE
+0mw9J06pOXysBmVaAwdDHCekfp4oL8xZHat3wJKVmekGNKZzNPU9pPvWBJWX/2DrQT1nzhQxPlLN
+7lAdLiFtbInoIvhgjF2EhR+RB/tN/DNlobT0BPf+rOHXgUo0ZiPGrm8wWL+m3FDC7OMmrn2nwyuo
+EI+IVsIrBlAo4x0AZbYcEZtJUHg2rrsLOBSVzsM7ZqbsdQzdMDHy1zleztXzdN7GwpyNof5K0vOL
+iav+5X9AVGy27OpTiouPFmdfDW/vLEGjyYWnNkcPmrnQoiP56EnM5hLHF6wOvwW13gE4d4PwSJVd
+REbnyC579XgElrM90kx4fCH2h7WsLHRw4Xwhnt7pvL7/PIGxau7/rqOyugRF0WVSGm4SFZs4LlJS
+i59lVfeh+fJnyr4apERTzIO7NY5QbVhbs9jywafsiG5Aof2RuBwtYeXfEmYcJK3+NiGKCLtwd3Oz
+6aosUmlVvZSQrZUikoulqPijUkZ6kpQYr5C8tn8sfeZ7QIo9bpBici2S6qRJUuVVS6nZZZKTk1P+
+f9xTiquvMJ+XAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="MenuBarExplorer" id="4e9d0555-d821-4b46-a3bd-b0ed95ade5f5" searchtimeout="30000ms" capname="menubar" isrooted="True" usecache="True">
+      <item name="ButtonSystem_Manager___UNCLASS" id="877e5bf6-be5a-4b06-8c20-be9e56a978f1" searchtimeout="10000ms" capname="button">
+        <![CDATA[/menubar[@processname='explorer']/form/container/toolbar/button[@text~'^System\ Manager\ -\ UNCLASSI']]]>
+      </item>
+      <basepath>
+        <![CDATA[/menubar[@processname='explorer']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAALBJREFUOE9j/P//PwNFAGQAJZgizWDXr1899z8lmOHE0a3/v3x6RhC/
+eXnjPzoG6QO7oK4qG0MSpPjp4ytYxWEGvX55/z/YBTCBqRMawIaBcWX2/56OSuxyQPkVS6aA5VBc
+0NJQhDAAqKihOuf/y2cQV6DLwQxnOHNyJ15nYvM7shjcBR/fP/gPwuga3r6+g9MCcBiAXEBMLOBS
+A3cBPPBggUgkTXlKpCQfgJPygBsAABEv9phGO1VMAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <basepath>
+    </basepath>
+  </rootfolder>
+  <variables/>
+</repository>

@@ -1,0 +1,640 @@
+﻿<repository name="TacViewLibWeapons" id="bfc9688c-dbe5-4c08-86ad-3958372835d9" rxversion="3.1.1.14266">
+  <codegen classname="TacViewLibWeapons" namespace="TacViewLib"/>
+  <rootfolder name="Root" id="822f3cb0-5714-43eb-b9ef-e79fa8097c14" searchtimeout="30000ms" capname="unknown" isrooted="True" usecache="True">
+    <appfolder name="FormTacViewC2" id="869c97e7-e30c-48d5-a027-1a79bd007738" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ContainerRvView" id="295a209e-94b1-491f-a011-7a801883d883" searchtimeout="10000ms" capname="container">
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']/.//container[@accessiblename='RvView']]]>
+      </item>
+      <item name="PictureTrack" id="858ad748-12ab-49c7-a061-2fc8b6f1a51d" searchtimeout="10000ms" capname="picture">
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']/element/container/picture[@accessiblename=$tracknumber and @accessiblevalue='Track']]]>
+      </item>
+      <item name="ButtonZoom_Out_Max" id="571d1bd9-3527-4ab3-81e7-9641d2f58813" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']/element/element/toolbar[1]/button[@accessiblename='Zoom Out Max']]]>
+      </item>
+      <item name="Button_Center_on_Own_Site" id="685d936a-c5a9-40b5-b9aa-28891c8499f9" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']/element/element/toolbar[1]/button[@accessiblename=' Center on Own Site']]]>
+      </item>
+      <item name="ButtonSet_Range_to_500_km" id="bd0cdd64-e0d7-4353-a615-153bbd392352" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']/element/element/toolbar[1]/button[@accessiblename='Set Range to 500 km']]]>
+      </item>
+      <item name="PictureAssociate" id="0be3a88e-df05-4f47-81b7-622da0fac08a" searchtimeout="30000ms" capname="picture" addcaps="picture,accessible">
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']/element/container/picture[@accessiblename='Associate' and @accessiblerole='Graphic']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \.*']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdBJREFU
+OE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBsoRFqRISLQFpEghhEaQhWiKhEgUmk
+EmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrlHuhPUggOfT4KBI8pnU4TVqGY412t
+VishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggALLbpspDHY6Btl4l2dkf4fWy4/XcA
+RGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3dLyHQgcMX57RM0js0hEAQOAj21I3
+u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxccMXlACTlLuAHPV2zL7B9UQe5GAUE
+6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wdhUPgGRkBQP9Rh1WrXgq4lgDoO+YA
+Ip2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbmOyWAd8tGr2/VgYMDaZTPwucMQObJ
+CQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa4qaBfp95pEqlzHS4Sl3fUr74wu81
+Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="ListRealView" id="e6f4f87d-53e9-41d3-b2c4-2887d40d7829" searchtimeout="30000ms" capname="list" isrooted="True" usecache="True">
+      <basepath>
+        <![CDATA[/list[@processname='RealView']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAALBJREFUOE9j/P//PwNFYM/Rq/+3Hbj4f+Pu80Cz/jPAMC5xkDyyeobN
+ey+ANP439UwGY5gB+MRBthw4cACsnmHVtlNgA2CGwAzAL84AdirYgMXrj8JtR3YBLnGQBciuhfsZ
+2f+ksBkaJ676X9Q873961VQwhmkmVpxyF5DiXGxqwS4gNR0gGwROB8jxSigdoLsCmg4Q8UooHWAY
+gB6vMAX40gGKFygORGLjG5dFFKcDAD1FujzeXNvhAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormTracks" id="709eae15-d818-40e1-bf53-8fffc9fcb44b" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemC2_HOST_2_Track" id="2285c4fc-fbf3-48bd-9212-7825e5ecc762" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='Tracks']/contextmenu[1]/menuitem[@accessiblename='C2 HOST 2 Track#'+$tracknum]]]>
+      </item>
+      <item name="MenuItemC2_HOST_Track" id="310e6d2e-adea-4011-b72c-fcc1a236b495" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='Tracks']/contextmenu[1]/menuitem[@accessiblename='C2 HOST Track#'+$tracknum]]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Tracks']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormCreate_Track" id="75e03a60-de44-47fe-9abf-4414e5486e00" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemTOAD" id="1296117f-dc40-4260-9fa3-d65acd6aa78d" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST.*' or @accessiblename~'TOAD.*']]]>
+      </item>
+      <item name="MenuItemTOAD2" id="2c898eca-33b6-4597-8473-b178e95cadae" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST 2.*' or @accessiblename~'TOAD2.*']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Create Track']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormRealView" id="eafd4624-994b-4ca3-8997-b3e534b22752" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemCreate_Track" id="b5621217-840f-403b-9eeb-5241411bd67d" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+      </item>
+      <item name="MenuItemTOAD2" id="050c4500-d2ef-45c7-84dd-a3ce3dcfa135" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST 2|TOAD 2']]]>
+      </item>
+      <item name="MenuItemTOAD" id="edfc4128-5d74-43ad-97fd-1e96b80747de" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'C2 HOST|TOAD']]]>
+      </item>
+      <item name="MenuItemDrop_Track" id="1a1ef495-35fd-45f8-9e49-b15bb41f4464" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Drop Track']]]>
+      </item>
+      <item name="MenuItemTracks" id="fceb6506-2e2c-414f-a795-852d917f319e" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Tracks']]]>
+      </item>
+      <item name="MenuItemTrackNums" id="4756053d-539a-4ecd-ab2d-666106d055ba" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename~'Track#.*']]]>
+      </item>
+      <item name="MenuItemCenter_On_Track" id="2f54d475-f1b4-4fc9-b0ba-aca67ac5c28a" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Center On Track']]]>
+      </item>
+      <item name="MenuItemTrackNumber2" id="1b08b549-4d9c-46c3-84e6-ac26f81b75b0" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='C2 HOST 2 Track#'+$tracknumber or @accessiblename='TOAD 2 Track#'+$tracknumber]]]>
+      </item>
+      <item name="MenuItemTrackNumber" id="94ee4de4-817e-44c4-a659-16506d53e92b" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='C2 HOST Track#'+$tracknumber or @accessiblename='TOAD Track#'+$tracknumber]]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000' or @class='Afx:00400000:808:00010003:00000000:00000000']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormMainCreate" id="9ec9aef3-f9bb-4f9d-a33f-8e8818c6dd3d" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ListItemIdentity_Confidence__Dis" id="1c9d252b-2d8f-48b7-b84d-c070f572cded" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'^Identity\ Confidence\ \(Disu']]]>
+      </item>
+      <item name="ListItemRange_From_OwnSite__mile" id="c5586129-4107-4796-a7b4-5f6c74adbd1d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'^Range\ From\ OwnSite\ \(miles']]]>
+      </item>
+      <item name="ListItemVoice_Frequency_Channel_" id="3a707cba-dec9-42b5-9c0f-6c4635e275e3" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'^Voice/Frequency\ Channel\ S']]]>
+      </item>
+      <item name="ListItemActivity" id="ca51b3de-11c1-421f-963a-30c1b5cd06d2" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Activity']]]>
+      </item>
+      <item name="ListItemAlert" id="e6d45ef8-00b8-49ee-a371-8e2e7187ffa3" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Alert']]]>
+      </item>
+      <item name="ListItemAltitude" id="3e15b571-cd71-4b97-89f7-42acf01411cb" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'Altitude.*']]]>
+      </item>
+      <item name="ListItemAltitude_Source" id="96de8f82-fede-49e5-8c80-4b0be5847ea8" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Altitude Source']]]>
+      </item>
+      <item name="ListItemATDL1_TN" id="0cc2eed4-083d-4812-9c2b-b3c6cf8b9279" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='ATDL1 TN']]]>
+      </item>
+      <item name="ListItemATO_Call_Sign" id="8e822ea7-7782-4d47-b6d0-d4cf4a011cd6" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='ATO Call Sign']]]>
+      </item>
+      <item name="ListItemBasic_Track_Info" id="bc10b11b-6333-4467-8b00-4d063ae11e52" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Basic Track Info']]]>
+      </item>
+      <item name="ListItemBearing_From_OwnSite__T_" id="b56dc33e-0d78-4f83-94fc-306b97fd93a0" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element/listitem[@accessiblename='Bearing From OwnSite (T)']]]>
+      </item>
+      <item name="ListItemCallsign_Published" id="629bb059-f45d-4fa1-89e9-d268fc8b2340" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Callsign Published']]]>
+      </item>
+      <item name="ListItemControl_Channel" id="badfd0bc-83da-4117-ab76-1e5d63d4a902" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Control Channel']]]>
+      </item>
+      <item name="ListItemControlling_Unit" id="ace5ed0a-5fc6-43f3-be9a-aab3028d4112" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Controlling Unit']]]>
+      </item>
+      <item name="ListItemDVT_Time" id="d6d8fd29-6aa7-4ec0-b3d6-53f7f17599dd" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='DVT Time']]]>
+      </item>
+      <item name="ListItemExercise_Indicator" id="bd7256d9-41ed-488c-893a-ac4c944043f3" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Exercise Indicator']]]>
+      </item>
+      <item name="ListItemExternal_TN" id="c2490383-db38-4ef2-ba34-3fcb4208844c" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='External TN']]]>
+      </item>
+      <item name="ListItemHigh_Interest" id="20a8939b-c68b-40eb-8164-b6fa8c7f806d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='High Interest']]]>
+      </item>
+      <item name="ListItemHi_Priority" id="4045542f-637b-446b-ba72-569171edea0c" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Hi-Priority']]]>
+      </item>
+      <item name="ListItemHour" id="41399c79-60a6-48a7-8199-ebbfd85a972d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Hour']]]>
+      </item>
+      <item name="ListItemIdentity" id="8918e3d5-0962-4bf9-b30e-fdc7e30bc415" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Identity']]]>
+      </item>
+      <item name="ListItemIDL_TN" id="e5aa66bf-b778-4da1-ae14-ef071a61edc1" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='IDL TN']]]>
+      </item>
+      <item name="ListItemIndicators" id="754204b9-5af8-45e4-a4be-1d2d73bad03b" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Indicators']]]>
+      </item>
+      <item name="ListItemLatitude" id="949e89a2-306e-4624-b0ff-e9030aeb384f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Latitude']]]>
+      </item>
+      <item name="ListItemLocal_TQ" id="d3b3619d-dc18-4759-be72-bcf6433b4525" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Local TQ']]]>
+      </item>
+      <item name="ListItemLongitude" id="48b516b7-886f-4b45-ade4-dce0bb3984df" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element/listitem[@accessiblename='Longitude']]]>
+      </item>
+      <item name="ListItemMagnetic_Course" id="ebcf62bb-6fc4-4f7a-982b-4a773477b663" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Magnetic Course']]]>
+      </item>
+      <item name="ListItemMGRS" id="ec2c5098-42f7-4b0e-bce6-b4dc58c7faa3" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='MGRS']]]>
+      </item>
+      <item name="ListItemMinute" id="5ec0e042-2ab5-418f-82f2-03bc7e7bc400" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Minute']]]>
+      </item>
+      <item name="ListItemMode_1_Code" id="92503064-b3d0-47bc-bb67-185da1af431d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 1 Code']]]>
+      </item>
+      <item name="ListItemMode_2_Code" id="38ac153d-ebf7-4046-9bd5-1943ab6742ca" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 2 Code']]]>
+      </item>
+      <item name="ListItemMode_3_Code" id="83fe0a77-c01b-4b85-8122-5f70c9204dc7" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 3 Code']]]>
+      </item>
+      <item name="ListItemMode_4_Indicator" id="2d4089f5-55de-450a-bb18-826659d8aca0" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 4 Indicator']]]>
+      </item>
+      <item name="ListItemMode_5_Indicator" id="c273c4e2-229d-4a30-a908-9a74e482645f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 5 Indicator']]]>
+      </item>
+      <item name="ListItemMode_5_Nationality" id="42405d58-f44d-4e41-a68b-2de6f19b636e" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 5 Nationality']]]>
+      </item>
+      <item name="ListItemMode_5_Platform_ID" id="c93c6fdc-cf1b-4efb-963d-b8a696c15d6b" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Mode 5 Platform ID']]]>
+      </item>
+      <item name="ListItemMode_Codes_Special_Codes" id="2a96c247-9441-4b68-91b5-3e57b474b852" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'Mode Codes.*']]]>
+      </item>
+      <item name="ListItemNL1_TN" id="6e74e593-f8ce-48b4-84a3-b5381b91832b" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='NL1 TN']]]>
+      </item>
+      <item name="ListItemPassive_Active_Ind" id="dabe4045-dc11-48d5-9def-bdd44fbb056a" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Passive/Active Ind']]]>
+      </item>
+      <item name="ListItemPlatform" id="3aeb8771-e579-4677-8f50-f3e7c99d0a12" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Platform']]]>
+      </item>
+      <item name="ListItemPPLI_IFF_SIF_Ind" id="e5e04551-21c9-424d-a70c-c77cab6bdd9e" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='PPLI IFF/SIF Ind']]]>
+      </item>
+      <item name="ListItemPPLI_TN_and_ID_Ind" id="3e2bf84d-d46e-4593-ba3f-5056c781c61f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='PPLI TN and ID Ind']]]>
+      </item>
+      <item name="ListItemRadio_Type" id="e66bf95c-9497-491d-95e9-1bbfe77c65f3" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Radio Type']]]>
+      </item>
+      <item name="ListItemRemote_TQ" id="45a65ea4-db31-4ef8-8072-97cd59958048" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Remote TQ']]]>
+      </item>
+      <item name="ListItemReport_Time" id="a9599fb4-063f-4bb6-aa2e-4463372544bf" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Report Time']]]>
+      </item>
+      <item name="ListItemReporting_Unit" id="03e15948-1ea8-4413-a868-938b42971c79" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Reporting Unit']]]>
+      </item>
+      <item name="ListItemSecure_Radio_Indicator" id="b39273f6-4e68-4440-9f9d-5f176ac3fb09" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Secure Radio Indicator']]]>
+      </item>
+      <item name="ListItemSimulation_Indicator" id="c3f1dd45-4b5a-4563-9315-b42baeac5436" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Simulation Indicator']]]>
+      </item>
+      <item name="ListItemSource_Interface" id="482ad6ba-f019-4fa3-af3b-cc4472fe2bb6" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Source Interface']]]>
+      </item>
+      <item name="ListItemSource_Type" id="fa6c6027-49b7-467d-bfe2-15ec4e52bc1a" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Source Type']]]>
+      </item>
+      <item name="ListItemSpecial_Code_2" id="be09a3fe-a3cc-456e-a6b6-3dac702b2f6e" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Special Code 2']]]>
+      </item>
+      <item name="ListItemSpecial_Interest" id="95cfdf91-8c61-4e0c-99ca-5564f2da344d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Special Interest']]]>
+      </item>
+      <item name="ListItemSpecific_Type" id="85ed920b-ff3d-4ac9-8618-fe58c30c0bd5" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Specific Type']]]>
+      </item>
+      <item name="ListItemSPI" id="4183ea9f-6089-4788-8fd5-15a29b53e4bd" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='SPI']]]>
+      </item>
+      <item name="ListItemSquawk_Flash_Indicator" id="cc1ea802-a72f-4d2f-8925-d013b234847c" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Squawk Flash Indicator']]]>
+      </item>
+      <item name="ListItemTADIL_J_TN" id="5bf37e5e-3f32-47a8-993d-14aed0526fb9" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='TADIL J TN']]]>
+      </item>
+      <item name="ListItemTADIL_TN" id="9ea159da-75ef-4d84-a5c9-a8ab8e4ac99b" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='TADIL TN']]]>
+      </item>
+      <item name="ListItemTime" id="0b757ae0-9a0a-4118-8c4f-438ec58a3736" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Time']]]>
+      </item>
+      <item name="ListItemTrack_Number" id="6c01fa81-5523-4dcb-b00e-4808480bf0ac" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Track Number']]]>
+      </item>
+      <item name="ListItemTrack_Type" id="b51c2685-817c-43b0-addd-55d7d7e3062e" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Track Type']]]>
+      </item>
+      <item name="ListItemTrue_Course" id="c8877626-ca7c-4146-bc64-8f5d877ff974" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='True Course']]]>
+      </item>
+      <item name="ListItemSpeedVelocity" id="553537b4-e4a7-4ede-94dd-32114a6ace72" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'Speed \(.*' or @accessiblename~'Velocity \(.*']]]>
+      </item>
+      <item name="ListItemVoice_Call_Sign" id="72d507f2-616a-4bf0-ab87-0dd91903521f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Voice Call Sign']]]>
+      </item>
+      <item name="ListItemVoice_Control_Info" id="6616f077-bbad-4584-80a9-209321e6a2b2" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Voice Control Info']]]>
+      </item>
+      <item name="ListItemVoice_Frequency_Channel" id="eda85c36-7db9-4afb-a691-f90e3ad6b02d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Voice/Frequency Channel']]]>
+      </item>
+      <item name="ButtonSave" id="4ec989db-421e-4231-a2e8-18c6ce35dd43" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'Main*']/element//toolbar[1]/button[@accessiblename='Save']]]>
+      </item>
+      <item name="ListItemStrength" id="f272af25-25bf-4019-8c8a-2bd2cff9853a" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Strength']]]>
+      </item>
+      <item name="ListItemPosition_and_SpeedVelocity" id="83e0568d-b51c-4c17-88f5-3d90abbebd29" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Position and Velocity' or @accessiblename='Position and Speed']]]>
+      </item>
+      <item name="ListItemInterface_Info" id="0a4417d9-8cba-45bf-bb89-5eec5263a4ea" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Interface Info']]]>
+      </item>
+      <item name="ListItemSAM_SSM_Type_1" id="01a1862b-acef-483a-a0d5-0ca742966775" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='SAM/SSM Type 1']]]>
+      </item>
+      <item name="ListItemSAM_SSM_Type_2" id="969c0ef6-23f9-45e2-a9bf-d8cab61b840a" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='SAM/SSM Type 2']]]>
+      </item>
+      <item name="ListItemSAM_SSM_Type_3" id="ad82d666-be3b-45bb-bf0e-b4d8e251523e" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='SAM/SSM Type 3']]]>
+      </item>
+      <item name="ListItemOther_TNs" id="0385218b-329b-47de-ac37-027a02ea707a" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Other TNs']]]>
+      </item>
+      <item name="ListItemSAM_SSM" id="8a2015ed-cf36-4cf2-9a76-f21792fd4dba" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='SAM/SSM']]]>
+      </item>
+      <item name="ListItemDepth__feet_" id="ef592331-20ac-49b8-9ac8-c7ad79b0f374" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Depth (ft)' or @accessiblename='Depth (m)']]]>
+      </item>
+      <item name="ListItemDepth_Contact" id="a017adb6-e612-4702-9618-b768b8c11d43" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Depth Contact']]]>
+      </item>
+      <item name="ListItemConfidence_Level" id="31ef960a-56c9-46c3-b520-011a6c078836" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Confidence Level']]]>
+      </item>
+      <item name="ListItemSubsurface_Info" id="69c5fb32-391b-4933-8f04-b320c0f5bd19" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Subsurface Info']]]>
+      </item>
+      <item name="ListItemSubsurface_Sensor" id="75061f8c-2c13-4c0e-935e-1adfd04c213a" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Subsurface Sensor']]]>
+      </item>
+      <item name="ListItemAcoustic_Characteristic" id="7f8006c8-2419-4309-b63b-1ec675321e68" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Acoustic Characteristic']]]>
+      </item>
+      <item name="ListItemASW_Info_J3_4_" id="9c550568-2b7d-4e4c-afec-cf08ab9962fc" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='ASW Info(J3.4)']]]>
+      </item>
+      <item name="ListItemLaunch_Capability" id="c0c0c4f5-3d30-4390-95da-471ef98e5f72" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Launch Capability']]]>
+      </item>
+      <item name="ListItemReport_Type" id="9a5e4caa-fef4-4831-8cff-547749346e48" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Report Type']]]>
+      </item>
+      <item name="ListItemTime_Function" id="04d25f0c-ce79-453b-9665-65da45b7694f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Time Function']]]>
+      </item>
+      <item name="ListItemDatum_Error" id="16d2c320-225b-4a9d-a29a-43d0d6b648ac" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Datum Error']]]>
+      </item>
+      <item name="ListItemLand_Info" id="d8fc9081-ff1b-4f64-aa08-d3da86a9eadd" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Land Info']]]>
+      </item>
+      <item name="ListItemAOP_Info" id="845f3136-2e88-460e-b292-35d69f055abc" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='AOP Info']]]>
+      </item>
+      <item name="ListItemASW_Info_J3_4" id="52add2be-18bc-4c73-866e-aace90d86b17" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='ASW Info(J3.4)']]]>
+      </item>
+      <item name="ListItemBearing_Accuracy" id="fc957a5d-ef11-4d0c-8b06-84d4f108d030" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Bearing Accuracy']]]>
+      </item>
+      <item name="ListItemRelatedTrackInfo" id="a620db8e-c3b5-4065-b682-7377ff28c51f" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Related Track Info']]]>
+      </item>
+      <item name="ListItemSonobuoy_Info" id="c907e7e1-0693-473d-ae47-1ee5a0b10cd0" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Sonobuoy Info']]]>
+      </item>
+      <item name="ListItemPosition_Relative_To_Bul" id="40374410-603a-45ce-b84e-74916ecfaaf1" searchtimeout="30000ms" capname="listitem" addcaps="accessible">
+        <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename~'^Position\ Relative\ To\ Bull']]]>
+      </item>
+      <item name="ButtonCLOSE" id="0e58a0a7-148a-433c-baa1-e4b4659ec473" searchtimeout="30000ms" capname="button" addcaps="button,accessible">
+        <![CDATA[/form[@title~'Main*']/button[@accessiblename='CLOSE']]]>
+      </item>
+      <item name="TabPageAssociations" id="6fbf7f23-2594-4389-bd3c-d657e2a978ab" searchtimeout="30000ms" capname="tabpage" addcaps="tabpage,accessible">
+        <![CDATA[/form[@title~'Main*']/element/tabpagelist/tabpage[@accessiblename~'^Associations.*']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'Main*']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFU
+OE+Vk6Frw1AQxvMvVdZGRtbtwUQJVWVilIoRZkaYqipRZVQMYgqd60QhqpCJQSoKmRik8smIicrb
+fZdcmqwT24PjdSz3u+++u+c4/zzZPqOnZUzWWvpTKhI2L2tKtgkVx4JwytLKzYAu5PR1ovyQU4bg
+xLIs5UMkxqtAIngYSzQAfISwtiQAcETmYsJSDd8+xc++/D0eub8DkDS5dcm/6dPgusfhUjT3JBmB
+iu3kjgKtKolXDBgqwAgo3a0FHt4ZAendtAAAQj569ERFtBiQAYwjOyRy43/a/4UCeBDNjciOlp60
+AcDmdSaA4jMTx9sAFNUpyExn81Dkqw/tZBgI0GYbNZAT+11DHAejw6zVBySgGtpCdW2vo4ABUC7L
+BED6ntbVXTEPSlARAMwfPszYSA2obgCYO/YASWbIAQPZB59bClhFO1F/5/v0vM4A4JhRPUpWEEz7
+skjhvdcA4kXIfVcLV7+FqoX0La0AXHnCKoJpT0YJ6dYW9aZaNU3dP7+DZFcB1DTsPnxp352KP58h
+XprIOuLxVPOFqvyjIFs5fVm1hnwDecVPs7tMOU0AAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormTOAD" id="cceb8db2-d1ed-4593-8e52-53135c25d425" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemAir" id="58399261-9cbc-457c-9256-b68f89fe95cc" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Air']]]>
+      </item>
+      <item name="MenuItemDrop_Track" id="d41bdafb-d5bd-4f07-85b0-d56c2b2c0702" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Drop Track']]]>
+      </item>
+      <item name="MenuItemReference_Point" id="5613adc7-4f9e-4f4e-9c09-b2bbd4d25bbb" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Reference Point']]]>
+      </item>
+      <item name="MenuItemLand_Point_Track" id="7c3205c2-c218-47a1-9855-42e477065a76" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Land Point/Track']]]>
+      </item>
+      <item name="MenuItemSpace" id="4a477653-a3ab-477b-bde0-142356913ca3" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Space']]]>
+      </item>
+      <item name="MenuItemSurface" id="a4aef1e1-40e3-4517-9876-f68d81192f11" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Surface']]]>
+      </item>
+      <item name="MenuItemEW" id="ec976ada-9d64-46f6-87f1-1c043dc8eb6e" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='EW']]]>
+      </item>
+      <item name="MenuItemSubSurface" id="f87a5b1b-d0ab-4b62-b184-8cafba54dece" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu/menuitem[@accessiblename='SubSurface']]]>
+      </item>
+      <item name="MenuItemCenter_On_Track" id="8394ef43-5127-449a-9e42-af4e4c815d8a" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Center On Track']]]>
+      </item>
+      <item name="MenuItemWeapons" id="a5e6aa2a-300e-42a4-a0f7-9ac69f5ffb4e" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Weapons']]]>
+      </item>
+      <item name="MenuItemTrack_Properties" id="8a95a01c-2943-4d18-bbae-3409f22bf500" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST|TOAD']/contextmenu[1]/menuitem[@accessiblename='Track Properties']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'C2 HOST|TOAD']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA2pJREFUOE+Fk11Mm3UUxl+89NJ4ofFqd3oDbAUJOJYNjMhQtwznOmzp
+Cq7AiswZsgVaWsYkfMjYZLBZGCBkw3WDIerCHB8zrShfhTEofQvtBmtLoZQPQa6W+POlJMbohSc5
+d//nl/95znnChP8p4EW32/2GKIqC8Py58NIrr46+wJ+C+U670NvbE/Ufuc+38bLL+UQzbLNprAOD
+Gq/XW+pfXGR4aJDu7820d7YhzkyxsrJCmlxeGgJsbATivV6/yT3rNs2I8x0u11O8Cx78i34GfrNg
+sdykr7+ejs5ydOdz+La9ieXlJSIjIxAWl5dHfX7PnM/nJRgMsrn5BzbbEN91XqKrS09ry+d805JN
+Q72aosLDIUBjay0e3zy7d0ciBIIrjI2NUlis4kRuHEcVMWScTKDqy0PU1aTR2JCFviCF3Ox3KNBn
+hgDXm7/C651jzx4JEFxdZXraQUm5FmVODMcUe9Hk7KPQeJCs7EQ6O+pIV8WTf/Z4SLzdV2pLePZU
+JCpKhrC+vs78/DNu3rqAofgA+qIkTp9LRJ5+QPrNW4yP3KesTEWRIRV9iSYEqL5chNvlkABRCGtr
+ayz4F3lw/xJ1lw9y1fQBemMKH0rimqt5TE710WGu5rT2bWmEjBCg4qIO0WnfAURHR08vLS1Q31LM
+MfWbKDVxJL8r42K1gbtdDfT3mNHpNDz82UxbewUFhkxKK7RM2QfY2tpCcDhcMt+Cj2uNJRxVxvDR
+x3EU6JTcaqtk167X6Ou9jTojlVPa9ziVlYT+7GGMxpMM26xsbG4i2B4/lnm8PlpvVJKeHRsCHFfF
+kZD4OkpFMg96m1F/koJKvo9KXVqoy/UKxkYehtYuDNpssjnJRLM0Z+ane5GrY0lTxfL+kQiycvbz
+heEQ5/KSMJ5J/RtQeV7DxMQQgcASgtVqlc24XPzYfZsT2v3IJfO00hrLDMmYrsmpunCE2io116/k
+c/dGDYHlBX6x/srkpGMuIiJidAcw62L80TCfnUkmPy+Br+ty6L5Xxb0fqun5qUl6PMLK7xs0N7VK
+Z20xhYWFmaQExIdy0C8BpkQHs0+c9PeamRjtxj49jii6eTRhx+l0SnfiYVVat1Kp3AnPP2vbA3F2
+hkBwFY9nCbt9jNy8PIZGbExM2um3WAgPD0ehUJRuR/vf+r8ALbN4uPKwyZwAAAAASUVORK5CYII=
+      </icon>
+    </appfolder>
+    <appfolder name="FormTOAD2" id="f854273f-73ce-456e-8a86-dd38490a2a31" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemTrack_Properties" id="1b07d817-8b08-42c8-b75a-82b9f8ef48b9" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Track Properties']]]>
+      </item>
+      <item name="MenuItemAir" id="cb13a751-3d39-440e-99ac-129d34535c12" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Air']]]>
+      </item>
+      <item name="MenuItemDrop_Track" id="2ca3c150-1270-48ad-91b5-7473a75ce090" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Drop Track']]]>
+      </item>
+      <item name="MenuItemReference_Point" id="d285aefb-e877-4c27-92f9-33d20ec34daa" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Reference Point']]]>
+      </item>
+      <item name="MenuItemLand_Point_Track" id="8880faeb-6544-40e9-aa64-128b55ec6643" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Land Point/Track']]]>
+      </item>
+      <item name="MenuItemSpace" id="ead16d4d-580f-43e8-b342-903790b3c1d4" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Space']]]>
+      </item>
+      <item name="MenuItemSurface" id="56dd4ae2-be9e-4948-9adf-ebdd6bc131c5" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Surface']]]>
+      </item>
+      <item name="MenuItemEW" id="de7fe6c8-d3c0-4a2e-8ad3-869a24985648" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='EW']]]>
+      </item>
+      <item name="MenuItemSubSurface" id="747c0ffe-ea38-4737-b925-6d80e4400f82" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu/menuitem[@accessiblename='SubSurface']]]>
+      </item>
+      <item name="MenuItemCenter_On_Track" id="d66293ca-6785-48d8-bb0b-2ade812935a4" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Center On Track']]]>
+      </item>
+      <item name="MenuItemWeapons" id="dfd6f228-db0c-4aad-baec-b856bad29dc8" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']/contextmenu[1]/menuitem[@accessiblename='Weapons']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'C2 HOST 2|TOAD 2']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdBJREFU
+OE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBsoRFqRISLQFpEghhEaQhWiKhEgUmk
+EmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrlHuhPUggOfT4KBI8pnU4TVqGY412t
+VishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggALLbpspDHY6Btl4l2dkf4fWy4/XcA
+RGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3dLyHQgcMX57RM0js0hEAQOAj21I3
+u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxccMXlACTlLuAHPV2zL7B9UQe5GAUE
+6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wdhUPgGRkBQP9Rh1WrXgq4lgDoO+YA
+Ip2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbmOyWAd8tGr2/VgYMDaZTPwucMQObJ
+CQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa4qaBfp95pEqlzHS4Sl3fUr74wu81
+Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormWeapons" id="d6b08433-a089-4876-92e5-603fd2fcb096" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="MenuItemAssociate__J7_7" id="926e40ca-2735-414c-abf2-c6b8794550f4" searchtimeout="30000ms" capname="menuitem" addcaps="accessible">
+        <![CDATA[/form[@title='Weapons']/contextmenu[1]/menuitem[@accessiblename='Associate (J7.7)...']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Weapons']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdBJREFU
+OE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBsoRFqRISLQFpEghhEaQhWiKhEgUmk
+EmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrlHuhPUggOfT4KBI8pnU4TVqGY412t
+VishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggALLbpspDHY6Btl4l2dkf4fWy4/XcA
+RGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3dLyHQgcMX57RM0js0hEAQOAj21I3
+u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxccMXlACTlLuAHPV2zL7B9UQe5GAUE
+6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wdhUPgGRkBQP9Rh1WrXgq4lgDoO+YA
+Ip2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbmOyWAd8tGr2/VgYMDaZTPwucMQObJ
+CQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa4qaBfp95pEqlzHS4Sl3fUr74wu81
+Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormAssociations__J7_7" id="cac65a1b-3875-4e66-87c4-672331a47129" searchtimeout="30000ms" capname="form" addcaps="form,nativewindow" isrooted="True" usecache="True">
+      <item name="ListItemFriendly_Weapon_System" id="05196781-7001-4d52-a166-b2b734c05a6b" searchtimeout="30000ms" capname="listitem" addcaps="listitem,accessible">
+        <![CDATA[/form[@title~'Associations \(J7.7\).* ']/element/container/element/element/listitem[@accessiblename='Friendly Weapon System']]]>
+      </item>
+      <item name="ListItemObjective" id="9ac6fe41-8464-44bc-8fb0-a7077df36f7d" searchtimeout="30000ms" capname="listitem" addcaps="listitem,accessible">
+        <![CDATA[/form[@title~'Associations \(J7.7\).* ']/element/container/element/element/listitem[@accessiblename='Objective']]]>
+      </item>
+      <item name="ListItemPairing_Action" id="cd638160-48ee-4b74-9cdd-cec9594fc340" searchtimeout="30000ms" capname="listitem" addcaps="listitem,accessible">
+        <![CDATA[/form[@title~'Associations \(J7.7\).* ']/element/container/element/element/listitem[@accessiblename='Pairing Action']]]>
+      </item>
+      <item name="ListItemPairing" id="fa1e9d72-9b94-445b-9e32-8e8e87851b48" searchtimeout="30000ms" capname="listitem" addcaps="listitem,accessible">
+        <![CDATA[/form[@title~'Associations \(J7.7\).* ']/element/container/element/element/listitem[@accessiblename='Pairing']]]>
+      </item>
+      <item name="ButtonSave" id="33ba34f7-5762-43ae-af4f-80f7681099f5" searchtimeout="30000ms" capname="button" addcaps="button,accessible">
+        <![CDATA[/form[@title~'Associations \(J7.7\).* ']/element/container/element/toolbar[1]/button[@accessiblename='Save']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'Associations \(J7.7\).* ']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+      </icon>
+    </appfolder>
+    <appfolder name="FormAssociations" id="8ac35db5-273e-4105-842d-e9dfa236949c" searchtimeout="30000ms" capname="form" addcaps="form,nativewindow" isrooted="True" usecache="True">
+      <item name="ButtonCLOSE" id="103fd968-c728-47a5-bd36-1a76fef7022a" searchtimeout="30000ms" capname="button" addcaps="button,accessible">
+        <![CDATA[/form[@title~'^Associations.*']/button[@accessiblename='CLOSE']]]>
+      </item>
+      <item name="ListItemTrack_Number" id="a0d0b5ad-93c8-467c-82a5-5d8f08a1cf9c" searchtimeout="30000ms" capname="listitem" addcaps="listitem,accessible">
+        <![CDATA[/form[@title~'^Associations.*']/element//listitem[@accessiblename='Track Number']]]>
+      </item>
+      <item name="ListItemAssociated_Track_Number" id="78a74ac3-ed98-474b-a88f-a6660c5d4413" searchtimeout="30000ms" capname="listitem" addcaps="listitem,accessible">
+        <![CDATA[/form[@title~'^Associations.*']/element//listitem[@accessiblename='Associated Track Number']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'^Associations.*']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+      </icon>
+    </appfolder>
+    <basepath>
+    </basepath>
+  </rootfolder>
+  <variables>
+    <var name="tracknumber" id="5b07a953-fdde-4d6c-b3e3-d3d1477628ce">
+      <![CDATA[2070]]>
+    </var>
+  </variables>
+</repository>

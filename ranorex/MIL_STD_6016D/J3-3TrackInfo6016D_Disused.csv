@@ -1,0 +1,269 @@
+Platval;Actval;Samval;Stypeval
+Cruiser;Shadowing/Intervening;HAWK;CLEMENCEAU
+Frigate;Shadowing/Intervening;I-HAWK;FORRESTAL
+Battleship;Shadowing/Intervening;PATRIOT;MIDWAY
+Troop Ship;Shadowing/Intervening;NIKE;DEDALO
+Hydrofoil;Shadowing/Intervening;REDEYE;VIKRANT
+Landing Ship;Shadowing/Intervening;STINKER;KIEV
+Support;Shadowing/Intervening;HELLFIRE;IOWA
+Fishing Vessel;Shadowing/Intervening;PERSHING;SVERDLOV (MODIFIED)
+Decoy;Shadowing/Intervening;NIM-23 HAWK;ANDREA DORIA
+Cruiser;Shadowing/Intervening;MIM-42 REDEYE;BAINBRIDGE
+Frigate;Shadowing/Intervening;MIM-72 CHAPARRAL;BELKNAP
+Battleship;Shadowing/Intervening;MIM-104 PATRIOT;CALIFORNIA
+Troop Ship;Shadowing/Intervening;RIM-2 TERRIER;KRESTA I
+Hydrofoil;Shadowing/Intervening;RIM-8 TALOS;KRESTA II
+Landing Ship;Shadowing/Intervening;RIM-24 TARTAR;LEAHY
+Support;Shadowing/Intervening;SAM ROLAND;LONG BEACH
+Fishing Vessel;Shadowing/Intervening;SA-2 GUIDELINE;TRUXTUN
+Decoy;Shadowing/Intervening;SA-3 GOA;VIRGINIA
+Cruiser;Shadowing/Intervening;SA-4 GANEF;CA GENERAL
+Frigate;Shadowing/Intervening;SA-5 GAMMON;SVERDLOV
+Battleship;Shadowing/Intervening;SA-6 GAINFUL;AKIZUKI
+Troop Ship;Shadowing/Intervening;SA-7 GRAIL;ALLEN M SUMNER
+Hydrofoil;Shadowing/Intervening;SA-8 GECKO;ALMIRANTE
+Landing Ship;Shadowing/Intervening;SA-9 GASKIN;AMATSUKAZE
+Support;Shadowing/Intervening;SA-10 GRUMBLE;ANIMOSO
+Fishing Vessel;Shadowing/Intervening;SA-11 GADFLY;COONTZ
+Decoy;Shadowing/Intervening;SA-12;FRIESLAND
+Cruiser;Shadowing/Intervening;SA-13 GOPHER;KANIN
+Frigate;Shadowing/Intervening;SA-14 GREMLIN;KASHIN II
+Battleship;Shadowing/Intervening;SA-16 GIMLET;KIDD
+Troop Ship;Shadowing/Intervening;SA-X-17;KILDIN (MODIFIED)
+Hydrofoil;Shadowing/Intervening;SA-12A GLADIATOR;KOTLIN
+Landing Ship;Shadowing/Intervening;SA-12B GIANT;KOTLIN (MODIFIED)
+Support;Shadowing/Intervening;SA-15 GAUNTLET;MEKO 360
+Fishing Vessel;Shadowing/Intervening;SA-17 GRIZZLY;PROJECT 15
+Decoy;Shadowing/Intervening;SA-18 GROUSE;ROBERT H SMITH
+Cruiser;Shadowing/Intervening;SA-19 GRISOM;ROGER D LAURIA
+Frigate;Shadowing/Intervening;ADATS;SAM KOTLIN
+Battleship;Shadowing/Intervening;FRONT DOOR;YAMAGUMO
+Troop Ship;Shadowing/Intervening;CSA-1;Z
+Hydrofoil;Shadowing/Intervening;PANTZYR;ALMIRANTE PEREIRA DA SILVA
+Landing Ship;Shadowing/Intervening;RBS-90;BERK FF
+Support;Shadowing/Intervening;TAM SAM;BLACK SWAN
+Fishing Vessel;Shadowing/Intervening;SA-2 IRAQ MOD;BRONSTEIN
+Decoy;Shadowing/Intervening;SA-2 NK RO;BROOKE
+Cruiser;Shadowing/Intervening;AEGIS-TI;CANNON
+Frigate;Shadowing/Intervening;SEA INDIGO;CHARLES LAWRENCE
+Battleship;Shadowing/Intervening;TANSAM;CROSLEY
+Troop Ship;Shadowing/Intervening;GUARDSMAN;DEALEY
+Hydrofoil;Shadowing/Intervening;SNOW DRIFT 11/17;EDSALL
+Landing Ship;Shadowing/Intervening;TUBE ARM SA-11;GARCIA
+Support;Shadowing/Intervening;EYE SHIELD;GLOVER
+Fishing Vessel;Shadowing/Intervening;ELDORADO;M
+Decoy;Shadowing/Intervening;FLYCATCHER;MEKO 140 TYPE
+Cruiser;Shadowing/Intervening;GEPARD;OLIVER HAZARD PERRY
+Frigate;Shadowing/Intervening;GIN SLING;PETYA I (MODIFIED)
+Battleship;Shadowing/Intervening;SS-N-S SCOOP PAIR;PETYA I
+Troop Ship;Shadowing/Intervening;SS-N-24 SCORPION;PETYA II (MODIFIED)
+Hydrofoil;Shadowing/Intervening;SS-NX-28;PETYA II
+Landing Ship;Shadowing/Intervening;TLAM;PETYA III
+Support;Shadowing/Intervening;HAWK;RIGA
+Fishing Vessel;Shadowing/Intervening;I-HAWK;TROMP
+Decoy;Shadowing/Intervening;PATRIOT;CLAUDE JONES
+Frigate;Shadowing/Intervening;REDEYE;VOSPERTHORNYCROFT MK 7
+Battleship;Shadowing/Intervening;STINKER;COMMANDANT BORY
+Troop Ship;Shadowing/Intervening;HELLFIRE;DE CRISTOFARO
+Hydrofoil;Shadowing/Intervening;PERSHING;NANUCHKA II
+Landing Ship;Shadowing/Intervening;NIM-23 HAWK;WADI
+Support;Shadowing/Intervening;MIM-42 REDEYE;CAVEZZALE
+Fishing Vessel;Shadowing/Intervening;MIM-72 CHAPARRAL;CHARLESTON
+Decoy;Shadowing/Intervening;MIM-104 PATRIOT;LFS GENERAL
+Cruiser;Shadowing/Intervening;RIM-2 TERRIER;LPA GENERAL
+Frigate;Shadowing/Intervening;RIM-8 TALOS;FEARLESS
+Battleship;Shadowing/Intervening;RIM-24 TARTAR;UNDEFINED GALICIA LPD
+Troop Ship;Shadowing/Intervening;SAM ROLAND;RALEIGH
+Hydrofoil;Shadowing/Intervening;SA-2 GUIDELINE;CABILDO
+Landing Ship;Shadowing/Intervening;SA-3 GOA;THOMASTON
+Support;Shadowing/Intervening;SA-4 GANEF;SIR GERAINT
+Fishing Vessel;Shadowing/Intervening;SA-5 GAMMON;ASHDOD
+Decoy;Shadowing/Intervening;SA-6 GAINFUL;CAKABEY
+Cruiser;Shadowing/Intervening;SA-7 GRAIL;EDIC I
+Frigate;Shadowing/Intervening;SA-8 GECKO;LSM-1
+Battleship;Shadowing/Intervening;SA-9 GASKIN;MP-4
+Troop Ship;Shadowing/Intervening;SA-10 GRUMBLE;POLNOCHNY
+Hydrofoil;Shadowing/Intervening;SA-11 GADFLY;POLOCHNY A
+Landing Ship;Shadowing/Intervening;SA-12;POLOCHNY B
+Support;Shadowing/Intervening;SA-13 GOPHER;POLOCHNY C
+Fishing Vessel;Shadowing/Intervening;SA-14 GREMLIN;POLOCHNY D
+Decoy;Shadowing/Intervening;SA-16 GIMLET;YULIMG
+Cruiser;Shadowing/Intervening;SA-X-17;BROOKE MARINE 93M
+Frigate;Shadowing/Intervening;SA-12A GLADIATOR;CAKABEY NL-122
+Battleship;Shadowing/Intervening;SA-12B GIANT;DE SOTO COUNTY
+Troop Ship;Shadowing/Intervening;SA-15 GAUNTLET;LST 1-510
+Hydrofoil;Shadowing/Intervening;SA-17 GRIZZLY;LST 511-1152
+Landing Ship;Shadowing/Intervening;SA-18 GROUSE;TERREBONNE PARISH
+Support;Shadowing/Intervening;SA-19 GRISOM;HUNGNAM
+Fishing Vessel;Shadowing/Intervening;ADATS;LCM 1057/1058
+Decoy;Shadowing/Intervening;FRONT DOOR;LCM 1031
+Cruiser;Shadowing/Intervening;CSA-1;LCM 1035/1036
+Frigate;Shadowing/Intervening;PANTZYR;LCM 1055/1056
+Battleship;Shadowing/Intervening;RBS-90;NAMPO
+Troop Ship;Shadowing/Intervening;TAM SAM;BRAILA
+Hydrofoil;Shadowing/Intervening;SA-2 IRAQ MOD;LCU (TYPE 520)
+Landing Ship;Shadowing/Intervening;SA-2 NK RO;HANCHON
+Support;Shadowing/Intervening;AEGIS-TI;HANTAE
+Fishing Vessel;Shadowing/Intervening;SEA INDIGO;KISHON
+Decoy;Shadowing/Intervening;TANSAM;KVALSUND
+Cruiser;Shadowing/Intervening;GUARDSMAN;LCU 501
+Frigate;Shadowing/Intervening;SNOW DRIFT 11/17;US LCU 1466
+Battleship;Shadowing/Intervening;TUBE ARM SA-11;VYDRA
+Troop Ship;Shadowing/Intervening;EYE SHIELD;LEBED
+Hydrofoil;Shadowing/Intervening;ELDORADO;UTENOK
+Landing Ship;Shadowing/Intervening;FLYCATCHER;WINCHESTER (SR.N6
+Support;Shadowing/Intervening;GEPARD;ALESHA
+Fishing Vessel;Shadowing/Intervening;GIN SLING;ALVSBORG
+Decoy;Shadowing/Intervening;SS-N-S SCOOP PAIR;BORGEN
+Cruiser;Shadowing/Intervening;SS-N-24 SCORPION;COSAR
+Frigate;Shadowing/Intervening;SS-NX-28;LANGELAND
+Battleship;Shadowing/Intervening;TLAM;SMITH
+Troop Ship;Shadowing/Intervening;HAWK;US YMP
+Hydrofoil;Shadowing/Intervening;I-HAWK;KOBLENZ MHC (TYPE 331B)
+Landing Ship;Shadowing/Intervening;PATRIOT;HAM
+Support;Shadowing/Intervening;NIKE;SAUDA
+Fishing Vessel;Shadowing/Intervening;REDEYE;CURLEW
+Decoy;Shadowing/Intervening;STINKER;EX-ERIMO
+Cruiser;Shadowing/Intervening;HELLFIRE;ACME
+Frigate;Shadowing/Intervening;PERSHING;AGGRESSIVE
+Battleship;Shadowing/Intervening;NIM-23 HAWK;ADJUTANT
+Troop Ship;Shadowing/Intervening;MIM-42 REDEYE;BAY
+Hydrofoil;Shadowing/Intervening;MIM-72 CHAPARRAL;DOKKUM
+Landing Ship;Shadowing/Intervening;MIM-104 PATRIOT;HAYASE
+Support;Shadowing/Intervening;RIM-2 TERRIER;KOUZJ
+Fishing Vessel;Shadowing/Intervening;RIM-8 TALOS;SASHA
+Decoy;Shadowing/Intervening;RIM-24 TARTAR;SAUDA
+Cruiser;Shadowing/Intervening;SAM ROLAND;TAKAMI
+Frigate;Shadowing/Intervening;SA-2 GUIDELINE;VANYA
+Battleship;Shadowing/Intervening;SA-3 GOA;VANYA II
+Troop Ship;Shadowing/Intervening;SA-4 GANEF;WUSONG
+Hydrofoil;Shadowing/Intervening;SA-5 GAMMON;ZHENYA
+Landing Ship;Shadowing/Intervening;SA-6 GAINFUL;CAPE
+Support;Shadowing/Intervening;SA-7 GRAIL;FRAUENLOB (TYPE 394)
+Fishing Vessel;Shadowing/Intervening;SA-8 GECKO;HAM
+Decoy;Shadowing/Intervening;SA-9 GASKIN;HERSTAL
+Cruiser;Shadowing/Intervening;SA-10 GRUMBLE;PIPA-A
+Frigate;Shadowing/Intervening;SA-11 GADFLY;YEVGENYA
+Battleship;Shadowing/Intervening;SA-12;YUKTO
+Troop Ship;Shadowing/Intervening;SA-13 GOPHER;STYX
+Hydrofoil;Shadowing/Intervening;SA-14 GREMLIN;PLUTON
+Landing Ship;Shadowing/Intervening;SA-16 GIMLET;ACHERON
+Support;Shadowing/Intervening;SA-X-17;ILYUSHA
+Fishing Vessel;Shadowing/Intervening;SA-12A GLADIATOR;MSO GENERAL
+Decoy;Shadowing/Intervening;SA-12B GIANT;BERLAIMONT (MODIFIED)
+Cruiser;Shadowing/Intervening;SA-15 GAUNTLET;HUNT
+Frigate;Shadowing/Intervening;SA-17 GRIZZLY;TRIPARTITE
+Battleship;Shadowing/Intervening;SA-18 GROUSE;WILTON
+Troop Ship;Shadowing/Intervening;SA-19 GRISOM;CASTLE
+Hydrofoil;Shadowing/Intervening;ADATS;KRONSHTADT
+Landing Ship;Shadowing/Intervening;FRONT DOOR;ERIMO
+Support;Shadowing/Intervening;CSA-1;PEACOCK
+Fishing Vessel;Shadowing/Intervening;PANTZYR;SAVAGE
+Decoy;Shadowing/Intervening;RBS-90;TACOMA
+Cruiser;Shadowing/Intervening;TAM SAM;LEOPARD (TYPE 148)
+Frigate;Shadowing/Intervening;SA-2 IRAQ MOD;BAMBU
+Battleship;Shadowing/Intervening;SA-2 NK RO;ASHEVILLE
+Troop Ship;Shadowing/Intervening;AEGIS-TI;BARNEGAT
+Hydrofoil;Shadowing/Intervening;SEA INDIGO;HOUKU
+Landing Ship;Shadowing/Intervening;TANSAM;SARIWON
+Support;Shadowing/Intervening;GUARDSMAN;SNOEGG
+Fishing Vessel;Shadowing/Intervening;SNOW DRIFT 11/17;SOHUNG
+Decoy;Shadowing/Intervening;TUBE ARM SA-11;SOJU
+Cruiser;Shadowing/Intervening;EYE SHIELD;ADMIRABLE
+Frigate;Shadowing/Intervening;ELDORADO;AKIZUKI
+Battleship;Shadowing/Intervening;FLYCATCHER;ATTACK
+Troop Ship;Shadowing/Intervening;GEPARD;BAY
+Hydrofoil;Shadowing/Intervening;GIN SLING;CHONGJU
+Landing Ship;Shadowing/Intervening;SS-N-S SCOOP PAIR;GDANSK
+Support;Shadowing/Intervening;SS-N-24 SCORPION;ATTACKER
+Fishing Vessel;Shadowing/Intervening;SS-NX-28;POTI
+Decoy;Shadowing/Intervening;TLAM;ATTACK P-90
+Cruiser;Shadowing/Intervening;HAWK;BAY
+Frigate;Shadowing/Intervening;I-HAWK;CHONGJIN
+Battleship;Shadowing/Intervening;PATRIOT;INTERCEPTOR MK II
+Troop Ship;Shadowing/Intervening;NIKE;SNOEGG
+Hydrofoil;Shadowing/Intervening;REDEYE;TRIDENT
+Landing Ship;Shadowing/Intervening;STINKER;DE L'ESTEREL
+Support;Shadowing/Intervening;HELLFIRE;MARS
+Fishing Vessel;Shadowing/Intervening;PERSHING;SPICA
+Decoy;Shadowing/Intervening;NIM-23 HAWK;L'ARCHEONAUTE
+Cruiser;Shadowing/Intervening;MIM-42 REDEYE;MIZUTORI
+Frigate;Shadowing/Intervening;MIM-72 CHAPARRAL;RHIN
+Battleship;Shadowing/Intervening;MIM-104 PATRIOT;UMITAKA
+Troop Ship;Shadowing/Intervening;RIM-2 TERRIER;RANCE
+Hydrofoil;Shadowing/Intervening;RIM-8 TALOS;MERCURE
+Landing Ship;Shadowing/Intervening;RIM-24 TARTAR;PHENIX
+Support;Shadowing/Intervening;SAM ROLAND;LEXINGTON
+Fishing Vessel;Shadowing/Intervening;SA-2 GUIDELINE;SURIBACHI
+Decoy;Shadowing/Intervening;SA-3 GOA;ABDIEL
+Cruiser;Shadowing/Intervening;SA-4 GANEF;MICHELANGELO
+Frigate;Shadowing/Intervening;SA-5 GAMMON;LA PRUDENTE
+Battleship;Shadowing/Intervening;SA-6 GAINFUL;EMBA II
+Troop Ship;Shadowing/Intervening;SA-7 GRAIL;LENTRA
+Hydrofoil;Shadowing/Intervening;SA-8 GECKO;CALLAGHAN
+Landing Ship;Shadowing/Intervening;SA-9 GASKIN;MARS
+Support;Shadowing/Intervening;SA-10 GRUMBLE;SAMUEL GOMPERS
+Fishing Vessel;Shadowing/Intervening;SA-11 GADFLY;DIXIE
+Decoy;Shadowing/Intervening;SA-12;IVANSUSANIN
+Cruiser;Shadowing/Intervening;SA-13 GOPHER;LENTRA
+Frigate;Shadowing/Intervening;SA-14 GREMLIN;RANGE SENTINEL
+Battleship;Shadowing/Intervening;SA-16 GIMLET;COOK
+Troop Ship;Shadowing/Intervening;SA-X-17;ENDEAVOR
+Hydrofoil;Shadowing/Intervening;SA-12A GLADIATOR;TYDEMAN
+Landing Ship;Shadowing/Intervening;SA-12B GIANT;MAYAK
+Support;Shadowing/Intervening;SA-15 GAUNTLET;CIMARRON (JUMBOISED)
+Fishing Vessel;Shadowing/Intervening;SA-17 GRIZZLY;MISPILLION (JUMBOISED)
+Decoy;Shadowing/Intervening;SA-18 GROUSE;WALCHENSEE (TYPE 703)
+Cruiser;Shadowing/Intervening;SA-19 GRISOM;PORT VENDRES
+Frigate;Shadowing/Intervening;ADATS;KHOBI
+Battleship;Shadowing/Intervening;FRONT DOOR;PROVIDER
+Troop Ship;Shadowing/Intervening;CSA-1;WICHITA
+Hydrofoil;Shadowing/Intervening;PANTZYR;PUNARUU
+Landing Ship;Shadowing/Intervening;RBS-90;AJAX
+Support;Shadowing/Intervening;TAM SAM;DIXIE
+Fishing Vessel;Shadowing/Intervening;SA-2 IRAQ MOD;STALWART
+Decoy;Shadowing/Intervening;SA-2 NK RO;BELGICA
+Cruiser;Shadowing/Intervening;AEGIS-TI;BERRY
+Frigate;Shadowing/Intervening;SEA INDIGO;COMMANDANT RIVIERE
+Battleship;Shadowing/Intervening;TANSAM;DOBRYNYA NIKITICH
+Troop Ship;Shadowing/Intervening;GUARDSMAN;HENRI POINCARE
+Hydrofoil;Shadowing/Intervening;SNOW DRIFT 11/17;ILE D'OLERON
+Landing Ship;Shadowing/Intervening;TUBE ARM SA-11;IVANSUSANIN
+Support;Shadowing/Intervening;EYE SHIELD;LENTRA
+Fishing Vessel;Shadowing/Intervening;ELDORADO;MOMA
+Decoy;Shadowing/Intervening;FLYCATCHER;POINT LOMA
+Cruiser;Shadowing/Intervening;GEPARD;TRITON
+Frigate;Shadowing/Intervening;GIN SLING;PAMIR
+Battleship;Shadowing/Intervening;SS-N-S SCOOP PAIR;MAYAK
+Troop Ship;Shadowing/Intervening;SS-N-24 SCORPION;KURTARAN ASR
+Hydrofoil;Shadowing/Intervening;SS-NX-28;SPASILAC
+Landing Ship;Shadowing/Intervening;TLAM;DNEPR
+Support;Shadowing/Intervening;HAWK;AGS 39 MAURY AGS
+Fishing Vessel;Shadowing/Intervening;I-HAWK;BUYSKES
+Decoy;Shadowing/Intervening;PATRIOT;CHAUVENET
+Cruiser;Shadowing/Intervening;NIKE;COOK
+Frigate;Shadowing/Intervening;REDEYE;FINIK
+Battleship;Shadowing/Intervening;STINKER;L'ESPERANCE
+Troop Ship;Shadowing/Intervening;HELLFIRE;LENTRA
+Hydrofoil;Shadowing/Intervening;PERSHING;MOMA
+Landing Ship;Shadowing/Intervening;NIM-23 HAWK;MP-8
+Support;Shadowing/Intervening;MIM-42 REDEYE;STERNE DISSUED
+Fishing Vessel;Shadowing/Intervening;MIM-72 CHAPARRAL;T-43
+Decoy;Shadowing/Intervening;MIM-104 PATRIOT;MARS
+Cruiser;Shadowing/Intervening;RIM-2 TERRIER;MP-8
+Frigate;Shadowing/Intervening;RIM-8 TALOS;UGRA
+Battleship;Shadowing/Intervening;RIM-24 TARTAR;VIETNAM HEROICO
+Troop Ship;Shadowing/Intervening;SAM ROLAND;MAYAK
+Hydrofoil;Shadowing/Intervening;SA-2 GUIDELINE;ARMY 254
+Landing Ship;Shadowing/Intervening;SA-3 GOA;MB-31
+Support;Shadowing/Intervening;SA-4 GANEF;MB-65
+Fishing Vessel;Shadowing/Intervening;SA-5 GAMMON;SORUM
+Decoy;Shadowing/Intervening;SA-6 GAINFUL;TENACE
+Cruiser;Shadowing/Intervening;SA-7 GRAIL;YW-83
+Frigate;Shadowing/Intervening;SA-8 GECKO;Z
+Battleship;Shadowing/Intervening;SA-9 GASKIN;YFD GENERAL
+Troop Ship;Shadowing/Intervening;SA-10 GRUMBLE;YSR GENERAL
+Hydrofoil;Shadowing/Intervening;SA-11 GADFLY;YSG GENERAL
+Landing Ship;Shadowing/Intervening;SA-12;TS GENERAL
+Support;Shadowing/Intervening;SA-13 GOPHER;TSG GENERAL
+Fishing Vessel;Shadowing/Intervening;SA-14 GREMLIN;TSR GENERAL

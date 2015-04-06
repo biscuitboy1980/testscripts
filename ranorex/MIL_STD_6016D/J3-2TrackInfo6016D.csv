@@ -1,0 +1,1046 @@
+Platnum;Platval;Actnum;Actval;Stypenum;Stypeval
+1;Fighter;1;Reconnaissance;1;F-4 PHANTOM II
+2;Fighter Bomber;2;Over the Horizon Targeting (OTHT);2;F-5 TIGER II
+3;Attack;3;Training;4;F-14 TOMCAT
+4;Bomber;4;Logistics Support;5;F-15 EAGLE
+5;Reconnaissance;5;Antisurface Warfare;6;F-16 FIGHTING FALCON
+6;Tanker;6;Electronic Warfare (EW);8;F-104 STARFIGHTER
+7;Tanker (Boom Only);7;Surveillance;11;F-111
+8;Tanker (Drogue Only);8;Search and Rescue (SAR);12;F/A-18 A/B/C/D HORNET
+9;Interceptor;9;Escorting;13;EFA/TYPHOON
+10;Transport;10;Minelaying;15;F-100
+11;Airborne Command Post (ACP);11;Transiting;18;COMMANDO
+13;Missile;12;Special Weapons Attack;21;J-35 DRAKEN
+14;Electronic Warfare (EW);13;Intruding;22;JAGUAR
+15;Antisubmarine Warfare (ASW);14;Electronic Warfare Support (ES);23;SUPER ETENDARD
+16;Airborne Early Warning and Control (AEW);15;Communications Relay;27;F-1
+17;Maritime Patrol Aircraft (MPA);16;Patrol (Ocean Surveillance);28;F-35XD DRAKEN
+18;Search and Rescue (SAR);17;Airlift (Transport);29;TORNADO F3
+19;Drone;18;Antisubmarine Warfare (ASW);30;HF-24 MARUT (WIND SPIRIT)
+20;Remotely Piloted Vehicle (RPV);20;Towing;31;JA37 VIGGEN
+21;Fixed Wing Gunship;21;Air Assault;33;SF-5 FREEDOM FIGHTER
+22;Civil, Airliner;22;Interception;34;IAR-91 ORAO
+23;Civil, General;23;Electronic Attack (EA);36;KFIR C2
+24;Lighter than Air (LTA);24;Policing;37;MIRAGE F1
+25;Glider;25;Conventional Attack;38;MIRAGE 3
+26;Decoy;26;Medical Evacuation (MEDEVAC);39;MIRAGE 5
+27;Helicopter (HELO);27;Mine Countermeasures;40;MIRAGE 50
+28;Attack Helicopter;28;Search;41;MIRAGE 2000
+29;Helicopter Gunship;29;Refueling/Tanking;44;ALPHA JET
+30;Antisubmarine Warfare Helicopter (ASW HELO);30;Interdiction;45;KEFIR
+31;Mine Warfare Helicopter;31;Combat Air Patrol (CAP);46;F-6 FARMER
+32;Transport Helicopter;32;Forward Air Controller (FAC);47;F-8 FISHBED
+33;Tactical Support;33;Very Important Person (VIP) Flight;48;F-9 FANTAN
+34;Patrol;34;Noncombatant Operations;49;F-12 (CHINA)
+35;Miscellaneous Fixed Wing;35;Close Air Support (CAS);50;SU-7 FITTER
+36;Missile Control Unit;36;Airborne Early Warning (AEW);51;SU-9 FISHPOT
+37;Surface-to-Air Missile (SAM);37;Ground Attack Tactics (GAT);52;SU-11 FISHPOT
+38;Air-to-Surface Missile (ASM);38;Airborne Command Post (ACP);53;SU-15 FLAGON
+39;Surface-to-Surface Missile (SSM);39;Rescue Combat Air Patrol (RESCAP);54;SU-17 FITTER
+40;Logistic;40;Surface Combat Air Patrol (SUCAP);55;SU-19 FENCER
+41;Air-to-Air Missile (AAM);42;Spotting;56;SU-20 FITTER
+42;Subsurface-to-Surface Missile;43;Strike Warfare;57;SU-22 FITTER
+43;Surface-to-Subsurface Missile;44;Special;58;SU-24 FENCER
+44;Cruise Missile;45;Hijack;59;SU-25 FROGFOOT
+45;Ballistic Missile;46;Jammer;60;TU-28 FIDDLER
+46;Airborne Land Surveillance;47;Trooplift;61;TU-128 FIDDLER
+47;Airborne Laser;48;XRay;62;MIG-21 FISHBED
+48;Unmanned Aerial Vehicle (UAV);49;Antiair Warfare (AAW);63;MIG-23 FLOGGER
+49;Active Electronic Decoy;50;Command and Control;64;MIG-25 FOXBAT
+50;Infrared Decoy;51;Counter-Air Warfare;65;MIG-27 FLOGGER
+51;Chaff Decoy;52;Return to Base (RTB);66;YAK-28P FIREBAR
+1;Fighter;53;Mine Warfare;67;YAK-36 FORGER
+2;Fighter Bomber;54;Chaff Laying;68;AAF RAM-J
+3;Attack;55;Video Data Linking (Targeting);69;MIG-15 FAGOT
+4;Bomber;56;Dipping;70;MIG-17 FRESCO
+5;Reconnaissance;58;Orbiting;71;MIG-19 FARMER
+6;Tanker;59;Under Recall;72;SU-27 FLANKER
+7;Tanker (Boom Only);60;Engaging;73;MIG-29 FULCRUM
+8;Tanker (Drogue Only);61;Engaging (Priority Kill);74;MIG-31 FOXHOUND
+9;Interceptor;62;Investigating;75;YAK-38 FORGER-A
+10;Transport;63;Cleared to Drop;76;F/A-22 RAPTOR
+11;Airborne Command Post (ACP);64;Intervening;77;F/A-22 RAPTOR
+13;Missile;65;Diverting;78;F/A-22 RAPTOR
+14;Electronic Warfare (EW);66;Air-to-ground;79;FA2 SEA HARRIER
+15;Antisubmarine Warfare (ASW);67;Air-to-air;80;IDF CHING-KUO (TAIWAN)
+16;Airborne Early Warning and Control (AEW);68;Precision Bombing;81;JAS-39 GRIPPEN
+17;Maritime Patrol Aircraft (MPA);69;Laser Designation;82;F-7 JIAN JI-7
+18;Search and Rescue (SAR);71;Shadowing;83;F-8 JIAN JI-8-2
+19;Drone;72;Covering;84;F-35A JOINT STRIKE FIGHTER
+20;Remotely Piloted Vehicle (RPV);73;Visual Identification;85;KFIR C7
+21;Fixed Wing Gunship;74;High Energy Lasing;86;KFIR 2000
+22;Civil, Airliner;75;Electronic Protection (EP);87;RAFALE
+23;Civil, General;76;Special Operations;88;SU-30 FLANKER
+24;Lighter than Air (LTA);77;Nuclear, Biological, Chemical (NBC) Operations;89;SU-33 (SU-27K) FLANKER-D
+25;Glider;78;Nuclear Operations;90;SU-34 FULLBACK-A
+26;Decoy;79;Biological Operations;91;SU-35 FLANKER-E
+27;Helicopter (HELO);80;Chemical Operations;92;SU-37 FLANKER-E VAR 2
+28;Attack Helicopter;81;Aborting Mission;93;SU-39 FROGFOOT-C
+29;Helicopter Gunship;82;Standoff Operations;95;F-5 FRESCO
+30;Antisubmarine Warfare Helicopter (ASW HELO);83;Combat Search and Rescue (CSAR);97;J-9
+31;Mine Warfare Helicopter;115;Air Activity 1;98;RT33
+32;Transport Helicopter;116;Air Activity 2;99;CF-188 HORNET
+33;Tactical Support;117;Air Activity 3;104;F/A-18E/F SUPER HORNET
+34;Patrol;118;Air Activity 4;105;F-5E
+35;Miscellaneous Fixed Wing;119;Air Activity 5;106;F-5F
+36;Missile Control Unit;120;Air Activity 6;107;F-14B TOMCAT
+37;Surface-to-Air Missile (SAM);121;Air Activity 7;108;F-14D TOMCAT
+38;Air-to-Surface Missile (ASM);122;Air Activity 8;109;F-15E STRIKE EAGLE
+39;Surface-to-Surface Missile (SSM);123;Air Activity 9;110;F-5A/B/G
+40;Logistic;124;Air Activity 10;111;SU-32 FLANKER
+41;Air-to-Air Missile (AAM);125;Air Activity 11;112;MIRAGE 2000-5
+42;Subsurface-to-Surface Missile;126;Air Activity 12;113;SU-7A FITTER
+43;Surface-to-Subsurface Missile;1;Reconnaissance;114;SU-7U MOUJIK
+44;Cruise Missile;2;Over the Horizon Targeting (OTHT);115;SU-15E FLAGON
+45;Ballistic Missile;3;Training;116;SU-15F FLAGON
+46;Airborne Land Surveillance;4;Logistics Support;117;SU-17B FITTER
+47;Airborne Laser;5;Antisurface Warfare;118;SU-17C FITTER
+48;Unmanned Aerial Vehicle (UAV);6;Electronic Warfare (EW);119;SU-17D FITTER
+49;Active Electronic Decoy;7;Surveillance;120;SU-17H FITTER
+50;Infrared Decoy;8;Search and Rescue (SAR);121;SU-17K FITTER
+51;Chaff Decoy;9;Escorting;122;SU-21 FLAGON
+1;Fighter;10;Minelaying;123;SU-22F FITTER
+2;Fighter Bomber;11;Transiting;124;SU-22G FITTER
+3;Attack;12;Special Weapons Attack;125;SU-22J FITTER
+4;Bomber;13;Intruding;126;SU-24A FENCER
+5;Reconnaissance;14;Electronic Warfare Support (ES);127;SU-24B FENCER
+6;Tanker;15;Communications Relay;128;SU-24C FENCER
+7;Tanker (Boom Only);16;Patrol (Ocean Surveillance);129;MIG-21H FISHBED
+8;Tanker (Drogue Only);17;Airlift (Transport);130;MIG-21J FISHBED
+9;Interceptor;18;Antisubmarine Warfare (ASW);131;MIG-21K FISHBED
+10;Transport;20;Towing;132;MIG-21L FISHBED
+11;Airborne Command Post (ACP);21;Air Assault;133;MIG-21N FISHBED
+13;Missile;22;Interception;134;MIG-23B FLOGGER
+14;Electronic Warfare (EW);23;Electronic Attack (EA);135;MIG-23E FLOGGER
+15;Antisubmarine Warfare (ASW);24;Policing;136;MIG-23F FLOGGER
+16;Airborne Early Warning and Control (AEW);25;Conventional Attack;137;MIG-23H FLOGGER
+17;Maritime Patrol Aircraft (MPA);26;Medical Evacuation (MEDEVAC);138;MIG-25A FOXBAT
+18;Search and Rescue (SAR);27;Mine Countermeasures;139;MIG-25B FOXBAT
+19;Drone;28;Search;140;MIG-25D FOXBAT
+20;Remotely Piloted Vehicle (RPV);29;Refueling/Tanking;141;MIG-25E FOXBAT
+21;Fixed Wing Gunship;30;Interdiction;142;MIG-27D FLOGGER
+22;Civil, Airliner;31;Combat Air Patrol (CAP);143;MIG-27J FLOGGER
+23;Civil, General;32;Forward Air Controller (FAC);144;YAK-28D BREWER
+24;Lighter than Air (LTA);33;Very Important Person (VIP) Flight;145;YAK-28E BREWER
+25;Glider;34;Noncombatant Operations;146;MIG-23G FLOGGER
+26;Decoy;35;Close Air Support (CAS);147;YAK-28 BREWER
+27;Helicopter (HELO);36;Airborne Early Warning (AEW);148;YAK-28U MAESTRO
+28;Attack Helicopter;37;Ground Attack Tactics (GAT);149;YAK-28V FORGER
+29;Helicopter Gunship;38;Airborne Command Post (ACP);150;AV-8B HARRIER II
+30;Antisubmarine Warfare Helicopter (ASW HELO);39;Rescue Combat Air Patrol (RESCAP);151;AV-8B NIGHT ATTACK HARRIER
+31;Mine Warfare Helicopter;40;Surface Combat Air Patrol (SUCAP);152;AV-8D NIGHT ATTACK HARRIER
+32;Transport Helicopter;42;Spotting;153;AV-8B HARRIER II PLUS
+33;Tactical Support;43;Strike Warfare;154;F-35B JOINT STRIKE FIGHTER
+34;Patrol;44;Special;155;F35C JOINT STRIKE FIGHTER
+35;Miscellaneous Fixed Wing;45;Hijack;156;EF-18M HORNET
+36;Missile Control Unit;46;Jammer;254;FIGHTER (VTOL/VSTOL) GENERAL
+37;Surface-to-Air Missile (SAM);47;Trooplift;255;FIGHTER/FIGHTER BOMBER GENERAL
+38;Air-to-Surface Missile (ASM);48;XRay;256;A-4 SKYHAWK
+39;Surface-to-Surface Missile (SSM);49;Antiair Warfare (AAW);257;A-6 INTRUDER
+40;Logistic;50;Command and Control;258;A-7 CORSAIR II
+41;Air-to-Air Missile (AAM);51;Counter-Air Warfare;259;A/OA-10 THUNDERBOLT II
+42;Subsurface-to-Surface Missile;52;Return to Base (RTB);260;A-37 DRAGONFLY
+43;Surface-to-Subsurface Missile;53;Mine Warfare;261;B-1B LANCER
+44;Cruise Missile;54;Chaff Laying;262;B-52 STRATOFORTRESS
+45;Ballistic Missile;55;Video Data Linking (Targeting);263;AC-130 SPECTRE
+46;Airborne Land Surveillance;56;Dipping;266;FB-111 AARDVARK
+47;Airborne Laser;58;Orbiting;267;A-1
+48;Unmanned Aerial Vehicle (UAV);59;Under Recall;268;TA-28
+49;Active Electronic Decoy;60;Engaging;270;AC-47
+50;Infrared Decoy;61;Engaging (Priority Kill);277;35XD DRAKEN
+51;Chaff Decoy;62;Investigating;278;J-1 HAWK
+1;Fighter;63;Cleared to Drop;279;J-1 JASTREB
+2;Fighter Bomber;64;Intervening;280;S-2
+3;Attack;65;Diverting;281;AJ37 VIGGEN
+4;Bomber;66;Air-to-ground;282;HA220 SUPER SAETA
+5;Reconnaissance;67;Air-to-air;283;M.B.326
+6;Tanker;68;Precision Bombing;284;M.B.339
+7;Tanker (Boom Only);69;Laser Designation;285;SF 260 WARRIOR
+8;Tanker (Drogue Only);71;Shadowing;286;SK 60
+9;Interceptor;72;Covering;287;BAC 167 STRIKEMASTER
+10;Transport;73;Visual Identification;288;TORNADO GR-1
+11;Airborne Command Post (ACP);74;High Energy Lasing;289;IL-28 BEAGLE
+13;Missile;75;Electronic Protection (EP);291;TU-16 BADGER
+14;Electronic Warfare (EW);76;Special Operations;292;TU-22 BLINDER
+15;Antisubmarine Warfare (ASW);77;Nuclear, Biological, Chemical (NBC) Operations;293;TU-22M BACKFIRE
+16;Airborne Early Warning and Control (AEW);78;Nuclear Operations;294;TU-95 BEAR
+17;Maritime Patrol Aircraft (MPA);79;Biological Operations;295;TU-142 BEAR
+18;Search and Rescue (SAR);80;Chemical Operations;296;YAK-28 BREWER
+19;Drone;81;Aborting Mission;297;SUPER ETENDARD
+20;Remotely Piloted Vehicle (RPV);82;Standoff Operations;298;TU-160 BLACKJACK
+21;Fixed Wing Gunship;83;Combat Search and Rescue (CSAR);299;AMX
+22;Civil, Airliner;115;Air Activity 1;303;F-117 NIGHTHAWK
+23;Civil, General;116;Air Activity 2;304;G4 SUPER GALEB
+24;Lighter than Air (LTA);117;Air Activity 3;306;HAWK-2000
+25;Glider;118;Air Activity 4;307;HAWK-100
+26;Decoy;119;Air Activity 5;308;HAWK-200
+27;Helicopter (HELO);120;Air Activity 6;309;HAWK-50
+28;Attack Helicopter;121;Air Activity 7;310;HAWK-60
+29;Helicopter Gunship;122;Air Activity 8;311;IA-58 PUCARA
+30;Antisubmarine Warfare Helicopter (ASW HELO);123;Air Activity 9;312;IAR-93 ORAO
+31;Mine Warfare Helicopter;124;Air Activity 10;313;IAR-99 SOIM
+32;Transport Helicopter;125;Air Activity 11;314;JIAN JI-5M
+33;Tactical Support;126;Air Activity 12;315;A-5 FANTAN
+34;Patrol;1;Reconnaissance;316;L59 ALBATROS
+35;Miscellaneous Fixed Wing;2;Over the Horizon Targeting (OTHT);317;B-2 SPIRIT
+36;Missile Control Unit;3;Training;318;B-7 HONGZHA
+37;Surface-to-Air Missile (SAM);4;Logistics Support;319;1050E
+38;Air-to-Surface Missile (ASM);5;Antisurface Warfare;321;GR.7 HARRIER
+39;Surface-to-Surface Missile (SSM);6;Electronic Warfare (EW);322;TORNADO GR4
+40;Logistic;7;Surveillance;326;A-6E INTRUDER
+41;Air-to-Air Missile (AAM);8;Search and Rescue (SAR);327;A-6F INTRUDER
+42;Subsurface-to-Surface Missile;9;Escorting;328;A-7C CORSAIR II
+43;Surface-to-Subsurface Missile;10;Minelaying;329;A-7D CORSAIR II
+44;Cruise Missile;11;Transiting;330;A-7E CORSAIR II
+45;Ballistic Missile;12;Special Weapons Attack;331;TU-16A BADGER
+46;Airborne Land Surveillance;13;Intruding;332;TU-22A BLINDER
+47;Airborne Laser;14;Electronic Warfare Support (ES);333;TU-22B BLINDER
+48;Unmanned Aerial Vehicle (UAV);15;Communications Relay;334;TU-95A BEAR
+49;Active Electronic Decoy;16;Patrol (Ocean Surveillance);335;TU-95B BEAR
+50;Infrared Decoy;17;Airlift (Transport);336;TU-95C BEAR
+51;Chaff Decoy;18;Antisubmarine Warfare (ASW);337;TU-95D BEAR
+1;Fighter;20;Towing;338;TU-95G BEAR
+2;Fighter Bomber;21;Air Assault;339;TU-95H BEAR
+3;Attack;22;Interception;340;L-39ZA ALBATROS
+4;Bomber;23;Electronic Attack (EA);341;AL-1 AIRBORNE LASER
+5;Reconnaissance;24;Policing;342;MIRAGE 2000 N/D
+6;Tanker;25;Conventional Attack;343;GR.9 HARRIER
+7;Tanker (Boom Only);26;Medical Evacuation (MEDEVAC);511;BOMBER/ATTACK GENERAL
+8;Tanker (Drogue Only);27;Mine Countermeasures;512;E-2C HAWKEYE
+9;Interceptor;28;Search;513;E-3 SENTRY (AWACS)
+10;Transport;29;Refueling/Tanking;514;E-4 NAOC
+11;Airborne Command Post (ACP);30;Interdiction;516;EA-6 PROWLER
+13;Missile;31;Combat Air Patrol (CAP);518;EC-130 HERCULES
+14;Electronic Warfare (EW);32;Forward Air Controller (FAC);520;EF-4 WILD WEASEL
+15;Antisubmarine Warfare (ASW);33;Very Important Person (VIP) Flight;522;EP-3 ORION
+16;Airborne Early Warning and Control (AEW);34;Noncombatant Operations;525;KC-10 EXTENDER
+17;Maritime Patrol Aircraft (MPA);35;Close Air Support (CAS);526;KC-130 HERCULES
+18;Search and Rescue (SAR);36;Airborne Early Warning (AEW);527;KC-135 STRATOTANKER
+19;Drone;37;Ground Attack Tactics (GAT);528;O-1 BIRD DOG
+20;Remotely Piloted Vehicle (RPV);38;Airborne Command Post (ACP);529;O-2
+21;Fixed Wing Gunship;39;Rescue Combat Air Patrol (RESCAP);530;OV-1 MOHAWK
+22;Civil, Airliner;40;Surface Combat Air Patrol (SUCAP);531;OV-10 BRONCO
+23;Civil, General;42;Spotting;533;P-3 ORION
+24;Lighter than Air (LTA);43;Strike Warfare;534;RC-130 HERCULES
+25;Glider;44;Special;535;RC-135
+26;Decoy;45;Hijack;536;RF-4 PHANTOM II
+27;Helicopter (HELO);46;Jammer;537;RF-5
+28;Attack Helicopter;47;Trooplift;539;RF-14 TOMCAT
+29;Helicopter Gunship;48;XRay;540;RF-104 STARFIGHTER
+30;Antisubmarine Warfare Helicopter (ASW HELO);49;Antiair Warfare (AAW);541;RP-3 ORION
+31;Mine Warfare Helicopter;50;Command and Control;542;RU-21 UTE
+32;Transport Helicopter;51;Counter-Air Warfare;543;S-2 TRACKER
+33;Tactical Support;52;Return to Base (RTB);544;S-3B VIKING
+34;Patrol;53;Mine Warfare;545;SR-71 BLACKBIRD
+35;Miscellaneous Fixed Wing;54;Chaff Laying;546;U-2
+36;Missile Control Unit;55;Video Data Linking (Targeting);547;U-4 AERO COMMANDER
+37;Surface-to-Air Missile (SAM);56;Dipping;549;U-8 SEMINOLE
+38;Air-to-Surface Missile (ASM);58;Orbiting;550;U-10 COURIER
+39;Surface-to-Surface Missile (SSM);59;Under Recall;551;UC-12 HURON
+40;Logistic;60;Engaging;552;U-21 UTE
+41;Air-to-Air Missile (AAM);61;Engaging (Priority Kill);553;US-3 VIKING
+42;Subsurface-to-Surface Missile;62;Investigating;554;OA-37 DRAGONFLY
+43;Surface-to-Subsurface Missile;63;Cleared to Drop;555;TR-1
+44;Cruise Missile;64;Intervening;556;WC-130 HERCULES
+45;Ballistic Missile;65;Diverting;561;SEA SCAN
+46;Airborne Land Surveillance;66;Air-to-ground;562;FALCON 20 GUARDIAN
+47;Airborne Laser;67;Air-to-air;563;BR 1150 ATL1
+48;Unmanned Aerial Vehicle (UAV);68;Precision Bombing;564;RF-35XD DRAKEN
+49;Active Electronic Decoy;69;Laser Designation;565;BN-2T MARITIME DEFENDER
+50;Infrared Decoy;71;Shadowing;568;CP-140 AURORA
+51;Chaff Decoy;72;Covering;569;HS.748 COASTGUARDER
+1;Fighter;73;Visual Identification;570;NIMROD MR2
+2;Fighter Bomber;74;High Energy Lasing;572;MK.3
+3;Attack;75;Electronic Protection (EP);573;RJ-1 HAWK
+4;Bomber;76;Special Operations;574;RJ-1 JASTREB
+5;Reconnaissance;77;Nuclear, Biological, Chemical (NBC) Operations;577;KC-97
+6;Tanker;78;Nuclear Operations;578;AU-24
+7;Tanker (Boom Only);79;Biological Operations;579;AU-23
+8;Tanker (Drogue Only);80;Chemical Operations;581;U-17
+9;Interceptor;81;Aborting Mission;582;HU-16
+10;Transport;82;Standoff Operations;583;U-9
+11;Airborne Command Post (ACP);83;Combat Search and Rescue (CSAR);584;U-3
+13;Missile;115;Air Activity 1;586;NKC-135
+14;Electronic Warfare (EW);116;Air Activity 2;588;RF-111
+15;Antisubmarine Warfare (ASW);117;Air Activity 3;592;BE-12 MAIL
+16;Airborne Early Warning and Control (AEW);118;Air Activity 4;593;IL-38 MAY
+17;Maritime Patrol Aircraft (MPA);119;Air Activity 5;594;TU-126 MOSS
+18;Search and Rescue (SAR);120;Air Activity 6;596;VC-10 (TANKER)
+19;Drone;121;Air Activity 7;597;AN-12 CUB-A (ELINT)
+20;Remotely Piloted Vehicle (RPV);122;Air Activity 8;598;AN-12 CUB-C (EA)
+21;Fixed Wing Gunship;123;Air Activity 9;599;AN-12 CUB-D (EA)
+22;Civil, Airliner;124;Air Activity 10;600;IL-20 COOT-A (ELINT)
+23;Civil, General;125;Air Activity 11;601;IL-76 MAINSTAY
+24;Lighter than Air (LTA);126;Air Activity 12;602;E-8C (JSTARS)
+25;Glider;1;Reconnaissance;603;TORNADO ECR
+26;Decoy;2;Over the Horizon Targeting (OTHT);605;EMB-111
+27;Helicopter (HELO);3;Training;606;MU-2S
+28;Attack Helicopter;4;Logistics Support;607;A40 ALBATROS
+29;Helicopter Gunship;5;Antisurface Warfare;608;BE42 MERMAID
+30;Antisubmarine Warfare Helicopter (ASW HELO);6;Electronic Warfare (EW);609;CL215 AMPHIBIAN
+31;Mine Warfare Helicopter;7;Surveillance;610;IAI 1125
+32;Transport Helicopter;8;Search and Rescue (SAR);611;IL22 COOT B
+33;Tactical Support;9;Escorting;612;J32 LANSEN
+34;Patrol;10;Minelaying;613;SH5 HARBIN
+35;Miscellaneous Fixed Wing;11;Transiting;617;US1 (SHIN)
+36;Missile Control Unit;12;Special Weapons Attack;619;CESSNA 550 CITATION II
+37;Surface-to-Air Missile (SAM);13;Intruding;620;CESSNA 560 CITATION V
+38;Air-to-Surface Missile (ASM);14;Electronic Warfare Support (ES);622;DORNIER 27
+39;Surface-to-Surface Missile (SSM);15;Communications Relay;624;NIMROD MRA4
+40;Logistic;16;Patrol (Ocean Surveillance);625;CP-140A ARCTURUS
+41;Air-to-Air Missile (AAM);17;Airlift (Transport);626;RC-135 RIVET JOINT
+42;Subsurface-to-Surface Missile;18;Antisubmarine Warfare (ASW);627;ATL 2
+43;Surface-to-Subsurface Missile;20;Towing;628;ETENDARD IV P
+44;Cruise Missile;21;Air Assault;629;ALIZE
+45;Ballistic Missile;22;Interception;630;FALCON 50
+46;Airborne Land Surveillance;23;Electronic Attack (EA);631;MIRAGE IV
+47;Airborne Laser;24;Policing;632;MIRAGE 2000
+48;Unmanned Aerial Vehicle (UAV);25;Conventional Attack;633;BR 1150 GE ATL ASW
+49;Active Electronic Decoy;26;Medical Evacuation (MEDEVAC);634;BR 1150 GE ATL SIGINT
+50;Infrared Decoy;27;Mine Countermeasures;636;ASTOR
+51;Chaff Decoy;28;Search;637;E-3A SENTRY (AWACS)
+1;Fighter;29;Refueling/Tanking;638;E-3B/C SENTRY (AWACS)
+2;Fighter Bomber;30;Interdiction;639;E-3D SENTRY (AWACS)
+3;Attack;31;Combat Air Patrol (CAP);640;E-3F SENTRY (AWACS)
+4;Bomber;32;Forward Air Controller (FAC);641;E-4B NAOC
+5;Reconnaissance;33;Very Important Person (VIP) Flight;642;EA-6B PROWLER
+6;Tanker;34;Noncombatant Operations;643;EC-130E HERCULES
+7;Tanker (Boom Only);35;Close Air Support (CAS);644;EC-130H HERCULES
+8;Tanker (Drogue Only);36;Airborne Early Warning (AEW);645;EC-130J HERCULES
+9;Interceptor;37;Ground Attack Tactics (GAT);646;NIMROD R
+10;Transport;38;Airborne Command Post (ACP);647;KC-10A EXTENDER
+11;Airborne Command Post (ACP);39;Rescue Combat Air Patrol (RESCAP);648;KC-130J HERCULES
+13;Missile;40;Surface Combat Air Patrol (SUCAP);649;OV-2A SKYMASTER
+14;Electronic Warfare (EW);42;Spotting;650;U-2R
+15;Antisubmarine Warfare (ASW);43;Strike Warfare;651;US-3A VIKING
+16;Airborne Early Warning and Control (AEW);44;Special;652;WC-130J HERCULES
+17;Maritime Patrol Aircraft (MPA);45;Hijack;653;U-2S
+18;Search and Rescue (SAR);46;Jammer;654;AN-12 CUB-B (ELINT)
+19;Drone;47;Trooplift;655;IL-76 CANDID-B
+20;Remotely Piloted Vehicle (RPV);48;XRay;656;E-6A TACAMO
+21;Fixed Wing Gunship;49;Antiair Warfare (AAW);657;CL-415 AMPHIBIAN
+22;Civil, Airliner;50;Command and Control;658;A-4M SKYHAWK
+23;Civil, General;51;Counter-Air Warfare;659;TU-16B BADGER
+24;Lighter than Air (LTA);52;Return to Base (RTB);660;TU-16C BADGER
+25;Glider;53;Mine Warfare;661;TU-16D BADGER
+26;Decoy;54;Chaff Laying;662;TU-16E BADGER
+27;Helicopter (HELO);55;Video Data Linking (Targeting);663;TU-16F BADGER
+28;Attack Helicopter;56;Dipping;664;TU-16G BADGER
+29;Helicopter Gunship;58;Orbiting;665;TU-16H BADGER
+30;Antisubmarine Warfare Helicopter (ASW HELO);59;Under Recall;666;TU-16J BADGER
+31;Mine Warfare Helicopter;60;Engaging;667;TU-16K BADGER
+32;Transport Helicopter;61;Engaging (Priority Kill);668;TU-16M BADGER
+33;Tactical Support;62;Investigating;669;TU-22C BLINDER
+34;Patrol;63;Cleared to Drop;670;TU-95E BEAR
+35;Miscellaneous Fixed Wing;64;Intervening;671;TU-95F BEAR
+36;Missile Control Unit;65;Diverting;672;RC-135 COBRA BALL
+37;Surface-to-Air Missile (SAM);66;Air-to-ground;673;RC-135 COMBAT SENT
+38;Air-to-Surface Missile (ASM);67;Air-to-air;674;E/A-18G GROWLER
+39;Surface-to-Surface Missile (SSM);68;Precision Bombing;675;HU-25 GUARDIAN
+40;Logistic;69;Laser Designation;676;A310 MRTT
+41;Air-to-Air Missile (AAM);71;Shadowing;677;MIRAGE F1 CR
+42;Subsurface-to-Surface Missile;72;Covering;678;E-6B ABNCP
+43;Surface-to-Subsurface Missile;73;Visual Identification;679;AN-28 BRYZA B1R
+44;Cruise Missile;74;High Energy Lasing;680;P-8A MMA
+45;Ballistic Missile;75;Electronic Protection (EP);762;TANKER
+46;Airborne Land Surveillance;76;Special Operations;763;RECONNAISSANCE (RECON)
+47;Airborne Laser;77;Nuclear, Biological, Chemical (NBC) Operations;764;ELECTRONIC WARFARE (EW)
+48;Unmanned Aerial Vehicle (UAV);78;Nuclear Operations;765;ASW
+49;Active Electronic Decoy;79;Biological Operations;766;AEW AND C
+50;Infrared Decoy;80;Chemical Operations;767;MISCELLANEOUS GENERAL
+51;Chaff Decoy;81;Aborting Mission;768;T-2 BUCKEYE
+1;Fighter;82;Standoff Operations;769;T-28 TROJAN
+2;Fighter Bomber;83;Combat Search and Rescue (CSAR);770;T-29
+3;Attack;115;Air Activity 1;771;T-34 MENTOR
+4;Bomber;116;Air Activity 2;772;T-37 TWEET
+5;Reconnaissance;117;Air Activity 3;773;T-38 TALON
+6;Tanker;118;Air Activity 4;774;T-39 SABRELINER
+7;Tanker (Boom Only);119;Air Activity 5;775;T-41 MESCALERO
+8;Tanker (Drogue Only);120;Air Activity 6;776;T-42 COCHISE
+9;Interceptor;121;Air Activity 7;777;T-43
+10;Transport;122;Air Activity 8;778;T-44 KING AIR
+11;Airborne Command Post (ACP);123;Air Activity 9;779;TA-4 SKYHAWK
+13;Missile;124;Air Activity 10;780;TA-7 CORSAIR II
+14;Electronic Warfare (EW);125;Air Activity 11;781;T-33
+15;Antisubmarine Warfare (ASW);126;Air Activity 12;782;ALPHA JET
+16;Airborne Early Warning and Control (AEW);1;Reconnaissance;783;B3LA
+17;Maritime Patrol Aircraft (MPA);2;Over the Horizon Targeting (OTHT);784;C-101 AVIOJET
+18;Search and Rescue (SAR);3;Training;785;G2-A GALEB
+19;Drone;4;Logistics Support;786;G2-A SEAGULL
+20;Remotely Piloted Vehicle (RPV);5;Antisurface Warfare;787;L-29 DELFIN
+21;Fixed Wing Gunship;6;Electronic Warfare (EW);789;L-39 ALBATROS
+22;Civil, Airliner;7;Surveillance;790;L-70 MILTRAINER
+23;Civil, General;8;Search and Rescue (SAR);791;L-450
+24;Lighter than Air (LTA);9;Escorting;792;P.55
+25;Glider;10;Minelaying;793;T-2
+26;Decoy;11;Transiting;794;CM 170 MAGISTER
+27;Helicopter (HELO);12;Special Weapons Attack;795;M.B.339
+28;Attack Helicopter;13;Intruding;797;CM AU/ MAGISTER
+29;Helicopter Gunship;14;Electronic Warfare Support (ES);799;SF-260
+30;Antisubmarine Warfare Helicopter (ASW HELO);15;Communications Relay;800;SH 37 VIGGEN
+31;Mine Warfare Helicopter;16;Patrol (Ocean Surveillance);802;SK 37 VIGGEN
+32;Transport Helicopter;17;Airlift (Transport);803;SK 60
+33;Tactical Support;18;Antisubmarine Warfare (ASW);804;TB30 EPSILON
+34;Patrol;20;Towing;805;TF-35XD
+35;Miscellaneous Fixed Wing;21;Air Assault;806;TJ-1 HAWK
+36;Missile Control Unit;22;Interception;807;TJ-1 JASTREB
+37;Surface-to-Air Missile (SAM);23;Electronic Attack (EA);808;TS.11 SPARK
+38;Air-to-Surface Missile (ASM);24;Policing;809;AW1-2 FAN TRAINER
+39;Surface-to-Surface Missile (SSM);25;Conventional Attack;811;HJT-16 KIRAN
+40;Logistic;26;Medical Evacuation (MEDEVAC);812;MBB223 FLAMINGO
+41;Air-to-Air Missile (AAM);27;Mine Countermeasures;813;SU-11 MAIDEN
+42;Subsurface-to-Surface Missile;28;Search;814;SU-15C
+43;Surface-to-Subsurface Missile;29;Refueling/Tanking;815;MIG-15 MIDGET
+44;Cruise Missile;30;Interdiction;816;MIG-17
+45;Ballistic Missile;31;Combat Air Patrol (CAP);817;MIG-21U MONGOL
+46;Airborne Land Surveillance;32;Forward Air Controller (FAC);818;MIG-23C
+47;Airborne Laser;33;Very Important Person (VIP) Flight;819;MIG-25C
+48;Unmanned Aerial Vehicle (UAV);34;Noncombatant Operations;820;YAK-11 MOOSE
+49;Active Electronic Decoy;35;Close Air Support (CAS);821;YAK-18 MAX
+50;Infrared Decoy;36;Airborne Early Warning (AEW);822;YAK-28 MAESTRO
+51;Chaff Decoy;37;Ground Attack Tactics (GAT);824;T-46A
+1;Fighter;38;Airborne Command Post (ACP);825;EMB-312 TOUCAN
+2;Fighter Bomber;39;Rescue Combat Air Patrol (RESCAP);826;T-45 GOSHAWK
+3;Attack;40;Surface Combat Air Patrol (SUCAP);827;T-47
+4;Bomber;42;Spotting;828;AS202
+5;Reconnaissance;43;Strike Warfare;829;CT114 TUTOR
+6;Tanker;44;Special;830;G91T (FIAT JET 1)
+7;Tanker (Boom Only);45;Hijack;831;K8 (NAMC)
+8;Tanker (Drogue Only);46;Jammer;832;L70 VINKA
+9;Interceptor;47;Trooplift;833;STRIKEMASTER
+10;Transport;48;XRay;834;T1 JAYHAWK
+11;Airborne Command Post (ACP);49;Antiair Warfare (AAW);835;T4
+13;Missile;50;Command and Control;836;CT-142 DASH 8
+14;Electronic Warfare (EW);51;Counter-Air Warfare;837;B-55 BARON
+15;Antisubmarine Warfare (ASW);52;Return to Base (RTB);838;F-33 BONANZA
+16;Airborne Early Warning and Control (AEW);53;Mine Warfare;839;839 PILLAN-TAMIZ
+17;Maritime Patrol Aircraft (MPA);54;Chaff Laying;840;CT-133 SILVERSTAR
+18;Search and Rescue (SAR);55;Video Data Linking (Targeting);841;TU-22D BLINDER
+19;Drone;56;Dipping;842;T10 HARRIER
+20;Remotely Piloted Vehicle (RPV);58;Orbiting;843;TAV-8B HARRIER
+21;Fixed Wing Gunship;59;Under Recall;844;L-39C ALBATROS
+22;Civil, Airliner;60;Engaging;845;L-39MS ALBATROS
+23;Civil, General;61;Engaging (Priority Kill);846;L-39Y ALBATROS
+24;Lighter than Air (LTA);62;Investigating;847;L-39ZO ALBATROS
+25;Glider;63;Cleared to Drop;848;SU-17E FITTER
+26;Decoy;64;Intervening;849;SU-17G FITTER
+27;Helicopter (HELO);65;Diverting;850;YAK-38B FORGER
+28;Attack Helicopter;66;Air-to-ground;851;CT-155 HAWK
+29;Helicopter Gunship;67;Air-to-air;852;CT-156 HARVARD
+30;Antisubmarine Warfare Helicopter (ASW HELO);68;Precision Bombing;853;PZL-130T ORLIK
+31;Mine Warfare Helicopter;69;Laser Designation;927;TRAINER GENERAL
+32;Transport Helicopter;71;Shadowing;928;GLOBAL HAWK
+33;Tactical Support;72;Covering;929;PREDATOR A
+34;Patrol;73;Visual Identification;930;PREDATOR B
+35;Miscellaneous Fixed Wing;74;High Energy Lasing;931;SHADOW 200
+36;Missile Control Unit;75;Electronic Protection (EP);932;HUNTER
+37;Surface-to-Air Missile (SAM);76;Special Operations;933;SILVER FOX
+38;Air-to-Surface Missile (ASM);77;Nuclear, Biological, Chemical (NBC) Operations;934;DRAGON EYE
+39;Surface-to-Surface Missile (SSM);78;Nuclear Operations;935;FIRE SCOUT
+40;Logistic;79;Biological Operations;936;EAGLE
+41;Air-to-Air Missile (AAM);80;Chemical Operations;937;CRECERELLE
+42;Subsurface-to-Surface Missile;81;Aborting Mission;938;SHARC
+43;Surface-to-Subsurface Missile;82;Standoff Operations;939;HERON
+44;Cruise Missile;83;Combat Search and Rescue (CSAR);940;RANGER
+45;Ballistic Missile;115;Air Activity 1;941;SPERWER
+46;Airborne Land Surveillance;116;Air Activity 2;1020;TACTICAL UNMANNED AERIAL VEHICLE (TUAV) GENERAL
+47;Airborne Laser;117;Air Activity 3;1021;UNMANNED AERIAL VEHICLE (UAV) GENERAL
+48;Unmanned Aerial Vehicle (UAV);118;Air Activity 4;1022;UNMANNED COMBAT AIR VEHICLE (UCAV) GENERAL
+49;Active Electronic Decoy;119;Air Activity 5;1024;C-1 COD
+50;Infrared Decoy;120;Air Activity 6;1025;C-2 GREYHOUND
+51;Chaff Decoy;121;Air Activity 7;1026;C-5 GALAXY
+1;Fighter;122;Air Activity 8;1027;C-7 CARIBOU
+2;Fighter Bomber;123;Air Activity 9;1028;C-9 NIGHTINGALE
+3;Attack;124;Air Activity 10;1029;C-12 HURON
+4;Bomber;125;Air Activity 11;1030;C-123 PROVIDER
+5;Reconnaissance;126;Air Activity 12;1031;C-130 HERCULES
+6;Tanker;1;Reconnaissance;1032;C-135 STRATOLIFTER
+7;Tanker (Boom Only);2;Over the Horizon Targeting (OTHT);1033;C-140 JETSTAR
+8;Tanker (Drogue Only);3;Training;1034;C-141 STARLIFTER
+9;Interceptor;4;Logistics Support;1035;HC-130 HERCULES
+10;Transport;5;Antisurface Warfare;1036;VC-6 KING AIR
+11;Airborne Command Post (ACP);6;Electronic Warfare (EW);1037;VC-9 SKYTRAIN II
+13;Missile;7;Surveillance;1038;VC-11 GULFSTREAM
+14;Electronic Warfare (EW);8;Search and Rescue (SAR);1039;VC-137
+15;Antisubmarine Warfare (ASW);9;Escorting;1040;B707
+16;Airborne Early Warning and Control (AEW);10;Minelaying;1041;B720
+17;Maritime Patrol Aircraft (MPA);11;Transiting;1042;B727
+18;Search and Rescue (SAR);12;Special Weapons Attack;1043;B737
+19;Drone;13;Intruding;1044;B747
+20;Remotely Piloted Vehicle (RPV);14;Electronic Warfare Support (ES);1045;B757
+21;Fixed Wing Gunship;15;Communications Relay;1046;B767
+22;Civil, Airliner;16;Patrol (Ocean Surveillance);1047;L-100 HERCULES
+23;Civil, General;17;Airlift (Transport);1048;L-1011 TRI STAR
+24;Lighter than Air (LTA);18;Antisubmarine Warfare (ASW);1049;DC-8
+25;Glider;20;Towing;1050;DC-9
+26;Decoy;21;Air Assault;1051;DC-10
+27;Helicopter (HELO);22;Interception;1052;C-119
+28;Attack Helicopter;23;Electronic Attack (EA);1053;DC-130
+29;Helicopter Gunship;24;Policing;1054;HC-97
+30;Antisubmarine Warfare Helicopter (ASW HELO);25;Conventional Attack;1055;C-JM
+31;Mine Warfare Helicopter;26;Medical Evacuation (MEDEVAC);1056;C-54
+32;Transport Helicopter;27;Mine Countermeasures;1057;C-97
+33;Tactical Support;28;Search;1058;C-118
+34;Patrol;29;Refueling/Tanking;1060;C-121
+35;Miscellaneous Fixed Wing;30;Interdiction;1061;C-124
+36;Missile Control Unit;31;Combat Air Patrol (CAP);1062;C-131
+37;Surface-to-Air Missile (SAM);32;Forward Air Controller (FAC);1063;C-133
+38;Air-to-Surface Missile (ASM);33;Very Important Person (VIP) Flight;1064;VC-47
+39;Surface-to-Surface Missile (SSM);34;Noncombatant Operations;1065;CV-54
+40;Logistic;35;Close Air Support (CAS);1066;CV-140
+41;Air-to-Air Missile (AAM);36;Airborne Early Warning (AEW);1067;ARAVA
+42;Subsurface-to-Surface Missile;37;Ground Attack Tactics (GAT);1069;BN-2B ISLANDER
+43;Surface-to-Subsurface Missile;38;Airborne Command Post (ACP);1070;SKYVAN
+44;Cruise Missile;39;Rescue Combat Air Patrol (RESCAP);1071;TRIDENT
+45;Ballistic Missile;40;Surface Combat Air Patrol (SUCAP);1072;A300 AIRBUS
+46;Airborne Land Surveillance;42;Spotting;1073;A310 AIRBUS
+47;Airborne Laser;43;Strike Warfare;1075;C-160 TRANSALL
+48;Unmanned Aerial Vehicle (UAV);44;Special;1076;C.207 AZOR
+49;Active Electronic Decoy;45;Hijack;1077;C-212 AVIOCAR
+50;Infrared Decoy;46;Jammer;1078;F27 FRIENDSHIP
+51;Chaff Decoy;47;Trooplift;1079;F28 FELLOWSHIP
+1;Fighter;48;XRay;1080;G222 SAMA
+2;Fighter Bomber;49;Antiair Warfare (AAW);1081;AW.660 ARGOSY
+3;Attack;50;Command and Control;1082;BAC1-11
+4;Bomber;51;Counter-Air Warfare;1083;DHC-5 BUFFALO
+5;Reconnaissance;52;Return to Base (RTB);1084;DHC-7 DASH
+6;Tanker;53;Mine Warfare;1085;AN-2 COLT
+7;Tanker (Boom Only);54;Chaff Laying;1086;AN-10 CAT
+8;Tanker (Drogue Only);55;Video Data Linking (Targeting);1087;AN-12 CUB
+9;Interceptor;56;Dipping;1088;AN-14 CLOD
+10;Transport;58;Orbiting;1089;AN-22 COCK
+11;Airborne Command Post (ACP);59;Under Recall;1090;AN-24 COKE
+13;Missile;60;Engaging;1091;AN-26 CURL
+14;Electronic Warfare (EW);61;Engaging (Priority Kill);1092;AN-28 CASH
+15;Antisubmarine Warfare (ASW);62;Investigating;1093;AN-30 CLANK
+16;Airborne Early Warning and Control (AEW);63;Cleared to Drop;1094;AN-32 CLINE
+17;Maritime Patrol Aircraft (MPA);64;Intervening;1095;AN-40
+18;Search and Rescue (SAR);65;Diverting;1096;AN-72 COALER
+19;Drone;66;Air-to-ground;1097;IL-12 COACH
+20;Remotely Piloted Vehicle (RPV);67;Air-to-air;1098;IL-18 COOT
+21;Fixed Wing Gunship;68;Precision Bombing;1099;IL-62 CLASSIC
+22;Civil, Airliner;69;Laser Designation;1100;IL-76 CANDID
+23;Civil, General;71;Shadowing;1101;IL-86 CAMBER
+24;Lighter than Air (LTA);72;Covering;1102;TU-114 CLEAT
+25;Glider;73;Visual Identification;1103;TU-134 CRUSTY
+26;Decoy;74;High Energy Lasing;1104;TU-144 CHARGER
+27;Helicopter (HELO);75;Electronic Protection (EP);1105;TU-154 CARELESS
+28;Attack Helicopter;76;Special Operations;1106;YAK-40 CODLING
+29;Helicopter Gunship;77;Nuclear, Biological, Chemical (NBC) Operations;1107;YAK-42 CLOBBER
+30;Antisubmarine Warfare Helicopter (ASW HELO);78;Nuclear Operations;1108;TU-104
+31;Mine Warfare Helicopter;79;Biological Operations;1109;YAK-27
+32;Transport Helicopter;80;Chemical Operations;1110;IL-38
+33;Tactical Support;81;Aborting Mission;1112;DO-228 LT (TRANSPORT)
+34;Patrol;82;Standoff Operations;1114;AN-74
+35;Miscellaneous Fixed Wing;83;Combat Search and Rescue (CSAR);1115;AN-124 CONDOR
+36;Missile Control Unit;115;Air Activity 1;1116;A320 AIRBUS
+37;Surface-to-Air Missile (SAM);116;Air Activity 2;1117;A321 AIRBUS
+38;Air-to-Surface Missile (ASM);117;Air Activity 3;1118;A330 AIRBUS
+39;Surface-to-Surface Missile (SSM);118;Air Activity 4;1119;A340 AIRBUS
+40;Logistic;119;Air Activity 5;1120;AN-70
+41;Air-to-Air Missile (AAM);120;Air Activity 6;1121;AN-225 COSSACK
+42;Subsurface-to-Surface Missile;121;Air Activity 7;1122;BAE-125-600
+43;Surface-to-Subsurface Missile;122;Air Activity 8;1123;BAE146
+44;Cruise Missile;123;Air Activity 9;1124;B777
+45;Ballistic Missile;124;Air Activity 10;1125;C-17 GLOBEMASTER III
+46;Airborne Land Surveillance;125;Air Activity 11;1126;C-20 GULFSTREAM 3/4
+47;Airborne Laser;126;Air Activity 12;1127;C-21 LEARJET 35
+48;Unmanned Aerial Vehicle (UAV);1;Reconnaissance;1128;C-22
+49;Active Electronic Decoy;2;Over the Horizon Targeting (OTHT);1129;C-23 SHERPA/SHORTS 330
+50;Infrared Decoy;3;Training;1130;C-26 METRO 3
+51;Chaff Decoy;4;Logistics Support;1131;YS 11
+1;Fighter;5;Antisurface Warfare;1132;CL-600 CHALLENGER
+2;Fighter Bomber;6;Electronic Warfare (EW);1133;CL-601 CHALLENGER
+3;Attack;7;Surveillance;1134;CN-235M
+4;Bomber;8;Search and Rescue (SAR);1135;EMB-120 BRASILLIA ADV
+5;Reconnaissance;9;Escorting;1136;EMB-145 AMAZON
+6;Tanker;10;Minelaying;1137;IL-78 MIDAS
+7;Tanker (Boom Only);11;Transiting;1138;MD-11
+8;Tanker (Drogue Only);12;Special Weapons Attack;1139;MD-80
+9;Interceptor;13;Intruding;1140;MD-90
+10;Transport;14;Electronic Warfare Support (ES);1141;PD-808
+11;Airborne Command Post (ACP);15;Communications Relay;1142;TU-44
+13;Missile;16;Patrol (Ocean Surveillance);1143;V-22 OSPREY
+14;Electronic Warfare (EW);17;Airlift (Transport);1144;VC-25
+15;Antisubmarine Warfare (ASW);18;Antisubmarine Warfare (ASW);1145;XC-2
+16;Airborne Early Warning and Control (AEW);20;Towing;1146;IAI 1124
+17;Maritime Patrol Aircraft (MPA);21;Air Assault;1147;1900
+18;Search and Rescue (SAR);22;Interception;1149;580
+19;Drone;23;Electronic Attack (EA);1150;ATR42
+20;Remotely Piloted Vehicle (RPV);24;Policing;1153;C46 COMMANDO
+21;Fixed Wing Gunship;25;Conventional Attack;1154;CARAVELL
+22;Civil, Airliner;26;Medical Evacuation (MEDEVAC);1155;CC109
+23;Civil, General;27;Mine Countermeasures;1157;DHC2
+24;Lighter than Air (LTA);28;Search;1158;DHC6 TWIN OTTER
+25;Glider;29;Refueling/Tanking;1159;DHC8
+26;Decoy;30;Interdiction;1160;EMB110 BANDEIRANTE
+27;Helicopter (HELO);31;Combat Air Patrol (CAP);1161;EMB121
+28;Attack Helicopter;32;Forward Air Controller (FAC);1162;FALCON 200/FALCON 20
+29;Helicopter Gunship;33;Very Important Person (VIP) Flight;1163;FALCON 50
+30;Antisubmarine Warfare Helicopter (ASW HELO);34;Noncombatant Operations;1164;FALCON 900
+31;Mine Warfare Helicopter;35;Close Air Support (CAS);1165;FH227 FRIENDSHIP
+32;Transport Helicopter;36;Airborne Early Warning (AEW);1166;FOKKER 100
+33;Tactical Support;37;Ground Attack Tactics (GAT);1167;FOKKER 50
+34;Patrol;38;Airborne Command Post (ACP);1168;FOKKER 60
+35;Miscellaneous Fixed Wing;39;Rescue Combat Air Patrol (RESCAP);1169;FOKKER 70
+36;Missile Control Unit;40;Surface Combat Air Patrol (SUCAP);1170;GROB G850
+37;Surface-to-Air Missile (SAM);42;Spotting;1171;GULFSTREAM 1
+38;Air-to-Surface Missile (ASM);43;Strike Warfare;1172;GULFSTREAM 2
+39;Surface-to-Surface Missile (SSM);44;Special;1173;JETSTREAM
+40;Logistic;45;Hijack;1174;JETSTREAM 31
+41;Air-to-Air Missile (AAM);46;Jammer;1175;KING AIR
+42;Subsurface-to-Surface Missile;47;Trooplift;1176;L410 TURBOJET
+43;Surface-to-Subsurface Missile;48;XRay;1177;LEARJET 23
+44;Cruise Missile;49;Antiair Warfare (AAW);1178;LEARJET 24
+45;Ballistic Missile;50;Command and Control;1179;LEARJET 25 (IMPROVED VER 28)
+46;Airborne Land Surveillance;51;Counter-Air Warfare;1180;LEARJET 35/36
+47;Airborne Laser;52;Return to Base (RTB);1181;LEARJET 55 (IMPROVED VER 28)
+48;Unmanned Aerial Vehicle (UAV);53;Mine Warfare;1182;LEARJET 60
+49;Active Electronic Decoy;54;Chaff Laying;1183;MERLIN 2
+50;Infrared Decoy;55;Video Data Linking (Targeting);1184;MERLIN 3
+51;Chaff Decoy;56;Dipping;1185;MERLIN 4
+1;Fighter;58;Orbiting;1186;METRO 3
+2;Fighter Bomber;59;Under Recall;1187;SAAB 2000
+3;Attack;60;Engaging;1188;SAAB 340
+4;Bomber;61;Engaging (Priority Kill);1189;SABRELINER
+5;Reconnaissance;62;Investigating;1190;U6 BEAVER
+6;Tanker;63;Cleared to Drop;1191;VISCOUNT
+7;Tanker (Boom Only);64;Intervening;1193;Y11
+8;Tanker (Drogue Only);65;Diverting;1194;Y12
+9;Interceptor;66;Air-to-ground;1195;Y5
+10;Transport;67;Air-to-air;1196;CC-115 BUFFALO
+11;Airborne Command Post (ACP);68;Precision Bombing;1197;CC-130 HERCULES
+13;Missile;69;Laser Designation;1198;CC-150 POLARIS
+14;Electronic Warfare (EW);71;Shadowing;1199;C-235 CASA
+15;Antisubmarine Warfare (ASW);72;Covering;1200;CC-138 TWIN OTTER
+16;Airborne Early Warning and Control (AEW);73;Visual Identification;1201;DO-228 LM (POLLUTION CONTROL)
+17;Maritime Patrol Aircraft (MPA);74;High Energy Lasing;1202;C-9 SKYTRAIN
+18;Search and Rescue (SAR);75;Electronic Protection (EP);1203;C-9B SKYTRAIN II
+19;Drone;76;Special Operations;1204;A319 AIRBUS
+20;Remotely Piloted Vehicle (RPV);77;Nuclear, Biological, Chemical (NBC) Operations;1205;A400M AIRBUS
+21;Fixed Wing Gunship;78;Nuclear Operations;1206;MV-22 OSPREY
+22;Civil, Airliner;79;Biological Operations;1207;MC-130H/J COMBAT TALON
+23;Civil, General;80;Chemical Operations;1208;C-130 H-30 HERCULES
+24;Lighter than Air (LTA);81;Aborting Mission;1209;C-130 J-30 HERCULES
+25;Glider;82;Standoff Operations;1210;TBM 700
+26;Decoy;83;Combat Search and Rescue (CSAR);1211;C-130J HERCULES
+27;Helicopter (HELO);115;Air Activity 1;1212;M-28
+28;Attack Helicopter;116;Air Activity 2;1278;LIGHT CIVIL
+29;Helicopter Gunship;117;Air Activity 3;1279;TRANSPORT/AIRLINER GENERAL
+30;Antisubmarine Warfare Helicopter (ASW HELO);118;Air Activity 4;1280;AH-1 COBRA
+31;Mine Warfare Helicopter;119;Air Activity 5;1281;AH-64 APACHE
+32;Transport Helicopter;120;Air Activity 6;1282;CH-3
+33;Tactical Support;121;Air Activity 7;1283;CH-46 SEA KNIGHT
+34;Patrol;122;Air Activity 8;1284;CH-47 CHINOOK
+35;Miscellaneous Fixed Wing;123;Air Activity 9;1285;CH-53 SEA STALLION
+36;Missile Control Unit;124;Air Activity 10;1286;CH-54 LARKE (SKYCRANE)
+37;Surface-to-Air Missile (SAM);125;Air Activity 11;1287;EH-60B QUICK FIX
+38;Air-to-Surface Missile (ASM);126;Air Activity 12;1288;HH-1 IROQUOIS
+39;Surface-to-Surface Missile (SSM);1;Reconnaissance;1289;HH-2 SEA SPRITE
+40;Logistic;2;Over the Horizon Targeting (OTHT);1290;HH-3 JOLLY GREEN
+41;Air-to-Air Missile (AAM);3;Training;1291;HH-52
+42;Subsurface-to-Surface Missile;4;Logistics Support;1292;HH-53
+43;Surface-to-Subsurface Missile;5;Antisurface Warfare;1293;OH-6
+44;Cruise Missile;6;Electronic Warfare (EW);1294;OH-58 KIOWA
+45;Ballistic Missile;7;Surveillance;1295;RH-3 SEA KING
+46;Airborne Land Surveillance;8;Search and Rescue (SAR);1296;RH-53
+47;Airborne Laser;9;Escorting;1297;SH-2 SEA SPRITE
+48;Unmanned Aerial Vehicle (UAV);10;Minelaying;1298;SH-3 SEA KING
+49;Active Electronic Decoy;11;Transiting;1299;SH-60 SEA HAWK
+50;Infrared Decoy;12;Special Weapons Attack;1300;UH-1 IROQUOIS
+51;Chaff Decoy;13;Intruding;1301;UH-2 SEA SPRITE
+1;Fighter;14;Electronic Warfare Support (ES);1302;UH-12
+2;Fighter Bomber;15;Communications Relay;1303;UH-46
+3;Attack;16;Patrol (Ocean Surveillance);1304;UH-60 BLACKHAWK
+4;Bomber;17;Airlift (Transport);1305;CH-2U
+5;Reconnaissance;18;Antisubmarine Warfare (ASW);1306;HH-43
+6;Tanker;20;Towing;1307;A109
+7;Tanker (Boom Only);21;Air Assault;1308;A129 MONGOOSE
+8;Tanker (Drogue Only);22;Interception;1309;BO-105
+9;Interceptor;23;Electronic Attack (EA);1310;UH-1 IROQUOIS
+10;Transport;24;Policing;1311;CH-124 SEA KING
+11;Airborne Command Post (ACP);25;Conventional Attack;1312;UH-60 BLACKHAWK
+13;Missile;26;Medical Evacuation (MEDEVAC);1313;UH-60 BLACKHAWK
+14;Electronic Warfare (EW);27;Mine Countermeasures;1314;UH-60 BLACKHAWK
+15;Antisubmarine Warfare (ASW);28;Search;1315;SA 315 LAMA
+16;Airborne Early Warning and Control (AEW);29;Refueling/Tanking;1316;UH-1 IROQUOIS
+17;Maritime Patrol Aircraft (MPA);30;Interdiction;1317;UH-1 IROQUOIS
+18;Search and Rescue (SAR);31;Combat Air Patrol (CAP);1318;SA 321 SUPER FRELON
+19;Drone;32;Forward Air Controller (FAC);1319;SA 330 PUMA
+20;Remotely Piloted Vehicle (RPV);33;Very Important Person (VIP) Flight;1320;SA 332 SUPER PUMA
+21;Fixed Wing Gunship;34;Noncombatant Operations;1321;WG-13 LYNX
+22;Civil, Airliner;35;Close Air Support (CAS);1322;SA 350 ASTAR
+23;Civil, General;36;Airborne Early Warning (AEW);1323;SA 360 DAUPHIN
+24;Lighter than Air (LTA);37;Ground Attack Tactics (GAT);1324;SA 361 DAUPHIN
+25;Glider;38;Airborne Command Post (ACP);1325;WG-13 LYNX
+26;Decoy;39;Rescue Combat Air Patrol (RESCAP);1326;WG-13 LYNX
+27;Helicopter (HELO);40;Surface Combat Air Patrol (SUCAP);1327;KA-18 HOG
+28;Attack Helicopter;42;Spotting;1328;KA-20 HARP
+29;Helicopter Gunship;43;Strike Warfare;1329;KA-25 HORMONE
+30;Antisubmarine Warfare Helicopter (ASW HELO);44;Special;1330;KA-26 HOODLUM
+31;Mine Warfare Helicopter;45;Hijack;1331;MI-1 HARE
+32;Transport Helicopter;46;Jammer;1332;MI-2 HOPLITE
+33;Tactical Support;47;Trooplift;1333;MI-4 HOUND
+34;Patrol;48;XRay;1334;MI-6 HOOK
+35;Miscellaneous Fixed Wing;49;Antiair Warfare (AAW);1335;MI-8 HIP
+36;Missile Control Unit;50;Command and Control;1336;MI-10 HARKE
+37;Surface-to-Air Missile (SAM);51;Counter-Air Warfare;1337;MI-12 HOMER
+38;Air-to-Surface Missile (ASM);52;Return to Base (RTB);1338;MI-14 HAZE
+39;Surface-to-Surface Missile (SSM);53;Mine Warfare;1339;MI-24 HIND
+40;Logistic;54;Chaff Laying;1340;MI-26 HALO
+41;Air-to-Air Missile (AAM);55;Video Data Linking (Targeting);1341;CH-53E SUPER STALLION
+42;Subsurface-to-Surface Missile;56;Dipping;1342;MH-53E SEA DRAGON
+43;Surface-to-Subsurface Missile;58;Orbiting;1343;HH-60 NIGHT HAWK
+44;Cruise Missile;59;Under Recall;1344;HH-65A DOLPHIN
+45;Ballistic Missile;60;Engaging;1345;KA-27 HELIX-A (ASW)
+46;Airborne Land Surveillance;61;Engaging (Priority Kill);1346;KA-32 HELIX-C
+47;Airborne Laser;62;Investigating;1347;MI-17 HIP-H
+48;Unmanned Aerial Vehicle (UAV);63;Cleared to Drop;1348;MI-28 HAVOC
+49;Active Electronic Decoy;64;Intervening;1349;AS-355 ECUREUIL/FENNEL/ESQILO
+50;Infrared Decoy;65;Diverting;1350;KA-29 HELIX-B
+51;Chaff Decoy;66;Air-to-ground;1351;KA-50 HOKUM
+1;Fighter;67;Air-to-air;1352;204 BELL
+2;Fighter Bomber;68;Precision Bombing;1353;205 BELL
+3;Attack;69;Laser Designation;1354;206 BELL
+4;Bomber;71;Shadowing;1355;214 BELL
+5;Reconnaissance;72;Covering;1356;280 ENSTROM
+6;Tanker;73;Visual Identification;1357;300 SCHWEIZER
+7;Tanker (Boom Only);74;High Energy Lasing;1358;406 COMBAT SCOUT
+8;Tanker (Drogue Only);75;Electronic Protection (EP);1359;A 109 HIRUNDO
+9;Interceptor;76;Special Operations;1360;406 COMBAT SCOUT
+10;Transport;77;Nuclear, Biological, Chemical (NBC) Operations;1361;406 COMBAT SCOUT
+11;Airborne Command Post (ACP);78;Nuclear Operations;1362;406 COMBAT SCOUT
+13;Missile;79;Biological Operations;1363;ALOUETTE 3
+14;Electronic Warfare (EW);80;Chemical Operations;1364;AS 350 ECUREUIL
+15;Antisubmarine Warfare (ASW);81;Aborting Mission;1365;AS 532 COUGAR
+16;Airborne Early Warning and Control (AEW);82;Standoff Operations;1366;AS 550 FENNEC
+17;Maritime Patrol Aircraft (MPA);83;Combat Search and Rescue (CSAR);1367;AS 555 FENNEC
+18;Search and Rescue (SAR);115;Air Activity 1;1368;AS 565 PANTHER
+19;Drone;116;Air Activity 2;1369;EH 101
+20;Remotely Piloted Vehicle (RPV);117;Air Activity 3;1370;EH 101
+21;Fixed Wing Gunship;118;Air Activity 4;1371;EH 101
+22;Civil, Airliner;119;Air Activity 5;1372;KA-28 HELIX A
+23;Civil, General;120;Air Activity 6;1373;MD 500 DEFENDER
+24;Lighter than Air (LTA);121;Air Activity 7;1374;MI-22 HOOK
+25;Glider;122;Air Activity 8;1375;MI-25 HIND
+26;Decoy;123;Air Activity 9;1376;MI-35 HIND-V
+27;Helicopter (HELO);124;Air Activity 10;1377;MI-9 HIP
+28;Attack Helicopter;125;Air Activity 11;1378;SA 341 GAZELLE
+29;Helicopter Gunship;126;Air Activity 12;1379;SA 342 GAZELLE
+30;Antisubmarine Warfare Helicopter (ASW HELO);1;Reconnaissance;1380;SA 365 DAUPHIN 2
+31;Mine Warfare Helicopter;2;Over the Horizon Targeting (OTHT);1381;HAS-3 WESSEX
+32;Transport Helicopter;3;Training;1382;HAS-3 WESSEX
+33;Tactical Support;4;Logistics Support;1383;Z9
+34;Patrol;5;Antisurface Warfare;1384;CH-146 GRIFFON
+35;Miscellaneous Fixed Wing;6;Electronic Warfare (EW);1385;MK-7 SEA KING ASACS
+36;Missile Control Unit;7;Surveillance;1386;EH 101 MERLIN
+37;Surface-to-Air Missile (SAM);8;Search and Rescue (SAR);1387;AB-212 AUGUSTA BELL
+38;Air-to-Surface Missile (ASM);9;Escorting;1391;HUGHES 3000
+39;Surface-to-Surface Missile (SSM);10;Minelaying;1393;SH-70L
+40;Logistic;11;Transiting;1394;CH-113 LABRADOR
+41;Air-to-Air Missile (AAM);12;Special Weapons Attack;1395;NH 90 (C2)
+42;Subsurface-to-Surface Missile;13;Intruding;1396;NH 90 (RECCE)
+43;Surface-to-Subsurface Missile;14;Electronic Warfare Support (ES);1397;NH 90 (EW/SEAD)
+44;Cruise Missile;15;Communications Relay;1398;NH 90 (TRANSPORT)
+45;Ballistic Missile;16;Patrol (Ocean Surveillance);1399;SEA LYNX MK88A
+46;Airborne Land Surveillance;17;Airlift (Transport);1400;SEA KING MK41
+47;Airborne Laser;18;Antisubmarine Warfare (ASW);1401;TIGER (HAP)
+48;Unmanned Aerial Vehicle (UAV);20;Towing;1402;NH 90 (NAVY)
+49;Active Electronic Decoy;21;Air Assault;1403;TIGER (HAC)
+50;Infrared Decoy;22;Interception;1404;SA 341 GAZELLE CANON
+51;Chaff Decoy;23;Electronic Attack (EA);1405;AS 532 COUGAR HORIZON
+1;Fighter;24;Policing;1406;AW-520 SAR CORMORANT
+2;Fighter Bomber;25;Conventional Attack;1407;W3 SOKOL
+3;Attack;26;Medical Evacuation (MEDEVAC);1408;AH-1J SEA COBRA
+4;Bomber;27;Mine Countermeasures;1409;AH-1S SEA COBRA
+5;Reconnaissance;28;Search;1410;AH-1T SEA COBRA
+6;Tanker;29;Refueling/Tanking;1411;AH-64A APACHE
+7;Tanker (Boom Only);30;Interdiction;1412;EH-60 BLACKHAWK
+8;Tanker (Drogue Only);31;Combat Air Patrol (CAP);1413;UH-60A BLACKHAWK
+9;Interceptor;32;Forward Air Controller (FAC);1414;KA-25A HORMONE
+10;Transport;33;Very Important Person (VIP) Flight;1415;KA-25B HORMONE
+11;Airborne Command Post (ACP);34;Noncombatant Operations;1416;KA-25C HORMONE
+13;Missile;35;Close Air Support (CAS);1417;KA-27 HELIX
+14;Electronic Warfare (EW);36;Airborne Early Warning (AEW);1418;MI-8C HIP
+15;Antisubmarine Warfare (ASW);37;Ground Attack Tactics (GAT);1419;MI-8D-HIP
+16;Airborne Early Warning and Control (AEW);38;Airborne Command Post (ACP);1420;MI-8E HIP
+17;Maritime Patrol Aircraft (MPA);39;Rescue Combat Air Patrol (RESCAP);1421;MI-8F HIP
+18;Search and Rescue (SAR);40;Surface Combat Air Patrol (SUCAP);1422;MI-8H HIP
+19;Drone;42;Spotting;1423;MI-8J HIP
+20;Remotely Piloted Vehicle (RPV);43;Strike Warfare;1424;MI-8K HIP
+21;Fixed Wing Gunship;44;Special;1425;MI-14 HAZE-A
+22;Civil, Airliner;45;Hijack;1426;MI-14 HAZE-B
+23;Civil, General;46;Jammer;1427;MI-24 HIND-A
+24;Lighter than Air (LTA);47;Trooplift;1428;MI-24 HIND-B
+25;Glider;48;XRay;1429;MI-24 HIND-C
+26;Decoy;49;Antiair Warfare (AAW);1430;MI-24 HIND-D
+27;Helicopter (HELO);50;Command and Control;1431;MI-24 HIND-E
+28;Attack Helicopter;51;Counter-Air Warfare;1432;MH-68A STINGRAY
+29;Helicopter Gunship;52;Return to Base (RTB);1433;EC-725 COUGAR RESCO
+30;Antisubmarine Warfare Helicopter (ASW HELO);53;Mine Warfare;1434;MH-60R
+31;Mine Warfare Helicopter;54;Chaff Laying;1435;MH-60S
+32;Transport Helicopter;55;Video Data Linking (Targeting);1436;W-3W
+33;Tactical Support;56;Dipping;1437;W-3SRR
+34;Patrol;58;Orbiting;1438;W-3PPD
+35;Miscellaneous Fixed Wing;59;Under Recall;1439;MI-17 MEDEVAC
+36;Missile Control Unit;60;Engaging;1535;HELICOPTER GENERAL
+37;Surface-to-Air Missile (SAM);61;Engaging (Priority Kill);1537;AIM-7 SPARROW
+38;Air-to-Surface Missile (ASM);62;Investigating;1538;AIM-9 SIDEWINDER
+39;Surface-to-Surface Missile (SSM);63;Cleared to Drop;1539;AIM-54 PHOENIX
+40;Logistic;64;Intervening;1541;AIM-120 AMRAAM
+41;Air-to-Air Missile (AAM);65;Diverting;1542;ASLAM
+42;Subsurface-to-Surface Missile;66;Air-to-ground;1544;R.550 MAGIC 2
+43;Surface-to-Subsurface Missile;67;Air-to-air;1545;S.530 SUPER 530
+44;Cruise Missile;68;Precision Bombing;1546;ASPIDE
+45;Ballistic Missile;69;Laser Designation;1548;SHAFRIR
+46;Airborne Land Surveillance;71;Shadowing;1549;SKY FLASH
+47;Airborne Laser;72;Covering;1551;AA-2 ATOLL
+48;Unmanned Aerial Vehicle (UAV);73;Visual Identification;1552;AA-3 ANAB
+49;Active Electronic Decoy;74;High Energy Lasing;1553;AA-5 ASH
+50;Infrared Decoy;75;Electronic Protection (EP);1554;AA-6 ACRID
+51;Chaff Decoy;76;Special Operations;1555;AA-7 APEX
+1;Fighter;77;Nuclear, Biological, Chemical (NBC) Operations;1556;AA-8 APHID
+2;Fighter Bomber;78;Nuclear Operations;1558;AA-9 AMOS
+3;Attack;79;Biological Operations;1559;AA-XP-1/2
+4;Bomber;80;Chemical Operations;1560;AQM-34
+5;Reconnaissance;81;Aborting Mission;1561;AQM-91
+6;Tanker;82;Standoff Operations;1562;BGM-34 FIREBEE/MQM34
+7;Tanker (Boom Only);83;Combat Search and Rescue (CSAR);1565;AIM-132 ASRAAM
+8;Tanker (Drogue Only);115;Air Activity 1;1566;MICA IR
+9;Interceptor;116;Air Activity 2;1567;PL-2A
+10;Transport;117;Air Activity 3;1568;PL-5B
+11;Airborne Command Post (ACP);118;Air Activity 4;1569;PL-7
+13;Missile;119;Air Activity 5;1570;PL-9
+14;Electronic Warfare (EW);120;Air Activity 6;1571;PYTHON 3
+15;Antisubmarine Warfare (ASW);121;Air Activity 7;1572;PYTHON 4
+16;Airborne Early Warning and Control (AEW);122;Air Activity 8;1573;AA-10 ALAMO
+17;Maritime Patrol Aircraft (MPA);123;Air Activity 9;1574;AA-11 ARCHER
+18;Search and Rescue (SAR);124;Air Activity 10;1575;AA-12 ADDER
+19;Drone;125;Air Activity 11;1576;AA-1 ALKALI
+20;Remotely Piloted Vehicle (RPV);126;Air Activity 12;1577;AAM-1
+21;Fixed Wing Gunship;1;Reconnaissance;1578;MICA EM
+22;Civil, Airliner;2;Over the Horizon Targeting (OTHT);1579;BQM-34 FIREBEE
+23;Civil, General;3;Training;1580;IRIS-T
+24;Lighter than Air (LTA);4;Logistics Support;1581;METEOR
+25;Glider;5;Antisurface Warfare;1791;AIR-TO-AIR MISSILE GENERAL
+26;Decoy;6;Electronic Warfare (EW);1793;AGM-65 MAVERICK
+27;Helicopter (HELO);7;Surveillance;1796;AGM-84 HARPOON
+28;Attack Helicopter;8;Search and Rescue (SAR);1797;AGM-86 ALCM
+29;Helicopter Gunship;9;Escorting;1798;AGM-88 HARM
+30;Antisubmarine Warfare Helicopter (ASW HELO);10;Minelaying;1799;AGM-109 TOMAHAWK
+31;Mine Warfare Helicopter;11;Transiting;1800;AM 39 EXOCET
+32;Transport Helicopter;12;Special Weapons Attack;1801;AGM-119 PENGUIN
+33;Tactical Support;13;Intruding;1802;AS 11 KILTER
+34;Patrol;14;Electronic Warfare Support (ES);1803;AS 12 KEGLER
+35;Miscellaneous Fixed Wing;15;Communications Relay;1804;AS 15 KENT
+36;Missile Control Unit;16;Patrol (Ocean Surveillance);1805;AS 30
+37;Surface-to-Air Missile (SAM);17;Airlift (Transport);1807;RB 05
+38;Air-to-Surface Missile (ASM);18;Antisubmarine Warfare (ASW);1808;RB 08
+39;Surface-to-Surface Missile (SSM);20;Towing;1809;ADVANCED ASM
+40;Logistic;21;Air Assault;1810;AS-1 KENNEL
+41;Air-to-Air Missile (AAM);22;Interception;1811;AS-2 KIPPER
+42;Subsurface-to-Surface Missile;23;Electronic Attack (EA);1812;AS-3 KANGAROO
+43;Surface-to-Subsurface Missile;24;Policing;1813;AS-4 KITCHEN
+44;Cruise Missile;25;Conventional Attack;1814;AS-5 KELT
+45;Ballistic Missile;26;Medical Evacuation (MEDEVAC);1815;AS-6 KINGFISH
+46;Airborne Land Surveillance;27;Mine Countermeasures;1816;AS-7 KERRY
+47;Airborne Laser;28;Search;1817;AS-7 KERRY
+48;Unmanned Aerial Vehicle (UAV);29;Refueling/Tanking;1818;AS-10 KAREN
+49;Active Electronic Decoy;30;Interdiction;1819;AS-9 KYLE
+50;Infrared Decoy;31;Combat Air Patrol (CAP);1820;AS 34 KORMORAN
+51;Chaff Decoy;32;Forward Air Controller (FAC);1821;ASM GABRIEL
+1;Fighter;33;Very Important Person (VIP) Flight;1822;ASM SEA SKUA
+2;Fighter Bomber;34;Noncombatant Operations;1823;ASMP
+3;Attack;35;Close Air Support (CAS);1824;ASMP
+4;Bomber;36;Airborne Early Warning (AEW);1825;AT-2 SWATTER
+5;Reconnaissance;37;Ground Attack Tactics (GAT);1826;AT-3 SAGGER
+6;Tanker;38;Airborne Command Post (ACP);1827;AT-6 SPIRAL
+7;Tanker (Boom Only);39;Rescue Combat Air Patrol (RESCAP);1828;C-601
+8;Tanker (Drogue Only);40;Surface Combat Air Patrol (SUCAP);1829;C-611
+9;Interceptor;42;Spotting;1830;C-801
+10;Transport;43;Strike Warfare;1831;C-802
+11;Airborne Command Post (ACP);44;Special;1832;CSS-2
+13;Missile;45;Hijack;1833;CSS-3
+14;Electronic Warfare (EW);46;Jammer;1834;CSS-N-3
+15;Antisubmarine Warfare (ASW);47;Trooplift;1835;CSS-4
+16;Airborne Early Warning and Control (AEW);48;XRay;1836;FL-2 SILKWORM
+17;Maritime Patrol Aircraft (MPA);49;Antiair Warfare (AAW);1837;FL-7
+18;Search and Rescue (SAR);50;Command and Control;1838;HY-2
+19;Drone;51;Counter-Air Warfare;1839;HY-3
+20;Remotely Piloted Vehicle (RPV);52;Return to Base (RTB);1840;M-9/11
+21;Fixed Wing Gunship;53;Mine Warfare;1841;WS-1
+22;Civil, Airliner;54;Chaff Laying;1842;AS-13 KINGBOLT
+23;Civil, General;55;Video Data Linking (Targeting);1843;AS-14 KEDGE
+24;Lighter than Air (LTA);56;Dipping;1844;AS-16 KICKBACK
+25;Glider;58;Orbiting;1845;AS-17 KRYPTON
+26;Decoy;59;Under Recall;1846;AS-18 KAZOO
+27;Helicopter (HELO);60;Engaging;1847;AT-4 SPIGOT
+28;Attack Helicopter;61;Engaging (Priority Kill);1848;AT-5 SPANDREL
+29;Helicopter Gunship;62;Investigating;1849;AT-7 SAXHORN
+30;Antisubmarine Warfare Helicopter (ASW HELO);63;Cleared to Drop;1850;AT-10 STABBER
+31;Mine Warfare Helicopter;64;Intervening;1851;AT-11 SNIPER
+32;Transport Helicopter;65;Diverting;1852;AT-12
+33;Tactical Support;66;Air-to-ground;1853;AT-13
+34;Patrol;67;Air-to-air;1854;AT-14
+35;Miscellaneous Fixed Wing;68;Precision Bombing;1855;FROG-7
+36;Missile Control Unit;69;Laser Designation;1856;FROG-7
+37;Surface-to-Air Missile (SAM);71;Shadowing;1857;SS-11 SEGO
+38;Air-to-Surface Missile (ASM);72;Covering;1858;SS-13 SAVAGE
+39;Surface-to-Surface Missile (SSM);73;Visual Identification;1859;SS-18 SATAN
+40;Logistic;74;High Energy Lasing;1860;SS-19 STILETTO
+41;Air-to-Air Missile (AAM);75;Electronic Protection (EP);1861;SS-24 SCALPEL
+42;Subsurface-to-Surface Missile;76;Special Operations;1862;SS-25 SICKLE
+43;Surface-to-Subsurface Missile;77;Nuclear, Biological, Chemical (NBC) Operations;1863;SS-N-2 STYX
+44;Cruise Missile;78;Nuclear Operations;1864;SS-N-3C SHADDOCK
+45;Ballistic Missile;79;Biological Operations;1865;SS-N-6 SAWFLY
+46;Airborne Land Surveillance;80;Chemical Operations;1866;SS-N-7 STARBRIGHT
+47;Airborne Laser;81;Aborting Mission;1867;SS-N-8 SAWFLY
+48;Unmanned Aerial Vehicle (UAV);82;Standoff Operations;1868;SS-N-9 SIREN
+49;Active Electronic Decoy;83;Combat Search and Rescue (CSAR);1869;SS-N-12 SANDBOX
+50;Infrared Decoy;115;Air Activity 1;1870;SS-N-18 STINGRAY
+51;Chaff Decoy;116;Air Activity 2;1871;SS-N-19 SHIPWRECK
+1;Fighter;117;Air Activity 3;1872;SS-N-20 STURGEON
+2;Fighter Bomber;118;Air Activity 4;1873;SS-N-21 SAMPSON
+3;Attack;119;Air Activity 5;1874;SS-N-22 SUNBURN
+4;Bomber;120;Air Activity 6;1875;SS-N-23 SKIFF
+5;Reconnaissance;121;Air Activity 7;1876;SS-N-26 YAKHONT
+6;Tanker;122;Air Activity 8;1877;AGNI
+7;Tanker (Boom Only);123;Air Activity 9;1878;PRITHVI
+8;Tanker (Drogue Only);124;Air Activity 10;1879;TOW
+9;Interceptor;125;Air Activity 11;1880;AGM-114 HELLFIRE
+10;Transport;126;Air Activity 12;1881;MLRS
+11;Airborne Command Post (ACP);1;Reconnaissance;1882;HOT
+13;Missile;2;Over the Horizon Targeting (OTHT);1883;MILAN
+14;Electronic Warfare (EW);3;Training;1884;TRIGAT
+15;Antisubmarine Warfare (ASW);4;Logistics Support;1885;OTOMAT
+16;Airborne Early Warning and Control (AEW);5;Antisurface Warfare;1886;RBS-15M
+17;Maritime Patrol Aircraft (MPA);6;Electronic Warfare (EW);1887;ARMAT
+18;Search and Rescue (SAR);7;Surveillance;1888;ALARM
+19;Drone;8;Search and Rescue (SAR);1889;ALARM
+20;Remotely Piloted Vehicle (RPV);9;Escorting;1890;AGM-62A WALLEYE
+21;Fixed Wing Gunship;10;Minelaying;1891;AGM-123A SKIPPER II
+22;Civil, Airliner;11;Transiting;1892;APACHE (ASM)
+23;Civil, General;12;Special Weapons Attack;1893;AS 8
+24;Lighter than Air (LTA);13;Intruding;1894;AT-1 SNAPPER
+25;Glider;14;Electronic Warfare Support (ES);1895;CAS1
+26;Decoy;15;Communications Relay;1896;KH-41 MOSKIT
+27;Helicopter (HELO);16;Patrol (Ocean Surveillance);1897;MARTIN PESCADOR
+28;Attack Helicopter;17;Airlift (Transport);1898;MAS1 CARCARA
+29;Helicopter Gunship;18;Antisubmarine Warfare (ASW);1899;RB 04E
+30;Antisubmarine Warfare Helicopter (ASW HELO);20;Towing;1900;STAR
+31;Mine Warfare Helicopter;21;Air Assault;1902;MM 38
+32;Transport Helicopter;22;Interception;1903;MM 40
+33;Tactical Support;23;Electronic Attack (EA);1904;SM 39
+34;Patrol;24;Policing;1905;AS 34 KORMORAN II
+35;Miscellaneous Fixed Wing;25;Conventional Attack;1906;SS-1-B (SCUD-A)
+36;Missile Control Unit;26;Medical Evacuation (MEDEVAC);1907;SS-1-C (SCUD-B)
+37;Surface-to-Air Missile (SAM);27;Mine Countermeasures;1908;SS-1-D (SCUD-C)
+38;Air-to-Surface Missile (ASM);28;Search;1909;SS-1-E (SCUD-D)
+39;Surface-to-Surface Missile (SSM);29;Refueling/Tanking;1910;SS-N-3
+40;Logistic;30;Interdiction;1911;SS-N-3B SEPAL
+41;Air-to-Air Missile (AAM);31;Combat Air Patrol (CAP);1912;SS-N-2C STYX
+42;Subsurface-to-Surface Missile;32;Forward Air Controller (FAC);1913;SS-N-5 SARK
+43;Surface-to-Subsurface Missile;33;Very Important Person (VIP) Flight;1914;PRITHVI-I
+44;Cruise Missile;34;Noncombatant Operations;1915;PRITHVI-II
+45;Ballistic Missile;35;Close Air Support (CAS);1916;SS-N-25 SWITCHBLADE
+46;Airborne Land Surveillance;36;Airborne Early Warning (AEW);1917;SS-N-27 ALFA
+47;Airborne Laser;37;Ground Attack Tactics (GAT);1918;SS-N-29 MEDVEDKA
+48;Unmanned Aerial Vehicle (UAV);38;Airborne Command Post (ACP);1919;SS-NX-30 BULAVA
+49;Active Electronic Decoy;39;Rescue Combat Air Patrol (RESCAP);1920;AS-30 L
+50;Infrared Decoy;40;Surface Combat Air Patrol (SUCAP);1921;SCALP-EG
+51;Chaff Decoy;42;Spotting;1922;TAURUS
+1;Fighter;43;Strike Warfare;2042;SUBSURFACE-SURFACE MISSILE GENERAL
+2;Fighter Bomber;44;Special;2043;SURFACE-SURFACE MISSILE (SSM) GENERAL
+3;Attack;45;Hijack;2044;AIR-SURFACE MISSILE (ASM) GENERAL
+4;Bomber;46;Jammer;2045;ANTI-RADIATION MISSILE (ARM) GENERAL
+5;Reconnaissance;47;Trooplift;2046;GROUND-GROUND MISSILE GENERAL
+6;Tanker;48;XRay;2047;AIR-GROUND MISSILE GENERAL
+7;Tanker (Boom Only);49;Antiair Warfare (AAW);2048;FIM-92 STINGER
+8;Tanker (Drogue Only);50;Command and Control;2049;MIM-23 HAWK
+9;Interceptor;51;Counter-Air Warfare;2052;MIM-104 PATRIOT
+10;Transport;52;Return to Base (RTB);2054;RIM-7 SEA SPARROW
+11;Airborne Command Post (ACP);53;Mine Warfare;2057;RIM-66 STANDARD MISSILE
+13;Missile;54;Chaff Laying;2058;RIM-67 STANDARD MISSILE
+14;Electronic Warfare (EW);55;Video Data Linking (Targeting);2059;BLOWPIPE
+15;Antisubmarine Warfare (ASW);56;Dipping;2062;SEA DART
+16;Airborne Early Warning and Control (AEW);58;Orbiting;2064;SEA WOLF
+17;Maritime Patrol Aircraft (MPA);59;Under Recall;2065;S 440 CROTALE EDIR
+18;Search and Rescue (SAR);60;Engaging;2066;RAPIER
+19;Drone;61;Engaging (Priority Kill);2067;RBS-70
+20;Remotely Piloted Vehicle (RPV);62;Investigating;2069;SAM ROLAND
+21;Fixed Wing Gunship;63;Cleared to Drop;2070;SA-2 GUIDELINE
+22;Civil, Airliner;64;Intervening;2071;SA-3 GOA
+23;Civil, General;65;Diverting;2072;SA-4 GANEF
+24;Lighter than Air (LTA);66;Air-to-ground;2073;SA-N-3 GOBLET
+25;Glider;67;Air-to-air;2074;SA-5 GAMMON
+26;Decoy;68;Precision Bombing;2075;SA-N-4 GECKO
+27;Helicopter (HELO);69;Laser Designation;2076;SA-6 GAINFUL
+28;Attack Helicopter;71;Shadowing;2077;SA-N-6 GRUMBLE
+29;Helicopter Gunship;72;Covering;2078;SA-7 GRAIL
+30;Antisubmarine Warfare Helicopter (ASW HELO);73;Visual Identification;2079;SA-8 GECKO
+31;Mine Warfare Helicopter;74;High Energy Lasing;2080;SA-9 GASKIN
+32;Transport Helicopter;75;Electronic Protection (EP);2081;SA-10 GRUMBLE
+33;Tactical Support;76;Special Operations;2082;SA-11 GADFLY
+34;Patrol;77;Nuclear, Biological, Chemical (NBC) Operations;2084;SA-13 GOPHER
+35;Miscellaneous Fixed Wing;78;Nuclear Operations;2085;MISTRAL
+36;Missile Control Unit;79;Biological Operations;2086;SA-N-7 GADFLY
+37;Surface-to-Air Missile (SAM);80;Chemical Operations;2087;SA-N-8 GREMLIN
+38;Air-to-Surface Missile (ASM);81;Aborting Mission;2089;SA-16 GIMLET
+39;Surface-to-Surface Missile (SSM);82;Standoff Operations;2091;SA-N-5 GRAIL
+40;Logistic;83;Combat Search and Rescue (CSAR);2092;SA-N-11 GRISOM
+41;Air-to-Air Missile (AAM);115;Air Activity 1;2093;SA-12A GLADIATOR
+42;Subsurface-to-Surface Missile;116;Air Activity 2;2094;SA-12B GIANT
+43;Surface-to-Subsurface Missile;117;Air Activity 3;2095;SA-14 GREMLIN
+44;Cruise Missile;118;Air Activity 4;2096;SA-15 GAUNTLET
+45;Ballistic Missile;119;Air Activity 5;2097;SA-17 GRIZZLY
+46;Airborne Land Surveillance;120;Air Activity 6;2098;SA-N-12 GRIZZLY
+47;Airborne Laser;121;Air Activity 7;2099;SA-18 GROUSE
+48;Unmanned Aerial Vehicle (UAV);122;Air Activity 8;2100;SA-19 GRISOM
+49;Active Electronic Decoy;123;Air Activity 9;2101;RIM-116 RAM
+50;Infrared Decoy;124;Air Activity 10;2102;ADATS
+51;Chaff Decoy;125;Air Activity 11;2103;JAVELIN
+1;Fighter;126;Air Activity 12;2104;STARBURST
+2;Fighter Bomber;1;Reconnaissance;2105;STARSTREAK
+3;Attack;2;Over the Horizon Targeting (OTHT);2106;ASPIDE
+4;Bomber;3;Training;2107;I-HAWK
+5;Reconnaissance;4;Logistics Support;2108;ROLAND II
+6;Tanker;5;Antisurface Warfare;2109;SM-2 BLOCK II
+7;Tanker (Boom Only);6;Electronic Warfare (EW);2110;SM-2 BLOCK III
+8;Tanker (Drogue Only);7;Surveillance;2111;SM-2 BLOCK IIIA
+9;Interceptor;8;Search and Rescue (SAR);2112;SM-2 BLOCK IIIB
+10;Transport;9;Escorting;2113;SM-2 BLOCK IV
+11;Airborne Command Post (ACP);10;Minelaying;2114;SM-2 BLOCK IVA
+13;Missile;11;Transiting;2115;SM-3
+14;Electronic Warfare (EW);12;Special Weapons Attack;2116;AKASH
+15;Antisubmarine Warfare (ASW);13;Intruding;2117;ANZA
+16;Airborne Early Warning and Control (AEW);14;Electronic Warfare Support (ES);2118;ANZA II
+17;Maritime Patrol Aircraft (MPA);15;Communications Relay;2119;CSA-1
+18;Search and Rescue (SAR);16;Patrol (Ocean Surveillance);2120;CSA-N-2
+19;Drone;17;Airlift (Transport);2121;CSA-4
+20;Remotely Piloted Vehicle (RPV);18;Antisubmarine Warfare (ASW);2122;CSA-5
+21;Fixed Wing Gunship;20;Towing;2123;FM-80
+22;Civil, Airliner;21;Air Assault;2124;HN-5
+23;Civil, General;22;Interception;2125;NK-7
+24;Lighter than Air (LTA);23;Electronic Attack (EA);2126;NK-16
+25;Glider;24;Policing;2127;PANTZYR
+26;Decoy;25;Conventional Attack;2128;RAPIER 2000/JERNAS
+27;Helicopter (HELO);26;Medical Evacuation (MEDEVAC);2129;RBS-90
+28;Attack Helicopter;27;Mine Countermeasures;2130;SAKR
+29;Helicopter Gunship;28;Search;2131;SAVA
+30;Antisubmarine Warfare Helicopter (ASW HELO);29;Refueling/Tanking;2132;SHANINE
+31;Mine Warfare Helicopter;30;Interdiction;2133;SKYGUARD ASPIDE
+32;Transport Helicopter;31;Combat Air Patrol (CAP);2134;SPADA
+33;Tactical Support;32;Forward Air Controller (FAC);2135;SPADA
+34;Patrol;33;Very Important Person (VIP) Flight;2136;SPADA
+35;Miscellaneous Fixed Wing;34;Noncombatant Operations;2137;SPADA
+36;Missile Control Unit;35;Close Air Support (CAS);2138;SA-N-1 GOA
+37;Surface-to-Air Missile (SAM);36;Airborne Early Warning (AEW);2139;SA-N-9 GAUNTLET
+38;Air-to-Surface Missile (ASM);37;Ground Attack Tactics (GAT);2140;SA-N-10
+39;Surface-to-Surface Missile (SSM);38;Airborne Command Post (ACP);2141;ALBATROS/ASPIDE
+40;Logistic;39;Rescue Combat Air Patrol (RESCAP);2142;SM-1
+41;Air-to-Air Missile (AAM);40;Surface Combat Air Patrol (SUCAP);2143;VT1 CROTALE
+42;Subsurface-to-Surface Missile;42;Spotting;2144;MASURCA
+43;Surface-to-Subsurface Missile;43;Strike Warfare;2145;ASTER 15
+44;Cruise Missile;44;Special;2146;ASTER 30
+45;Ballistic Missile;45;Hijack;2147;SA-20 GARGOYLE
+46;Airborne Land Surveillance;46;Jammer;4095;SURFACE-TO-AIR MISSILE GENERAL

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="ecc7d2ed-d8dd-4534-975d-f73d13f1b4c7">
+  <name>
+    corr_crit_move
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="corr_crit_move" namespace="TacViewLib.UISpecific.ATOUpgrade"/>
+  <recorditems>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="341" sy="42" loc="21;10">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f5500031-56ac-469c-8225-46a93a3dd65f">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="320,32,37,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='ATO']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="384" sy="127" loc="62;9">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b576f4a7-6c41-46f4-9ed6-34051c66a461">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="3" rect="322,118,207,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Manage Correlation Criteria...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Manage Correlation Criteria...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO']/contextmenu[1]/menuitem[@accessiblename~'^Manage\ Correlation\ Criter']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="100ms" screenshotname="Screenshot1" screenshotguid="253ccbc7-8577-4bea-9c39-149b7a76bf59" imagerect="0,0,524,132" action="ContainsImage" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="9f510aed-ab14-4e9c-a4af-1f2388685a9c">
+        <element role="list" prefcap="list" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="379,436,524,132">
+          <attribute name="selecteditemindex" type="System.Int32">
+            <![CDATA[-1]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[ListBox]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1008]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[3868284]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2768]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/list[@controlid='1008']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="432" sy="461" loc="53;9">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="91d0a8f2-8834-4ca3-a65f-0952345b091b">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="379,452,520,16">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Mode 2 (Track Mode 2 Code matches ATO)]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/list/listitem[@text~'^Mode\ 2\ \(Track\ Mode\ 2\ Code']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="510" sy="594" loc="19;10">
+      <comment>
+        <![CDATA[Move item up]]>
+      </comment>
+      <info sourcename="Recorder" id="8b22602a-a29f-449e-9ff7-439376da434a">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="491,584,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Move Up]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1016]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[8062360]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2768]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Move Up]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/button[@text='Move Up']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="100ms" screenshotname="Screenshot3" screenshotguid="2d743665-6e06-4e5c-a9b1-f0c653f7ff14" imagerect="0,0,524,132" imageoptions="1;None;0,0,524,132;True;10000000" action="CompareImage" exceptiononfail="True">
+      <comment>
+        <![CDATA[Test that the item has moved]]>
+      </comment>
+      <info sourcename="Recorder" id="9f510aed-ab14-4e9c-a4af-1f2388685a9c">
+        <element role="list" prefcap="list" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="379,436,524,132">
+          <attribute name="selecteditemindex" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selecteditemtext" type="System.String">
+            <![CDATA[Mode 2 (Track Mode 2 Code matches ATO)]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[ListBox]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1008]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[4261376]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2768]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/list[@controlid='1008']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="416" sy="494" loc="37;10">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="38a336a9-cc06-40bc-b23e-0f0a9e432e00">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="379,484,520,16">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Mode 2 and 3 (Track Mode 2 and Mode 3 Codes both match ATO)]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/list/listitem[@text~'^Mode\ 2\ and\ 3\ \(Track\ Mode\ ']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="625" sy="591" loc="23;7">
+      <comment>
+        <![CDATA[Move item down]]>
+      </comment>
+      <info sourcename="Recorder" id="af3e13e1-3ce5-4dab-8094-92185682d595">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="602,584,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Move Down]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1017]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[7996828]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2768]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Move Down]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/button[@text='Move Down']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="100ms" screenshotname="Screenshot4" screenshotguid="0c9983ed-7b93-4f9b-84c3-89148dc432a0" imagerect="0,0,524,132" imageoptions="1;None;0,0,524,132;True;10000000" action="CompareImage" exceptiononfail="True">
+      <comment>
+        <![CDATA[Test that the item moved down]]>
+      </comment>
+      <info sourcename="Recorder" id="9f510aed-ab14-4e9c-a4af-1f2388685a9c">
+        <element role="list" prefcap="list" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="379,436,524,132">
+          <attribute name="selecteditemindex" type="System.Int32">
+            <![CDATA[4]]>
+          </attribute>
+          <attribute name="selecteditemtext" type="System.String">
+            <![CDATA[Mode 2 and 3 (Track Mode 2 and Mode 3 Codes both match ATO)]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[ListBox]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1008]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[7210362]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2768]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/list[@controlid='1008']]]>
+        </path>
+      </info>
+      <matchname>
+      </matchname>
+      <matchvalue>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="855" sy="588" loc="31;4">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="55b7ca46-c4a4-4595-b052-e7fe730a2ed4">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="824,584,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Cancel]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[6489768]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[4]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2768]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Cancel]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/button[@text='Cancel']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="340" sy="43" loc="20;11">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="f5500031-56ac-469c-8225-46a93a3dd65f">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="320,32,37,19">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[ATO]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='ATO']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="378" sy="126" loc="56;8">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b576f4a7-6c41-46f4-9ed6-34051c66a461">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="3" rect="322,118,207,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Manage Correlation Criteria...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Manage Correlation Criteria...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO']/contextmenu[1]/menuitem[@accessiblename~'^Manage\ Correlation\ Criter']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="388" sy="510" loc="9;10">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="d788aba3-7d4d-409d-a88f-efac289709f9">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="379,500,520,16">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[4]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[JU Address (Track number matches ATO JU Address)]]>
+          </attribute>
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Correlation Criteria']/list/listitem[@text~'^JU\ Address\ \(Track\ number\ ']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.8.10854" relativepath="..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

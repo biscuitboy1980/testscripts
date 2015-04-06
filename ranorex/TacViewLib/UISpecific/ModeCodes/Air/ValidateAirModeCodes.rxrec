@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="07e51a85-e222-4fd8-8318-b51d826ef827">
+  <name>
+    ValidateAirModeCodes
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateAirModeCodes" namespace="TacViewLib.UISpecific.ModeCodes.Air"/>
+  <recorditems>
+    <delayitem duration="2000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <userrecorditem duration="100ms" methodname="CreateTrackRepoItems">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="RightClickTrack">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ViewTrackProperties">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <delayitem duration="1000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <mouseitem duration="100ms" action="DoubleClick" button="Left" movetime="100ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="f8998382-bcbc-45dd-8dc2-0c03e5604302">
+        <path>
+          <![CDATA[/form[@title~'Main \(Air TN']/element/listitem[@accessiblename='Basic Track Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="DoubleClick" button="Left" movetime="100ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="488e7b23-25e0-4a7c-a406-0dbf31a5ed2f">
+        <path>
+          <![CDATA[/form[@title~'Main \(Air TN']/element/listitem[@accessiblename='Position and Velocity']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="DoubleClick" button="Left" movetime="100ms" sx="0" sy="0" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="7e307c3e-7ade-4144-8a46-f75deb3eb2c8">
+        <path>
+          <![CDATA[/form[@title~'Main \(Air TN']/element/listitem[@accessiblename='Interface Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="100ms" methodname="ValidateMode1">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ValidateMode2">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ValidateMode3">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ValidateMode4">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ValidateMode5">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ValidateM5Nat">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ValidateM5ID">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="100ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="8640df74-da40-4775-8f1c-20f10ced93d7">
+        <path>
+          <![CDATA[/form[@title~'Main \(Air TN']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Right" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="4906bfaf-883b-4c95-b176-01dbd124fae3">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/picture[@accessiblename='%track%']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="100ms" methodname="DropTrack">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <delayitem duration="2000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <userrecorditem duration="100ms" methodname="Validate_DropTrack">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="Zoom500">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="ResetPaths">
+      <comment>
+      </comment>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.4.9270" id="c2b084e3-d596-4f38-a2be-d719f8a42da5">
+  <name>
+    ImportACO
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ImportACO" namespace="TacViewLib.UISpecific.ACO"/>
+  <recorditems>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="30" sy="34" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="31fde0f6-3b3e-41e1-bd81-4a3a0db915d1">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="0" rect="10,24,34,21">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[File]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[File]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ *']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='File']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="81" sy="331" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="0acb504e-eecb-4e0b-b865-8ca5d62a3afc">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" index="12" rect="12,319,210,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Import ACO File...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Import ACO File...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename='Import ACO File...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="612" sy="655" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b77dbd0b-e989-45d6-875b-35397524445a">
+        <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="2" rect="561,651,224,14">
+          <attribute name="selectionlength" type="System.Int32">
+            <![CDATA[11]]>
+          </attribute>
+          <attribute name="selectionstart" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selectiontext" type="System.String">
+            <![CDATA[ATO2000.txt]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ATO2000.txt]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1148]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[1247106]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2640]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[ATO2000.txt]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Import.*']/combobox[@controlid='1148']/text[@controlid='1148']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="EnterACO">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <keysequenceitem duration="100ms" sequence="tgh sdjh gahg jh" presstime="100ms">
+          <comment>
+          </comment>
+        </keysequenceitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <keyitem duration="100ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+    </keyitem>
+    <userrecorditem duration="250ms" methodname="Validate_ACO_Error_Log">
+      <comment>
+        <![CDATA[Error log is displayed]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Error log is displayed]]>
+          </comment>
+          <info sourcename="Recorder" id="d8ec335c-44c0-49f5-a63a-0ad8e23f0d3e">
+            <element role="form" prefcap="form" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="4" rect="658,373,605,334">
+              <attribute name="active" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="appicon" type="System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5T
+aXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdo
+dAAACAgCAAAAEAAAABAAAAAPAwAAAL4BAAACAAABAAEAEBAQ/wAAAACoAQAAFgAAACgAAAAQAAAA
+IAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACA
+gAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACP/wiPAAAAAI94iIiPAAAAjz
+M3f//wAACPM3N3d3//AI8zMzN3d3jwiDdziHN3f/CIM3d4d3d/8PczOIh4h3//93cziIB3fw/3c3
+M4N3d/D/Mzd3h3d38P9zN3d3d3fw///4d3d3d/AAD4iP+Hd38AAAAACIiP/wAAAAAAAAh/AAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIAPAACADwAAgAEAAIAAAACAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADgAAAA/wAAAP/xAAAL]]>
+              </attribute>
+              <attribute name="state" type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Normal]]>
+              </attribute>
+              <attribute name="title" type="System.String">
+                <![CDATA[ACO Error Log]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[#32770]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[1180710]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1832]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[ACO Error Log]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='ACO Error Log']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Title]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[ACO Error Log]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_Save">
+      <comment>
+        <![CDATA[Error Log buttons are available]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Error Log buttons are available]]>
+          </comment>
+          <info sourcename="Recorder" id="4a81a70a-cbc2-45e5-a66a-8054e7e60151">
+            <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="3" rect="1003,669,75,23">
+              <attribute name="pressed" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Save...]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Button]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[3]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[1771444]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[2]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1832]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[Save...]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='ACO Error Log']/button[@text='Save...']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[Save...]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_Cancel">
+      <comment>
+        <![CDATA[Error Log buttons are available]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Error Log buttons are available]]>
+          </comment>
+          <info sourcename="Recorder" id="dbd639a7-7a77-468c-8ac4-122fcf09798c">
+            <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="1" rect="922,669,75,23">
+              <attribute name="pressed" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Cancel]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Button]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[2]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[1116842]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[1]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1832]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[Cancel]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='ACO Error Log']/button[@text='Cancel']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[Cancel]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_Next">
+      <comment>
+        <![CDATA[Error Log buttons are available]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Error Log buttons are available]]>
+          </comment>
+          <info sourcename="Recorder" id="3c4a1623-92c6-4c83-bbe4-b5dcaef49e22">
+            <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="841,669,75,23">
+              <attribute name="pressed" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Next]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Button]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[1]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[3343600]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1832]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[Next]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='ACO Error Log']/button[@text='Next']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[Next]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="879" sy="681" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="3c4a1623-92c6-4c83-bbe4-b5dcaef49e22">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="841,669,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Next]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[3343600]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[1832]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Next]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ACO Error Log']/button[@text='Next']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="DoubleClick" button="Left" movetime="300ms" sx="765" sy="463" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="73543b99-1b7f-4f4d-81e0-6c5e09a88730">
+        <path>
+          <![CDATA[/form[@title='Import ACMs From File']/tree/treeitem[@text='All ACMs']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="250ms" action="DoubleClick" button="Left" movetime="156ms" sx="782" sy="478" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="07463a1e-f320-4493-813f-e9a2804f1779">
+        <path>
+          <![CDATA[/form[@title='Import ACMs From File']/tree/treeitem/treeitem[@text='ATC']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="250ms" methodname="Validate_Import_ACMs_From_File">
+      <comment>
+        <![CDATA[Validates Title bar]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Validates Title bar]]>
+          </comment>
+          <info sourcename="Recorder" id="637dab81-b433-4c7d-aaca-ff4990881fb2">
+            <element role="form" prefcap="form" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="4" rect="740,335,441,410">
+              <attribute name="active" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="appicon" type="System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5T
+aXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdo
+dAAACAgCAAAAEAAAABAAAAAPAwAAAL4BAAACAAABAAEAEBAQ/wAAAACoAQAAFgAAACgAAAAQAAAA
+IAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACA
+gAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACP/wiPAAAAAI94iIiPAAAAjz
+M3f//wAACPM3N3d3//AI8zMzN3d3jwiDdziHN3f/CIM3d4d3d/8PczOIh4h3//93cziIB3fw/3c3
+M4N3d/D/Mzd3h3d38P9zN3d3d3fw///4d3d3d/AAD4iP+Hd38AAAAACIiP/wAAAAAAAAh/AAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIAPAACADwAAgAEAAIAAAACAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADgAAAA/wAAAP/xAAAL]]>
+              </attribute>
+              <attribute name="state" type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Normal]]>
+              </attribute>
+              <attribute name="title" type="System.String">
+                <![CDATA[Import ACMs From File]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[#32770]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[1246246]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1832]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[Import ACMs From File]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Import ACMs From File']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Title]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[Import ACMs From File]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_Caption_607_ACMs_available">
+      <comment>
+        <![CDATA[Vaildates correct number of ACMs are available.]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Vaildates correct number of ACMs are available.]]>
+          </comment>
+          <info sourcename="Recorder" id="fef621a2-7619-4e03-9661-4acb96fe5adf">
+            <path>
+              <![CDATA[/form[@title='Import ACMs From File']/text[@caption='607 ACMs available']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[607 ACMs available]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_All_ACMs">
+      <comment>
+        <![CDATA[Validates all ACMs level is displayed]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Validates all ACMs level is displayed]]>
+          </comment>
+          <info sourcename="Recorder" id="73543b99-1b7f-4f4d-81e0-6c5e09a88730">
+            <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="785,453,45,16">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="expanded" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[All ACMs]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Import ACMs From File']/tree/treeitem[@text='All ACMs']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[All ACMs]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_ATC">
+      <comment>
+        <![CDATA[Validates ACM Type level is displayed]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Validates ACM Type level is displayed]]>
+          </comment>
+          <info sourcename="Recorder" id="07463a1e-f320-4493-813f-e9a2804f1779">
+            <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="804,469,24,16">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="expanded" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[ATC]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Import ACMs From File']/tree/treeitem/treeitem[@text='ATC']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[ATC]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_POLK_ARMY_AIRFIELD">
+      <comment>
+        <![CDATA[Validates ACM Name level is displayed]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+            <![CDATA[Validates ACM Name level is displayed]]>
+          </comment>
+          <info sourcename="Recorder" id="f675bee2-b9a6-4b8c-b672-cd5c7ddb7731">
+            <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="823,485,109,16">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="expanded" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[POLK ARMY AIRFIELD]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Import ACMs From File']/tree/treeitem/treeitem[@text='ATC']/treeitem[@text='POLK ARMY AIRFIELD']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[POLK ARMY AIRFIELD]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="926" sy="714" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="be7727d4-b9b0-4c9e-978f-746cdaa68488">
+        <path>
+          <![CDATA[/form[@title='Import ACMs From File']/button[@text='OK']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="0ms" methodname="CloseDialog">
+      <comment>
+      </comment>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.4.9270" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

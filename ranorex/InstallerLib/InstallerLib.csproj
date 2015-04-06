@@ -1,0 +1,354 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{40C3E212-7984-4325-B1BF-6AB8145FB0B6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>InstallerLib</RootNamespace>
+    <AssemblyName>InstallerLib</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>c4ee19f2-062d-4796-b907-55700bc4735f</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>29ea926b-50d5-4053-add6-21ce58b641ae</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>927ffbdf-91c5-4901-b48e-248f91cc569b</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>b6d8ff43-87fe-497f-8393-494e8aa18d56</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>1170ac1c-718c-4376-9ab0-c480665a64d8</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>0ddb771f-348d-4be3-89c3-ae181b5b092c</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>abc61795-3283-4763-8c05-c8f4546c8623</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>de589f9c-b8ce-4bb3-9ed8-f74f6faf8a79</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>fb9a27c0-4e10-475a-bcfd-f4a7d71cc128</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>1c81ac96-40c8-4542-86d9-956d66964f3e</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>998df940-66bf-4837-a110-dfa89d19ea67</id>
+    </Reference>
+    <Reference Include="System">
+      <id>c9f4b976-4759-4dfe-ac19-3a7b5f892f4d</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>c175e2e9-8e52-436e-9b5a-ebd2ec9d78ef</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>ece4cab4-0868-44b1-905b-364947a3cdb9</id>
+    </Reference>
+    <Reference Include="System.Management">
+      <id>ba28c406-3ff1-46a9-b1e0-555af4dd0528</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>fb1ebd03-ab6b-40ac-afcc-0924c7327d26</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>caed39e9-ecc7-4419-a8bb-2f81d8fff7ba</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>fc640444-c25e-41bd-bbb5-6fbb0bc7d40e</id>
+    </Compile>
+    <Compile Include="InstallerLibRepository.cs">
+      <id>55cf5143-e325-4504-b572-1933ac7a50c1</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+      <DependentUpon>InstallerLibRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Install\Install.cs">
+      <id>fa186c55-7fcb-423f-a763-108e71e29d9d</id>
+      <BoundTo>6320c860-f233-45a7-9e93-2b74cdc4745a</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>Install.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\Install.UserCode.cs">
+      <id>c9fd711f-bc78-4652-9a42-a28a0e6b05b0</id>
+      <BoundTo>6320c860-f233-45a7-9e93-2b74cdc4745a</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>Install.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\Install2Segment.cs">
+      <id>e4ce4b4f-27e3-4fdf-9717-de1fa8fcf6e8</id>
+      <BoundTo>e28ad5ed-8815-43c6-81f2-9f6f46fa05fb</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>Install2Segment.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\Install2Segment.UserCode.cs">
+      <id>9c58c5f7-3700-4de2-984a-f5ecfe822bd4</id>
+      <ORIGINALPATH>C:\Documents and Settings\gguenther\My Documents\RanorexStudio Projects\DownloadLatestTrunkBuild\DownloadLatestTrunkBuild\DownloadLatestHudson.UserCode.cs</ORIGINALPATH>
+      <BoundTo>e28ad5ed-8815-43c6-81f2-9f6f46fa05fb</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>Install2Segment.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\Install3Segment.cs">
+      <BoundTo>4186f3a6-74db-4092-8317-fe1a14bfa576</BoundTo>
+      <DependentUpon>Install3Segment.rxrec</DependentUpon>
+      <id>9194aa9a-7cea-4b22-aae3-6b655862cb2c</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Install\Install3Segment.UserCode.cs">
+      <id>f07b526f-4b5a-4025-a941-69346665fd4e</id>
+      <ORIGINALPATH>C:\Documents and Settings\gguenther\My Documents\RanorexStudio Projects\DownloadLatestTrunkBuild\DownloadLatestTrunkBuild\DownloadLatestHudson.UserCode.cs</ORIGINALPATH>
+      <BoundTo>4186f3a6-74db-4092-8317-fe1a14bfa576</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>Install3Segment.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\InstallSimulator.cs">
+      <id>284da438-a075-4032-9bc5-3cdc0a88ff60</id>
+      <BoundTo>70f90a32-63ed-4c59-ad26-5c9dd019bb8d</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>InstallSimulator.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\InstallSimulator.UserCode.cs">
+      <id>7554b2a3-2a4e-475a-80f8-a86e2657b079</id>
+      <ORIGINALPATH>C:\Documents and Settings\gguenther\My Documents\RanorexStudio Projects\DownloadLatestTrunkBuild\DownloadLatestTrunkBuild\DownloadLatestHudson.UserCode.cs</ORIGINALPATH>
+      <BoundTo>70f90a32-63ed-4c59-ad26-5c9dd019bb8d</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>InstallSimulator.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Install\InstallWindowsAfterReboot.cs">
+      <DependentUpon>InstallWindowsAfterReboot.rxrec</DependentUpon>
+      <BoundTo>75c4f53d-622e-4804-a665-ead6612e2198</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>dce99a7a-d7e9-4e8f-b3aa-46d45fdba1b9</id>
+    </Compile>
+    <Compile Include="Install\InstallWindowsAfterReboot.UserCode.cs">
+      <DependentUpon>InstallWindowsAfterReboot.rxrec</DependentUpon>
+      <BoundTo>75c4f53d-622e-4804-a665-ead6612e2198</BoundTo>
+      <UserCode>true</UserCode>
+      <id>b3a4b2ad-22f8-465c-add7-fc73622b134e</id>
+    </Compile>
+    <Compile Include="Install\InstallWindowsOnly.cs">
+      <DependentUpon>InstallWindowsOnly.rxrec</DependentUpon>
+      <BoundTo>32035aa5-9e5d-4b82-81dd-ff1c43ed2d49</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>b73a05ed-c5a5-4230-9485-da5d0414b6f0</id>
+    </Compile>
+    <Compile Include="Install\InstallWindowsOnly.UserCode.cs">
+      <DependentUpon>InstallWindowsOnly.rxrec</DependentUpon>
+      <BoundTo>32035aa5-9e5d-4b82-81dd-ff1c43ed2d49</BoundTo>
+      <UserCode>true</UserCode>
+      <id>333c5765-b2e2-4267-8fa7-ed323f4e13dc</id>
+    </Compile>
+    <Compile Include="Uninstall\UninstallADSIWin.cs">
+      <DependentUpon>UninstallADSIWin.rxrec</DependentUpon>
+      <BoundTo>ca66839f-90ab-4434-9ff2-d7c75fd7735b</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>6d9f1edd-18af-4a78-b6c6-e98c26a0c955</id>
+    </Compile>
+    <Compile Include="Uninstall\UninstallADSIWin.UserCode.cs">
+      <BoundTo>ca66839f-90ab-4434-9ff2-d7c75fd7735b</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>UninstallADSIWin.rxrec</DependentUpon>
+      <id>22173461-aa51-4974-958b-9652c22002a0</id>
+    </Compile>
+    <Compile Include="Uninstall\UninstallTV.cs">
+      <DependentUpon>UninstallTV.rxrec</DependentUpon>
+      <BoundTo>48973e3a-9682-4a90-a56b-c32c6ce7faa9</BoundTo>
+      <RecorderCode>true</RecorderCode>
+      <id>6013d41e-3fdf-4db9-bcab-119f98d1023b</id>
+    </Compile>
+    <Compile Include="Uninstall\UninstallTV.UserCode.cs">
+      <id>aa16213b-6150-40c4-b4d8-674915f3c065</id>
+      <BoundTo>48973e3a-9682-4a90-a56b-c32c6ce7faa9</BoundTo>
+      <UserCode>true</UserCode>
+      <DependentUpon>UninstallTV.rxrec</DependentUpon>
+    </Compile>
+    <None Include="InstallerLibRepository.rxrep">
+      <id>5144bc13-60ab-4f78-adb8-8b595846c0b7</id>
+      <projectdefaultrepository>true</projectdefaultrepository>
+      <repoid>49f0df9c-b88c-4764-aa93-76d5ce30b1a9</repoid>
+      <reporootid>31097da2-1aff-446c-99c8-77ee9da049d7</reporootid>
+    </None>
+    <None Include="Install\Install.rxrec">
+      <id>6320c860-f233-45a7-9e93-2b74cdc4745a</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Install\Install2Segment.rxrec">
+      <id>e28ad5ed-8815-43c6-81f2-9f6f46fa05fb</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Install\Install3Segment.rxrec">
+      <id>4186f3a6-74db-4092-8317-fe1a14bfa576</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Install\InstallSimulator.rxrec">
+      <id>70f90a32-63ed-4c59-ad26-5c9dd019bb8d</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Install\InstallWindowsAfterReboot.rxrec">
+      <id>75c4f53d-622e-4804-a665-ead6612e2198</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Install\InstallWindowsOnly.rxrec">
+      <id>32035aa5-9e5d-4b82-81dd-ff1c43ed2d49</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Reports\Install2Segment20110705_114909.rxlog">
+      <id>60ca740f-4ea4-429a-a1a4-9aa0a413317e</id>
+    </None>
+    <None Include="Reports\Install2Segment20110706_111005.rxlog">
+      <id>88af4a76-cdf1-461c-8244-ad5594125db0</id>
+    </None>
+    <None Include="Reports\Install2Segment20110713_104558.rxlog">
+      <id>cfc297a8-516e-4045-a009-10696fd122ce</id>
+    </None>
+    <None Include="Reports\Install2Segment20110713_104808.rxlog">
+      <id>cd40a641-c24b-4b34-b021-326d92cd4d1a</id>
+    </None>
+    <None Include="Reports\Install3Segment20110419_212046.rxlog">
+      <id>ee6d604e-b343-4947-a1fd-fd8b821a77fa</id>
+    </None>
+    <None Include="Reports\Install3Segment20110419_212131.rxlog">
+      <id>31f3e00b-e79e-4e3c-9ffe-4ac407d7f6ab</id>
+    </None>
+    <None Include="Reports\Install3Segment20110425_130957.rxlog">
+      <id>df6e7202-1f0d-496c-bc1f-f7dc29507441</id>
+    </None>
+    <None Include="Reports\Install3Segment20110425_131508.rxlog">
+      <id>ccb1eed4-4c26-4d09-8eb6-f5f308987de5</id>
+    </None>
+    <None Include="Reports\Install3Segment20110425_131741.rxlog">
+      <id>790773fd-9b20-423a-bde4-189aed704a2e</id>
+    </None>
+    <None Include="Reports\Install3Segment20110425_131817.rxlog">
+      <id>01e7ec6f-2abc-44e2-983f-b6c31c317472</id>
+    </None>
+    <None Include="Reports\Install3Segment20110425_131907.rxlog">
+      <id>80d12328-3246-4cca-9c2e-6c14fff50b8c</id>
+    </None>
+    <None Include="Reports\Install3Segment20110425_170942.rxlog">
+      <id>fddf8201-4814-47f3-9b8e-1a6fce962b16</id>
+    </None>
+    <None Include="Reports\Install3Segment20110427_111354.rxlog">
+      <id>b3ee4f31-8638-4c8a-8435-3dfcddfb758b</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_060315.rxlog">
+      <id>fa659ab7-1687-42c2-976d-92130e80a157</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_061322.rxlog">
+      <id>a13ecd41-17da-4398-b38b-37e444870ae7</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_061429.rxlog">
+      <id>9f023244-8656-4d45-bfcd-49515f7b57ee</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_061438.rxlog">
+      <id>480281fc-9317-4362-8961-7bbfef238ac8</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_061709.rxlog">
+      <id>b44ada81-a230-4242-911d-6afba863759a</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_062324.rxlog">
+      <id>00d8dc30-f455-4fb3-987c-65e21f71effb</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_062640.rxlog">
+      <id>3764dc3c-665f-435c-ba23-a32009d65b44</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_062650.rxlog">
+      <id>0fa415da-504d-4cb6-8cf7-5e06a83a4689</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_062718.rxlog">
+      <id>0dc7068d-1837-4cc8-bb65-b156fa5d63d4</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_062853.rxlog">
+      <id>a2164fad-f285-4256-958b-e8e7a3219840</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_062922.rxlog">
+      <id>6900e83c-9842-42c5-96c0-5e96f491be41</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_063116.rxlog">
+      <id>949650a2-bca7-4374-b120-d401b8ce8fe9</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_063416.rxlog">
+      <id>99ba6d88-ef24-43e9-af2e-d50bab4b6e7c</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_064332.rxlog">
+      <id>1d768fff-d036-4f2d-93ca-004d2c59cc05</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_064631.rxlog">
+      <id>321543f6-5ce6-4cd1-88f3-8041ad81195f</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_064939.rxlog">
+      <id>739b7524-5fa8-423c-a2e0-3e6119ea4c3a</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_065504.rxlog">
+      <id>5b766f84-aed4-4c00-af30-9ea9d7c837fc</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_143844.rxlog">
+      <id>85958e0a-cb0e-4edb-8a83-b75ef5581f9f</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_144127.rxlog">
+      <id>c4d3da11-deee-45d7-ac65-ba42c06d3fd0</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_150335.rxlog">
+      <id>4fe4dd87-d9f2-4ec6-9195-c0ea4b592231</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_150435.rxlog">
+      <id>19abee52-dc17-4476-9fe3-b0f0d0c6fa4c</id>
+    </None>
+    <None Include="Reports\Install3Segment20110428_150454.rxlog">
+      <id>3ef40ec3-12dd-4575-979c-2191328c62df</id>
+    </None>
+    <None Include="Uninstall\UninstallADSIWin.rxrec">
+      <id>ca66839f-90ab-4434-9ff2-d7c75fd7735b</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+    <None Include="Uninstall\UninstallTV.rxrec">
+      <id>48973e3a-9682-4a90-a56b-c32c6ce7faa9</id>
+      <BoundTo>5144bc13-60ab-4f78-adb8-8b595846c0b7</BoundTo>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Install">
+      <id>15913824-eceb-41d6-82e1-80b128c12e02</id>
+    </Folder>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>56dfc448-ab00-448a-a606-cd7ad77306e7</id>
+    </Folder>
+    <Folder Include="Uninstall">
+      <id>86c6a683-77a9-4c80-a99c-18d385cb9146</id>
+    </Folder>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>e35077d3-f111-46ca-ba7f-0dc2f537bc33</id>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

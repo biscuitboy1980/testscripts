@@ -1,0 +1,197 @@
+﻿<repository name="Link_16_RegressionRepository" id="493c18ec-14b7-401a-a847-54e3d2c2def5" rxversion="3.1.1.14266">
+  <codegen classname="Link_16_RegressionRepository" namespace="ConfigurationWizardLib"/>
+  <rootfolder name="Root" id="1d0fb510-0cff-44bd-b0d2-136752abd997" searchtimeout="30000ms" capname="unknown" isrooted="True" usecache="True">
+    <appfolder name="DesktopExplorer" id="88554ef3-702c-477e-8808-3c7df3f7a76f" searchtimeout="30000ms" capname="desktop" isrooted="True" usecache="True">
+      <item name="ListItemConfig_Wizard" id="779b1982-9d93-450c-a641-c8f86f52d4de" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/desktop[@processname='explorer']/container/list/listitem[@text='Config Wizard']]]>
+      </item>
+      <basepath>
+        <![CDATA[/desktop[@processname='explorer']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhlJREFU
+OE+Fk1FoEnEcxyf0HCx6rgcHQVBsTwv2VKwoSNpLMdkIFmgjRBQiIhAMoz0JEVgvxpCpG0gvQYUy
+N8aQuZ1Tb1RcOoNqQohbcs3qdje/3e9/u1N3wQ4+eNzfz8eff/1beo64rsR/4vBbXg7u9FitVovx
+fIHbwnqljrmlLyChk+kNETO8yJ49SCsYnPqMUCiESqWihc88FgyB7uP5BhaFBtBSTFCEAl6vFzzP
+twOpbYDklrJrQJGLb2TG0KOc8fy/ASbLdUb/zB9DbO4BVRFaQF0jmXjRdwrJZLI9QfFbFa29HwwK
+0KXLm+p0upirAh/HT0N8eh7JgV5kMhmwPdiXvhpQQFK/Pn0yQfLqFkBynNc2kWS73Y5IJHIQ+LuJ
+/QMooMvPn0ww+dly05jCcjcHm80Gn8/XnqC+/QHKbw09cPK4BYQ+Pr3SOgUcDkf3HqQ3CupikUEB
+GrcT2kR9nQKmn3Ge5yA31xgUWPmuBUjUoQD9R0yBE2PvkC6uQPmVYXRK8s576DB55C2jawIKELlP
+i5DFBcgNVSJUuf/hUhfnLk3ixs07CAaDKJfL2v+A5GPXXqP3+qxJuHD5NkbHJuByueDxeOD3+xGN
+RpHP5yGKohaYiq7h7K1XGLh6H8Mj9+B0OuF2u9mYgUAAiUQC2WwWhUIBgiCgVqtBkqTuE5pKpRAO
+hxGLxUD3HMexw1IqlUxH+fDR/gc02pgnsRHYaQAAAABJRU5ErkJggg==
+      </icon>
+    </appfolder>
+    <item name="ButtonClose" id="13cb1ee1-11d1-4a95-b50d-5cead398905a" searchtimeout="10000ms" capname="button">
+      <![CDATA[/form[@title='cfgwizard']/.//button[@accessiblename='Close']]]>
+    </item>
+    <appfolder name="FormConfiguration_Wizard" id="a0f88622-0c83-4770-8de5-a431d3d0ab57" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="RadioButtonOpen_a_Saved_Configurati" id="bd6a27fd-dcba-4d9b-9136-a55c50e98257" searchtimeout="30000ms" capname="radiobutton">
+        <![CDATA[/form[@title='Configuration Wizard']/.//radiobutton[@accessiblename~'^Open\ a\ Saved\ Configuratio']]]>
+      </item>
+      <item name="ButtonBrowse" id="6788b8a2-d1af-4b49-bda7-1e795e4a396b" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Configuration Wizard']/.//button[@accessiblename='Browse']]]>
+      </item>
+      <item name="ButtonNext" id="f6fe2f60-acf8-495a-8289-2f9942a58b2d" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Configuration Wizard']/.//button[@accessiblename='Next >>']]]>
+      </item>
+      <item name="ButtonStart_Hardware_Check" id="3a737bf0-8e02-40ff-8c84-2becdc5cc24d" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Configuration Wizard']/.//button[@accessiblename='Start Hardware Check']]]>
+      </item>
+      <item name="ButtonFinish" id="271ce64c-f811-44c0-b79c-341f6dba4f41" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Configuration Wizard']/.//button[@accessiblename='Finish']]]>
+      </item>
+      <item name="ButtonMaximize" id="3157f4d4-7816-416c-a2c2-f249e8520ca7" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Configuration Wizard']/titlebar/button[@accessiblename='Maximize']]]>
+      </item>
+      <item name="ButtonAccept_Configuration" id="f83498f6-4702-4b5e-b594-bc3c12198dd1" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Configuration Wizard']/.//button[@accessiblename='Accept Configuration']]]>
+      </item>
+      <item name="RadioButtonIPv4" id="07878719-450d-403a-a8a3-45b9d4af5594" searchtimeout="10000ms" capname="radiobutton">
+        <![CDATA[/form[@title='Configuration Wizard']/.//radiobutton[@accessiblename='IPv4']]]>
+      </item>
+      <item name="TextEthernet" id="dde9e22b-9eee-4e1f-a979-600be80ee355" searchtimeout="30000ms" capname="text">
+        <![CDATA[/form[@title='Configuration Wizard']/.//text[@accessiblename='Ethernet']]]>
+      </item>
+      <item name="MenuItemExit" id="6d3633fc-9f68-4a30-86c3-9ca000de2a3d" searchtimeout="10000ms" capname="menuitem">
+        <![CDATA[/form[@title='Configuration Wizard']/.//menuitem[@accessiblename='Exit']]]>
+      </item>
+      <item name="FormConfiguration_Wizard" id="d28820b1-7fdf-4079-856f-28b396ae6e5b" searchtimeout="20000ms" capname="form">
+        <![CDATA[/form[@title='Configuration Wizard']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Configuration Wizard']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA6RJREFUOE9dk2tM02cUh/+O74vf9mUXlzhYKwUmig4dGZdNx24wAiJy
+22QsARnIVTa5yEWBAlIoci1QWmgRitDgBIVSLtKKBVG5aSLbNG4yEFl0LDHm2f7Ffdqb/N6T8+F9
+cn7nnHeLIAierm5uCa9u3fqawysODmIuCFs2b0H457/4vxzxbDx7umqz2eqFqOjo2dL6ruff/tjK
+NxkNRKarCMto5nBmC6kVfSgv2KjsniS98iKxuW3EnqgiOaMQfVv7i/yCghVBUalE4v4xb+2KICU7
+EN/wWN72S2NfpJxk5UXSGi7jF6dAcuAYu/0iCDwcR2RMEgWlNej0HQiKcyp8g1NxcnyP3B8OYjgf
+QkSUD58d+ppTNXpUg9NUGcc53dyDQn+Z1ok7tE4u0W69i77LIALqNHyRrmWHdxjx34fS1ltOnykD
+dV81dZfGUZmmaDLbaB6dQT0+R/vEIrqrd9CY59GdtwNqW3g/UsF232wCjsQQlt3CKY2KHvNJOocb
+qR24Rk3/NKVdVtJqBwnNNfBRok601UpTqx6htLIRJ/8stu0Lw8vbh+FhA6uPrSwv1zI4cZxjJTl4
+xjSwN0bF/ngt3ikGfFJ7CckbQN3eiVB2thpntw9xdHLBw+MDRsx6/t6YY+zWMJabJYxPxlPcWk5a
+/ThZGhs5+mlyO64jN07RbregrG/ieIGCYvUlitpHsc6O8fvKHLfv3aB7tJfBa3lMzybQaFSS2WDi
+pGqE9JohUquuoNWJFVTWqfGOPceOIDnbPy8mXwSm1fehM4k2VsZ4tq7myR+J3JgJRtMdwZWRAwyP
+76VRF4Syph5BXqXCKaCIN/xP8+anZ0g/W06Jvoc+q4Xflvv587GSRw9S+PVuOA+X/HnyaA/3f5bQ
+0hVAmUL5EiANKGbbJ6JESExWDrabGp6ud/LgFwVXR5Pp7jiCsSuQmckAFuYDKVfHEZ6noUUrLpId
+8E5AIa+Lj79KqRM738/a2hBrqwbmblVgHsrAMpaE1ZJAQ1sCR3PkhOYZSawbQdvRZR+jCs+oKhJK
+DCwszbHxl10W1td+4uF9NSOjxRRWZBKSnE/gCS3hRYNElZpJOmd+OYXI6KOL1d2W5wPX51m4t8jt
+BSsD5guUKc8QcuhLdnl44RWUSHB2J+FyE1HlJr6rHKO0c+pFfmHhiv2/7pfJXLQubu69EqnM6Piu
+1OgocTZKpG5GqdRVlGwzOsvcjTI3j0257NzdK3PdqRMcHA7+Cw3FfyeX8+KGAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormSelect_Configuration_Fil" id="1ccc7d83-b6fd-4ee0-87d4-50884a19487f" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ButtonOpen" id="f3a0a435-ff64-47cf-87ec-ab7324a40668" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title~'Select.*']/button[@text='&Open']]]>
+      </item>
+      <item name="ListItemPCI_ADSI_xml" id="0f86702a-35f7-4029-87da-05cb41aa1876" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Select.*']/.//listitem[@accessiblename~'PCI_ADSI*']]]>
+      </item>
+      <item name="ListItemSIM_xml" id="ec29feb2-69d4-4acb-906f-66a2149f390d" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Select.*']/.//listitem[@accessiblename~'SIM.*']]]>
+      </item>
+      <item name="ListItemSFF_SUT_xml" id="fe55f265-5022-4a49-8ae1-ccf5034f2cc5" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Select.*']/.//listitem[@accessiblename~'SFF_SUT*']]]>
+      </item>
+      <item name="ListItemCPCI_SUT_xml" id="aad04d1a-c08e-4dcb-8465-95a12c981c6c" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Select.*']/.//listitem[@accessiblename~'CPCI_SUT*']]]>
+      </item>
+      <item name="ListItemUltra16_SUT_xml" id="9b32d074-a06a-4d1f-8a9b-8dee70f150bb" searchtimeout="10000ms" capname="listitem">
+        <![CDATA[/form[@title~'Select.*']/.//listitem[@accessiblename~'Ultra16*']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title~'Select.*']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA5VJREFU
+OE9lk+tT1FUchxdeOPwBvWlKI5ucKSwNJoJlV5K4SEusYG2OIcqQELDCAqEMjEjEELAsN7ksG5Q7
+3AMRFkhAbsui3IaLCChBMHJziIgMJMzs6Qc64zSdmc+cF9+Z53zmOeeYWVhYOERERha+9PLuF0SI
+/rfMzc1FZuZmO6N/njzZmZsJ+ePB7xspKWnRIj8/v2tF5Y04nkzHw1+N42fpOPhmYXcqE7nqO7RN
+E5zLa0IRW4ZzQA4yn1g85T7U19SQnJw8K1IqlSYbO2csrY8SqHInIsGHV99X8eaR82iu9JBU1Yc8
+pgSrw6c47Pk5odHJhMdp0F9tQ6vTrYiUZ1Umr7N5WL0txfvD/TxYTSA4yBaJsxcFdV3oO2+hN42S
+crmWks5RSgdmKBuao3F8UQB8KwDCVCbFxQasj0ZhL7GlxmigvusC1S3fUNg2zGWjAOgaprh7jLLe
+u1QOTFHRM0V59wz5OwChwaFALXucE9kv/oTcqquc1NRyby6Uqo50dK0jXGocJF5vQpnVwiGlnndP
+lyCLqCY3XysAlGGmg/KvsRQr2LfvAH03SljfmGTrYSU9I8H4xqqwP1OMOKCUI+fqkV1oxiOulYii
+QfK02w4EidbvuXLQRoy91I12Yyl/P15iaaWf4hYdSwsK0krVJP4wjLpunKymO2T8OE7FwOxzB3G6
+atQVncR/38kVwcHyb3Nsbk5R0tbCzVvZrC57k12lJSSrmejCds6kGIjKaX/WQHAg8dfy2kep7PVI
+xz8+g4RyI8lVPfz1aJg/NyrZWItidlpOR/dxZqZtWby3l9qm46Sq01dEIUqV6S1FNntkal7xUOMS
+nEj/nWYqjb1sbV5nfS2DhdkwxoY+ZXFGxsaqPcsLr5NcGPUccECRiaW7BktZCuLTSaz8ohck1nF/
+PhdjezjV5SdoqPFm/mcFwyPHUGkuEpbfQV6+IHG7gZUig92yVDwjirj9k1B966Zw+jUmJ3LoNsYw
+NnKeocFwvspS8XFMET6p7STVjj57BwLgg4BCQjQGfl2bF25gmsePhni43sr9hRIMhji+iI7EPSgN
+RUIDvpld+GaYBE/DTwGurm7lnSNzGHonuD15l/6RHgwtBhLSU5F7HUNs74D7iS8JyLxOYH4vIbob
+hOp6aR5cIig4uG/7d774jo2N2sXNrUAqdSywE4sLxFJpgaOTU4GTk7OQp7uzi9t/IpFILol27Xrj
+XwcVe2djF/LMAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormAccept_Configuration" id="10b00ab7-bca8-4291-8248-c9b975b8daad" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="TextConfiguration_File_Distr" id="096ae5ce-6987-4ab8-b28b-486e1ebc5077" searchtimeout="60000ms" capname="text">
+        <![CDATA[/form[@title='Accept Configuration']/.//text[@accessiblename~'^Configuration\ File\ Distri']]]>
+      </item>
+      <item name="ButtonOk" id="eb5d646c-8c6d-4e3a-849e-f097571ae1cc" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Accept Configuration']/.//button[@accessiblename='Ok']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Accept Configuration']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA6RJREFUOE9dk2tM02cUh/+O74vf9mUXlzhYKwUmig4dGZdNx24wAiJy
+22QsARnIVTa5yEWBAlIoci1QWmgRitDgBIVSLtKKBVG5aSLbNG4yEFl0LDHm2f7Ffdqb/N6T8+F9
+cn7nnHeLIAierm5uCa9u3fqawysODmIuCFs2b0H457/4vxzxbDx7umqz2eqFqOjo2dL6ruff/tjK
+NxkNRKarCMto5nBmC6kVfSgv2KjsniS98iKxuW3EnqgiOaMQfVv7i/yCghVBUalE4v4xb+2KICU7
+EN/wWN72S2NfpJxk5UXSGi7jF6dAcuAYu/0iCDwcR2RMEgWlNej0HQiKcyp8g1NxcnyP3B8OYjgf
+QkSUD58d+ppTNXpUg9NUGcc53dyDQn+Z1ok7tE4u0W69i77LIALqNHyRrmWHdxjx34fS1ltOnykD
+dV81dZfGUZmmaDLbaB6dQT0+R/vEIrqrd9CY59GdtwNqW3g/UsF232wCjsQQlt3CKY2KHvNJOocb
+qR24Rk3/NKVdVtJqBwnNNfBRok601UpTqx6htLIRJ/8stu0Lw8vbh+FhA6uPrSwv1zI4cZxjJTl4
+xjSwN0bF/ngt3ikGfFJ7CckbQN3eiVB2thpntw9xdHLBw+MDRsx6/t6YY+zWMJabJYxPxlPcWk5a
+/ThZGhs5+mlyO64jN07RbregrG/ieIGCYvUlitpHsc6O8fvKHLfv3aB7tJfBa3lMzybQaFSS2WDi
+pGqE9JohUquuoNWJFVTWqfGOPceOIDnbPy8mXwSm1fehM4k2VsZ4tq7myR+J3JgJRtMdwZWRAwyP
+76VRF4Syph5BXqXCKaCIN/xP8+anZ0g/W06Jvoc+q4Xflvv587GSRw9S+PVuOA+X/HnyaA/3f5bQ
+0hVAmUL5EiANKGbbJ6JESExWDrabGp6ud/LgFwVXR5Pp7jiCsSuQmckAFuYDKVfHEZ6noUUrLpId
+8E5AIa+Lj79KqRM738/a2hBrqwbmblVgHsrAMpaE1ZJAQ1sCR3PkhOYZSawbQdvRZR+jCs+oKhJK
+DCwszbHxl10W1td+4uF9NSOjxRRWZBKSnE/gCS3hRYNElZpJOmd+OYXI6KOL1d2W5wPX51m4t8jt
+BSsD5guUKc8QcuhLdnl44RWUSHB2J+FyE1HlJr6rHKO0c+pFfmHhiv2/7pfJXLQubu69EqnM6Piu
+1OgocTZKpG5GqdRVlGwzOsvcjTI3j0257NzdK3PdqRMcHA7+Cw3FfyeX8+KGAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <appfolder name="FormUnsaved_Changes" id="f3488371-27c6-4a63-9297-f59c52198c93" searchtimeout="30000ms" capname="form" isrooted="True" usecache="True">
+      <item name="ButtonNo" id="7859a1b5-3887-44e1-b24f-d1e3a9c746d0" searchtimeout="10000ms" capname="button">
+        <![CDATA[/form[@title='Unsaved Changes']/.//button[@accessiblename='No']]]>
+      </item>
+      <basepath>
+        <![CDATA[/form[@title='Unsaved Changes']]]>
+      </basepath>
+      <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA6RJREFUOE9dk2tM02cUh/+O74vf9mUXlzhYKwUmig4dGZdNx24wAiJy
+22QsARnIVTa5yEWBAlIoci1QWmgRitDgBIVSLtKKBVG5aSLbNG4yEFl0LDHm2f7Ffdqb/N6T8+F9
+cn7nnHeLIAierm5uCa9u3fqawysODmIuCFs2b0H457/4vxzxbDx7umqz2eqFqOjo2dL6ruff/tjK
+NxkNRKarCMto5nBmC6kVfSgv2KjsniS98iKxuW3EnqgiOaMQfVv7i/yCghVBUalE4v4xb+2KICU7
+EN/wWN72S2NfpJxk5UXSGi7jF6dAcuAYu/0iCDwcR2RMEgWlNej0HQiKcyp8g1NxcnyP3B8OYjgf
+QkSUD58d+ppTNXpUg9NUGcc53dyDQn+Z1ok7tE4u0W69i77LIALqNHyRrmWHdxjx34fS1ltOnykD
+dV81dZfGUZmmaDLbaB6dQT0+R/vEIrqrd9CY59GdtwNqW3g/UsF232wCjsQQlt3CKY2KHvNJOocb
+qR24Rk3/NKVdVtJqBwnNNfBRok601UpTqx6htLIRJ/8stu0Lw8vbh+FhA6uPrSwv1zI4cZxjJTl4
+xjSwN0bF/ngt3ikGfFJ7CckbQN3eiVB2thpntw9xdHLBw+MDRsx6/t6YY+zWMJabJYxPxlPcWk5a
+/ThZGhs5+mlyO64jN07RbregrG/ieIGCYvUlitpHsc6O8fvKHLfv3aB7tJfBa3lMzybQaFSS2WDi
+pGqE9JohUquuoNWJFVTWqfGOPceOIDnbPy8mXwSm1fehM4k2VsZ4tq7myR+J3JgJRtMdwZWRAwyP
+76VRF4Syph5BXqXCKaCIN/xP8+anZ0g/W06Jvoc+q4Xflvv587GSRw9S+PVuOA+X/HnyaA/3f5bQ
+0hVAmUL5EiANKGbbJ6JESExWDrabGp6ud/LgFwVXR5Pp7jiCsSuQmckAFuYDKVfHEZ6noUUrLpId
+8E5AIa+Lj79KqRM738/a2hBrqwbmblVgHsrAMpaE1ZJAQ1sCR3PkhOYZSawbQdvRZR+jCs+oKhJK
+DCwszbHxl10W1td+4uF9NSOjxRRWZBKSnE/gCS3hRYNElZpJOmd+OYXI6KOL1d2W5wPX51m4t8jt
+BSsD5guUKc8QcuhLdnl44RWUSHB2J+FyE1HlJr6rHKO0c+pFfmHhiv2/7pfJXLQubu69EqnM6Piu
+1OgocTZKpG5GqdRVlGwzOsvcjTI3j0257NzdK3PdqRMcHA7+Cw3FfyeX8+KGAAAAAElFTkSuQmCC
+      </icon>
+    </appfolder>
+    <basepath>
+    </basepath>
+  </rootfolder>
+  <variables/>
+</repository>

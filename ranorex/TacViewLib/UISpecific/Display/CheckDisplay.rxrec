@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="c0952b1f-79a6-4f5c-942e-e81abed95c64">
+  <name>
+    CheckDisplay
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CheckDisplay" namespace="TacViewLib.UISpecific.Display"/>
+  <recorditems>
+    <userrecorditem duration="100ms" methodname="TurnOffAllInterfaces">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="623d96fb-211a-4601-bcc6-fdfbb0e7a463">
+        <element role="listitem" prefcap="listitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="496,969,226,18">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Configuration: C2]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/statusbar/listitem[@text='Configuration: C2']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Configuration: C2]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+        <![CDATA[Validate status column cell]]>
+      </comment>
+      <info sourcename="Recorder" id="a2dd1900-2146-4a31-963f-ed23c3491f02">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="163,800,77,20">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[OPER]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Status]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[OPER]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='0']/cell[@accessiblename='Status']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleName]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Status]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+        <![CDATA[Validate unit column cell]]>
+      </comment>
+      <info sourcename="Recorder" id="c0e57637-78b7-4cd5-a1e8-0012e49ec81c">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='0']/cell[@accessiblename='Unit']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleName]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Unit]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="100ms" methodname="Validate_InterfaceText">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="c929a241-c037-4474-8797-2763fe869c8f">
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='0']/cell[@accessiblename='Interface']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[C2 HOST]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="125ms" methodname="Enable_Interface_One">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="125ms" action="Click" button="Left" movetime="172ms" sx="171" sy="808" loc="CenterLeft">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="a2dd1900-2146-4a31-963f-ed23c3491f02">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="163,800,77,20">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[OFF]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Status]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[OFF]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='0']/cell[@accessiblename='Status']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="Validate_Unit1">
+      <comment>
+        <![CDATA[Validate Unit Number]]>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="c0e57637-78b7-4cd5-a1e8-0012e49ec81c">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="384,800,79,20">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[40]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Unit]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[40]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='0']/cell[@accessiblename='Unit']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[40]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="6c0ac7a4-7478-4d7f-b0c9-8760b980e9e6">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="1110,134,158,16">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Exercise Status]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Disabled]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59648']/container/picture[@accessiblename='Exercise Status']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleName]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[ Exercise Status]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="6c0ac7a4-7478-4d7f-b0c9-8760b980e9e6">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="1110,134,158,16">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Exercise Status]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Disabled]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59648']/container/picture[@accessiblename='Exercise Status']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleValue]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Disabled]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="125ms" methodname="Enable_Interface_Two">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="171" sy="831" loc="CenterLeft">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="09904a82-50a4-44ad-a31d-c9884920c4de">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="163,820,77,20">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[OPER]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Status]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[OPER]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='1']/cell[@accessiblename='Status']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="Validate_Unit2">
+      <comment>
+        <![CDATA[Validate Unit Number]]>
+      </comment>
+    </userrecorditem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b1ecb22c-953c-466a-a3be-b5513ef1c6fb">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="338,134,217,18">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[C2 HOST:Force Authority]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[No]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59648']/container/picture[@accessiblename='C2 HOST:Force Authority']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleName]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[ C2 HOST: Force Authority]]>
+      </matchvalue>
+    </validationitem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="653c318b-9761-4130-9d1d-cb10d9976a5b">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="1004,134,264,18">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[C2 HOST:Exercise Status]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Disabled]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59648']/container/picture[@accessiblename='C2 HOST:Exercise Status']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleName]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[ C2 HOST: Exercise Status]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="125ms" methodname="Mouse_Right_Click_Interface_One">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="125ms" action="Click" button="Right" movetime="300ms" sx="76" sy="828" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="09904a82-50a4-44ad-a31d-c9884920c4de">
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element/container/element/table[@accessiblevalue='CInterfaceReportControl']/row[@accessiblename='1']/cell[@accessiblename='Status']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="125ms" methodname="Take_Force_Authority">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="125ms" action="Click" button="Left" movetime="212ms" sx="122" sy="906" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="8c24e0b2-39f0-4937-bed8-5ce0a1bac698">
+            <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="3" rect="78,896,251,22">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Take Force Authority]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[Click]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Take Force Authority]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[MenuItem]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Take Force Authority']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b1ecb22c-953c-466a-a3be-b5513ef1c6fb">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="338,134,223,18">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[C2 HOST:Force Authority]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[Yes]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59648']/container/picture[@accessiblename='C2 HOST:Force Authority']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleValue]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Yes]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem duration="125ms" methodname="Mouse_Right_Click_Interface_One">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="125ms" methodname="Release_Force_Authority">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <validationitem duration="125ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b1ecb22c-953c-466a-a3be-b5513ef1c6fb">
+        <element role="picture" prefcap="picture" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="338,134,217,18">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[C2 HOST:Force Authority]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Graphic]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[No]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2|TacViewAll\ \ \ \(map:\ Default']/element[@controlid='59648']/container/picture[@accessiblename='C2 HOST:Force Authority']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[AccessibleValue]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[No]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.8.10854" relativepath="..\..\TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="a79a7e2a-15ca-4552-8c96-21cb03f9ef8e">
+  <name>
+    TwoWayProtocol
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="TwoWayProtocol" namespace="TacViewLib.UISpecific.SendImageJ16"/>
+  <recorditems>
+    <userrecorditem duration="125ms" methodname="EnableTwoInterfaces">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="125ms" methodname="TurnOnEventHistory">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="15.255999999999999s" action="Click" button="Left" movetime="300ms" sx="124" sy="193" loc="78;9">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="f0ae3aef-54f2-4c81-8d07-2dda9a9e3ec2">
+            <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="6" rect="46,184,227,22">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Event History	Ctrl+F10]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[Click]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Event History	Ctrl+F10]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[MenuItem]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selected, Focused, Pressed, Checked, HotTracked, Focusable]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='View']/contextmenu[1]/menuitem[@accessiblename='Event HistoryCtrl+F10']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Right" movetime="300ms" sx="136" sy="439" loc="130;28">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="942f99ca-0987-4d09-b7d2-034b2090decd">
+        <element role="table" prefcap="table" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="6,411,338,325">
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Select]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CCustomReportControl]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Table]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[CCustomReportControl]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='68731']/container[@caption='Event History']/element/table[@accessiblename='CCustomReportControl']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="CellAlertClear">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="InterfaceCell">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="150ms" action="Click" button="Right" movetime="300ms" sx="113" sy="821" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="965a583c-d9bf-47e1-8591-d417c72cf3ca">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="75,811,91,19">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[C2 HOST]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Interface]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[C2 HOST]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Interface']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="177" sy="859" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="75de30a8-1a12-4984-94cc-3ff3cdd70af5">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="115,845,200,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Send J16.0 Image...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Send J16.0 Image...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Send J16.0 Image...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="471" sy="510" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="fae62e74-f757-4ab4-8e7c-730dc7e94932">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="355,501,296,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[5]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Protocol]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Protocol]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[One Way]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Send J16.0 Image ']/element/container/element[@controlid='1107']/element/listitem[@accessiblename='Protocol']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem duration="150ms" action="Press" presstime="1ms" data="T" scancode="20" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <keyitem duration="150ms" action="Press" presstime="100ms" data="Return" scancode="28" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="525" sy="577" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="b20fee20-6b9a-488d-83dd-b334e276939e">
+        <path>
+          <![CDATA[/form[@title='Send J16.0 Image ']/element/container/element/element/listitem[@accessiblename='Addressee 1']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="ImageRec">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <keysequenceitem duration="250ms" sequence="40" presstime="1ms">
+          <comment>
+          </comment>
+        </keysequenceitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="1018" sy="492" loc="268;8">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="0e0d3522-7816-4369-a0de-adf045998811">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="750,484,296,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[5]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Image Name]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Image Name]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Send J16.0 Image ']/element/container/element/element/listitem[@accessiblename='Image Name']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem duration="150ms" action="Press" presstime="100ms" data="Return" scancode="28" setModifiers="False">
+      <comment>
+      </comment>
+    </keyitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="268" sy="8" loc="268;8">
+      <comment>
+      </comment>
+      <info sourcename="ItemRecorderEditor" id="0e0d3522-7816-4369-a0de-adf045998811">
+        <path>
+          <![CDATA[/form[@title='Send J16.0 Image ']/element/container/element/element/listitem[@accessiblename='Image Name']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="1078ms" action="Click" button="Left" movetime="300ms" sx="599" sy="661" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="3a629371-93ea-4a72-9a5b-b001bafc33d7">
+        <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="561,651,224,14">
+          <attribute name="selectionlength" type="System.Int32">
+            <![CDATA[4]]>
+          </attribute>
+          <attribute name="selectionstart" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selectiontext" type="System.String">
+            <![CDATA[jkgk]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[jkgk]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1148]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[132510]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[2068]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[jkgk]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Open']/combobox[@controlid='1148']/text[@controlid='1148']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="0ms" methodname="EnterImage">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <delayitem duration="500ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="376" sy="397" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="bf839b6d-e642-4166-a74e-2c961a060aa8">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="358,378,35,35">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Save]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Save]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Send J16.0 Image ']/element/container/element[@controlid='25006']/toolbar[1]/button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="UserPass">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <keysequenceitem duration="250ms" sequence="ultra16" presstime="1ms">
+          <comment>
+          </comment>
+        </keysequenceitem>
+      </internalrecorditem>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

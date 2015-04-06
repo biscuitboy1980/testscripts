@@ -1,0 +1,470 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{64A2BD47-4B92-41E3-B077-AC27D1F761B6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TNAccountability</RootNamespace>
+    <AssemblyName>TNAccountability</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>1b223409-75cc-459f-b846-ec9e60fa7758</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>607a0612-e7d0-4700-b0e6-a76fd17af9dc</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>77f2d5a2-cc4c-4607-b594-1552a7b7cd49</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>05477661-91b1-4a14-b545-b9d8292db6b6</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>45763b75-f8d3-40c8-a0f3-c86167b2de9c</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>1e5adfb9-f996-48bd-b0f0-f70258ab50f5</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>8b60cc64-96ca-482a-9543-ebccf850cb56</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>531fe8de-bc35-4584-9952-6ba07ace1eec</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>75af75fd-4b58-49e8-874d-7df871df35b2</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>57ff0104-b4db-47ce-af8d-d169eb86e25a</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>e5849ee0-b048-4baf-9614-490ab54b946c</id>
+    </Reference>
+    <Reference Include="System">
+      <id>2ff2a6c2-611f-4d86-9996-5d2764d00769</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>cc893827-abc1-4e52-bda4-c985d69cbc0b</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>1c3b5439-f498-49ef-9894-ba5dab48c141</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>3ba0d856-74d1-491e-ad20-16dadb91cfb5</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>5ada337d-e7f9-4d6b-ab88-c6f21d15a03e</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>19afd523-5b77-4dcd-91f3-4245a3872210</id>
+    </Compile>
+    <Compile Include="FiveDigitUnit.cs">
+      <id>42161c91-4961-4acd-95f0-13e57f9344af</id>
+    </Compile>
+    <Compile Include="FourDigitUnit.cs">
+      <id>f1d4e6b6-746c-49b2-82ba-956c40b29087</id>
+    </Compile>
+    <Compile Include="OneDigitUnit.cs">
+      <id>902cb6ed-427a-456a-a693-e1e19c2ef093</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b7693d4f-556a-44df-afe3-4200f444c1d3</id>
+    </Compile>
+    <Compile Include="ThreeDigitUnit.cs">
+      <id>fa50afb7-5487-4372-8034-0741395fab31</id>
+    </Compile>
+    <Compile Include="TNBLK1Test.cs">
+      <id>88afb4da-3c53-4e12-a90f-734161b64d4b</id>
+    </Compile>
+    <Compile Include="TNBLK2Test.cs">
+      <id>8af34c2c-df71-43f7-8189-a29b6e8cc602</id>
+    </Compile>
+    <Compile Include="TwoDigitUnit.cs">
+      <id>d2607177-f852-43e8-878a-1b621cc84769</id>
+    </Compile>
+    <None Include="app.config">
+      <id>81bc4a73-0bcb-48d1-ae0c-c7cf9c32902d</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111017_124531.rxlog">
+      <id>b705f8e9-3043-483b-af1b-459a67e6edf2</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111017_124811.rxlog">
+      <id>71fdc14a-b97c-4695-91ad-364d692a1ea8</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111017_124925.rxlog">
+      <id>1769ffb0-b10a-4395-acd4-131a7a42179a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111017_125059.rxlog">
+      <id>5e6de8b9-a706-4b27-88f7-d34257426659</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111017_135608.rxlog">
+      <id>49ca78af-12d2-493e-a4d2-2be426db074f</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111017_135829.rxlog">
+      <id>60c2160a-ddd4-458d-8100-70a664388ca3</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_101646.rxlog">
+      <id>7fc79ced-d1bc-43df-801f-043e3008eb26</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_101748.rxlog">
+      <id>58095eff-0763-4c1d-8e61-58d172a51ec1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_101902.rxlog">
+      <id>f60369c2-1557-47f1-8225-5a833ae039f8</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_102432.rxlog">
+      <id>ee547670-954d-42e1-91bd-d61a072f7290</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_102834.rxlog">
+      <id>aa825c12-2520-40f9-b651-4e03327d574a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_103134.rxlog">
+      <id>a590bf86-a99b-4f8c-bdf7-8bb6aa5c193d</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_103348.rxlog">
+      <id>89c7a9ac-9fba-4e29-a5c2-41406bdb8739</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_103637.rxlog">
+      <id>148479c5-5ed5-4e7b-ad25-8a61953f3461</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_110016.rxlog">
+      <id>66ecff75-dd15-476c-ad83-1902997a00a1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_110151.rxlog">
+      <id>e6a80aa9-d436-4089-a71b-63173aa33009</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_110514.rxlog">
+      <id>9200ffc2-b2fb-4195-91d3-ea0604293120</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_110553.rxlog">
+      <id>e54d2aee-d922-4864-9a48-0f911c7fcfb5</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_111253.rxlog">
+      <id>7eb50349-fe90-4ab6-a284-2e5e62f04b03</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_111406.rxlog">
+      <id>0604631d-47e8-42d6-8e3e-45e3e8df7400</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_111611.rxlog">
+      <id>668c28a3-0c53-4006-8bc1-c01941c8759e</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_111813.rxlog">
+      <id>67e9e927-f0a8-473f-b64e-c83ee8a003ac</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_111840.rxlog">
+      <id>43f06d63-b9f2-4844-b1e8-be0d4c0ef147</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_113152.rxlog">
+      <id>6210721d-01c9-4358-9f01-8452c3f5a9bd</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_113321.rxlog">
+      <id>9e5165f0-4a46-4ffb-94a1-197396135da1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_114617.rxlog">
+      <id>5503c7ae-1d1a-4964-b4e8-d0e22378fdf4</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_115025.rxlog">
+      <id>7675ac18-fc4d-41dd-8c6b-81bb89f79eed</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_115446.rxlog">
+      <id>94f927a8-c040-4110-8f00-9478591ad0c1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_115540.rxlog">
+      <id>8aba8a2a-c268-4ca7-8aeb-dd95399c0235</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_120510.rxlog">
+      <id>cddf386c-25ee-4f01-bbb6-a8802a4ddfe5</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_121007.rxlog">
+      <id>565b8cde-b266-4a62-b9e2-8432547a131b</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_121137.rxlog">
+      <id>82e6dce0-c489-4973-a9c4-af27b8cc5767</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_144946.rxlog">
+      <id>7df8995a-7386-479b-97dd-a79e363dbd3e</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_145630.rxlog">
+      <id>72ad5ab4-954a-4069-9603-79082456f1bd</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_145829.rxlog">
+      <id>47523010-62f9-4719-8703-a6050f2a9b2e</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_150007.rxlog">
+      <id>f3f258bc-c586-4f28-8299-1577f3587eae</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_150524.rxlog">
+      <id>08b92191-b993-4728-adaf-c672d89b499a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_150941.rxlog">
+      <id>64867e2f-e4bf-4a17-aa2a-aa5ae67dfbd1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_151055.rxlog">
+      <id>46d683c0-1e24-4ee4-9cb5-bc497ea8c1c7</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_151204.rxlog">
+      <id>f8bedc7c-aff4-4783-b8c2-15e3ba68cc81</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_151841.rxlog">
+      <id>80ae0d36-7276-4146-9ccf-e9d884584854</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_153740.rxlog">
+      <id>ec5ef7df-d049-4fc4-b9da-d623e487eacd</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_154033.rxlog">
+      <id>40e457ef-da88-45c8-8598-b2856349912e</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_154704.rxlog">
+      <id>a62bf999-6644-4170-bb33-29c2bb94ddda</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_155701.rxlog">
+      <id>35a73762-b5ee-4401-95a0-65c894c81d98</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_160055.rxlog">
+      <id>5339c173-e6ee-4cc2-87b5-601a84a65c8d</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_160346.rxlog">
+      <id>c0b4fc56-18c4-460e-8016-5e92834572eb</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_161008.rxlog">
+      <id>e5f37783-eb64-4cd4-b2b1-3bf02e706dbb</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_161213.rxlog">
+      <id>e5ed957c-ea47-41b9-9abb-cebaa56f8c03</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_161431.rxlog">
+      <id>179126d7-82aa-4e9a-866a-478c5580c753</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_162044.rxlog">
+      <id>62e2ba5a-c725-4148-922c-e51d620b29e9</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_162756.rxlog">
+      <id>4f53bab2-a5e2-4168-9024-614abc27230a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_163329.rxlog">
+      <id>6be91a25-ff90-4f38-867d-7c8feceeacf2</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_163406.rxlog">
+      <id>c0bc357d-65f2-45b6-91cf-71ce94ae7de1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_164547.rxlog">
+      <id>89bd30d8-1776-4787-8932-f6ef1e1e7b69</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_165519.rxlog">
+      <id>215e312d-1734-4ed3-a4be-f4218a6bc289</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_165913.rxlog">
+      <id>b6317257-5b6b-4850-b93b-21746f7f45e2</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_171643.rxlog">
+      <id>df04a2d9-b68e-4bb8-b71b-6f1f4b958b8c</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_171740.rxlog">
+      <id>1e71c125-f6ec-4ba8-86a8-7ba3e2e2ade5</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_172808.rxlog">
+      <id>79516101-2481-41e4-847a-2442fff5aad7</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_173045.rxlog">
+      <id>119ca024-ffed-4f3f-9729-54c85780150d</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_173617.rxlog">
+      <id>188e1a7f-38e5-4d9e-b353-01ff197484a1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_173752.rxlog">
+      <id>35c0f4bc-5d4f-4584-9581-670fa53a46da</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_174100.rxlog">
+      <id>3119df4e-4d57-4973-bbd8-6f64bfc138b4</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_174546.rxlog">
+      <id>98334e88-0560-4491-ad80-29876a263d19</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_174816.rxlog">
+      <id>cdc8ed3e-61c5-49e8-bc1b-f470997a9b87</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_175726.rxlog">
+      <id>8468cb72-6fff-462e-bfa9-6d38e5e3a7ef</id>
+    </None>
+    <None Include="Reports\TNAccountability_20111019_175941.rxlog">
+      <id>4bd2115e-8d06-405f-af89-e60647135090</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120126_103741.rxlog">
+      <id>7bed39fa-fbb0-43f4-859e-c099b02674d0</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120126_103931.rxlog">
+      <id>b67bba65-f60d-416c-b11f-88a49cefbcca</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120126_104157.rxlog">
+      <id>a3b09428-dc25-4424-9ae3-2558e3e4bbda</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120126_104310.rxlog">
+      <id>006b41fd-9b31-4c37-943a-d3b205bf5c3a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120126_104527.rxlog">
+      <id>c846a62e-74b4-419d-9fce-ceaf2a8aab12</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120130_140711.rxlog">
+      <id>7d9f60f4-91f4-4bab-835b-de4ef5c34694</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120130_141132.rxlog">
+      <id>75e37ca1-d45d-47b8-8ffc-a10f260a212a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_142749.rxlog">
+      <id>2523898c-6bea-4a9f-8165-a88bfa2c099b</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_144148.rxlog">
+      <id>da3d40d6-9ad1-4f30-adf0-b1a9f547effb</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_145628.rxlog">
+      <id>e578cca1-3a31-4cfd-98aa-e3abf07b6add</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_150625.rxlog">
+      <id>69464b11-8b02-47a5-9970-35cd7e75b8bf</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_150720.rxlog">
+      <id>7b6b71ce-c2a3-4762-9bde-e883ffd1afa3</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_153543.rxlog">
+      <id>ae6c07db-f3e3-4d82-b8cd-c0f002072527</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_154023.rxlog">
+      <id>55ba6510-3729-4011-9cb4-e58c3cd6f368</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_154344.rxlog">
+      <id>a45e165a-b264-49b5-ba24-f0274caa64a1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_154720.rxlog">
+      <id>c83f7be5-9ce9-4aa5-9374-8bb6e361fdf8</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_154801.rxlog">
+      <id>3f50284a-ae77-4911-bc57-218296156a2e</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_154912.rxlog">
+      <id>b730e2cf-612e-4c3c-9f0e-978ed94c3ec1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_155238.rxlog">
+      <id>022ccee3-a473-4b09-a2ec-90b0ea16e072</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_155525.rxlog">
+      <id>f3c2cf1b-6fc6-4b42-a373-e149884f9fe2</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_160124.rxlog">
+      <id>30e57da8-5fb4-4bdc-b76b-ac821dcb60eb</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_180813.rxlog">
+      <id>f207565c-ff4f-4605-82e5-993075e93084</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_182730.rxlog">
+      <id>1b2caec7-d947-4037-867e-3acb20eb70e8</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_182811.rxlog">
+      <id>6e7bff69-af99-43ff-9370-47635eec2e2b</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_183002.rxlog">
+      <id>fe4d97ca-7cfa-4c2b-88be-840f6e173ebe</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_183431.rxlog">
+      <id>e03cd1e9-0316-4871-ae81-a8c398a4fcdf</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120131_183838.rxlog">
+      <id>694e9dfe-5300-4ef1-a6d9-9491567280f5</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_091128.rxlog">
+      <id>b3585ba6-64e4-46da-890e-c55a3052a49b</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_091927.rxlog">
+      <id>8da68de1-f086-42a7-a14a-ff5eca411b72</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_092001.rxlog">
+      <id>b0e610fb-f27d-40e7-9517-c663969f04e1</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_092043.rxlog">
+      <id>b59a2da7-bf90-4cb9-90a4-a6bd53c6b5b4</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_092315.rxlog">
+      <id>f5fadd54-0e4a-44ec-8324-de057d89444a</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_093025.rxlog">
+      <id>148d6848-ca7b-4979-b505-ce7245f5eb17</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_093317.rxlog">
+      <id>a8355679-987a-4063-860e-9cff6372dca2</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_093550.rxlog">
+      <id>9eb9b8b0-f637-4b60-8a92-ffe1641850b7</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_094632.rxlog">
+      <id>5f91c918-b3b4-4e79-b620-d2a0602b659b</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_095039.rxlog">
+      <id>e364bd1d-52ba-4d0c-bed1-440aea800f09</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_095137.rxlog">
+      <id>df699701-1e76-440a-be73-6e181448fd69</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_095545.rxlog">
+      <id>44507562-9652-4315-8368-fa1db41ce81f</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_100030.rxlog">
+      <id>b02264f1-ddd1-4ee7-b441-4e550eb582ff</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_102936.rxlog">
+      <id>92e71b8a-18ca-4968-8768-39c44cab9bf4</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_103135.rxlog">
+      <id>74c5c8ba-b18c-4f87-b5bd-c81b09a027fa</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_103412.rxlog">
+      <id>ddf37497-4c6d-46dd-bb5c-a41716622fcf</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_103542.rxlog">
+      <id>75e21c80-e6cd-40ae-8209-230082ad36dc</id>
+    </None>
+    <None Include="Reports\TNAccountability_20120201_124749.rxlog" />
+    <Content Include="TNAccountability.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5f9003b9-6c31-4d21-a84c-b4dea69ecead</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SystemManagerLib\SystemManagerLib.csproj">
+      <Project>{0C41898E-56CD-4C3D-A861-433FD1908445}</Project>
+      <Name>SystemManagerLib</Name>
+      <id>44c5d158-fcf7-451b-821a-668b737b8093</id>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+      <id>a89096c9-7833-423f-b072-67c1fcb32ed1</id>
+    </ProjectReference>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>3f0659ff-79cf-4c6f-ba29-e13e63efce01</id>
+    </Folder>
+  </ItemGroup>
+</Project>

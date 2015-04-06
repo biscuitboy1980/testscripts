@@ -1,0 +1,141 @@
+﻿<testsuite name="TNAccountability" rxversion="3.1.1.14266" id="ba140c09-65f5-4ea3-bdfb-395d9480488d" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="30000ms" enabletracingscreenshots="True" description="" reportlevel="Info;20">
+  <parameters>
+    <param name="Connection2" value="cPCI_ADSI"/>
+    <param name="repeats" value="1"/>
+    <param name="Connection1" value="PCI_ADSI"/>
+  </parameters>
+  <content>
+    <testcase name="Link-16" id="55e91615-0536-4cff-a33c-0fbe0f2d9e81">
+      <testcase name="Unit_Numbers" id="bbcca4b1-f7d0-4d9e-972f-21c439c00ef9">
+        <testcase name="One_Digit_Unit" id="43a4f0fc-6dd5-4ea6-ab9f-f43c2cb34777">
+          <testmodule name="OneDigitUnit" id="cf3a2a92-2c78-48ac-a606-fb11b90bdd99" ref="410D1D97-0151-4652-A2C6-2A60B24589A1" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="a4ceda56-f347-4724-92d4-612232501c80" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="e7921160-b79a-4e88-9e8e-ad2104fc65e2" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+        <testcase name="Two_Digit_Unit" id="f0980f79-bf5d-410c-9b67-d4ac59f8f681">
+          <testmodule name="TwoDigitUnit" id="51c346a7-e7eb-45f3-811f-8f0e8303b31a" ref="1F2DDF01-AD3E-4FD1-90EF-C81049462289" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="8ec9eab9-0e37-463b-b0bb-781645133925" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="eaecc0ca-16cd-4f33-a5f4-b1aa446c651a" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+        <testcase name="Three_Digit_Unit" id="d2d516a4-435f-4ddc-8bf6-88bda2a0fc47">
+          <testmodule name="ThreeDigitUnit" id="f23370ae-76c3-4143-a25a-8ec729b7ff71" ref="9567A27B-111D-4F57-9902-88C59EBEFF58" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="ec46a949-73f3-427d-9d8b-e30ccbd9e3e6" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="f75d6f0f-6beb-4294-8376-8da9bd31e34f" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+        <testcase name="Four_Digit_Unit" id="161e3e7f-d0c9-4524-aa83-6020a9eac66d">
+          <testmodule name="FourDigitUnit" id="109d74e3-531a-4a22-b31c-200ebcd264ee" ref="4484186D-FA73-4806-B98A-4F18BE86C615" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="3216223b-56c6-4832-928a-4e7990b0770f" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="8389445b-d392-404a-99d9-65ae11548ef5" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+        <testcase name="Five_Digit_Unit" id="412d8cac-1821-438c-9460-18ac6de510d2">
+          <testmodule name="FiveDigitUnit" id="385bb1f0-f5d2-42f8-b3c1-bde3629cae21" ref="E8A538F6-2E98-46C4-B122-8D9686B6A020" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="63525712-7e84-4a75-b2ad-2e770e07096c" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="8c5eb6df-730e-42df-a47d-3ab805fdd636" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+      </testcase>
+      <testcase name="Track_Number_Blocks" id="adaf4cad-e5e9-4310-9656-49fd3dcf2da4">
+        <testcase name="TNBLK1" id="5460ad5f-5b49-410f-8002-029ffaeeb60b">
+          <testmodule name="TNBLK1Test" id="54907a8c-4818-443d-8f74-f08c6f543a4d" ref="27F2AF6B-294E-4029-9CED-CB3263A6EC83" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="c4c7b127-6a03-4883-8f77-ac7bc5b63dd0" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="Con1" variableid="97935d8e-8d14-45a7-9105-8e18c5306a06" dataname="Connection1" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="01f494bd-cfbe-4a7d-8fa2-b9ef5bef0850" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+        <testcase name="TNBLK2" id="6e7aa2bb-ffdc-4b0c-a29d-e97528bbb00c">
+          <testmodule name="TNBLK2" id="09289e8c-5d6f-4781-aeb2-753661e31145" ref="937D5354-CF74-469D-8919-FAC0E8358634" type="UserCode">
+            <databinding>
+              <var variablename="Con2" variableid="4c44a1f5-149d-4e11-8891-47f93af88640" dataname="Connection2" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="NumberOfRepeats" variableid="573d6c65-1a10-40b8-bfa7-cd1b3e03b36a" dataname="repeats" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+              <var variablename="Con1" variableid="0f604f26-11c4-4ece-a563-2a1a49061814" dataname="Connection1" datasourceid="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+            </databinding>
+          </testmodule>
+        </testcase>
+        <testcase name="Forwarding_TNBLK" id="a882804b-19a7-4baf-9cfc-bffcb44bd4de"/>
+        <testcase name="NATO_Link_1_TNBLK" id="3dc3e30c-58c3-494a-8679-c05dacc0bdb9"/>
+        <testcase name="ATDL-1_TNBLK" id="0042740a-7b9d-4fe5-be3d-52507e1a0807"/>
+        <testcase name="FAAD_TNBLK" id="9b66c642-c84b-4813-8a3e-bda5488d0019"/>
+      </testcase>
+      <testmodule name="TNBLK2" id="448c6102-6f13-42d2-b073-80448c582c3c" ref="937D5354-CF74-469D-8919-FAC0E8358634" type="UserCode"/>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="0042740a-7b9d-4fe5-be3d-52507e1a0807"/>
+      <testcase id="161e3e7f-d0c9-4524-aa83-6020a9eac66d"/>
+      <testcase id="3dc3e30c-58c3-494a-8679-c05dacc0bdb9"/>
+      <testcase id="412d8cac-1821-438c-9460-18ac6de510d2"/>
+      <testcase id="43a4f0fc-6dd5-4ea6-ab9f-f43c2cb34777"/>
+      <testcase id="5460ad5f-5b49-410f-8002-029ffaeeb60b"/>
+      <testcase id="55e91615-0536-4cff-a33c-0fbe0f2d9e81"/>
+      <testcase id="6e7aa2bb-ffdc-4b0c-a29d-e97528bbb00c"/>
+      <testcase id="9b66c642-c84b-4813-8a3e-bda5488d0019"/>
+      <testcase id="a882804b-19a7-4baf-9cfc-bffcb44bd4de"/>
+      <testcase id="adaf4cad-e5e9-4310-9656-49fd3dcf2da4"/>
+      <testcase id="ba140c09-65f5-4ea3-bdfb-395d9480488d"/>
+      <testcase id="bbcca4b1-f7d0-4d9e-972f-21c439c00ef9"/>
+      <testcase id="d2d516a4-435f-4ddc-8bf6-88bda2a0fc47"/>
+      <testcase id="f0980f79-bf5d-410c-9b67-d4ac59f8f681"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references>
+    <reference>
+      C:\ranorex555\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+  </references>
+</testsuite>

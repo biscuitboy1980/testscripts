@@ -1,0 +1,512 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{95DD29C2-4612-4C58-BE50-1A1CBE2B137C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MIL_STD_6016D</RootNamespace>
+    <AssemblyName>MIL_STD_6016D</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>d7bde451-72d9-4fc3-a654-00be21b5ed5e</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>fe90d6d1-c5a3-442e-8ad1-f569b1e9ac6d</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>5db22314-818e-4a64-8fbb-d40b6e3f2559</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>9810c482-9f3d-4712-892d-0f541e050e1c</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>1f984dcd-2c6b-4cda-953e-4e50ee7393af</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>e8e0c076-29b2-4db8-9cb2-7b11abe9c477</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>7749badd-328e-4b8a-a6cb-89b311727aae</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>f01d742d-7718-4588-9004-2102f248126b</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>f770f375-9223-45fb-90bf-5235db052288</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>b49961b9-dd07-4422-aaf0-3d78de4e34a3</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>46769690-8507-453d-886b-867ef8768938</id>
+    </Reference>
+    <Reference Include="System">
+      <id>e4f26e62-0555-4b8f-91d4-2aa9c03e4e6d</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>0f8e872b-9053-4071-b125-e68866ec14e4</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>836ddad6-9345-49f0-a847-941ca8256afe</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>d2a8248d-87ec-42c7-b234-e2c5db180e89</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>d5df6cb6-2d1f-4144-a133-8211c980f75b</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>5f84a1be-11fe-4b44-852f-387d90eb7956</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b9559463-e678-4bc6-abd4-83d98d2c453f</id>
+    </Compile>
+    <Content Include="J3-0TrackInfo6016D.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>2707c2a2-b631-4560-8cc8-59909060013f</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="J3-2TrackInfo6016D.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>a08a9d2f-4e6b-4966-a679-b3c0b36d2b24</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="J3-2TrackInfo6016D_Disused.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>a68e5983-68df-499e-abd6-e4753a1eada0</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="J3-3TrackInfo6016D.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>06272e62-441b-40e4-8b35-b47821ef1a3f</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="J3-3TrackInfo6016D_Disused.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>5dd1bbce-d355-47d5-bafe-a9cc54471f3c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="J3-4TrackInfo6016D.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>a2bd05ee-4851-4db8-81e5-eee4bf1410a0</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="J3-4TrackInfo6016D_Disused.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>80fbc328-2ef0-4d3b-aa9f-9565a77509fb</id>
+    </None>
+    <Content Include="J3-5TrackInfo6016D.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>c82d5390-59bb-44ca-9318-d9d620c9de16</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="J3-5TrackInfo6016D_Disused.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>799ec9c4-ce60-4e83-a60d-fb56a26d6758</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="J3-6TrackInfo6016D.csv">
+      <DependentUpon>MIL_STD_6016D.rxtst</DependentUpon>
+      <BoundTo>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</BoundTo>
+      <id>65bd69b6-307e-49cd-a3cd-1020b658cd80</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="MIL_STD_6016D.rxtst">
+      <id>b0cfd2e7-c748-41ee-a2ce-a6051945ec90</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_173615.rxlog">
+      <id>52625762-9844-40d6-83db-88983001dd7e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_175608.rxlog">
+      <id>8fa3259c-6cb3-4e75-a8a0-4ccbd17417f0</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_180313.rxlog">
+      <id>55a23b86-bc37-44cf-a4ef-2b940e9f5bdc</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_185614.rxlog">
+      <id>f5f0fed8-501b-46cd-be7a-d94c160d93a1</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_190546.rxlog">
+      <id>c405685f-a4f7-4d15-a007-a0b2710e5b4c</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_204045.rxlog">
+      <id>fbc4f92b-4708-4720-84e5-b15332374c9f</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_204045.xml">
+      <id>7d091654-0be9-45f5-bf14-011db515e960</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_204526.rxlog">
+      <id>47bceabd-bc97-471e-8866-e1efd98be9d1</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110414_204526.xml">
+      <id>567dca39-e866-46f6-965e-75d291a7f023</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_180145.rxlog">
+      <id>ab8f7181-d2b4-4979-a8a1-30a335e6deb0</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_185247.rxlog">
+      <id>6489dae3-0b46-4373-af95-49cb95775109</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_190225.rxlog">
+      <id>2747a14f-953f-447c-a4e8-bea94532d9fd</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_190800.rxlog">
+      <id>19627666-0cb2-41ea-a803-2af9e98e3d72</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_191256.rxlog">
+      <id>fca002f4-ea42-4886-a8cb-737d1b42c254</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_195906.rxlog">
+      <id>192b31c0-dac1-4e3a-8abe-19c147079262</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_200203.rxlog">
+      <id>acb48f35-c3d2-4971-a402-abbce5b1e23b</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_200333.rxlog">
+      <id>a771e812-b070-405a-8aa9-b89f7e65f01e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_203657.rxlog">
+      <id>5cf541a4-67de-4f01-9ff3-82b418e95bb9</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_205852.rxlog">
+      <id>2efb1bed-54bf-45d1-9fdf-8fc47a8629f6</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_210455.rxlog">
+      <id>b8d18d40-5962-4af7-9b03-697696d7531d</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_211240.rxlog">
+      <id>420cba84-3196-46bc-acfc-0a87c55375cb</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_211720.rxlog">
+      <id>e6df52cc-7829-448a-8a7a-be9d165c75ab</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110420_212140.rxlog">
+      <id>a8a24ef0-4361-4e72-958e-13bf6cbb3118</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110502_225339.rxlog">
+      <id>b5a7654e-301b-43d1-ac14-cdb2356716d6</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_025139.rxlog">
+      <id>f31dd472-df35-4072-8d38-aed92f4574bd</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_025407.rxlog">
+      <id>a4b8f661-9d6f-4f40-90d3-49bd04740759</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_025743.rxlog">
+      <id>030f6f7f-820a-46a6-85b8-7af0f1540a74</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_031119.rxlog">
+      <id>75a4f214-7f9c-49cc-96fc-52ff66c253df</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_031459.rxlog">
+      <id>61203185-2e16-4e44-b9d6-3fbd48337dec</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_032847.rxlog">
+      <id>59b97b0f-315d-44c0-9938-7a4a4d0ce43c</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_115033.rxlog">
+      <id>5cf893f2-f790-451a-addc-27d69a4743c0</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110503_120409.rxlog">
+      <id>85c79bbe-1305-44d6-86e2-53fba99d1b69</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_102308.rxlog">
+      <id>fd9ad30a-310e-40de-8f46-355b3092aca8</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_102722.rxlog">
+      <id>a6b3b5b1-43da-4511-a55e-7f74e473c4d2</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_103107.rxlog">
+      <id>2552cc5a-1cc5-45e2-a393-b5dee349b520</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_103650.rxlog">
+      <id>7e094cad-bca7-47ee-bddc-407f36bf22e8</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_104028.rxlog">
+      <id>a2824971-533a-4177-9c0f-9bbd0bbb09be</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_104124.rxlog">
+      <id>c35ddeb2-a2bf-42c7-87eb-16b191a9f89d</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_104505.rxlog">
+      <id>11906b7b-0f32-4913-915d-976348e50581</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_104804.rxlog">
+      <id>421a2805-6355-40af-894f-d3b009a7b081</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_105009.rxlog">
+      <id>c35d4c44-730a-43e9-b90c-2e4e8b6f37d5</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_105142.rxlog">
+      <id>48a40234-185e-4995-af57-a3673e032db8</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_105334.rxlog">
+      <id>3cf54591-6daf-4596-8499-c8b97bc4e82d</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_105644.rxlog">
+      <id>5af91ce9-f8c4-4bbf-897c-d4aa1f88c1f1</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_110328.rxlog">
+      <id>e428f00e-4891-4c05-b8f5-930b7bc37b47</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_110627.rxlog">
+      <id>7f8e681b-d1b4-4eb5-bf0e-4e89a2ce66fa</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_110858.rxlog">
+      <id>49a6dea5-bebf-4684-948f-e13e2bfc8f73</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_111042.rxlog">
+      <id>28552ef3-1d23-4188-80cf-bd2254921979</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_111209.rxlog">
+      <id>45dc7495-598c-4e28-910c-9781e54aaf88</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_111503.rxlog">
+      <id>965e1dc8-291c-4c3d-a733-ab9c423f93a1</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_111637.rxlog">
+      <id>b8ea2895-b8b0-4fca-8492-aa8e7101f6d4</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_111801.rxlog">
+      <id>51a6cf1d-b06a-453e-a5e7-8e96687260e3</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110608_111918.rxlog">
+      <id>d631dcf4-5c8c-4f01-99fd-819bf7e29dfb</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110701_102701.rxlog">
+      <id>b31e0a71-c3ff-40e0-9fae-cff1f6cce043</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110701_102718.rxlog">
+      <id>5fced12b-91e5-467e-b7c0-2b00a487e4ac</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110701_102727.rxlog">
+      <id>0ff30107-14d5-4928-acc0-460497fe98a5</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110701_102733.rxlog">
+      <id>f5448442-917b-431c-ba39-4c5c652af079</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_134420.rxlog">
+      <id>63f8308b-9cfc-4b57-970a-286de5140707</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_140016.rxlog">
+      <id>1d47cc80-6d40-43bb-a308-dec72d60b3b9</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_140051.rxlog">
+      <id>47251fac-4698-4cd0-989a-b7e05614e31b</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_144312.rxlog">
+      <id>fd1db550-e99a-47ee-92b9-c27b7ed216a9</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_144425.rxlog">
+      <id>bfae340e-0610-4ef1-bd15-c52f5d46ebe1</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_150908.rxlog">
+      <id>93cdbfe5-7249-4f95-8f60-132487b78aba</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_153306.rxlog">
+      <id>73d65f27-85ce-4979-a7e6-9ed136142ad5</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_153639.rxlog">
+      <id>78eb590b-e601-4dd4-a2f4-08d15af4346e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_153922.rxlog">
+      <id>1db62642-cb3a-4a11-bfce-86004f6aa3e7</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_154751.rxlog">
+      <id>3915d836-fc56-4d1e-9ef4-d8807df2437c</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_155515.rxlog">
+      <id>d629b111-ef4c-439a-83b0-0e998e553204</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_160243.rxlog">
+      <id>ac0ae0af-04e8-4626-afac-5555f697cb9c</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_160510.rxlog">
+      <id>caa08e27-66e1-4884-9997-1a81489abeaa</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_160733.rxlog">
+      <id>a9f14063-4e6c-4aaa-bd48-6293485fbdba</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_161331.rxlog">
+      <id>b676d0fe-63a2-4469-9254-69dc4061db49</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_163530.rxlog">
+      <id>080427cd-112a-4558-abd3-8ebc033217de</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_164313.rxlog">
+      <id>49088df4-380c-4664-95e9-e902babd1141</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_164550.rxlog">
+      <id>9f9c31da-bdae-42d7-86ce-1b673480a09e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_170247.rxlog">
+      <id>006d42b8-d1fd-4550-a519-17ddb85a3d2b</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_171152.rxlog">
+      <id>bed227b2-e1ef-4e5b-9409-657361862016</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110719_171521.rxlog">
+      <id>3c14bd25-b953-4967-b75a-fb8e74a6fa3b</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_094553.rxlog">
+      <id>e8e90ce0-af4a-4c31-bb0f-d65717ac2fcb</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_101513.rxlog">
+      <id>95edc4fb-7a29-4b4b-9691-1e7542d9aa8c</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_102201.rxlog">
+      <id>4e72b1e4-89bf-41bd-849b-ba5678660671</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_102547.rxlog">
+      <id>aeb51c48-8238-49b2-b248-851ba3199756</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_105108.rxlog">
+      <id>43402c21-769a-433b-83ad-30705fe67adc</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_110153.rxlog">
+      <id>273d8c51-97e1-4a7a-9edb-ff7ea785a44c</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_110319.rxlog">
+      <id>9285ab5f-708b-48c1-af74-afb83d5f8729</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_110506.rxlog">
+      <id>b6de2a27-6f19-41ca-bc8d-8f13d49f2bc0</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110720_112828.rxlog">
+      <id>690e3003-e980-47f7-8fd7-5692e6c41b64</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110725_131829.rxlog">
+      <id>1dda629c-24ae-4111-b825-915b8096b790</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110725_131856.rxlog">
+      <id>4f7f7474-f83c-43e6-8155-aa4a2f3f8a8b</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110725_132250.rxlog">
+      <id>201ea2e6-71a0-43c4-b1f8-7f9b38a1656d</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110725_132432.rxlog">
+      <id>ad5ca1a4-3c2b-4a3f-918c-ab2c2684240e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_104903.rxlog">
+      <id>baf4b47d-e0ec-4d8c-9466-4df2ed19bcb5</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_105044.rxlog">
+      <id>e098518d-9ef1-42d8-8533-35b9eb000274</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_105121.rxlog">
+      <id>205fa3e0-886b-4d58-aa12-e494073f1fe6</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_105255.rxlog">
+      <id>aabcac91-d999-40e7-9d4b-8784029c188e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_105420.rxlog">
+      <id>88de1c3b-a0bb-4d76-aaeb-a943662439d3</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_105741.rxlog">
+      <id>be51551d-06ee-46b9-bcac-eefd3287ff1e</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_110629.rxlog">
+      <id>59276267-fa16-4213-b7e6-87bf22153491</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_112433.rxlog">
+      <id>db020802-0459-40e1-bc7a-fccef2b63696</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_113710.rxlog">
+      <id>f9cc935d-fe73-435e-9fe7-e6787c18fe19</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_113957.rxlog">
+      <id>8e744a65-1b99-493f-91e1-b7d740c57620</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_114716.rxlog">
+      <id>d8f568ef-0726-4b5e-816f-9dcbddc58db8</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_115015.rxlog">
+      <id>c70065af-a543-49f0-a883-cdd71f2338e1</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_115302.rxlog">
+      <id>05fa4a94-a5d6-4d5d-ab88-5e5f6b90edfd</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_115546.rxlog">
+      <id>21aec5e6-e1f4-46e6-afce-04b0fcf0bcea</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_214308.rxlog">
+      <id>6aba6321-85b6-47f6-ba93-bd645b004456</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_214532.rxlog">
+      <id>db664ff3-3999-4df8-a6a5-b28ec8a5b570</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_214939.rxlog">
+      <id>5287ca7d-1c09-4d87-ad9b-c82f9d4e5a9b</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20110919_220311.rxlog">
+      <id>d71290b7-acc2-43b6-856d-0e568e62ab6d</id>
+    </None>
+    <None Include="Reports\MIL_STD_6016D_20120202_124712.rxlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>9522de2e-2192-495b-809f-91484823fb21</id>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationWizardLib\ConfigurationWizardLib.csproj">
+      <Project>{99FB7985-32FC-4069-AAC9-77FC142B62F2}</Project>
+      <Name>ConfigurationWizardLib</Name>
+      <id>3eba9f76-366f-49d3-af38-238d199e2aff</id>
+    </ProjectReference>
+    <ProjectReference Include="..\InstallerLib\InstallerLib.csproj">
+      <Project>{40C3E212-7984-4325-B1BF-6AB8145FB0B6}</Project>
+      <Name>InstallerLib</Name>
+      <id>b1cc9466-61bc-4fb9-8e1e-7d654542e535</id>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemManagerLib\SystemManagerLib.csproj">
+      <Project>{0C41898E-56CD-4C3D-A861-433FD1908445}</Project>
+      <Name>SystemManagerLib</Name>
+      <id>5fe5f2ca-823f-4005-b80b-df4813bbc226</id>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+      <id>9231c118-20b5-4d24-ad00-be7d03eff61b</id>
+    </ProjectReference>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>5fccd9a9-ef94-44f2-b858-9a1f50e2313e</id>
+    </Folder>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,342 @@
+PlatNum;Platval;ActNum;Actval;StypeNum;Stypeval
+1;Troop Concentration/Unit;1;Holding;1;TOW
+2;Headquarter Complex;2;Delaying;2;DRAGON
+3;Command/Control/Command and Control Center;3;Moving;3;LANCE
+4;Assembly Area;4;Detecting;6;AMMUNITION
+5;Installation/Facility, Military;5;Acquiring;7;POL
+6;Installation/Facility, Civilian;6;Engaging;8;OBSERVATION POSTS
+7;Airfield/Airbase;7;Advancing;9;RADIO DIRECTION FINDER
+8;Port/Harbor Facility;8;Antiair Attack;10;RIVER
+9;Storage Site;9;Amphibious Assault;11;STREAM
+10;Tactical Position;10;Firing;12;LAKE
+11;Fortification;11;Conventional Attack/Assault;13;MARSH/SWAMP
+12;Intersection;12;Special Weapons Attack;14;MOUNTAIN
+13;Convoy;13;Demolition;15;HILLTOP
+14;Combat Vehicle;14;Over The Horizon Targeting;16;RIDGE
+15;Combat Support Vehicle;15;Transiting;17;DEPRESSION
+16;Vehicle, Other;16;Return To Base;18;VALLEY
+17;Tank;17;Deploying;19;CAVE
+18;Train;18;Emission Control (EMCON);20;BRIDGE
+19;Remotely Piloted Vehicle/Unmanned Ground Vehicle (UGV);19;River Crossing;21;DAM
+20;Mortar;20;Loading;22;BUILDING
+21;Field Artillery;21;Towing;23;VILLAGE
+22;Air Defense Artillery;22;Building Fortification/Barrier;24;TOWN
+23;Rocket Launcher;23;Clearing Barrier;25;ROAD INTERSECTION
+24;Missile Launcher;24;Recovering Equipment;26;HOSPITAL
+25;Special Weapon;25;Mine Sweeping;28;I-HAWK
+26;Bridge;26;Mine Laying;29;PATRIOT FIRE UNIT
+27;Building/Structure;27;Jamming;33;AGM-114 HELLFIRE
+28;Power Facility;28;Reconnaissance/Patrolling;35;JEEP
+29;Rail Facility;29;Search And Rescue (SAR);36;CAR
+31;Navaid Site;30;Training;37;MOTORCYCLE
+32;Communication Site;31;Medical Evacuation (MEDEVAC);38;BICYCLE
+33;Radar Site;32;Escorting;39;AMPHIBIOUS VEHICLE
+34;Antenna/Emitter;33;Transporting;40;RIVER CROSSING EQUIPMENT
+36;Electronic Warfare Site;34;Screening;41;MECHANIZED MINE SWEEPER
+37;Surveillance Site;35;Supporting;42;MOBILE RADAR
+38;Bridging Equipment;36;Repairing;43;SMOKE GENERATOR
+39;Mine Warfare Equipment;37;Refueling;44;(SSSB) SHIP SHORE SHIP BUFFER
+40;Surface-to-Air Missile (SAM) Site;38;Neutralizing;46;(ASIT) ADAPTABLE SURFACE INTERFACE TERMINAL
+41;Maritime Headquarters;39;Targeting;47;(AEGIS) AEW GROUND INTERFACE SEGMENT
+42;Air Support Radar Team (ASRT);40;Bypassing;48;AMBULANCE
+43;Direct Air Support Center (DASC);41;Closing;49;BIOLOGICAL WEAPONS
+44;Forward Air Control Party (FACP)/Tactical Air Control Party (TACP);42;Concentrating;50;CHEMICAL WEAPONS
+45;Tactical Operations Center (TOC);43;Defending;51;NUCLEAR WEAPONS
+46;Tactical Data System (TDS);44;Disengaging;52;ENGINEER VEHICLES
+47;Decoy;45;Infiltrating;53;GENERATOR
+48;Tracked Vehicle;46;Interdicting;54;JAMMERS
+49;Terminal High Altitude Area Defense (THAAD);47;Landing;55;MAINTENANCE VEHICLE
+50;Joint Tactical Ground Station (JTAGS);48;Occupying;56;MULTIPLE ROCKET LAUNCHER
+51;Armor Unit;49;Dispersing;57;RADIO
+52;Cavalry Unit;50;Supply/Resupply;58;REMOTE SENSOR
+53;Engineer Unit;51;Retrograde/Withdrawing;59;SELF PROPELLED ARTILLERY
+54;Airborne Unit;52;Transmitting;60;TACTICAL BRIDGE
+55;Aviation Unit;53;Electronic Warfare Support (ES);61;TOWED ARTILLERY GUN
+56;Air Defense Site;54;Electronic Attack (EA);62;RECOILLESS RIFLE
+57;Ballistic Missile Defense Site;55;Moving Equipment;63;(TACCP) TACTICAL COMMAND POST
+58;Special Operations Unit;56;Powering Up And Manned, Not Emitting;64;BRIGADE
+59;Air Support Operations Center (ASOC);57;Preparing For Launch;65;CORPS
+60;Infrared Decoy;58;Site Shutting Down To Unpowered Status;66;GROUP
+61;Active Electronic Decoy;59;Launching;67;DIVISION
+1;Troop Concentration/Unit;60;Fire Support;68;REGIMENT
+2;Headquarter Complex;61;Special Operations;69;BATTALION
+3;Command/Control/Command and Control Center;62;Nuclear, Biological, Chemical (NBC) Operations;70;COMPANY
+4;Assembly Area;63;Nuclear Operations;71;PLATOON
+5;Installation/Facility, Military;64;Biological Operations;72;SQUADRON
+6;Installation/Facility, Civilian;65;Chemical Operations;73;AIRBASE
+7;Airfield/Airbase;66;Combat Search and Rescue (CSAR);74;WING
+8;Port/Harbor Facility;115;Land Activity 1;77;MORTAR
+9;Storage Site;116;Land Activity 2;78;FLAMETHROWER
+10;Tactical Position;117;Land Activity 3;79;TSC/MOCC/MARITIME HEADQUARTERS
+11;Fortification;118;Land Activity 4;80;MAIN BATTLE TANK
+12;Intersection;119;Land Activity 5;81;MEDIUM TANK
+13;Convoy;120;Land Activity 6;82;LIGHT TANK
+14;Combat Vehicle;121;Land Activity 7;83;TRAIN
+15;Combat Support Vehicle;122;Land Activity 8;85;ARMORED INFANTRY FIGHTING VEHICLE
+16;Vehicle, Other;123;Land Activity 9;86;LIGHT TRUCK
+17;Tank;124;Land Activity 10;87;MEDIUM TRUCK
+18;Train;125;Land Activity 11;88;HEAVY TRUCK
+19;Remotely Piloted Vehicle/Unmanned Ground Vehicle (UGV);126;Land Activity 12;89;TANK TRANSPORTER
+20;Mortar;1;Holding;90;DUMMY
+21;Field Artillery;2;Delaying;91;TRAP
+22;Air Defense Artillery;3;Moving;92;POINT TARGET
+23;Rocket Launcher;4;Detecting;93;EA SITE
+24;Missile Launcher;5;Acquiring;94;ARMORED PERSONNEL CARRIER
+25;Special Weapon;6;Engaging;96;GCI SITE
+26;Bridge;7;Advancing;97;CRC/DCRC
+27;Building/Structure;8;Antiair Attack;98;TACC (AF)
+28;Power Facility;9;Amphibious Assault;99;CRP
+29;Rail Facility;10;Firing;100;TACC (MC)
+31;Navaid Site;11;Conventional Attack/Assault;101;MPC
+32;Communication Site;12;Special Weapons Attack;102;TAOC
+33;Radar Site;13;Demolition;104;DASC
+34;Antenna/Emitter;14;Over The Horizon Targeting;105;FACP
+36;Electronic Warfare Site;15;Transiting;108;ASRT
+37;Surveillance Site;16;Return To Base;110;RCC
+38;Bridging Equipment;17;Deploying;111;ROCC
+39;Mine Warfare Equipment;18;Emission Control (EMCON);113;WOC
+40;Surface-to-Air Missile (SAM) Site;19;River Crossing;114;(ASOC) AIR SUPPORT OPERATIONS CENTER
+41;Maritime Headquarters;20;Loading;116;(TOC) TACTICAL OPERATIONS CENTER
+42;Air Support Radar Team (ASRT);21;Towing;118;FIRE DIRECTION CENTER
+43;Direct Air Support Center (DASC);22;Building Fortification/Barrier;120;DIVARTY
+44;Forward Air Control Party (FACP)/Tactical Air Control Party (TACP);23;Clearing Barrier;121;BATTERY
+45;Tactical Operations Center (TOC);24;Recovering Equipment;124;(ICC) INFORMATION COORDINATION CENTER
+46;Tactical Data System (TDS);25;Mine Sweeping;126;(ECS) ENGAGEMENT CONTROL STATION
+47;Decoy;26;Mine Laying;129;TUNNELS
+48;Tracked Vehicle;27;Jamming;130;RAILYARDS
+49;Terminal High Altitude Area Defense (THAAD);28;Reconnaissance/Patrolling;132;TROOP
+50;Joint Tactical Ground Station (JTAGS);29;Search And Rescue (SAR);133;LANDING ZONE
+51;Armor Unit;30;Training;134;DROP ZONE
+52;Cavalry Unit;31;Medical Evacuation (MEDEVAC);135;ASSEMBLY OR STAGING AREA
+53;Engineer Unit;32;Escorting;136;DECONTAMINATION SITE
+54;Airborne Unit;33;Transporting;138;SAM
+55;Aviation Unit;34;Screening;139;SSM
+56;Air Defense Site;35;Supporting;140;ANTI-TANK WEAPON
+57;Ballistic Missile Defense Site;36;Repairing;152;CONVOY
+58;Special Operations Unit;37;Refueling;154;AIR DEFENSE ARTILLERY
+59;Air Support Operations Center (ASOC);38;Neutralizing;155;ARTILLERY
+60;Infrared Decoy;39;Targeting;170;TRANSPORTER
+61;Active Electronic Decoy;40;Bypassing;171;ARMORED VEHICLE
+1;Troop Concentration/Unit;41;Closing;176;AIR DEFENSE SITE
+2;Headquarter Complex;42;Concentrating;177;FIM-92 STINGER
+3;Command/Control/Command and Control Center;43;Defending;178;MIM-23 HAWK
+4;Assembly Area;44;Disengaging;181;MIM-104 PATRIOT
+5;Installation/Facility, Military;45;Infiltrating;188;BLOWPIPE
+6;Installation/Facility, Civilian;46;Interdicting;194;CROTALE
+7;Airfield/Airbase;47;Landing;195;RAPIER
+8;Port/Harbor Facility;48;Occupying;196;RBS-70
+9;Storage Site;49;Dispersing;198;SAM ROLAND
+10;Tactical Position;50;Supply/Resupply;199;SA-2 GUIDELINE
+11;Fortification;51;Retrograde/Withdrawing;200;SA-3 GOA
+12;Intersection;52;Transmitting;201;SA-4 GANEF
+13;Convoy;53;Electronic Warfare Support (ES);203;SA-5 GAMMON
+14;Combat Vehicle;54;Electronic Attack (EA);205;SA-6 GAINFUL
+15;Combat Support Vehicle;55;Moving Equipment;207;SA-7 GRAIL
+16;Vehicle, Other;56;Powering Up And Manned, Not Emitting;208;SA-8 GECKO
+17;Tank;57;Preparing For Launch;209;SA-9 GASKIN
+18;Train;58;Site Shutting Down To Unpowered Status;210;SA-10 GRUMBLE
+19;Remotely Piloted Vehicle/Unmanned Ground Vehicle (UGV);59;Launching;211;SA-11 GADFLY
+20;Mortar;60;Fire Support;213;SA-13 GOPHER
+21;Field Artillery;61;Special Operations;214;MISTRAL
+22;Air Defense Artillery;62;Nuclear, Biological, Chemical (NBC) Operations;217;SA-14 GREMLIN
+23;Rocket Launcher;63;Nuclear Operations;218;SA-16 GIMLET
+24;Missile Launcher;64;Biological Operations;220;TOC (THAAD)
+25;Special Weapon;65;Chemical Operations;221;SSI (THAAD)
+26;Bridge;66;Combat Search and Rescue (CSAR);223;LAUNCHER (THAAD)
+27;Building/Structure;115;Land Activity 1;224;RADAR (THAAD)
+28;Power Facility;116;Land Activity 2;225;JTAGS
+29;Rail Facility;117;Land Activity 3;226;ADTOC/BN
+31;Navaid Site;118;Land Activity 4;227;ADTOC/BDE
+32;Communication Site;119;Land Activity 5;228;ADCP
+33;Radar Site;120;Land Activity 6;238;SA-12A GLADIATOR
+34;Antenna/Emitter;121;Land Activity 7;239;SA-12B GIANT
+36;Electronic Warfare Site;122;Land Activity 8;241;SA-15 GAUNTLET
+37;Surveillance Site;123;Land Activity 9;242;SA-17 GRIZZLY
+38;Bridging Equipment;124;Land Activity 10;244;SA-18 GROUSE
+39;Mine Warfare Equipment;125;Land Activity 11;245;SA-19 GRISOM
+40;Surface-to-Air Missile (SAM) Site;126;Land Activity 12;246;RIM-116 RAM
+41;Maritime Headquarters;1;Holding;247;ADATS
+42;Air Support Radar Team (ASRT);2;Delaying;248;JAVELIN
+43;Direct Air Support Center (DASC);3;Moving;249;STARBURST
+44;Forward Air Control Party (FACP)/Tactical Air Control Party (TACP);4;Detecting;250;STARSTREAK
+45;Tactical Operations Center (TOC);5;Acquiring;251;ASPIDE
+46;Tactical Data System (TDS);6;Engaging;252;FRONT DOOR
+47;Decoy;7;Advancing;253;ROLAND II
+48;Tracked Vehicle;8;Antiair Attack;254;AKASH
+49;Terminal High Altitude Area Defense (THAAD);9;Amphibious Assault;255;ANZA
+50;Joint Tactical Ground Station (JTAGS);10;Firing;256;ANZA II
+51;Armor Unit;11;Conventional Attack/Assault;257;CSA-1
+52;Cavalry Unit;12;Special Weapons Attack;259;CSA-4
+53;Engineer Unit;13;Demolition;260;CSA-5
+54;Airborne Unit;14;Over The Horizon Targeting;261;FM-80
+55;Aviation Unit;15;Transiting;262;HN-5
+56;Air Defense Site;16;Return To Base;263;NK-7
+57;Ballistic Missile Defense Site;17;Deploying;264;NK-16
+58;Special Operations Unit;18;Emission Control (EMCON);265;PANTZYR
+59;Air Support Operations Center (ASOC);19;River Crossing;266;RAPIER 2000/JERNAS
+60;Infrared Decoy;20;Loading;267;RBS-90
+61;Active Electronic Decoy;21;Towing;268;SAKR
+1;Troop Concentration/Unit;22;Building Fortification/Barrier;269;SAVA
+2;Headquarter Complex;23;Clearing Barrier;270;SHANINE
+3;Command/Control/Command and Control Center;24;Recovering Equipment;271;SKYGUARD ASPIDE
+4;Assembly Area;25;Mine Sweeping;272;SPADA
+5;Installation/Facility, Military;26;Mine Laying;273;TAM SAM
+6;Installation/Facility, Civilian;27;Jamming;274;TIGERCAT
+7;Airfield/Airbase;28;Reconnaissance/Patrolling;279;ALBATROS/ASPIDE
+8;Port/Harbor Facility;29;Search And Rescue (SAR);280;SM-1
+9;Storage Site;30;Training;281;SA-2 IRAQ MOD
+10;Tactical Position;31;Medical Evacuation (MEDEVAC);282;SA-2 NORTH KOREA RO
+11;Fortification;32;Escorting;285;ROCK CAKE
+12;Intersection;33;Transporting;287;TANSAM
+13;Convoy;34;Screening;288;TOKEN A/D
+14;Combat Vehicle;35;Supporting;289;GUARDSMAN
+15;Combat Support Vehicle;36;Repairing;292;TIGER S
+16;Vehicle, Other;37;Refueling;293;TIGER G
+17;Tank;38;Neutralizing;295;SEACAT 262/903/904
+18;Train;39;Targeting;299;CYMBERLINE
+19;Remotely Piloted Vehicle/Unmanned Ground Vehicle (UGV);40;Bypassing;300;PORK TROUGH 1
+20;Mortar;41;Closing;301;RASIT
+21;Field Artillery;42;Concentrating;302;SNAR-6
+22;Air Defense Artillery;43;Defending;303;TALL MIKE
+23;Rocket Launcher;44;Disengaging;306;CPN-4,FPN-16/22
+24;Missile Launcher;45;Infiltrating;307;RP-2E
+25;Special Weapon;46;Interdicting;308;RP-4G
+26;Bridge;47;Landing;311;TWO SPOT
+27;Building/Structure;48;Occupying;313;ASR-0
+28;Power Facility;49;Dispersing;314;FALCON-G
+29;Rail Facility;50;Supply/Resupply;315;MARCON LN66TPS66
+31;Navaid Site;51;Retrograde/Withdrawing;316;SHEET BEND
+32;Communication Site;52;Transmitting;317;WALL RUST A/B
+33;Radar Site;53;Electronic Warfare Support (ES);320;EYE SHIELD
+34;Antenna/Emitter;54;Electronic Attack (EA);321;MARELD
+36;Electronic Warfare Site;55;Moving Equipment;322;PEEL PAIR
+37;Surveillance Site;56;Powering Up And Manned, Not Emitting;323;POT HEAD
+38;Bridging Equipment;57;Preparing For Launch;324;RACAL-DECCA
+39;Mine Warfare Equipment;58;Site Shutting Down To Unpowered Status;325;RICE FIELD
+40;Surface-to-Air Missile (SAM) Site;59;Launching;326;RICE SCREEN
+41;Maritime Headquarters;60;Fire Support;327;RICE CUP
+42;Air Support Radar Team (ASRT);61;Special Operations;328;SQUARE TIE
+43;Direct Air Support Center (DASC);62;Nuclear, Biological, Chemical (NBC) Operations;332;BOFI
+44;Forward Air Control Party (FACP)/Tactical Air Control Party (TACP);63;Nuclear Operations;333;CORN CAN
+45;Tactical Operations Center (TOC);64;Biological Operations;335;ELDORADO
+46;Tactical Data System (TDS);65;Chemical Operations;336;FLAP WHEEL
+47;Decoy;66;Combat Search and Rescue (CSAR);337;FLEDERMAUS
+48;Tracked Vehicle;115;Land Activity 1;338;FLYCATCHER
+49;Terminal High Altitude Area Defense (THAAD);116;Land Activity 2;339;GEPARD
+50;Joint Tactical Ground Station (JTAGS);117;Land Activity 3;340;GUN DISH
+51;Armor Unit;118;Land Activity 4;341;SPAAMG
+52;Cavalry Unit;119;Land Activity 5;342;TEAMPLAY
+53;Engineer Unit;120;Land Activity 6;343;TEAMWORK
+54;Airborne Unit;121;Land Activity 7;344;VULCAN
+55;Aviation Unit;122;Land Activity 8;348;GOALKEEPER
+56;Air Defense Site;123;Land Activity 9;355;MUFF COB
+57;Ballistic Missile Defense Site;124;Land Activity 10;356;SIGNAAL STIR 180
+58;Special Operations Unit;125;Land Activity 11;357;SUN VISOR
+59;Air Support Operations Center (ASOC);126;Land Activity 12;358;TOP BOW
+60;Infrared Decoy;1;Holding;359;TYPE 341
+61;Active Electronic Decoy;2;Delaying;360;VEGA
+1;Troop Concentration/Unit;3;Moving;361;WM-20 SERIES
+2;Headquarter Complex;4;Detecting;362;MARCONI S613
+3;Command/Control/Command and Control Center;5;Acquiring;363;THIN SKIN
+4;Assembly Area;6;Engaging;365;MRL-1
+5;Installation/Facility, Military;7;Advancing;366;MRL-4/5
+6;Installation/Facility, Civilian;8;Antiair Attack;367;BIG BIRD
+7;Airfield/Airbase;9;Amphibious Assault;369;ODD LOT/PAIR/GROUP
+8;Port/Harbor Facility;10;Firing;370;FIRE WHEEL/MOD
+9;Storage Site;11;Conventional Attack/Assault;371;BARLOCK
+10;Tactical Position;12;Special Weapons Attack;372;FIRECAN/WHIFF
+11;Fortification;13;Demolition;373;GIN SLING
+12;Intersection;14;Over The Horizon Targeting;374;FRUSKA GORA
+13;Convoy;15;Transiting;375;TIN SHIELD
+14;Combat Vehicle;16;Return To Base;376;BIG BAR/MESH
+15;Combat Support Vehicle;17;Deploying;378;SGR-105 DA-01/00
+16;Vehicle, Other;18;Emission Control (EMCON);379;CROSS SLOT
+17;Tank;19;River Crossing;380;BACK NET/TRAP
+18;Train;20;Loading;381;GATE POLE/HIGH/POST
+19;Remotely Piloted Vehicle/Unmanned Ground Vehicle (UGV);21;Towing;382;TOP LOT
+20;Mortar;22;Building Fortification/Barrier;383;RICE CAKE
+21;Field Artillery;23;Clearing Barrier;384;JY-14/9
+22;Air Defense Artillery;24;Recovering Equipment;387;SLIM/SEA/HAIR NET
+23;Rocket Launcher;25;Mine Sweeping;388;LOW SIEVE
+24;Missile Launcher;26;Mine Laying;389;EGG CUP
+25;Special Weapon;27;Jamming;390;CUT WEB
+26;Bridge;28;Reconnaissance/Patrolling;391;SKYWATCH
+27;Building/Structure;29;Search And Rescue (SAR);392;HALF PLATE
+28;Power Facility;30;Training;393;SKIN HEAD
+29;Rail Facility;31;Medical Evacuation (MEDEVAC);394;SIEVE FAMILY
+31;Navaid Site;32;Escorting;395;SO-A
+32;Communication Site;33;Transporting;396;HIGH SHELL
+33;Radar Site;34;Screening;398;DECCA HF200
+34;Antenna/Emitter;35;Supporting;399;MARCONI 5244
+36;Electronic Warfare Site;36;Repairing;400;TYPE 88 MK 1
+37;Surveillance Site;37;Refueling;401;MARCONI S-247
+38;Bridging Equipment;38;Neutralizing;403;RAT-31S
+39;Mine Warfare Equipment;39;Targeting;404;AA4 MK 6/7
+40;Surface-to-Air Missile (SAM) Site;40;Bypassing;406;SCR-584
+41;Maritime Headquarters;41;Closing;408;MARCONI S-1006/269
+42;Air Support Radar Team (ASRT);42;Concentrating;409;PALMIER
+43;Direct Air Support Center (DASC);43;Defending;410;FIREFINDER LR
+44;Forward Air Control Party (FACP)/Tactical Air Control Party (TACP);44;Disengaging;411;VOLEX III/IV
+45;Tactical Operations Center (TOC);45;Infiltrating;412;THD-1940
+46;Tactical Data System (TDS);46;Interdicting;413;HADR (HR-3000)
+47;Decoy;47;Landing;415;MPDR-18/S
+48;Tracked Vehicle;48;Occupying;416;WATCHMAN
+49;Terminal High Altitude Area Defense (THAAD);49;Dispersing;417;MARCONI S-631/647
+50;Joint Tactical Ground Station (JTAGS);50;Supply/Resupply;418;MARCONI S-706/711/712
+51;Armor Unit;51;Retrograde/Withdrawing;420;TRS-22XX
+52;Cavalry Unit;52;Transmitting;422;DECCA AWS-1
+53;Engineer Unit;53;Electronic Warfare Support (ES);424;AN/SPS-48
+54;Airborne Unit;54;Electronic Attack (EA);425;RAN-7S
+55;Aviation Unit;55;Moving Equipment;426;SEA TIGER
+56;Air Defense Site;56;Powering Up And Manned, Not Emitting;427;DA-08/2LS
+57;Ballistic Missile Defense Site;57;Preparing For Launch;428;AWS-9 (TYPE 996)
+58;Special Operations Unit;58;Site Shutting Down To Unpowered Status;429;DA-05/00
+59;Air Support Operations Center (ASOC);59;Launching;430;MPDR-45
+60;Infrared Decoy;60;Fire Support;431;TOP STEER/PLATE
+61;Active Electronic Decoy;61;Special Operations;432;STRIKE OUT
+1;Troop Concentration/Unit;62;Nuclear, Biological, Chemical (NBC) Operations;434;NC1 ROLAND
+2;Headquarter Complex;63;Nuclear Operations;435;NC1 MISTRAL
+3;Command/Control/Command and Control Center;64;Biological Operations;436;FDOC
+4;Assembly Area;65;Chemical Operations;437;MCT
+5;Installation/Facility, Military;66;Combat Search and Rescue (CSAR);438;CETAC
+6;Installation/Facility, Civilian;115;Land Activity 1;439;ISARD
+7;Airfield/Airbase;116;Land Activity 2;440;ME SAMP/T
+8;Port/Harbor Facility;117;Land Activity 3;441;NC23
+9;Storage Site;118;Land Activity 4;442;NC2
+10;Tactical Position;119;Land Activity 5;443;NC3
+11;Fortification;120;Land Activity 6;444;SA-20 GARGOYLE
+12;Intersection;121;Land Activity 7;445;VEHICLE, GENERAL
+13;Convoy;122;Land Activity 8;446;AMPHIBIOUS ARMORED ASSAULT VEHICLE (AAAV)
+14;Combat Vehicle;123;Land Activity 9;447;LONG RANGE RECON PATROL (LRRP)
+15;Combat Support Vehicle;124;Land Activity 10;448;TACTICAL AIR CONTROL PARTY (TACP)
+16;Vehicle, Other;125;Land Activity 11;449;FORWARD AIR CONTROLLER (FAC)
+17;Tank;126;Land Activity 12;450;MMEV (MULTI-MISSION EFFECTS VEHICLE)
+18;Train;1;Holding;451;ASCC (AIRSPACE COORDINATION CENTER)
+19;Remotely Piloted Vehicle/Unmanned Ground Vehicle (UGV);2;Delaying;452;COMBINED AIR OPERATIONS CENTER (CAOC)
+20;Mortar;3;Moving;453;DEPLOYABLE CAOC (DCAOC)
+21;Field Artillery;4;Detecting;454;AIR CONTROL CENTER (ACC)
+22;Air Defense Artillery;5;Acquiring;455;RAP PRODUCTION CENTER (RPC)
+23;Rocket Launcher;6;Engaging;456;SENSOR FUSION POST (SFP)
+24;Missile Launcher;7;Advancing;457;MERGED ACC, RPC, SFP (ARS)
+25;Special Weapon;8;Antiair Attack;458;DEPLOYABLE ARS (DARS)
+26;Bridge;9;Amphibious Assault;459;MERGED CAOC, ARS (CARS)
+27;Building/Structure;10;Firing;460;AIR OPERATIONS COORDINATION CENTER (LAND) (AOCC (LAND))
+28;Power Facility;11;Conventional Attack/Assault;461;AIR OPERATIONS COORDINATION CENTER (AOCC (MARITIME))
+29;Rail Facility;12;Special Weapons Attack;462;SAM OPERATIONS CENTER (SAMOC)
+31;Navaid Site;13;Demolition;463;SQUADRON OPERATIONS CENTER (SQOC)
+32;Communication Site;14;Over The Horizon Targeting;464;RADIO SITE
+33;Radar Site;15;Transiting;465;SA-21 COMPLEX
+34;Antenna/Emitter;16;Return To Base;466;SA-23
+36;Electronic Warfare Site;17;Deploying;467;HQ-2/CSA-1
+37;Surveillance Site;18;Emission Control (EMCON);468;HQ-6
+38;Bridging Equipment;19;River Crossing;469;HQ-61/CSA-2
+39;Mine Warfare Equipment;20;Loading;470;HQ-7/FM-90
+40;Surface-to-Air Missile (SAM) Site;21;Towing;471;TRISHUL
+41;Maritime Headquarters;22;Building Fortification/Barrier;472;TIEN KUNG I/SKY BOW I
+42;Air Support Radar Team (ASRT);23;Clearing Barrier;473;TIEN KUNG II/SKY BOW II
+43;Direct Air Support Center (DASC);24;Recovering Equipment;474;ASTER-30 (LAND VARIANT)
+44;Forward Air Control Party (FACP)/Tactical Air Control Party (TACP);25;Mine Sweeping;475;IED
+45;Tactical Operations Center (TOC);26;Mine Laying;476;IED EXPLODED
+46;Tactical Data System (TDS);27;Jamming;4000;ARROW WEAPON SYSTEM
+47;Decoy;28;Reconnaissance/Patrolling;4001;WAYPOINT
+48;Tracked Vehicle;29;Search And Rescue (SAR);4002;STRIKE INITIAL POINT

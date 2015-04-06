@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="f9565b66-352e-4ead-aefa-90a103e94d14">
+  <name>
+    Setup
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Setup" namespace="TacViewLib.UISpecific.WatchlistSort"/>
+  <recorditems>
+    <userrecorditem duration="100ms" methodname="InterfaceOFF">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="200ms" action="Click" button="Left" movetime="300ms" sx="35" sy="837" loc="CenterLeft">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="604141c3-1aab-4b3f-9c59-426e241dabf6">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="27,830,48,19">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[ON]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Status]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[ON]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Status']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="0bd9880b-85a4-49b8-9531-33693e19ebc5">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']/element//toolbar[1]/button[@accessiblename='Search For Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="100ms" methodname="JUSelect">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <loggingrecorditem category="User" message="Setup Test Complete" reportlevel="Debug">
+      <comment>
+        <![CDATA[Setup Test Complete]]>
+      </comment>
+    </loggingrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

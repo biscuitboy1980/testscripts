@@ -1,0 +1,130 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{407FA7EA-2876-42C8-9AB1-46B61C2C7B89}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Training</RootNamespace>
+    <AssemblyName>Training</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>fd0e3d99-c525-4611-9a7f-828e7b7bf54f</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>b80edc6c-3942-49b9-83f9-fc77e29eb6d8</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>eac7b3d2-902b-46f5-9971-056c6dd02482</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>b7a63c7d-7b2f-44a8-8a61-e8dad288ed02</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>75b43905-0779-4981-a275-1cf91252d214</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>02a6f3a9-0bb2-4bce-853f-43eb01348785</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>c8b2ed04-577c-4c35-95de-06f543745b19</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>3d8dce7b-3a35-4b69-8128-39193bbceff6</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>dd35ca46-91e2-4ea1-988d-0ad3448a318b</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>8c71c2ec-e75e-4edc-ac6a-92dd006ca156</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>e5a81a95-0fea-4c32-a256-622b0f264a81</id>
+    </Reference>
+    <Reference Include="System">
+      <id>e32c543d-4d96-435c-a4fc-77c691557db2</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>c8a906d1-cb56-429f-a2e8-b72eae79b9ff</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>154b4282-1723-4982-8c3c-f7f38f66c7f9</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>4e660d41-25df-417c-8b17-735fd244c6a9</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>b79b179e-cd46-4ce6-a513-ef1b3d1867ea</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>f6265a79-d16c-42c0-a787-7619de3c4b0e</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2b62c6aa-5b9c-42a6-b45d-b0f62864086f</id>
+    </Compile>
+    <None Include="Reports\Training_20110510_134249.rxlog">
+      <id>55400ab0-ac32-4549-bdfb-18ffbf65d22d</id>
+    </None>
+    <None Include="Reports\Training_20110622_110642.rxlog">
+      <id>1c6280fb-5a05-4fe6-93d1-61ae9e24aeed</id>
+    </None>
+    <None Include="Training.rxtst">
+      <id>3faab3ab-4859-4e55-9e86-1149143f3445</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonUtilLib\CommonUtilLib.csproj">
+      <Project>{77689557-B639-410C-86FB-308D1D590694}</Project>
+      <Name>CommonUtilLib</Name>
+      <id>d092b1c6-582f-4e3e-9e9c-c5f99b35301d</id>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationWizardLib\ConfigurationWizardLib.csproj">
+      <Project>{99FB7985-32FC-4069-AAC9-77FC142B62F2}</Project>
+      <Name>ConfigurationWizardLib</Name>
+      <id>f703290f-a9a8-48d2-ad1e-6b11f7190f8c</id>
+    </ProjectReference>
+    <ProjectReference Include="..\InstallerLib\InstallerLib.csproj">
+      <Project>{40C3E212-7984-4325-B1BF-6AB8145FB0B6}</Project>
+      <Name>InstallerLib</Name>
+      <id>1e950102-bcae-48fc-b3b9-a1f823238c74</id>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemManagerLib\SystemManagerLib.csproj">
+      <Project>{0C41898E-56CD-4C3D-A861-433FD1908445}</Project>
+      <Name>SystemManagerLib</Name>
+      <id>ad294621-e65c-4a9c-b546-8417e5ea78ee</id>
+    </ProjectReference>
+    <ProjectReference Include="..\TacViewLib\TacViewLib.csproj">
+      <Project>{CD6D4B25-620C-4705-8A26-E22D9B59A264}</Project>
+      <Name>TacViewLib</Name>
+      <id>c82289b1-86eb-4014-a1aa-e8c0c2a95c04</id>
+    </ProjectReference>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>b7d03d8c-ecd7-4877-a67b-17edeb6f0c1f</id>
+    </Folder>
+  </ItemGroup>
+</Project>

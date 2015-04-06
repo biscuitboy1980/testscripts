@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="1eb98055-2369-4502-a945-e71dfcaca164">
+  <name>
+    Clear4_1_1_Overlays
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Clear4_1_1_Overlays" namespace="TacViewLib.UISpecific.Overlays"/>
+  <recorditems>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="68" sy="42" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="e6f8fb4e-ab71-42cb-9861-a2ee331e62c4">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="52,32,41,21">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[View]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[View]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ Default']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='View']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="118" sy="447" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="cf9d64a9-d236-4bfe-b3ed-d8b1c82982d8">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="17" rect="54,437,227,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Overlay Watch List Templates]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Overlay Watch List Templates]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable, HasPopup]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='View']/contextmenu[1]/menuitem[@accessiblename~'^Overlay\ Watch\ List\ Templa']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="336" sy="444" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="21cf590a-8ff1-4442-9e46-dfd12613af9b">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="284,439,206,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[All Overlays]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[All Overlays]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Overlay\ Watch\ List\ Templa']/contextmenu[1]/menuitem[@accessiblename='All Overlays']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="125ms" methodname="Validate_FormAll_Overlays__9_overlays">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="150ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="8ada4049-5eb5-42cb-bc43-a51fce9f2863">
+            <element role="form" prefcap="form" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="5" rect="147,417,665,233">
+              <attribute name="active" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="appicon" type="System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5T
+aXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdo
+dAAACAgCAAAAEAAAABAAAAAPAwAAAL4BAAACAAABAAEAEBAQ/wAAAACoAQAAFgAAACgAAAAQAAAA
+IAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACA
+gAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACP/wiPAAAAAI94iIiPAAAAjz
+M3f//wAACPM3N3d3//AI8zMzN3d3jwiDdziHN3f/CIM3d4d3d/8PczOIh4h3//93cziIB3fw/3c3
+M4N3d/D/Mzd3h3d38P9zN3d3d3fw///4d3d3d/AAD4iP+Hd38AAAAACIiP/wAAAAAAAAh/AAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIAPAACADwAAgAEAAIAAAACAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADgAAAA/wAAAP/xAAAL]]>
+              </attribute>
+              <attribute name="state" type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Normal]]>
+              </attribute>
+              <attribute name="title" type="System.String">
+                <![CDATA[All Overlays (9 overlays)]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Afx:00400000:8:00010005:00000000:00000000]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[722820]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[916]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[All Overlays (9 overlays)]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='All Overlays (9 overlays)']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[WindowText]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[All Overlays (9 overlays)]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="125ms" action="Click" button="Right" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="d15813d4-d509-4097-be73-17a6b64979b7">
+        <path>
+          <![CDATA[/form[@title='All Overlays (9 overlays)']/element/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Overlay Name']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="31014f50-a4bb-48b5-abd5-14a56ea3f800">
+        <path>
+          <![CDATA[/form[@title='RealView']/contextmenu[1]/menuitem[@accessiblename='Delete All Overlays']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem duration="125ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+    </keyitem>
+    <mouseitem duration="125ms" action="Click" button="Left" movetime="300ms" sx="847" sy="372" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="6ce192f4-448b-463e-87ba-785a43fd057f">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="839,362,16,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[CLOSE]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^All Overlays.*']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryOverlays" id="d848cd42-e80a-4192-a093-bc3a134a8c70" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryOverlays.rxrep">
+    <codegen classname="TacViewLibRepositoryOverlays" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

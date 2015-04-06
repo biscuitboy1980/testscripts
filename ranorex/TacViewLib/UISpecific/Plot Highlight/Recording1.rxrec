@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.4.9270" id="3b558560-f110-4ab9-921e-2cb399e6ab33">
+  <name>
+    Recording1
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Recording1" namespace="TacViewLib.UISpecific.Plot_Highlight"/>
+  <recorditems/>
+  <repository name="TacViewLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" version="2.3.4.9270" relativepath="TacViewLibRepository.rxrep">
+    <codegen classname="TacViewLibRepository" namespace="TacViewLib.UISpecific.Plot_Highlight"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

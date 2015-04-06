@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="36491c9b-2003-42e9-a450-3f45b3a2b2a1">
+  <name>
+    ImportGeoImage
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ImportGeoImage" namespace="TacViewLib.UISpecific.MapFeatures"/>
+  <recorditems>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="33" sy="31" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="31fde0f6-3b3e-41e1-bd81-4a3a0db915d1">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ *']/element//menuitem[@accessiblename='File']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="89" sy="244" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="71ae45f9-ef5f-447d-aea7-1eaa84616a12">
+        <path>
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename='Import CADRG/Geo Images']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="688" sy="330" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="ee9148ca-e6b9-406d-9fdf-d4572254e6cb">
+        <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="0" rect="416,319,297,23">
+          <attribute name="selectionlength" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selectionstart" type="System.Int32">
+            <![CDATA[30]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[C:\TacViewC2\DataFiles\USA all]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1302]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[334388]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3992]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[C:\TacViewC2\DataFiles\USA all]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Import.*']/text[@controlid='1302']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem duration="100ms" sequence="{RShiftKey down}{Home}{RShiftKey up}{Delete}" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <keysequenceitem duration="100ms" sequence="{RShiftKey down}{End}{RShiftKey up}{Delete}" presstime="100ms">
+      <comment>
+      </comment>
+    </keysequenceitem>
+    <userrecorditem duration="100ms" methodname="EnterGEOImage">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="827" sy="331" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="019e179d-c1d1-4529-be56-10c005a47e3b">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="789,319,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Search]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1310]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[334358]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[5]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3992]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Search]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Import.*']/button[@text='Search']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keyitem duration="100ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+    </keyitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="00bd8644-5466-4163-8e12-8f2e1459e14f">
+        <element role="listitem" prefcap="listitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="2325,725,147,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Search completed]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Import.*']/statusbar/listitem[@text='Search completed']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Search completed]]>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="164ms" sx="868" sy="766" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="160866dc-a66a-42d5-aa25-6597b8584a7c">
+        <path>
+          <![CDATA[/form[@title~'Import.*']/.//button[@text='Import']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="False">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="d1eb927e-27a7-4169-bb79-961d3ec3ad03">
+        <element role="listitem" prefcap="listitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="2325,725,147,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Import completed]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Import.*']/statusbar/listitem[@text='Import completed']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[Import completed]]>
+      </matchvalue>
+    </validationitem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="1065" sy="769" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="c8a78d53-4e7a-476c-920f-51db0044e491">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="9" rect="1019,758,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[2229270]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[1008]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[RealView]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Import Maps']/button[@text='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

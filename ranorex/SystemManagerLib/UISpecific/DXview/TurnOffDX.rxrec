@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="2ca9672f-4bfa-4158-ae3d-ff2b03144121" embeddedrepository="false">
+  <name>
+    TurnOffDX
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="TurnOffDX" namespace="SystemManagerLib.UISpecific.DXview"/>
+  <variables/>
+  <recorditems>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="789" sy="59" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="bb4887a6-05a8-43eb-a065-e271ea613ba6">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/titlebar[@accessiblevalue~'^System\ Manager*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="246" sy="226" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="1686910d-b0f4-4632-b54e-47c5022b7a6c">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//tabpage[@accessiblename='DX Control']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="570ms" action="Click" button="Left" movetime="250ms" sx="259" sy="227" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="46e370dd-af39-4d10-823a-39b14aff986d">
+        <element role="text" prefcap="text" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="231,216,38,20">
+          <attribute name="caption" type="System.String">
+            <![CDATA[C2 Host]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[C2 Host]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[C2 Host]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[StaticText]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='4']/text[@accessiblename='C2 Host']]]>
+        </path>
+      </info>
+      <helperscreenshot guid="93935386-5a34-4ba4-b9fb-c890c2149227">
+        <![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACiAKIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoKKds
+96NnvQA2inbPejZ70ANop2z3o2e9AFY/8hBf+uJ/9CFTMAylWAIPBB71C3/IRX/rkf8A0IVPQBBH
+Z2sTh47aFGHRljAIp4ghExmESeaeC+0bvzqSigCNYIVlaVYkEjdXCjJ/GllijmTZNGki5zhlBFPo
+oAiitreEkwwRRkjB2IBmiK2ggJMMMcZPXYgGfyqWigCH7LbeUYvs8Xlk52bBjPrilltoJyDNBHIR
+03oDipaKAGJDFGzNHGiFzliqgZPvTfs1v53neRH5vXfsG786looAYIoxKZRGokIwXwMkfWkmghnA
+E0UcgHTeoOPzqSigCt/Z9l/z52//AH6X/CirNFAElFFFABRRRQAUUUUAVH/5CK/9cj/6EKddZMOF
+YqSyjIPI5FNf/kIr/wBcj/6EKmIBGCAfrQJ7FMTy+eY8qHO1Tu5APPOPfFBuJcrJlcKjllwcNg9u
+attHG4IdFbPXIzmjy48KNi4X7vHT6VNmKzII5bgoTIqJyMM2ADn6E0653qFeNsHO3npzxmnrBCgI
+WJFB5OFAzTyAeCAe/NOwWdimbiSKPIKso3KAclsgHknPtVkSEyunGFUH88/4UvlR7y/lruIwWxya
+EijjBEcaoD/dGKLMEmiqtzPhWby8EKSAD/Fx609rmQpHsVS7x7se+R7+9WPLT+4vbt6dKb9nh5/c
+x/N1+Uc0WYWZBHJJJPH+8XG1tw2EZwR2J4ouXkeOcKVCICCCMk8Z9eKseVGAoEa4T7vHT6UPDE7b
+njRmxjJUE0WCzK8cskmUQqu3JO4E55I459qdYyM8Kg4AVQNvfp1qZoYmxuiQ4ORlRxShEByFUHGO
+B29KEmFmZ76jIHYLExUHghTyKK0QoAAAAA6AUVPIg97uS0UUVZQUUUUAFFFFAFR/+Qiv/XI/+hCp
+6gf/AJCK/wDXI/8AoQpNQleGwnljO10QlTjODQBYorGOqTRSxNMjrGLYyMpC/OeORg/4VM+rNEsg
+ltiJERZNqPuG09yccY+lAGnRWSdRnmuLL7MYWSYvlRISDgdyVyPyq1PPKmq2sKtiORXLDA5x0oAu
+UVlvqTx3kkCxmQ+csa7nAAyM9l/xqvPq2JLW5YMifvQ8YbIYjgUAblFZsmqtFPDDLFHG0ig7nkO3
+nsCF5/StKgAooooAKKKKACiiigCSiiigAooooAKKKKAKj/8AIRX/AK5H/wBCFSSxJNE0Ug3I4wwz
+jIqN/wDkIr/1yP8A6EKmJwM8/gM0AQtZW7FS0QO2Pyxkn7vpTUsLeNWCK67sAsJG3YHQZznHtU+8
+f3X/AO+D/hRvH91/++D/AIUAV/7PtdqARkbGLKwdg2T1Oc5p89pDPIkkgbegIVldlIz16Gpd4/uv
+/wB8H/CjeP7r/wDfB/woAgFhbeYJPLJfcH3FyTkDAPWkGnWgCjyRhd2AST97rVjeP7r/APfB/wAK
+N4/uv/3wf8KAK40+2CIm1yiYwhlYrx04zg1apu8f3X/74P8AhRvH91/++D/hQA6im7x/df8A74P+
+FG8f3X/74P8AhQA6im7x/df/AL4P+FG8f3X/AO+D/hQA6im7x/df/vg/4UUATUUUUAFFFFABRRRQ
+BUf/AJCK/wDXI/8AoQqG8v2t7lYUgMrMu4YPPftj2qZ/+Qiv/XI/+hCqV5IsOtQSPnaI+wyf4qmT
+dtDajFNvmV9GO/tG5/6B0v6/4Uf2jc/9A6X9f8KtC5fYxNrOGGML8uTn8cfmaVbpDCJCrjL7CpAy
+DnH86LPuHtKf8n4sqf2jc/8AQOl/X/Cj+0bn/oHS/r/hV17iKN3WRggQAlmIA5zjn8KDcwAoDNGD
+J9wbh8309aLPuP2lP+T8WUJNWmiXdJYugzjLEj+lalZGq3MVzYBonDbZtpwQcYzWvQr3aYVFHkjK
+Kte4UUUVRgFFFFABRRRQAUUUUASUUUUAFFFFABRRRQBUf/kIr/1yP/oQqhqERm1iBFYK2zcpIyMg
+kj+VX3/5CK/9cj/6EKpX3nRapFPHA8oVMfKD79/xqZG9DWTXky05vmhcKkCScBcOT9Tnb+XBpDat
+JZrC8cagOpK7i4IByckjkmoP7Ruf+gdL+v8AhR/aNz/0Dpf1/wAKOdB9Xqf00Paw8ufzbWKFQpUh
+MbQSAwPQcdevtVARXNrNLOz5iSQLIEGdg4cnHcfMfcdu4q5/aNz/ANA6X9f8Kl0+43JdSzr5O6cA
+q56fIgFNSTInSlBXf6FPUVZdOAJRkMxZGVs7gdx/rWzXPXi5ZoLAPJAJTujEbYicZzg4xjnp+VdD
+SXxMqTTpx+f6BRRRVGIUUUUAFFFFABRRRQBJRRRQAUUUUAFFFFAFR/8AkIr/ANcj/wChCpiARg5/
+A4qF/wDkIr/1yP8A6EKnoAb5a/7X/fZ/xo8tf9r/AL7P+NOooAb5a/7X/fZ/xqpPpcFw8hlaRlfJ
+2FuFbAXcPfA75q7RQBRsbWeN5HuSpLqudkjYLAYLY4xnj8queWv+1/32f8adRQA3y1/2v++z/jR5
+a/7X/fZ/xp1FADfLX/a/77P+NHlr/tf99n/GnUUAN8tf9r/vs/40eWv+1/32f8adRQA3y1/2v++z
+/jRTqKAJKKKKACiiigAooooAqP8A8hFf+uR/9CFSTRpLEySIrqRyrDINRv8A8hFf+uR/9CFT0AY8
+cNhGLT7RHbIjQEneFALfL696lspkindJZQjMqiMSNhiNzbevPTFadFAGXaPAJ4F8uJrlgfNYt+9V
+sHORjp+PpWpRRQAUUUUAFFFFABRRRQAUUUUAFFFFAElFFFABRRRQAUUUUAVH/wCQiv8A1yP/AKEK
+mdlRC7sFUDJJOAKhf/kIr/1yP/oQpupKz6bcIilmMZAAGSeKGBLDcQz58maOTHXYwOPyp0kiRIXk
+dUUdWY4ArGKzM8U0NvLmG1KOCrRlzjhR0PHXioJIruayvIyJ3UqjIpVxznkDcSTQCOipryIhUO6q
+WOFycZPoKxL5rjG20S7ULGCjESsWOemM8fiDVzUw5Nk+x2CTBn2oWIGDzgUAXxIhkMYdS4GSueQP
+pTZp44Sgkbb5jBF4JyTWRqD3cs8jW32kRmNNu1WXnfzx64pk8V4SUjWVtl4DEZNzADHXJ5xmgDeo
+rAc3n2SFl+1eYpPmxOJfnPqGX9O1bsefLXcpU4GQTnH496AHUUUUAFFFFABRRRQBJRRRQAUUUUAF
+FFFAFR/+Qiv/AFyP/oQqeoH/AOQiv/XI/wDoQqegAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAkooooAKKKKACiiigCo/wDyEV/65H/0IVPRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+f//Z]]>
+      </helperscreenshot>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="250ms" sequence="{Tab}{Up}{Tab}{Up}{Tab}{Up}{Tab}{Up}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="1430ms" action="Click" button="Left" movetime="250ms" sx="716" sy="362" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="7fbba315-4496-4f35-994a-afe90347910e">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="712,348,16,22">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Open]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Open]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[MSG]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Open]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[AlertHigh]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[MSG]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='14']/element[@class='QWidget' and @instance='1']/combobox/button[@accessiblename='Open']]]>
+        </path>
+      </info>
+      <helperscreenshot guid="ea917c8c-d23a-48bf-a388-754279f446fd">
+        <![CDATA[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
+UAFFFFAH/9k=]]>
+      </helperscreenshot>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="500ms" sequence="{Up}{Return}{Tab down}{Up}{Return}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="279" sy="463" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="fce70aa9-8e9a-43be-84a4-1f02eb220e1a">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="231,449,80,27">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[SetFocus]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[Enter]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Apply]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Default, Focusable, AlertHigh]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager*']/.//button[@accessiblename='Apply']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" action="Click" button="Left" movetime="150ms" sx="1223" sy="1035" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="e96a07c0-e906-421c-9bfe-a04cb3dc0ac0">
+        <element role="button" prefcap="button" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="13" rect="1158,1020,160,30">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[DxView -   v2k11.B2svn8538 ONLINE]]>
+          </attribute>
+          <attribute name="commandid" type="System.Int32">
+            <![CDATA[15]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/menubar[@processname='explorer']/form/container/toolbar/button[@text~'^DxView.*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="250ms" screenshotname="Screenshot1" screenshotguid="5ca640fc-bb74-4cd4-8dd7-5f8abf2483f2" imagerect="11,4,28,24" action="Click" button="Left" movetime="150ms" sx="819" sy="95" loc="14;13">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="11c76b66-965f-4b31-92c9-6c12e8a0a470">
+        <element role="unknown" prefcap="unknown" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="794,78,50,30">
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[QWidget]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[469996]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[8]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[3188]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[qtderg]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[saveD10Button]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^DxView*']/element[@class='QWidget' and @instance='2']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='8']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="V15SmokeTestRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\..\V15SmokeTestRepository.rxrep">
+    <codegen classname="V15SmokeTestRepository" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[TurnOffDX.UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll
+    </reference>
+    <reference>
+      C:\ranorex\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\TacViewLib\bin\Debug\TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+  </references>
+</recordtable>

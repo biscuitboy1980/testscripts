@@ -1,0 +1,252 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{77689557-B639-410C-86FB-308D1D590694}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CommonUtilLib</RootNamespace>
+    <AssemblyName>CommonUtilLib</AssemblyName>
+    <RanorexVersion>3</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>True</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <id>3b524b04-de37-4ef3-8c1b-6798b5ec3ef9</id>
+    </Reference>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)">
+      <id>537fa449-0801-46de-8b55-5e2cf57e2d7f</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)">
+      <id>69745197-7912-4102-8d3a-9bed8429c0d6</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)">
+      <id>4bb73232-b5dd-407b-929b-fec4bb4785d1</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)">
+      <id>6a1855c9-8e58-4183-8080-7eaeea618f49</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)">
+      <id>7a01fec0-06e9-4404-a533-7ac476769456</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)">
+      <id>c3064c98-e4f9-48ca-8e71-7bd04933ff0d</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)">
+      <id>afadce73-8c8a-46c6-82ec-48fbbbc59019</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)">
+      <id>3317afc6-b9e0-448e-95a3-3ff4a521a464</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)">
+      <id>a6b0f634-baa9-4e2d-aab2-7065f3fa4b26</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)">
+      <id>2b1dd66a-5bc6-4798-a21f-59aace525eab</id>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)">
+      <id>ed53c454-dd8a-44d6-abe1-53406b128f87</id>
+    </Reference>
+    <Reference Include="System">
+      <id>894cb732-3ba0-40f3-a845-351a8063d8f3</id>
+    </Reference>
+    <Reference Include="System.Data">
+      <id>347302eb-fc89-4308-bddb-685380d702c7</id>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <id>d07fe7a4-aa29-4bfd-a2d2-011e3185c523</id>
+    </Reference>
+    <Reference Include="System.Management">
+      <id>bf7130c9-5831-423e-a3f0-91299ba9aa9c</id>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <id>cfe862a5-a9d4-4fc9-8695-ffaac214672f</id>
+    </Reference>
+    <Reference Include="System.Xml">
+      <id>96cdfeb6-a19a-4aed-a62c-6d7d7b3b0708</id>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>db8add9d-c14e-4ff7-bf01-ff900b62fbd2</id>
+    </Compile>
+    <Compile Include="CommonUtil.cs">
+      <DependentUpon>CommonUtil.rxrep</DependentUpon>
+      <BoundTo>9274A80B-6CFA-4954-A259-2ADA14281F5E</BoundTo>
+      <id>4d584c9f-f131-47d9-9fd8-4a6b0cb11ba7</id>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="CommunicatingScriptsSetup.cs">
+      <BoundTo>b355910c-2c49-45f9-8f9f-a5c6211203fe</BoundTo>
+      <DependentUpon>CommunicatingScriptsSetup.rxrec</DependentUpon>
+      <id>7425a92a-9786-4268-b559-69ab13d10aab</id>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="CommunicatingScriptsSetup.UserCode.cs">
+      <BoundTo>b355910c-2c49-45f9-8f9f-a5c6211203fe</BoundTo>
+      <DependentUpon>CommunicatingScriptsSetup.rxrec</DependentUpon>
+      <id>a0314d64-1d0f-46c8-be69-d971c47ccbe4</id>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="CSVConnector.cs">
+      <id>d0c5da3f-24a9-4d4f-989f-f275b4ebbf43</id>
+    </Compile>
+    <Compile Include="Forms\AwaitingDataForm.cs">
+      <id>86e9c540-a47c-4d8b-9324-0eb8439b5183</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Forms\AwaitingDataForm.Designer.cs">
+      <id>470046b3-342a-4e66-ac85-196d298e6e5a</id>
+      <DependentUpon>AwaitingDataForm.cs</DependentUpon>
+      <BoundTo>86e9c540-a47c-4d8b-9324-0eb8439b5183</BoundTo>
+    </Compile>
+    <Compile Include="Forms\AwaitingValidationForm.cs">
+      <id>85d7a6e8-a134-481a-b725-5237a4b2e157</id>
+    </Compile>
+    <Compile Include="Forms\AwaitingValidationForm.Designer.cs">
+      <id>c62edc07-5446-43f8-b116-7f30e583622d</id>
+      <DependentUpon>AwaitingValidationForm.cs</DependentUpon>
+      <BoundTo>85d7a6e8-a134-481a-b725-5237a4b2e157</BoundTo>
+    </Compile>
+    <Compile Include="Forms\SetupForm.cs">
+      <id>7d15f9e0-0117-42cf-bfc7-b3b696639f6b</id>
+    </Compile>
+    <Compile Include="Forms\SetupForm.Designer.cs">
+      <id>69be6222-071e-47a6-8d75-b2ca0b03c954</id>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+      <BoundTo>7d15f9e0-0117-42cf-bfc7-b3b696639f6b</BoundTo>
+    </Compile>
+    <Compile Include="Forwarding.cs">
+      <id>07cff9f7-48bd-4e97-b7c9-ae2fccb8be8a</id>
+    </Compile>
+    <Compile Include="TCPStream.cs">
+      <id>5898b70b-821e-4b36-9697-781fe8dc0f81</id>
+    </Compile>
+    <Compile Include="Util.cs">
+      <id>23d84ddd-8270-479c-b5a2-dd853df030cf</id>
+    </Compile>
+    <None Include="CommonUtil.rxrep">
+      <id>9274A80B-6CFA-4954-A259-2ADA14281F5E</id>
+      <repoid>e01fbb34-5012-4856-a8c7-885731e5da45</repoid>
+      <projectdefaultrepository>true</projectdefaultrepository>
+      <reporootid>f0493506-6d2a-4eb3-ab02-96eb90eea29f</reporootid>
+    </None>
+    <None Include="CommunicatingScriptsSetup.rxrec">
+      <id>b355910c-2c49-45f9-8f9f-a5c6211203fe</id>
+      <BoundTo>9274A80B-6CFA-4954-A259-2ADA14281F5E</BoundTo>
+    </None>
+    <None Include="Images\accept-icon.png">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\accept-icon.png</ORIGINALPATH>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5b4a9716-0f86-49de-8c26-bb85f9e86088</id>
+    </None>
+    <None Include="Images\remove-icon.png">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\remove-icon.png</ORIGINALPATH>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1e844cb6-83ee-49b9-a2a7-17747d314a03</id>
+    </None>
+    <None Include="Images\Ultra_logo_color.jpg">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\Ultra_logo_color.jpg</ORIGINALPATH>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>81a84ce5-63b8-4634-987a-855a4662b878</id>
+    </None>
+    <None Include="Images\warning-icon.png">
+      <ORIGINALPATH>C:\Documents and Settings\kbadura\Desktop\warning-icon.png</ORIGINALPATH>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6cc66461-f8b1-4c84-94eb-028303e81f1c</id>
+    </None>
+    <None Include="Reports\Images\bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7c71e634-bb5a-4b0f-8edb-1e65f7e4b0b6</id>
+    </None>
+    <None Include="Reports\Images\footer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f6070124-b82e-40a8-bc26-a120d940044b</id>
+    </None>
+    <None Include="Reports\Images\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <LogicalName>logo</LogicalName>
+      <id>5868f933-2c91-4fdb-8007-0f22d1619797</id>
+    </None>
+    <None Include="Reports\Images\page-bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ede883bb-2601-4b57-8303-678c5de1ece7</id>
+    </None>
+    <None Include="Reports\Install_20100715_172405.rxlog">
+      <id>70f98267-ebe3-48d5-b81a-4348979f289c</id>
+    </None>
+    <None Include="Reports\Install_20100715_172405.rxlog">
+      <id>5a0553ea-92b7-49e7-a8a6-7a44d05a6b13</id>
+    </None>
+    <None Include="Reports\RanorexReport.xsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5525fd94-4138-4d98-8957-8e76309341d5</id>
+    </None>
+    <EmbeddedResource Include="Forms\AwaitingDataForm.resx">
+      <DependentUpon>AwaitingDataForm.cs</DependentUpon>
+      <id>e5f1604b-f16d-42bb-88a5-bc089b3d8b6c</id>
+      <BoundTo>86e9c540-a47c-4d8b-9324-0eb8439b5183</BoundTo>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AwaitingValidationForm.resx">
+      <DependentUpon>AwaitingValidationForm.cs</DependentUpon>
+      <id>89a23066-2e43-4be4-a054-28c6b2401773</id>
+      <BoundTo>85d7a6e8-a134-481a-b725-5237a4b2e157</BoundTo>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SetupForm.resx">
+      <DependentUpon>SetupForm.cs</DependentUpon>
+      <id>0cadcc0d-b0f2-4128-aaf5-f09d4b9542b6</id>
+      <BoundTo>7d15f9e0-0117-42cf-bfc7-b3b696639f6b</BoundTo>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images">
+      <id>21d5fcbd-9409-49bb-b887-040554dfffd6</id>
+    </Folder>
+    <Folder Include="Forms">
+      <id>35afacaa-b5ae-40fa-a9cd-5919006bc929</id>
+    </Folder>
+    <Folder Include="Reports">
+      <ReportsDir>true</ReportsDir>
+      <id>c875930a-f207-49be-94a5-741685d6ab7f</id>
+    </Folder>
+    <Folder Include="Reports\Images">
+      <id>d24511c8-71f6-47cf-81bb-3012dea10dad</id>
+    </Folder>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <id>244a2584-3d38-4b62-98ab-2ef691206ec2</id>
+    </COMReference>
+  </ItemGroup>
+</Project>

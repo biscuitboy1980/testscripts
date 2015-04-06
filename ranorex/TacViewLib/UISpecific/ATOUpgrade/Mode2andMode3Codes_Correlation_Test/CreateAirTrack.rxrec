@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="4dd879f4-6ee8-43f2-a40e-c3d89550ad94">
+  <name>
+    CreateAirTrack
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="CreateAirTrack" namespace="TacViewLib.UISpecific.ATOUpgrade.Mode2andMode3Codes_Test"/>
+  <recorditems>
+    <userrecorditem duration="150ms" methodname="GetTrackCount">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="RandomTrack">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="1140ms" action="Click" button="Left" movetime="300ms" sx="256" sy="58" loc="8;7">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="bdb72b43-7ac7-4dfe-bc7a-47c7016e3aa6">
+            <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="10" rect="248,51,22,22">
+              <attribute name="pressed" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[View Range Rings]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[Click]]>
+              </attribute>
+              <attribute name="accessibledescription" type="System.String">
+                <![CDATA[View Range Rings]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[View Range Rings]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[PushButton]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Pressed, Checked, Focusable]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']/element[@controlid='59419']/element[@controlid='10002']/toolbar[1]/button[@accessiblename='View Range Rings']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="b5621217-840f-403b-9eeb-5241411bd67d">
+        <path>
+          <![CDATA[/form[@title='RealView']/contextmenu[1]/menuitem[@accessiblename='Create Track']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="53dd8a69-4e1e-4afe-bd42-28b5808987f6">
+        <path>
+          <![CDATA[/form[@title='Create Track']/contextmenu[1]/menuitem[@accessiblename='Air']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="IDval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="Platval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="Actval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="Stypeval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="DoubleClick" button="Left" movetime="300ms" sx="697" sy="293" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="bc10b11b-6333-4467-8b00-4d063ae11e52">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="541,288,444,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Basic Track Info]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Basic Track Info]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Basic Track Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="Altitudeval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="Velocityval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="Courseval">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="DoubleClick" button="Left" movetime="300ms" sx="680" sy="316" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="120b3d6b-6435-4fb1-be00-dc07a43e3bd1">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="541,305,444,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Position and Speed]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Position and Speed]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main \(Air TN.*']/element/container/element[@controlid='1183']/element/listitem[@accessiblename='Position and Speed']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="DoubleClick" button="Left" movetime="300ms" sx="674" sy="331" loc="CenterLeft">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="0a4417d9-8cba-45bf-bb89-5eec5263a4ea">
+        <element role="listitem" prefcap="listitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="541,322,444,17">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Interface Info]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Double Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Interface Info]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[ListItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable, Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'Main*']/element//listitem[@accessiblename='Interface Info']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="Mode2val">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="0ms" methodname="Mode3val">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="4ec989db-421e-4231-a2e8-18c6ce35dd43">
+        <path>
+          <![CDATA[/form[@title~'Main*']/element//toolbar[1]/button[@accessiblename='Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="GetTrackNum">
+      <comment>
+      </comment>
+    </userrecorditem>
+  </recorditems>
+  <repository name="ATOUpgradeRepository" id="f5cc6fe0-e00a-4e08-98fc-5a3d2f7d3962" version="2.3.8.10854" relativepath="..\..\..\ATOUpgradeRepository.rxrep">
+    <codegen classname="ATOUpgradeRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

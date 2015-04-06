@@ -1,0 +1,78 @@
+﻿<testsuite name="Link16_Link11_Forwarding" rxversion="3.1.1.14266" id="d21c90fb-d486-468e-8717-87ad53167dbe" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="30000ms" enabletracingscreenshots="True" description="" reportlevel="Info;20">
+  <parameters>
+    <param name="repeats" value="3"/>
+  </parameters>
+  <content>
+    <folder name="Surveillance" id="430c3bb6-2e39-4372-85b3-299c0dfd32dd">
+      <testcase name="Setup" id="5b0a400f-53e3-4fa0-a43c-d10a4fd148f9">
+        <testmodule name="ShowNS" id="782f2897-2e23-4c76-be55-6ab39db1cf72" ref="d326ccb6-54be-4b0d-a44e-08ac9ae4e9cb" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="J3.2_Test" id="24c00e87-41c2-4713-b6b4-4db68eb832b7">
+        <testmodule name="J3_2_Test" id="2a220ee1-2082-47f1-bfc3-0204edd4eff8" ref="0D50DA23-6657-45D1-884C-67DECE2B8736" type="UserCode"/>
+      </testcase>
+      <testcase name="J3.3_Test" id="dfd080a7-942d-42fc-86e3-9a52e5c3d4f5">
+        <testmodule name="J3_3_Test" id="bd22a0de-8418-4eb3-baad-34493b06007d" ref="3CB9304E-E1FE-4B8F-8371-7AEE4F5BB9F7" type="UserCode"/>
+      </testcase>
+      <testcase name="J3.4_Test" id="b8f1429b-6979-423f-9b78-c0a554d48b87">
+        <testmodule name="J3_4_Test" id="9dbbe10e-1138-46cc-ab83-c5df09288d40" ref="855D0C9E-8879-4A61-ACDB-D1B38CF5A677" type="UserCode"/>
+      </testcase>
+      <testcase name="J3.5_Test" id="f5150469-2bea-40f7-87bb-f3e259874c5f">
+        <testmodule name="J3_5_Test" id="459e915d-41ee-46de-89a0-ec6a24d7c548" ref="71D80C01-A90C-4CD4-9184-00EF560EE9AE" type="UserCode"/>
+      </testcase>
+      <testcase name="J3.6_Test" id="176100d3-d308-4014-a569-609cc0ec0555">
+        <testmodule name="J3_6_Test" id="0e17f8f1-107d-4776-9b8b-c0b18810b094" ref="785CEF86-280D-4E19-B6D0-6BAA0280E407" type="UserCode"/>
+      </testcase>
+    </folder>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="430c3bb6-2e39-4372-85b3-299c0dfd32dd"/>
+      <testcase id="d21c90fb-d486-468e-8717-87ad53167dbe"/>
+      <testcase id="f5150469-2bea-40f7-87bb-f3e259874c5f"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references>
+    <reference>
+      C:\ranorex555\InstallerLib\bin\Debug\InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      TacViewLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+  </references>
+</testsuite>

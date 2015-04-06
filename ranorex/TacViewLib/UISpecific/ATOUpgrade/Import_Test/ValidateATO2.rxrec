@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="caf980c0-06f3-4008-8443-2d3716bb67ee">
+  <name>
+    ValidateATO2
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateATO2" namespace="TacViewLib.UISpecific.ATOUpgrade.Import_Test"/>
+  <recorditems>
+    <userrecorditem duration="150ms" methodname="ValidateFile">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="602075c6-74b7-4ad6-bc91-c340e8106bc1">
+            <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="434,299,347,23">
+              <attribute name="selectionlength" type="System.Int32">
+                <![CDATA[56]]>
+              </attribute>
+              <attribute name="selectionstart" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="selectiontext" type="System.String">
+                <![CDATA[C:\ranorex\TacViewC2\bin\Release\DataFiles\ATOSmall1.txt]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[C:\ranorex\TacViewC2\bin\Release\DataFiles\ATOSmall1.txt]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Edit]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[1283]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[263466]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[3876]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[C:\ranorex\TacViewC2\bin\Release\DataFiles\ATOSmall1.txt]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Import Records From File']/text[@controlid='1283']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[C:\ranorex\TacViewC2\bin\Release\DataFiles\ATOSmall1.txt]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="150ms" methodname="ValidateRecords">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="11.495999999999999s" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="fc5aebc9-c3a9-492e-a1f7-c12be31f453b">
+            <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="7" rect="434,417,194,13">
+              <attribute name="caption" type="System.String">
+                <![CDATA[11 Records available]]>
+              </attribute>
+              <attribute name="selectionlength" type="System.Int32">
+                <![CDATA[-20]]>
+              </attribute>
+              <attribute name="selectionstart" type="System.Int32">
+                <![CDATA[20]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[11 Records available]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Static]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[1310]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[394386]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[1]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[3876]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[11 Records available]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='Import Records From File']/text[@caption='11 Records available']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[11 Records available]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="2292e0e2-cdbd-4c1c-b1b2-6512d59f6175">
+        <path>
+          <![CDATA[/form[@title='Import Records From File']/button[@text='OK']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="0ms" methodname="CloseDialog">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="09314256-4446-445d-ba47-c7c8d8c1f910">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']/element/element/menubar[1]/menuitem[@accessiblename='ATO']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="376" sy="83" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="8e386c15-424a-4d27-a9db-cca8d46dbaee">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="1" rect="318,70,207,22">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[View Database]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Click]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[View Database]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selected, Focused, HotTracked, Focusable]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='ATO']/contextmenu[1]/menuitem[@accessiblename='View Database']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="150ms" methodname="Validate_TreeItemATO">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="6b563bec-5082-4e84-8075-ca66c8c25628">
+            <element role="treeitem" prefcap="treeitem" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="566,269,41,16">
+              <attribute name="checked" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="expanded" type="System.Boolean">
+                <![CDATA[True]]>
+              </attribute>
+              <attribute name="selected" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[ATO DB]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title='ATO Database - C2 HOST']/element/container/container/text/tree/treeitem[@text='ATO DB']]]>
+            </path>
+          </info>
+          <matchname>
+            <![CDATA[Text]]>
+          </matchname>
+          <matchvalue>
+            <![CDATA[ATO DB]]>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <mouseitem duration="150ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="660b6a47-0e7b-4aa4-8597-54031f20caf4">
+        <path>
+          <![CDATA[/form[@title='ATO Database - C2 HOST']/button[@accessiblename='CLOSE']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="ATOUpgradeRepository" id="f5cc6fe0-e00a-4e08-98fc-5a3d2f7d3962" version="2.3.8.10854" relativepath="..\..\..\ATOUpgradeRepository.rxrep">
+    <codegen classname="ATOUpgradeRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

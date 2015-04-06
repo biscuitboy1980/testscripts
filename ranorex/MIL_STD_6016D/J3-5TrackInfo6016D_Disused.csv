@@ -1,0 +1,271 @@
+Platval;Actval;Stypeval
+Terrain;Holding;SHILLEAGH
+Buffer Center;Delaying;SERGEANT
+Terrain;Moving;HAWK
+Buffer Center;Detecting;NIKE
+Terrain;Acquiring;REDEYE
+Buffer Center;Engaging;STINKER
+Terrain;Advancing;PERSHING
+Buffer Center;Antiair Attack;(RADIL) ROCC AWACS DIGITAL INTERFACE LINK
+Terrain;Amphibious Assault;ANTI-AIRCRAFT GUN
+Buffer Center;Firing;AIR DEFENSE ARTILLERY GUN
+Terrain;Conventional Attack/assault;ARMORED PERSONNEL VEHICLE
+Buffer Center;Special Weapons Attack;ARMORED INFANTRY FIGHTING VEHICLE
+Terrain;Demolition;AADCCS (AN/TSQ-73)
+Buffer Center;Over The Horizon Targeting;FASC
+Terrain;Transiting;AADCP
+Buffer Center;Return To Base;NCC
+Terrain;Deploying;DC
+Buffer Center;Emission Control (EMCON);(TCO) TACTICAL COMBAT OPERATIONS CENTER
+Terrain;River Crossing;CHAPPARAL
+Buffer Center;Loading;FIRE UNIT
+Terrain;Towing;SELF-PROPELLED ARTILLERY
+Buffer Center;Building Fortification/barrier;(GOC) GROUND OPERATIONS CENTER
+Terrain;Clearing Barrier;(BOC) BATTERY OPERATIONS CENTER
+Buffer Center;Recovering Equipment;(PCP) PLATOON COMMAND POST
+Terrain;Mine Sweeping;(CRG) COMMUNICATIONS RELAY GROUP
+Buffer Center;Mine Laying;BENCHMARK
+Terrain;Jamming;RE-ENTRY POINT/LINE CROSSING AREA FOR RECON PATROLS
+Buffer Center;Reconnaissance/patrolling;DIRECT SUPPORT
+Terrain;Search And Rescue (SAR);GENERAL SUPPORT
+Buffer Center;Training;INTERCEPTION
+Terrain;Medical Evacuation (MEDEVAC);BLOCKING
+Buffer Center;Escorting;REINFORCING
+Terrain;Transporting;REDEPLOYMENT
+Buffer Center;Screening;POLICING
+Terrain;Supporting;INTRUDING
+Buffer Center;Repairing;PREPARING BARRIER
+Terrain;Refueling;DUMPING EQUIPMENT
+Buffer Center;Neutralizing;RELIEF
+Terrain;Targeting;ANTI-AIRCRAFT
+Buffer Center;Bypassing;SURVEILLANCE
+Terrain;Closing;PICKETING
+Buffer Center;Concentrating;LOGISTICS SUPPORT
+Terrain;Defending;SEARCH
+Buffer Center;Disengaging;DIRECT ARTILLERY SUPPORT
+Terrain;Infiltrating;GENERAL ARTILLERY SUPPORT
+Buffer Center;Interdicting;MAINTAINING LINE OF COMMUNICATION
+Terrain;Landing;COMMITTING
+Buffer Center;Occupying;COUNTER-ATTACK
+Terrain;Dispersing;ELECTRONIC WARFARE
+Buffer Center;Supply/resupply;THREATEN
+Terrain;Retrograde/withdrawing;DESTROY
+Buffer Center;Transmitting;CONTACT
+Terrain;Electronic Warfare Support (ES);EVALUATION
+Buffer Center;Electronic Attack (EA);GUN
+Terrain;Moving Equipment;HALF TRACK
+Buffer Center;Powering Up And Manned, Not Emitting;COMMUNICATIONS EQUIPMENT
+Terrain;Preparing For Launch;TARGET
+Buffer Center;Site Shutting Down To Unpowered Status;MIM-42 REDEYE
+Terrain;Launching;MIM-72 CHAPARRAL
+Buffer Center;Fire Support;RIM-2 TERRIER
+Terrain;Special Operations;RIM-7 SEA SPARROW
+Buffer Center;Nuclear, Biological, Chemical (NBC) Operations;RIM-8 TALOS
+Terrain;Nuclear Operations;RIM-24 TARTAR
+Buffer Center;Biological Operations;RIM-66 STANDARD MISSILE
+Terrain;Chemical Operations;RIM-67 STANDARD MISSILE
+Buffer Center;Combat Search And Rescue (CSAR);SEA DART
+Terrain;Holding;CROTALE
+Buffer Center;Delaying;RAPIER
+Terrain;Moving;SA-2 GUIDELINE
+Buffer Center;Detecting;SA-N-4 GECKO
+Terrain;Acquiring;SA-N-6 GRUMBLE
+Buffer Center;Engaging;SA-8 GECKO
+Terrain;Advancing;MISTRAL
+Buffer Center;Antiair Attack;SA-14 GREMLIN
+Terrain;Amphibious Assault;SA-16 GIMLET
+Buffer Center;Firing;SSI (THAAD)
+Terrain;Conventional Attack/assault;TMD-GBR (THAAD)
+Buffer Center;Special Weapons Attack;SM-2 BLOCK IIIA
+Terrain;Demolition;SM-2 BLOCK IIIB
+Buffer Center;Over The Horizon Targeting;SM-2 BLOCK IV
+Terrain;Transiting;SM-2 BLOCK IVA
+Buffer Center;Return To Base;SM-3 LEAP
+Terrain;Deploying;SA-N-5 GRAIL
+Buffer Center;Emission Control (EMCON);SA-N-11 GRISOM
+Terrain;River Crossing;SA-12A GLADIATOR
+Buffer Center;Loading;SA-12B GIANT
+Terrain;Towing;SA-17 GRIZZLY
+Buffer Center;Building Fortification/barrier;SA-19 GRISOM
+Terrain;Clearing Barrier;CSA-5
+Buffer Center;Recovering Equipment;SA-N-9 GAUNTLET
+Terrain;Mine Sweeping;SA-N-10
+Buffer Center;Mine Laying;ALBATROS/ASPIDE
+Terrain;Jamming;SM-1
+Buffer Center;Reconnaissance/patrolling;ROCK CAKE
+Terrain;Search And Rescue (SAR);SEA INDIGO
+Buffer Center;Training;TOKEN A/D
+Terrain;Medical Evacuation (MEDEVAC);TIGER S
+Buffer Center;Escorting;TIGER G
+Terrain;Transporting;AN/MPQ-4
+Buffer Center;Screening;AN/TPS-25
+Terrain;Supporting;CYMBERLINE
+Buffer Center;Repairing;PORK TROUGH 1
+Terrain;Refueling;CPN-4,FPN-16/22
+Buffer Center;Neutralizing;RP-2E
+Terrain;Targeting;TWO SPOT
+Buffer Center;Bypassing;CSA-X-2
+Terrain;Closing;FALCON-G
+Buffer Center;Concentrating;EYE SHIELD
+Terrain;Defending;MARELD
+Buffer Center;Disengaging;STRUT PAIR
+Terrain;Infiltrating;BOFI
+Buffer Center;Interdicting;CORN CAN
+Terrain;Landing;BASS TILT
+Buffer Center;Occupying;GOALKEEPER
+Terrain;Dispersing;HAWK SCREECH
+Buffer Center;Supply/resupply;OWL SCREECH
+Terrain;Retrograde/withdrawing;MARK 68 FCS
+Buffer Center;Transmitting;MK 57/63 GFCS
+Terrain;Electronic Warfare Support (ES);MK-86 GFCS
+Buffer Center;Electronic Attack (EA);MUFF COB
+Terrain;Moving Equipment;SIGNAAL STIR 180
+Buffer Center;Powering Up And Manned, Not Emitting;MRL-4/5
+Terrain;Preparing For Launch;FIRE WHEEL/MOD
+Buffer Center;Site Shutting Down To Unpowered Status;CROSS SLOT
+Terrain;Launching;SLIM/SEA/HAIR NET
+Buffer Center;Fire Support;LOW SIEVE
+Terrain;Special Operations;MARCONI 5244
+Buffer Center;Nuclear, Biological, Chemical (NBC) Operations;AA4 MK 6/7
+Terrain;Nuclear Operations;AN/TPS-48
+Buffer Center;Biological Operations;PALMIER
+Terrain;Chemical Operations;WATCHMAN
+Buffer Center;Combat Search And Rescue (CSAR);AN/SPS-8
+Terrain;Holding;MK-26
+Buffer Center;Delaying;RAN-7S
+Terrain;Moving;NC1 MISTRAL
+Terrain;Holding;SHILLEAGH
+Buffer Center;Delaying;SERGEANT
+Terrain;Moving;HAWK
+Buffer Center;Detecting;NIKE
+Terrain;Acquiring;REDEYE
+Buffer Center;Engaging;STINKER
+Terrain;Advancing;PERSHING
+Buffer Center;Antiair Attack;(RADIL) ROCC AWACS DIGITAL INTERFACE LINK
+Terrain;Amphibious Assault;ANTI-AIRCRAFT GUN
+Buffer Center;Firing;AIR DEFENSE ARTILLERY GUN
+Terrain;Conventional Attack/assault;ARMORED PERSONNEL VEHICLE
+Buffer Center;Special Weapons Attack;ARMORED INFANTRY FIGHTING VEHICLE
+Terrain;Demolition;AADCCS (AN/TSQ-73)
+Buffer Center;Over The Horizon Targeting;FASC
+Terrain;Transiting;AADCP
+Buffer Center;Return To Base;NCC
+Terrain;Deploying;DC
+Buffer Center;Emission Control (EMCON);(TCO) TACTICAL COMBAT OPERATIONS CENTER
+Terrain;River Crossing;CHAPPARAL
+Buffer Center;Loading;FIRE UNIT
+Terrain;Towing;SELF-PROPELLED ARTILLERY
+Buffer Center;Building Fortification/barrier;(GOC) GROUND OPERATIONS CENTER
+Terrain;Clearing Barrier;(BOC) BATTERY OPERATIONS CENTER
+Buffer Center;Recovering Equipment;(PCP) PLATOON COMMAND POST
+Terrain;Mine Sweeping;(CRG) COMMUNICATIONS RELAY GROUP
+Buffer Center;Mine Laying;BENCHMARK
+Terrain;Jamming;RE-ENTRY POINT/LINE CROSSING AREA FOR RECON PATROLS
+Buffer Center;Reconnaissance/patrolling;DIRECT SUPPORT
+Terrain;Search And Rescue (SAR);GENERAL SUPPORT
+Buffer Center;Training;INTERCEPTION
+Terrain;Medical Evacuation (MEDEVAC);BLOCKING
+Buffer Center;Escorting;REINFORCING
+Terrain;Transporting;REDEPLOYMENT
+Buffer Center;Screening;POLICING
+Terrain;Supporting;INTRUDING
+Buffer Center;Repairing;PREPARING BARRIER
+Terrain;Refueling;DUMPING EQUIPMENT
+Buffer Center;Neutralizing;RELIEF
+Terrain;Targeting;ANTI-AIRCRAFT
+Buffer Center;Bypassing;SURVEILLANCE
+Terrain;Closing;PICKETING
+Buffer Center;Concentrating;LOGISTICS SUPPORT
+Terrain;Defending;SEARCH
+Buffer Center;Disengaging;DIRECT ARTILLERY SUPPORT
+Terrain;Infiltrating;GENERAL ARTILLERY SUPPORT
+Buffer Center;Interdicting;MAINTAINING LINE OF COMMUNICATION
+Terrain;Landing;COMMITTING
+Buffer Center;Occupying;COUNTER-ATTACK
+Terrain;Dispersing;ELECTRONIC WARFARE
+Buffer Center;Supply/resupply;THREATEN
+Terrain;Retrograde/withdrawing;DESTROY
+Buffer Center;Transmitting;CONTACT
+Terrain;Electronic Warfare Support (ES);EVALUATION
+Buffer Center;Electronic Attack (EA);GUN
+Terrain;Moving Equipment;HALF TRACK
+Buffer Center;Powering Up And Manned, Not Emitting;COMMUNICATIONS EQUIPMENT
+Terrain;Preparing For Launch;TARGET
+Buffer Center;Site Shutting Down To Unpowered Status;MIM-42 REDEYE
+Terrain;Launching;MIM-72 CHAPARRAL
+Buffer Center;Fire Support;RIM-2 TERRIER
+Terrain;Special Operations;RIM-7 SEA SPARROW
+Buffer Center;Nuclear, Biological, Chemical (NBC) Operations;RIM-8 TALOS
+Terrain;Nuclear Operations;RIM-24 TARTAR
+Buffer Center;Biological Operations;RIM-66 STANDARD MISSILE
+Terrain;Chemical Operations;RIM-67 STANDARD MISSILE
+Buffer Center;Combat Search And Rescue (CSAR);SEA DART
+Terrain;Holding;CROTALE
+Buffer Center;Delaying;RAPIER
+Terrain;Moving;SA-2 GUIDELINE
+Buffer Center;Detecting;SA-N-4 GECKO
+Terrain;Acquiring;SA-N-6 GRUMBLE
+Buffer Center;Engaging;SA-8 GECKO
+Terrain;Advancing;MISTRAL
+Buffer Center;Antiair Attack;SA-14 GREMLIN
+Terrain;Amphibious Assault;SA-16 GIMLET
+Buffer Center;Firing;SSI (THAAD)
+Terrain;Conventional Attack/assault;TMD-GBR (THAAD)
+Buffer Center;Special Weapons Attack;SM-2 BLOCK IIIA
+Terrain;Demolition;SM-2 BLOCK IIIB
+Buffer Center;Over The Horizon Targeting;SM-2 BLOCK IV
+Terrain;Transiting;SM-2 BLOCK IVA
+Buffer Center;Return To Base;SM-3 LEAP
+Terrain;Deploying;SA-N-5 GRAIL
+Buffer Center;Emission Control (EMCON);SA-N-11 GRISOM
+Terrain;River Crossing;SA-12A GLADIATOR
+Buffer Center;Loading;SA-12B GIANT
+Terrain;Towing;SA-17 GRIZZLY
+Buffer Center;Building Fortification/barrier;SA-19 GRISOM
+Terrain;Clearing Barrier;CSA-5
+Buffer Center;Recovering Equipment;SA-N-9 GAUNTLET
+Terrain;Mine Sweeping;SA-N-10
+Buffer Center;Mine Laying;ALBATROS/ASPIDE
+Terrain;Jamming;SM-1
+Buffer Center;Reconnaissance/patrolling;ROCK CAKE
+Terrain;Search And Rescue (SAR);SEA INDIGO
+Buffer Center;Training;TOKEN A/D
+Terrain;Medical Evacuation (MEDEVAC);TIGER S
+Buffer Center;Escorting;TIGER G
+Terrain;Transporting;AN/MPQ-4
+Buffer Center;Screening;AN/TPS-25
+Terrain;Supporting;CYMBERLINE
+Buffer Center;Repairing;PORK TROUGH 1
+Terrain;Refueling;CPN-4,FPN-16/22
+Buffer Center;Neutralizing;RP-2E
+Terrain;Targeting;TWO SPOT
+Buffer Center;Bypassing;CSA-X-2
+Terrain;Closing;FALCON-G
+Buffer Center;Concentrating;EYE SHIELD
+Terrain;Defending;MARELD
+Buffer Center;Disengaging;STRUT PAIR
+Terrain;Infiltrating;BOFI
+Buffer Center;Interdicting;CORN CAN
+Terrain;Landing;BASS TILT
+Buffer Center;Occupying;GOALKEEPER
+Terrain;Dispersing;HAWK SCREECH
+Buffer Center;Supply/resupply;OWL SCREECH
+Terrain;Retrograde/withdrawing;MARK 68 FCS
+Buffer Center;Transmitting;MK 57/63 GFCS
+Terrain;Electronic Warfare Support (ES);MK-86 GFCS
+Buffer Center;Electronic Attack (EA);MUFF COB
+Terrain;Moving Equipment;SIGNAAL STIR 180
+Buffer Center;Powering Up And Manned, Not Emitting;MRL-4/5
+Terrain;Preparing For Launch;FIRE WHEEL/MOD
+Buffer Center;Site Shutting Down To Unpowered Status;CROSS SLOT
+Terrain;Launching;SLIM/SEA/HAIR NET
+Buffer Center;Fire Support;LOW SIEVE
+Terrain;Special Operations;MARCONI 5244
+Buffer Center;Nuclear, Biological, Chemical (NBC) Operations;AA4 MK 6/7
+Terrain;Nuclear Operations;AN/TPS-48
+Buffer Center;Biological Operations;PALMIER
+Terrain;Chemical Operations;WATCHMAN
+Buffer Center;Combat Search And Rescue (CSAR);AN/SPS-8
+Terrain;Holding;MK-26
+Buffer Center;Delaying;RAN-7S
+Terrain;Moving;NC1 MISTRAL

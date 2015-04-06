@@ -1,0 +1,139 @@
+Platnum;Platval;Actnum;Actval;Stypenum;Stypeval
+1;Submarine Propulsion Unknown;1;Reconnaissance;1;SS GENERAL (SUBMARINE, GENERAL, NON-NUCLEAR)
+2;Diesel Electric Submarine General;2;Over The Horizon Targeting (OTHT);2;ABTAO SS
+3;Diesel Electric Attack Submarine;3;Training;7;GUPPY II SS
+4;Diesel Electric Missile Submarine;4;Diving;8;GUPPY IIA SS
+5;Diesel Electric Ballistic Missile Submarine;5;Antisurface Warfare;9;GUPPY III SS
+6;Type 1 Diesel;6;Electronic Warfare (EW);10;HAI LUNG SS
+7;Type 2 Diesel;7;Surveillance;12;SAURO (TYPE 1081) SS
+8;Type 3 Diesel;8;Search And Rescue (SAR);13;SAURO (IMPROVED) SS
+9;Nuclear Submarine General;9;Escorting;14;TANG SS
+10;Nuclear Attack Submarine;10;Minelaying;15;TYPE SNA 72 SS
+11;Nuclear Missile Submarine;11;Transiting;16;UZUSHIO SS
+12;Nuclear Ballistic Missile Submarine;12;Special Weapons Attack;17;WALRUS SS
+13;Type I Nuclear;13;Surfacing;18;YUUSHIO SS
+14;Type II Nuclear;14;Amphibious Warfare;21;PELOSI SS
+15;Type III Nuclear;15;Intelligence Collecting;22;MING SS
+16;Type IV Nuclear;16;Patrol;361;SSB GENERAL (SUBMARINE, BALLISTIC MISSILE, NON-NUCLEAR)
+17;Type V Nuclear;17;Transport;362;GOLF SSB
+18;Non-Submarine;18;Antisubmarine Warfare (ASW);441;SSBN GENERAL (SUBMARINE, BALLISTIC MISSILE, NUCLEAR)
+19;Surface Vessel;20;Bottoming;443;DELTA I SSBN
+20;Torpedo;21;Special Warfare;445;DELTA III SSBN
+21;Mine;22;Strike Warfare;446;DELTA IV SSBN
+22;Decoy;23;Clandestine Operations;449;L'INFLEXIBLE SSBN
+23;Wreck;24;Snorkeling;452;OHIO SSBN
+24;Seabed Pipeline;25;Conventional Attack;453;RESOLUTION SSBN
+25;Fish/Marine Life;26;Mine Countermeasures;454;TYPHOON SSBN
+26;Swimmer/Frogman;27;Mine Warfare;455;VANGUARD SSBN
+27;Knuckle/Wake;28;Marking;459;XIA SSBN
+28;Attack Submarine;29;Noncombatant Operations;461;BOREY (TYPE 955) SSBN
+29;Cruise Missile Launcher;30;Direct Support;462;LE TRIOMPHANT SSBN
+30;Pinnacle/Seamountain;31;Video Data Linking (Targeting);721;SSN GENERAL (SUBMARINE, ATTACK, NUCLEAR)
+31;Non-Military Submersible;32;Special Operations;722;AKULA SSN
+33;Type VI Nuclear;33;Shadowing;730;HAN SSN
+34;Type VII Nuclear;34;Intervening;732;LOS ANGELES SSN
+35;Conventional (Command and Control);35;Nuclear, Biological, Chemical (NBC) Operations;736;RUBIS SSN
+36;Conventional (Auxiliary);36;Nuclear Operations;737;SEAWOLF SSN
+37;Nuclear (Command and Control);37;Biological Operations;738;SIERRA I SSN
+38;Infrared Decoy;38;Chemical Operations;741;STURGEON SSN
+39;Chaff Decoy;39;Electronic Warfare Support (ES);742;SWIFTSURE SSN
+40;Active Electronic Decoy;40;Combat Search and Rescue (CSAR);743;TRAFALGAR SSN
+49;Missile Control Unit;50;Return to Base (RTB);747;VICTOR III SSN
+1;Submarine Propulsion Unknown;115;Subsurface Activity 1;749;VIRGINIA SSN
+2;Diesel Electric Submarine General;116;Subsurface Activity 2;751;AKULA II SSN
+3;Diesel Electric Attack Submarine;117;Subsurface Activity 3;752;SIERRA II SSN
+4;Diesel Electric Missile Submarine;118;Subsurface Activity 4;1201;SSG GENERAL (SUBMARINE, ATTACK)
+5;Diesel Electric Ballistic Missile Submarine;119;Subsurface Activity 5;1203;PREVEZE SSG
+6;Type 1 Diesel;120;Subsurface Activity 6;1204;GUR SSG
+7;Type 2 Diesel;121;Subsurface Activity 7;1246;SSGN GENERAL (SUBMARINE, ATTACK, SURFACE MISSILE, NUCLEAR)
+8;Type 3 Diesel;122;Subsurface Activity 8;1250;OSCAR II SSGN
+9;Nuclear Submarine General;123;Subsurface Activity 9;1252;YANKEE NOTCH SSGN
+10;Nuclear Attack Submarine;124;Subsurface Activity 10;1253;YANKEE SIDECAR SSGN
+11;Nuclear Missile Submarine;125;Subsurface Activity 11;1254;YASEN (TYPE 855) SSGN
+12;Nuclear Ballistic Missile Submarine;126;Subsurface Activity 12;1346;SSK GENERAL (SUBMARINE, PATROL, NON-NUCLEAR)
+13;Type I Nuclear;1;Reconnaissance;1347;AGOSTA SSK
+14;Type II Nuclear;2;Over The Horizon Targeting (OTHT);1349;FOXTROT SSK
+15;Type III Nuclear;3;Training;1350;HEROJ SSK
+16;Type IV Nuclear;4;Diving;1351;KILO SSK
+17;Type V Nuclear;5;Antisurface Warfare;1356;ROMEO SSK
+18;Non-Submarine;6;Electronic Warfare (EW);1357;SAVA SSK
+19;Surface Vessel;7;Surveillance;1359;TANGO SSK
+20;Torpedo;8;Search And Rescue (SAR);1361;WHISKEY SSK
+21;Mine;9;Escorting;1362;WHISKEY V SSK
+22;Decoy;10;Minelaying;1365;VICTORIA SSK
+23;Wreck;11;Transiting;1366;TYPE 212 SSK
+24;Seabed Pipeline;12;Special Weapons Attack;1367;SONG (TYPE 039) SSK
+25;Fish/Marine Life;13;Surfacing;1368;LADA (AMUR) SSK
+26;Swimmer/Frogman;14;Amphibious Warfare;1369;CHALLENGER SSK
+27;Knuckle/Wake;15;Intelligence Collecting;1370;KHALID AGOSTA 90B SSK
+28;Attack Submarine;16;Patrol;1371;DAPHNE SSK
+29;Cruise Missile Launcher;17;Transport;1372;TYPE AY SSK
+30;Pinnacle/Seamountain;18;Antisubmarine Warfare (ASW);1666;SSC GENERAL (SUBMARINE, COASTAL, NON-NUCLEAR)
+31;Non-Military Submersible;20;Bottoming;1670;NARHVALEN SSC
+33;Type VI Nuclear;21;Special Warfare;1672;TOTI TYPE 1075 SSC
+34;Type VII Nuclear;22;Strike Warfare;1673;TYPE 205 SSC
+35;Conventional (Command and Control);23;Clandestine Operations;1674;TYPE 206 SSC
+36;Conventional (Auxiliary);24;Snorkeling;1675;KOBBEN (TYPE 207) SSC
+37;Nuclear (Command and Control);25;Conventional Attack;1676;TYPE 209 (TYPE 1100) SSC
+38;Infrared Decoy;26;Mine Countermeasures;1677;TYPE 209 (TYPE 1200) SSC
+39;Chaff Decoy;27;Mine Warfare;1678;TYPE 209 (TYPE 1300) SSC
+40;Active Electronic Decoy;28;Marking;1679;TYPE 209 (TYPE 1400) SSC
+49;Missile Control Unit;29;Noncombatant Operations;1680;TYPE 209 (TYPE 1500), SHISHUMAR SSC
+1;Submarine Propulsion Unknown;30;Direct Support;1681;ULA SSC
+2;Diesel Electric Submarine General;31;Video Data Linking (Targeting);1683;VASTERGOETLAND SSC
+3;Diesel Electric Attack Submarine;32;Special Operations;1684;TYPE 206A SSC
+4;Diesel Electric Missile Submarine;33;Shadowing;1685;OBERON SSC
+5;Diesel Electric Ballistic Missile Submarine;34;Intervening;1686;COLLINS SSC
+6;Type 1 Diesel;35;Nuclear, Biological, Chemical (NBC) Operations;1687;DOLPHIN SSC
+7;Type 2 Diesel;36;Nuclear Operations;1688;KILO 636 SSC
+8;Type 3 Diesel;37;Biological Operations;1689;KILO 877 EM/636 SSC
+9;Nuclear Submarine General;38;Chemical Operations;1690;KILO 877 EKM SSC
+10;Nuclear Attack Submarine;39;Electronic Warfare Support (ES);1691;KILO 877 E SSC
+11;Nuclear Missile Submarine;40;Combat Search and Rescue (CSAR);1692;KILO 877 EM SSC
+12;Nuclear Ballistic Missile Submarine;50;Return to Base (RTB);1693;OYASHIO SSC
+13;Type I Nuclear;115;Subsurface Activity 1;1694;SANG-O SSC
+14;Type II Nuclear;116;Subsurface Activity 2;1695;SONG SSC
+15;Type III Nuclear;117;Subsurface Activity 3;1696;GOTLAND SSC
+16;Type IV Nuclear;118;Subsurface Activity 4;1697;HARUSHIO SSC
+17;Type V Nuclear;119;Subsurface Activity 5;1698;YUUSHIO SSC
+18;Non-Submarine;120;Subsurface Activity 6;1699;TR 1700 SSC
+19;Surface Vessel;121;Subsurface Activity 7;1700;KRONBERG SSC
+20;Torpedo;122;Subsurface Activity 8;1701;TYPE 207 SSC
+21;Mine;123;Subsurface Activity 9;1946;SSA GENERAL (SUBMARINE, AUXILIARY)
+22;Decoy;124;Subsurface Activity 10;1948;DOLPHIN (AGSS) SSA
+23;Wreck;125;Subsurface Activity 11;1954;ROMEO SSA
+24;Seabed Pipeline;126;Subsurface Activity 12;1956;BELUGA (TYPE 1710) SSA
+25;Fish/Marine Life;1;Reconnaissance;1957;LOSOS (PYRANJA) SSA
+26;Swimmer/Frogman;2;Over The Horizon Targeting (OTHT);2259;SSAN GENERAL (SUBMARINE, AUXILIARY, NUCLEAR)
+27;Knuckle/Wake;3;Training;2260;YANKEE POD SSAN
+28;Attack Submarine;4;Diving;2261;YANKEE STRETCH SSAN
+29;Cruise Missile Launcher;5;Antisurface Warfare;2262;UNIFORM (TYPE 1910) SSAN
+30;Pinnacle/Seamountain;6;Electronic Warfare (EW);2263;PALTUS (TYPE 1851) SSAN
+31;Non-Military Submersible;7;Surveillance;2565;SSW GENERAL (SUBMARINE, MIDGET)
+33;Type VI Nuclear;8;Search And Rescue (SAR);2869;SUB GENERAL
+34;Type VII Nuclear;9;Escorting;3171;SSLP GENERAL (SUBMARINE, TRANSPORT)
+35;Conventional (Command and Control);10;Minelaying;4070;SUBSURFACE SPECIFIC TYPE 1
+36;Conventional (Auxiliary);11;Transiting;4071;SUBSURFACE SPECIFIC TYPE 2
+37;Nuclear (Command and Control);12;Special Weapons Attack;4072;SUBSURFACE SPECIFIC TYPE 3
+38;Infrared Decoy;13;Surfacing;4073;SUBSURFACE SPECIFIC TYPE 4
+39;Chaff Decoy;14;Amphibious Warfare;4074;SUBSURFACE SPECIFIC TYPE 5
+40;Active Electronic Decoy;15;Intelligence Collecting;4075;SUBSURFACE SPECIFIC TYPE 6
+49;Missile Control Unit;16;Patrol;4076;SUBSURFACE SPECIFIC TYPE 7
+1;Submarine Propulsion Unknown;17;Transport;4077;SUBSURFACE SPECIFIC TYPE 8
+2;Diesel Electric Submarine General;18;Antisubmarine Warfare (ASW);4078;SUBSURFACE SPECIFIC TYPE 9
+3;Diesel Electric Attack Submarine;20;Bottoming;4079;SUBSURFACE SPECIFIC TYPE 10
+4;Diesel Electric Missile Submarine;21;Special Warfare;4080;SUBSURFACE SPECIFIC TYPE 11
+5;Diesel Electric Ballistic Missile Submarine;22;Strike Warfare;4081;SUBSURFACE SPECIFIC TYPE 12
+6;Type 1 Diesel;23;Clandestine Operations;4082;SUBSURFACE SPECIFIC TYPE 13
+7;Type 2 Diesel;24;Snorkeling;4083;SUBSURFACE SPECIFIC TYPE 14
+8;Type 3 Diesel;25;Conventional Attack;4084;SUBSURFACE SPECIFIC TYPE 15
+9;Nuclear Submarine General;26;Mine Countermeasures;4085;SUBSURFACE SPECIFIC TYPE 16
+10;Nuclear Attack Submarine;27;Mine Warfare;4086;SUBSURFACE SPECIFIC TYPE 17
+11;Nuclear Missile Submarine;28;Marking;4087;SUBSURFACE SPECIFIC TYPE 18
+12;Nuclear Ballistic Missile Submarine;29;Noncombatant Operations;4088;SUBSURFACE SPECIFIC TYPE 19
+13;Type I Nuclear;30;Direct Support;4089;SUBSURFACE SPECIFIC TYPE 20
+14;Type II Nuclear;31;Video Data Linking (Targeting);4090;SUBSURFACE SPECIFIC TYPE 21
+15;Type III Nuclear;32;Special Operations;4091;SUBSURFACE SPECIFIC TYPE 22
+16;Type IV Nuclear;33;Shadowing;4092;SUBSURFACE SPECIFIC TYPE 23
+17;Type V Nuclear;34;Intervening;4093;SUBSURFACE SPECIFIC TYPE 24
+18;Non-Submarine;35;Nuclear, Biological, Chemical (NBC) Operations;4094;SUBSURFACE SPECIFIC TYPE 25

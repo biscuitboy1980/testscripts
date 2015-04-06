@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="52751da0-c7e0-4cdb-b172-6965a68e2a01">
+  <name>
+    ValidateSAMode
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateSAMode" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="RepositoryEditor" id="dabde302-dedd-461a-8c3e-d7f5e633c617">
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element//toolbar[1]/button[@accessiblename='Set Range to 200 km']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem duration="100ms" methodname="RandCoord">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <userrecorditem duration="100ms" methodname="CreateTrack">
+      <comment>
+      </comment>
+    </userrecorditem>
+    <mouseitem duration="100ms" action="Click" button="Left" movetime="300ms" sx="316" sy="14" loc="Center">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="4d2cebb5-3c1b-421d-a4ce-59e994ad7f68">
+        <element role="titlebar" prefcap="titlebar" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="27" rect="29,4,1247,26">
+          <attribute name="text" type="System.String">
+            <![CDATA[TacViewC2   (map: DefaultMap.map) (terrain: terrain database not loaded) (playback: not loaded)]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Displays the name of the window and contains controls to manipulate it]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[TitleBar]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focusable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[TacViewC2   (map: DefaultMap.map) (terrain: terrain database not loaded) (playback: not loaded)]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ DefaultMap\.map\)\ \(terra']]]>
+        </path>
+      </info>
+    </mouseitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryConfiguration" id="ef38cbe1-cb78-476a-bcf1-673e06711162" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryConfiguration.rxrep">
+    <codegen classname="TacViewLibRepositoryConfiguration" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

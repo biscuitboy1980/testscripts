@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="58d75df0-210b-42c2-a08e-ab81e6b14b62" embeddedrepository="false">
+  <name>
+    DropTrack
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="DropTrack" namespace="TacViewLib.Defects.Drop_Track"/>
+  <variables/>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="DropTrackSequence">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewSustainment_DefectsRepository" id="5740c0ad-1e88-41e2-ab12-d6d82181e1c9" rxversion="3.1.1.14266" relativepath="..\..\TacViewSustainment_DefectsRepository.rxrep">
+    <codegen classname="TacViewSustainment_DefectsRepository" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_" id="47f7b833-457d-4fa4-b96b-b0a1bc9771f4"/>
+  </repository>
+  <references/>
+</recordtable>

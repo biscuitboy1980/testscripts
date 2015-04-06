@@ -1,0 +1,75 @@
+Ptypenum;Ptype;Ampnum;Amp
+0;Hazard;1;Navigation
+0;Hazard;2;Mine
+0;Hazard;3;Impact Point
+0;Hazard;4;Ground Zero
+0;Hazard;5;Aim/Weapon Entry Point
+0;Hazard;6;Missile Launch Point
+0;Hazard;7;Electronic Attack (EA) Decoy
+0;Hazard;8;Engagement Point
+0;Hazard;9;Oil Rig
+1;Reference Point (General);1;Marshall Point
+1;Reference Point (General);2;Waypoint
+1;Reference Point (General);3;Corridor Tab
+1;Reference Point (General);4;Position And Intended Movement (PIM)
+1;Reference Point (General);5;Disposition Center
+1;Reference Point (General);6;Formation Center
+1;Reference Point (General);7;Search Area
+1;Reference Point (General);8;Victor Lima (VL)
+1;Reference Point (General);9;Submarine Position And Intended Movement (SISM)
+1;Reference Point (General);11;Defended Asset
+2;Station (General);1;Tomcat
+2;Station (General);2;Picket
+2;Station (General);3;Rendezvous
+2;Station (General);5;Replenishment
+2;Station (General);6;Rescue
+3;Station (Air);1;Combat Air Patrol (CAP)
+3;Station (Air);2;Airborne Early Warning (AEW)
+3;Station (Air);3;Antisubmarine Warfare (ASW) Fixed Wing
+3;Station (Air);4;Antisubmarine Warfare (ASW) Helicopter (HELO)
+3;Station (Air);5;Replenishment
+3;Station (Air);6;Strike Initial Point (IP)
+3;Station (Air);7;TACAN
+3;Station (Air);8;Tanker
+3;Station (Air);9;Orbit, Race Track
+3;Station (Air);10;Orbit, Figure Eight
+3;Station (Air);11;Orbit, Random Closed
+3;Station (Air);12;Orbit Point
+4;Line;1;Forward Edge of the Battle Area
+4;Line;2;Gun Target Line
+4;Line;3;Corridor
+4;Line;4;Hostile Boundary
+4;Line;5;Buffer Zone Boundary
+4;Line;6;Low Level Transit Route
+4;Line;7;Tactical Action Line
+4;Line;8;Fire Support Coordination Line (FSCL)
+5;Area (General);1;Search
+5;Area (General);2;Restricted
+5;Area (General);3;Exercise
+5;Area (General);4;Submarine Patrol Area
+5;Area (General);5;Fighter Engagement Zone/Fighter AOR
+5;Area (General);6;Ground Area of Responsibility
+5;Area (General);7;Defended Area
+6;Area (Hazard);1;Danger
+6;Area (Hazard);2;Contaminated
+6;Area (Hazard);3;Missile Engagement Zone
+6;Area (Hazard);5;Hostile Weapon Zone
+6;Area (Hazard);6;Hostile Tactical Zone
+6;Area (Hazard);7;SHORAD
+6;Area (Hazard);8;Kill Zone
+6;Area (Hazard);9;Target Area Of Interest
+6;Area (Hazard);10;Named Area Of Interest (NAI)
+7;ASW;1;Sinker
+7;ASW;2;Brief Contact
+7;ASW;3;Search Center (ASW)
+7;ASW;4;Estimated Position (EP)
+7;ASW;5;Fix (ASW)
+7;ASW;6;Notack Area
+7;ASW;7;Moving Haven
+7;ASW;9;Sonobuoy Position
+7;ASW;10;Sonobuoy Pattern Reference Position
+7;ASW;11;Limiting Line of Approach
+7;ASW;12;Area of Probability (ASW)
+8;ASW, 1;13;Charted Wreck
+8;ASW, 1;1;Bottomed Nonsubmarine
+8;ASW, 1;2;ASW Station

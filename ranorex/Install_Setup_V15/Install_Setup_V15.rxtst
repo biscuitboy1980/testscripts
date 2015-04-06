@@ -1,0 +1,181 @@
+﻿<testsuite name="Install_Setup_V15" rxversion="3.1.1.14266" id="880d62be-7150-4712-b262-c763d12aa0af" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="10000ms" enabletracingscreenshots="True" description="" reportlevel="Debug;10">
+  <parameters>
+    <param name="C2Hip" value="172.16.99.171"/>
+    <param name="TDLGip" value="172.16.99.170"/>
+    <param name="C2Huser" value="root"/>
+    <param name="C2Hpass" value="Ultra-ATS"/>
+    <param name="TDLGuser" value="root"/>
+    <param name="TDLGpass" value="Ultra-ATS"/>
+    <param name="buildtype" value="promoted"/>
+    <param name="SimulatorIP" value="172.16.99.168"/>
+    <param name="SimulatorUser" value="root"/>
+    <param name="SimulatorPass" value="Ultra-ATS"/>
+    <param name="LinuxIP" value="172.16.99.170"/>
+    <param name="LinuxUser" value="root"/>
+    <param name="LinuxPass" value="Ultra-ATS"/>
+  </parameters>
+  <content>
+    <testcase name="UninstallWin" id="5f13b74e-c8c6-4eb7-a9ea-76917f93852d">
+      <description>
+        <![CDATA[Uninstalls ADSI Linux, ADSI Windows, and TacView Software on a 3 segment hardware system such as a PCI ADSI.]]>
+      </description>
+      <testmodule name="UninstallADSIWin" id="adca8b95-d728-44d4-b05c-653bcfe62e72" ref="c7948e30-dcea-4cf3-89fe-739add3e0c85" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="UninstallTV" id="4663180a-559f-4cea-a11d-22376b7153d9" ref="00425457-23fb-41f7-b868-e04e120b2a08" type="Recording" namespace="InstallerLib"/>
+    </testcase>
+    <testcase name="Install3Segment" id="957e0d8e-1aba-4d1f-b539-f25a6842cd90">
+      <testmodule name="UninstallADSIWin" id="f0c06553-d76f-4570-9f16-ee62aaf47306" ref="c7948e30-dcea-4cf3-89fe-739add3e0c85" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="UninstallTV" id="a0e16c2a-7ede-4bc5-98ca-f0aca254ef9b" ref="00425457-23fb-41f7-b868-e04e120b2a08" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="Install3Segment" id="2e6fd718-3206-41c6-b9c1-b9a22c484bc5" ref="9d2f72fa-8a46-405b-bae0-c9604bfbac42" type="Recording" namespace="InstallerLib"/>
+    </testcase>
+    <testcase name="Install2Segment" id="3e23ac57-3d29-44ea-a992-95608dfa3675">
+      <testmodule name="UninstallADSIWin" id="0c47bf82-e5f9-47dc-8fbb-cdf1c7be3d31" ref="c7948e30-dcea-4cf3-89fe-739add3e0c85" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="UninstallTV" id="2432a6a7-7111-47ac-8078-46b5f4fbb6f4" ref="00425457-23fb-41f7-b868-e04e120b2a08" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="Install2Segment" id="1076a63b-7804-489a-9174-e32425fd8476" ref="e1ae6987-3073-4187-a8f3-b30f3f46de23" type="Recording" namespace="InstallerLib"/>
+    </testcase>
+    <testcase name="InstallSimulator" id="8120e3b7-6341-48d9-acdc-8de26381fcb4">
+      <testmodule name="InstallSimulator" id="e7ec4d7d-7a69-4159-a147-0414e05532f6" ref="f4273f0f-e53f-46fc-ad81-0d5f1784e737" type="Recording" namespace="InstallerLib"/>
+    </testcase>
+    <testcase name="SFF_ADSI_Setup" id="2e2a90a2-16aa-4d77-9501-976d8cd979bb">
+      <description>
+        <![CDATA[Configures a 2 segment Small Form Factor ADSI hardware system using Configuration Wizard, System Manager, & TacViewC2.  This test requires that V15 is installed on the Small Form Factor system to run.  In order to do this run the Install_2_Segment test case first.]]>
+      </description>
+      <testmodule name="DeleteSMConnections" id="d43e5e71-9e56-4907-86d9-ad8df82edaf9" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupSFF" id="9e869b1d-bce9-49ed-9ee4-f931ae1186ae" ref="ddbf6f00-dcd3-4e57-97d4-ae323f56ac4a" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SFF"/>
+      <testmodule name="SetupSFF" id="2148226c-f716-4190-88e8-423471c1760b" ref="cc37c95c-6dca-4d25-ad10-9d7f5e9661c2" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSFF"/>
+      <testmodule name="Setup_1_C2Host_Interface" id="eabae950-ef32-4d0f-84a1-248ae2c58839" ref="62898c20-4e14-4e29-ac7b-cd3f2111ba7c" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="Ultra16_ADSI_Setup" id="124192ee-8a0a-4d22-b11f-6e2c6e1c7b99">
+      <description>
+        <![CDATA[Configures a 2 segment Ultra16 hardware system using Configuration Wizard, System Manager, & TacViewC2.  This test requires that V15 is installed on the Ultra16 system to run.  In order to do this run the Install_2_Segment test case first.]]>
+      </description>
+      <testmodule name="DeleteSMConnections" id="2ac5fcc9-9dab-43e9-9579-caeec07cc3e9" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupUltra16" id="3456f84d-c3d2-4489-b472-c1203c073a5a" ref="5c84dfd1-23fe-465e-8a0a-ca4fd07eab55" type="Recording" namespace="ConfigurationWizardLib\UISpecific\Ultra16"/>
+      <testmodule name="SetupUltra16" id="e31c0782-40cc-4d9e-a302-f1806dc62c16" ref="280d282a-d80c-4f18-b663-9116cf00e4b5" type="Recording" namespace="SystemManagerLib\UISpecific\SetupUltra16"/>
+      <testmodule name="Setup_1_C2Host_Interface" id="248c7fa3-b341-44e8-8c71-d8c028c1b392" ref="62898c20-4e14-4e29-ac7b-cd3f2111ba7c" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="CPCI_ADSI_Setup" id="fbf6ab06-68de-45c4-9417-e62c030f6406">
+      <description>
+        <![CDATA[Configures a 2 segment CompacPCI ADSI hardware system using Configuration Wizard, System Manager, & TacViewC2.  This test requires that V15 is installed on the CompacPCI system to run.  In order to do this run the Install_2_Segment test case first.]]>
+      </description>
+      <testmodule name="DeleteSMConnections" id="54414972-3437-4ca9-8703-e1d3fcd0bd84" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupCPCI" id="331f60c2-2fc1-42eb-ad56-71740993a7c7" ref="2cef3cf4-de46-457c-9dd3-d5dce2e12fc6" type="Recording" namespace="ConfigurationWizardLib\UISpecific\CPCI"/>
+      <testmodule name="SetupCPCI" id="636ef243-a564-418c-884b-c3c5f6039b5f" ref="a095c839-f6e4-4e08-ae9c-a1248f09995f" type="Recording" namespace="SystemManagerLib\UISpecific\SetupCPCI"/>
+      <testmodule name="Setup_1_C2Host_Interface" id="72701384-849b-49e9-89c5-78e9175761f4" ref="62898c20-4e14-4e29-ac7b-cd3f2111ba7c" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="PCI_ADSI_Setup" id="66efd975-7c74-409d-8b48-0df60ba0c7d9">
+      <testmodule name="DeleteSMConnections" id="bdeea312-a33d-4bf3-9d3c-3d2d74f65408" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupPCI_ADSI" id="682354fb-6671-470c-9b35-65a8ed2f942e" ref="d9e20655-a032-475f-8e6a-8ab17fe4b260" type="Recording" namespace="ConfigurationWizardLib\UISpecific\PCI_ADSI"/>
+      <testmodule name="SetupPCI_ADSI" id="b8ca65ba-b724-4a70-9508-6262840dbc45" ref="c41f4aea-c8da-4fe4-bb1e-6928ea25f05d" type="Recording" namespace="SystemManagerLib\UISpecific\SetupPCI_ADSI"/>
+      <testmodule name="Setup_1_C2Host_Interface" id="a2fc2922-07eb-48ea-badb-deae59b99ba6" ref="62898c20-4e14-4e29-ac7b-cd3f2111ba7c" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="SFF_ADSI_Setup_With_Sim" id="f441ef0a-4b0d-4156-a5ed-cfaf88e32d40">
+      <description>
+        <![CDATA[Configures a 2 segment Small Form Factor ADSI hardware system using Configuration Wizard, System Manager, & TacViewC2.  This test requires that V15 is installed on the Small Form Factor system to run.  In order to do this run the Install_2_Segment test case first.]]>
+      </description>
+      <testmodule name="DeleteSMConnections" id="c83ad3cb-9547-4819-bf39-cf048ea40a83" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupSimulator" id="aa06bf79-f915-46e1-b11c-c6dbdbbcc365" ref="99a79842-6fa5-4a67-b561-fbc3c85f3eea" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupSimulator" id="fac3279f-8fe5-4360-b384-f28d1bb8ceae" ref="dd7c11e0-be29-4d8d-99a6-d5cddda7808b" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupSFF" id="51433612-1322-475f-b95b-5a84892ace06" ref="ddbf6f00-dcd3-4e57-97d4-ae323f56ac4a" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SFF"/>
+      <testmodule name="SetupSFF" id="762149ef-fcd4-4d21-8e31-1a9f980b4a58" ref="cc37c95c-6dca-4d25-ad10-9d7f5e9661c2" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSFF"/>
+      <testmodule name="Setup_2_Toad_Interfaces" id="d782b684-c5e5-434b-bcb6-fd24f4d4a077" ref="78350d53-56a1-477e-896c-9f66e398cbd5" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="Ultra16_ADSI_Setup_With_Sim" id="4fa0dcee-2656-4629-8d49-0900769f6a3e">
+      <description>
+        <![CDATA[Configures a 2 segment Ultra16 hardware system using Configuration Wizard, System Manager, & TacViewC2.  This test requires that V15 is installed on the Ultra16 system to run.  In order to do this run the Install_2_Segment test case first.]]>
+      </description>
+      <testmodule name="DeleteSMConnections" id="6314e90f-9b2f-4762-aa2d-539dd5ae8818" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupSimulator" id="5a6076c0-c48d-43c5-a0ae-0b61b8fd2e6e" ref="99a79842-6fa5-4a67-b561-fbc3c85f3eea" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupSimulator" id="a92c6117-5231-4c12-a2fd-31075a13fa5a" ref="dd7c11e0-be29-4d8d-99a6-d5cddda7808b" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupUltra16" id="7a9216e0-9929-43eb-b31e-bf0b9d629e5f" ref="5c84dfd1-23fe-465e-8a0a-ca4fd07eab55" type="Recording" namespace="ConfigurationWizardLib\UISpecific\Ultra16"/>
+      <testmodule name="SetupUltra16" id="050f32a2-2206-4173-936c-0c3a77aec546" ref="280d282a-d80c-4f18-b663-9116cf00e4b5" type="Recording" namespace="SystemManagerLib\UISpecific\SetupUltra16"/>
+      <testmodule name="Setup_2_Toad_Interfaces" id="1718b634-8763-4c59-9679-9e4dba50b88c" ref="78350d53-56a1-477e-896c-9f66e398cbd5" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="CPCI_ADSI_Setup_With_Sim" id="2bae0f1a-0379-4da8-9333-a23279a161d7">
+      <description>
+        <![CDATA[Configures a 2 segment CompacPCI ADSI hardware system using Configuration Wizard, System Manager, & TacViewC2.  This test requires that V15 is installed on the CompacPCI system to run.  In order to do this run the Install_2_Segment test case first.]]>
+      </description>
+      <testmodule name="DeleteSMConnections" id="92830f4c-b110-4b81-af29-230c596b3cd1" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupSimulator" id="eff69a16-dbea-42a0-9785-afec60a6760b" ref="99a79842-6fa5-4a67-b561-fbc3c85f3eea" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupSimulator" id="603d2736-630b-4772-8ad4-a8602c86c828" ref="dd7c11e0-be29-4d8d-99a6-d5cddda7808b" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupCPCI" id="01ac3c07-b1cb-4f69-aa4b-8074b140db9f" ref="2cef3cf4-de46-457c-9dd3-d5dce2e12fc6" type="Recording" namespace="ConfigurationWizardLib\UISpecific\CPCI"/>
+      <testmodule name="SetupCPCI" id="13ea22e5-a028-4940-8113-cd03a7c914de" ref="a095c839-f6e4-4e08-ae9c-a1248f09995f" type="Recording" namespace="SystemManagerLib\UISpecific\SetupCPCI"/>
+      <testmodule name="Setup_2_Toad_Interfaces" id="cdc940f9-b6fc-4972-a5a3-faabb53d38e9" ref="78350d53-56a1-477e-896c-9f66e398cbd5" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="PCI_ADSI_Setup_With_Sim" id="6db10e13-4763-44ba-8717-0c08d3b6b5b9">
+      <parameters>
+        <param name="NewParameter" value=""/>
+      </parameters>
+      <testmodule name="DeleteSMConnections" id="cadb4b7c-3f9d-4074-8cb4-da3e04f4084c" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupSimulator" id="d8368688-6507-4bcb-bbc3-8bb6a5a08196" ref="99a79842-6fa5-4a67-b561-fbc3c85f3eea" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupSimulator" id="d368e455-dd57-4265-ae12-4aef7472211d" ref="dd7c11e0-be29-4d8d-99a6-d5cddda7808b" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupPCI_ADSI" id="662c786e-08c7-4d15-92c8-29daffe8c2e4" ref="d9e20655-a032-475f-8e6a-8ab17fe4b260" type="Recording" namespace="ConfigurationWizardLib\UISpecific\PCI_ADSI"/>
+      <testmodule name="SetupPCI_ADSI" id="2d394128-bb30-426f-86f1-08ad424e72a4" ref="c41f4aea-c8da-4fe4-bb1e-6928ea25f05d" type="Recording" namespace="SystemManagerLib\UISpecific\SetupPCI_ADSI"/>
+      <testmodule name="Setup_2_Toad_Interfaces" id="ca52f5be-dca3-4884-bf17-c8565c208009" ref="78350d53-56a1-477e-896c-9f66e398cbd5" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="Setup_Sim" id="ce6b6e8f-b2c1-4d47-b172-d79dec6adf75">
+      <testmodule name="DeleteSMConnections" id="9246ddda-5547-4900-b72e-3a4a1ea5fa97" ref="b92f188d-d7a4-4686-a410-4a6139d1eb49" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SetupSimulator" id="0b608c51-36e0-4fd2-9e21-445f0e944e6c" ref="99a79842-6fa5-4a67-b561-fbc3c85f3eea" type="Recording" namespace="ConfigurationWizardLib\UISpecific\SetupSimulator"/>
+      <testmodule name="SetupSimulator" id="ba114b91-4b30-4655-ac10-56d6b4309c9f" ref="dd7c11e0-be29-4d8d-99a6-d5cddda7808b" type="Recording" namespace="SystemManagerLib\UISpecific\SetupSimulator"/>
+      <testmodule name="Setup_1_C2Host_Interface" id="75da9929-7e97-492d-81dc-b89caf0b639e" ref="62898c20-4e14-4e29-ac7b-cd3f2111ba7c" type="Recording" namespace="TacViewLib"/>
+    </testcase>
+    <testcase name="InstallWindowsOnly" id="1e0ba3a4-2480-4cc6-9e26-de51a2c3fc33">
+      <testmodule name="UninstallADSIWin" id="829b07eb-c68f-4c34-b45a-47a13438881f" ref="c7948e30-dcea-4cf3-89fe-739add3e0c85" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="UninstallTV" id="4c355642-2dcc-4ad8-9616-0709283bfb9a" ref="00425457-23fb-41f7-b868-e04e120b2a08" type="Recording" namespace="InstallerLib"/>
+      <testmodule name="InstallWindowsOnly" id="bb871736-87ed-40df-a315-0982dbf4cbf9" ref="89f48b5a-6a1e-4b49-b37e-1c67e6b60012" type="Recording" namespace="InstallerLib"/>
+    </testcase>
+    <testcase name="PostReboot" id="b76dd6ee-f8f6-4754-8f39-131df3b8a18d">
+      <testmodule name="InstallWindowsAfterReboot" id="805e209a-e12f-4ddd-a0ec-a44c3021d556" ref="b21ed61e-a399-46a6-865d-f01a5fce99da" type="Recording" namespace="InstallerLib"/>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="6db10e13-4763-44ba-8717-0c08d3b6b5b9"/>
+      <testcase id="880d62be-7150-4712-b262-c763d12aa0af"/>
+      <testcase id="957e0d8e-1aba-4d1f-b539-f25a6842cd90"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references>
+    <reference>
+      InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      TacViewLib.dll
+    </reference>
+    <reference>
+      ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      SystemManagerLib.dll
+    </reference>
+    <reference>
+      CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+  </references>
+</testsuite>

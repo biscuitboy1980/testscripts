@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<projectusersettings>
+  <changestatecache>
+    <codegenfilechangeinfo fileitemid="5144bc13-60ab-4f78-adb8-8b595846c0b7" changehash="741152403" lastcodegentimestamp="129725083675971963" filelength="46670">
+      <codegenfilechangeinfo fileitemid="55cf5143-e325-4504-b572-1933ac7a50c1" changehash="1558934279" lastcodegentimestamp="129725083675971963" filelength="131968"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="6320c860-f233-45a7-9e93-2b74cdc4745a" changehash="3269893920425580179" lastcodegentimestamp="129730308732828924" filelength="41942">
+      <codegenfilechangeinfo fileitemid="fa186c55-7fcb-423f-a763-108e71e29d9d" changehash="1354697603" lastcodegentimestamp="129730308732828924" filelength="15395"/>
+      <codegenfilechangeinfo fileitemid="c9fd711f-bc78-4652-9a42-a28a0e6b05b0" changehash="1956023485" lastcodegentimestamp="129730308732828924" filelength="11194"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="e28ad5ed-8815-43c6-81f2-9f6f46fa05fb" changehash="15949672804638332563" lastcodegentimestamp="129730308732988933" filelength="5197">
+      <codegenfilechangeinfo fileitemid="e4ce4b4f-27e3-4fdf-9717-de1fa8fcf6e8" changehash="18446744071906446574" lastcodegentimestamp="129730308732988933" filelength="5282"/>
+      <codegenfilechangeinfo fileitemid="9c58c5f7-3700-4de2-984a-f5ecfe822bd4" changehash="18446744073561118897" lastcodegentimestamp="129730308732988933" filelength="22474"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="4186f3a6-74db-4092-8317-fe1a14bfa576" changehash="8244826716307789459" lastcodegentimestamp="129730308733058937" filelength="5900">
+      <codegenfilechangeinfo fileitemid="9194aa9a-7cea-4b22-aae3-6b655862cb2c" changehash="18446744072218060390" lastcodegentimestamp="129730308733058937" filelength="5887"/>
+      <codegenfilechangeinfo fileitemid="f07b526f-4b5a-4025-a941-69346665fd4e" changehash="1569307629" lastcodegentimestamp="129730308733058937" filelength="27983"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="70f90a32-63ed-4c59-ad26-5c9dd019bb8d" changehash="13333147013876618899" lastcodegentimestamp="129730308733118941" filelength="3918">
+      <codegenfilechangeinfo fileitemid="284da438-a075-4032-9bc5-3cdc0a88ff60" changehash="18446744071898458991" lastcodegentimestamp="129730308733118941" filelength="4627"/>
+      <codegenfilechangeinfo fileitemid="7554b2a3-2a4e-475a-80f8-a86e2657b079" changehash="18446744072408280099" lastcodegentimestamp="129730308733118941" filelength="22109"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="75c4f53d-622e-4804-a665-ead6612e2198" changehash="4773608150243546771" lastcodegentimestamp="129730308733218946" filelength="3348">
+      <codegenfilechangeinfo fileitemid="dce99a7a-d7e9-4e8f-b3aa-46d45fdba1b9" changehash="18446744072484419690" lastcodegentimestamp="129730308733218946" filelength="3547"/>
+      <codegenfilechangeinfo fileitemid="b3a4b2ad-22f8-465c-add7-fc73622b134e" changehash="493476237" lastcodegentimestamp="129730308733218946" filelength="6412"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="32035aa5-9e5d-4b82-81dd-ff1c43ed2d49" changehash="16310357728590370451" lastcodegentimestamp="129730308733278950" filelength="4369">
+      <codegenfilechangeinfo fileitemid="b73a05ed-c5a5-4230-9485-da5d0414b6f0" changehash="288523826" lastcodegentimestamp="129730308733278950" filelength="3990"/>
+      <codegenfilechangeinfo fileitemid="333c5765-b2e2-4267-8fa7-ed323f4e13dc" changehash="1779188209" lastcodegentimestamp="129730308733278950" filelength="15114"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="ca66839f-90ab-4434-9ff2-d7c75fd7735b" changehash="554004645386458771" lastcodegentimestamp="129730308733318952" filelength="2443">
+      <codegenfilechangeinfo fileitemid="6d9f1edd-18af-4a78-b6c6-e98c26a0c955" changehash="18446744073075298353" lastcodegentimestamp="129730308733318952" filelength="2738"/>
+      <codegenfilechangeinfo fileitemid="22173461-aa51-4974-958b-9652c22002a0" changehash="1992507937" lastcodegentimestamp="129730308733318952" filelength="3983"/>
+    </codegenfilechangeinfo>
+    <codegenfilechangeinfo fileitemid="48973e3a-9682-4a90-a56b-c32c6ce7faa9" changehash="8403367578544445075" lastcodegentimestamp="129730308733358954" filelength="2756">
+      <codegenfilechangeinfo fileitemid="6013d41e-3fdf-4db9-bcab-119f98d1023b" changehash="18446744072868297645" lastcodegentimestamp="129730308733358954" filelength="2942"/>
+      <codegenfilechangeinfo fileitemid="aa16213b-6150-40c4-b4d8-674915f3c065" changehash="1880292841" lastcodegentimestamp="129730308733358954" filelength="3514"/>
+    </codegenfilechangeinfo>
+  </changestatecache>
+</projectusersettings>

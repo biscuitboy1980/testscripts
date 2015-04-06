@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.8.10854" id="4abd9ad2-9deb-41e1-82bc-d34fe67c20ef">
+  <name>
+    ValidateTwoWayReceived
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="ValidateTwoWayReceived" namespace="TacViewLib.UISpecific.SendImageJ16"/>
+  <recorditems>
+    <delayitem duration="1575.6101ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <userrecorditem duration="125ms" methodname="Mouse_Click_CellAlert">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="1141ms" action="Click" button="Left" movetime="300ms" sx="150" sy="443" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="0f5daa6a-e15c-43e8-a9bb-65640452adbc">
+            <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="121,432,94,21">
+              <attribute name="isheader" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[Firing]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[None]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[Alert Text]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Cell]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <attribute name="accessiblevalue" type="System.String">
+                <![CDATA[Firing]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/.//container[@caption='Event History']/element/table/row[@accessiblename='0']/cell[@accessiblename='Alert Text']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_FormImage_Viewer">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" action="Exists" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="af3d60d8-c3a4-4ef5-85b2-8e2b489db8a0">
+            <element role="form" prefcap="form" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="832,494,226,246">
+              <attribute name="active" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="appicon" type="System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5T
+aXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdo
+dAAACAgCAAAAEAAAABAAAAAPAwAAAL4BAAACAAABAAEAEBAQ/wAAAACoAQAAFgAAACgAAAAQAAAA
+IAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACA
+gAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACP/wiPAAAAAI94iIiPAAAAjz
+M3f//wAACPM3N3d3//AI8zMzN3d3jwiDdziHN3f/CIM3d4d3d/8PczOIh4h3//93cziIB3fw/3c3
+M4N3d/D/Mzd3h3d38P9zN3d3d3fw///4d3d3d/AAD4iP+Hd38AAAAACIiP/wAAAAAAAAh/AAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIAPAACADwAAgAEAAIAAAACAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADgAAAA/wAAAP/xAAAL]]>
+              </attribute>
+              <attribute name="state" type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Normal]]>
+              </attribute>
+              <attribute name="title" type="System.String">
+                <![CDATA[Image Viewer: "40_20100608113335.ntf"]]>
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[Afx:00400000:8:00010005:00000000:00000000]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[5178830]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1272]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+                <![CDATA[Image Viewer: "40_20100608113335.ntf"]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^Image\ Viewer:\ "40_2010060']]]>
+            </path>
+          </info>
+          <matchname>
+          </matchname>
+          <matchvalue>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Validate_Container1004">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <validationitem duration="250ms" screenshotname="Screenshot5" screenshotguid="fe49cd03-8e6b-471e-b2d8-f3e14c6c13cc" imagerect="0,0,186,162" imageoptions="0.75;None;0,0,0,0;True;10000000" action="ContainsImage" exceptiononfail="True">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="33b1462c-222e-4807-9ff3-b7d352af4477">
+            <element role="container" prefcap="container" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="0" rect="835,519,194,172">
+              <attribute name="caption" type="System.String">
+              </attribute>
+              <attribute name="apphung" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="class" type="System.String">
+                <![CDATA[#32770]]>
+              </attribute>
+              <attribute name="controlid" type="System.Int32">
+                <![CDATA[1004]]>
+              </attribute>
+              <attribute name="handle" type="System.IntPtr">
+                <![CDATA[1378044]]>
+              </attribute>
+              <attribute name="instance" type="System.Int32">
+                <![CDATA[0]]>
+              </attribute>
+              <attribute name="processid" type="System.Int32">
+                <![CDATA[1520]]>
+              </attribute>
+              <attribute name="processname" type="System.String">
+                <![CDATA[RealView]]>
+              </attribute>
+              <attribute name="windowtext" type="System.String">
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^Image\ Viewer:\ "40_*']/element/container[@caption='']]]>
+            </path>
+          </info>
+          <matchname>
+          </matchname>
+          <matchvalue>
+          </matchvalue>
+        </validationitem>
+      </internalrecorditem>
+    </userrecorditem>
+    <userrecorditem duration="250ms" methodname="Mouse_Click_ButtonCLOSE">
+      <comment>
+      </comment>
+      <internalrecorditem>
+        <mouseitem duration="250ms" action="Click" button="Left" movetime="300ms" sx="1039" sy="509" loc="Center">
+          <comment>
+          </comment>
+          <info sourcename="Recorder" id="0456134f-abca-47f3-bb2a-a2d58f2a2188">
+            <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="1035,499,16,16">
+              <attribute name="pressed" type="System.Boolean">
+                <![CDATA[False]]>
+              </attribute>
+              <attribute name="text" type="System.String">
+                <![CDATA[CLOSE]]>
+              </attribute>
+              <attribute name="accessibledefaultaction" type="System.String">
+                <![CDATA[Press]]>
+              </attribute>
+              <attribute name="accessiblename" type="System.String">
+                <![CDATA[CLOSE]]>
+              </attribute>
+              <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[PushButton]]>
+              </attribute>
+              <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <![CDATA[Selectable]]>
+              </attribute>
+              <children/>
+            </element>
+            <path>
+              <![CDATA[/form[@title~'^Image\ Viewer:\ "40_*']/button[@accessiblename='CLOSE']]]>
+            </path>
+          </info>
+        </mouseitem>
+      </internalrecorditem>
+    </userrecorditem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryUISpecific" id="e210cf08-f561-4651-b8be-759baf0ba777" version="2.3.8.10854" relativepath="..\..\TacViewLibRepositoryUISpecific.rxrep">
+    <codegen classname="TacViewLibRepositoryUISpecific" namespace="TacViewLib"/>
+    <rootfolder name="_rootdummy_"/>
+  </repository>
+</recordtable>

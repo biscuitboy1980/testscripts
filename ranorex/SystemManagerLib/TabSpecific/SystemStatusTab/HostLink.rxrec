@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="fe177a8f-67a6-460c-8b91-a8724e969c62" embeddedrepository="false">
+  <name>
+    HostLink
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="HostLink" namespace="SystemManagerLib.TabSpecific.SystemStatusTab"/>
+  <variables/>
+  <recorditems>
+    <validationitem enabled="True" optional="False" duration="0ms" action="Exists">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="bfe9b95d-44ea-4f9e-9e30-3ec429ee95dd">
+        <path>
+          <![CDATA[/form[@title~'^System\ Manager\ -\ UNCLASSI']/element[@class='QWidget' and @instance='3']/element[@class='QWidget' and @instance='0']/element[@class='QWidget' and @instance='1']/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='0']/element/element[@class='QWidget' and @instance='2']/container[@accessiblename='Host Link']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[yourtext]]>
+      </matchvalue>
+    </validationitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="HostLinkOPER">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+  </recorditems>
+  <repository name="SytemMangerRegression" id="10b39a9e-d514-4af5-94c7-ed689dd41b7e" rxversion="3.1.1.14266" relativepath="..\..\SytemMangerRegression.rxrep">
+    <codegen classname="SytemMangerRegression" namespace="SystemManagerLib"/>
+    <rootfolder name="_rootdummy_" id="32c1eeda-7dbe-44b6-925d-d69a6dcc751a"/>
+  </repository>
+  <references/>
+</recordtable>

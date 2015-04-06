@@ -1,0 +1,313 @@
+Platnum;Platval;Actnum;Actval;Stypenum;Stypeval;Sampnum;Sampval
+8;Decoy;8;Data Link;83;HATF II;8;Penetration Aid
+9;Air Breathing Object (ABO);9;Electronic Warfare Support (ES);85;LANCE;9;High Explosive Submunition Warhead
+13;Calibration Balloon;10;Electronic Attack (EA);86;MB/EE-150;10;Chemical Submunition Warhead
+14;Meteor;11;Communications;87;MB/EE-300;11;Biological Submunition Warhead
+1;Satellite;1;Reconnaissance;1;FROG-7;1;Unitary High Explosive Warhead
+2;Base;2;Antispace Warfare;4;SS-21 MOD 2;2;Nuclear Warhead
+3;Weapon;3;Television;5;SS-21 MOD 3;3;Bulk Chemical Warhead
+4;Transport;4;Logistics;6;HATF I;4;Bulk Biological Warhead
+5;Patrol;5;Antisurface Warfare;79;RANGE 0-65 DM;5;Fuel-Air Explosive Warhead
+6;Support;6;Electronic Warfare (EW);80;ALACRAN;6;Debris
+7;Debris (Orbital);7;Surveillance;81;CHING FENG (GREEN BEE);7;Warhead
+15;Re-Entry Vehicle (RV);12;Return to Base (RTB);91;SS-1C MOD 1 (SCUD B);12;Booster Tank
+31;Space General;13;Nuclear, Biological, Chemical (NBC) Operations;95;NHK-I;13;ACM
+62;Ballistic Missile General;14;Nuclear Operations;96;NHK-II (HYON MU);14;CAR
+1;Satellite;15;Biological Operations;97;SS-26;15;Single Body Target
+2;Base;16;Chemical Operations;98;DHANUSH;16;Decoy Balloon
+3;Weapon;51;Space Activity 1;99;CSS-X-9;17;Chaff
+4;Transport;52;Space Activity 2;100;AL SAMOUD;18;Post Boost Vehicle (PBV)
+5;Patrol;53;Space Activity 3;101;ARABIL-100;19;Lightweight Replica (LREP) Decoy
+6;Support;54;Space Activity 4;102;CSS-8;1;Unitary High Explosive Warhead
+7;Debris (Orbital);55;Space Activity 5;103;SS-1C MOD 2 (AEROFON);2;Nuclear Warhead
+8;Decoy;56;Space Activity 6;104;PRITHVI-I;3;Bulk Chemical Warhead
+9;Air Breathing Object (ABO);57;Space Activity 7;105;PRITHVI-II;4;Bulk Biological Warhead
+13;Calibration Balloon;58;Space Activity 8;106;SAGARIKA;5;Fuel-Air Explosive Warhead
+14;Meteor;59;Space Activity 9;169;RANGE 66-200 DM;6;Debris
+15;Re-Entry Vehicle (RV);60;Space Activity 10;172;HATF III;7;Warhead
+31;Space General;61;Space Activity 11;174;CSS-7 MOD 1 (M-11 MOD 1);8;Penetration Aid
+62;Ballistic Missile General;62;Space Activity 12;176;SCUD-C;9;High Explosive Submunition Warhead
+1;Satellite;115;Ballistic Missile Activity 1;177;SS-23 (SPIDER);10;Chemical Submunition Warhead
+2;Base;116;Ballistic Missile Activity 2;178;AL HUSSEIN (11.6M);11;Biological Submunition Warhead
+3;Weapon;117;Ballistic Missile Activity 3;179;FATEH-110;12;Booster Tank
+4;Transport;118;Ballistic Missile Activity 4;180;AL HUSSEIN (12.2M);13;ACM
+5;Patrol;119;Ballistic Missile Activity 5;243;RANGE 201-400 DM;14;CAR
+6;Support;120;Ballistic Missile Activity 6;245;JERICHO I;15;Single Body Target
+7;Debris (Orbital);121;Ballistic Missile Activity 7;248;CSS-6 MOD 1 (M-9 MOD 1);16;Decoy Balloon
+8;Decoy;122;Ballistic Missile Activity 8;249;SHAHEEN I VER 1;17;Chaff
+9;Air Breathing Object (ABO);123;Ballistic Missile Activity 9;250;SCUD B EXTENDED RANGE;18;Post Boost Vehicle (PBV)
+13;Calibration Balloon;124;Ballistic Missile Activity 10;251;AL-FAJR AL-JADID;19;Lightweight Replica (LREP) Decoy
+14;Meteor;125;Ballistic Missile Activity 11;252;CSS-7 MOD 2 (M-11 MOD 2);1;Unitary High Explosive Warhead
+15;Re-Entry Vehicle (RV);126;Ballistic Missile Activity 12;253;AGNI I;2;Nuclear Warhead
+31;Space General;1;Reconnaissance;254;SCUD-D (SY/SS-X-1);3;Bulk Chemical Warhead
+62;Ballistic Missile General;2;Antispace Warfare;331;RANGE 401-600 DM;4;Bulk Biological Warhead
+1;Satellite;3;Television;332;AL FATAH;5;Fuel-Air Explosive Warhead
+2;Base;4;Logistics;337;SKY HORSE/TIEN MA;6;Debris
+3;Weapon;5;Antisurface Warfare;342;VECTOR;7;Warhead
+4;Transport;6;Electronic Warfare (EW);343;CSS-6 MOD 2 (M-9 MOD 2);8;Penetration Aid
+5;Patrol;7;Surveillance;344;CSS-7 MOD 2 UPGRADE (M-11 MOD 2 UPGRADE);9;High Explosive Submunition Warhead
+6;Support;8;Data Link;345;SHAHEEN I VER 2;10;Chemical Submunition Warhead
+7;Debris (Orbital);9;Electronic Warfare Support (ES);346;AL HUSSEIN (MOD);11;Biological Submunition Warhead
+8;Decoy;10;Electronic Attack (EA);347;CSS-6 MOD 3 (M-9 MOD 3);12;Booster Tank
+9;Air Breathing Object (ABO);11;Communications;417;RANGE 601-800 DM;13;ACM
+13;Calibration Balloon;12;Return to Base (RTB);420;JERICHO II;14;CAR
+14;Meteor;13;Nuclear, Biological, Chemical (NBC) Operations;421;NODONG-1;15;Single Body Target
+15;Re-Entry Vehicle (RV);14;Nuclear Operations;422;SS-N-5 (SARK);16;Decoy Balloon
+31;Space General;15;Biological Operations;423;SHAHAB-3;17;Chaff
+62;Ballistic Missile General;16;Chemical Operations;424;GHAURI;18;Post Boost Vehicle (PBV)
+1;Satellite;51;Space Activity 1;497;RANGE 801-1000 DM;19;Lightweight Replica (LREP) Decoy
+2;Base;52;Space Activity 2;500;SS-4;1;Unitary High Explosive Warhead
+3;Weapon;53;Space Activity 3;502;DF-21C (CSS-5 MOD 2(C));2;Nuclear Warhead
+4;Transport;54;Space Activity 4;503;SHAHEEN II;3;Bulk Chemical Warhead
+5;Patrol;55;Space Activity 5;504;SHAHAB-4;4;Bulk Biological Warhead
+6;Support;56;Space Activity 6;576;RANGE 1001-1350 DM;5;Fuel-Air Explosive Warhead
+7;Debris (Orbital);57;Space Activity 7;578;CSS-2;6;Debris
+8;Decoy;58;Space Activity 8;579;CSS-3;7;Warhead
+9;Air Breathing Object (ABO);59;Space Activity 9;580;CSS-4 MOD 1;8;Penetration Aid
+13;Calibration Balloon;60;Space Activity 10;582;M-4A SLBM;9;High Explosive Submunition Warhead
+14;Meteor;61;Space Activity 11;583;M-5 SLBM;10;Chemical Submunition Warhead
+15;Re-Entry Vehicle (RV);62;Space Activity 12;585;MIDGETMAN;11;Biological Submunition Warhead
+31;Space General;115;Ballistic Missile Activity 1;587;MINUTEMAN II;12;Booster Tank
+62;Ballistic Missile General;116;Ballistic Missile Activity 2;588;PEACEKEEPER;13;ACM
+1;Satellite;117;Ballistic Missile Activity 3;589;POLARIS A-3;14;CAR
+2;Base;118;Ballistic Missile Activity 4;591;SS-11 (SEGO);15;Single Body Target
+3;Weapon;119;Ballistic Missile Activity 5;592;SS-13 (SAVAGE);16;Decoy Balloon
+4;Transport;120;Ballistic Missile Activity 6;593;SS-17 (SPANKER) MOD 1;17;Chaff
+5;Patrol;121;Ballistic Missile Activity 7;594;SS-17 (SPANKER) MOD 2;18;Post Boost Vehicle (PBV)
+6;Support;122;Ballistic Missile Activity 8;595;SS-17 (SPANKER) MOD 3;19;Lightweight Replica (LREP) Decoy
+7;Debris (Orbital);123;Ballistic Missile Activity 9;596;SS-18 (SATAN) MOD 1;1;Unitary High Explosive Warhead
+8;Decoy;124;Ballistic Missile Activity 10;597;SS-18 (SATAN) MOD 2;2;Nuclear Warhead
+9;Air Breathing Object (ABO);125;Ballistic Missile Activity 11;598;SS-18 (SATAN) MOD 3;3;Bulk Chemical Warhead
+13;Calibration Balloon;126;Ballistic Missile Activity 12;599;SS-20 (SABER);4;Bulk Biological Warhead
+14;Meteor;1;Reconnaissance;600;SS-24 (SCALPEL);5;Fuel-Air Explosive Warhead
+15;Re-Entry Vehicle (RV);2;Antispace Warfare;601;SS-25 (SICKLE);6;Debris
+31;Space General;3;Television;602;SS-N-6 (SERB);7;Warhead
+62;Ballistic Missile General;4;Logistics;603;SS-N-8 (SAWFLY);8;Penetration Aid
+1;Satellite;5;Antisurface Warfare;605;SS-N-18 (STINGRAY) MOD 1;9;High Explosive Submunition Warhead
+2;Base;6;Electronic Warfare (EW);606;SS-N-20 (STURGEON);10;Chemical Submunition Warhead
+3;Weapon;7;Surveillance;607;SS-N-23 (SKIFF) MOD 1;11;Biological Submunition Warhead
+4;Transport;8;Data Link;610;TRIDENT I (C-4);12;Booster Tank
+5;Patrol;9;Electronic Warfare Support (ES);611;TRIDENT II (D-5);13;ACM
+6;Support;10;Electronic Attack (EA);612;CSS-5 MOD 2;14;CAR
+7;Debris (Orbital);11;Communications;613;SS-19 MOD 3;15;Single Body Target
+8;Decoy;12;Return to Base (RTB);616;CSS-NX-3 (JL-1);16;Decoy Balloon
+9;Air Breathing Object (ABO);13;Nuclear, Biological, Chemical (NBC) Operations;617;M-4B SLBM;17;Chaff
+13;Calibration Balloon;14;Nuclear Operations;618;M-45 SLBM;18;Post Boost Vehicle (PBV)
+14;Meteor;15;Biological Operations;619;AGNI II;19;Lightweight Replica (LREP) Decoy
+15;Re-Entry Vehicle (RV);16;Chemical Operations;620;CSS-5 MOD 1;1;Unitary High Explosive Warhead
+31;Space General;51;Space Activity 1;621;CSS-4 MOD 2;2;Nuclear Warhead
+62;Ballistic Missile General;52;Space Activity 2;622;DF-31;3;Bulk Chemical Warhead
+1;Satellite;53;Space Activity 3;623;DF-31A;4;Bulk Biological Warhead
+2;Base;54;Space Activity 4;624;JL-2;5;Fuel-Air Explosive Warhead
+3;Weapon;55;Space Activity 5;625;SS-18 MOD 4;6;Debris
+4;Transport;56;Space Activity 6;626;SS-18 MOD 5;7;Warhead
+5;Patrol;57;Space Activity 7;627;SS-18 MOD X;8;Penetration Aid
+6;Support;58;Space Activity 8;628;SS-19 MOD 1;9;High Explosive Submunition Warhead
+7;Debris (Orbital);59;Space Activity 9;629;SS-19 MOD 2;10;Chemical Submunition Warhead
+8;Decoy;60;Space Activity 10;630;TAEPO DONG 2 (2-STAGE);11;Biological Submunition Warhead
+9;Air Breathing Object (ABO);61;Space Activity 11;631;MINUTEMAN III;12;Booster Tank
+13;Calibration Balloon;62;Space Activity 12;632;SS-27;13;ACM
+14;Meteor;115;Ballistic Missile Activity 1;633;SS-N-20 MOD 2;14;CAR
+15;Re-Entry Vehicle (RV);116;Ballistic Missile Activity 2;634;BULAVA 30;15;Single Body Target
+31;Space General;117;Ballistic Missile Activity 3;635;AGNI III;16;Decoy Balloon
+62;Ballistic Missile General;118;Ballistic Missile Activity 4;636;CSS-2 CONV;17;Chaff
+1;Satellite;119;Ballistic Missile Activity 5;637;SINEVA;18;Post Boost Vehicle (PBV)
+2;Base;120;Ballistic Missile Activity 6;638;SS-N-8 (SAWFLY) MOD 2;19;Lightweight Replica (LREP) Decoy
+3;Weapon;121;Ballistic Missile Activity 7;639;SS-N-23 MOD 2;1;Unitary High Explosive Warhead
+4;Transport;122;Ballistic Missile Activity 8;640;IRAN 700;2;Nuclear Warhead
+5;Patrol;123;Ballistic Missile Activity 9;641;M-51 SLBM;3;Bulk Chemical Warhead
+6;Support;124;Ballistic Missile Activity 10;642;TAEPO DONG 1;4;Bulk Biological Warhead
+7;Debris (Orbital);125;Ballistic Missile Activity 11;643;TAEPO DONG 2 (3-STAGE);5;Fuel-Air Explosive Warhead
+8;Decoy;126;Ballistic Missile Activity 12;644;SUBMARINE LAUNCHED BALLISTIC MISSILE (SLBM) GENERAL, CONVENTIONAL;6;Debris
+9;Air Breathing Object (ABO);1;Reconnaissance;645;SUBMARINE LAUNCHED BALLISTIC MISSILE (SLBM) GENERAL, NUCLEAR;7;Warhead
+13;Calibration Balloon;2;Antispace Warfare;646;INTERCONTINENTAL BALLISTIC MISSILE (ICBM) GENERAL;8;Penetration Aid
+14;Meteor;3;Television;647;INTERMEDIATE RANGE BALLISTIC MISSILE (IRBM) GENERAL;9;High Explosive Submunition Warhead
+15;Re-Entry Vehicle (RV);4;Logistics;787;RANGE > 1350 DM;10;Chemical Submunition Warhead
+31;Space General;5;Antisurface Warfare;788;ABM-1B (GALOSH);11;Biological Submunition Warhead
+62;Ballistic Missile General;6;Electronic Warfare (EW);789;ARROW;12;Booster Tank
+1;Satellite;7;Surveillance;790;ASTER;13;ACM
+2;Base;8;Data Link;791;ERINT;14;CAR
+3;Weapon;9;Electronic Warfare Support (ES);792;ERINT;15;Single Body Target
+4;Transport;10;Electronic Attack (EA);793;MIM-23 HAWK;16;Decoy Balloon
+5;Patrol;11;Communications;794;MIM-104 PATRIOT;17;Chaff
+6;Support;12;Return to Base (RTB);795;SA-10 (GRUMBLE);18;Post Boost Vehicle (PBV)
+7;Debris (Orbital);13;Nuclear, Biological, Chemical (NBC) Operations;796;SA-12A (GLADIATOR);19;Lightweight Replica (LREP) Decoy
+8;Decoy;14;Nuclear Operations;797;SA-12B (GIANT);1;Unitary High Explosive Warhead
+9;Air Breathing Object (ABO);15;Biological Operations;798;SA-N-6 (GRUMBLE);2;Nuclear Warhead
+13;Calibration Balloon;16;Chemical Operations;799;SH-08 (GAZELLE);3;Bulk Chemical Warhead
+14;Meteor;51;Space Activity 1;800;STANDARD MISSILE BLOCK IVA;4;Bulk Biological Warhead
+15;Re-Entry Vehicle (RV);52;Space Activity 2;801;THAAD;5;Fuel-Air Explosive Warhead
+31;Space General;53;Space Activity 3;802;SM-2 BLOCK IV;6;Debris
+62;Ballistic Missile General;54;Space Activity 4;803;SM-3;7;Warhead
+1;Satellite;55;Space Activity 5;804;SA-20 GARGOYLE;8;Penetration Aid
+2;Base;56;Space Activity 6;805;ABM-2/SH-08 (GAZELLE);9;High Explosive Submunition Warhead
+3;Weapon;57;Space Activity 7;806;ABM-X-3 ABM/BMD DEVELOPMENT;10;Chemical Submunition Warhead
+4;Transport;58;Space Activity 8;807;AIR LAUNCH MISSILE ANTI-SATELLITE (ALMAS);11;Biological Submunition Warhead
+5;Patrol;59;Space Activity 9;808;ANTI-SATELLITE WPN (ASAT);12;Booster Tank
+6;Support;60;Space Activity 10;810;PATRIOT (ATM3) PAC-3 MSE;13;ACM
+7;Debris (Orbital);61;Space Activity 11;871;MD INTERCEPTOR TYPE A;14;CAR
+8;Decoy;62;Space Activity 12;872;MD INTERCEPTOR TYPE B;15;Single Body Target
+9;Air Breathing Object (ABO);115;Ballistic Missile Activity 1;873;MD INTERCEPTOR TYPE C;16;Decoy Balloon
+13;Calibration Balloon;116;Ballistic Missile Activity 2;874;MD INTERCEPTOR TYPE D;17;Chaff
+14;Meteor;117;Ballistic Missile Activity 3;875;MD INTERCEPTOR TYPE E;18;Post Boost Vehicle (PBV)
+15;Re-Entry Vehicle (RV);118;Ballistic Missile Activity 4;876;MD INTERCEPTOR TYPE F;19;Lightweight Replica (LREP) Decoy
+31;Space General;119;Ballistic Missile Activity 5;877;INTERCEPTOR;1;Unitary High Explosive Warhead
+62;Ballistic Missile General;120;Ballistic Missile Activity 6;878;OPERATIONAL COMMANDER DEFINED 1;2;Nuclear Warhead
+1;Satellite;121;Ballistic Missile Activity 7;879;OPERATIONAL COMMANDER DEFINED 2;3;Bulk Chemical Warhead
+2;Base;122;Ballistic Missile Activity 8;880;OPERATIONAL COMMANDER DEFINED 3;4;Bulk Biological Warhead
+3;Weapon;123;Ballistic Missile Activity 9;881;OPERATIONAL COMMANDER DEFINED 4;5;Fuel-Air Explosive Warhead
+4;Transport;124;Ballistic Missile Activity 10;882;OPERATIONAL COMMANDER DEFINED 5;6;Debris
+5;Patrol;125;Ballistic Missile Activity 11;883;OPERATIONAL COMMANDER DEFINED 6;7;Warhead
+6;Support;126;Ballistic Missile Activity 12;884;OPERATIONAL COMMANDER DEFINED 7;8;Penetration Aid
+7;Debris (Orbital);1;Reconnaissance;885;OPERATIONAL COMMANDER DEFINED 8;9;High Explosive Submunition Warhead
+8;Decoy;2;Antispace Warfare;886;OPERATIONAL COMMANDER DEFINED 9;10;Chemical Submunition Warhead
+9;Air Breathing Object (ABO);3;Television;887;OPERATIONAL COMMANDER DEFINED 10;11;Biological Submunition Warhead
+13;Calibration Balloon;4;Logistics;888;OPERATIONAL COMMANDER DEFINED 11;12;Booster Tank
+14;Meteor;5;Antisurface Warfare;889;OPERATIONAL COMMANDER DEFINED 12;13;ACM
+15;Re-Entry Vehicle (RV);6;Electronic Warfare (EW);890;OPERATIONAL COMMANDER DEFINED 13;14;CAR
+31;Space General;7;Surveillance;891;OPERATIONAL COMMANDER DEFINED 14;15;Single Body Target
+62;Ballistic Missile General;8;Data Link;892;OPERATIONAL COMMANDER DEFINED 15;16;Decoy Balloon
+1;Satellite;9;Electronic Warfare Support (ES);893;OPERATIONAL COMMANDER DEFINED 16;17;Chaff
+2;Base;10;Electronic Attack (EA);894;OPERATIONAL COMMANDER DEFINED 17;18;Post Boost Vehicle (PBV)
+3;Weapon;11;Communications;895;OPERATIONAL COMMANDER DEFINED 18;19;Lightweight Replica (LREP) Decoy
+4;Transport;12;Return to Base (RTB);896;OPERATIONAL COMMANDER DEFINED 19;1;Unitary High Explosive Warhead
+5;Patrol;13;Nuclear, Biological, Chemical (NBC) Operations;897;OPERATIONAL COMMANDER DEFINED 20;2;Nuclear Warhead
+6;Support;14;Nuclear Operations;898;OPERATIONAL COMMANDER DEFINED 21;3;Bulk Chemical Warhead
+7;Debris (Orbital);15;Biological Operations;899;OPERATIONAL COMMANDER DEFINED 22;4;Bulk Biological Warhead
+8;Decoy;16;Chemical Operations;900;OPERATIONAL COMMANDER DEFINED 23;5;Fuel-Air Explosive Warhead
+9;Air Breathing Object (ABO);51;Space Activity 1;901;OPERATIONAL COMMANDER DEFINED 24;6;Debris
+13;Calibration Balloon;52;Space Activity 2;902;OPERATIONAL COMMANDER DEFINED 25;7;Warhead
+14;Meteor;53;Space Activity 3;903;OPERATIONAL COMMANDER DEFINED 26;8;Penetration Aid
+15;Re-Entry Vehicle (RV);54;Space Activity 4;904;OPERATIONAL COMMANDER DEFINED 27;9;High Explosive Submunition Warhead
+31;Space General;55;Space Activity 5;905;OPERATIONAL COMMANDER DEFINED 28;10;Chemical Submunition Warhead
+62;Ballistic Missile General;56;Space Activity 6;906;OPERATIONAL COMMANDER DEFINED 29;11;Biological Submunition Warhead
+1;Satellite;57;Space Activity 7;907;OPERATIONAL COMMANDER DEFINED 30;12;Booster Tank
+2;Base;58;Space Activity 8;908;OPERATIONAL COMMANDER DEFINED 31;13;ACM
+3;Weapon;59;Space Activity 9;909;OPERATIONAL COMMANDER DEFINED 32;14;CAR
+4;Transport;60;Space Activity 10;910;OPERATIONAL COMMANDER DEFINED 33;15;Single Body Target
+5;Patrol;61;Space Activity 11;911;OPERATIONAL COMMANDER DEFINED 34;16;Decoy Balloon
+6;Support;62;Space Activity 12;912;OPERATIONAL COMMANDER DEFINED 35;17;Chaff
+7;Debris (Orbital);115;Ballistic Missile Activity 1;913;OPERATIONAL COMMANDER DEFINED 36;18;Post Boost Vehicle (PBV)
+8;Decoy;116;Ballistic Missile Activity 2;914;OPERATIONAL COMMANDER DEFINED 37;19;Lightweight Replica (LREP) Decoy
+9;Air Breathing Object (ABO);117;Ballistic Missile Activity 3;915;OPERATIONAL COMMANDER DEFINED 38;1;Unitary High Explosive Warhead
+13;Calibration Balloon;118;Ballistic Missile Activity 4;916;OPERATIONAL COMMANDER DEFINED 39;2;Nuclear Warhead
+14;Meteor;119;Ballistic Missile Activity 5;917;OPERATIONAL COMMANDER DEFINED 40;3;Bulk Chemical Warhead
+15;Re-Entry Vehicle (RV);120;Ballistic Missile Activity 6;918;OPERATIONAL COMMANDER DEFINED 41;4;Bulk Biological Warhead
+31;Space General;121;Ballistic Missile Activity 7;919;OPERATIONAL COMMANDER DEFINED 42;5;Fuel-Air Explosive Warhead
+62;Ballistic Missile General;122;Ballistic Missile Activity 8;920;OPERATIONAL COMMANDER DEFINED 43;6;Debris
+1;Satellite;123;Ballistic Missile Activity 9;921;OPERATIONAL COMMANDER DEFINED 44;7;Warhead
+2;Base;124;Ballistic Missile Activity 10;922;OPERATIONAL COMMANDER DEFINED 45;8;Penetration Aid
+3;Weapon;125;Ballistic Missile Activity 11;923;OPERATIONAL COMMANDER DEFINED 46;9;High Explosive Submunition Warhead
+4;Transport;126;Ballistic Missile Activity 12;924;OPERATIONAL COMMANDER DEFINED 47;10;Chemical Submunition Warhead
+5;Patrol;1;Reconnaissance;925;OPERATIONAL COMMANDER DEFINED 48;11;Biological Submunition Warhead
+6;Support;2;Antispace Warfare;926;OPERATIONAL COMMANDER DEFINED 49;12;Booster Tank
+7;Debris (Orbital);3;Television;927;OPERATIONAL COMMANDER DEFINED 50;13;ACM
+8;Decoy;4;Logistics;928;OPERATIONAL COMMANDER DEFINED 51;14;CAR
+9;Air Breathing Object (ABO);5;Antisurface Warfare;929;OPERATIONAL COMMANDER DEFINED 52;15;Single Body Target
+13;Calibration Balloon;6;Electronic Warfare (EW);930;OPERATIONAL COMMANDER DEFINED 53;16;Decoy Balloon
+14;Meteor;7;Surveillance;931;OPERATIONAL COMMANDER DEFINED 54;17;Chaff
+15;Re-Entry Vehicle (RV);8;Data Link;932;OPERATIONAL COMMANDER DEFINED 55;18;Post Boost Vehicle (PBV)
+31;Space General;9;Electronic Warfare Support (ES);933;OPERATIONAL COMMANDER DEFINED 56;19;Lightweight Replica (LREP) Decoy
+62;Ballistic Missile General;10;Electronic Attack (EA);934;OPERATIONAL COMMANDER DEFINED 57;1;Unitary High Explosive Warhead
+1;Satellite;11;Communications;935;OPERATIONAL COMMANDER DEFINED 58;2;Nuclear Warhead
+2;Base;12;Return to Base (RTB);936;OPERATIONAL COMMANDER DEFINED 59;3;Bulk Chemical Warhead
+3;Weapon;13;Nuclear, Biological, Chemical (NBC) Operations;937;OPERATIONAL COMMANDER DEFINED 60;4;Bulk Biological Warhead
+4;Transport;14;Nuclear Operations;938;OPERATIONAL COMMANDER DEFINED 61;5;Fuel-Air Explosive Warhead
+5;Patrol;15;Biological Operations;939;OPERATIONAL COMMANDER DEFINED 62;6;Debris
+6;Support;16;Chemical Operations;940;OPERATIONAL COMMANDER DEFINED 63;7;Warhead
+7;Debris (Orbital);51;Space Activity 1;941;OPERATIONAL COMMANDER DEFINED 64;8;Penetration Aid
+8;Decoy;52;Space Activity 2;1023;BALLISTIC MISSILE GENERAL;9;High Explosive Submunition Warhead
+9;Air Breathing Object (ABO);53;Space Activity 3;1024;BALLISTIC MISSILE GENERAL GROUP A;10;Chemical Submunition Warhead
+13;Calibration Balloon;54;Space Activity 4;1025;BALLISTIC MISSILE GENERAL GROUP B;11;Biological Submunition Warhead
+14;Meteor;55;Space Activity 5;1026;BALLISTIC MISSILE GENERAL GROUP C;12;Booster Tank
+15;Re-Entry Vehicle (RV);56;Space Activity 6;1027;BALLISTIC MISSILE GENERAL GROUP D;13;ACM
+31;Space General;57;Space Activity 7;1028;BALLISTIC MISSILE GENERAL GROUP E;14;CAR
+62;Ballistic Missile General;58;Space Activity 8;1029;BALLISTIC MISSILE GENERAL GROUP F;15;Single Body Target
+1;Satellite;59;Space Activity 9;1101;ARIANE-4 LAUNCH VEHICLE;16;Decoy Balloon
+2;Base;60;Space Activity 10;1102;ARIANE-4 MANV;17;Chaff
+3;Weapon;61;Space Activity 11;1103;ARIANE-5 LAUNCH VEHICLE;18;Post Boost Vehicle (PBV)
+4;Transport;62;Space Activity 12;1104;ATLAS 2A;19;Lightweight Replica (LREP) Decoy
+5;Patrol;115;Ballistic Missile Activity 1;1105;CSL-1 (CHINESE SPACE LAUNCH);1;Unitary High Explosive Warhead
+6;Support;116;Ballistic Missile Activity 2;1106;CSL-2 (CHINESE SPACE LAUNCH);2;Nuclear Warhead
+7;Debris (Orbital);117;Ballistic Missile Activity 3;1107;CSL-3 (CHINESE SPACE LAUNCH);3;Bulk Chemical Warhead
+8;Decoy;118;Ballistic Missile Activity 4;1108;CSL-4 (CHINESE SPACE LAUNCH);4;Bulk Biological Warhead
+9;Air Breathing Object (ABO);119;Ballistic Missile Activity 5;1109;CSL-5 (CHINESE SPACE LAUNCH);5;Fuel-Air Explosive Warhead
+13;Calibration Balloon;120;Ballistic Missile Activity 6;1110;CSL-6 (CHINESE SPACE LAUNCH);6;Debris
+14;Meteor;121;Ballistic Missile Activity 7;1111;CSL-7 (CHINESE SPACE LAUNCH);7;Warhead
+15;Re-Entry Vehicle (RV);122;Ballistic Missile Activity 8;1112;CSL-8 (CHINESE SPACE LAUNCH);8;Penetration Aid
+31;Space General;123;Ballistic Missile Activity 9;1113;CSL-9 (CHINESE SPACE LAUNCH);9;High Explosive Submunition Warhead
+62;Ballistic Missile General;124;Ballistic Missile Activity 10;1114;CSL-10 (CHINESE SPACE LAUNCH);10;Chemical Submunition Warhead
+1;Satellite;125;Ballistic Missile Activity 11;1115;DELTA II LAUNCH VEHICLE;11;Biological Submunition Warhead
+2;Base;126;Ballistic Missile Activity 12;1116;DELTA III SPACE LAUNCH VEHICLE;12;Booster Tank
+3;Weapon;1;Reconnaissance;1117;DELTA IV SPACE LAUNCH VEHICLE;13;ACM
+4;Transport;2;Antispace Warfare;1118;GEO SATELLITE LAUNCH VEHICLE (GSLV);14;CAR
+5;Patrol;3;Television;1119;POLAR SATELLITE LAUNCH VEHICLE (PSLV);15;Single Body Target
+6;Support;4;Logistics;1120;SL-1 SPACE LAUNCH VEHICLE;16;Decoy Balloon
+7;Debris (Orbital);5;Antisurface Warfare;1121;SL-2 SPACE LAUNCH VEHICLE;17;Chaff
+8;Decoy;6;Electronic Warfare (EW);1122;SL-3 SPACE LAUNCH VEHICLE;18;Post Boost Vehicle (PBV)
+9;Air Breathing Object (ABO);7;Surveillance;1123;SL-4 SPACE LAUNCH VEHICLE;19;Lightweight Replica (LREP) Decoy
+13;Calibration Balloon;8;Data Link;1124;SL-5 SPACE LAUNCH VEHICLE;1;Unitary High Explosive Warhead
+14;Meteor;9;Electronic Warfare Support (ES);1125;SL-6 SPACE LAUNCH VEHICLE;2;Nuclear Warhead
+15;Re-Entry Vehicle (RV);10;Electronic Attack (EA);1126;SL-7 SPACE LAUNCH VEHICLE;3;Bulk Chemical Warhead
+31;Space General;11;Communications;1127;SL-8 SPACE LAUNCH VEHICLE;4;Bulk Biological Warhead
+62;Ballistic Missile General;12;Return to Base (RTB);1128;SL-9 SPACE LAUNCH VEHICLE;5;Fuel-Air Explosive Warhead
+1;Satellite;13;Nuclear, Biological, Chemical (NBC) Operations;1129;SL-10 SPACE LAUNCH VEHICLE;6;Debris
+2;Base;14;Nuclear Operations;1130;SL-11 SPACE LAUNCH VEHICLE;7;Warhead
+3;Weapon;15;Biological Operations;1131;SL-12 SPACE LAUNCH VEHICLE;8;Penetration Aid
+4;Transport;16;Chemical Operations;1132;SL-13 SPACE LAUNCH VEHICLE;9;High Explosive Submunition Warhead
+5;Patrol;51;Space Activity 1;1133;SL-14 SPACE LAUNCH VEHICLE;10;Chemical Submunition Warhead
+6;Support;52;Space Activity 2;1134;SL-15 SPACE LAUNCH VEHICLE;11;Biological Submunition Warhead
+7;Debris (Orbital);53;Space Activity 3;1135;SL-16 SPACE LAUNCH VEHICLE;12;Booster Tank
+8;Decoy;54;Space Activity 4;1136;SL-17 SPACE LAUNCH VEHICLE;13;ACM
+9;Air Breathing Object (ABO);55;Space Activity 5;1137;SL-18 SPACE LAUNCH VEHICLE;14;CAR
+13;Calibration Balloon;56;Space Activity 6;1138;SL-19 SPACE LAUNCH VEHICLE;15;Single Body Target
+14;Meteor;57;Space Activity 7;1139;SL-20 SPACE LAUNCH VEHICLE;16;Decoy Balloon
+15;Re-Entry Vehicle (RV);58;Space Activity 8;1140;SL-21 SPACE LAUNCH VEHICLE;17;Chaff
+31;Space General;59;Space Activity 9;1141;SL-22 SPACE LAUNCH VEHICLE;18;Post Boost Vehicle (PBV)
+62;Ballistic Missile General;60;Space Activity 10;1142;SL-23 SPACE LAUNCH VEHICLE;19;Lightweight Replica (LREP) Decoy
+1;Satellite;61;Space Activity 11;1143;SL-24 SPACE LAUNCH VEHICLE;1;Unitary High Explosive Warhead
+2;Base;62;Space Activity 12;1144;TITAN I/II/III/IV LAUNCH VEHICLE;2;Nuclear Warhead
+3;Weapon;115;Ballistic Missile Activity 1;1145;TITAN II LAUNCH VEHICLE LGM-25;3;Bulk Chemical Warhead
+4;Transport;116;Ballistic Missile Activity 2;1146;US SPACE LAUNCH (USSL) HEAVY GENERAL;4;Bulk Biological Warhead
+5;Patrol;117;Ballistic Missile Activity 3;1301;COMMERCIAL SPACE LAUNCH VEHICLE GENERAL;5;Fuel-Air Explosive Warhead
+6;Support;118;Ballistic Missile Activity 4;2000;CSS-6;6;Debris
+7;Debris (Orbital);119;Ballistic Missile Activity 5;2001;CSS-X;7;Warhead
+8;Decoy;120;Ballistic Missile Activity 6;2002;HYPER SONIC VELOCITY MISSILE (HSV);8;Penetration Aid
+9;Air Breathing Object (ABO);121;Ballistic Missile Activity 7;2003;NHK-A, FOLLOW-ON;9;High Explosive Submunition Warhead
+13;Calibration Balloon;122;Ballistic Missile Activity 8;2004;NIKE HERCULES (NIC HERC);10;Chemical Submunition Warhead
+14;Meteor;123;Ballistic Missile Activity 9;2005;NIKE BLACK BRANT MISSILE (NKEBB);11;Biological Submunition Warhead
+15;Re-Entry Vehicle (RV);124;Ballistic Missile Activity 10;2006;PEGASUS XL MISSILE;12;Booster Tank
+31;Space General;125;Ballistic Missile Activity 11;2007;SCUD B MOD 1;13;ACM
+62;Ballistic Missile General;126;Ballistic Missile Activity 12;2008;SCUD B MOD 2;14;CAR
+1;Satellite;1;Reconnaissance;2009;SH-11;15;Single Body Target
+2;Base;2;Antispace Warfare;2010;SHAHAB 1;16;Decoy Balloon
+3;Weapon;3;Television;2011;SHAHAB 2;17;Chaff
+4;Transport;4;Logistics;2012;SHAVIT;18;Post Boost Vehicle (PBV)
+5;Patrol;5;Antisurface Warfare;2013;SHAVIT (YSLX-1);19;Lightweight Replica (LREP) Decoy
+6;Support;6;Electronic Warfare (EW);2014;SL-8J;1;Unitary High Explosive Warhead
+7;Debris (Orbital);7;Surveillance;2015;SS-N-6 MOD 1A SSM;2;Nuclear Warhead
+8;Decoy;8;Data Link;2016;SS-N-6 MOD 1B SSM;3;Bulk Chemical Warhead
+9;Air Breathing Object (ABO);9;Electronic Warfare Support (ES);2017;SS-N-6 MOD 1C SSM;4;Bulk Biological Warhead
+13;Calibration Balloon;10;Electronic Attack (EA);2018;SS-11 MOD 3;5;Fuel-Air Explosive Warhead
+14;Meteor;11;Communications;2019;SS-14 (SCAMP/SCAPGOAT);6;Debris
+15;Re-Entry Vehicle (RV);12;Return to Base (RTB);2020;SS-16 (SINNER);7;Warhead
+31;Space General;13;Nuclear, Biological, Chemical (NBC) Operations;2021;SS-18 MOD VI;8;Penetration Aid
+62;Ballistic Missile General;14;Nuclear Operations;2022;SS-22;9;High Explosive Submunition Warhead
+1;Satellite;15;Biological Operations;2023;SS-24 MOD 1;10;Chemical Submunition Warhead
+2;Base;16;Chemical Operations;2024;SS-25 (EXTENDED);11;Biological Submunition Warhead
+3;Weapon;51;Space Activity 1;2025;SS-X-28 DEVELOPMENTAL;12;Booster Tank
+4;Transport;52;Space Activity 2;2026;SS-3 (SHYSTER);13;ACM
+5;Patrol;53;Space Activity 3;2027;SS-5 (SKEAN);14;CAR
+6;Support;54;Space Activity 4;2028;SS-6 (SAPWOOD);15;Single Body Target
+7;Debris (Orbital);55;Space Activity 5;2029;SS-7 (SADDLER);16;Decoy Balloon
+8;Decoy;56;Space Activity 6;2030;SS-8 (SASIN);17;Chaff
+9;Air Breathing Object (ABO);57;Space Activity 7;2031;SS-9 (SCARP);18;Post Boost Vehicle (PBV)
+13;Calibration Balloon;58;Space Activity 8;2032;SS-NX-SLBM;19;Lightweight Replica (LREP) Decoy
+14;Meteor;59;Space Activity 9;2033;SS-N-27 (ALPA/KLUB);1;Unitary High Explosive Warhead
+15;Re-Entry Vehicle (RV);60;Space Activity 10;2034;SS-N-6 MOD 2;2;Nuclear Warhead
+31;Space General;61;Space Activity 11;2035;STORM;3;Bulk Chemical Warhead
+62;Ballistic Missile General;62;Space Activity 12;2036;STS;4;Bulk Biological Warhead
+1;Satellite;115;Ballistic Missile Activity 1;2037;TAEPO DONG;5;Fuel-Air Explosive Warhead
+2;Base;116;Ballistic Missile Activity 2;2038;TERRIER BLACK BRANT;6;Debris
+3;Weapon;117;Ballistic Missile Activity 3;2039;TAURUS LITE;7;Warhead
+4;Transport;118;Ballistic Missile Activity 4;2047;SPACE GENERAL;8;Penetration Aid

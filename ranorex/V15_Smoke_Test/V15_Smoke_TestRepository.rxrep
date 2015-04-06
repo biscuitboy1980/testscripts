@@ -1,0 +1,8 @@
+﻿<repository name="V15_Smoke_TestRepository" id="3fb5c58c-cc96-4914-a023-7701c3e71f0c" rxversion="3.1.1.14266">
+  <codegen classname="V15_Smoke_TestRepository" namespace="V15_Smoke_Test"/>
+  <rootfolder name="Root" id="638de6e7-23d6-4759-b1c4-f06303437630" searchtimeout="30000ms" capname="unknown" isrooted="True" usecache="True">
+    <basepath>
+    </basepath>
+  </rootfolder>
+  <variables/>
+</repository>

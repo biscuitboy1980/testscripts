@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable>
+ <codegen classname="Recording1" namespace="SystemManagerLib"/>
+  <name>
+    Recording1
+  </name>
+  <recorditems/>
+  <repository name="SystemManagerLibRepository" relativepath="SystemManagerLibRepository.rxrep" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9">
+    <codegen classname="SystemManagerLibRepository" namespace="SystemManagerLib"/>
+     <rootfolder id="31097da2-1aff-446c-99c8-77ee9da049d7" name="Root" isrooted="True">
+       <basepath>
+       </basepath>
+     </rootfolder>
+  </repository>
+</recordtable>

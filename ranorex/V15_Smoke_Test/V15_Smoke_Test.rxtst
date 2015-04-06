@@ -1,0 +1,396 @@
+﻿<testsuite name="V15_Smoke_Test" rxversion="3.1.1.14266" id="880d62be-7150-4712-b262-c763d12aa0af" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="30000ms" enabletracingscreenshots="True" description="" reportlevel="Info;20">
+  <parameters>
+    <param name="MTCport" value="7400"/>
+    <param name="MTCip" value="172.16.99.168"/>
+    <param name="MTCserverclient" value="server"/>
+    <param name="Serial16xport" value="4"/>
+    <param name="Serial11Bxport" value="6"/>
+    <param name="3011Bxport" value="7"/>
+    <param name="Connection1" value="CompactPCI"/>
+    <param name="Connection2" value="Small Form Factor"/>
+  </parameters>
+  <datasources>
+    <dataConnector name="LinkType" type="Ranorex.Core.Data.SimpleDataConnector" id="11c8e885-0ca3-45c4-84a8-384a4446ba36">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[LinkNumber]]>
+        </column>
+      </fallbackcolumns>
+      <table>
+        <tr>
+          <th>
+            LinkNumber
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[1]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[2]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[3]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[4]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[5]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[6]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[7]]>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <![CDATA[8]]>
+          </td>
+        </tr>
+      </table>
+    </dataConnector>
+  </datasources>
+  <content>
+    <testcase name="DLR_Links" id="6a83991a-d979-4077-ad86-a95b5da0a326">
+      <testmodule name="SwitchtoSys2" id="5ea99683-6125-4fe1-9060-fc4eb080c339" ref="117b507d-dcde-4448-a654-978bc987d7e3" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="TurnOnAllLinks" id="b1e16916-7390-4306-af6e-f6023c248f97" ref="8c4aeb68-46f5-432c-bde2-26701026c0a6" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="SwitchtoSys1" id="8f8ada17-dc9e-4f34-b143-957b8bfb158d" ref="31e838f7-fe2f-4d53-9be8-f79c9d6ac650" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="DLR_MTC" id="7547e0be-b4a2-4b6c-9f2f-22d49c8403dd" ref="9a49abf2-b450-4f55-8ed8-e4e80ed16243" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="DLR_16serial" id="8e948c38-badf-4918-bb52-25191f45b9c7" ref="a8babea4-275e-4ad7-82fa-e8bda74c2fbf" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="DLR_L11B" id="38b67919-2a2a-4485-be83-f3c63d0b852a" ref="5c7d8b82-6ea9-4f7c-b70a-ed4497ffede0" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="DLR_3011B" id="99f63fe7-c4a6-4318-a13d-604d3aae84fe" ref="4bed942f-22a7-4fde-9518-cb92b60961e0" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="DLR_NTDS" id="0429ec86-d422-4c6f-a707-21270da304cb" ref="94d38151-ab53-4fe5-96e7-ca0ff4d0165b" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="DLR_1553" id="f20ca933-d441-48f7-abd5-7f8858dafd1a" ref="7a51a329-3d86-4656-b1a7-cd74779c7c12" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="TurnOnAllForwarding" id="8d10ad69-665d-4416-9348-80d9ec607055" ref="d8ffddc3-a0b0-4ce3-a6e5-0a92cc37d024" type="Recording" namespace="SystemManagerLib"/>
+    </testcase>
+    <testcase name="Validate_GUIs" id="3b6d2c34-7928-499b-9658-aaf4b38d5eeb">
+      <testmodule name="TurnOnDX" id="010e3bd6-dce9-4044-b2a7-94ebd67a424e" ref="b8f885a7-0aaa-4671-bda4-a38425d2c4c4" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="TDLFTM" id="29126fea-80d8-42c4-a2c9-13d901f3289d" ref="13c1f9fb-74d7-45b0-ac47-9adc1670aa79" type="Recording" namespace="SystemManagerLib"/>
+      <testmodule name="TerminalControl" id="53cc0856-2dac-473d-968f-10fc8c8b9665" ref="5a03974e-0e4b-4e04-9092-d4654f5d7d51" type="Recording" namespace="SystemManagerLib"/>
+    </testcase>
+    <testcase name="Validate_Link16" id="c21b07ba-3d8f-4a94-a9aa-54b9e7fc639e">
+      <testcase name="JREAP_C" id="ca47bebf-7bfd-4898-b6c0-fb14837cf4af" minrange="0" maxrange="0" datarangeactive="True" datasource="LinkType">
+        <testmodule name="TurnLinkON" id="60189960-23bd-4cbd-bb8c-5ba6f33eb620" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+            <var variablename="LinkName" variableid="ac664a9e-3a7c-445b-a0c1-fa9ea0410e8d" dataname="LinkName" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateAirTrackSimple" id="6f5e538f-e8d1-4dc3-9156-e9758edd3002" ref="e8165a18-4c31-49a7-9106-fdc8af324bf1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateTrackRegression" id="cbbf3f6e-6f8d-4de4-90cd-20d142f44d09" ref="07e51a85-e222-4fd8-8318-b51d826ef827" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="bf718ef1-557b-4d13-b3ff-f5b56d9d82b3" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSurfaceTrackSimple" id="29d4d84e-7e23-42d9-8c34-b3cad26fe757" ref="02a8e1ea-43e8-4bfd-8947-594d2786181e" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackSimple" id="c1dd4f83-3fa2-4968-8ecf-1550dc695615" ref="500c0238-fbde-4ca7-97c5-16eb265ac4c5" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="b4d399cc-5c2b-4392-bfd4-5ed37e39acc8" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSubSurfaceTrackSimple" id="dca13a8d-5d8f-4145-b2fe-3fe116de4954" ref="cf5c0803-6b31-44f0-a351-90cb51e369a1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackSimple" id="3dea76b2-14b6-4510-a31d-e6c3a87a8a39" ref="42c1d87f-7266-47bb-8415-884686fd6947" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="CreateLandTrackSimple" id="07481f20-20bb-4b2f-ab99-696896312e7e" ref="b3bc8582-70dc-43c6-b4fe-2aaa968bc502" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="1a48bf5f-4f97-4e93-997e-cb4a503f5331" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrackSimple" id="b82add86-c1e6-405c-a8e9-9a4af355b40c" ref="2bec1531-0af8-46ff-a80b-eadd92e26d02" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="c8791e04-c9eb-4cd2-9242-529adb8d4072" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSpaceTrackSimple" id="aebe4065-6652-4690-bfc4-3b55366473c2" ref="d1347d8f-2a36-42c1-a833-a9329d0fb569" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSpaceTrackSimple" id="54f238b5-83aa-4a43-a6f3-42aecf0f24ba" ref="fbad75ad-9916-49e9-a26c-c618361d1eea" type="Recording" namespace="TacViewLib"/>
+        <teardown name="container" id="e6a42bff-c37d-4727-bc99-99fc13a44bb6">
+          <testmodule name="TurnLinkOFF" id="51e951d1-d119-4cb3-ac8b-3ed4ced215b7" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+      <testcase name="MTC_Net" id="6dd76da9-546a-480d-ad17-a625278ceeed" minrange="2" maxrange="2" datarangeactive="True" datasource="LinkType">
+        <testmodule name="TurnLinkON" id="f6eb1cf0-382a-440b-922f-cfdedf66d240" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+            <var variablename="LinkName" variableid="ac664a9e-3a7c-445b-a0c1-fa9ea0410e8d" dataname="LinkName" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateAirTrackSimple" id="a4ecf5de-7769-429b-8a57-99df247edfe6" ref="e8165a18-4c31-49a7-9106-fdc8af324bf1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateTrackRegression" id="b77ec0ea-c28f-4b3b-8cea-88b7baf4920d" ref="07e51a85-e222-4fd8-8318-b51d826ef827" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="bf718ef1-557b-4d13-b3ff-f5b56d9d82b3" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSurfaceTrackSimple" id="8cf979d6-c40c-4e78-aab8-37970c023747" ref="02a8e1ea-43e8-4bfd-8947-594d2786181e" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackSimple" id="8436f09f-0048-489f-b991-3843a4401a7a" ref="500c0238-fbde-4ca7-97c5-16eb265ac4c5" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="b4d399cc-5c2b-4392-bfd4-5ed37e39acc8" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSubSurfaceTrackSimple" id="ad8dc700-19b6-4457-b481-c6211e746ea9" ref="cf5c0803-6b31-44f0-a351-90cb51e369a1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackSimple" id="49d267fd-900a-4d00-8fdf-d61f552d5ef5" ref="42c1d87f-7266-47bb-8415-884686fd6947" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="CreateLandTrackSimple" id="4cdf5157-cc61-44f7-92a8-973234a2b124" ref="b3bc8582-70dc-43c6-b4fe-2aaa968bc502" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="1a48bf5f-4f97-4e93-997e-cb4a503f5331" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrackSimple" id="5bc71e0d-7263-4d20-8e05-e22575da16e9" ref="2bec1531-0af8-46ff-a80b-eadd92e26d02" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="c8791e04-c9eb-4cd2-9242-529adb8d4072" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSpaceTrackSimple" id="25039bca-5c89-4fb9-ae58-1df1b895e44e" ref="d1347d8f-2a36-42c1-a833-a9329d0fb569" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSpaceTrackSimple" id="c4552bac-291c-40b8-b16a-36353a23a3aa" ref="fbad75ad-9916-49e9-a26c-c618361d1eea" type="Recording" namespace="TacViewLib"/>
+        <teardown name="container1" id="6a695d8d-3014-430a-9263-cd617ab5dcd8">
+          <testmodule name="TurnLinkOFF" id="0d9ec20b-31b3-4148-8875-abfed5ae2add" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+      <testcase name="Serial_J" id="6e87eb8f-9a69-472e-a522-0c409d88b3f0" minrange="3" maxrange="3" datarangeactive="True" datasource="LinkType">
+        <testmodule name="TurnLinkON" id="dc0aee2c-5dc2-4499-81db-22f81ac38ed0" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+            <var variablename="LinkName" variableid="ac664a9e-3a7c-445b-a0c1-fa9ea0410e8d" dataname="LinkName" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateAirTrackSimple" id="743e132c-465c-4f3b-a572-26bab1d1ba01" ref="e8165a18-4c31-49a7-9106-fdc8af324bf1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateTrackRegression" id="3f3b4096-ecf5-49cb-945d-392604b0eb46" ref="07e51a85-e222-4fd8-8318-b51d826ef827" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="bf718ef1-557b-4d13-b3ff-f5b56d9d82b3" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSurfaceTrackSimple" id="f05bc4d3-0740-4f1b-840b-2bb3c211ac8d" ref="02a8e1ea-43e8-4bfd-8947-594d2786181e" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackSimple" id="4af852a6-6b79-469d-8dc3-7b44be2d84a7" ref="500c0238-fbde-4ca7-97c5-16eb265ac4c5" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="b4d399cc-5c2b-4392-bfd4-5ed37e39acc8" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSubSurfaceTrackSimple" id="6ab42406-54c4-484a-b540-c320c83aef78" ref="cf5c0803-6b31-44f0-a351-90cb51e369a1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackSimple" id="142f1462-b71d-45e1-a28b-f0050f9229d7" ref="42c1d87f-7266-47bb-8415-884686fd6947" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="CreateLandTrackSimple" id="03d2155f-cde2-4e54-836f-08f693866056" ref="b3bc8582-70dc-43c6-b4fe-2aaa968bc502" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="1a48bf5f-4f97-4e93-997e-cb4a503f5331" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrackSimple" id="a98403c9-9a0f-4f38-b6a7-79e8f8f7e12f" ref="2bec1531-0af8-46ff-a80b-eadd92e26d02" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="c8791e04-c9eb-4cd2-9242-529adb8d4072" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSpaceTrackSimple" id="15ee2d71-8660-4bad-9c6e-94aff239033f" ref="d1347d8f-2a36-42c1-a833-a9329d0fb569" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSpaceTrackSimple" id="87366b22-9659-41d8-9c7a-aeb78349a020" ref="fbad75ad-9916-49e9-a26c-c618361d1eea" type="Recording" namespace="TacViewLib"/>
+        <teardown name="container2" id="7d6a19cf-05cf-49fa-8aaf-3ebb1a1a23ec">
+          <testmodule name="TurnLinkOFF" id="214ce4a4-322f-4212-9ba1-5bcf0447929f" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+      <testcase name="JREAP_B" id="01a8954d-c4ac-4654-bbba-aa58cf7f083a" minrange="5" maxrange="5" datarangeactive="True" datasource="LinkType">
+        <testmodule name="TurnLinkON" id="e8bd9a2f-d6fc-40ea-b4cf-df15fffdbb90" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+            <var variablename="LinkName" variableid="ac664a9e-3a7c-445b-a0c1-fa9ea0410e8d" dataname="LinkName" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateAirTrackSimple" id="05f66cf5-13af-47be-bea6-ec0b1c3d00be" ref="e8165a18-4c31-49a7-9106-fdc8af324bf1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateTrackRegression" id="73ad312b-6cb2-49cf-857f-b52f06520807" ref="07e51a85-e222-4fd8-8318-b51d826ef827" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="bf718ef1-557b-4d13-b3ff-f5b56d9d82b3" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSurfaceTrackSimple" id="00649662-0f5e-4e04-9f26-e34da6cb1540" ref="02a8e1ea-43e8-4bfd-8947-594d2786181e" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackSimple" id="a9d683fc-6b0f-4514-bd6e-cdbeeb785cc4" ref="500c0238-fbde-4ca7-97c5-16eb265ac4c5" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="b4d399cc-5c2b-4392-bfd4-5ed37e39acc8" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSubSurfaceTrackSimple" id="7150277e-4121-4f01-84b6-30d682acab18" ref="cf5c0803-6b31-44f0-a351-90cb51e369a1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackSimple" id="eeaf8d74-77a7-4767-822e-9a5ac40e273d" ref="42c1d87f-7266-47bb-8415-884686fd6947" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="CreateLandTrackSimple" id="ebb6cb7c-de26-4c13-bdfc-41bc68bb2ff7" ref="b3bc8582-70dc-43c6-b4fe-2aaa968bc502" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="1a48bf5f-4f97-4e93-997e-cb4a503f5331" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrackSimple" id="12cf3710-639e-4812-8501-3e1ba3898fa3" ref="2bec1531-0af8-46ff-a80b-eadd92e26d02" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="c8791e04-c9eb-4cd2-9242-529adb8d4072" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSpaceTrackSimple" id="adf96870-397e-4099-817a-dffbb354e224" ref="d1347d8f-2a36-42c1-a833-a9329d0fb569" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSpaceTrackSimple" id="07fa2d76-a350-4efd-899d-d0e940678a15" ref="fbad75ad-9916-49e9-a26c-c618361d1eea" type="Recording" namespace="TacViewLib"/>
+        <teardown name="container3" id="9077666d-985e-4397-b2a6-2dda696e5912">
+          <testmodule name="TurnLinkOFF" id="6abd053b-a5ed-4a85-a834-9058578e39e9" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+      <testcase name="Class2_Ship" id="48c24d65-035b-465a-93cd-155aff62c421" minrange="7" maxrange="7" datarangeactive="True" datasource="LinkType">
+        <testmodule name="Terminal" id="99c5503d-a66f-435d-a63e-698981b1a896" ref="8EE8B985-FA08-4B0E-B66F-D7C6821E5665" type="UserCode"/>
+        <testmodule name="TurnLinkON" id="acbb2ffd-e3e4-40aa-9cfd-c2020eba5a38" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <teardown name="container4" id="3cecae6a-db91-4ece-85e0-e8d0708ecf39">
+          <testmodule name="TurnLinkOFF" id="51551fc1-f5b7-4396-9664-ab081f9e2c22" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+    </testcase>
+    <testcase name="Validate_Link11" id="7dabc7bd-2057-4df0-b6b6-fc3a238b4209">
+      <testcase name="Link-11" id="57b1a167-e3f1-46b8-b679-08fcd37fdd6a" minrange="1" maxrange="1" datarangeactive="True" datasource="LinkType">
+        <testmodule name="TurnLinkON" id="1bfef35a-6f2a-47de-a3a6-c4efa7b80b42" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+            <var variablename="LinkName" variableid="ac664a9e-3a7c-445b-a0c1-fa9ea0410e8d" dataname="LinkName" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateAirTrackSimple" id="30ed404a-a3b4-432e-ba85-876c239bd4eb" ref="e8165a18-4c31-49a7-9106-fdc8af324bf1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateTrackRegression" id="90f498b5-c8b8-46f1-ba8a-2ff0a09afc89" ref="07e51a85-e222-4fd8-8318-b51d826ef827" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="bf718ef1-557b-4d13-b3ff-f5b56d9d82b3" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSurfaceTrackSimple" id="54987878-5301-4aa8-ac5f-59e2aad3096d" ref="02a8e1ea-43e8-4bfd-8947-594d2786181e" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackSimple" id="615e5167-7d42-4f50-a6ca-bc28610f7722" ref="500c0238-fbde-4ca7-97c5-16eb265ac4c5" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="b4d399cc-5c2b-4392-bfd4-5ed37e39acc8" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSubSurfaceTrackSimple" id="96946e99-2c05-4a4f-b870-8eaaab5ecf90" ref="cf5c0803-6b31-44f0-a351-90cb51e369a1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackSimple" id="944b61a9-5962-4d91-851e-d100c2efcf47" ref="42c1d87f-7266-47bb-8415-884686fd6947" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="CreateLandTrackSimple" id="00588fb1-4374-4c7f-8fd6-798945639241" ref="b3bc8582-70dc-43c6-b4fe-2aaa968bc502" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="1a48bf5f-4f97-4e93-997e-cb4a503f5331" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrackSimple" id="67771ff6-68e3-4ce7-b5eb-96b001a22387" ref="2bec1531-0af8-46ff-a80b-eadd92e26d02" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="c8791e04-c9eb-4cd2-9242-529adb8d4072" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSpaceTrackSimple" id="f25e74f8-d001-477d-adad-8053a9536ee4" ref="d1347d8f-2a36-42c1-a833-a9329d0fb569" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSpaceTrackSimple" id="3ea791f1-77c3-47fb-95fc-d8891229e7b5" ref="fbad75ad-9916-49e9-a26c-c618361d1eea" type="Recording" namespace="TacViewLib"/>
+        <teardown name="container5" id="c661074d-9aef-4283-b0c6-b90fc6b5a478">
+          <testmodule name="TurnLinkOFF" id="beed87c6-21a8-4a1f-8539-d1509b759f4d" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+      <testcase name="Link-11B" id="49da6c5b-bb6b-4408-9b10-5d9592c7a78d" minrange="4" maxrange="4" datarangeactive="True" datasource="LinkType">
+        <testmodule name="TurnLinkON" id="8503232d-b5fb-472e-8eb9-4f07426fe7f9" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+            <var variablename="LinkName" variableid="ac664a9e-3a7c-445b-a0c1-fa9ea0410e8d" dataname="LinkName" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateAirTrackSimple" id="8c8b327b-fe7a-4854-9d3d-34c56049fcf2" ref="e8165a18-4c31-49a7-9106-fdc8af324bf1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateTrackRegression" id="7404ce52-55e2-4045-af96-e229192374d7" ref="07e51a85-e222-4fd8-8318-b51d826ef827" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="bf718ef1-557b-4d13-b3ff-f5b56d9d82b3" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSurfaceTrackSimple" id="353c356c-d6d3-4501-81fa-0d67235528d8" ref="02a8e1ea-43e8-4bfd-8947-594d2786181e" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackSimple" id="f6cbd6c5-aef7-4c17-9f01-843e5d2e5327" ref="500c0238-fbde-4ca7-97c5-16eb265ac4c5" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="b4d399cc-5c2b-4392-bfd4-5ed37e39acc8" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSubSurfaceTrackSimple" id="cf4999b7-ba82-4321-a236-d5c6b0b26ade" ref="cf5c0803-6b31-44f0-a351-90cb51e369a1" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackSimple" id="f3e2f118-baf8-4978-862a-f94c0357b464" ref="42c1d87f-7266-47bb-8415-884686fd6947" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="CreateLandTrackSimple" id="7654d6a9-390c-45be-bcee-179bf494b09e" ref="b3bc8582-70dc-43c6-b4fe-2aaa968bc502" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="1a48bf5f-4f97-4e93-997e-cb4a503f5331" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrackSimple" id="02fedab1-9754-477d-abe2-be15a1289124" ref="2bec1531-0af8-46ff-a80b-eadd92e26d02" type="Recording" namespace="TacViewLib">
+          <missingdatabinding>
+            <var variablename="Link11" variableid="c8791e04-c9eb-4cd2-9242-529adb8d4072" dataname="Link11false" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <testmodule name="CreateSpaceTrackSimple" id="b6570502-9b49-46fc-95c6-863a7e6f22f2" ref="d1347d8f-2a36-42c1-a833-a9329d0fb569" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSpaceTrackSimple" id="17a46b71-7c82-4e99-908e-721ef58b0796" ref="fbad75ad-9916-49e9-a26c-c618361d1eea" type="Recording" namespace="TacViewLib"/>
+        <teardown name="container6" id="8996d040-73f2-4e00-8c60-541bb10e3a03">
+          <testmodule name="TurnLinkOFF" id="a0595400-cdce-48ed-b2e1-0f58c82c7513" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+      <testcase name="NTDS" id="c65ce025-1900-467d-b79e-12269cdb6e30" minrange="6" maxrange="6" datarangeactive="True" datasource="LinkType">
+        <testmodule name="NTDS" id="0b72bcd6-e882-4d29-9ee8-e5f4b8227e4b" ref="CA937288-AF14-42CD-A0EE-ACEDAAEC29F4" type="UserCode"/>
+        <testmodule name="TurnLinkON" id="a3f3f0f7-bdc4-4b7d-9654-368c5e143c15" ref="8a747613-d5c8-45bb-a5fe-de959e790bf6" type="Recording" namespace="SystemManagerLib">
+          <missingdatabinding>
+            <var variablename="currentLinkNum" variableid="26ebe920-cfa7-4e3e-9ce9-1f123440fa26" dataname="Link_Number" datasourceid="11c8e885-0ca3-45c4-84a8-384a4446ba36"/>
+          </missingdatabinding>
+        </testmodule>
+        <teardown name="container7" id="bad83fe2-0811-4366-8115-730795fdd900">
+          <testmodule name="TurnLinkOFF" id="d340ca88-4fe9-4a97-b50d-86db15c12eac" ref="50c7b2e5-623f-4f9b-89fd-803d3997c3ec" type="Recording" namespace="SystemManagerLib"/>
+        </teardown>
+      </testcase>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="01a8954d-c4ac-4654-bbba-aa58cf7f083a"/>
+      <testcase id="3b6d2c34-7928-499b-9658-aaf4b38d5eeb"/>
+      <testcase id="48c24d65-035b-465a-93cd-155aff62c421"/>
+      <testcase id="49da6c5b-bb6b-4408-9b10-5d9592c7a78d"/>
+      <testcase id="57b1a167-e3f1-46b8-b679-08fcd37fdd6a"/>
+      <testcase id="6a83991a-d979-4077-ad86-a95b5da0a326"/>
+      <testcase id="6dd76da9-546a-480d-ad17-a625278ceeed"/>
+      <testcase id="6e87eb8f-9a69-472e-a522-0c409d88b3f0"/>
+      <testcase id="7dabc7bd-2057-4df0-b6b6-fc3a238b4209"/>
+      <testcase id="880d62be-7150-4712-b262-c763d12aa0af"/>
+      <testcase id="c21b07ba-3d8f-4a94-a9aa-54b9e7fc639e"/>
+      <testcase id="c65ce025-1900-467d-b79e-12269cdb6e30"/>
+      <testcase id="ca47bebf-7bfd-4898-b6c0-fb14837cf4af"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references>
+    <reference>
+      InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      TacViewLib.dll
+    </reference>
+    <reference>
+      ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      SystemManagerLib.dll
+    </reference>
+    <reference>
+      CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+  </references>
+</testsuite>

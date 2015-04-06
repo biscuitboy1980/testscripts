@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configurations xmlns="http://www.ultra-ats.com/config" xmlns:cfg="http://www.ultra-ats.com/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ultra-ats.com/config config.xsd">
+
+  <version>1.0</version>
+
+  <filename>C:/Documents and Settings/All Users/Documents/Ultra Electronics Inc/Config Wizard/Ultra16_SUT.xml</filename>
+
+  <author>Configuration Wizard</author>
+
+  <timestamp>2010-12-07T17:47:24Z</timestamp>
+
+  <systemtype>SYSTEM_ULTRA16</systemtype>
+
+  <autostart>false</autostart>
+	
+  <configuration type="TW">
+    <segment type="SEGMENT_TW">
+      <ip>172.16.99.105</ip>
+    </segment>
+  </configuration>
+
+  <configuration type="C2H_TDG">
+    <segment satjport="7" type="SEGMENT_ULTRA16">
+      <ip>172.16.101.175</ip>
+    </segment>
+    <interfacelist maxinterfaces="1" type="INTERFACE_TYPE_HOST">
+      <interface logicalid="1">
+        <linkname>Host</linkname>
+        <description>Interface 1:  HOST, ETHERNET</description>
+        <device>DEVICE_ADSI</device>
+        <port>0</port>
+        <onatstartup>true</onatstartup>
+        <protocol group="ETHERNET" protocolid="42">
+          <remoteip>172.16.101.175</remoteip>
+          <remoteport>7100</remoteport>
+          <tcpipmode>server</tcpipmode>
+          <nettype>tcp</nettype>
+        </protocol>
+        <application applicationid="16" group="HOST">
+          <interfacemode>transmitreceive</interfacemode>
+        </application>
+      </interface>
+    </interfacelist>
+    <interfacelist maxinterfaces="32" type="INTERFACE_TYPE_TACTICAL">
+      <interface logicalid="1">
+        <linkname>3011C</linkname>
+        <description>Interface 1:  JREAPC, ETHERNET</description>
+        <device>DEVICE_ULTRA16</device>
+        <port>0</port>
+        <onatstartup>false</onatstartup>
+        <protocol group="ETHERNET" protocolid="21">
+          <remoteip>172.16.101.176</remoteip>
+          <remoteport>7500</remoteport>
+          <tcpipmode>server</tcpipmode>
+          <nettype>tcp</nettype>
+        </protocol>
+        <application applicationid="1" group="JREAPC">
+          <interfacemode>transmitreceive</interfacemode>
+          <ctrpreference>roundtrip</ctrpreference>
+          <ctrnetcontrollercapable>false</ctrnetcontrollercapable>
+          <ctrroundtripcapable>true</ctrroundtripcapable>
+          <ctrfixeddelaycapable>true</ctrfixeddelaycapable>
+          <ctrutccapable>true</ctrutccapable>
+          <ctrbypass>false</ctrbypass>
+          <latencymaxthreshold>5000</latencymaxthreshold>
+          <latencyinterval>60</latencyinterval>
+          <latencymaxcount>5</latencymaxcount>
+          <assgnslotspercycle>1</assgnslotspercycle>
+          <transmitcycle>50</transmitcycle>
+          <dataratekbps>1544</dataratekbps>
+          <jreqostype>Precedence</jreqostype>
+          <jreqosvalue>0</jreqosvalue>
+        </application>
+      </interface>
+    </interfacelist>
+  </configuration>
+
+</configurations>

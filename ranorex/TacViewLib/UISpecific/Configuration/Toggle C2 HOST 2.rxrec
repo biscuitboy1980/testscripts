@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordtable version="2.3.1.8466" id="ee3bad03-b3c0-4152-81d6-dc747114d634">
+  <name>
+    Toggle_C2_HOST_2
+  </name>
+  <turbomode>
+    False
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Toggle_C2_HOST_2" namespace="TacViewLib.UISpecific.Configuration"/>
+  <recorditems>
+    <mouseitem duration="164ms" action="Click" button="Left" movetime="164ms" sx="37" sy="840" loc="10;10">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="51df6931-9199-4ff0-8369-4cf63bcbfbea">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="27,830,48,19">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[OFF]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Status]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[OFF]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Status']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <delayitem duration="3000ms">
+      <comment>
+      </comment>
+    </delayitem>
+    <validationitem duration="100ms" action="AttributeEqual" exceptiononfail="True">
+      <comment>
+      </comment>
+      <info sourcename="Recorder" id="51df6931-9199-4ff0-8369-4cf63bcbfbea">
+        <element role="cell" prefcap="cell" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" index="0" rect="27,830,48,19">
+          <attribute name="isheader" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[ON]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Status]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Cell]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Selectable]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+            <![CDATA[ON]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Status']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[ON]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="TacViewLibRepositoryConfiguration" id="ef38cbe1-cb78-476a-bcf1-673e06711162" version="2.3.1.8466" relativepath="..\..\TacViewLibRepositoryConfiguration.rxrep">
+    <codegen classname="TacViewLibRepositoryConfiguration" namespace="TacViewLib"/>
+    <rootfolder id="1417c36e-b97c-4d40-89af-63c44c1de28e" searchtimeout="30s" capname="unknown" name="Root" isrooted="True" usecache="True">
+      <appfolder id="c38448c9-e175-4f78-be59-abef3afb7916" searchtimeout="30s" capname="form" name="TacView_Titlebar" isrooted="True" usecache="True">
+        <item id="fbe5825e-2439-4a44-930d-8f0cadb89a74" searchtimeout="15s" capname="titlebar" name="Default_Map_Loaded">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/titlebar[@accessiblevalue~'^TacViewC2\ \ \ \(map:\ Default']]]>
+        </item>
+        <item id="40dedddb-ef58-40e6-b677-16c2fce49de6" searchtimeout="10s" capname="menuitem" name="File">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='59419']/element[@controlid='10000']/menubar[1]/menuitem[@accessiblename='File']]]>
+        </item>
+        <item id="accca400-64ac-477d-9a1e-a03605b70838" searchtimeout="10s" capname="button" name="Close_TacView">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/titlebar/button[@accessiblename='Close']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="35a8dadb-5bb9-43f2-a3cd-f6c885dcd56a" searchtimeout="30s" capname="form" name="TacView_Windows" isrooted="True" usecache="False">
+        <item id="7359b97e-5d8a-435d-a027-6db9ad6417ed" searchtimeout="10s" capname="unknown" name="HostInterfaceControl">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/element[@accessiblename='Host Interface Control']]]>
+        </item>
+        <item id="da2b0a93-478b-4f1e-8897-5df681643a10" searchtimeout="10s" capname="cell" name="TOAD_Status_CheckBox">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Status']]]>
+        </item>
+        <item id="9c2c0dd2-7d64-400a-871f-2e0c83777d26" searchtimeout="10s" capname="cell" name="TOAD_Interface">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Interface']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="ec272dff-1e0f-482d-b227-9b1816b25119" searchtimeout="30s" capname="form" name="Load_Map_Pop_Up" isrooted="True" usecache="True">
+        <item id="57bee8df-360b-4925-b019-2f8e34dd063e" searchtimeout="10s" capname="button" name="Cancel">
+          <![CDATA[/form[@title='Load Map']/button[@text='Cancel']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Load Map']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="1c91882b-8a8c-4550-a6cb-74653a984ba2" searchtimeout="30s" capname="form" name="File_Menu" isrooted="True" usecache="False">
+        <item id="40d6f198-c98d-4b43-b3f9-e901994cea29" searchtimeout="10s" capname="menuitem" name="Preferences">
+          <![CDATA[/form[@title='File']/contextmenu[1]/menuitem[@accessiblename='Preferences...']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='File']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+        </icon>
+      </appfolder>
+      <appfolder id="7589ea94-d552-46e6-b394-60ef2aa30eef" searchtimeout="30s" capname="form" name="Preferences_Control" isrooted="True" usecache="False">
+        <item id="fabf6159-5374-42f7-915e-a39243f5654a" searchtimeout="10s" capname="treeitem" name="Configurations">
+          <![CDATA[/form[@title='Preferences']/tree/treeitem/treeitem[@text='Configurations']]]>
+        </item>
+        <item id="a0e0362e-a4a9-42fb-9dff-6ce927751f8f" searchtimeout="10s" capname="container" name="C2">
+          <![CDATA[/form[@title='Preferences']/container[@caption='' and @class='#32770' and @instance='0']/container/container[@accessiblerole='Grouping']]]>
+        </item>
+        <item id="a3a53476-3d5b-4c08-83be-f00430b9ae97" searchtimeout="10s" capname="button" name="Close">
+          <![CDATA[/form[@title='Preferences']/button[@text='Close']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Preferences']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+        </icon>
+      </appfolder>
+      <appfolder id="31e9c73b-fa6f-4b87-a77d-ed740a33af9e" searchtimeout="30s" capname="form" name="Configuration_Restart_Pop_Up" isrooted="True" usecache="False">
+        <item id="16db7c9a-9bc6-47ed-9994-3e21c5e1e048" searchtimeout="10s" capname="button" name="OK">
+          <![CDATA[/form[@title='RealView']/button[@text='OK']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='RealView']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+        </icon>
+      </appfolder>
+      <appfolder id="677d4de6-d8e4-404a-893e-4cc625638330" searchtimeout="30s" capname="form" name="TOAD_Connection_Settings" isrooted="True" usecache="False">
+        <folder id="a91a6f1a-f4b8-415f-b4da-fd4597956b30" searchtimeout="10s" capname="toolbar" name="ToolBar" isrooted="True" usecache="True">
+          <item id="0882b623-a49e-4594-a1f1-de17015ddb50" searchtimeout="10s" capname="button" name="Edit">
+            <![CDATA[/form[@title='Connection Settings']/element/container/element//toolbar[1]/button[@accessiblename='Edit']]]>
+          </item>
+          <basepath>
+            <![CDATA[/form[@title='Connection Settings']/element/container/element//toolbar[1]]]>
+          </basepath>
+        </folder>
+        <item id="2aca3da8-fbe3-475c-a49e-0b3430b649d5" searchtimeout="10s" capname="tabpage" name="Interface_Properties_Tab">
+          <![CDATA[/form[@title='Connection Settings']/element/tabpagelist/tabpage[@accessiblename='Interface Properties']]]>
+        </item>
+        <item id="b96b077b-44a5-41b1-9ad7-75d031a6e205" searchtimeout="10s" capname="listitem" name="Server_Address">
+          <![CDATA[/form[@title='Connection Settings']/element/container[@caption='' and @class='#32770' and @instance='0']/element[@class='XTPPropertyGrid']/element/listitem[@accessiblename='Server Address']]]>
+        </item>
+        <item id="9bbb4aa7-9740-457a-86c2-e932ed671b89" searchtimeout="10s" capname="button" name="ButtonENTRANSPARENCY">
+          <![CDATA[/form[@title='Connection Settings']/button[@accessiblename='ENTRANSPARENCY']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Connection Settings']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="f5c88776-4b4d-4039-bb67-27489eea3c5c" searchtimeout="30s" capname="form" name="TOAD_Interface_Properties" isrooted="True" usecache="True">
+        <item id="49def829-3078-4bcf-adef-81b849560c72" searchtimeout="10s" capname="form" name="Interface_Properties_Form">
+          <![CDATA[/form[@title='Interface Properties']]]>
+        </item>
+        <item id="f460c480-7f18-49e1-8229-81cf789e2714" searchtimeout="10s" capname="button" name="Transparency">
+          <![CDATA[/form[@title='Interface Properties']/button[@accessiblename='ENTRANSPARENCY']]]>
+        </item>
+        <item id="6973565e-1731-4f59-9590-173b9eaa88b6" searchtimeout="10s" capname="tabpage" name="Connection_Settings_Tab">
+          <![CDATA[/form[@title='Interface Properties']/element/tabpagelist/tabpage[@accessiblename='Connection Settings']]]>
+        </item>
+        <item id="75cca3e9-f9eb-4804-82e0-0870f1276e46" searchtimeout="10s" capname="listitem" name="MDB_Connected">
+          <![CDATA[/form[@title='Interface Properties']/element/container/element/element/listitem[@accessiblename='MDB Connected']]]>
+        </item>
+        <item id="07605b9d-b08e-4b39-89c3-e9dcd7c69fd6" searchtimeout="10s" capname="button" name="Close">
+          <![CDATA[/form[@title='Interface Properties']/button[@accessiblename='CLOSE']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Interface Properties']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="800b43d4-7e0e-411f-bf10-88f17b95b991" searchtimeout="30s" capname="form" name="TOAD_Context_Menu" isrooted="True" usecache="False">
+        <item id="e9271ded-ce91-4362-b023-aedc3cdf2217" searchtimeout="1000ms" capname="menuitem" name="Interface_Properties_Context_Menu">
+          <![CDATA[/form[@title='' and @processname='RealView']/contextmenu/menuitem[@accessiblename='Interface Properties']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='' and @processname='RealView']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="80f368ef-8fd2-4872-8cf9-0394a8c11e36" searchtimeout="30s" capname="form" name="FormTacViewC2" isrooted="True" usecache="False">
+        <item id="51df6931-9199-4ff0-8369-4cf63bcbfbea" searchtimeout="10s" capname="cell" name="CellStatus">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Status']]]>
+        </item>
+        <item id="0253a777-e16e-4029-9e82-935658319309" searchtimeout="10s" capname="cell" name="CellInterface1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Interface']]]>
+        </item>
+        <item id="bbd25404-d487-4d57-897b-09d811ffe9dc" searchtimeout="10s" capname="cell" name="CellUnit">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='0']/cell[@accessiblename='Unit']]]>
+        </item>
+        <item id="5fee93e7-d2fe-4abb-adb4-361e7f08c858" searchtimeout="10s" capname="cell" name="CellUnit1">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='1']/cell[@accessiblename='Unit']]]>
+        </item>
+        <folder id="e006b5f0-75c1-4916-8625-b1f9ba981ab3" searchtimeout="10s" capname="table" name="TableCCustomReportControl2" isrooted="True" usecache="True">
+          <item id="1e174309-76b9-4e1b-932f-cdf416e60221" searchtimeout="10s" capname="cell" name="CellStatus">
+            <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='2']/cell[@accessiblename='Status']]]>
+          </item>
+          <item id="e8c48bfb-8641-4e12-bfce-e4e3ee71c2c8" searchtimeout="10s" capname="cell" name="CellInterface">
+            <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='2']/cell[@accessiblename='Interface']]]>
+          </item>
+          <item id="be99f79f-65d7-4cf0-afa4-834ebf9d5577" searchtimeout="10s" capname="cell" name="CellStatus1">
+            <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='3']/cell[@accessiblename='Status']]]>
+          </item>
+          <item id="cdc21f37-c1d1-4913-888b-a1a3917dbd26" searchtimeout="10s" capname="cell" name="CellInterface1">
+            <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='3']/cell[@accessiblename='Interface']]]>
+          </item>
+          <item id="81b45559-b590-40f4-9a75-982943a71dd8" searchtimeout="10s" capname="cell" name="CellUnit">
+            <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table/row[@accessiblename='3']/cell[@accessiblename='Unit']]]>
+          </item>
+          <basepath>
+            <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/container/element/table]]>
+          </basepath>
+        </folder>
+        <item id="d5023315-6984-486a-8a34-0ba7d9a4c075" searchtimeout="10s" capname="unknown" name="ElementHost_Interface_Control">
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']/element[@controlid='110298']/element[@accessiblename='Host Interface Control']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title~'^TacViewC2\ \ \ \(map:\ .*']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAdBJREFUOE+Vk81LQlEQxfVvKvp0US4LCgoKP4ISIoogpYLKFoXVoiBs
+oRFqRISLQFpEghhEaQhWiKhEgUmkEmlBKQQtnDhj9/VetqgL430P3/nNuTNzVap/rujlFbndXsrl
+HuhPUggOfT4KBI8pnU4TVqGY412tVishpVKJkokUxeJJgvCp+MwfQri3P8dhXRzlkAD4CJHPFggA
+LLbpspDHY6Btl4l2dkf4fWy4/XcARGazlgbHW6jXWEd9Ri057B0sRiCjXKxwILKy0NBK/aYGBjg3
+dLyHQgcMX57RM0js0hEAQOAj21I3u9h09dCAoYmBsUSAd/wnzl/jADVARth2urv4GAD4/esMyNxc
+cMXlACTlLuAHPV2zL7B9UQe5GAUE6CjokCDl9w92zrOA1qHXog4QIBuOhezieHIHAMC5BIhEI5wd
+hUPgGRkBQP9Rh1WrXgq4lgDoO+YAIp2pmc8PN0OmerJa2hRCAYnHwt/jDACWbrjaSjiwTml4kFbm
+OyWAd8tGr2/VgYMDaZTPwucMQObJCQ3NTjdyK2E9l71jqxCIykOouAcnp2EGiKJh9lFY+a7I+PMa
+4qaBfp95pEqlzHS4Sl3fUr74wu81Wb8gn3uBTjWLiCNJAAAAAElFTkSuQmCC
+        </icon>
+      </appfolder>
+      <appfolder id="b3ade93c-5d2d-4da9-aa7a-bc37fccbec49" searchtimeout="30s" capname="form" name="FormInterface_Properties" isrooted="True" usecache="False">
+        <item id="d35af2d3-f40c-4d40-aeb2-b95bb34a821b" searchtimeout="10s" capname="button" name="ButtonENTRANSPARENCY">
+          <![CDATA[/form[@title='Interface Properties']/button[@accessiblename='ENTRANSPARENCY']]]>
+        </item>
+        <item id="46d0e235-b34d-4b1c-ba0f-c7757fa42a81" searchtimeout="10s" capname="tabpage" name="TabPageConnection_Settings">
+          <![CDATA[/form[@title='Interface Properties']/element/tabpagelist/tabpage[@accessiblename='Connection Settings']]]>
+        </item>
+        <item id="959fdfd0-7ea7-4364-8ccb-e01d322c3b38" searchtimeout="10s" capname="button" name="ButtonEdit">
+          <![CDATA[/form[@title='Interface Properties']/element/container[@caption='' and @controlid='5005']/element[@controlid='25005']/toolbar[1]/button[@accessiblename='Edit']]]>
+        </item>
+        <item id="3f084359-0751-4fac-8424-2eeaa1188be2" searchtimeout="10s" capname="listitem" name="ListItemServer_Address">
+          <![CDATA[/form[@title='Interface Properties']/element/container[@caption='' and @controlid='5005']/element[@controlid='1106']/element/listitem[@accessiblename='Server Address']]]>
+        </item>
+        <item id="5b8c4e69-0e16-451e-a422-8a0428a3de22" searchtimeout="10s" capname="button" name="ButtonCLOSE">
+          <![CDATA[/form[@title='Interface Properties']/button[@accessiblename='CLOSE']]]>
+        </item>
+        <item id="a37bc4f2-228a-4204-882a-f9372e179f29" searchtimeout="10s" capname="listitem" name="ListItemUnit">
+          <![CDATA[/form[@title='Interface Properties']/element/container[@caption='' and @controlid='5002']/element[@controlid='1103']/element/listitem[@accessiblename='Unit']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='Interface Properties']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+        </icon>
+      </appfolder>
+      <appfolder id="c4b80664-dab5-4358-ae6f-1a957a182b11" searchtimeout="30s" capname="form" name="FormRealView" isrooted="True" usecache="False">
+        <item id="9e18e438-d8e9-449f-9351-e3c2e3237812" searchtimeout="10s" capname="menuitem" name="MenuItemInterface_Properties">
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000']/contextmenu[1]/menuitem[@accessiblename='Interface Properties']]]>
+        </item>
+        <basepath>
+          <![CDATA[/form[@title='' and @processname='RealView' and @class='Afx:00400000:808:00010005:00000000:00000000']]]>
+        </basepath>
+        <icon>
+          iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHQSURBVDhPlZPNS0JREMX1byr6dFEuCwoKCj+C
+EiKKIKWCyhaF1aIgbKERakSEi0BaRIIYRGkIVoioRIFJpBJpQSkELZw4Y/f1XraoC+N9D9/5zbkz
+c1Wqf67o5RW53V7K5R7oT1IIDn0+CgSPKZ1OE1ahmONdrVYrIaVSiZKJFMXiSYLwqfjMH0K4tz/H
+YV0c5ZAA+AiRzxYIACy26bKQx2OgbZeJdnZH+H1suP13AERms5YGx1uo11hHfUYtOewdLEYgo1ys
+cCCystDQSv2mBgY4N3S8h0IHDF+e0TNI7NIRAEDgI9tSN7vYdPXQgKGJgbFEgHf8J85f4wA1QEbY
+drq7+BgA+P3rDMjcXHDF5QAk5S7gBz1dsy+wfVEHuRgFBOgo6JAg5fcPds6zgNah16IOECAbjoXs
+4nhyBwDAuQSIRCOcHYVD4BkZAUD/UYdVq14KuJYA6DvmACKdqZnPDzdDpnqyWtoUQgGJx8Lf4wwA
+lm642ko4sE5peJBW5jslgHfLRq9v1YGDA2mUz8LnDEDmyQkNzU43cithPZe9Y6sQiMpDqLgHJ6dh
+BoiiYfZRWPmuyPjzGuKmgX6feaRKpcx0uEpd31K++MLvNVm/IJ97gU41i4gjSQAAAABJRU5ErkJg
+gg==
+        </icon>
+      </appfolder>
+      <basepath>
+      </basepath>
+    </rootfolder>
+  </repository>
+</recordtable>

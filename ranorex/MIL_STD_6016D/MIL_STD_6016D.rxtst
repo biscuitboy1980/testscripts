@@ -1,0 +1,461 @@
+﻿<testsuite name="MIL_STD_6016D" rxversion="3.1.1.14266" id="880d62be-7150-4712-b262-c763d12aa0af" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="30000ms" enabletracingscreenshots="True" description="" reportlevel="Info;20">
+  <parameters>
+    <param name="SUTip" value="172.16.99.171"/>
+    <param name="SIMip" value="172.16.99.168"/>
+    <param name="CommScripts" value="false"/>
+    <param name="Connection1" value="PCI_ADSI"/>
+    <param name="Connection2" value="cPCI_ADSI"/>
+  </parameters>
+  <datasources>
+    <dataConnector name="J3_0TrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="d8dac374-5f64-410b-b9e3-83744ec20ca4" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Ptypenum]]>
+        </column>
+        <column>
+          <![CDATA[Ptype]]>
+        </column>
+        <column>
+          <![CDATA[Ampnum]]>
+        </column>
+        <column>
+          <![CDATA[Amp]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-0TrackInfo6016D.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_2TrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platnum]]>
+        </column>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actnum]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypenum]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-2TrackInfo6016D.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_3TrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="502f6556-6970-40b7-8fed-37a0a40065ae" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platnum]]>
+        </column>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actnum]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypenum]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-3TrackInfo6016D.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_4TrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="70642fec-0586-4f95-a861-fc2d55de6bd8" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platnum]]>
+        </column>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actnum]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypenum]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-4TrackInfo6016D.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_5TrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="c4c23dbc-bc09-442b-8916-2c717b2f0412" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[PlatNum]]>
+        </column>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[ActNum]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[StypeNum]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-5TrackInfo6016D.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_6TrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="55b31350-038c-4a3c-9f47-fe065e0b56a6" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platnum]]>
+        </column>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actnum]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypenum]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+        <column>
+          <![CDATA[Sampnum]]>
+        </column>
+        <column>
+          <![CDATA[Sampval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-6TrackInfo6016D.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_2DisusedTrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="517e9bef-122b-4eb5-aef8-5856bbaf49a6" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-2TrackInfo6016D_Disused.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_3DisusedTrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="6c2ae221-8a56-4672-84ce-d6390e7d36cc" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Samval]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-3TrackInfo6016D_Disused.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_4DisusedTrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="23acca6c-e4ce-45de-8937-b87e08519915" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-4TrackInfo6016D_Disused.csv
+      </file>
+    </dataConnector>
+    <dataConnector name="J3_5DisusedTrackInfo" type="Ranorex.Core.Data.CsvDataConnector" id="9a08c4c8-dfbb-40c7-935e-0ecc5cff218c" withheaders="True" includefile="Checked">
+      <fallbackcolumns>
+        <column>
+          <![CDATA[Platval]]>
+        </column>
+        <column>
+          <![CDATA[Actval]]>
+        </column>
+        <column>
+          <![CDATA[Stypeval]]>
+        </column>
+      </fallbackcolumns>
+      <file>
+        MIL_STD_6016D/J3-5TrackInfo6016D_Disused.csv
+      </file>
+    </dataConnector>
+  </datasources>
+  <content>
+    <folder name="Setup" id="9f89421b-2074-4a9a-ab9e-864e6b76c28b">
+      <testcase name="SetupTacView" id="f9943082-39d7-4907-bbcf-8fec3701e38d">
+        <testmodule name="KillRealView" id="a9bded0f-e49b-4294-bbd2-da069f5b1e47" ref="f1bb72bb-ee99-4a8d-85c1-85ff3ce0e93a" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="Setup_2_Toad_Interfaces" id="77101639-6580-4853-978a-448d5633edcd" ref="78350d53-56a1-477e-896c-9f66e398cbd5" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="HideNS" id="4988c452-2763-479d-9d27-72f7f037cfa2" ref="4c8614d3-5af3-48d4-b537-b3b5327206c9" type="Recording" namespace="TacViewLib\UISpecific\Setup_2_Toad_Interfaces"/>
+      </testcase>
+    </folder>
+    <folder name="Surveillance" id="40f50b9f-b4bc-44a4-ac61-4cb3db64c839">
+      <testcase name="J3.0" id="c41318e0-28a9-4185-8186-659ae026dae5" errorbehavior="ContinueNextIteration" datasource="J3_0TrackInfo">
+        <testmodule name="CreateSpaceTrack6016D" id="b79a67fb-e2c9-485e-8d96-b7d3324b599b" ref="8fd5f5af-1423-490c-9d39-d07ac0fe25ab" type="Recording" namespace="TacViewLib\LinkSpecific\Surveillance\Reference\CreateTrack">
+          <databinding>
+            <var variablename="connection1" variableid="5d4e3e56-3172-4cd7-82e9-644dce97207c" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="6c07c2c6-90b6-4539-8e16-c2d024ed5401" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="CreateRefTrack6016D" id="115bd5cd-0aef-4ced-85cf-f0cac19f4d08" ref="a9bf6e27-66b0-4640-89b9-a17ae9535c5f" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Connection1" variableid="df43c705-3ac9-4eb2-89a2-19da9f82d8e5" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="695e1a09-961f-4be1-bad0-d5624bc6587b" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="ValidateRefTrack6016D" id="4fb19bce-d0cd-426b-94e8-d13a640db6f3" ref="efae875b-fe54-4b3c-a93c-676b0ee522df" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Connection1" variableid="2b0ee20a-ddbe-471b-9131-db9fa65461d1" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="1e4535e0-3098-4732-8980-bf2504ec3f23" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="DropSpaceTrack6016D" id="7b24bac5-92ea-4362-8ae6-6722ec11416d" ref="e447d4bb-c5ae-4253-ab87-9f93fb3e7f5b" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Connection1" variableid="79125af0-3997-4a44-aa21-66174ea5cc14" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+      </testcase>
+      <testcase name="J3.2" id="7c9dcbd5-0c70-4b84-a8f2-05cb34a57bd1" errorbehavior="ContinueNextIteration" datasource="J3_2TrackInfo">
+        <testmodule name="CreateAirTrack6016D" id="07979f44-10ba-4b8b-9378-d9fe6d3c337b" ref="2837489a-39b6-45e6-91a7-0f6d4645aff1" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Plat" variableid="cde32865-a011-4b3f-9418-acd7d9d61556" dataname="Platval" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Act" variableid="9e356446-c96d-42fd-8492-f40b5557d118" dataname="Actval" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Stype" variableid="64353258-3db1-4ec2-bc5d-f8ef7881964e" dataname="Stypeval" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Connection1" variableid="fafe3bf3-f181-4908-90fd-87c8873e8af5" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="10fdcb94-24f5-46f5-b60b-5af3544bc2c3" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="ValidateAirTrack6016D" id="45e60f8b-3849-46cd-be46-e3d193059015" ref="e77040a1-be04-4656-86bd-ea1b6167d8ec" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="PlatN" variableid="81061e92-d2ec-4d28-b364-749c396a4eec" dataname="Platnum" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Plat" variableid="77203ee1-fe29-4a8c-964a-961cafb38883" dataname="Platval" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="ActN" variableid="c7dadce6-ceac-4101-adca-9133cadf0426" dataname="Actnum" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Act" variableid="99a0b6d6-32a4-4ff0-b0a5-d236bf7643a1" dataname="Actval" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="StypeN" variableid="35f6909f-79c2-4bd4-83c9-abd0b7f77da0" dataname="Stypenum" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Stype" variableid="454a260a-fbc0-4677-9852-9f0508bebcb7" dataname="Stypeval" datasourceid="0967d547-efeb-4c6b-8e84-3d45fdfbd3d7"/>
+            <var variablename="Connection1" variableid="c95cb7bb-eb35-417d-9a5a-396bbcdc12ae" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="206581f7-8c9f-4fcd-8e53-61a5d31b937e" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+      </testcase>
+      <testcase name="J3.3" id="40aabdf8-4cba-4b2b-86e1-11a7ea363f69" errorbehavior="ContinueNextIteration" datasource="J3_3TrackInfo">
+        <testmodule name="CreateSurfaceTrack6016D" id="45e214d2-7598-4f6a-b214-73c4688297bf" ref="e7061f08-9659-48f8-b65d-f9e26fd60bde" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Connection1" variableid="df43c705-3ac9-4eb2-89a2-19da9f82d8e5" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="46fad863-1e75-4099-8eeb-1fba6aac6e71" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Plat" variableid="b3b6e4bd-8325-4888-b1a3-fa22c80d752d" dataname="Platval" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="Act" variableid="72674e44-6f4d-4d67-9d47-948249a21a9a" dataname="Actval" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="Stype" variableid="9026d4d8-cb6a-4630-9542-6638b6ca906c" dataname="Stypeval" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="ValidateSurfaceTrack6016D" id="67b5e1dc-8031-45b2-8869-4dfe33aa44c6" ref="6b71430f-af3e-42c5-972f-50563d2440c6" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Connection1" variableid="52ae4594-8f9f-4331-98f7-43a0c83d0072" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="075e077e-7643-46eb-82ca-779198544767" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="PlatN" variableid="fdc9ef74-6d36-4a02-93c6-a25ca9f45266" dataname="Platnum" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="Plat" variableid="71a59741-2a7f-43de-8df3-c5646423def7" dataname="Platval" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="ActN" variableid="a330a3ef-ede5-4016-b592-e3a8f5d199e5" dataname="Actnum" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="Act" variableid="7412e05a-b831-4e42-8e60-19ef80feff0e" dataname="Actval" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="StypeN" variableid="158861ca-5d62-4a81-b753-368267aa3ac2" dataname="Stypenum" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+            <var variablename="Stype" variableid="6947fe07-ae14-4295-9bac-73be029ecc07" dataname="Stypeval" datasourceid="502f6556-6970-40b7-8fed-37a0a40065ae"/>
+          </databinding>
+        </testmodule>
+      </testcase>
+      <testcase name="J3.4" id="f3162539-0491-4e5a-9c5f-bb9ab6cc6c45" errorbehavior="ContinueNextIteration" datasource="J3_4TrackInfo">
+        <testmodule name="CreateSubSurfaceTrack6016D" id="078e92f2-ae0d-425d-ac5c-e905bd2c52cb" ref="a057a34e-d7eb-40f4-bd91-1e892e7d8ee7" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Plat" variableid="43a400b7-6252-4f3f-8b9b-241d1b72237e" dataname="Platval" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Act" variableid="16773ea3-2cea-4243-88ef-f031fd15891e" dataname="Actval" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Stype" variableid="a8415d6d-7ba0-4c78-b784-63c13b723a78" dataname="Stypeval" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Connection1" variableid="df43c705-3ac9-4eb2-89a2-19da9f82d8e5" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="3e49ff8f-353c-45ac-820d-a0818fbeaa7c" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="ValidateSubSurfaceTrack6016D" id="94abbb8c-7d59-44d8-8cf4-2e127a1745c4" ref="c0f9a618-3526-45e8-8e6a-711fe3ecc6bf" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="PlatN" variableid="a3b050f9-8c15-4a27-a3ec-c61cc1af40f3" dataname="Platnum" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Plat" variableid="12509d90-46be-4e42-92c2-556a85ba0bf9" dataname="Platval" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="ActN" variableid="987718fd-5d3e-422d-bbf2-002675397081" dataname="Actnum" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Act" variableid="6b304bbe-b384-40ec-a21d-d654ce28af6d" dataname="Actval" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="StypeN" variableid="0b60f2e2-a891-4a03-9de5-194bc5d420f5" dataname="Stypenum" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Stype" variableid="6ccfd3cc-6968-46c0-819c-9ed02e60c7d1" dataname="Stypeval" datasourceid="70642fec-0586-4f95-a861-fc2d55de6bd8"/>
+            <var variablename="Connection1" variableid="d063b875-7352-4765-b796-51f7ebabffeb" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="c31c327e-5e45-49cc-8588-7bb875d2709f" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+      </testcase>
+      <testcase name="J3.5" id="2d5602ac-eadf-4711-b4a6-679286320c1d" errorbehavior="ContinueNextIteration" datasource="J3_5TrackInfo">
+        <testmodule name="CreateLandTrack6016D" id="dc1e7c7e-2616-4292-a6c6-5fc980d70968" ref="9e1fef7a-4c78-4884-bd42-acda064be8fc" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="Plat" variableid="e37a5b22-fb82-410c-b8d5-76d2c80ea61d" dataname="Platval" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Act" variableid="a2fc2c38-c22c-4c43-8bb2-27ab124cdc94" dataname="Actval" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Stype" variableid="333daa4f-d71c-4cd8-bc6b-a6cb2c3833ad" dataname="Stypeval" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Connection1" variableid="df43c705-3ac9-4eb2-89a2-19da9f82d8e5" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="a0439a0c-1c4b-45d2-9392-c94ab90b28b1" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="ValidateLandTrack6016D" id="4f09d5e1-f9f3-4146-89d2-ad1e66b19266" ref="88f93556-a6d9-4446-b8a8-5795f9bfad76" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="PlatN" variableid="0916bd88-142a-4ebd-a6ce-d70862854df6" dataname="PlatNum" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Plat" variableid="3f2c7616-735b-4bf9-bb2f-2f435da42209" dataname="Platval" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="ActN" variableid="8119ebab-9687-4605-9a76-f13a39d041a0" dataname="ActNum" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Act" variableid="37bbdfaa-309e-4311-ae9a-e10b72251f80" dataname="Actval" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="StypeN" variableid="20a1dad7-423a-417e-9f47-77216aefba9a" dataname="StypeNum" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Stype" variableid="39596aa0-cf0e-487a-acb2-a3df0b2bca6f" dataname="Stypeval" datasourceid="c4c23dbc-bc09-442b-8916-2c717b2f0412"/>
+            <var variablename="Connection1" variableid="2fc347bc-880f-424d-939c-f855be60595d" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="f6d22605-e75b-4fd9-ae07-943d4d0d6a79" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+      </testcase>
+      <testcase name="J3.6" id="cd74b815-f1b9-46c7-9496-5ffbf93431d7" errorbehavior="ContinueNextIteration" datasource="J3_6TrackInfo">
+        <testmodule name="CreateSpaceTrack6016D" id="729cb548-0ff6-425e-b18e-02ce79655f43" ref="de7314a7-182c-4e0f-af00-875becb26a34" type="Recording" namespace="TacViewLib\LinkSpecific\Surveillance\Space\CreateTrack">
+          <databinding>
+            <var variablename="Plat" variableid="83e86976-650e-46ad-b98e-392f8173b210" dataname="Platval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Act" variableid="5e7cef64-c1a8-4c1d-a587-a1a8f51b3011" dataname="Actval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Stype" variableid="2d8d8789-557a-4303-b47c-5ddbba469e83" dataname="Stypeval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Samp" variableid="4d160e71-7be8-4275-95f1-22c78b2821a7" dataname="Sampval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Connection1" variableid="df43c705-3ac9-4eb2-89a2-19da9f82d8e5" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="e0df9197-aa66-4b51-ac4a-8bb660a44c17" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+        <testmodule name="ValidateSpaceTrack6016D" id="b0d4c80e-6e03-4a39-baeb-2116d7f9e4d0" ref="13027c7c-96d4-4de5-84cf-18bd9d587acb" type="Recording" namespace="TacViewLib">
+          <databinding>
+            <var variablename="PlatN" variableid="fb1a0368-531f-4a04-9289-4b27123a39c3" dataname="Platnum" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Plat" variableid="0d0372e6-6a67-4ef9-a74a-decd4ac48c45" dataname="Platval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="ActN" variableid="69b79f2c-d2f6-40fd-9290-123b57595346" dataname="Actnum" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Act" variableid="817bfec4-b68a-499f-9506-bb953e07ebf2" dataname="Actval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="StypeN" variableid="d535b2b1-cab9-4b3d-a641-56ccd57402f3" dataname="Stypenum" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Stype" variableid="016def29-a263-4c64-ad4d-937ef398db34" dataname="Stypeval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="SampN" variableid="1f28c01a-24a9-4704-ae2f-f031b01bdc47" dataname="Sampnum" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Samp" variableid="061c323d-d274-4c1a-93e0-71592af2a07a" dataname="Sampval" datasourceid="55b31350-038c-4a3c-9f47-fe065e0b56a6"/>
+            <var variablename="Connection1" variableid="871e20f4-024b-4735-9209-6c5badb18ead" dataname="Connection1" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+            <var variablename="Connection2" variableid="db6d91fd-bba9-4039-a00c-8fe760aadc57" dataname="Connection2" datasourceid="880d62be-7150-4712-b262-c763d12aa0af"/>
+          </databinding>
+        </testmodule>
+      </testcase>
+    </folder>
+    <folder name="Disused" id="c8197a02-440c-4438-a2b1-24d5ecf974e9">
+      <testcase name="SetupDisused" id="2efb607d-f01b-4573-ab1e-2e4bfed88b2c">
+        <testmodule name="KillRealView" id="57db5488-4a80-4c4b-97b2-e98df0a01abc" ref="f1bb72bb-ee99-4a8d-85c1-85ff3ce0e93a" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="SetupDisused" id="f583d1ae-0ebe-41ff-b42a-0062398c6abf" ref="3c1c3f8a-5efe-44e6-85f5-e06dc621ec49" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ShowNSDis" id="284fc05b-d2dc-437c-8a20-0ffabb5c0a1d" ref="2591db78-23b2-4dc3-b538-acfa75ac68a1" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="J3.2DisusedValues" id="2f0ce676-2ab6-4e5a-8328-d3a00b34e7a2" datasource="J3_2DisusedTrackInfo">
+        <testmodule name="CreateAirTrackDisused6016D" id="e260ebd7-b66e-4943-896e-345d0009f3ea" ref="895c19cb-e56f-4021-8c99-6ac50e4da68a" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateAirTrackDisused6016D" id="b2bf27b9-fee2-48dd-881e-2807c53970cb" ref="11b74841-ef9f-4afa-bb34-bf88bb4a2d53" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="J3.3DisusedValues" id="90e38700-63a8-4eff-b832-a5c7fe764f67" datasource="J3_3DisusedTrackInfo">
+        <testmodule name="CreateSurfaceTrackDisused6016D" id="a0293f09-6306-408c-b7fe-c632b374e9af" ref="897eae34-a4f1-4678-b5ac-fa43a3f35798" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSurfaceTrackDisused6016D" id="e4c83ead-3597-48bb-90ce-08e6cb0e983b" ref="4137e068-e235-44ea-a93c-6bc6a2b7b67b" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="J3.4DisusedValues" id="98522653-d9a8-4fcc-b63a-e9dab16f7e58" datasource="J3_4DisusedTrackInfo">
+        <testmodule name="CreateSubSurfaceTrackDisused6016D" id="432d50da-487f-4978-aeed-68837985075e" ref="eda2f03c-40f3-4d13-b5be-9b066d730a22" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateSubSurfaceTrackDisused6016D" id="02449a7e-42a5-42c3-964a-2fab8d0b8154" ref="eb054f34-1b10-41d3-ad6f-9db54cbc1df3" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="J3.5DisusedValues" id="c8a56ab0-a8e0-4bc9-8507-d893e93733df" datasource="J3_5DisusedTrackInfo">
+        <testmodule name="CreateLandTrackDisused6016D" id="d056df2f-cc47-4a24-9e79-4c398071f413" ref="75e867c4-8f74-43d5-8e4f-687b0c5f59e0" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="ValidateLandTrackDisused6016D" id="bfd451b3-5a50-4bcc-abbd-997933a121e2" ref="d1645040-c7cd-4f53-8d05-a977b65ed138" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+    </folder>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="2d5602ac-eadf-4711-b4a6-679286320c1d"/>
+      <testcase id="40aabdf8-4cba-4b2b-86e1-11a7ea363f69"/>
+      <testcase id="40f50b9f-b4bc-44a4-ac61-4cb3db64c839"/>
+      <testcase id="7c9dcbd5-0c70-4b84-a8f2-05cb34a57bd1"/>
+      <testcase id="880d62be-7150-4712-b262-c763d12aa0af"/>
+      <testcase id="c41318e0-28a9-4185-8186-659ae026dae5"/>
+      <testcase id="cd74b815-f1b9-46c7-9496-5ffbf93431d7"/>
+      <testcase id="f3162539-0491-4e5a-9c5f-bb9ab6cc6c45"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references>
+    <reference>
+      InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      TacViewLib.dll
+    </reference>
+    <reference>
+      ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      SystemManagerLib.dll
+    </reference>
+    <reference>
+      CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+  </references>
+</testsuite>

@@ -1,0 +1,74 @@
+﻿<testsuite name="V15_Defects" rxversion="3.1.1.14266" id="880d62be-7150-4712-b262-c763d12aa0af" reportfilename="%S_%Y%M%D_%T.rxlog" reportxslfilename="" reportwriteinterval="30000ms" enabletracingscreenshots="True" description="" reportlevel="Info;20">
+  <content>
+    <folder name="Sustainment_Defects" id="6e656994-e7af-4253-8de1-514977f69ca0">
+      <testcase name="Defect01709" id="12ec57d6-99dd-4712-ae0a-a183f9ec0fd6">
+        <testmodule name="D01709Create" id="bd7c90cd-f5b5-45fc-b627-5b44c107e626" ref="8de0c819-7646-4445-a370-d54a37ba51bb" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="D01709Validate" id="d9a20e04-88b3-44d0-8a21-6505a64b7cb2" ref="d7512d32-d7ba-4196-b008-7148b23483f0" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="Defect03968" id="3a5b0a2e-7010-4778-8d5a-370e62c16384">
+        <testmodule name="D03968Create" id="0ea09a52-5f06-4211-8e7d-9fbb22b7de5a" ref="37fcf6fd-9390-4ca5-944f-0fa6cc4e571b" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="D03968Validate" id="fe367810-b48c-41f0-b5da-f1a68ce12b6e" ref="54d55688-63c2-4b80-b952-0d35df487985" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="Defect04457" id="7f883fb6-dd22-43c3-aa35-635ad96772a4">
+        <testmodule name="D04457Create" id="8a9a0a89-81f7-4258-ba95-fe9ae0d7b202" ref="ed8145b2-a320-46a8-aae2-14f8f77002e6" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="D04457Validate" id="5b39b6db-7afe-4d14-b04c-718891923c74" ref="63a5e1ef-b55c-43a0-9f89-abfafc550dfb" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+      <testcase name="Defect04482" id="887c8a5d-b23c-4c0b-b666-c963603442c8">
+        <testmodule name="D04482Create" id="cc8b4786-8b1b-423f-b158-59f2c13ecbed" ref="bd20819a-6db9-44ee-bcbb-887752692696" type="Recording" namespace="TacViewLib"/>
+        <testmodule name="D04482Validate" id="48527b83-7799-4888-ad89-edf954fd5109" ref="88c1c7ad-1bc3-467c-b72b-1bb19e570c3a" type="Recording" namespace="TacViewLib"/>
+      </testcase>
+    </folder>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="12ec57d6-99dd-4712-ae0a-a183f9ec0fd6"/>
+      <testcase id="3a5b0a2e-7010-4778-8d5a-370e62c16384"/>
+      <testcase id="7f883fb6-dd22-43c3-aa35-635ad96772a4"/>
+      <testcase id="887c8a5d-b23c-4c0b-b666-c963603442c8"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references>
+    <reference>
+      InstallerLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      TacViewLib.dll
+    </reference>
+    <reference>
+      ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      SystemManagerLib.dll
+    </reference>
+    <reference>
+      CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\ranorex555\TNAccountability\bin\Debug\TNAccountability.exe
+    </reference>
+    <reference>
+      C:\ranorex555\SocketTesting\bin\Debug\SocketTesting.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link16_Link11_Forwarding\bin\Debug\Link16_Link11_Forwarding.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\ranorex555\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\ranorex555\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+    <reference>
+      C:\ranorex555\Link_16_Messages\bin\Debug\Link_16_Messages.exe
+    </reference>
+  </references>
+</testsuite>

@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable rxversion="3.1.1.14266" id="41448b71-658b-4aa7-b53a-c4428327a54d" embeddedrepository="false">
+  <name>
+    Install
+  </name>
+  <repeatcount>
+    1
+  </repeatcount>
+  <turbomode>
+    True
+  </turbomode>
+  <genreport>
+    True
+  </genreport>
+  <speedfactor>
+    1
+  </speedfactor>
+  <useDefaultItemLogging>
+    True
+  </useDefaultItemLogging>
+  <codegen classname="Install" namespace="InstallerLib.Install"/>
+  <variables/>
+  <recorditems>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="LaunchMyComputer">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="285" sy="154" loc="19;7">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="292e7e48-8075-4f73-b8f5-89a50c29b758">
+        <element role="button" prefcap="button" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="4" rect="266,147,41,19">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[&Tools]]>
+          </attribute>
+          <attribute name="commandid" type="System.Int32">
+            <![CDATA[32960]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='My Computer']/element[@controlid='40965']/form/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='&Tools']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="293" sy="235" loc="24;6">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="1a95ad70-aad1-4184-98c8-fdad659b44a4">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="4" rect="269,229,173,17">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Folder Options...]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[o]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Folder Options...]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Folder Options...']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="197" sy="181" loc="26;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="01c1f78c-d67a-4388-a1f1-72bed1da440e">
+        <element role="tabpage" prefcap="tabpage" capabilities="" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="171,170,42,18">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="title" type="System.String">
+            <![CDATA[View]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Folder Options']/tabpagelist/tabpage[@title='View']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="200ms" methodname="Click_Checkbox">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="304" sy="585" loc="53;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="077c0a07-06f6-491c-ba91-cfa9acb91a0b">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="251,574,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[OK]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[22545228]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[1032]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[explorer]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[OK]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Folder Options']/button[@text='OK']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="875" sy="131" loc="9;11">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="703afeec-8a1d-49ee-a6ae-8b8d9934a99c">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="866,120,25,25">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Closes the window]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='My Computer']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="200ms" methodname="SetupFolders">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="100ms" methodname="Open_IE">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="typeWindowsPath">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="200ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="d2522254-66ca-4e33-ae3f-711d48b4b213">
+        <path>
+          <![CDATA[/dom[@domain='hudsonserver.ultra-ats.com:8080']/body/table[@id='main-table']/tbody/tr/td[@id='main-panel']/div/table/tbody/tr[2]/td[2]/a[@innertext~'v*-opt.zip']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="500ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <keysequenceitem enabled="True" optional="False" duration="100ms" sequence="{Left}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="707" sy="585" loc="41;43">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d644fda5-24c4-488b-8147-c62eb894d2f9">
+        <element role="button" prefcap="button" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="666,542,87,71">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Desktop]]>
+          </attribute>
+          <attribute name="commandid" type="System.Int32">
+            <![CDATA[41061]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Save As']/toolbar[@controlid='1184']/button[@text='Desktop']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="DoubleClick" button="Left" movetime="200ms" sx="803" sy="536" loc="44;14">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="fb90aad9-b42e-4c6e-9982-a26e6cc130c4">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="759,522,140,18">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Hudson Files]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Save As']/container/list/listitem[@text='Hudson Files']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="5d7e79b8-de19-4d3a-98e5-872c9be82b08">
+        <path>
+          <![CDATA[/form[@title='Save As']/button[@text='&Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="CloseDialogCheckBox">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="7a9986b4-f4b0-4928-8b08-5d0b99de3054">
+        <path>
+          <![CDATA[/form[@title~'^ADSI-Win-Trunk-Incrementa']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Open_IE">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="typeLinuxPath">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keyitem enabled="True" optional="False" duration="200ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <explicitdelayitem enabled="True" optional="False" duration="2000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="51af6f83-2725-4680-a311-d08707e30360">
+        <path>
+          <![CDATA[/dom[@domain='hudsonserver.ultra-ats.com:8080']/body/table[@id='main-table']/tbody/tr/td[@id='main-panel']/div/table/tbody/tr[6]/td[2]/a[@innertext~'^ultra-ats-adsi-software-u']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="1000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="Left" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <explicitdelayitem enabled="True" optional="False" duration="1000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <keyitem enabled="True" optional="False" duration="100ms" action="Press" presstime="100ms" data="Return" scancode="0" setModifiers="True">
+      <comment>
+      </comment>
+      <bindings/>
+    </keyitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="704" sy="576" loc="38;34">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="d644fda5-24c4-488b-8147-c62eb894d2f9">
+        <path>
+          <![CDATA[/form[@title='Save As']/toolbar[@controlid='1184']/button[@text='Desktop']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1342ms" action="DoubleClick" button="Left" movetime="300ms" sx="785" sy="531" loc="26;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="fb90aad9-b42e-4c6e-9982-a26e6cc130c4">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="3" rect="759,522,296,18">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[3]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Hudson Files]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Save As']/container/list/listitem[@text~'Hu*']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="200ms" action="Click" button="Left" movetime="200ms" sx="1159" sy="768" loc="25;5">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="5d7e79b8-de19-4d3a-98e5-872c9be82b08">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="12" rect="1134,763,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[&Save]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[23003832]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[14140]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[iexplore]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[&Save]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Save As']/button[@text='&Save']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="1125ms" methodname="CloseDialogCheckBox">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="1343ms" action="Click" button="Left" movetime="300ms" sx="970" sy="619" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="9cb1c6fb-be83-4680-a863-4b1703716056">
+        <path>
+          <![CDATA[/form[@title~'ADSI-CentOS-Trunk*']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="1000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ADSISoftwareExists">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="Wait_for_Download">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="OpenHudsonFiles">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="4093ms" action="DoubleClick" button="Left" movetime="300ms" sx="735" sy="331" loc="42;36">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="1f89e6a5-0a4e-44f7-b24e-77db976c06de">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="693,295,214,53">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[v2k10-B18svn6997-opt.zip]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Hudson Files']/container/element/container/element/list/listitem[@text='v2k10-B18svn6997-opt.zip']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1905ms" action="Click" button="Left" movetime="300ms" sx="120" sy="479" loc="42;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="f7be5ca2-a9de-428f-afcc-ce420f8d27c3">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="78,470,98,16">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Extract all files]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Extract all files]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <attribute name="accessiblevalue" type="System.String">
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title='Hudson Files']/container/element/container/container/button[@accessiblename='Extract all files']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="827ms" action="Click" button="Left" movetime="300ms" sx="311" sy="387" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="9dca02e8-df68-4a8d-a8a3-89bd7c3ae426">
+        <path>
+          <![CDATA[/form[@title='Extraction Wizard']/button[@text='&Next >']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="4f387cc7-0f0f-4daf-8b33-fbfead87f667">
+        <path>
+          <![CDATA[/form[@title~'v*-opt']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="500ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="9dca02e8-df68-4a8d-a8a3-89bd7c3ae426">
+        <path>
+          <![CDATA[/form[@title='Extraction Wizard']/button[@text='&Next >']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1109ms" action="Click" button="Left" movetime="300ms" sx="313" sy="380" loc="23;3">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="23c55464-6941-4b6b-aaf6-491ff530ede7">
+        <path>
+          <![CDATA[/form[@title='Extraction Wizard']/button[@text='Finish']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="2750ms" action="Click" button="Right" movetime="300ms" sx="497" sy="359" loc="101;34">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="309cb32d-0d23-4c28-8e32-47ebcc2569ce">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="6" rect="396,325,214,53">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[6]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[V15WinSoftware.exe]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'v*-opt']/container/element/container/element/list/listitem[@text='V15WinSoftware.exe']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1718ms" action="Click" button="Left" movetime="300ms" sx="549" sy="553" loc="49;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="4e0dc308-8be2-46d1-ad32-21bb5e233f28">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="13" rect="500,544,121,17">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Create Shortcut]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[s]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Create Shortcut]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Create Shortcut']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="2593ms" action="Click" button="Right" movetime="300ms" sx="511" sy="412" loc="115;31">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="41b35678-ab9f-4e11-992a-d2a7a8a911dd">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="8" rect="396,381,214,53">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[8]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Shortcut to V15WinSoftware.exe]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'v*-opt']/container/element/container/element/list/listitem[@text~'^Shortcut\ to\ V15WinSoftwar']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1640ms" action="Click" button="Left" movetime="300ms" sx="570" sy="662" loc="61;6">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="b785277c-3dfb-49e7-9bac-6bdf6f388294">
+        <element role="menuitem" prefcap="menuitem" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="17" rect="509,656,121,17">
+          <attribute name="checked" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Properties]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Execute]]>
+          </attribute>
+          <attribute name="accessiblekeyboardshortcut" type="System.String">
+            <![CDATA[r]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Properties]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[MenuItem]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[Focused, HotTracked]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Properties']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <mouseitem enabled="True" optional="False" duration="1140ms" action="Click" button="Left" movetime="300ms" sx="843" sy="565" loc="234;8">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="2a47813a-03c7-415c-a206-833a3ae048e1">
+        <element role="text" prefcap="text" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="True" dontcache="False" index="7" rect="609,557,240,23">
+          <attribute name="selectionlength" type="System.Int32">
+            <![CDATA[98]]>
+          </attribute>
+          <attribute name="selectionstart" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="selectiontext" type="System.String">
+            <![CDATA["C:\Documents and Settings\All Users\Desktop\Hudson Files\v2k10-B18svn6997-opt\V15WinSoftware.exe"]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA["C:\Documents and Settings\All Users\Desktop\Hudson Files\v2k10-B18svn6997-opt\V15WinSoftware.exe"]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Edit]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[13058]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[20382908]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[2]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[9876]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[explorer]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA["C:\Documents and Settings\All Users\Desktop\Hudson Files\v2k10-B18svn6997-opt\V15WinSoftware.exe"]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Shortcut\ to\ V15WinSoftwar']/container/text[@controlid='13058']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <keysequenceitem enabled="True" optional="False" duration="4766ms" sequence="{End}{Space}/qn" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <mouseitem enabled="True" optional="False" duration="4389ms" action="Click" button="Left" movetime="300ms" sx="659" sy="879" loc="32;16">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="329fb2f2-7dd8-45cf-9fe5-eac1f62268cf">
+        <element role="button" prefcap="button" capabilities="nativewindow" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="1" rect="627,863,75,23">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[OK]]>
+          </attribute>
+          <attribute name="apphung" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="class" type="System.String">
+            <![CDATA[Button]]>
+          </attribute>
+          <attribute name="controlid" type="System.Int32">
+            <![CDATA[1]]>
+          </attribute>
+          <attribute name="handle" type="System.IntPtr">
+            <![CDATA[13894808]]>
+          </attribute>
+          <attribute name="instance" type="System.Int32">
+            <![CDATA[0]]>
+          </attribute>
+          <attribute name="processid" type="System.Int32">
+            <![CDATA[9876]]>
+          </attribute>
+          <attribute name="processname" type="System.String">
+            <![CDATA[explorer]]>
+          </attribute>
+          <attribute name="windowtext" type="System.String">
+            <![CDATA[OK]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^Shortcut\ to\ V15WinSoftwar']/button[@text='OK']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="1109ms" methodname="CloseAddRemove">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="2561ms" action="DoubleClick" button="Left" movetime="300ms" sx="485" sy="403" loc="89;22">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="41b35678-ab9f-4e11-992a-d2a7a8a911dd">
+        <element role="listitem" prefcap="listitem" capabilities="nativeitem" flavor="win32" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="8" rect="396,381,214,53">
+          <attribute name="index" type="System.Int32">
+            <![CDATA[8]]>
+          </attribute>
+          <attribute name="selected" type="System.Boolean">
+            <![CDATA[True]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Shortcut to V15WinSoftware.exe]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'v*-opt']/container/element/container/element/list/listitem[@text~'^Shortcut\ to\ V15WinSoftwar']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <explicitdelayitem enabled="True" optional="False" duration="3000ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </explicitdelayitem>
+    <mouseitem enabled="True" optional="False" duration="500ms" action="Click" button="Left" movetime="300ms" sx="0" sy="0" loc="Center">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="4f387cc7-0f0f-4daf-8b33-fbfead87f667">
+        <path>
+          <![CDATA[/form[@title~'v*-opt']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <userrecorditem enabled="True" optional="False" duration="100ms" methodname="InstallDriversExists">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <keysequenceitem enabled="True" optional="False" duration="100ms" sequence="{LWin down}r{LWin up}" presstime="100ms">
+      <comment>
+      </comment>
+      <bindings/>
+    </keysequenceitem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="ScpFiles">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="getRpmName">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <userrecorditem enabled="True" optional="False" duration="0ms" methodname="SSHinstall">
+      <comment>
+      </comment>
+      <bindings/>
+    </userrecorditem>
+    <mouseitem enabled="True" optional="False" duration="1718ms" action="Click" button="Left" movetime="300ms" sx="746" sy="129" loc="18;9">
+      <comment>
+      </comment>
+      <bindings/>
+      <info sourcename="Recorder" id="8d36c3f4-be77-480b-970a-4acc3c7ea089">
+        <element role="button" prefcap="button" capabilities="accessible" flavor="msaa" visible="True" valid="True" enabled="True" hasfocus="False" dontcache="False" index="2" rect="728,120,25,25">
+          <attribute name="pressed" type="System.Boolean">
+            <![CDATA[False]]>
+          </attribute>
+          <attribute name="text" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="accessibledefaultaction" type="System.String">
+            <![CDATA[Press]]>
+          </attribute>
+          <attribute name="accessibledescription" type="System.String">
+            <![CDATA[Closes the window]]>
+          </attribute>
+          <attribute name="accessiblename" type="System.String">
+            <![CDATA[Close]]>
+          </attribute>
+          <attribute name="accessiblerole" type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[PushButton]]>
+          </attribute>
+          <attribute name="accessiblestate" type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <![CDATA[None]]>
+          </attribute>
+          <children/>
+        </element>
+        <path>
+          <![CDATA[/form[@title~'^C:\\WINDOWS\\system32\\cmd\.e']/titlebar/button[@accessiblename='Close']]]>
+        </path>
+      </info>
+    </mouseitem>
+    <validationitem enabled="True" optional="False" duration="0ms" action="Exists">
+      <comment>
+        <![CDATA[windows install complete]]>
+      </comment>
+      <bindings/>
+      <info sourcename="ItemRecorderEditor" id="965816fc-3868-4991-b093-e4f54fcfbc2f">
+        <path>
+          <![CDATA[/desktop[@processname='explorer']/container/list/listitem[@text='System Manager']]]>
+        </path>
+      </info>
+      <matchname>
+        <![CDATA[Text]]>
+      </matchname>
+      <matchvalue>
+        <![CDATA[yourtext]]>
+      </matchvalue>
+    </validationitem>
+  </recorditems>
+  <repository name="InstallerLibRepository" id="49f0df9c-b88c-4764-aa93-76d5ce30b1a9" rxversion="3.1.1.14266" relativepath="..\InstallerLibRepository.rxrep">
+    <codegen classname="InstallHudsonRepository" namespace="InstallerLib"/>
+    <rootfolder name="_rootdummy_" id="31097da2-1aff-446c-99c8-77ee9da049d7"/>
+  </repository>
+  <usercodefile lang="CSharp">
+    <![CDATA[Install.UserCode.cs]]>
+  </usercodefile>
+  <references>
+    <reference>
+      C:\3x-Dev17MAY\Calcuator\bin\Debug\Calcuator.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\FalconViewLib\bin\Debug\FalconViewLib.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\TrainingLib\bin\Debug\TrainingLib.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\TacViewLib\bin\Debug\TacViewLib.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\ConfigurationWizardLib\bin\Debug\ConfigurationWizardLib.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\SystemManagerLib\bin\Debug\SystemManagerLib.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\CommonUtilLib\bin\Debug\CommonUtilLib.dll
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\PentagonDemo\bin\Debug\PentagonDemo.exe
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\Training\bin\Debug\Training.exe
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\V15_Smoke_Test\bin\Debug\V15_Smoke_Test.exe
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\Link_16_Regression\bin\Debug\Link_16_Regression.exe
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\V15_Defects\bin\Debug\V15_Defects.exe
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\MIL_STD_6016D\bin\Debug\MIL_STD_6016D.exe
+    </reference>
+    <reference>
+      C:\3x-Dev17MAY\Install_Setup_V15\bin\Debug\Install_Setup_V15.exe
+    </reference>
+  </references>
+</recordtable>
