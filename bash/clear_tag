@@ -1,0 +1,4 @@
+echo io range 1 | socat - unix:/tmp/gazelle
+sleep 1
+echo io range 0 | socat - unix:/tmp/gazelle
+

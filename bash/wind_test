@@ -1,0 +1,127 @@
+#!/bin/sh
+
+log="r72_wind.log"
+
+echo mode advanced | socat - unix:/tmp/gazelle
+sleep 1
+echo ball manrangeenable 1 | socat - unix:/tmp/gazelle
+echo imuconfig imu_enabled 0 1 1 | socat - unix:/tmp/gazelle
+echo ball mantemp 59 | socat - unix:/tmp/gazelle
+echo ball mantempenable 1 | socat - unix:/tmp/gazelle
+echo ball manpress 29.92 | socat - unix:/tmp/gazelle
+echo ball manpressenable 1 | socat - unix:/tmp/gazelle
+echo io range 1 | socat - unix:/tmp/gazelle
+sleep 1
+echo io range 0 | socat - unix:/tmp/gazelle
+sleep 1
+
+
+rm $log
+
+a=-40
+b=100
+
+while [ $a -lt 50 ]
+do
+echo $a
+echo ball manrange $b | socat - unix:/tmp/gazelle
+echo ball windage $a | socat - unix:/tmp/gazelle
+sleep 3
+echo ball dump | socat - unix:/tmp/gazelle > tmp
+drop=$(cat tmp | grep Drp | tr -s " " | cut -f2 -d " ")
+drift=$(cat tmp | grep Drp | tr -s " " | cut -f3 -d " ")
+echo "$b, $a, $drop, $drift" >> $log 
+let a=a+10
+done
+
+
+a=-40
+b=250
+
+while [ $a -lt 50 ]
+do
+echo $a
+echo ball manrange $b | socat - unix:/tmp/gazelle
+echo ball windage $a | socat - unix:/tmp/gazelle
+sleep 3
+echo ball dump | socat - unix:/tmp/gazelle > tmp
+drop=$(cat tmp | grep Drp | tr -s " " | cut -f2 -d " ")
+drift=$(cat tmp | grep Drp | tr -s " " | cut -f3 -d " ")
+echo "$b, $a, $drop, $drift" >> $log 
+let a=a+10
+done
+
+
+a=-40
+b=500
+
+while [ $a -lt 50 ]
+do
+echo $a
+echo ball manrange $b | socat - unix:/tmp/gazelle
+echo ball windage $a | socat - unix:/tmp/gazelle
+sleep 3
+echo ball dump | socat - unix:/tmp/gazelle > tmp
+drop=$(cat tmp | grep Drp | tr -s " " | cut -f2 -d " ")
+drift=$(cat tmp | grep Drp | tr -s " " | cut -f3 -d " ")
+echo "$b, $a, $drop, $drift" >> $log 
+let a=a+10
+done
+
+
+a=-40
+b=750
+
+while [ $a -lt 50 ]
+do
+echo $a
+echo ball manrange $b | socat - unix:/tmp/gazelle
+echo ball windage $a | socat - unix:/tmp/gazelle
+sleep 3
+echo ball dump | socat - unix:/tmp/gazelle > tmp
+drop=$(cat tmp | grep Drp | tr -s " " | cut -f2 -d " ")
+drift=$(cat tmp | grep Drp | tr -s " " | cut -f3 -d " ")
+echo "$b, $a, $drop, $drift" >> $log 
+let a=a+10
+done
+
+
+a=-40
+b=1000
+
+while [ $a -lt 50 ]
+do
+echo $a
+echo ball manrange $b | socat - unix:/tmp/gazelle
+echo ball windage $a | socat - unix:/tmp/gazelle
+sleep 3
+echo ball dump | socat - unix:/tmp/gazelle > tmp
+drop=$(cat tmp | grep Drp | tr -s " " | cut -f2 -d " ")
+drift=$(cat tmp | grep Drp | tr -s " " | cut -f3 -d " ")
+echo "$b, $a, $drop, $drift" >> $log 
+let a=a+10
+done
+
+
+a=-40
+b=1200
+
+while [ $a -lt 50 ]
+do
+echo $a
+echo ball manrange $b | socat - unix:/tmp/gazelle
+echo ball windage $a | socat - unix:/tmp/gazelle
+sleep 3
+echo ball dump | socat - unix:/tmp/gazelle > tmp
+drop=$(cat tmp | grep Drp | tr -s " " | cut -f2 -d " ")
+drift=$(cat tmp | grep Drp | tr -s " " | cut -f3 -d " ")
+echo "$b, $a, $drop, $drift" >> $log 
+let a=a+10
+done
+
+
+
+rm tmp
+
+echo io range 1 | socat - unix:/tmp/gazelle
+echo io range 0 | socat - unix:/tmp/gazelle

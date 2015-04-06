@@ -1,0 +1,6 @@
+dash buttons
+poke 0x010006f4 0
+ball mantemp 85
+ball mantempenable 1
+
+

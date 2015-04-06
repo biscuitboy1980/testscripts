@@ -1,0 +1,17 @@
+#!/bin/sh
+
+LOG=dates.txt
+FILES=/data/media/*
+
+for f in $FILES
+
+do 
+ y=$(echo $f | cut -d '_' -f3)
+ m=$(echo $f | cut -d '_' -f4)
+ d=$(echo $f | cut -d '_' -f5)
+ echo $m$d$y >> tmp
+done
+
+sort -u tmp > $LOG
+
+rm tmp
