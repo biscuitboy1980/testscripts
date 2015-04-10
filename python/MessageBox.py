@@ -1,3 +1,4 @@
+import ctypes
 
 #### Message Box #####
 
@@ -10,7 +11,7 @@
 #### 5. RETRY/CANCEL ####
 #### 6. CANCEL/TRY AGAIN/CONTINUE ####
 
-import ctypes
+
 
 msgbox = ctypes.windll.user32.MessageBoxA
 ret = msgbox(None, 'Press Yes to exit the demo.', 'Geoffs Python Demo', 6)

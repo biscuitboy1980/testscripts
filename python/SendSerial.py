@@ -1,15 +1,17 @@
 import serial
 import time
 
+#Define COM Port Settings/Data
+
 txdata = ("U"*256)
 cnt = 1
-bd = 9600
+bd = 38400
 bs = 8
 par = "N"
 sb = 1
 xx = 0
 
-
+print "*****Start*****"
 
 #Configure TX COM Port
 ser1 = serial.Serial(4, timeout=1)
@@ -30,17 +32,18 @@ ser2.stopbits = sb
 ser2.xonxoff = xx
 print ser2
 
-while cnt < 51:
 
+#Loop TX/RX of test data
+
+while cnt < 10:
+
+    #Send tx data
     ser1.write(txdata)
-    #ser1.write(txdata)
-##    ser1.close()
     #print "sending " + txdata
 
 
     #Read tx data
     rxdata = ser2.readline()
-##    ser2.close()
     #print "received " + rxdata
 
                 
@@ -51,9 +54,8 @@ while cnt < 51:
 
     cnt = cnt + 1
 
+#Close TX/RX COM Ports
+
 ser1.close()
 ser2.close()
-    
-
-
-
+print "*****Finish*****"
