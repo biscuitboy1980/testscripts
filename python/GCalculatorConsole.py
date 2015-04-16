@@ -1,46 +1,46 @@
 
 #Calculator Program
 def menu():
-    #print what options you have
-    print "Welcome to Geoff's calculator"
-    print "Your options are:"
-    print " "
-    print "1) Addition"
-    print "2) Subtraction"
-    print "3) Multiplication"
-    print "4) Division"
-    print "5) Quit Geoff's calculator"
-    print " "
+    #logging.info what options you have
+    logging.info "Welcome to Geoff's calculator"
+    logging.info "Your options are:"
+    logging.info " "
+    logging.info "1) Addition"
+    logging.info "2) Subtraction"
+    logging.info "3) Multiplication"
+    logging.info "4) Division"
+    logging.info "5) Quit Geoff's calculator"
+    logging.info " "
     return input ("Choose your option: ")
 
 import time
 
 #this adds two numbers given
 def add(a,b):
-    print " "
-    print a, "+", b, "=", a + b
-    print " "
+    logging.info " "
+    logging.info a, "+", b, "=", a + b
+    logging.info " "
     raw_input("Press Enter key to continue")
 
 #this subtracts two numbers given
 def sub(a,b):
-    print " "
-    print b, "-", a, "=", b - a
-    print " "
+    logging.info " "
+    logging.info b, "-", a, "=", b - a
+    logging.info " "
     raw_input("Press Enter key to continue")
     
 #this multiplies two numbers given
 def mul(a,b):
-    print " "
-    print a, "*", b, "=", a * b
-    print " "
+    logging.info " "
+    logging.info a, "*", b, "=", a * b
+    logging.info " "
     raw_input("Press Enter key to continue")
     
 #this divides two numbers givent
 def div(a,b):
-    print " "
-    print a, "/", b, "=", a / b
-    print " "
+    logging.info " "
+    logging.info a, "/", b, "=", a / b
+    logging.info " "
     raw_input("Press Enter key to continue")
     
 #Now the program really starts, as code is run
@@ -60,5 +60,5 @@ while loop == 1:
     elif choice == 5:
         loop = 0
 
-print "Thank you for using Geoff's calculator!"
+logging.info "Thank you for using Geoff's calculator!"
 

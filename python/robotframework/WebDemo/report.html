@@ -260,7 +260,7 @@ th {
 .last-selector th, .last-selector td{
     padding-top: 0.2em;
 }
-#print-selector {
+#logging.info-selector {
     display: none;
 }
 /* Search */
@@ -403,7 +403,7 @@ th.hidden:hover {
     background-color: #DCDCF0;
 }
 </style>
-<style media="print" type="text/css">
+<style media="logging.info" type="text/css">
 body {
     background: white !important;
     padding: 0;
@@ -435,7 +435,7 @@ a:link, a:visited {
 .details-col-header {
     padding: 0;
 }
-#print-selector {
+#logging.info-selector {
     display: table-cell;
 }
 .tablesorter-header {
@@ -1655,7 +1655,7 @@ function totalDetailSelected(name) {
     renderTotalSelector(name);
     if (name) {
         renderTotalDetails(name);
-        updatePrintSelector(name == 'critical' ? 'Critical Tests' : 'All Tests');
+        updatelogging.infoSelector(name == 'critical' ? 'Critical Tests' : 'All Tests');
     }
     scrollToSelector('totals', name);
 }
@@ -1675,10 +1675,10 @@ function renderTotalDetails(name) {
     drawTestDetailsTable(tests, true);
 }
 
-function updatePrintSelector(name, info) {
+function updatelogging.infoSelector(name, info) {
     if (info)
         name += ' (' + info + ')';
-    $('#print-selector').html(name);
+    $('#logging.info-selector').html(name);
 }
 
 function tagDetailSelected(name) {
@@ -1687,7 +1687,7 @@ function tagDetailSelected(name) {
         var tag = findTag(name);
         if (tag) {
             renderTagDetails(tag);
-            updatePrintSelector(name, tag.info);
+            updatelogging.infoSelector(name, tag.info);
         }
     }
     scrollToSelector('tags', name);
@@ -1737,7 +1737,7 @@ function renderSuiteDetails(id) {
         var opts = {logURL: window.settings.logURL};
         $.tmpl('suiteDetailsTemplate', suite, opts).appendTo('#details-header');
         drawTestDetailsTable(suite.allTests(), false);
-        updatePrintSelector(suite.fullName);
+        updatelogging.infoSelector(suite.fullName);
     });
 }
 
@@ -2034,7 +2034,7 @@ function hideHiddenDetailsColumns(elem) {
                {{if selected == 'all'}}checked="checked"{{/if}}>
         <label for="radio-all">All Tests</label>
       </td>
-      <td id="print-selector"></td>
+      <td id="logging.info-selector"></td>
     </tr>
   </table>
 </script>
@@ -2055,7 +2055,7 @@ function hideHiddenDetailsColumns(elem) {
           {{/each}}
         </select>
       </td>
-      <td id="print-selector"></td>
+      <td id="logging.info-selector"></td>
     </tr>
   </table>
 </script>
@@ -2076,7 +2076,7 @@ function hideHiddenDetailsColumns(elem) {
           {{/each}}
         </select>
       </td>
-      <td id="print-selector"></td>
+      <td id="logging.info-selector"></td>
     </tr>
   </table>
 </script>
@@ -2196,12 +2196,12 @@ function hideHiddenDetailsColumns(elem) {
               <tr>
                 <td>*</td>
                 <td>Matches anything, even an empty string.</td>
-                <td>f*<br>sprint-*</td>
+                <td>f*<br>slogging.info-*</td>
               </tr>
               <tr>
                 <td>?</td>
                 <td>Matches any single character.</td>
-                <td>f??<br>sprint-1?</td>
+                <td>f??<br>slogging.info-1?</td>
               </tr>
               <tr>
                 <td>AND</td>

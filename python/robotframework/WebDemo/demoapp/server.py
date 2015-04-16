@@ -31,12 +31,12 @@ class DemoServer(TCPServer):
 
     def serve(self, directory=ROOT):
         chdir(directory)
-        print 'Demo server starting on port %d.' % self.server_address[1]
+        logging.info 'Demo server starting on port %d.' % self.server_address[1]
         try:
             server.serve_forever()
         except KeyboardInterrupt:
             server.server_close()
-        print 'Demo server stopped.'
+        logging.info 'Demo server stopped.'
 
 
 if __name__ == '__main__':
@@ -44,6 +44,6 @@ if __name__ == '__main__':
     try:
         server = DemoServer(*sys.argv[1:])
     except (TypeError, ValueError):
-        print __doc__
+        logging.info __doc__
     else:
         server.serve()
