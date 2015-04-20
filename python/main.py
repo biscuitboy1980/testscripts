@@ -26,9 +26,7 @@ def GetPorts():
     coms = Utils().get_com_ports()
     coms = json.dumps(coms)
     coms = re.findall ( '\(([A-Z]{3}[\d]{1})\)', coms, re.DOTALL) #looks for all items inside () with 3 upper case alpha characters and at least 1 number character
-    coms = Utils().isInAlphabeticalOrder(coms)
-    print coms
-    time.sleep(15)
+    coms = sorted(coms)
     return coms
 
 
@@ -49,88 +47,96 @@ def Configure(coms):
     print("Which COM port is your transmit port?")
     print
     num = 0
-
-    time.sleep(10)
-
     for e in coms:
-        print e
+        num = num + 1
+        print str(num) + ". " + e
 
-    #answer = raw_input("Make your choice: ")
-    #if answer == "1":
-    #    txcom = 0
-    #if answer == "2":
-    #    txcom = 4
-    #if answer == "3":
-    #    txcom = 5
-    #os.system("cls")
-    #time.sleep(0.25)
-
-    print("Which COM port is your receive port?")
     print
-    print("1. COM1")
-    print("2. COM5")
-    print("3. COM6")
-    answer = raw_input("Make your choice: ")
-    if answer == "1":
-        rxcom = 0
-    if answer == "2":
-        rxcom = 4
-    if answer == "3":
-        rxcom = 5
-    os.system("cls")
-    time.sleep(0.25)
+    time.sleep(15)
 
-    baud = raw_input("Enter the baud rate: ")
-    print
-    os.system("cls")
-    time.sleep(0.25)
 
-    repeat = raw_input("Enter # of iterations you want to execute: ")
-    os.system("cls")
-    time.sleep(0.25)
+#    answer = raw_input("Make your choice: ")
+#    if answer == "1":
+#        txcom = 0
+#    if answer == "2":
+#        txcom = 4
+#    if answer == "3":
+#        txcom = 5
+#    os.system("cls")
+#    time.sleep(0.25)
 
-    print "Test will be run with the following settings"
-    print "Transmit port = COM" + str(txcom + 1)
-    print "Receive port = COM" + str(rxcom + 1)
-    print "Baud Rate = " + str(baud)
-    print "Iterations = " + str(repeat)
-    print
-    answer = raw_input("Do you want to start the test with these settings? Y/N: ")
-    if answer == "y":
-        return [txcom, rxcom, baud, repeat]
-    if answer == "n":
-        os.system("cls")
-        Configure()
+#    print("Which COM port is your receive port?")
+#    print
+#    for d in coms():
+#        num = 0 + 1
+#        print str(num) + ". " + d
+#        rxcom = d
+#        return d
 
-def StartTest(logfile):
+#    print
+#    answer = raw_input("Make your choice: ")
+#    if answer == "1":
+#        rxcom = 0
+#    if answer == "2":
+#        rxcom = 4
+#    if answer == "3":
+#        rxcom = 5
+#    os.system("cls")
+#    time.sleep(0.25)
 
-    passed, failed, iterations = Utils().SendSerial(int(txcom), int(rxcom), "U"*256, int(repeat), int(baud))
+#    print
+#    baud = raw_input("Enter the baud rate: ")
+#    print
+#    os.system("cls")
+#    time.sleep(0.25)
 
-    if passed == 0:
-        logging.warn("All tests failed")
-        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests failed", logfile)
-        result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
-        if result == 10:
-            SerialTest()
-        else:
-            Utils().openFile(logfile)
-    elif failed == 0:
-        logging.info("All tests passed")
-        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests passed", logfile)
-        result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
-        Utils().openFile(logfile)
-    else:
-        num = Utils().Percentage(passed,iterations)
-        logging.warn(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)")
-        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", num + "% of tests passed", logfile)
-        result = Utils().MsgBox(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)", "Results", 5, 1)
-        if result == 4:
-            SerialTest()
-        else:
-            Utils().openFile(logfile)
+#    print
+#    repeat = raw_input("Enter # of iterations you want to execute: ")
+#    os.system("cls")
+#    time.sleep(0.25)
+
+#    print "Test will be run with the following settings"
+#    print "Transmit port = COM" + str(txcom + 1)
+#    print "Receive port = COM" + str(rxcom + 1)
+#    print "Baud Rate = " + str(baud)
+#    print "Iterations = " + str(repeat)
+#    print
+#    answer = raw_input("Do you want to start the test with these settings? Y/N: ")
+#    if answer == "y":
+#        return [txcom, rxcom, baud, repeat]
+#    if answer == "n":
+#        os.system("cls")
+#        Configure()
+
+#def StartTest(logfile):
+
+#    passed, failed, iterations = Utils().SendSerial(int(txcom), int(rxcom), "U"*256, int(repeat), int(baud))
+
+#    if passed == 0:
+#        logging.warn("All tests failed")
+#        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests failed", logfile)
+#        result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
+#        if result == 10:
+#            SerialTest()
+#        else:
+#            Utils().openFile(logfile)
+#    elif failed == 0:
+#        logging.info("All tests passed")
+#        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests passed", logfile)
+#        result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
+#        Utils().openFile(logfile)
+#    else:
+#        num = Utils().Percentage(passed,iterations)
+#        logging.warn(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)")
+#        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", num + "% of tests passed", logfile)
+#        result = Utils().MsgBox(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)", "Results", 5, 1)
+#        if result == 4:
+#            SerialTest()
+#        else:
+#            Utils().openFile(logfile)
 
 
 logfile = Setup()
 coms = GetPorts()
 txcom, rxcom, baud, repeat = Configure(coms)
-StartTest(logfile)
+#StartTest(logfile)
