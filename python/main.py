@@ -1,40 +1,136 @@
 from CommonUtils import Utils
+#from GUI import SetupSerial
+
+import Tkinter
+from Tkinter import *
+import time
+import re
 import operator 
 import logging
-import time
+import sys
+import os
+import json
 
-now = Utils().datetimenow(1)
-logfile = "C:/Temp/testing/python_log_" + now + ".log"
+#def option_changed(*args):
+#        print "the user chose the value {}".format(GUI().txcom.get())
 
-#Utils().Logger(logfile)
+def Setup():
 
-Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests passed", "C:/Temp/testing/python_log_20150416_124243.log")
+    now = Utils().datetimenow(1)
+    logfile = "C:/Temp/testing/python_log_" + now + ".log"
+    Utils().Logger(logfile)
+    return logfile
 
-#def SerialTest():
-#    passed, failed, iterations = Utils().SendSerial(0, 5, "U"*256, 2, 9600)
+def GetPorts():
 
-#    if passed == 0:
-#        logging.warn("All tests failed")
-#        result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
-#        if result == 10:
-#            SerialTest()
-#        else:
-#            Utils().openFile(logfile)
-#    elif failed == 0:
-#        logging.info("All tests passed")
-#        result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
-#        Utils().openFile(logfile)
-#    else:
-#        num = Utils().Percentage(passed,iterations)
-#        logging.warn(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)")
-#        result = Utils().MsgBox(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)", "Results", 5, 1)
-#        if result == 4:
-#            SerialTest()
-#        else:
-#            Utils().openFile(logfile)
+    coms = Utils().get_com_ports()
+    coms = json.dumps(coms)
+    coms = re.findall ( '\(([A-Z]{3}[\d]{1})\)', coms, re.DOTALL) #looks for all items inside () with 3 upper case alpha characters and at least 1 number character
+    coms = Utils().isInAlphabeticalOrder(coms)
+    print coms
+    time.sleep(15)
+    return coms
 
 
-#SerialTest()
+def Configure(coms):
+    print
+    print
+    print
+    print
+    print
+    print
+    print
+    print('{:^80}'.format("******************************"))
+    print('{:^80}'.format("Welcome to Geoff's serial test"))
+    print('{:^80}'.format("******************************"))
+    time.sleep(1.5)
+    os.system("cls")
+
+    print("Which COM port is your transmit port?")
+    print
+    num = 0
+
+    time.sleep(10)
+
+    for e in coms:
+        print e
+
+    #answer = raw_input("Make your choice: ")
+    #if answer == "1":
+    #    txcom = 0
+    #if answer == "2":
+    #    txcom = 4
+    #if answer == "3":
+    #    txcom = 5
+    #os.system("cls")
+    #time.sleep(0.25)
+
+    print("Which COM port is your receive port?")
+    print
+    print("1. COM1")
+    print("2. COM5")
+    print("3. COM6")
+    answer = raw_input("Make your choice: ")
+    if answer == "1":
+        rxcom = 0
+    if answer == "2":
+        rxcom = 4
+    if answer == "3":
+        rxcom = 5
+    os.system("cls")
+    time.sleep(0.25)
+
+    baud = raw_input("Enter the baud rate: ")
+    print
+    os.system("cls")
+    time.sleep(0.25)
+
+    repeat = raw_input("Enter # of iterations you want to execute: ")
+    os.system("cls")
+    time.sleep(0.25)
+
+    print "Test will be run with the following settings"
+    print "Transmit port = COM" + str(txcom + 1)
+    print "Receive port = COM" + str(rxcom + 1)
+    print "Baud Rate = " + str(baud)
+    print "Iterations = " + str(repeat)
+    print
+    answer = raw_input("Do you want to start the test with these settings? Y/N: ")
+    if answer == "y":
+        return [txcom, rxcom, baud, repeat]
+    if answer == "n":
+        os.system("cls")
+        Configure()
+
+def StartTest(logfile):
+
+    passed, failed, iterations = Utils().SendSerial(int(txcom), int(rxcom), "U"*256, int(repeat), int(baud))
+
+    if passed == 0:
+        logging.warn("All tests failed")
+        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests failed", logfile)
+        result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
+        if result == 10:
+            SerialTest()
+        else:
+            Utils().openFile(logfile)
+    elif failed == 0:
+        logging.info("All tests passed")
+        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests passed", logfile)
+        result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
+        Utils().openFile(logfile)
+    else:
+        num = Utils().Percentage(passed,iterations)
+        logging.warn(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)")
+        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", num + "% of tests passed", logfile)
+        result = Utils().MsgBox(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)", "Results", 5, 1)
+        if result == 4:
+            SerialTest()
+        else:
+            Utils().openFile(logfile)
 
 
-
+logfile = Setup()
+coms = GetPorts()
+txcom, rxcom, baud, repeat = Configure(coms)
+StartTest(logfile)

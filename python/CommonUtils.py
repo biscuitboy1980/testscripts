@@ -71,17 +71,16 @@ class Utils(object):
                     msg.attach(MIMEText(body,'plain'))
 
                     #Attachment
+                    #filename = "C:/Temp/testing/python_log_20150416_124243.txt"
+                    #f = file(filename)
+                    #attachment = MIMEText(f.read())
+                    #attachment.add_header('Content-Disposition', 'attachment', filename=filename)           
+                    #msg.attach(attachment)
+
                     f = file(attach)
                     attachment = MIMEText(f.read())
                     attachment.add_header('Content-Disposition', 'attachment', filename=attach)           
                     msg.attach(attachment)
-
-                    #for file in attach:
-                    #    # Open the files in binary mode.  Let the MIMEImage class automatically
-                    #    # guess the specific image type.
-                    #    with open(file, 'rb') as fp:
-                    #        log = MIMEImage(fp.read())
-                    #    msg.attach(log)
 
                     # Import smtplib for the actual sending function
                     server = smtplib.SMTP(server + ":" + port)
@@ -185,7 +184,7 @@ class Utils(object):
                 logging.info("*****Finish*****")
                 logging.info("****************") 
   
-                failed = failed + 1 #test code
+                #failed = failed + 1 #test code
 
                 return [passed, failed, cycles]
            
@@ -247,3 +246,11 @@ class Utils(object):
             else:
                 now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 return now
+
+
+        def get_com_ports(self):
+
+            import serial.tools.list_ports
+
+            coms = (list(serial.tools.list_ports.comports()))
+            return coms
