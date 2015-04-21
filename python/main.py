@@ -22,11 +22,16 @@ def Setup():
     return logfile
 
 def GetPorts():
+        
+    import serial.tools.list_ports
 
-    coms = Utils().get_com_ports()
+    coms = (list(serial.tools.list_ports.comports()))
     coms = json.dumps(coms)
-    coms = re.findall ( '\(([A-Z]{3}[\d]{1})\)', coms, re.DOTALL) #looks for all items inside () with 3 upper case alpha characters and at least 1 number character
-    coms = sorted(coms)
+    coms = re.findall ( '\(([A-Z]{3}[\d]{1,2})\)', coms, re.DOTALL) #looks for all items inside () with 3 upper case alpha characters and at least 1 number character
+    #coms = sorted(coms)
+    coms = Utils().natural_sort(coms)
+    mydict = dict(enumerate(line.strip() for line in coms))
+    print mydict
     return coms
 
 
@@ -50,20 +55,18 @@ def Configure(coms):
     for e in coms:
         num = num + 1
         print str(num) + ". " + e
-
     print
-    time.sleep(15)
-
-
-#    answer = raw_input("Make your choice: ")
-#    if answer == "1":
-#        txcom = 0
-#    if answer == "2":
-#        txcom = 4
-#    if answer == "3":
-#        txcom = 5
-#    os.system("cls")
-#    time.sleep(0.25)
+    answer = raw_input("Make your choice: ")
+    txcom = answer
+    txcom == coms.index
+    if answer == "1":
+        txcom = 0
+    if answer == "2":
+        txcom = 4
+    if answer == "3":
+        txcom = 5
+    os.system("cls")
+    time.sleep(0.25)
 
 #    print("Which COM port is your receive port?")
 #    print

@@ -248,9 +248,10 @@ class Utils(object):
                 return now
 
 
-        def get_com_ports(self):
+        def natural_sort(self, items): 
 
-            import serial.tools.list_ports
+            import re
 
-            coms = (list(serial.tools.list_ports.comports()))
-            return coms
+            convert = lambda text: int(text) if text.isdigit() else text.lower() 
+            alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
+            return sorted(items, key = alphanum_key)
