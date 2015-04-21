@@ -56,17 +56,21 @@ def Configure(coms, comsdict):
         print str(num) + ". " + e
     print
     answer = raw_input("Make your choice: ")
-    answer = int(answer) - 1
-    comsdictkey = answer
-    answer = comsdict.get(answer)
-    txcomname = answer
-    del comsdict[comsdictkey]
-    coms.remove(answer)
-    comsdict = dict(enumerate(line.strip() for line in coms)) #updates coms dictionary
-    answer = re.sub("\D", "", answer)
-    txcom = int(answer)-1
-    os.system("cls")
-    time.sleep(0.25)
+    try:
+        answer = int(answer) - 1
+    except ValueError:
+        logging.error("You must enter one of the numbers displayed as an option")
+    else:
+        comsdictkey = answer
+        answer = comsdict.get(answer)
+        txcomname = answer
+        del comsdict[comsdictkey]
+        coms.remove(answer)
+        comsdict = dict(enumerate(line.strip() for line in coms)) #updates coms dictionary
+        answer = re.sub("\D", "", answer)
+        txcom = int(answer)-1
+        os.system("cls")
+        time.sleep(0.25)
 
     print("Which COM port is your receive port?")
     print
@@ -76,24 +80,38 @@ def Configure(coms, comsdict):
         print str(num) + ". " + e
     print
     answer = raw_input("Make your choice: ")
-    answer = int(answer) - 1
-    answer = comsdict.get(answer)
-    rxcomname = answer
-    answer = re.sub("\D", "", answer)
-    rxcom = int(answer)-1
-    os.system("cls")
-    time.sleep(0.25)
+    try:
+        answer = int(answer) - 1
+    except ValueError:
+        logging.error("You must enter one of the numbers displayed as an option")
+    else:
+        answer = comsdict.get(answer)
+        rxcomname = answer
+        answer = re.sub("\D", "", answer)
+        rxcom = int(answer)-1
+        os.system("cls")
+        time.sleep(0.25)
 
     print
     baud = raw_input("Enter the baud rate: ")
     print
-    os.system("cls")
-    time.sleep(0.25)
+    try:
+        int(baud)
+    except ValueError:
+        logging.error("You must enter a valid baud rate using numbers only")
+    else:
+        os.system("cls")
+        time.sleep(0.25)
 
     print
     repeat = raw_input("Enter # of iterations you want to execute: ")
-    os.system("cls")
-    time.sleep(0.25)
+    try:
+        int(repeat)
+    except ValueError:
+        logging.error("You must enter a valid number of iterations using numbers only")
+    else:
+        os.system("cls")
+        time.sleep(0.25)
 
     print "Test will be run with the following settings"
     print "Transmit port = " + txcomname
