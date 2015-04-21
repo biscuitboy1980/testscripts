@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e7113237-c2bf-4377-ae13-50e2b5dc2a39}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>SerialTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,7 @@
     <Compile Include="CommonUtils.py" />
     <Compile Include="GCalculator.py" />
     <Compile Include="GCalculatorConsole.py" />
-    <Compile Include="main.py" />
+    <Compile Include="SerialTest.py" />
     <Compile Include="robotframework\WebDemo\demoapp\server.py" />
     <Compile Include="setup.py" />
     <Compile Include="GUI.py" />

@@ -248,7 +248,7 @@ class Utils(object):
                 return now
 
 
-        def natural_sort(self, items): 
+        def natural_sort(self, items): # Performs a natural sort on items with letter and numbers (i.e. COM1, COM2, COM10)
 
             import re
 
