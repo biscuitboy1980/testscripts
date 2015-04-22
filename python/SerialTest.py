@@ -1,6 +1,5 @@
 from CommonUtils import Utils
 from config import *
-#from GUI import SetupSerial
 
 import time
 import re
