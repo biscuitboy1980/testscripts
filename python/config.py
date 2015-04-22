@@ -1,0 +1,5 @@
+EMAIL_SERVER = "smtp.gmail.com"
+EMAIL_PORT = "587"
+EMAIL_FROM = "geoff.guenther@powerbyproxi.com"
+EMAIL_TO = "geoff.guenther@powerbyproxi.com"
+EMAIL_PASSWORD = "Gunner2015"

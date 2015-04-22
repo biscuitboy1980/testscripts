@@ -16,6 +16,8 @@
     <InterpreterVersion>2.7</InterpreterVersion>
     <IsWindowsApplication>False</IsWindowsApplication>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <CommandLineArguments>
+    </CommandLineArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -35,6 +37,7 @@
     <Compile Include="WhileLoop.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="config.py" />
     <Content Include="robotframework\WebDemo\demoapp\html\demo.css" />
     <Content Include="robotframework\WebDemo\demoapp\html\error.html" />
     <Content Include="robotframework\WebDemo\demoapp\html\index.html" />

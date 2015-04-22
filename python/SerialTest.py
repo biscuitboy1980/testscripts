@@ -1,8 +1,7 @@
 from CommonUtils import Utils
+from config import *
 #from GUI import SetupSerial
 
-import Tkinter
-from Tkinter import *
 import time
 import re
 import operator 
@@ -10,29 +9,65 @@ import logging
 import sys
 import os
 import json
+import argparse
+from argparse import RawTextHelpFormatter
 
-#def option_changed(*args):
-#        print "the user chose the value {}".format(GUI().txcom.get())
 
 def Setup():
-
+    # gets current date/time
     now = Utils().datetimenow(1)
-    logfile = "C:/Temp/testing/python_log_" + now + ".log"
-    Utils().Logger(logfile)
-    return logfile
 
+    # specifies logfile name
+    logfile = "C:/Temp/SerialTest_" + now + ".log"
+
+    # checks to see if logfile directory exists and creates it if not
+    dir = os.path.dirname(logfile)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+
+    # creates logfile
+    Utils().Logger(logfile)
+
+    # defines options/arguments
+    parser = argparse.ArgumentParser(description="Serial Test Options")
+    parser.add_argument("-e","--email", help="sends an email using the parameters in config.py", action="store_true", required=False)
+    parser.add_argument("-t","--transmit", help="configures the transmit COM port", required=False)
+    parser.add_argument("-r","--receive", help="configures the receive COM port", required=False)
+    parser.add_argument("-b","--baud", help="configures the baud rate", required=False)
+    parser.add_argument("-i","--iterations", help="configures the number of iterations to run", required=False)
+    args = parser.parse_args()
+
+    # puts options/arguments into variables
+    txcom = args.transmit
+    rxcom = args.receive
+    baud = args.baud
+    repeat = args.iterations
+    email = args.email
+
+
+    # gets email configuration from config.py and puts into variables
+    server = EMAIL_SERVER
+    port = EMAIL_PORT
+    frm = EMAIL_FROM
+    to = EMAIL_TO
+    pwd = EMAIL_PASSWORD
+
+    return [logfile, email, server, port, to, pwd, frm, txcom, rxcom, baud, repeat]
+
+# gets serial ports on system and puts in dictionary and list
 def GetPorts():
         
     import serial.tools.list_ports
 
-    coms = (list(serial.tools.list_ports.comports())) #gets configured serial ports on the system
+    # gets configured serial ports of the system
+    coms = (list(serial.tools.list_ports.comports()))
     coms = json.dumps(coms)
-    coms = re.findall ( '\(([A-Z]{3}[\d]{1,2})\)', coms, re.DOTALL) #looks for all items inside () with 3 upper case alpha characters and at least 1 number character
-    #coms = sorted(coms)
-    coms = Utils().natural_sort(coms)
-    comsdict = dict(enumerate(line.strip() for line in coms)) #puts coms in a dictionary
-    return [coms, comsdict]
 
+    # looks for all items inside () with 3 upper case alpha characters followed by at least 1 number character and sorts and puts in dictionary
+    coms = re.findall ( '\(([A-Z]{3}[\d]{1,2})\)', coms, re.DOTALL)
+    coms = Utils().natural_sort(coms)
+    comsdict = dict(enumerate(line.strip() for line in coms))
+    return [coms, comsdict]
 
 def Configure(coms, comsdict):
     print
@@ -127,13 +162,14 @@ def Configure(coms, comsdict):
         os.system("cls")
         Configure()
 
-def StartTest(logfile):
+def StartTest(logfile, email, server, port, to, pwd, frm):
 
     passed, failed, iterations = Utils().SendSerial(int(txcom), int(rxcom), "U"*256, int(repeat), int(baud))
-
+    
     if passed == 0:
         logging.warn("All tests failed")
-        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests failed", logfile)
+        if email == True:
+            Utils().SendEmail(server, port, frm, to, pwd,"Test Results", "All tests failed", logfile)
         result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
         if result == 10:
             SerialTest()
@@ -141,21 +177,23 @@ def StartTest(logfile):
             Utils().openFile(logfile)
     elif failed == 0:
         logging.info("All tests passed")
-        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Test Results", "All tests passed", logfile)
+        if email == True:
+            Utils().SendEmail(server, port, frm, to, pwd, "Test Results", "All tests passed", logfile)
         result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
         Utils().openFile(logfile)
     else:
         num = Utils().Percentage(passed,iterations)
         logging.warn(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)")
-        Utils().SendEmail("smtp.gmail.com", "587", "geoff.guenther@powerbyproxi.com", "geoff.guenther@powerbyproxi.com", "Gunner2015", "Serial Test Results", num + "% of tests passed", logfile)
+        if email == True:
+            Utils().SendEmail(server, port, frm, to, pwd, "Serial Test Results", num + "% of tests passed", logfile)
         result = Utils().MsgBox(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)", "Results", 5, 1)
         if result == 4:
             SerialTest()
         else:
             Utils().openFile(logfile)
 
-
-logfile = Setup()
+logfile, email, server, port, to, pwd, frm, txcom, rxcom, baud, repeat = Setup()
 coms, comsdict = GetPorts()
-txcom, rxcom, baud, repeat = Configure(coms, comsdict)
-StartTest(logfile)
+if txcom == None or rxcom == None or baud == None or repeat == None:
+    txcom, rxcom, baud, repeat = Configure(coms, comsdict)
+StartTest(logfile, email, server, port, to, pwd, frm)
