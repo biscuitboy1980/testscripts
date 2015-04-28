@@ -20,28 +20,28 @@ def add(a,b):
     logging.info " "
     logging.info a, "+", b, "=", a + b
     logging.info " "
-    raw_input("Press Enter key to continue")
+    input("Press Enter key to continue")
 
 #this subtracts two numbers given
 def sub(a,b):
     logging.info " "
     logging.info b, "-", a, "=", b - a
     logging.info " "
-    raw_input("Press Enter key to continue")
+    input("Press Enter key to continue")
     
 #this multiplies two numbers given
 def mul(a,b):
     logging.info " "
     logging.info a, "*", b, "=", a * b
     logging.info " "
-    raw_input("Press Enter key to continue")
+    input("Press Enter key to continue")
     
 #this divides two numbers givent
 def div(a,b):
     logging.info " "
     logging.info a, "/", b, "=", a / b
     logging.info " "
-    raw_input("Press Enter key to continue")
+    input("Press Enter key to continue")
     
 #Now the program really starts, as code is run
 

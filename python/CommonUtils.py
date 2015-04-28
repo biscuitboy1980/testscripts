@@ -34,7 +34,7 @@ class Utils(object):
                 #### 5.  RETRY/CANCEL ####
                 #### 6.  CANCEL/TRY AGAIN/CONTINUE ####
 
-                msgbox = ctypes.windll.user32.MessageBoxA
+                msgbox = ctypes.windll.user32.MessageBoxW
                 result = msgbox(None, message, title, type | ico) 
 
                 #### Return Values ####
@@ -55,8 +55,8 @@ class Utils(object):
 
 
                 # Import the email modules we'll need
-                from email.MIMEMultipart import MIMEMultipart
-                from email.MIMEText import MIMEText
+                from email.mime.multipart import MIMEMultipart
+                from email.mime.text import MIMEText
                 import smtplib
 
                 try:
@@ -77,7 +77,7 @@ class Utils(object):
                     #attachment.add_header('Content-Disposition', 'attachment', filename=filename)           
                     #msg.attach(attachment)
 
-                    f = file(attach)
+                    f = open(attach)
                     attachment = MIMEText(f.read())
                     attachment.add_header('Content-Disposition', 'attachment', filename=attach)           
                     msg.attach(attachment)
@@ -92,7 +92,7 @@ class Utils(object):
                     server.sendmail(fromaddr,toaddr,text)
                     logging.info("successfully sent email to " + toaddr)
 
-                except:
+                except ValueError:
                     logging.error("failed to send email to " + toaddr)
         
                     
@@ -156,12 +156,15 @@ class Utils(object):
                 while cnt < cycles:
 
                     #Send tx data
-                    ser1.write(txdata)
+                    ser1.write(txdata.encode())
                     #logging.info "sending " + txdata
 
+                    import time
 
                     #Read tx data
                     rxdata = ser2.readline()
+                    if rxdata != None:
+                        rxdata = (bytes.decode(rxdata))
                     #logging.info "received " + rxdata
 
                 
@@ -255,3 +258,17 @@ class Utils(object):
             convert = lambda text: int(text) if text.isdigit() else text.lower() 
             alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
             return sorted(items, key = alphanum_key)
+
+        def inplace_change(self, filename, old_string, new_string):
+
+            import time
+            
+            s=open(filename).read()
+            if old_string in s:
+                    s=s.replace(old_string, new_string)
+                    f=open(filename, 'w')
+                    f.write(s)
+                    f.flush()
+                    f.close()
+            else:
+                    print("No occurances of " + old_string + " found.").format(**locals())

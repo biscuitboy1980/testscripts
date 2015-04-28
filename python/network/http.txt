@@ -1,0 +1,11 @@
+*** Settings ***
+Documentation     A test suite with that navigates the powerbyproxi web page.
+...
+...               This test has a workflow that is created using keywords in
+...               the imported resource file.
+Resource          resource.txt
+
+*** Test Cases ***
+Navigate
+    :FOR  ${index}  IN RANGE  0  1
+	\	Navigate PowerbyProxi

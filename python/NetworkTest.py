@@ -2,13 +2,15 @@ from CommonUtils import Utils
 from config import *
 
 import time
-import re
-import operator 
 import logging
 import sys
 import os
-import json
+import re
 import argparse
+import socket
+import webbrowser
+import fileinput
+import subprocess
 from argparse import RawTextHelpFormatter
 
 
@@ -30,12 +32,14 @@ def Setup():
     # defines options/arguments
     parser = argparse.ArgumentParser(description="Network Test Options")
     parser.add_argument("-e","--email", help="sends an email using the parameters in config.py", action="store_true", required=False)
-    parser.add_argument("-a","--address", help="sets the IP address to send to", required=False)
+    parser.add_argument("-s","--server", help="sets the server IP address", required=False)
+    parser.add_argument("-c","--client", help="sets the client IP address", required=False)
     parser.add_argument("-i","--iterations", help="configures the number of iterations to run", required=False)
     args = parser.parse_args()
 
     # puts options/arguments into variables
-    addr = args.address
+    server_addr = args.server
+    client_addr = args.client
     repeat = args.iterations
     email = args.email
 
@@ -47,99 +51,123 @@ def Setup():
     to = EMAIL_TO
     pwd = EMAIL_PASSWORD
 
-    return [logfile, email, server, port, to, pwd, frm, addr, repeat]
+    return [logfile, email, server, port, to, pwd, frm, server_addr, client_addr, repeat]
 
-# Creates socket connection
-def CreateSocket():
-
-    #create an INET, STREAMing socket
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    #now connect to the web server on port 80
-    # - the normal http port
-    s.connect(("www.google.com", 80))
-
-def Configure(coms, comsdict):
-    print
-    print
-    print
-    print
-    print
-    print
-    print
+def Configure():
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
     print('{:^80}'.format("******************************"))
-    print('{:^80}'.format("Welcome to Geoff's serial test"))
+    print('{:^80}'.format("Welcome to Geoff's network test"))
     print('{:^80}'.format("******************************"))
     time.sleep(1.5)
     os.system("cls")
 
-    print("What IP address do you want to tx/rx data to?")
-    print
-    print
-    answer = raw_input("Enter IP address: ")
+    print("Enter server IP address")
+    print()
+    print()
+    server_addr = input("Enter IP address: ")
     try:
-        answer = int(answer) - 1
-    except ValueError:
-        logging.error("You must enter one of the numbers displayed as an option")
+        socket.inet_aton(server_addr)
+    except socket.error:
+        logging.error("You must enter a valid IP address")
+        raise SystemExit()
     else:
-        addr = answer
         os.system("cls")
         time.sleep(0.25)
 
-  
-    print
-    repeat = raw_input("Enter # of iterations you want to execute: ")
+    
+    print("Enter client IP address")
+    print()
+    print()
+    client_addr = input("Enter IP address: ")
+    try:
+        socket.inet_aton(client_addr)
+    except socket.error:
+        logging.error("You must enter a valid IP address")
+        raise SystemExit()
+    else:
+        os.system("cls")
+        time.sleep(0.25)
+
+    
+    print()
+    repeat = input("Enter # of iterations you want to execute: ")
     try:
         int(repeat)
     except ValueError:
         logging.error("You must enter a valid number of iterations using numbers only")
+        sys.exit()
     else:
         os.system("cls")
         time.sleep(0.25)
 
-    print "Test will be run with the following settings"
-    print "IP address = " + txcomname
-    print "Iterations = " + str(repeat)
-    print
+    print("Test will be run with the following settings")
+    print("Server address = " + server_addr)
+    print("Server address = " + client_addr)
+    print("Iterations = " + str(repeat))
+    print()
 
-    answer = raw_input("Do you want to start the test with these settings? Y/N: ")
+    answer = input("Do you want to start the test with these settings? Y/N: ")
     if answer == "y":
-        return [addr, repeat]
+        return [server_addr, client_addr, repeat]
     if answer == "n":
         os.system("cls")
         Configure()
 
-#def StartTest(logfile, email, server, port, to, pwd, frm):
+def NavigateHTTP(logfile, email, server, port, to, pwd, frm, repeat):
 
-#    passed, failed, iterations = Utils().SendSerial(int(txcom), int(rxcom), "U"*256, int(repeat), int(baud))
+    f1 = os.path.realpath("network/http.txt")
+    pybot = os.path.realpath("robotframework/pybot.bat " + f1)
+
+    textfile = open(f1, 'r')
+    filetext = textfile.read()
+    textfile.close()
+    match = re.findall("[A-Z]{2}\s[A-Z]{5}\s\s\d\s\s+[\d]{1,5}", filetext)
+    match = "".join(match)    
+
+    Utils().inplace_change(f1, match, "IN RANGE  0  " + repeat)
+    # Runs http test
+    #result = os.system("pybot ./network/http.txt")
+    result = subprocess.check_output(pybot, shell=True)
+    logging.info(result)
+
+def Throughput(server_addr, client_addr):
+
+    server_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -s -B " + server_addr
+    client_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -c " + client_addr + " -B " + server_addr
+
+    #sresult = subprocess.check_output("C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -s -B " + server_addr)
+    #time.sleep(1)
+    cresult = subprocess.check_output("C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -c " + client_addr + " -B " + server_addr)
+    time.sleep(1)
+    logging.info(sresult)
+    logging.info(cresult)
+
+    PROCNAME = 'iperf.exe'
+    for proc in psutil.process_iter():
+        try:
+            if proc.name == PROCNAME:
+                p = psutil.Process(proc.pid)
+        except:
+            pass
+
+
     
-#    if passed == 0:
-#        logging.warn("All tests failed")
-#        if email == True:
-#            Utils().SendEmail(server, port, frm, to, pwd,"Test Results", "All tests failed", logfile)
-#        result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
-#        if result == 10:
-#            SerialTest()
-#        else:
-#            Utils().openFile(logfile)
-#    elif failed == 0:
-#        logging.info("All tests passed")
-#        if email == True:
-#            Utils().SendEmail(server, port, frm, to, pwd, "Test Results", "All tests passed", logfile)
-#        result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
-#        Utils().openFile(logfile)
-#    else:
-#        num = Utils().Percentage(passed,iterations)
-#        logging.warn(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)")
-#        if email == True:
-#            Utils().SendEmail(server, port, frm, to, pwd, "Serial Test Results", num + "% of tests passed", logfile)
-#        result = Utils().MsgBox(str(passed) + " out of " + str(iterations) + " of the run tests passed (" + str(num) + "%)", "Results", 5, 1)
-#        if result == 4:
-#            SerialTest()
-#        else:
-#            Utils().openFile(logfile)
 
-logfile, email, server, port, to, pwd, frm, addr, repeat = Setup()
- = CreateSocket()
-if addr == None or repeat == None:
-    txcom, rxcom, baud, repeat = Configure(addr)
-#StartTest(logfile, email, server, port, to, pwd, frm)
+
+
+
+
+
+
+
+logfile, email, server, port, to, pwd, frm, server_addr, client_addr, repeat = Setup()
+if server_addr == None or client_addr == None or repeat == None:
+    server_addr, client_addr, repeat = Configure()
+#NavigateHTTP(logfile, email, server, port, to, pwd, frm, repeat)
+Throughput(server_addr, client_addr)

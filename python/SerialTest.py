@@ -69,13 +69,13 @@ def GetPorts():
     return [coms, comsdict]
 
 def Configure(coms, comsdict):
-    print
-    print
-    print
-    print
-    print
-    print
-    print
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
     print('{:^80}'.format("******************************"))
     print('{:^80}'.format("Welcome to Geoff's serial test"))
     print('{:^80}'.format("******************************"))
@@ -83,13 +83,13 @@ def Configure(coms, comsdict):
     os.system("cls")
 
     print("Which COM port is your transmit port?")
-    print
+    print()
     num = 0
     for e in coms:
         num = num + 1
-        print str(num) + ". " + e
-    print
-    answer = raw_input("Make your choice: ")
+        print(str(num) + ". " + e)
+    print()
+    answer = input("Which COM port is your transmit port: ")
     try:
         answer = int(answer) - 1
     except ValueError:
@@ -107,13 +107,13 @@ def Configure(coms, comsdict):
         time.sleep(0.25)
 
     print("Which COM port is your receive port?")
-    print
+    print()
     num = 0
     for e in coms:
         num = num + 1
-        print str(num) + ". " + e
-    print
-    answer = raw_input("Make your choice: ")
+        print(str(num) + ". " + e)
+    print()
+    answer = input("Make your choice: ")
     try:
         answer = int(answer) - 1
     except ValueError:
@@ -126,19 +126,27 @@ def Configure(coms, comsdict):
         os.system("cls")
         time.sleep(0.25)
 
-    print
-    baud = raw_input("Enter the baud rate: ")
-    print
+    print()
+    rates = [2400, 4800, 9600, 19200, 38400, 56700, 115200]
+    ratesdict = dict(enumerate(rates))
+    num = 0
+    for e in rates:
+        num = num + 1
+        print(str(num) + ". " + str(e))
+    print()
+    answer = input("Enter the baud rate: ")
     try:
-        int(baud)
+        answer = int(answer) - 1
     except ValueError:
-        logging.error("You must enter a valid baud rate using numbers only")
+        logging.error("You must enter one of the numbers displayed as an option")
     else:
+        answer = ratesdict.get(answer)
+        baud = answer
         os.system("cls")
         time.sleep(0.25)
+    print()
 
-    print
-    repeat = raw_input("Enter # of iterations you want to execute: ")
+    repeat = input("Enter # of iterations you want to execute: ")
     try:
         int(repeat)
     except ValueError:
@@ -147,14 +155,14 @@ def Configure(coms, comsdict):
         os.system("cls")
         time.sleep(0.25)
 
-    print "Test will be run with the following settings"
-    print "Transmit port = " + txcomname
-    print "Receive port = " + rxcomname
-    print "Baud Rate = " + str(baud)
-    print "Iterations = " + str(repeat)
-    print
+    print("Test will be run with the following settings")
+    print("Transmit port = " + txcomname)
+    print("Receive port = " + rxcomname)
+    print("Baud Rate = " + str(baud))
+    print("Iterations = " + str(repeat))
+    print()
 
-    answer = raw_input("Do you want to start the test with these settings? Y/N: ")
+    answer = input("Do you want to start the test with these settings? Y/N: ")
     if answer == "y":
         return [txcom, rxcom, baud, repeat]
     if answer == "n":
@@ -168,7 +176,7 @@ def StartTest(logfile, email, server, port, to, pwd, frm):
     if passed == 0:
         logging.warn("All tests failed")
         if email == True:
-            Utils().SendEmail(server, port, frm, to, pwd,"Test Results", "All tests failed", logfile)
+            Utils().SendEmail(server, port, frm, to, pwd,"Serial Test Results", "All tests failed", logfile)
         result = Utils().MsgBox("All tests failed", "Failure", 1, 4)
         if result == 10:
             SerialTest()
@@ -177,7 +185,7 @@ def StartTest(logfile, email, server, port, to, pwd, frm):
     elif failed == 0:
         logging.info("All tests passed")
         if email == True:
-            Utils().SendEmail(server, port, frm, to, pwd, "Test Results", "All tests passed", logfile)
+            Utils().SendEmail(server, port, frm, to, pwd, "Serial Test Results", "All tests passed", logfile)
         result = Utils().MsgBox("All tests passed", "Passed", 0, 3)
         Utils().openFile(logfile)
     else:
@@ -193,6 +201,9 @@ def StartTest(logfile, email, server, port, to, pwd, frm):
 
 logfile, email, server, port, to, pwd, frm, txcom, rxcom, baud, repeat = Setup()
 coms, comsdict = GetPorts()
-if txcom == None or rxcom == None or baud == None or repeat == None:
+
+# checks to see if values were supplied as command line parameters
+if txcom == None or rxcom == None or baud == None or repeat == None: 
     txcom, rxcom, baud, repeat = Configure(coms, comsdict)
+
 StartTest(logfile, email, server, port, to, pwd, frm)

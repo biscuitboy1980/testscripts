@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20150428 12:04:28.027" generator="Robot 2.8.7 (Python 2.7.9 on win32)">
+<suite source="D:\testscripts\python\network\http.txt" id="s1" name="Http">
+<test id="s1-t1" name="Navigate">
+<kw type="for" name="${index} IN RANGE [ 0 | 3 ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${index} = 0">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="resource.Navigate PowerbyProxi">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="resource.Open Browser to Home Page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Open Browser">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20150428 12:04:28.136" level="INFO">Opening browser 'chrome' to base url 'http://powerbyproxi.com'</msg>
+<status status="PASS" endtime="20150428 12:04:32.107" starttime="20150428 12:04:28.136"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Maximize Browser Window">
+<doc>Maximizes current browser window.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:32.254" starttime="20150428 12:04:32.107"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Set Selenium Speed">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:32.255" starttime="20150428 12:04:32.254"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:32.260" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:32.261" starttime="20150428 12:04:32.255"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:32.261" starttime="20150428 12:04:32.255"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:32.261" starttime="20150428 12:04:28.136"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:32.267" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:32.268" starttime="20150428 12:04:32.262"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:32.268" starttime="20150428 12:04:32.261"></status>
+</kw>
+<kw type="kw" name="resource.Go to Consumer Electronics">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-99"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:32.269" level="INFO">Clicking element 'xpath=//*[@id="menu-item-99"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:32.719" starttime="20150428 12:04:32.269"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Resonant Wireless Power Technology • PowerbyProxi</arg>
+</arguments>
+<msg timestamp="20150428 12:04:32.771" level="INFO">Page title is 'Resonant Wireless Power Technology • PowerbyProxi'.</msg>
+<status status="PASS" endtime="20150428 12:04:32.772" starttime="20150428 12:04:32.720"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:32.772" starttime="20150428 12:04:32.268"></status>
+</kw>
+<kw type="kw" name="resource.Go to Industrial">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-86"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:32.773" level="INFO">Clicking element 'xpath=//*[@id="menu-item-86"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:33.136" starttime="20150428 12:04:32.773"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Wireless / Inductive Power &amp; Charging Solutions • PowerbyProxi</arg>
+</arguments>
+<msg timestamp="20150428 12:04:33.176" level="INFO">Page title is 'Wireless / Inductive Power &amp; Charging Solutions • PowerbyProxi'.</msg>
+<status status="PASS" endtime="20150428 12:04:33.176" starttime="20150428 12:04:33.136"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:33.176" starttime="20150428 12:04:32.772"></status>
+</kw>
+<kw type="kw" name="resource.Go to Products">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-1258"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:33.177" level="INFO">Clicking element 'xpath=//*[@id="menu-item-1258"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:33.377" starttime="20150428 12:04:33.177"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Products • PowerbyProxi • Wireless Power Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:33.405" level="INFO">Page title is 'Products • PowerbyProxi • Wireless Power Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:33.405" starttime="20150428 12:04:33.377"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:33.405" starttime="20150428 12:04:33.177"></status>
+</kw>
+<kw type="kw" name="resource.Go to About">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-82"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:33.406" level="INFO">Clicking element 'xpath=//*[@id="menu-item-82"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:33.560" starttime="20150428 12:04:33.406"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Our Story • PowerbyProxi • Wireless Power Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:33.574" level="INFO">Page title is 'Our Story • PowerbyProxi • Wireless Power Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:33.574" starttime="20150428 12:04:33.560"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:33.574" starttime="20150428 12:04:33.405"></status>
+</kw>
+<kw type="kw" name="resource.Go to Sign In">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-4248"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:33.575" level="INFO">Clicking element 'xpath=//*[@id="menu-item-4248"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:34.445" starttime="20150428 12:04:33.575"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Invitation required</arg>
+</arguments>
+<msg timestamp="20150428 12:04:34.477" level="INFO">Page title is 'Invitation required'.</msg>
+<status status="PASS" endtime="20150428 12:04:34.477" starttime="20150428 12:04:34.445"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:34.477" starttime="20150428 12:04:33.575"></status>
+</kw>
+<kw type="kw" name="resource.Go To Home Page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20150428 12:04:34.478" level="INFO">Opening url 'http://powerbyproxi.com'</msg>
+<status status="PASS" endtime="20150428 12:04:35.096" starttime="20150428 12:04:34.478"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:35.166" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:35.166" starttime="20150428 12:04:35.097"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:35.166" starttime="20150428 12:04:35.097"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:35.166" starttime="20150428 12:04:34.477"></status>
+</kw>
+<kw type="teardown" name="Selenium2Library.Close Browser">
+<doc>Closes the current browser.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:36.263" starttime="20150428 12:04:35.167"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:36.263" starttime="20150428 12:04:28.136"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:36.263" starttime="20150428 12:04:28.136"></status>
+</kw>
+<kw type="foritem" name="${index} = 1">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="resource.Navigate PowerbyProxi">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="resource.Open Browser to Home Page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Open Browser">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20150428 12:04:36.263" level="INFO">Opening browser 'chrome' to base url 'http://powerbyproxi.com'</msg>
+<status status="PASS" endtime="20150428 12:04:40.249" starttime="20150428 12:04:36.263"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Maximize Browser Window">
+<doc>Maximizes current browser window.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:40.393" starttime="20150428 12:04:40.249"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Set Selenium Speed">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:40.394" starttime="20150428 12:04:40.393"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.398" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:40.398" starttime="20150428 12:04:40.394"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:40.398" starttime="20150428 12:04:40.394"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:40.398" starttime="20150428 12:04:36.263"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.401" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:40.402" starttime="20150428 12:04:40.398"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:40.402" starttime="20150428 12:04:40.398"></status>
+</kw>
+<kw type="kw" name="resource.Go to Consumer Electronics">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-99"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.403" level="INFO">Clicking element 'xpath=//*[@id="menu-item-99"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:40.580" starttime="20150428 12:04:40.402"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Resonant Wireless Power Technology • PowerbyProxi</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.593" level="INFO">Page title is 'Resonant Wireless Power Technology • PowerbyProxi'.</msg>
+<status status="PASS" endtime="20150428 12:04:40.593" starttime="20150428 12:04:40.580"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:40.593" starttime="20150428 12:04:40.402"></status>
+</kw>
+<kw type="kw" name="resource.Go to Industrial">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-86"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.594" level="INFO">Clicking element 'xpath=//*[@id="menu-item-86"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:40.774" starttime="20150428 12:04:40.594"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Wireless / Inductive Power &amp; Charging Solutions • PowerbyProxi</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.814" level="INFO">Page title is 'Wireless / Inductive Power &amp; Charging Solutions • PowerbyProxi'.</msg>
+<status status="PASS" endtime="20150428 12:04:40.814" starttime="20150428 12:04:40.775"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:40.815" starttime="20150428 12:04:40.593"></status>
+</kw>
+<kw type="kw" name="resource.Go to Products">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-1258"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:40.815" level="INFO">Clicking element 'xpath=//*[@id="menu-item-1258"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:41.028" starttime="20150428 12:04:40.815"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Products • PowerbyProxi • Wireless Power Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:41.037" level="INFO">Page title is 'Products • PowerbyProxi • Wireless Power Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:41.037" starttime="20150428 12:04:41.028"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:41.038" starttime="20150428 12:04:40.815"></status>
+</kw>
+<kw type="kw" name="resource.Go to About">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-82"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:41.038" level="INFO">Clicking element 'xpath=//*[@id="menu-item-82"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:41.223" starttime="20150428 12:04:41.038"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Our Story • PowerbyProxi • Wireless Power Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:41.240" level="INFO">Page title is 'Our Story • PowerbyProxi • Wireless Power Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:41.240" starttime="20150428 12:04:41.224"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:41.241" starttime="20150428 12:04:41.038"></status>
+</kw>
+<kw type="kw" name="resource.Go to Sign In">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-4248"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:41.241" level="INFO">Clicking element 'xpath=//*[@id="menu-item-4248"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:42.104" starttime="20150428 12:04:41.241"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Invitation required</arg>
+</arguments>
+<msg timestamp="20150428 12:04:42.138" level="INFO">Page title is 'Invitation required'.</msg>
+<status status="PASS" endtime="20150428 12:04:42.138" starttime="20150428 12:04:42.104"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:42.138" starttime="20150428 12:04:41.241"></status>
+</kw>
+<kw type="kw" name="resource.Go To Home Page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20150428 12:04:42.139" level="INFO">Opening url 'http://powerbyproxi.com'</msg>
+<status status="PASS" endtime="20150428 12:04:42.771" starttime="20150428 12:04:42.139"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:42.833" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:42.834" starttime="20150428 12:04:42.772"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:42.834" starttime="20150428 12:04:42.772"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:42.834" starttime="20150428 12:04:42.138"></status>
+</kw>
+<kw type="teardown" name="Selenium2Library.Close Browser">
+<doc>Closes the current browser.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:43.928" starttime="20150428 12:04:42.834"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:43.928" starttime="20150428 12:04:36.263"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:43.928" starttime="20150428 12:04:36.263"></status>
+</kw>
+<kw type="foritem" name="${index} = 2">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="resource.Navigate PowerbyProxi">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="resource.Open Browser to Home Page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Open Browser">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20150428 12:04:43.928" level="INFO">Opening browser 'chrome' to base url 'http://powerbyproxi.com'</msg>
+<status status="PASS" endtime="20150428 12:04:47.902" starttime="20150428 12:04:43.928"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Maximize Browser Window">
+<doc>Maximizes current browser window.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:48.044" starttime="20150428 12:04:47.903"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Set Selenium Speed">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:48.045" starttime="20150428 12:04:48.044"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.050" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.050" starttime="20150428 12:04:48.045"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.050" starttime="20150428 12:04:48.045"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.050" starttime="20150428 12:04:43.928"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.053" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.053" starttime="20150428 12:04:48.050"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.053" starttime="20150428 12:04:48.050"></status>
+</kw>
+<kw type="kw" name="resource.Go to Consumer Electronics">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-99"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.054" level="INFO">Clicking element 'xpath=//*[@id="menu-item-99"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.258" starttime="20150428 12:04:48.054"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Resonant Wireless Power Technology • PowerbyProxi</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.308" level="INFO">Page title is 'Resonant Wireless Power Technology • PowerbyProxi'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.308" starttime="20150428 12:04:48.258"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.308" starttime="20150428 12:04:48.053"></status>
+</kw>
+<kw type="kw" name="resource.Go to Industrial">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-86"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.309" level="INFO">Clicking element 'xpath=//*[@id="menu-item-86"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.453" starttime="20150428 12:04:48.309"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Wireless / Inductive Power &amp; Charging Solutions • PowerbyProxi</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.497" level="INFO">Page title is 'Wireless / Inductive Power &amp; Charging Solutions • PowerbyProxi'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.497" starttime="20150428 12:04:48.453"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.497" starttime="20150428 12:04:48.309"></status>
+</kw>
+<kw type="kw" name="resource.Go to Products">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-1258"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.498" level="INFO">Clicking element 'xpath=//*[@id="menu-item-1258"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.639" starttime="20150428 12:04:48.498"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Products • PowerbyProxi • Wireless Power Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.662" level="INFO">Page title is 'Products • PowerbyProxi • Wireless Power Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.663" starttime="20150428 12:04:48.639"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.663" starttime="20150428 12:04:48.497"></status>
+</kw>
+<kw type="kw" name="resource.Go to About">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-82"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.663" level="INFO">Clicking element 'xpath=//*[@id="menu-item-82"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.837" starttime="20150428 12:04:48.663"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Our Story • PowerbyProxi • Wireless Power Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.851" level="INFO">Page title is 'Our Story • PowerbyProxi • Wireless Power Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:48.852" starttime="20150428 12:04:48.837"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:48.852" starttime="20150428 12:04:48.663"></status>
+</kw>
+<kw type="kw" name="resource.Go to Sign In">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Click Element">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="menu-item-4248"]</arg>
+</arguments>
+<msg timestamp="20150428 12:04:48.852" level="INFO">Clicking element 'xpath=//*[@id="menu-item-4248"]'.</msg>
+<status status="PASS" endtime="20150428 12:04:49.751" starttime="20150428 12:04:48.852"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Invitation required</arg>
+</arguments>
+<msg timestamp="20150428 12:04:49.783" level="INFO">Page title is 'Invitation required'.</msg>
+<status status="PASS" endtime="20150428 12:04:49.784" starttime="20150428 12:04:49.751"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:49.784" starttime="20150428 12:04:48.852"></status>
+</kw>
+<kw type="kw" name="resource.Go To Home Page">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20150428 12:04:49.784" level="INFO">Opening url 'http://powerbyproxi.com'</msg>
+<status status="PASS" endtime="20150428 12:04:50.486" starttime="20150428 12:04:49.784"></status>
+</kw>
+<kw type="kw" name="resource.Home Page Should Be Open">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Selenium2Library.Title Should Be">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions</arg>
+</arguments>
+<msg timestamp="20150428 12:04:50.513" level="INFO">Page title is 'PowerbyProxi • Wireless Power Transfer &amp; Charging Solutions'.</msg>
+<status status="PASS" endtime="20150428 12:04:50.514" starttime="20150428 12:04:50.487"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:50.514" starttime="20150428 12:04:50.486"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:50.514" starttime="20150428 12:04:49.784"></status>
+</kw>
+<kw type="teardown" name="Selenium2Library.Close Browser">
+<doc>Closes the current browser.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20150428 12:04:51.622" starttime="20150428 12:04:50.514"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:51.622" starttime="20150428 12:04:43.928"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:51.622" starttime="20150428 12:04:43.928"></status>
+</kw>
+<status status="PASS" endtime="20150428 12:04:51.622" starttime="20150428 12:04:28.136"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150428 12:04:51.622" critical="yes" starttime="20150428 12:04:28.136"></status>
+</test>
+<doc>A test suite with that navigates the powerbyproxi web page.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20150428 12:04:51.622" starttime="20150428 12:04:28.027"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="Http">Http</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
