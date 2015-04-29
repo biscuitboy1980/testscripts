@@ -259,6 +259,7 @@ class Utils(object):
             alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
             return sorted(items, key = alphanum_key)
 
+
         def inplace_change(self, filename, old_string, new_string):
 
             import time
@@ -272,3 +273,43 @@ class Utils(object):
                     f.close()
             else:
                     print("No occurances of " + old_string + " found.").format(**locals())
+
+
+        def kill_process(self, processname):
+
+            import wmi
+
+            c = wmi.WMI ()
+
+            for process in c.Win32_Process (name="iperf.exe"):
+              print(process.ProcessId, process.Name)
+              result = process.Terminate()
+
+
+        def run_program(self, cmd, logfile):
+            p = subprocess.Popen(cmd, shell=True, universal_newlines=True, stdout=logfile)
+            return p
+
+
+        def run_iperf(self, cmd1, cmd2, port):
+
+            import subprocess
+            import time
+
+            print(port)
+            time.sleep(2)
+
+            try:
+                ## run in parallel
+                server_process = subprocess.Popen(cmd1, stdout=subprocess.PIPE)
+                client_process = subprocess.Popen(cmd2, stdin=server_process.stdout, stdout=subprocess.PIPE)
+                proc_stdout = client_process.communicate()[0].strip()
+                logging.info(proc_stdout)
+
+            except ConnectionError:
+                logging.error("Port was in use, incrementing by 1 and trying again")
+                port = int(port) + 1
+                print(port)
+                time.sleep(5)
+                run_procs()
+        
