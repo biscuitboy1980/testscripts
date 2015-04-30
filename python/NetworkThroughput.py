@@ -15,6 +15,8 @@ import psutil
 from argparse import RawTextHelpFormatter
 
 
+# Must have iperf installed and in your path in order to run this program as is
+
 def Setup():
     # gets current date/time
     now = Utils().datetimenow(1)
@@ -65,7 +67,7 @@ def Configure():
     print()
     print()
     print('{:^80}'.format("******************************"))
-    print('{:^80}'.format("Welcome to Geoff's network test"))
+    print('{:^80}'.format("Network Throughput Test"))
     print('{:^80}'.format("******************************"))
     time.sleep(1.5)
     os.system("cls")
@@ -111,7 +113,7 @@ def Configure():
 
     print("Test will be run with the following settings")
     print("Server address = " + server_addr)
-    print("Server address = " + client_addr)
+    print("Client address = " + client_addr)
     print("Iterations = " + str(repeat))
     print()
 
@@ -126,32 +128,17 @@ def Configure():
 def Bandwidth(server_addr, client_addr, iterations, logfile):
 
     from subprocess import Popen
+
     
-    PROCNAME = "iperf.exe"
-    port = "22940"
+    server_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -s -P 1 -B " + server_addr + " -p "
+    client_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -t 1 -c " + server_addr + " -B " + client_addr + " -p "
 
-    a = 0
-
-    while a < int(iterations):
-
-        server_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -s -P 1 -B " + server_addr + " -p " + str(port)
-        client_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -t 0.1 -c " + server_addr + " -B " + client_addr + " -p " + str(port)
-
-        Utils().run_iperf(server_cmd, client_cmd, port)
+    Utils().run_iperf(server_cmd, client_cmd, iterations)
 
 
-        #server_result = Utils().run_program
 
-        #commands = [server_cmd, client_cmd]
-
-
-    # kills any left over iperf processes running on the system
-    Utils().kill_process(PROCNAME)
-
-    a = a + 1
-    port = int(port) + 1
-    logging.info("Iteration # " + str(a))
-
+def Report():
+    print("report")
 
 logfile, email, server, port, to, pwd, frm, server_addr, client_addr, repeat = Setup()
 if server_addr == None or client_addr == None or repeat == None:

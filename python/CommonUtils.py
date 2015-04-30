@@ -282,7 +282,7 @@ class Utils(object):
             c = wmi.WMI ()
 
             for process in c.Win32_Process (name="iperf.exe"):
-              print(process.ProcessId, process.Name)
+              print(process.ProcessId, process.Name + " process killed")
               result = process.Terminate()
 
 
@@ -291,25 +291,27 @@ class Utils(object):
             return p
 
 
-        def run_iperf(self, cmd1, cmd2, port):
+        def run_iperf(self, cmd1, cmd2, repeat):
 
-            import subprocess
             import time
+            import subprocess
+            from subprocess import Popen, PIPE, STDOUT
 
-            print(port)
-            time.sleep(2)
+            cnt = 0
+            port = 55600
 
-            try:
-                ## run in parallel
-                server_process = subprocess.Popen(cmd1, stdout=subprocess.PIPE)
-                client_process = subprocess.Popen(cmd2, stdin=server_process.stdout, stdout=subprocess.PIPE)
-                proc_stdout = client_process.communicate()[0].strip()
-                logging.info(proc_stdout)
+            while cnt < int(repeat):
 
-            except ConnectionError:
-                logging.error("Port was in use, incrementing by 1 and trying again")
+                if port > 56000:
+                    port = 55000
+                
+                p1 = subprocess.Popen(cmd1 + str(port), stdout=subprocess.PIPE, stderr=STDOUT)
+                p2 = subprocess.Popen(cmd2+ str(port), stdin=p1.stdout, stdout=PIPE, stderr=STDOUT)
+                out = None
+                out = p2.communicate()
+                out = str(out).replace("(b", "").replace("\\n", "").replace(", None)", "").replace("-", "")
+                logging.info(str(out).rstrip())
                 port = int(port) + 1
-                print(port)
-                time.sleep(5)
-                run_procs()
-        
+                if out.find("connect failed:") != 1:
+                    cnt = cnt + 1
+                Utils().kill_process("iperf.exe")

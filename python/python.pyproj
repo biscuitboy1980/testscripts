@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e7113237-c2bf-4377-ae13-50e2b5dc2a39}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>NetworkBandwidthTest.py</StartupFile>
+    <StartupFile>NetworkThroughput.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -16,7 +16,8 @@
     <InterpreterVersion>3.4</InterpreterVersion>
     <IsWindowsApplication>False</IsWindowsApplication>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <CommandLineArguments>-c 192.168.100.2 -s 192.168.100.3 -i 10</CommandLineArguments>
+    <CommandLineArguments>
+    </CommandLineArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -31,14 +32,14 @@
     <Compile Include="CommonUtils.py" />
     <Compile Include="GCalculator.py" />
     <Compile Include="GCalculatorConsole.py" />
-    <Compile Include="NetworkBandwidthTest.py" />
+    <Compile Include="NetworkThroughput.py" />
     <Compile Include="http.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="robotframework\client_secrets.json">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SerialTest.py" />
+    <Compile Include="Serial.py" />
     <Compile Include="setup.py" />
     <Compile Include="gui.py" />
     <Compile Include="TkinterGUI.py" />
