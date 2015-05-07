@@ -305,6 +305,7 @@ class Utils(object):
 
             import time
             import subprocess
+            from io import StringIO
             from subprocess import Popen, PIPE, STDOUT
 
             cnt = 0
@@ -315,6 +316,21 @@ class Utils(object):
                 iter = cnt + 1
                 if port > 55000:
                     port = 50000
+                
+                #with Popen(cmd1 + str(port), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True) as p, StringIO() as buf:
+                #    for line in p.stdout:
+                #        print(line, end='')
+                #        buf.write(line)
+                #    out = buf.getvalue()
+                #    return
+                #rc = p.returncode
+
+                #with Popen(cmd2 + str(port), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True) as p, StringIO() as buf:
+                #    for line in p.stdout:
+                #        print(line, end='')
+                #        buf.write(line)
+                #    out = buf.getvalue()
+                #rc = p.returncode
 
                 p1 = subprocess.Popen(cmd1 + str(port), stdout=subprocess.PIPE, stderr=STDOUT)
                 p2 = subprocess.Popen(cmd2+ str(port), stdin=p1.stdout, stdout=PIPE, stderr=STDOUT)

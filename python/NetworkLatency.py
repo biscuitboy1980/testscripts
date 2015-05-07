@@ -19,8 +19,6 @@ from argparse import RawTextHelpFormatter
 from subprocess import Popen, PIPE, STDOUT
 
 
-# Must have iperf installed and in your path in order to run this program as is
-
 def Setup():
     # gets current date/time
     now = Utils().datetimenow(1)
@@ -182,11 +180,14 @@ def Latency(source, dest, repeat, size, logfile):
     ##    out = buf.getvalue()
     ##rc = p.returncode
 
+    cnt = 0
+
     with Popen("ping.exe -w 5000 -n " + str(repeat) + " -l " + str(size) + " -S " + source + " " + dest, stdout=PIPE, bufsize=1, universal_newlines=True) as p, StringIO() as buf:
         for line in p.stdout:
             print(line, end='')
             buf.write(line)
-            #logging.info(line)
+            print(cnt)
+            cnt = cnt + 1
         out = buf.getvalue()
     rc = p.returncode
 
@@ -200,22 +201,12 @@ def Latency(source, dest, repeat, size, logfile):
     avg = str(avg).replace(" ", "").replace("[", "").replace("]", "")
     max = re.findall("(?<=Maximum =)(.*)(?<=,)", out)
     max = str(max).replace(" ", "").replace(",", "").replace("[", "").replace("]", "")
-    lost = re.findall("(?<=\()(.*)(?<=\))", out)
-    lost = str(lost).replace(")", "").replace("[", "").replace("]", "")
-    
-    #for line in out:
-    #    find("Request timed out.") != 1:
-    #print(out.count("Request timed out."))
-
-    #for i, line in enumerate(filehandle, 1):
-    #    if text in line:
-    #        print i, line
-
-    #print(out)
-
-    #time.sleep(10)
-
-    #stats = str(tm).replace("=", "").replace("ms", "").replace("[", "").replace("]", "").replace("'", "")
+    lost = re.findall("(?<=Lost =)(.*)(?<=\()", out)
+    lost = str(lost).replace("(", "").replace("[", "").replace("]", "").replace(" ", "").replace("'", "")
+    pctlost = "0"
+    if lost != "0":
+        pctlost = float(lost) / float(repeat)
+        pctlost = "{:.2%}".format(pctlost)
 
     tm = tm.split(",")
     byt = byt.split(",")
@@ -224,10 +215,6 @@ def Latency(source, dest, repeat, size, logfile):
     byt = list(byt)
     iters = list(range(1, int(repeat) + 1))
 
-    #print(tm)
-    #print(byt)
-    #print(iters)
-    #time.sleep(15)
     rows = zip(iters,byt,tm)
 
     with open(logfile, 'a', newline="") as f:
@@ -236,10 +223,9 @@ def Latency(source, dest, repeat, size, logfile):
             writer.writerow(row)
 
     with open(logfile,'a') as f: 
-        f.write("Test Summary \n Minimum = " + min + "\n Maximum = " + max +"\n Average = " + avg + "\n Lost = " + lost)
+        f.write("Test Summary \n Minimum = " + min + "\n Maximum = " + max +"\n Average = " + avg + "\n Lost = " + lost + ", " + pctlost)
 
 logfile, email, server, port, to, pwd, frm, source, dest, repeat, size = Setup()
 if source == None or dest == None or repeat == None:
     source, dest, repeat = Configure()
 Latency(source, dest, repeat, size, logfile)
-#Report(repeat, txtime, logfile)

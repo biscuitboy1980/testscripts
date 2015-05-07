@@ -42,7 +42,6 @@ def Setup():
     parser.add_argument("-s","--server", help="sets the server IP address", required=False)
     parser.add_argument("-c","--client", help="sets the client IP address", required=False)
     parser.add_argument("-i","--iterations", help="configures the number of iterations to run", required=False)
-    parser.add_argument("-t","--time", help="configures the time in seconds to transmit for", required=False)
     args = parser.parse_args()
 
     # puts options/arguments into variables
@@ -50,7 +49,6 @@ def Setup():
     client_addr = args.client
     repeat = args.iterations
     email = args.email
-    txtime = args.time
 
 
     # gets email configuration from config.py and puts into variables
@@ -61,7 +59,7 @@ def Setup():
     pwd = EMAIL_PASSWORD
 
 
-    return [logfile, email, server, port, to, pwd, frm, server_addr, client_addr, txtime, repeat]
+    return [logfile, email, server, port, to, pwd, frm, server_addr, client_addr, repeat]
 
 
 def Configure():
@@ -117,17 +115,6 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
 
-    print()
-    txtime = input("Enter time to transmit for each iterations: ")
-    try:
-        int(repeat)
-    except ValueError:
-        logging.error("You must enter a valid number > 0.1 using numbers and decimal points only")
-        sys.exit()
-    else:
-        os.system("cls")
-        time.sleep(0.25)
-
     print("Test will be run with the following settings")
     print("Server address = " + server_addr)
     print("Client address = " + client_addr)
@@ -149,7 +136,7 @@ def Bandwidth(server_addr, client_addr, iterations, logfile):
 
     
     server_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -s -P 1 -B " + server_addr + " -p "
-    client_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -t 0.1 -y C -c " + server_addr + " -B " + client_addr + " -p "
+    client_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -y C -c " + server_addr + " -B " + client_addr + " -p "
 
     Utils().run_iperf(server_cmd, client_cmd, iterations)
 
@@ -193,8 +180,8 @@ def Report(repeat, txtime, logfile):
     logging.info("Average kbytes = " + str(avgkbytes))
     logging.info("Average kbps = " + str(avgkbps))
 
-logfile, email, server, port, to, pwd, frm, server_addr, client_addr, txtime, repeat = Setup()
-if server_addr == None or client_addr == None or repeat == None or txtime == None:
+logfile, email, server, port, to, pwd, frm, server_addr, client_addr, repeat = Setup()
+if server_addr == None or client_addr == None or repeat == None:
     server_addr, client_addr, repeat = Configure()
 Bandwidth(server_addr, client_addr, repeat, logfile)
-Report(repeat, txtime, logfile)
+Report(repeat, logfile)
