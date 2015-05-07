@@ -192,15 +192,25 @@ class Utils(object):
                 return [passed, failed, cycles]
            
 
-        def Logger(self, fname):   #Defines logger settings
+        def Logger(self, fname, format):   #Defines logger settings
 
                 import time
 
-                logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-                    datefmt='%m-%d %H:%M',
-                    filename=(fname),
-                    filemode='w')
+                if format == 1:
+
+                    logging.basicConfig(level=logging.DEBUG,
+                        format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                        datefmt='%m-%d %H:%M',
+                        filename=(fname),
+                        filemode='w')
+
+                if format == 2:
+
+                    logging.basicConfig(level=logging.DEBUG,
+                        format='%(message)s',
+                        datefmt='%m-%d %H:%M',
+                        filename=(fname),
+                        filemode='w')
 
                 # define a Handler which writes INFO messages or higher to the
                 # sys.stderr
@@ -298,20 +308,30 @@ class Utils(object):
             from subprocess import Popen, PIPE, STDOUT
 
             cnt = 0
-            port = 55600
+            port = 50000
 
             while cnt < int(repeat):
 
-                if port > 56000:
-                    port = 55000
-                
+                iter = cnt + 1
+                if port > 55000:
+                    port = 50000
+
                 p1 = subprocess.Popen(cmd1 + str(port), stdout=subprocess.PIPE, stderr=STDOUT)
                 p2 = subprocess.Popen(cmd2+ str(port), stdin=p1.stdout, stdout=PIPE, stderr=STDOUT)
                 out = None
                 out = p2.communicate()
                 out = str(out).replace("(b", "").replace("\\n", "").replace(", None)", "").replace("-", "")
-                logging.info(str(out).rstrip())
+                print(out)
                 port = int(port) + 1
                 if out.find("connect failed:") != 1:
                     cnt = cnt + 1
+                    out = str(out).replace("'", "")
+                    #results = str(out).rstrip()
+                    logging.info(str(iter) + "," +  str(out).rstrip())                 
                 Utils().kill_process("iperf.exe")
+                time.sleep(1)
+                
+
+
+        #def parse_csv(self, filename):
+

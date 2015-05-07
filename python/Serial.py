@@ -25,7 +25,7 @@ def Setup():
         os.makedirs(dir)
 
     # creates logfile
-    Utils().Logger(logfile)
+    Utils().Logger(logfile, 1)
 
     # defines options/arguments
     parser = argparse.ArgumentParser(description="Serial Test Options")
