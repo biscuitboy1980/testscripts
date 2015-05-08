@@ -76,6 +76,7 @@ def Configure():
     time.sleep(1.5)
     os.system("cls")
 
+    #configures the server IP address
     print("Enter server IP address")
     print()
     print()
@@ -89,7 +90,7 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
 
-    
+    #configures the client IP address
     print("Enter client IP address")
     print()
     print()
@@ -103,7 +104,7 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
     
-   
+    #configures the number of iterations to perform
     print()
     repeat = input("Enter # of iterations you want to execute: ")
     try:
@@ -115,6 +116,7 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
 
+    #prints summary of parameters to use for the test
     print("Test will be run with the following settings")
     print("Server address = " + server_addr)
     print("Client address = " + client_addr)
@@ -134,7 +136,7 @@ def Bandwidth(server_addr, client_addr, iterations, logfile):
 
     from subprocess import Popen
 
-    
+    #iperf commands to use based off of parameters entered 
     server_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -s -P 1 -B " + server_addr + " -p "
     client_cmd = "C:\software\iperf\iperf-2.0.5-3-win32\iperf.exe -y C -c " + server_addr + " -B " + client_addr + " -p "
 
@@ -142,7 +144,7 @@ def Bandwidth(server_addr, client_addr, iterations, logfile):
 
 
 
-def Report(repeat, txtime, logfile):
+def Report(repeat, logfile):
     # open the file in universal line ending mode 
     with open(logfile, 'rU') as infile:
       # read the file as a dictionary for each row ({header : value})
@@ -156,19 +158,22 @@ def Report(repeat, txtime, logfile):
             data[header] = [value]
 
     # extract the variables you want
-    bps = data['bits_per_second']
+    kbps = data['bits_per_second']
     tbytes = data['transferred_bytes']
 
-    tbytes = [int(x) for x in tbytes]
-    bps = [int(x) for x in bps]
+    #extracts minimum and maximum kbps from data
+    max_kbps = max(kbps)
+    min_kbps = min(kbps)
 
+    #iterates through data for writing to csv file
+    tbytes = [int(x) for x in tbytes]
+    kbps = [int(x) for x in kbps]
+
+    #gets average transmitted bytes and kbps
     tbytesmean = mean(tbytes)
     avgkbytes = tbytesmean / 1024
-    #print(tbytesmean)
-    #print(avgkbytes)
-
-    bpsmean = (mean(bps))
-    avgkbps = bpsmean / 1000
+    kbpsmean = (mean(kbps))
+    avgkbps = kbpsmean / 1000
 
     logging.info("")
     logging.info("**********************************")
@@ -176,8 +181,9 @@ def Report(repeat, txtime, logfile):
     logging.info("**********************************")
     logging.info("")
     logging.info("Iterations performed = " + repeat)
-    logging.info("Transmit time in seconds performed = " + txtime)
-    logging.info("Average kbytes = " + str(avgkbytes))
+    logging.info("Kbytes per second transferred = " + str(avgkbytes))
+    logging.info("Minimum kbps = " + str(min_kbps))
+    logging.info("Maximum kbps = " + str(max_kbps))
     logging.info("Average kbps = " + str(avgkbps))
 
 logfile, email, server, port, to, pwd, frm, server_addr, client_addr, repeat = Setup()

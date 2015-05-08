@@ -3,17 +3,12 @@ from config import *
 
 import time
 import logging
-import sys
 import os
 import re
 import argparse
-import socket
-import webbrowser
-import fileinput
-import subprocess
-import psutil
 import csv
-import itertools
+from subprocess import Popen
+from io import StringIO
 from statistics import mean
 from argparse import RawTextHelpFormatter
 from subprocess import Popen, PIPE, STDOUT
@@ -30,7 +25,6 @@ def Setup():
     parser.add_argument("-d","--destination", help="sets the destination IP address", required=False)
     parser.add_argument("-i","--iterations", help="configures the number of iterations to run", required=False)
     parser.add_argument("-b","--bytes", help="configures the number of bytes to send", required=False)
-    #parser.add_argument("-t","--time", help="configures the time in seconds to transmit for", required=False)
     args = parser.parse_args()
 
     # puts options/arguments into variables
@@ -68,6 +62,7 @@ def Setup():
     return [logfile, email, server, port, to, pwd, frm, source, dest, repeat, size]
 
 def Configure():
+    #sets up test if no parameters were defined when running via command line
     print()
     print()
     print()
@@ -81,7 +76,8 @@ def Configure():
     time.sleep(1.5)
     os.system("cls")
 
-    print("Enter server IP address")
+    #sets source IP address
+    print("Enter source IP address")
     print()
     print()
     server_addr = input("Enter IP address: ")
@@ -94,8 +90,8 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
 
-    
-    print("Enter client IP address")
+    #sets destination IP address
+    print("Enter destination IP address")
     print()
     print()
     client_addr = input("Enter IP address: ")
@@ -108,6 +104,7 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
     
+    #sets byte size to send in ping message
     print()
     repeat = input("Enter the byte size you want to execute (32-65500): ")
     try:
@@ -120,6 +117,7 @@ def Configure():
         time.sleep(0.25)
 
    
+    #sets number of iterations to perform
     print()
     repeat = input("Enter # of iterations you want to execute: ")
     try:
@@ -131,22 +129,11 @@ def Configure():
         os.system("cls")
         time.sleep(0.25)
 
-    #print()
-    #txtime = input("Enter time to transmit for each iterations: ")
-    #try:
-    #    int(repeat)
-    #except ValueError:
-    #    logging.error("You must enter a valid number > 0.1 using numbers and decimal points only")
-    #    sys.exit()
-    #else:
-    #    os.system("cls")
-    #    time.sleep(0.25)
 
     print("Test will be run with the following settings")
     print("Source address = " + source)
     print("Destination address = " + dest)
     print("Iterations = " + str(repeat))
-    #print("Transmit Time = " + str(txtime))
     print()
 
     answer = input("Do you want to start the test with these settings? Y/N: ")
@@ -158,15 +145,14 @@ def Configure():
 
 def Latency(source, dest, repeat, size, logfile):
 
-    from subprocess import Popen
-    from io import StringIO
-
+    #writes headings to csv file
+    
     headings = ["Iteration", "Sent (bytes)", "Time (ms)"]
-
     with open(logfile, 'a') as f:
         writer = csv.writer(f)
         writer.writerow(headings)
-
+    
+    #alternate metho for sending commands, will screw up logging, haven't had time to figure out how to make this work
     #p1 = subprocess.Popen("ping.exe -w 5000 -n " + str(repeat) + " -l " + str(size) + " -S " + source + " " + dest, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
     #out, err = p1.communicate()
     #print(out)
@@ -180,8 +166,8 @@ def Latency(source, dest, repeat, size, logfile):
     ##    out = buf.getvalue()
     ##rc = p.returncode
 
+    #pings with parameters specified during configure or via command line arguments
     cnt = 0
-
     with Popen("ping.exe -w 5000 -n " + str(repeat) + " -l " + str(size) + " -S " + source + " " + dest, stdout=PIPE, bufsize=1, universal_newlines=True) as p, StringIO() as buf:
         for line in p.stdout:
             print(line, end='')
@@ -191,16 +177,21 @@ def Latency(source, dest, repeat, size, logfile):
         out = buf.getvalue()
     rc = p.returncode
 
+    #find response times and byte sizes and stores to variable
     tm = re.findall("(?<=time)(.*)(?<=ms)", out)
     tm = str(tm).replace("=", "").replace("ms", "").replace("[", "").replace("]", "").replace("'", "").replace(" ", "")
     byt = re.findall("(?<=bytes=)(.*)(?<=time)", out)
     byt = str(byt).replace(" time", "").replace("[", "").replace("]", "").replace("'", "").replace(" ", "")
+
+    #finds min, max, avg response times and stores to variable
     min = re.findall("(?<=Minimum =)(.*)(?<=, M)", out)
     min = str(min).replace(", M", "").replace(" ", "").replace("[", "").replace("]", "")
     avg = re.findall("(?<=Average =)(.*)(?<=s)", out)
     avg = str(avg).replace(" ", "").replace("[", "").replace("]", "")
     max = re.findall("(?<=Maximum =)(.*)(?<=,)", out)
     max = str(max).replace(" ", "").replace(",", "").replace("[", "").replace("]", "")
+
+    #finds lost % lost and stores to variable
     lost = re.findall("(?<=Lost =)(.*)(?<=\()", out)
     lost = str(lost).replace("(", "").replace("[", "").replace("]", "").replace(" ", "").replace("'", "")
     pctlost = "0"
@@ -208,20 +199,23 @@ def Latency(source, dest, repeat, size, logfile):
         pctlost = float(lost) / float(repeat)
         pctlost = "{:.2%}".format(pctlost)
 
+    #seperates values with a ,
     tm = tm.split(",")
     byt = byt.split(",")
 
+    #puts time, bytes, and iterations into lists
     tm = list(tm)
     byt = list(byt)
     iters = list(range(1, int(repeat) + 1))
 
+    #formats and appends csv file with these values (this is only done at the end of the test, if you interrupt while the test is in progress nothing will be written to the logfile
     rows = zip(iters,byt,tm)
-
     with open(logfile, 'a', newline="") as f:
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)
 
+    #appends logfile with summary data
     with open(logfile,'a') as f: 
         f.write("Test Summary \n Minimum = " + min + "\n Maximum = " + max +"\n Average = " + avg + "\n Lost = " + lost + ", " + pctlost)
 
