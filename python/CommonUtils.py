@@ -348,6 +348,13 @@ class Utils(object):
                 time.sleep(1)
                 
 
+        def valid_ip(self, address):
 
-        #def parse_csv(self, filename):
+            import socket
+
+            try: 
+                socket.inet_aton(address)
+                return address
+            except:
+                return False
 

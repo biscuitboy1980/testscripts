@@ -76,31 +76,53 @@ def Configure():
     time.sleep(1.5)
     os.system("cls")
 
-    #configures the server IP address
-    print("Enter server IP address")
+    ##gets all available IP addresses on windows machine
+    import socket
+    ipaddr = [i[4][0] for i in socket.getaddrinfo(socket.gethostname(), None)]
+    ipaddr = re.findall( r'[0-9]+(?:\.[0-9]+){3}', str(ipaddr))
+    ipdict = dict(enumerate(line.strip() for line in ipaddr))
+
+    #sets server IP address
+    print("Select the server IP address")
     print()
+    num = 0
+    for e in ipaddr:
+        num = num + 1
+        print(str(num) + ". " + e)
     print()
-    server_addr = input("Enter IP address: ")
+    answer = input("Make your choice: ")
     try:
-        socket.inet_aton(server_addr)
-    except socket.error:
-        logging.error("You must enter a valid IP address")
-        raise SystemExit()
+        answer = int(answer) - 1
+    except ValueError:
+        logging.error("You must enter one of the numbers displayed as an option")
     else:
+        ipdictkey = answer
+        answer = ipdict.get(answer)
+        server_addr = answer
+        del ipdict[ipdictkey]
+        ipaddr.remove(answer)
+        ipdict = dict(enumerate(line.strip() for line in ipaddr)) #updates coms dictionary
         os.system("cls")
         time.sleep(0.25)
+      
 
-    #configures the client IP address
-    print("Enter client IP address")
+    #sets client IP address
+    print("Select the client IP address")
     print()
+    num = 0
+    for e in ipaddr:
+        num = num + 1
+        print(str(num) + ". " + e)
     print()
-    client_addr = input("Enter IP address: ")
+    answer = input("Make your choice: ")
     try:
-        socket.inet_aton(client_addr)
-    except socket.error:
-        logging.error("You must enter a valid IP address")
-        raise SystemExit()
+        answer = int(answer) - 1
+    except ValueError:
+        logging.error("You must enter one of the numbers displayed as an option")
     else:
+        ipdictkey = answer
+        answer = ipdict.get(answer)
+        client_addr = answer
         os.system("cls")
         time.sleep(0.25)
     
@@ -121,7 +143,6 @@ def Configure():
     print("Server address = " + server_addr)
     print("Client address = " + client_addr)
     print("Iterations = " + str(repeat))
-    print("Transmit Time = " + str(txtime))
     print()
 
     answer = input("Do you want to start the test with these settings? Y/N: ")
