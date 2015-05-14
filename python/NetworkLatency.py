@@ -180,7 +180,7 @@ def Latency(src, dest, repeat, size, logfile):
         for line in p.stdout:
             print(line, end='')
             buf.write(line)
-            print("Attempt " + str(cnt))
+            #print("Attempt " + str(cnt))
             cnt = cnt + 1
         out = buf.getvalue()
     rc = p.returncode

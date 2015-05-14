@@ -4,9 +4,7 @@ import serial
 import time
 import csv
 
-event = None
-
-#messageExchangeQueue = mp.Queue()
+messageExchangeQueue = mp.Queue()
 # lock = mp.Lock()
 
 
@@ -27,7 +25,7 @@ def calc_bytes_possible(baudrate, requiredBits):
 
 # function for sending x Bytes via UART
 # def send_data(comPort, baudrate, bitsPerByte, busLoad, processLoops, output, lock):
-def send_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, returnBuffer, messageQueue, event):
+def send_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, returnBuffer, messageQueue):
     dataLogArray = []
     bytesSentCounter = 0
     sendAsciiCharacter = 0
@@ -46,27 +44,28 @@ def send_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, return
 
     while processLoopsDone < processLoopsToRun:
         #com_port1.write(chr(sendAsciiCharacter)) # Use this for python2.7
-        com_port1.write(chr(sendAsciiCharacter).encode('latin'))  # Use this for python3 ->
+        com_port1.write(chr(sendAsciiCharacter).encode())  # Use this for python3 ->
         array = []
         array.append('Tx:')
         array.append(logCounter)
         array.append(hex(sendAsciiCharacter))
         array.append(time.time())
-        returnBuffer[bytesSentCounter] = array
+        returnBuffer[logCounter] = array
+        #dataLogArray.append(array)
         logCounter += 1
 
         # inform the RX process that the data block has been sent and is ready for logging
         # also save the data in the log file
         if bytesSentCounter == amountOfBytesToSendInOneSecond:
             sleepStartTime = time.time()
-            messageQueue.put('TxReady')
-            event.wait()
+            messageQueue.put(dataLogArray) #(sendAsciiCharacter)
+            print('Put onto Queue: ' + repr(sendAsciiCharacter))
             dataLogArray.append(array)
             processLoopsDone += 1
             dataLogArrayLength = len(dataLogArray)
             for i in range(dataLogArrayLength):
                 csvfile.write(str(dataLogArray[i]) + '\n')
-            #print('Log file writing took: ' + repr(((time.time() - sleepStartTime) * 1000)) + 'ms')
+            print('Log file writing took: ' + repr(((time.time() - sleepStartTime) * 1000)) + 'ms')
             time.sleep(busLoadWaitTime)
             print('Time asleep = ' + repr((time.time() - sleepStartTime) * 1000) + 'ms')
             print('Finished %d / %d transmit loops' % (processLoopsDone, processLoopsToRun))
@@ -86,23 +85,16 @@ def send_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, return
 
 # function for receiving x Bytes via UART
 # def receive_data(comPort, baudrate, bitsPerByte, busLoad, processLoop, output, lock):
-def receive_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, returnBuffer, messageQueue, event):
+def receive_data(comPort, baudrate, bitsPerByte, busLoad, processLoop, returnBuffer, messageQueue):
     dataLogArray = []
-    array = []
     byteStreamCounter = 0
     timeNothingReceivedCounter = 0
     startTimeNothingReceived = 0
     endTimeNothingReceived = 0
     logCounter = 0
-    processLoopsDone = 0
-    bytesReceivedCounter = 0
     txMessage = None
     receivedByte = None
     messageInQueue = False
-
-    # print('Rx is waiting for event')
-    # event.wait()
-    # print('Rx has started')
 
     try:
         com_port2 = serial.Serial(comPort, baudrate, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, timeout=0)
@@ -112,12 +104,12 @@ def receive_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, ret
 
     csvfile = open('UartResultsRxInProcess.csv', 'wt')
 
-    amountOfBytesToSendInOneSecond = calc_bytes_to_send(baudrate, bitsPerByte, busLoad)
+    amountOfBytes = calc_bytes_to_send(baudrate, bitsPerByte, busLoad)
 
     # the RX process will get status information from the TX Queue.
     # TX process sends the last Byte it transmitted from the data block
     # It also sends 'EXIT' when all bytes have been transmitted
-    while processLoopsDone < processLoopsToRun:
+    while 1:
         try:
             receivedByte = ord(com_port2.read(1))
             byteReceivedTime = time.time()
@@ -130,10 +122,9 @@ def receive_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, ret
             array.append(logCounter)
             array.append(hex(receivedByte))
             array.append(byteReceivedTime)
-            returnBuffer[bytesReceivedCounter] = array
+            returnBuffer[logCounter] = array
             #dataLogArray.append(array)
             logCounter += 1
-            bytesReceivedCounter += 1
         except:
             if timeNothingReceivedCounter == 0:
                 startTimeNothingReceived = time.time()
@@ -141,50 +132,46 @@ def receive_data(comPort, baudrate, bitsPerByte, busLoad, processLoopsToRun, ret
             else:
                 endTimeNothingReceived = (time.time() - startTimeNothingReceived) * 1000
                 timeNothingReceivedCounter += 1
-                # messageQueue.put('RxReady')
-                # print 'Onto Queue - Rx Ready'
-        if bytesReceivedCounter == amountOfBytesToSendInOneSecond +1:
-            messageQueue.put('RxReady')
-            event.wait()
-            #print('Onto Queue - Rx finished')
-            timeNothingReceivedCounter = 0
-            processLoopsDone += 1
-            dataLogArray.append(array)
-            dataLogArrayLength = len(dataLogArray)
-            for i in range(dataLogArrayLength):
-                csvfile.write(str(dataLogArray[i]) + '\n')
-            #print('Log file writing')
-            dataLogArray = []
-            bytesReceivedCounter = 0
-    csvfile.close()
+        #finally:
+            if (messageQueue.empty() == False) and (messageInQueue == False) and timeNothingReceivedCounter > 10:
+                txMessage = messageQueue.get()
+                print('Received from Queue: ' + repr(txMessage))
+                messageInQueue = True
+            if (messageInQueue == True) and (txMessage == receivedByte):
+                #print(receivedByte)
+                #print('Received from Queue: ' + repr(txMessage))
+                print('Tx and Rx equal')
+                dataLogArray.append(array)
+                messageInQueue = False
+                dataLogArrayLength = len(dataLogArray)
+                for i in range(dataLogArrayLength):
+                    csvfile.write(str(dataLogArray[i]) + '\n')
+                #print('Log file writing took: ' + repr(((time.time() - sleepStartTime) * 1000)) + 'ms')
+                dataLogArray = []
+            if (messageInQueue == True) and (txMessage == 'EXIT'):
+                print('Tx message received - EXIT')
+                csvfile.close()
+                break
 
 if __name__ == '__main__':
 
-    messageQueue = mp.Queue()
-    event = mp.Event()
+    bitsPerByte = 10
+    busLoadPercent = 17
+    baudrate = 115200
+    transferDataSeconds = 10
+
+    data = None
     manager = mp.Manager()
     returnBufferTx = manager.dict()
     returnBufferRx = manager.dict()
 
-    bitsPerByte = 10
-    busLoadPercent = 100
-    baudrate = 115200
-    transferDataSeconds = 100
-    txFlag = False
-    rxFlag = False
-    data = None
-
     # Setup a list of processes that we want to run
-    process1 = mp.Process(target=send_data, args=('COM15', baudrate, bitsPerByte, busLoadPercent, transferDataSeconds, returnBufferTx, messageQueue,event,))
-    process2 = mp.Process(target=receive_data, args=('COM16', baudrate, bitsPerByte, busLoadPercent, transferDataSeconds, returnBufferRx, messageQueue,event,))
-    #process3 = mp.Process(target=check_data, args=(messageQueue,))
+    process1 = mp.Process(target=send_data, args=('COM15', baudrate, bitsPerByte, busLoadPercent, transferDataSeconds, returnBufferTx, messageExchangeQueue,))
+    process2 = mp.Process(target=receive_data, args=('COM16', baudrate, bitsPerByte, busLoadPercent, 0, returnBufferRx, messageExchangeQueue,))
     # Run processes
     process2.start()
     #time.sleep(.01)
     process1.start()
-    #process3.start()
-
-    event.set()
 
     if process1.is_alive():
         print('Process 1 running')
@@ -194,48 +181,38 @@ if __name__ == '__main__':
         print('Process 2 running')
     else:
         print('Process 2 not running')
-
-    time.sleep(.01)
-    while 1:
-        event.clear()
-        if messageQueue.empty() == False:
-            receivedMessage = messageQueue.get()
-            print('Read Queue ' + receivedMessage)
-            if receivedMessage == 'TxReady':
-                txFlag = True
-                # print(returnBufferTx.values())
-                # returnBufferTx = []
-            elif receivedMessage == 'RxReady':
-                rxFlag = True
-                # print(returnBufferRx.values())
-                # returnBufferRx = []
-            if txFlag & rxFlag:
-                startTime = time.time()
-                returnBufferTxLength = len(returnBufferTx)
-                returnBufferRxLength = len(returnBufferRx)
-                timeDiffTxRxAccumulated = 0
-                if returnBufferTxLength == returnBufferRxLength:
-                    print('Processing Log files') #('Log Buffer length is the same')
-                    print('Buffer length = ' + repr(returnBufferTxLength))
-                    for bufferLoop in range(returnBufferRxLength):
-                        #print(bufferLoop)
-                        if returnBufferTx[bufferLoop][1] == returnBufferRx[bufferLoop][1]:
-                            if returnBufferTx[bufferLoop][2] == returnBufferRx[bufferLoop][2]:
-                                timeDiffTxRx = returnBufferRx[bufferLoop][3] - returnBufferTx[bufferLoop][3]
-                                timeDiffTxRxAccumulated += timeDiffTxRx
-                    print('Latency = %.3f ms' %(timeDiffTxRxAccumulated * 1000 / (bufferLoop + 1)))
-                txFlag = False
-                rxFlag = False
-                event.set()
-                processTime = time.time() - startTime
-                print('Result processing took ' + repr(processTime * 1000) + 'ms')
-            else:
-                print('Waiting for Tx or Rx')
-        else:
-            time.sleep(.001)
 
     process1.join()
+    #print(returnBufferTx.values())
+    # print(returnBufferTx[1][1])
+    # print(returnBufferTx[2])
+
     process2.join()
+    #print(returnBufferRx.values())
+
+    returnBufferTxLength = len(returnBufferTx)
+    returnBufferRxLength = len(returnBufferRx)
+    timeDiffTxRxAccumulated = 0
+
+    if returnBufferTxLength == returnBufferRxLength:
+        print('Processing Log files') #('Log Buffer length is the same')
+        for bufferLoop in range(returnBufferRxLength):
+            #print(bufferLoop)
+            if returnBufferTx[bufferLoop][1] == returnBufferRx[bufferLoop][1]:
+                if returnBufferTx[bufferLoop][2] == returnBufferRx[bufferLoop][2]:
+                    timeDiffTxRx = returnBufferRx[bufferLoop][3] - returnBufferTx[bufferLoop][3]
+                    timeDiffTxRxAccumulated += timeDiffTxRx
+        print('Latency = %.3f ms' %(timeDiffTxRxAccumulated * 1000 / (bufferLoop + 1)))
+
+
+    with open('UartResultsTx.csv', 'wt') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        for i in range(returnBufferTxLength):
+            csvwriter.writerow(returnBufferTx[i])
+    with open('UartResultsRx.csv', 'wt') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        for i in range(returnBufferRxLength):
+            csvwriter.writerow(returnBufferRx[i])
 
     if process1.is_alive():
         print('Process 1 running')
@@ -245,4 +222,3 @@ if __name__ == '__main__':
         print('Process 2 running')
     else:
         print('Process 2 not running')
-
